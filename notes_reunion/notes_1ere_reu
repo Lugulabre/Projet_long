@@ -1,0 +1,129 @@
+Projet long
+
+épissage alternatif
+questionnement simplifié
+20 000-25 000 annotées génome humain
+protéines du N au C ter
+ADN -> ARN -> protéines
+isoforme 1 prépondérante (succession exon-intron)
+certains introns de taille très importante (~1700 paires de bases)
+protéines -> on s'intéresse à ce qui'il ya le plus souvent dans tissu d'analyse
+
+protéine mature
+nombre de cas non négligeables, selon tissus, conditions, on voit des isoformes
+type différent de ce que l'on a vu au départ
+problèmes de séquençage ?
+au final, phénomène général chez les eucaryotes
+intérêt évolution
+
+23 000 successions exons-introns codées
+phénomène d'épissage alternatif
+certains nombres de cas documentées par expérience transcriptomique
+(ex : au lieu exon 1-2-3-4 -> exon 1-2-4)
+méthode de prédiction de ces phénomènes
+méthodes complexes, donc database mises en place
+23 000 protéines humaines simples
+500 000 protéines sur l'épissage alternatif
+
+comprendre ce qu'il se passe
+phénomènes problématiques en terme de structure ?
+Parties compactes de la protéine (exon = petites unités structurées)
+
+segmentation en plusieurs parties
+récupérer isoforme prot humaine dans base de données
+en terme de structure secondaire et de désordre
+mis à disposition dans la protéine data bank
+savoir si on observe un signal particulier à ce moment là
+prédiction structure secondaire d'un coté et désordre de l'autre
+
+1-2-3-4
+prédiction d'un coté 2ndaire, de l'autre désordre
+si on enlève 3-4, est-ce qu'il y a modification 2ndaire + désordre
+
+désordre protéique : quoi ?
+protéine pdb -> ordonnée
+désordre protéique quand en cristallo on a pas de structure fixe
+structure trop flexible
+bouge trop pour conformation privilégiée
+question d'ordre fonctionnel / biologique
+ex, tapis électrostatique sur surface membrane bactérienne : minimise infection
+1/5ème région protéique désordonnée
+petite vésicule sans membrane lipidique
+prot seule désordonnée sur ensemble structure ou partie -> 
+quand recontre protéine complémentaire / partenaire, s'ordonne
+
+désordre -> on voit rien
+méthode de prédiction booléenne (je vois / je vois pas)
+certaines avec paramèters physico-chimiques (paramètres entropiques)
+très nombreuses méthodes de prédiction
+flexibilité très forte
+prédiction 2ndaire basée sur méthode cohérente
+pour le désordre, méthode pas tout à fait aboutie
+résultats beaucoup moins consensus pour la prédiction structure secondaire
+isopred
+problème expérimental pour quantifier désordre au départ
+absence d'ordre -> on regarde prot au X-ray, on voit missing amino acid
+Même protéine -> 1/2 prot ordonnée au lieu de de désordre
+
+Beaucoup de gens sur le désordre -> RMNistes
+Contact distance entre différents résidus marqués
+sous contraindre des modèles
+1) forme de difficulté de savoir s'il y a flexibilité ou non
+2) taille des systèmes
+prot humaine + de 200 résidus, difficile à faire + de 200 en RMN
+
+un fasta avec les 5 exons
+avec psipred / isopred on a les infos 2ndaire -> vérifier fiabilité
++ est ce que prédit d'autres infos
+
+récupérer protéine pdb
+assignation dssp
+créer fasta
+sur psipred, isopred qu'est ce qu'on a : différence ?
+essayer de voir sur un ensemble le plus représentatif possible
+attention aux biais
+
+2nde partie
+ensemble de protéines avec isoforme
+à l'aide de modeller
+peut-on proposer modèle
+par rapport prédiction structures secondaires -> qualité
+le modèle a-t-il l'air de tenir la route ou non
+
+résumé algo
+1 ) dataset structures protéiques humaines dans pdb
+2 ) est-ce qu'on a info 2ndaire (assignation)
+3 ) prédiction strucutres secondaires et désordre -> prot prédictibles et moins prédictibles
+
+4 ) nombre maximum de cas (! biais) proposer modèle à l'aide de modeller
+5 ) proposition des modèles avec à la volée est ce que bonne structure secondaire
+6 ) est ce que ces modèles prédits comme étant stables, 
+	est ce que le système a des zones très instables, mal prédites
+	bonne corrélation ou non
+	où est ce qu'on va ?
+	pas d'idée à priori de ce qu'il va se passer
+
+biblio pertinente et code "propre"
+
+modeller :
+    script python avec structure de départ, alignement, nombre de modèles à générer
+    on peut mettre évalution modèle par dop
+    modèle 43 avec score le + faible
+
+dataset : pdb
+protéines humaines dedans, possible de récupérer
+mais attention à redondance
+choses mises à plat dans banque de données assemble
+système de requêtes
+uniprot
+nombre de protéines avec isoformes déjà vus, 15aines de cas max
+
+manière de travailler
+réunions fréquentes
+attention de ne pas déformer le sujet, réunions fréquentes pour toujours bien situer
+
+question scientifique
+quel impact peut-on appréhender de l'épissage alternatif sur la structure ?
+
+
+
