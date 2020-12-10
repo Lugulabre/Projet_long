@@ -125,5 +125,7 @@ attention de ne pas déformer le sujet, réunions fréquentes pour toujours bien
 question scientifique
 quel impact peut-on appréhender de l'épissage alternatif sur la structure ?
 
+https://gist.github.com/sujaikumar/9ad04e62449a2d7025b17144de67038b
 
+https://www.uniprot.org/uniprot/?query=proteome:UP000005640%20reviewed:yes#
 

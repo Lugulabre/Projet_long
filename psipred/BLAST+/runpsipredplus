@@ -11,7 +11,7 @@
 # NOTE: Experimental PSIPRED script with BLAST+ compatability (DTJ May 2010)
 
 # The name of the BLAST+ data bank
-set dbname = uniref90filt
+set dbname = /Volumes/Disque_externe_1To/database_reduce/uniref90
 
 # Where the NCBI BLAST+ programs have been installed
 set ncbidir = /usr/local/ncbi/blast/bin
@@ -26,15 +26,15 @@ set basename = $1:r
 set rootname = $basename:t
 
 # Generate a "unique" temporary filename root
-set hostid = 172.20.10.5
+set hostid = 170.30.34.12
 set tmproot = psitmp$$$hostid
 
 \cp -f $1 $tmproot.fasta
 
 echo "Running PSI-BLAST with sequence" $1 "..."
 
-$ncbidir/psiblast -db $dbname -query $tmproot.fasta -inclusion_ethresh 0.001 -out_pssm $tmproot.chk -num_iterations 3 -num_alignments 0 -num_descriptions 5000 >& $tmproot.blast
-
+$ncbidir/psiblast -db $dbname -query $tmproot.fasta -inclusion_ethresh 0.001 -out_pssm $tmproot.chk -num_iterations 2 -num_threads 4 -num_alignments 0 -num_descriptions 1000 >& $tmproot.blast
+echo "check 1"
 if ($status != 0) then
     tail $tmproot.blast
     echo "FATAL: Error whilst running blastpgp - script terminated!"
