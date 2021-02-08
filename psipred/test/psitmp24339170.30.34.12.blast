@@ -1,0 +1,1332 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q92667|AKAP1_HUMAN A-kinase anchor protein 1, mitochondrial
+OS=Homo sapiens OX=9606 GN=AKAP1 PE=1 SV=1
+
+Length=903
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_UPI0015AD8D48 A-kinase anchor protein 1, mitochondrial-l...  391        4e-116
+UniRef90_UPI0012DF1D3B titin isoform X1 n=5 Tax=Oncorhynchus TaxI...  390        1e-115
+UniRef90_UPI0006B0F10B uncharacterized protein LOC106471261 isofo...  264        3e-71 
+UniRef90_A0A2T7PHS9 Tudor domain-containing protein n=1 Tax=Pomac...  244        2e-64 
+UniRef90_UPI00052EFA58 tudor domain-containing protein 1 n=1 Tax=...  87.4       7e-15 
+UniRef90_A0A1L1RVQ1 Tudor domain containing 1 n=5 Tax=Phasianidae...  87.0       8e-15 
+UniRef90_A0A1S3KBL4 uncharacterized protein LOC106180249 n=1 Tax=...  87.0       1e-14 
+UniRef90_UPI000BAF3D72 uncharacterized protein LOC111110504 n=2 T...  86.3       2e-14 
+UniRef90_A0A210PZP4 Tudor and KH domain-containing protein n=1 Ta...  81.6       4e-13 
+UniRef90_A0A4W3HK19 Uncharacterized protein n=5 Tax=Callorhinchus...  79.7       2e-12 
+UniRef90_UPI00092E8478 RING finger protein 17 isoform X2 n=1 Tax=...  77.8       7e-12 
+UniRef90_A0A3M6UEB3 Uncharacterized protein n=2 Tax=Pocillopora d...  77.8       8e-12 
+UniRef90_UPI000F5587E9 uncharacterized protein LOC113669498 n=1 T...  76.3       2e-11 
+UniRef90_UPI0003F0A4AA uncharacterized protein LOC102809228 n=1 T...  75.9       3e-11 
+UniRef90_UPI0010FCBE6A uncharacterized protein LOC114966034 isofo...  75.5       4e-11 
+UniRef90_C3ZAJ3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  75.1       5e-11 
+UniRef90_A0A3Q0FKT5 RING finger protein 17 n=6 Tax=Crocodylia Tax...  75.1       5e-11 
+UniRef90_UPI0013903C96 uncharacterized protein LOC5507515 isoform...  74.7       6e-11 
+UniRef90_F7G7H9 Tudor domain containing 1 n=2 Tax=Ornithorhynchus...  74.7       6e-11 
+UniRef90_UPI000C042EAC uncharacterized protein LOC111331556 n=1 T...  73.9       1e-10 
+UniRef90_A0A452I6F2 Ring finger protein 17 n=2 Tax=Gopherus agass...  72.4       3e-10 
+UniRef90_UPI0014191652 RING finger protein 17 n=3 Tax=Lacertinae ...  72.0       4e-10 
+UniRef90_UPI0009482664 LOW QUALITY PROTEIN: uncharacterized prote...  72.0       5e-10 
+UniRef90_G1K9Q0 Uncharacterized protein n=3 Tax=Anolis carolinens...  71.6       5e-10 
+UniRef90_A0A670HZF6 Ring finger protein 17 n=2 Tax=Podarcis mural...  71.6       6e-10 
+UniRef90_UPI0004F0F51D LOW QUALITY PROTEIN: RING finger protein 1...  71.2       6e-10 
+UniRef90_A0A401SEJ7 Uncharacterized protein (Fragment) n=1 Tax=Ch...  71.2       7e-10 
+UniRef90_UPI000523428A RING finger protein 17 n=1 Tax=Chaetura pe...  71.2       7e-10 
+UniRef90_A0A4D9ES29 Unconventional myosin-XVI n=1 Tax=Platysterno...  70.5       1e-09 
+UniRef90_UPI0012B58528 ATP-dependent RNA helicase TDRD9-like n=1 ...  70.9       1e-09 
+UniRef90_K1R3H4 Tudor domain-containing protein 1 n=3 Tax=Crassos...  70.5       1e-09 
+UniRef90_A0A2K5Y9J4 Uncharacterized protein n=3 Tax=Mandrillus le...  70.1       2e-09 
+UniRef90_UPI0003F069DF RING finger protein 17 n=1 Tax=Elephantulu...  70.1       2e-09 
+UniRef90_A0A0L8GK55 Tudor domain-containing protein n=1 Tax=Octop...  70.5       2e-09 
+UniRef90_UPI00052096BE RING finger protein 17 n=1 Tax=Cariama cri...  69.7       2e-09 
+UniRef90_H2ZSI6 Ring finger protein 17 n=3 Tax=Latimeria chalumna...  69.3       2e-09 
+UniRef90_UPI001425976C ATP-dependent RNA helicase TDRD9-like n=1 ...  69.3       2e-09 
+UniRef90_UPI00051C64F8 RING finger protein 17 n=1 Tax=Cuculus can...  69.3       3e-09 
+UniRef90_A0A1E1XLN0 Putative ring finger protein 17 (Fragment) n=...  69.3       3e-09 
+UniRef90_UPI0009A371EA RING finger protein 17 n=1 Tax=Rhincodon t...  68.9       3e-09 
+UniRef90_F7HPA6 Ring finger protein 17 n=7 Tax=Callithrix jacchus...  68.9       3e-09 
+UniRef90_UPI001560662A RING finger protein 17 n=1 Tax=Acipenser r...  68.9       4e-09 
+UniRef90_UPI00032AF7E9 RING finger protein 17 n=1 Tax=Ochotona pr...  68.9       4e-09 
+UniRef90_A0A2K6SQE8 Ring finger protein 17 n=2 Tax=Saimiri bolivi...  68.9       4e-09 
+UniRef90_U3K290 Uncharacterized protein n=8 Tax=Passeriformes Tax...  68.9       4e-09 
+UniRef90_A0A674H9R7 Uncharacterized protein n=8 Tax=Passeriformes...  68.6       5e-09 
+UniRef90_UPI0007327318 RING finger protein 17 isoform X2 n=1 Tax=...  68.6       5e-09 
+UniRef90_UPI0003ABB979 RING finger protein 17 isoform X2 n=1 Tax=...  68.6       5e-09 
+UniRef90_UPI00112609D7 RING finger protein 17 n=1 Tax=Rhinatrema ...  68.6       5e-09 
+UniRef90_UPI00106D8DE3 uncharacterized protein LOC114530338 isofo...  68.2       5e-09 
+UniRef90_A0A091EJ49 RING finger protein 17 (Fragment) n=7 Tax=Cor...  68.2       6e-09 
+UniRef90_UPI000732AA12 RING finger protein 17 isoform X3 n=1 Tax=...  68.2       6e-09 
+UniRef90_UPI000DC1B1ED RING finger protein 17 isoform X2 n=1 Tax=...  68.2       6e-09 
+UniRef90_Q4R3G4 RING finger protein 17 n=89 Tax=Catarrhini TaxID=...  68.2       6e-09 
+UniRef90_A0A091S115 RING finger protein 17 (Fragment) n=3 Tax=Psi...  68.2       6e-09 
+UniRef90_A0A091K3Q6 RING finger protein 17 (Fragment) n=2 Tax=Col...  68.2       7e-09 
+UniRef90_A0A091UR50 RING finger protein 17 (Fragment) n=4 Tax=Neo...  68.2       7e-09 
+UniRef90_A0A2K6NMP0 Ring finger protein 17 n=4 Tax=Rhinopithecus ...  68.2       7e-09 
+UniRef90_A0A091WQU0 RING finger protein 17 (Fragment) n=2 Tax=Opi...  67.8       7e-09 
+UniRef90_UPI000530861B RING finger protein 17 n=1 Tax=Phaethon le...  67.8       7e-09 
+UniRef90_UPI0003958208 RING finger protein 17 n=4 Tax=Paridae Tax...  67.4       1e-08 
+UniRef90_UPI0010FCC5C1 ATP-dependent RNA helicase TDRD9-like n=3 ...  67.4       1e-08 
+UniRef90_UPI000BA824D0 uncharacterized protein LOC106461035 n=1 T...  67.4       1e-08 
+UniRef90_UPI00141BB281 RING finger protein 17 isoform X1 n=7 Tax=...  67.0       1e-08 
+UniRef90_A0A091L3E2 RING finger protein 17 (Fragment) n=1 Tax=Cat...  67.0       1e-08 
+UniRef90_A0A0Q3PHL8 Uncharacterized protein n=1 Tax=Amazona aesti...  67.0       1e-08 
+UniRef90_UPI0003332E38 RING finger protein 17 isoform X1 n=2 Tax=...  67.0       2e-08 
+UniRef90_A0A091IQM9 RING finger protein 17 (Fragment) n=2 Tax=Egr...  67.0       2e-08 
+UniRef90_A0A6J3GDI3 RING finger protein 17 isoform X1 n=2 Tax=Sap...  67.0       2e-08 
+UniRef90_A0A6J3GD31 RING finger protein 17 isoform X3 n=1 Tax=Sap...  66.6       2e-08 
+UniRef90_UPI000BA8161E uncharacterized protein LOC106471102 n=1 T...  66.6       2e-08 
+UniRef90_F1Q1V6 Tudor domain containing 1 n=6 Tax=Caniformia TaxI...  66.6       2e-08 
+UniRef90_UPI000E6B0128 RING finger protein 17 isoform X1 n=2 Tax=...  66.6       2e-08 
+UniRef90_A0A2K5QPN7 Uncharacterized protein n=3 Tax=Cebus capucin...  66.6       2e-08 
+UniRef90_UPI000FFBE8D5 RING finger protein 17 n=8 Tax=Durocryptod...  66.6       2e-08 
+UniRef90_A0A6I9X9T6 RING finger protein 17 n=5 Tax=Colubroidea Ta...  66.2       2e-08 
+UniRef90_UPI00045E05F1 RING finger protein 17 n=1 Tax=Orycteropus...  66.2       2e-08 
+UniRef90_UPI00071D2FAE RING finger protein 17 n=1 Tax=Calidris pu...  66.2       3e-08 
+UniRef90_UPI000521BB18 RING finger protein 17 n=1 Tax=Dryobates p...  65.9       3e-08 
+UniRef90_UPI000328C8FC LOW QUALITY PROTEIN: RING finger protein 1...  65.9       3e-08 
+UniRef90_A0A674H7U2 Uncharacterized protein n=2 Tax=Taeniopygia g...  65.9       3e-08 
+UniRef90_A0A0L8HUT6 Uncharacterized protein n=16 Tax=Octopus TaxI...  65.5       4e-08 
+UniRef90_UPI0008F9A272 uncharacterized protein LOC109040698 n=1 T...  65.5       4e-08 
+UniRef90_A0A093PPZ6 RING finger protein 17 (Fragment) n=19 Tax=Pa...  65.5       4e-08 
+UniRef90_UPI00071CEC2C uncharacterized protein LOC106876374 n=1 T...  65.5       4e-08 
+UniRef90_A0A210PZZ8 RING finger protein 17 n=3 Tax=Mizuhopecten y...  65.5       5e-08 
+UniRef90_UPI0006443043 RING finger protein 17 isoform X1 n=2 Tax=...  65.1       5e-08 
+UniRef90_H0XC03 Ring finger protein 17 n=1 Tax=Otolemur garnettii...  65.1       5e-08 
+UniRef90_UPI0003F16BBF RING finger protein 17 n=6 Tax=Pteropodina...  65.1       5e-08 
+UniRef90_G1M9K2 Uncharacterized protein n=25 Tax=Caniformia TaxID...  65.1       5e-08 
+UniRef90_A0A091DA17 Tudor domain-containing protein 1 n=2 Tax=Fuk...  65.1       5e-08 
+UniRef90_UPI0007770B11 RING finger protein 17 isoform X1 n=2 Tax=...  65.1       6e-08 
+UniRef90_UPI0011857967 LOW QUALITY PROTEIN: RING finger protein 1...  65.1       6e-08 
+UniRef90_A0A091J6S0 RING finger protein 17 (Fragment) n=2 Tax=Cal...  64.7       6e-08 
+UniRef90_UPI000938FC44 RING finger protein 17 isoform X1 n=2 Tax=...  64.7       6e-08 
+UniRef90_UPI00106D4E8B uncharacterized protein LOC114529879 isofo...  65.1       7e-08 
+UniRef90_A0A0A0AW99 RING finger protein 17 (Fragment) n=2 Tax=Cha...  64.7       7e-08 
+UniRef90_UPI000331654C RING finger protein 17 n=1 Tax=Sorex arane...  64.3       8e-08 
+UniRef90_A0A402EB88 Uncharacterized protein n=1 Tax=Paroedura pic...  64.3       9e-08 
+UniRef90_F7ETJ9 Uncharacterized protein n=9 Tax=Metatheria TaxID=...  64.3       9e-08 
+UniRef90_UPI001458E59D uncharacterized protein LOC117316104 isofo...  64.3       9e-08 
+UniRef90_UPI000DF2FC1F ATP-dependent RNA helicase TDRD9 n=1 Tax=P...  64.3       9e-08 
+UniRef90_A7RWZ4 Predicted protein n=2 Tax=Nematostella vectensis ...  64.3       1e-07 
+UniRef90_UPI000B3DEB2C RING finger protein 17 isoform X1 n=2 Tax=...  64.3       1e-07 
+UniRef90_A0A3B4DBK2 Uncharacterized protein n=3 Tax=Pygocentrus n...  63.9       1e-07 
+UniRef90_UPI000A2A48D3 ATP-dependent RNA helicase TDRD9 n=1 Tax=E...  63.9       1e-07 
+UniRef90_A0A2Y9QFX5 RING finger protein 17 n=2 Tax=Afrotheria Tax...  63.9       1e-07 
+UniRef90_UPI0007A72365 RING finger protein 17 isoform X1 n=2 Tax=...  63.9       1e-07 
+UniRef90_UPI00074FC90C RING finger protein 17 n=1 Tax=Gekko japon...  63.5       1e-07 
+UniRef90_A0A3M6T7K9 Uncharacterized protein n=2 Tax=Pocillopora d...  63.5       2e-07 
+UniRef90_UPI001401BD3A RING finger protein 17 n=1 Tax=Amblyraja r...  63.2       2e-07 
+UniRef90_A0A337SRB9 Ring finger protein 17 n=16 Tax=Carnivora Tax...  63.2       2e-07 
+UniRef90_M3X2A4 Ring finger protein 17 n=4 Tax=Felidae TaxID=9681...  63.2       2e-07 
+UniRef90_I3MAN2 Uncharacterized protein n=8 Tax=Boreoeutheria Tax...  63.2       2e-07 
+UniRef90_A0A6J3QVH0 LOW QUALITY PROTEIN: RING finger protein 17-l...  62.8       2e-07 
+UniRef90_A0A287DBW2 Uncharacterized protein n=1 Tax=Ictidomys tri...  62.8       2e-07 
+UniRef90_UPI000FFFC943 ATP-dependent RNA helicase TDRD9 isoform X...  62.8       2e-07 
+UniRef90_A0A673TBV7 Tudor domain containing 1 n=3 Tax=Suricata su...  62.8       3e-07 
+UniRef90_A0A2B4SQ29 RING finger protein 17 n=5 Tax=Stylophora pis...  62.8       3e-07 
+UniRef90_UPI0010FC9706 tudor domain-containing protein 1-like n=1...  62.8       3e-07 
+UniRef90_UPI000333B4B9 LOW QUALITY PROTEIN: RING finger protein 1...  62.8       3e-07 
+UniRef90_UPI000FFC69BD RING finger protein 17 n=2 Tax=Falco TaxID...  62.8       3e-07 
+UniRef90_UPI0002C87705 RING finger protein 17 isoform X1 n=2 Tax=...  62.8       3e-07 
+UniRef90_H2NJF0 Uncharacterized protein n=3 Tax=Pongo abelii TaxI...  62.8       3e-07 
+UniRef90_UPI0003F08387 putative ATP-dependent RNA helicase TDRD9-...  62.8       3e-07 
+UniRef90_M3WJI1 Tudor domain containing 9 n=10 Tax=Felidae TaxID=...  62.4       3e-07 
+UniRef90_UPI000C2F8424 ATP-dependent RNA helicase TDRD9 isoform X...  62.4       3e-07 
+UniRef90_UPI0011409B50 uncharacterized protein LOC115219318 n=1 T...  62.8       3e-07 
+UniRef90_H0WWQ2 Tudor domain containing 9 n=5 Tax=Strepsirrhini T...  62.4       3e-07 
+UniRef90_A0A224Z2J2 Tudor domain-containing protein 1/4/6/7 (Frag...  62.4       3e-07 
+UniRef90_UPI000B4E9436 RING finger protein 17 n=1 Tax=Meriones un...  62.4       3e-07 
+UniRef90_A0A444ULA6 NHL repeat-containing protein 2 n=1 Tax=Acipe...  62.8       3e-07 
+UniRef90_UPI00076891C3 ATP-dependent RNA helicase TDRD9 n=3 Tax=P...  62.4       3e-07 
+UniRef90_UPI001458C96B tudor domain-containing protein 1 isoform ...  62.4       3e-07 
+UniRef90_A0A2R5L492 Putative ring finger protein 17 (Fragment) n=...  62.4       3e-07 
+UniRef90_A0A091QKV8 RING finger protein 17 (Fragment) n=2 Tax=Mer...  62.4       4e-07 
+UniRef90_A0A667GMN6 Ring finger protein 17 n=1 Tax=Lynx canadensi...  62.4       4e-07 
+UniRef90_UPI000359C8D6 RING finger protein 17-like n=1 Tax=Aplysi...  62.4       4e-07 
+UniRef90_UPI000E55DCA9 ATP-dependent RNA helicase TDRD9 n=1 Tax=U...  62.4       4e-07 
+UniRef90_Q99MV7 RING finger protein 17 n=11 Tax=root TaxID=1 RepI...  62.4       4e-07 
+UniRef90_A0A4W2F885 Uncharacterized protein n=1 Tax=Bos indicus x...  62.4       4e-07 
+UniRef90_A0A4W2DJB6 Ring finger protein 17 n=1 Tax=Bos indicus x ...  62.0       4e-07 
+UniRef90_A0A484GSA0 Uncharacterized protein n=7 Tax=Odontoceti Ta...  62.0       4e-07 
+UniRef90_A0A2Y9STS0 RING finger protein 17 n=4 Tax=Cetacea TaxID=...  62.0       5e-07 
+UniRef90_W5PZ21 Ring finger protein 17 n=4 Tax=Caprinae TaxID=996...  62.0       5e-07 
+UniRef90_A0A3B3R8G2 Uncharacterized protein n=3 Tax=Paramormyrops...  62.0       5e-07 
+UniRef90_A0A340X2U5 putative ATP-dependent RNA helicase TDRD9 n=1...  62.0       5e-07 
+UniRef90_A0A2B4SFT4 Tudor domain-containing protein 1 n=2 Tax=Sty...  62.0       6e-07 
+UniRef90_A0A452G8S7 Uncharacterized protein n=26 Tax=Pecora TaxID...  61.6       6e-07 
+UniRef90_A0A131YH62 Tudor domain-containing protein 1/4/6/7 n=1 T...  61.6       6e-07 
+UniRef90_A0A5N3X6Y5 Tudor domain-containing protein (Fragment) n=...  61.6       6e-07 
+UniRef90_A0A6J0UZ75 putative ATP-dependent RNA helicase TDRD9 n=1...  61.6       6e-07 
+UniRef90_UPI00145905EA LOW QUALITY PROTEIN: RING finger protein 1...  61.6       6e-07 
+UniRef90_A0A093EHV3 RING finger protein 17 (Fragment) n=2 Tax=Tyt...  61.6       6e-07 
+UniRef90_I3LKM6 Uncharacterized protein n=4 Tax=Sus scrofa TaxID=...  61.6       6e-07 
+UniRef90_A0A3M6TSV5 Uncharacterized protein n=2 Tax=Pocillopora d...  61.6       7e-07 
+UniRef90_UPI000B90D615 tudor domain-containing protein 5-like iso...  61.2       7e-07 
+UniRef90_A0A2T7P649 Uncharacterized protein n=1 Tax=Pomacea canal...  61.2       7e-07 
+UniRef90_A0A3M6TE78 Uncharacterized protein n=1 Tax=Pocillopora d...  61.2       7e-07 
+UniRef90_UPI000EF6EA96 RING finger protein 17 n=1 Tax=Athene cuni...  61.2       8e-07 
+UniRef90_A0A2I0MCX2 Ring finger protein 17 n=3 Tax=Columbidae Tax...  61.2       8e-07 
+UniRef90_J9NYU9 Ring finger protein 17 n=8 Tax=Canidae TaxID=9608...  61.2       8e-07 
+UniRef90_A0A091DG03 RING finger protein 17 n=2 Tax=Fukomys damare...  61.2       8e-07 
+UniRef90_UPI001458909B RING finger protein 17 isoform X1 n=6 Tax=...  61.2       8e-07 
+UniRef90_A0A5N3VJB9 Tudor domain-containing protein n=1 Tax=Munti...  60.8       9e-07 
+UniRef90_UPI0012B566E3 uncharacterized protein LOC116287253 isofo...  61.2       9e-07 
+UniRef90_UPI00052248A1 RING finger protein 17 n=1 Tax=Haliaeetus ...  60.8       9e-07 
+UniRef90_A0A671DPV5 Ring finger protein 17 n=2 Tax=Rhinolophus fe...  60.8       1e-06 
+UniRef90_UPI000EA9A9B4 RING finger protein 17 n=1 Tax=Pseudonaja ...  60.8       1e-06 
+UniRef90_UPI0006B07B9A RING finger protein 17 n=2 Tax=Apteryx Tax...  60.8       1e-06 
+UniRef90_A0A6J0Z0C9 putative ATP-dependent RNA helicase TDRD9 iso...  60.8       1e-06 
+UniRef90_UPI00076277F5 putative ATP-dependent RNA helicase TDRD9 ...  60.8       1e-06 
+UniRef90_UPI000947ED3F LOW QUALITY PROTEIN: putative ATP-dependen...  60.8       1e-06 
+UniRef90_A0A6J1ZY66 ATP-dependent RNA helicase TDRD9 isoform X1 n...  60.8       1e-06 
+UniRef90_UPI0003C4899E RING finger protein 17 isoform X1 n=4 Tax=...  60.8       1e-06 
+UniRef90_UPI000D0C7C77 putative ATP-dependent RNA helicase TDRD12...  60.8       1e-06 
+UniRef90_A0A6J1ZZC6 ATP-dependent RNA helicase TDRD9 isoform X2 n...  60.8       1e-06 
+UniRef90_A0A218UUS3 RING finger protein 17 n=2 Tax=Lonchura stria...  60.8       1e-06 
+UniRef90_A0A093I270 RING finger protein 17 (Fragment) n=2 Tax=Str...  60.8       1e-06 
+UniRef90_UPI00138F9D62 uncharacterized protein LOC5514113 isoform...  60.5       1e-06 
+UniRef90_UPI00142582EB uncharacterized protein LOC117118617 n=1 T...  60.5       1e-06 
+UniRef90_D3ZLP2 Ring finger protein 17 n=13 Tax=Murinae TaxID=391...  60.5       1e-06 
+UniRef90_A0A6J3EN38 RING finger protein 17 n=5 Tax=Anatidae TaxID...  60.5       1e-06 
+UniRef90_UPI00123C00EF uncharacterized protein LOC115922967 n=2 T...  60.5       1e-06 
+UniRef90_UPI000B913D58 uncharacterized protein LOC110974069 isofo...  60.5       1e-06 
+UniRef90_A0A452E8L9 Uncharacterized protein n=11 Tax=Bovidae TaxI...  60.5       1e-06 
+UniRef90_UPI0014255E55 RING finger protein 17-like n=1 Tax=Anneis...  60.5       1e-06 
+UniRef90_UPI001425775C maternal protein tudor-like isoform X1 n=2...  60.5       2e-06 
+UniRef90_A0A182GWS8 Uncharacterized protein n=3 Tax=Aedes albopic...  60.5       2e-06 
+UniRef90_F1MNA1 Tudor domain containing 9 n=11 Tax=Bovidae TaxID=...  60.1       2e-06 
+UniRef90_A0A3Q3LN41 Uncharacterized protein n=2 Tax=Mastacembelus...  60.1       2e-06 
+UniRef90_UPI001069B9EB ATP-dependent RNA helicase TDRD9-like n=1 ...  60.1       2e-06 
+UniRef90_UPI000DBCACBE ATP-dependent RNA helicase TDRD9 isoform X...  60.1       2e-06 
+UniRef90_A0A673SWN1 Ring finger protein 17 n=1 Tax=Suricata suric...  60.1       2e-06 
+UniRef90_F1RN25 Uncharacterized protein n=5 Tax=Sus scrofa TaxID=...  60.1       2e-06 
+UniRef90_UPI00122D7A0F RING finger protein 17 isoform X5 n=1 Tax=...  60.1       2e-06 
+UniRef90_A0A4X1U573 Uncharacterized protein n=1 Tax=Sus scrofa Ta...  60.1       2e-06 
+UniRef90_UPI001469A3C4 RING finger protein 17 n=1 Tax=Melopsittac...  60.1       2e-06 
+UniRef90_A7SJJ0 Predicted protein n=4 Tax=Nematostella vectensis ...  60.1       2e-06 
+UniRef90_UPI00122DA948 RING finger protein 17 isoform X6 n=2 Tax=...  59.7       2e-06 
+UniRef90_UPI0010FC964D uncharacterized protein LOC114960381 isofo...  60.1       2e-06 
+UniRef90_A0A3Q1H434 Ring finger protein 17 n=3 Tax=Anabas testudi...  59.7       2e-06 
+UniRef90_V4ATG3 Uncharacterized protein n=1 Tax=Lottia gigantea T...  59.7       2e-06 
+UniRef90_UPI0010A0E845 RING finger protein 17 isoform X3 n=1 Tax=...  59.7       2e-06 
+UniRef90_UPI0010A1801A RING finger protein 17 isoform X2 n=1 Tax=...  59.7       2e-06 
+UniRef90_UPI0003F0A021 tudor domain-containing protein 1-like n=1...  59.7       3e-06 
+UniRef90_K1QBW6 Tudor domain-containing protein 1 n=1 Tax=Crassos...  59.7       3e-06 
+UniRef90_UPI001425A479 uncharacterized protein LOC117100914 isofo...  59.7       3e-06 
+UniRef90_UPI00109EF3AC RING finger protein 17 isoform X2 n=1 Tax=...  59.7       3e-06 
+UniRef90_A0A091CVZ0 Putative ATP-dependent RNA helicase TDRD9 n=1...  59.7       3e-06 
+UniRef90_UPI000812FCAA tudor domain-containing protein 1 n=1 Tax=...  59.7       3e-06 
+UniRef90_UPI0013629EB1 RING finger protein 17 isoform X5 n=1 Tax=...  59.7       3e-06 
+UniRef90_A0A6I8NB77 Tudor domain containing 9 n=5 Tax=Ornithorhyn...  59.3       3e-06 
+UniRef90_UPI0013621D7B RING finger protein 17 isoform X6 n=1 Tax=...  59.3       3e-06 
+UniRef90_A0A6J0WJW5 tudor domain-containing protein 1 n=2 Tax=Pec...  59.3       3e-06 
+UniRef90_A0A1U7QXX0 RING finger protein 17 n=3 Tax=Cricetinae Tax...  59.3       3e-06 
+UniRef90_UPI00022B7FAC LOW QUALITY PROTEIN: RING finger protein 1...  59.3       3e-06 
+UniRef90_A0A4D5RDL0 Putative ring finger protein 17 (Fragment) n=...  59.3       3e-06 
+UniRef90_UPI0015A59A74 RING finger protein 17 n=1 Tax=Oxyura jama...  59.3       3e-06 
+UniRef90_UPI000642897A RING finger protein 17 isoform X1 n=2 Tax=...  59.3       3e-06 
+UniRef90_UPI001455DAAE ATP-dependent RNA helicase TDRD9 isoform X...  59.3       3e-06 
+UniRef90_UPI00139033D0 tudor domain-containing protein 15 isoform...  59.3       3e-06 
+UniRef90_A0A6I9IZH6 RING finger protein 17 n=1 Tax=Chrysochloris ...  59.3       3e-06 
+UniRef90_A0A131Y859 Putative ring finger protein 17 (Fragment) n=...  59.3       3e-06 
+UniRef90_UPI00085478C8 tudor domain-containing protein 1 n=1 Tax=...  59.3       3e-06 
+UniRef90_A0A1B6CW63 Uncharacterized protein n=2 Tax=Clastoptera a...  59.3       4e-06 
+UniRef90_A0A2B4RHX1 Tudor domain-containing protein 1 n=3 Tax=Sty...  59.3       4e-06 
+UniRef90_A0A341BWJ1 RING finger protein 17 n=8 Tax=Odontoceti Tax...  58.9       4e-06 
+UniRef90_UPI000B90BFCE RING finger protein 17-like isoform X1 n=4...  58.9       4e-06 
+UniRef90_G1KKN5 Uncharacterized protein n=2 Tax=Anolis carolinens...  58.9       4e-06 
+UniRef90_UPI0003C8FF00 RING finger protein 17 isoform X2 n=1 Tax=...  58.9       4e-06 
+UniRef90_UPI0003C90971 RING finger protein 17 isoform X1 n=2 Tax=...  58.9       4e-06 
+UniRef90_UPI0003C8DCA7 RING finger protein 17 isoform X3 n=1 Tax=...  58.9       4e-06 
+UniRef90_UPI00123ED394 RING finger protein 17 isoform X3 n=1 Tax=...  58.9       4e-06 
+UniRef90_UPI0012AD779A ATP-dependent RNA helicase TDRD9 isoform X...  58.9       4e-06 
+UniRef90_UPI00123EBFF8 RING finger protein 17 isoform X1 n=6 Tax=...  58.9       4e-06 
+UniRef90_R7VFW0 Uncharacterized protein n=1 Tax=Capitella teleta ...  58.9       4e-06 
+UniRef90_UPI00145567AF tudor domain-containing protein 5-like iso...  58.9       4e-06 
+UniRef90_UPI000CF8076C RING finger protein 17 isoform X1 n=2 Tax=...  58.9       4e-06 
+UniRef90_UPI00048B5872 LOW QUALITY PROTEIN: RING finger protein 1...  58.9       5e-06 
+UniRef90_G3RF06 Ring finger protein 17 n=1 Tax=Gorilla gorilla go...  58.9       5e-06 
+UniRef90_K7FUY3 Tudor domain containing 9 n=4 Tax=Pelodiscus sine...  58.5       5e-06 
+UniRef90_UPI001016C08A RING finger protein 17 isoform X1 n=1 Tax=...  58.5       5e-06 
+UniRef90_A0A482X370 Uncharacterized protein n=1 Tax=Laodelphax st...  58.5       5e-06 
+UniRef90_G1SSY9 Ring finger protein 17 n=1 Tax=Oryctolagus cunicu...  58.5       5e-06 
+UniRef90_A0A437C699 Uncharacterized protein n=1 Tax=Oryzias javan...  58.5       5e-06 
+UniRef90_Q14BI7 ATP-dependent RNA helicase TDRD9 n=7 Tax=Mus TaxI...  58.5       5e-06 
+UniRef90_Q3MHU3-2 Isoform 2 of ATP-dependent RNA helicase TDRD9 n...  58.2       5e-06 
+UniRef90_A0A2U3W0E7 RING finger protein 17 n=16 Tax=Caniformia Ta...  58.5       5e-06 
+UniRef90_G1MG56 Uncharacterized protein n=1 Tax=Ailuropoda melano...  58.5       6e-06 
+UniRef90_UPI00129EA636 RING finger protein 17 n=1 Tax=Phasianus c...  58.5       6e-06 
+UniRef90_UPI00046BE9E4 ATP-dependent RNA helicase TDRD9 n=2 Tax=V...  58.5       6e-06 
+UniRef90_UPI0012ADD966 ATP-dependent RNA helicase TDRD9 isoform X...  58.2       6e-06 
+UniRef90_Q9BXT8-4 Isoform 4 of RING finger protein 17 n=1 Tax=Hom...  58.5       6e-06 
+UniRef90_UPI000A2A60A3 uncharacterized protein LOC110247254 isofo...  58.5       6e-06 
+UniRef90_B7Z7S1 cDNA FLJ61721, highly similar to Homo sapiens rin...  58.5       6e-06 
+UniRef90_Q9BXT8-5 Isoform 5 of RING finger protein 17 n=1 Tax=Hom...  58.2       6e-06 
+UniRef90_A0A210QTI1 Tudor domain-containing protein 1 n=4 Tax=Miz...  58.5       6e-06 
+UniRef90_UPI000E4172B1 RING finger protein 17-like isoform X1 n=2...  58.2       6e-06 
+UniRef90_UPI001458AFD7 uncharacterized protein LOC117325879 n=1 T...  58.5       7e-06 
+UniRef90_UPI000B3DC8CA tudor domain-containing protein 6-like n=1...  58.2       7e-06 
+UniRef90_Q9BXT8 RING finger protein 17 n=4 Tax=Homininae TaxID=20...  58.2       7e-06 
+UniRef90_UPI0001D411CB RING finger protein 17 isoform 2 n=1 Tax=H...  58.2       7e-06 
+UniRef90_A0A1S3ETU9 LOW QUALITY PROTEIN: RING finger protein 17 n...  58.2       7e-06 
+UniRef90_UPI0015613893 RING finger protein 17 isoform X2 n=1 Tax=...  58.2       7e-06 
+UniRef90_UPI0011287250 ATP-dependent RNA helicase TDRD9 isoform X...  58.2       7e-06 
+UniRef90_H2Q7A9 Ring finger protein 17 n=12 Tax=Pan TaxID=9596 Re...  58.2       7e-06 
+UniRef90_UPI001403B240 RING finger protein 17-like n=1 Tax=Petrom...  58.2       7e-06 
+UniRef90_UPI0006979C38 RING finger protein 17 isoform X1 n=5 Tax=...  58.2       7e-06 
+UniRef90_UPI00094832F2 RING finger protein 17-like n=1 Tax=Branch...  58.2       7e-06 
+UniRef90_UPI00148A8D6D uncharacterized protein LOC105342062 isofo...  58.2       7e-06 
+UniRef90_UPI001483C68D ATP-dependent RNA helicase TDRD9 isoform X...  58.2       8e-06 
+UniRef90_S7Q603 RING finger protein 17 n=1 Tax=Myotis brandtii Ta...  58.2       8e-06 
+UniRef90_UPI00052E736D RING finger protein 17 n=6 Tax=Tinamidae T...  58.2       8e-06 
+UniRef90_A0A437B6Y7 Uncharacterized protein n=1 Tax=Chilo suppres...  58.2       8e-06 
+UniRef90_A0A6B0RNB1 Uncharacterized protein n=1 Tax=Bos mutus Tax...  58.2       8e-06 
+UniRef90_L5LRI3 Putative ATP-dependent RNA helicase TDRD9 n=1 Tax...  57.8       9e-06 
+UniRef90_W8AIN2 Maternal protein tudor (Fragment) n=1 Tax=Ceratit...  57.8       9e-06 
+UniRef90_A0A1B0CI38 Katanin p80 WD40 repeat-containing subunit B1...  57.8       9e-06 
+UniRef90_M3YPE9 Ring finger protein 17 n=5 Tax=Mustelidae TaxID=9...  57.8       1e-05 
+UniRef90_UPI00148668B4 ATP-dependent RNA helicase TDRD9 isoform X...  57.8       1e-05 
+UniRef90_G1PJK1 Tudor domain containing 9 n=3 Tax=Myotis TaxID=94...  57.4       1e-05 
+UniRef90_UPI0015ACCE82 RING finger protein 17 isoform X1 n=3 Tax=...  57.8       1e-05 
+UniRef90_A0A384C7A2 RING finger protein 17 isoform X1 n=3 Tax=Urs...  57.8       1e-05 
+UniRef90_UPI0008736C55 LOW QUALITY PROTEIN: tudor domain-containi...  57.8       1e-05 
+UniRef90_A0A452VLB9 Uncharacterized protein n=21 Tax=Carnivora Ta...  57.4       1e-05 
+UniRef90_UPI000E55F732 RING finger protein 17 n=1 Tax=Urocitellus...  57.4       1e-05 
+UniRef90_V4A7D6 Uncharacterized protein n=1 Tax=Lottia gigantea T...  57.4       1e-05 
+UniRef90_UPI000703D558 RING finger protein 17 n=2 Tax=Myotis TaxI...  57.4       1e-05 
+UniRef90_UPI0010FAF035 RING finger protein 17 n=1 Tax=Protobothro...  57.4       1e-05 
+UniRef90_UPI00117CFBC7 tudor domain-containing protein 6-like n=1...  57.4       1e-05 
+UniRef90_UPI000D6A590D tudor domain-containing protein 6 n=1 Tax=...  57.4       1e-05 
+UniRef90_UPI000CCC3F76 RING finger protein 17 isoform X1 n=1 Tax=...  57.4       1e-05 
+UniRef90_G1P185 Uncharacterized protein n=1 Tax=Myotis lucifugus ...  57.4       1e-05 
+UniRef90_A0A1L8HAV1 Uncharacterized protein n=1 Tax=Xenopus laevi...  57.4       1e-05 
+UniRef90_UPI00032B02AF putative ATP-dependent RNA helicase TDRD9 ...  57.4       1e-05 
+UniRef90_UPI000B90F01A putative ATP-dependent RNA helicase TDRD9 ...  57.4       1e-05 
+UniRef90_A0A1S3A3Y7 RING finger protein 17 n=1 Tax=Erinaceus euro...  57.4       1e-05 
+UniRef90_UPI0012AB495B ATP-dependent RNA helicase TDRD9 n=1 Tax=C...  57.4       1e-05 
+UniRef90_UPI0004ED5F8E RING finger protein 17 n=1 Tax=Nannospalax...  57.4       1e-05 
+UniRef90_UPI0013A60931 RING finger protein 17 isoform X2 n=4 Tax=...  57.4       1e-05 
+UniRef90_G1NN94 Uncharacterized protein n=2 Tax=Meleagris gallopa...  57.4       1e-05 
+UniRef90_A0A6J2WDJ7 RING finger protein 17 n=1 Tax=Chanos chanos ...  57.4       1e-05 
+UniRef90_UPI0009E314FB tudor domain-containing protein 7-like iso...  57.0       1e-05 
+UniRef90_A0A556TJC8 MBT domain-containing protein 1 n=1 Tax=Bagar...  57.0       1e-05 
+UniRef90_A0A194Q4K1 Tudor domain-containing protein 1 n=4 Tax=Pap...  57.0       1e-05 
+UniRef90_A0A6J2NC48 RING finger protein 17 isoform X1 n=2 Tax=Phy...  57.0       1e-05 
+UniRef90_A0A1S3K2T9 uncharacterized protein LOC106178356 n=1 Tax=...  57.0       1e-05 
+UniRef90_UPI00146E4B63 tudor domain-containing protein 6 isoform ...  57.0       1e-05 
+UniRef90_UPI000F554CF8 putative ATP-dependent RNA helicase TDRD12...  57.0       1e-05 
+UniRef90_UPI0006437F55 RING finger protein 17 n=1 Tax=Condylura c...  57.0       2e-05 
+UniRef90_A0A210R536 Tudor domain-containing protein 1 n=6 Tax=Miz...  57.0       2e-05 
+UniRef90_G3T096 Tudor domain containing 9 n=3 Tax=Eutheria TaxID=...  57.0       2e-05 
+UniRef90_UPI00077A4C6B uncharacterized protein LOC107341935 isofo...  57.0       2e-05 
+UniRef90_A0A3Q1M4R0 Tudor domain containing 1 n=7 Tax=Bovinae Tax...  57.0       2e-05 
+UniRef90_A0A6J0E123 putative ATP-dependent RNA helicase TDRD9 iso...  57.0       2e-05 
+UniRef90_A0A3M6TG37 Uncharacterized protein n=1 Tax=Pocillopora d...  57.0       2e-05 
+UniRef90_A0A452EE98 Uncharacterized protein n=7 Tax=Pecora TaxID=...  56.6       2e-05 
+UniRef90_UPI0005123F56 RING finger protein 17 isoform X10 n=1 Tax...  57.0       2e-05 
+UniRef90_G3NM01 Tudor domain containing 6 n=1 Tax=Gasterosteus ac...  57.0       2e-05 
+UniRef90_UPI0011769A67 RING finger protein 17 n=1 Tax=Salarias fa...  57.0       2e-05 
+UniRef90_A0A2I2UDK7 Tudor domain containing 1 n=18 Tax=Felidae Ta...  56.6       2e-05 
+UniRef90_A0A0L7R3N2 Tudor domain-containing protein 7 (Fragment) ...  56.6       2e-05 
+UniRef90_A0A6J8AV48 TDRD12 n=1 Tax=Mytilus coruscus TaxID=42192 R...  56.6       2e-05 
+UniRef90_A0A1U7Q924 putative ATP-dependent RNA helicase TDRD9 n=4...  56.6       2e-05 
+UniRef90_A0A4W2E0J9 Tudor domain containing 1 n=3 Tax=Bos TaxID=9...  56.6       2e-05 
+UniRef90_A0A433SJZ8 Uncharacterized protein n=1 Tax=Elysia chloro...  56.6       2e-05 
+UniRef90_A0A0L8I0F8 RNA helicase n=2 Tax=Octopus TaxID=6643 RepID...  56.6       2e-05 
+UniRef90_A0A0A1XAL4 Maternal protein tudor (Fragment) n=2 Tax=Dac...  56.6       2e-05 
+UniRef90_UPI00046BD48B RING finger protein 17 n=1 Tax=Eptesicus f...  56.6       2e-05 
+UniRef90_A0A6J3KQR1 LOW QUALITY PROTEIN: maternal protein tudor n...  56.6       2e-05 
+UniRef90_UPI0009E38C74 uncharacterized protein LOC110060814 n=1 T...  56.6       2e-05 
+UniRef90_A0A4Q2DE39 Uncharacterized protein n=1 Tax=Psathyrella a...  56.6       2e-05 
+UniRef90_UPI00067606C8 uncharacterized protein LOC106104065 n=1 T...  56.6       2e-05 
+UniRef90_UPI00057AC1F0 LOW QUALITY PROTEIN: RING finger protein 1...  56.6       2e-05 
+UniRef90_UPI0008119B49 maternal protein tudor isoform X1 n=2 Tax=...  56.6       2e-05 
+UniRef90_A0A6G1QJ74 Tudor domain-containing protein 6 n=1 Tax=Cha...  56.6       2e-05 
+UniRef90_A0A6I9N5U3 tudor domain-containing protein 6-like n=1 Ta...  56.6       2e-05 
+UniRef90_A0A3M0KJE8 Uncharacterized protein n=1 Tax=Hirundo rusti...  56.2       2e-05 
+UniRef90_UPI001239B4E4 RING finger protein 17 isoform X1 n=4 Tax=...  56.6       2e-05 
+UniRef90_UPI0008135145 RING finger protein 17 isoform X1 n=4 Tax=...  56.2       2e-05 
+UniRef90_A0A2T7NQM1 Uncharacterized protein n=2 Tax=Pomacea canal...  56.6       3e-05 
+UniRef90_UPI000813980C RING finger protein 17 isoform X2 n=1 Tax=...  56.2       3e-05 
+UniRef90_UPI000C9EA263 RING finger protein 17 isoform X1 n=7 Tax=...  56.2       3e-05 
+UniRef90_F6SHS3 Ring finger protein 17 n=1 Tax=Equus caballus Tax...  56.2       3e-05 
+UniRef90_UPI001419BF2F ATP-dependent RNA helicase TDRD9 n=4 Tax=L...  56.2       3e-05 
+UniRef90_UPI0006714F0F LOW QUALITY PROTEIN: RING finger protein 1...  56.2       3e-05 
+UniRef90_A0A4D5RK96 Putative transcriptional coactivator (Fragmen...  56.2       3e-05 
+UniRef90_A0A3P8XZF4 Uncharacterized protein n=7 Tax=Esox lucius T...  56.2       3e-05 
+UniRef90_UPI000D730183 maternal protein tudor-like isoform X2 n=1...  56.2       3e-05 
+UniRef90_A0A672Z8M7 Tudor domain containing 6 n=1 Tax=Sphaeramia ...  55.8       3e-05 
+UniRef90_A0A3L7HL77 TDRD9 n=2 Tax=Cricetulus griseus TaxID=10029 ...  55.8       3e-05 
+UniRef90_UPI001552B685 ATP-dependent RNA helicase TDRD9 isoform X...  55.8       3e-05 
+UniRef90_C3Y195 Uncharacterized protein n=1 Tax=Branchiostoma flo...  55.8       4e-05 
+UniRef90_A0A1E1WMP3 Uncharacterized protein (Fragment) n=1 Tax=Pe...  55.8       4e-05 
+UniRef90_G1NQG5 Ring finger protein 17 n=2 Tax=Meleagris gallopav...  55.8       4e-05 
+UniRef90_T1JCB6 Uncharacterized protein n=1 Tax=Strigamia maritim...  55.8       4e-05 
+UniRef90_UPI000D18577B RING finger protein 17 n=1 Tax=Desmodus ro...  55.8       4e-05 
+UniRef90_UPI00083C56E0 RING finger protein 17-like n=1 Tax=Eufrie...  55.8       4e-05 
+UniRef90_UPI000CEF68C3 putative ATP-dependent RNA helicase TDRD12...  55.8       4e-05 
+UniRef90_UPI00118681A9 ATP-dependent RNA helicase TDRD9 n=4 Tax=G...  55.5       4e-05 
+UniRef90_A0A5A9P0X1 RING finger protein 17 n=1 Tax=Triplophysa ti...  55.8       4e-05 
+UniRef90_UPI001487134A tudor domain-containing protein 6 n=1 Tax=...  55.8       4e-05 
+UniRef90_A0A1S3EXY6 putative ATP-dependent RNA helicase TDRD9 n=1...  55.5       4e-05 
+UniRef90_A0A2K5IJZ2 Uncharacterized protein n=3 Tax=Colobinae Tax...  55.5       4e-05 
+UniRef90_UPI0010A424C8 LOW QUALITY PROTEIN: RING finger protein 1...  55.5       4e-05 
+UniRef90_UPI00109BA0A5 uncharacterized protein LOC110252224 n=1 T...  55.5       5e-05 
+UniRef90_H2MBX3 Uncharacterized protein n=5 Tax=Oryzias latipes T...  55.5       5e-05 
+UniRef90_UPI0009E19469 uncharacterized protein LOC110067648 n=1 T...  55.5       5e-05 
+UniRef90_UPI0006D4D026 tudor domain-containing protein 1 isoform ...  55.5       5e-05 
+UniRef90_UPI0015D5B0A6 tudor domain-containing protein 15 n=3 Tax...  55.5       5e-05 
+UniRef90_A0A665W1W7 Tudor domain containing 6 n=2 Tax=Echeneis na...  55.5       5e-05 
+UniRef90_Q8NDG6 ATP-dependent RNA helicase TDRD9 n=55 Tax=Simiifo...  55.5       5e-05 
+UniRef90_A0A1W5RUW5 Tudor domain containing protein 1 (Fragment) ...  55.5       5e-05 
+UniRef90_UPI0009480C08 uncharacterized protein LOC109480923 isofo...  55.5       5e-05 
+UniRef90_A0A3B4DJ12 Tudor domain containing 6 n=4 Tax=Pygocentrus...  55.5       5e-05 
+UniRef90_UPI00125D2D7F tudor domain-containing protein 6 isoform ...  55.5       5e-05 
+UniRef90_UPI0009E223E4 tudor domain-containing protein 1-like iso...  55.5       5e-05 
+UniRef90_UPI0012F621BE RING finger protein 17 isoform X1 n=3 Tax=...  55.5       5e-05 
+UniRef90_G1MIF2 Tudor domain containing 9 n=1 Tax=Ailuropoda mela...  55.5       5e-05 
+UniRef90_A0A1S3HL26 uncharacterized protein LOC106156225 isoform ...  55.5       5e-05 
+UniRef90_C3XYZ4 RNA helicase n=1 Tax=Branchiostoma floridae TaxID...  55.1       6e-05 
+UniRef90_A0A4U5U2R9 RING finger protein 17 n=5 Tax=Sciaenidae Tax...  55.1       6e-05 
+UniRef90_T1J079 Uncharacterized protein n=1 Tax=Strigamia maritim...  55.5       6e-05 
+UniRef90_UPI0015E22EAC tudor domain-containing protein 6 isoform ...  55.1       6e-05 
+UniRef90_Q3MHU3 ATP-dependent RNA helicase TDRD9 n=20 Tax=Muroide...  55.1       6e-05 
+UniRef90_A0A1X7VFX7 Uncharacterized protein n=2 Tax=Amphimedon qu...  55.1       6e-05 
+UniRef90_A0A1B6FZG0 Uncharacterized protein n=1 Tax=Cuerna arida ...  55.1       6e-05 
+UniRef90_A0A665W2H9 Tudor domain containing 6 n=1 Tax=Echeneis na...  55.1       6e-05 
+UniRef90_A0A087XNC7 Ring finger protein 17 n=2 Tax=Poecilia TaxID...  55.1       7e-05 
+UniRef90_T2M6M2 Tudor domain-containing protein 1 n=2 Tax=Hydra v...  55.1       7e-05 
+UniRef90_UPI0007A70358 putative ATP-dependent RNA helicase TDRD9 ...  55.1       7e-05 
+UniRef90_A0A2P4SUA4 Uncharacterized protein n=1 Tax=Bambusicola t...  55.1       7e-05 
+UniRef90_A0A182T723 Uncharacterized protein n=1 Tax=Anopheles mac...  55.1       7e-05 
+UniRef90_A0A210Q545 Tudor domain-containing protein 1 n=1 Tax=Miz...  55.1       7e-05 
+UniRef90_UPI0010FC746B RING finger protein 17-like isoform X1 n=2...  55.1       7e-05 
+UniRef90_A0A3B3Z2I9 Uncharacterized protein n=7 Tax=Poecilia TaxI...  55.1       7e-05 
+UniRef90_UPI001403938D RING finger protein 17-like isoform X1 n=3...  55.1       7e-05 
+UniRef90_UPI000B9943A4 putative ATP-dependent RNA helicase TDRD12...  54.7       7e-05 
+UniRef90_A0A1U7T419 RING finger protein 17 n=1 Tax=Tarsius syrich...  54.7       8e-05 
+UniRef90_A0A2B4RYJ2 Putative ATP-dependent RNA helicase TDRD12 n=...  54.7       8e-05 
+UniRef90_UPI000D6A1FFE ATP-dependent RNA helicase TDRD9 n=1 Tax=P...  54.7       8e-05 
+UniRef90_UPI000777E393 tudor domain-containing protein 6 isoform ...  54.7       8e-05 
+UniRef90_A0A2B4S274 Putative ATP-dependent RNA helicase TDRD12 n=...  54.7       8e-05 
+UniRef90_W5KRT6 Uncharacterized protein n=3 Tax=Astyanax mexicanu...  54.7       8e-05 
+UniRef90_A0A2Y9JIS7 putative ATP-dependent RNA helicase TDRD9 n=6...  54.7       8e-05 
+UniRef90_UPI000771C760 RING finger protein 17 isoform X1 n=3 Tax=...  54.7       8e-05 
+UniRef90_A0A1U7SVI1 putative ATP-dependent RNA helicase TDRD9 n=1...  54.7       8e-05 
+UniRef90_A0A1S3IWQ2 uncharacterized protein LOC106167688 n=1 Tax=...  54.7       9e-05 
+UniRef90_UPI0003597045 uncharacterized protein LOC101858039 n=1 T...  54.7       9e-05 
+UniRef90_A0A665V3T4 Ring finger protein 17 n=2 Tax=Echeneis naucr...  54.7       9e-05 
+UniRef90_UPI000F4F132D LOW QUALITY PROTEIN: tudor domain-containi...  54.7       9e-05 
+UniRef90_A0A437C9R7 Uncharacterized protein n=1 Tax=Oryzias javan...  54.7       9e-05 
+UniRef90_UPI00045DAF00 putative ATP-dependent RNA helicase TDRD9 ...  54.3       9e-05 
+UniRef90_A0A671VHX3 Uncharacterized protein n=2 Tax=Sparus aurata...  54.7       1e-04 
+UniRef90_UPI0011CFA0C7 ATP-dependent RNA helicase TDRD9 n=1 Tax=S...  54.3       1e-04 
+UniRef90_M4AJY1 Uncharacterized protein n=2 Tax=Xiphophorus TaxID...  54.3       1e-04 
+UniRef90_UPI0014420D34 RING finger protein 17 isoform X2 n=1 Tax=...  54.3       1e-04 
+UniRef90_UPI0015686552 maternal protein tudor-like n=1 Tax=Aphant...  54.3       1e-04 
+UniRef90_A0A1L1RNL8 Uncharacterized protein n=2 Tax=Gallus gallus...  54.3       1e-04 
+UniRef90_A0A493SWL1 Tudor domain containing 15 n=4 Tax=Anatidae T...  54.3       1e-04 
+UniRef90_T1KFE5 Uncharacterized protein n=1 Tax=Tetranychus urtic...  54.3       1e-04 
+UniRef90_UPI00156C29EA ATP-dependent RNA helicase TDRD9 n=1 Tax=M...  54.3       1e-04 
+UniRef90_UPI001140D75B RING finger protein 17-like isoform X1 n=2...  54.3       1e-04 
+UniRef90_A0A6A5EBT8 Uncharacterized protein n=6 Tax=Percidae TaxI...  54.3       1e-04 
+UniRef90_F7A8U0 WD repeat domain 20 n=1 Tax=Xenopus tropicalis Ta...  54.3       1e-04 
+UniRef90_UPI000DC67CF5 ATP-dependent RNA helicase TDRD9 isoform X...  54.3       1e-04 
+UniRef90_UPI0003330A73 putative ATP-dependent RNA helicase TDRD9 ...  54.3       1e-04 
+UniRef90_A0A315W7W7 Uncharacterized protein n=1 Tax=Gambusia affi...  54.3       1e-04 
+UniRef90_A0A0N1IHH6 Tudor domain-containing protein 1 n=1 Tax=Pap...  54.3       1e-04 
+UniRef90_A0A4W6DQE7 Ring finger protein 17 n=2 Tax=Lates calcarif...  54.3       1e-04 
+UniRef90_A0A0C9Q8P8 RNF17_0 protein n=4 Tax=Fopius arisanus TaxID...  54.3       1e-04 
+UniRef90_A0A2I4AS23 tudor domain-containing protein 6-like n=1 Ta...  54.3       1e-04 
+UniRef90_A0A4W4ELM8 Tudor domain containing 6 n=3 Tax=Electrophor...  54.3       1e-04 
+UniRef90_A0A485PCL5 Ring finger protein partial n=1 Tax=Lynx pard...  54.3       1e-04 
+UniRef90_A0A4W5RKN9 Ring finger protein 17 n=1 Tax=Hucho hucho Ta...  53.9       1e-04 
+UniRef90_A0A3Q3GBM6 Tudor domain containing 6 n=6 Tax=Labrus berg...  54.3       1e-04 
+UniRef90_A0A2G8LDX7 Putative RING finger protein 17 n=1 Tax=Stich...  53.9       1e-04 
+UniRef90_A0A0M4EWB2 Tud (Fragment) n=2 Tax=Drosophila busckii Tax...  53.9       1e-04 
+UniRef90_A0A673WF16 Uncharacterized protein n=2 Tax=Salmo trutta ...  53.9       1e-04 
+UniRef90_UPI001458A696 tudor domain-containing protein 1-like iso...  53.9       1e-04 
+UniRef90_UPI000BAF355B LOW QUALITY PROTEIN: uncharacterized prote...  53.9       1e-04 
+UniRef90_A0A5N5PB72 Uncharacterized protein n=1 Tax=Pangasianodon...  53.9       1e-04 
+UniRef90_UPI0006C94DC2 maternal protein tudor isoform X1 n=3 Tax=...  53.9       1e-04 
+UniRef90_A0A1X7VSM0 Uncharacterized protein n=1 Tax=Amphimedon qu...  53.9       1e-04 
+UniRef90_UPI0003F09042 uncharacterized protein LOC100376221 n=1 T...  53.9       1e-04 
+UniRef90_UPI000A2A5C76 putative ATP-dependent RNA helicase TDRD12...  53.9       1e-04 
+UniRef90_A0A096MAY3 Uncharacterized protein n=13 Tax=Poeciliinae ...  53.9       1e-04 
+UniRef90_A0A6I8TMY9 Uncharacterized protein n=1 Tax=Aedes aegypti...  53.9       1e-04 
+UniRef90_UPI0010FCABFD uncharacterized protein LOC114955505 n=1 T...  53.9       2e-04 
+UniRef90_S9X122 Tudor domain-containing protein 1 n=1 Tax=Camelus...  53.9       2e-04 
+UniRef90_A0A3P9MXN2 Uncharacterized protein n=1 Tax=Poecilia reti...  53.9       2e-04 
+UniRef90_A0A6J8DKH7 TDRD1_4_6_7 n=2 Tax=Mytilus coruscus TaxID=42...  53.9       2e-04 
+UniRef90_UPI0003337796 RING finger protein 17 n=1 Tax=Echinops te...  53.9       2e-04 
+UniRef90_UPI001038BD52 probable ATP-dependent RNA helicase spindl...  53.9       2e-04 
+UniRef90_Q170N3 AAEL007841-PA n=1 Tax=Aedes aegypti TaxID=7159 Re...  53.5       2e-04 
+UniRef90_W8C8H8 RNF17Y (Fragment) n=6 Tax=Ornithorhynchus anatinu...  53.5       2e-04 
+UniRef90_F6VF39 Uncharacterized protein n=7 Tax=Metatheria TaxID=...  53.5       2e-04 
+UniRef90_UPI00147266C1 RING finger protein 17 n=1 Tax=Thalassophr...  53.5       2e-04 
+UniRef90_UPI001455CFBE uncharacterized protein LOC117307274 n=1 T...  53.5       2e-04 
+UniRef90_A0A3Q3WR78 Tudor domain containing 6 n=1 Tax=Mola mola T...  53.5       2e-04 
+UniRef90_A0A2J7RBL7 Uncharacterized protein n=2 Tax=Cryptotermes ...  53.5       2e-04 
+UniRef90_B4KPM3 Uncharacterized protein n=6 Tax=repleta group Tax...  53.5       2e-04 
+UniRef90_A0A672QFQ4 Uncharacterized protein n=4 Tax=Sinocyclochei...  53.5       2e-04 
+UniRef90_A0A3B4UJV8 Uncharacterized protein n=2 Tax=Seriola TaxID...  53.5       2e-04 
+UniRef90_UPI0014713EE2 maternal protein tudor n=1 Tax=Drosophila ...  53.5       2e-04 
+UniRef90_A0A4Z2F9Z7 Tudor domain-containing protein 6 n=1 Tax=Lip...  53.5       2e-04 
+UniRef90_B4LJ60 Uncharacterized protein n=2 Tax=virilis group Tax...  53.5       2e-04 
+UniRef90_A0A1B0AMI7 Uncharacterized protein n=4 Tax=Glossina TaxI...  53.5       2e-04 
+UniRef90_Q1XG89 Putative ATP-dependent RNA helicase TDRD12 n=3 Ta...  53.5       2e-04 
+UniRef90_A0A0N0BDI0 Maternal protein tudor n=1 Tax=Melipona quadr...  53.5       2e-04 
+UniRef90_A0A6I8U9X9 Uncharacterized protein n=3 Tax=Aedes aegypti...  53.1       2e-04 
+UniRef90_UPI000331722F putative ATP-dependent RNA helicase TDRD9 ...  53.1       2e-04 
+UniRef90_A0A6F9BVI9 Uncharacterized protein n=1 Tax=Coregonus sp....  53.1       2e-04 
+UniRef90_A0A1U7RPP9 ATP-dependent RNA helicase TDRD9 n=5 Tax=Croc...  53.1       2e-04 
+UniRef90_A0A3B5LJX5 Tudor domain containing 6 n=1 Tax=Xiphophorus...  53.1       2e-04 
+UniRef90_A0A1S3PPK1 RING finger protein 17 isoform X1 n=14 Tax=Sa...  53.1       2e-04 
+UniRef90_A0A2D0R3Y3 RING finger protein 17 isoform X1 n=4 Tax=Ict...  53.1       2e-04 
+UniRef90_A0A3Q1CRL0 Uncharacterized protein n=4 Tax=Pomacentridae...  53.1       2e-04 
+UniRef90_UPI001455A7BF ATP-dependent RNA helicase TDRD9-like n=1 ...  53.1       2e-04 
+UniRef90_A0A1J8Q847 Uncharacterized protein n=1 Tax=Rhizopogon ve...  53.1       2e-04 
+UniRef90_A0A556TJ33 Tudor domain-containing protein 1 n=1 Tax=Bag...  53.1       2e-04 
+UniRef90_UPI0012AC1A15 tudor domain-containing protein 1 isoform ...  53.1       3e-04 
+UniRef90_A0A498LSJ7 Tudor domain-containing 1-like protein n=1 Ta...  53.1       3e-04 
+UniRef90_UPI00105419DD RING finger protein 17 isoform X1 n=3 Tax=...  53.1       3e-04 
+UniRef90_UPI00148670D2 RING finger protein 17 n=1 Tax=Cyclopterus...  53.1       3e-04 
+UniRef90_UPI00021A6328 maternal protein tudor isoform X1 n=3 Tax=...  53.1       3e-04 
+UniRef90_A0A556U6S6 Tudor domain-containing protein 6 n=1 Tax=Bag...  53.1       3e-04 
+UniRef90_UPI0004CCCB5A maternal protein tudor isoform X1 n=2 Tax=...  53.1       3e-04 
+UniRef90_A0A3Q1CIY0 Uncharacterized protein n=4 Tax=Amphiprion Ta...  53.1       3e-04 
+UniRef90_A0A3Q1BGZ7 Uncharacterized protein n=5 Tax=Pomacentridae...  52.8       3e-04 
+UniRef90_A0A672RJQ7 Uncharacterized protein n=8 Tax=Cyprinidae Ta...  52.8       3e-04 
+UniRef90_A0A091PJC9 RING finger protein 17 (Fragment) n=8 Tax=Neo...  51.6       3e-04 
+UniRef90_UPI0014554A2F tudor domain-containing protein 6-like n=1...  52.8       3e-04 
+UniRef90_UPI00148B95FB maternal protein tudor n=1 Tax=Drosophila ...  52.8       3e-04 
+UniRef90_UPI000FFC9696 ATP-dependent RNA helicase TDRD9 n=4 Tax=D...  52.8       3e-04 
+UniRef90_A0A2K5DU79 Uncharacterized protein n=1 Tax=Aotus nancyma...  52.8       3e-04 
+UniRef90_UPI000E1DA781 LOW QUALITY PROTEIN: ATP-dependent RNA hel...  52.8       3e-04 
+UniRef90_A0A1B6CIG5 Uncharacterized protein n=5 Tax=Clastoptera a...  52.8       3e-04 
+UniRef90_UPI00148ACF7A uncharacterized protein LOC105327415 isofo...  52.8       4e-04 
+UniRef90_UPI0011B38B29 tudor domain-containing protein 7B-like n=...  52.8       4e-04 
+UniRef90_UPI00138F9F16 uncharacterized protein LOC116614427 isofo...  52.8       4e-04 
+UniRef90_H0UZA7 Tudor domain containing 9 n=4 Tax=Hystricomorpha ...  52.4       4e-04 
+UniRef90_A0A2Y9DLM8 ATP-dependent RNA helicase TDRD9 n=3 Tax=Euth...  52.4       4e-04 
+UniRef90_UPI001425A7F0 tudor domain-containing protein 1-like n=1...  52.4       4e-04 
+UniRef90_A0A087Y370 Uncharacterized protein n=1 Tax=Poecilia form...  52.4       4e-04 
+UniRef90_A0A4D9EET8 Pituitary-specific positive transcription fac...  52.4       4e-04 
+UniRef90_A0A2K5CAR8 Uncharacterized protein n=2 Tax=Aotus nancyma...  52.4       4e-04 
+UniRef90_A0A6J1TK15 maternal protein tudor-like n=1 Tax=Franklini...  52.4       4e-04 
+UniRef90_UPI00126277D9 ATP-dependent RNA helicase TDRD9 isoform X...  52.4       4e-04 
+UniRef90_A0A2A3EJB5 Maternal protein tudor n=1 Tax=Apis cerana ce...  52.4       4e-04 
+UniRef90_UPI00106B90AD LOW QUALITY PROTEIN: uncharacterized prote...  52.4       4e-04 
+UniRef90_UPI00129EB00D tudor domain-containing protein 6 n=1 Tax=...  52.4       4e-04 
+UniRef90_UPI000C20F857 maternal protein tudor-like isoform X1 n=4...  52.4       4e-04 
+UniRef90_A0A402F8N6 Uncharacterized protein n=1 Tax=Paroedura pic...  52.4       4e-04 
+UniRef90_A0A3Q3R7P0 Uncharacterized protein n=5 Tax=Monopterus al...  52.4       4e-04 
+UniRef90_A0A293MWW6 RNA helicase (Fragment) n=1 Tax=Ornithodoros ...  52.4       4e-04 
+UniRef90_A0A452II06 Tudor domain containing 6 n=12 Tax=Testudinid...  52.4       4e-04 
+UniRef90_A0A3B4Z7Q8 Uncharacterized protein n=2 Tax=Stegastes par...  52.4       5e-04 
+UniRef90_H2U1B7 Uncharacterized protein n=3 Tax=Takifugu rubripes...  52.4       5e-04 
+UniRef90_UPI000742AA71 RING finger protein 17 n=1 Tax=Cyprinodon ...  52.4       5e-04 
+UniRef90_UPI000C6F9C77 RING finger protein 17 n=2 Tax=Seriola Tax...  52.4       5e-04 
+UniRef90_A0A5C6PS81 Tudor domain-containing protein 1 n=1 Tax=Tak...  52.0       5e-04 
+UniRef90_A0A1B6GMF5 Uncharacterized protein n=1 Tax=Cuerna arida ...  52.0       5e-04 
+UniRef90_A0A3Q2R2R8 Uncharacterized protein n=2 Tax=Fundulus hete...  52.4       5e-04 
+UniRef90_A0A067QWN7 RING finger protein 17 n=4 Tax=Zootermopsis n...  52.0       5e-04 
+UniRef90_V4CK92 Uncharacterized protein n=1 Tax=Lottia gigantea T...  52.0       5e-04 
+UniRef90_A0A6I9J705 putative ATP-dependent RNA helicase TDRD9 n=1...  52.0       5e-04 
+UniRef90_A0A3P8WY92 Tudor domain containing 6 n=2 Tax=Cynoglossus...  52.0       5e-04 
+UniRef90_A0A498LPW1 Transmembrane 94-like isoform X2 n=2 Tax=Labe...  52.0       5e-04 
+UniRef90_H2U1B8 Uncharacterized protein n=9 Tax=Takifugu TaxID=31...  52.0       5e-04 
+UniRef90_A0A6J2V8F6 tudor domain-containing protein 6 n=1 Tax=Cha...  52.0       6e-04 
+UniRef90_A0A5J5CMM4 Uncharacterized protein n=8 Tax=Etheostoma Ta...  52.0       6e-04 
+UniRef90_UPI001454FB08 serine/threonine-protein kinase 31-like is...  51.6       6e-04 
+UniRef90_W4XXX6 Uncharacterized protein n=3 Tax=Strongylocentrotu...  52.0       6e-04 
+UniRef90_UPI000901D733 tudor domain-containing protein 6 n=1 Tax=...  52.0       6e-04 
+UniRef90_UPI00094E9C49 RING finger protein 17 n=1 Tax=Hippocampus...  51.6       7e-04 
+UniRef90_A0A2U9CAD8 Putative RING finger protein 17 n=1 Tax=Scoph...  51.6       7e-04 
+UniRef90_A0A401RVQ4 Uncharacterized protein n=1 Tax=Chiloscyllium...  51.6       7e-04 
+UniRef90_UPI000B92A4D4 maternal protein tudor-like n=1 Tax=Pieris...  51.6       7e-04 
+UniRef90_UPI000E6D93EA RING finger protein 17 n=1 Tax=Hyposmocoma...  51.6       7e-04 
+UniRef90_UPI0015AD0149 RING finger protein 17-like n=1 Tax=Stegod...  51.6       7e-04 
+UniRef90_UPI00147138FA LOW QUALITY PROTEIN: tudor domain-containi...  51.6       7e-04 
+UniRef90_UPI00143CE6CF maternal protein tudor isoform X1 n=4 Tax=...  51.6       7e-04 
+UniRef90_A0A6J2LD77 LOW QUALITY PROTEIN: ATP-dependent RNA helica...  51.6       7e-04 
+UniRef90_A0A6I9XPS3 tudor domain-containing protein 6 n=3 Tax=Col...  51.6       7e-04 
+UniRef90_UPI000333F195 ATP-dependent RNA helicase TDRD9 n=1 Tax=E...  51.6       7e-04 
+UniRef90_UPI0011E9FC62 tudor domain-containing protein 6-like iso...  51.6       7e-04 
+UniRef90_A0A662YY99 RING finger protein 17 n=1 Tax=Acipenser ruth...  51.6       8e-04 
+UniRef90_K1QZD2 Tudor domain-containing protein 7 n=2 Tax=Crassos...  51.2       8e-04 
+UniRef90_A0A5N5LAB4 Uncharacterized protein n=2 Tax=Pangasianodon...  51.6       8e-04 
+UniRef90_UPI0011E9EA59 RING finger protein 17 isoform X1 n=2 Tax=...  51.6       8e-04 
+UniRef90_A0A672UAZ5 Uncharacterized protein n=2 Tax=Psittacidae T...  51.6       8e-04 
+UniRef90_A0A3N0XKT1 RING finger protein 17 n=1 Tax=Anabarilius gr...  51.2       8e-04 
+UniRef90_UPI0012ECD558 LOW QUALITY PROTEIN: tudor domain-containi...  51.6       8e-04 
+UniRef90_A0A6A5EPE5 Uncharacterized protein n=3 Tax=Percidae TaxI...  51.2       9e-04 
+UniRef90_A0A6A4S2M5 Uncharacterized protein n=3 Tax=Scophthalmus ...  51.2       9e-04 
+UniRef90_A0A673XAT9 Uncharacterized protein n=6 Tax=Salmoninae Ta...  51.2       9e-04 
+UniRef90_UPI000BAF1891 RING finger protein 17-like isoform X1 n=7...  51.2       9e-04 
+UniRef90_UPI0011C3ABF5 tudor domain-containing protein 15 n=1 Tax...  51.2       0.001 
+UniRef90_A0A484E3N6 Uncharacterized protein n=1 Tax=Bremia lactuc...  51.2       0.001 
+UniRef90_UPI000E33D644 maternal protein tudor n=1 Tax=Solenopsis ...  51.2       0.001 
+UniRef90_UPI000595C9E5 maternal protein tudor n=1 Tax=Solenopsis ...  51.2       0.001 
+UniRef90_A0A182JIM9 Uncharacterized protein n=1 Tax=Anopheles atr...  51.2       0.001 
+UniRef90_A0A0L0BPT0 Maternal protein tudor n=3 Tax=Lucilia cuprin...  51.2       0.001 
+UniRef90_A0A6J2SA29 LOW QUALITY PROTEIN: tudor domain-containing ...  51.2       0.001 
+UniRef90_A0A1S2ZF82 putative ATP-dependent RNA helicase TDRD9 n=1...  51.2       0.001 
+UniRef90_A0A067R0H6 RNA helicase n=1 Tax=Zootermopsis nevadensis ...  51.2       0.001 
+UniRef90_A0A2D0Q329 tudor domain-containing protein 6 isoform X2 ...  51.2       0.001 
+UniRef90_A0A5C6PQ47 RING finger protein 17 (Fragment) n=2 Tax=Tak...  50.8       0.001 
+UniRef90_UPI00148E8683 tudor domain-containing protein 7 isoform ...  50.8       0.001 
+UniRef90_UPI0011CFDC8D tudor domain-containing protein 6-like iso...  51.2       0.001 
+UniRef90_UPI00148FDCD3 RING finger protein 17 isoform X1 n=4 Tax=...  50.8       0.001 
+UniRef90_A0A671UMM5 Uncharacterized protein n=2 Tax=Sparus aurata...  50.8       0.001 
+UniRef90_UPI00077FE2D1 uncharacterized protein LOC107447409 n=1 T...  51.2       0.001 
+UniRef90_A0A556UFM5 UDP-glucose:glycoprotein glucosyltransferase ...  50.8       0.001 
+UniRef90_UPI0003C8F977 ATP-dependent RNA helicase TDRD9 isoform X...  50.8       0.001 
+UniRef90_A0A182GW32 Uncharacterized protein n=5 Tax=Aedes albopic...  50.8       0.001 
+UniRef90_UPI000614DB14 maternal protein tudor isoform X1 n=2 Tax=...  50.8       0.001 
+UniRef90_G3VEY7 Tudor domain-containing protein 5 n=11 Tax=Metath...  50.8       0.001 
+UniRef90_UPI000C6DE363 uncharacterized protein LOC111616493 n=1 T...  50.8       0.001 
+UniRef90_UPI0005D0B4C9 maternal protein tudor-like isoform X1 n=5...  50.8       0.001 
+UniRef90_A0A182Y1N4 Uncharacterized protein n=1 Tax=Anopheles ste...  50.8       0.001 
+UniRef90_UPI0010698B01 uncharacterized protein LOC114530556 isofo...  50.8       0.001 
+UniRef90_UPI00148D8ACC tudor domain-containing protein 6 isoform ...  50.8       0.001 
+UniRef90_A0A5E4R240 Uncharacterized protein n=1 Tax=Leptidea sina...  50.8       0.001 
+UniRef90_K1QBL6 Tudor domain-containing protein 1 n=1 Tax=Crassos...  50.8       0.001 
+UniRef90_A0A4U5ULT5 Tudor domain-containing protein 6 n=1 Tax=Col...  50.8       0.001 
+UniRef90_A0A3Q2PJG3 Uncharacterized protein n=1 Tax=Fundulus hete...  50.8       0.001 
+UniRef90_A0A2I4C5D4 RING finger protein 17-like n=2 Tax=Austrofun...  50.8       0.001 
+UniRef90_UPI0007382A3A tudor domain-containing protein 1 isoform ...  50.8       0.001 
+UniRef90_UPI000C20606B uncharacterized protein LOC111427261 n=1 T...  50.4       0.001 
+UniRef90_A0A093HG71 Putative ATP-dependent RNA helicase TDRD9 (Fr...  50.4       0.001 
+UniRef90_UPI00084008FD uncharacterized protein LOC108630430 isofo...  50.8       0.001 
+UniRef90_UPI0012B5E3C5 tudor domain-containing protein 15-like is...  50.8       0.001 
+UniRef90_UPI0011B51C57 tudor domain-containing protein 1 isoform ...  50.4       0.001 
+UniRef90_A0A3Q3G0I1 Uncharacterized protein n=3 Tax=Kryptolebias ...  50.4       0.001 
+UniRef90_UPI000B9140C2 uncharacterized protein LOC110977121 isofo...  50.4       0.002 
+UniRef90_R7V661 Uncharacterized protein n=1 Tax=Capitella teleta ...  50.4       0.002 
+UniRef90_K1QC93 RING finger protein 17 n=15 Tax=Crassostrea gigas...  50.4       0.002 
+UniRef90_UPI00051F1420 putative ATP-dependent RNA helicase TDRD9 ...  50.4       0.002 
+UniRef90_UPI000C6E5C08 putative ATP-dependent RNA helicase TDRD12...  50.4       0.002 
+UniRef90_UPI00145890B1 uncharacterized protein LOC117338082 isofo...  50.4       0.002 
+UniRef90_A0A212FP82 Maternal protein tudor n=3 Tax=Danaus plexipp...  50.4       0.002 
+UniRef90_UPI0013044414 tudor domain-containing protein 15-like n=...  50.4       0.002 
+UniRef90_A0A3B4TSE8 Uncharacterized protein n=5 Tax=Seriola TaxID...  50.4       0.002 
+UniRef90_UPI001140F8DD uncharacterized protein LOC115215146 n=1 T...  50.4       0.002 
+UniRef90_A0A2G8L174 Putative tudor domain-containing protein 1 is...  50.4       0.002 
+UniRef90_UPI0011B3EB07 RING finger protein 17 isoform X1 n=2 Tax=...  50.4       0.002 
+UniRef90_A0A6I9HGA6 tudor domain-containing protein 15 n=5 Tax=Pa...  50.4       0.002 
+UniRef90_A0A2R5LIF6 Putative mrna splicing factor atp-dependent r...  50.4       0.002 
+UniRef90_UPI0010A98ADD tudor domain-containing protein 15 n=1 Tax...  50.4       0.002 
+UniRef90_UPI000B3DBAF2 tudor domain-containing protein 15 isoform...  50.4       0.002 
+UniRef90_UPI000A2A5665 RING finger protein 17 n=1 Tax=Exaiptasia ...  50.4       0.002 
+UniRef90_A0A3Q3JUS9 Uncharacterized protein n=7 Tax=Monopterus al...  50.4       0.002 
+UniRef90_UPI00034FC55B putative ATP-dependent RNA helicase TDRD9 ...  50.4       0.002 
+UniRef90_UPI0014437ED5 maternal protein tudor n=1 Tax=Megalopta g...  50.4       0.002 
+UniRef90_UPI000E40E6E7 LOW QUALITY PROTEIN: RING finger protein 1...  50.4       0.002 
+UniRef90_G5AWI0 Putative ATP-dependent RNA helicase TDRD9 n=1 Tax...  50.4       0.002 
+UniRef90_A0A2A4JPD5 Uncharacterized protein n=1 Tax=Heliothis vir...  50.4       0.002 
+UniRef90_A0A401NZ18 Uncharacterized protein n=1 Tax=Scyliorhinus ...  50.4       0.002 
+UniRef90_UPI0003EAC6DB tudor domain-containing protein 6 isoform ...  50.4       0.002 
+UniRef90_UPI0007F8D9F8 tudor domain-containing protein 6-like n=1...  50.4       0.002 
+UniRef90_A0A669Q7F0 Ring finger protein 17 n=1 Tax=Phasianus colc...  50.4       0.002 
+UniRef90_A0A1I8N4Q2 Uncharacterized protein n=1 Tax=Musca domesti...  50.4       0.002 
+UniRef90_A0A672KME4 Uncharacterized protein n=15 Tax=Cyprininae T...  50.1       0.002 
+UniRef90_A0A646QES9 ATP-dependent RNA helicase TDRD9 n=1 Tax=Hemi...  50.4       0.002 
+UniRef90_T1PB62 Tudor domain protein n=1 Tax=Musca domestica TaxI...  50.4       0.002 
+UniRef90_UPI000E1BF8C6 ATP-dependent RNA helicase TDRD9 isoform X...  50.1       0.002 
+UniRef90_B0WGL1 Maternal tudor protein n=3 Tax=Culex TaxID=53527 ...  50.4       0.002 
+UniRef90_UPI00148E1699 RING finger protein 17 isoform X1 n=5 Tax=...  50.1       0.002 
+UniRef90_UPI000626439D RING finger protein 17 isoform X1 n=3 Tax=...  50.1       0.002 
+UniRef90_A0A147BGI1 Putative mrna splicing factor atp-dependent r...  50.1       0.002 
+UniRef90_A0A4W3IN40 Uncharacterized protein n=6 Tax=Callorhinchus...  50.1       0.002 
+UniRef90_UPI001445809B RING finger protein 17 n=1 Tax=Epinephelus...  50.1       0.002 
+UniRef90_A0A315VM43 Uncharacterized protein n=5 Tax=Poeciliinae T...  50.1       0.002 
+UniRef90_UPI0009478D98 uncharacterized protein LOC109473903 n=1 T...  50.1       0.002 
+UniRef90_UPI00156A5C33 probable ATP-dependent RNA helicase spindl...  50.1       0.002 
+UniRef90_A0A5N5QWQ4 Transcription factor protein n=1 Tax=Ceratoba...  50.1       0.002 
+UniRef90_A0A3N0XQ81 MBT domain-containing protein 1 n=1 Tax=Anaba...  50.1       0.002 
+UniRef90_UPI0015AA8CFC uncharacterized protein LOC118182512 n=1 T...  50.1       0.002 
+UniRef90_UPI00155FFE08 ATP-dependent RNA helicase TDRD9-like n=2 ...  50.1       0.002 
+UniRef90_V2XTQ9 Transcription factor n=1 Tax=Moniliophthora rorer...  50.1       0.002 
+UniRef90_A0A1S3K1R6 RING finger protein 17 n=1 Tax=Lingula unguis...  50.1       0.002 
+UniRef90_A0A6J2UJF8 maternal protein tudor n=1 Tax=Drosophila leb...  50.1       0.002 
+UniRef90_A0A2U9CT07 Putative tudor domain-containing protein 6-li...  50.1       0.002 
+UniRef90_A0A2P4SBX0 Uncharacterized protein (Fragment) n=1 Tax=Ba...  50.1       0.002 
+UniRef90_A0A3N0YAP0 Tudor domain-containing protein 6 n=1 Tax=Ana...  50.1       0.002 
+UniRef90_UPI000E775C53 maternal protein tudor-like isoform X1 n=3...  50.1       0.002 
+UniRef90_W5MV27 RNA helicase n=2 Tax=Lepisosteus oculatus TaxID=7...  49.7       0.002 
+UniRef90_A0A3P8ZK96 Uncharacterized protein n=3 Tax=Esox lucius T...  50.1       0.002 
+UniRef90_UPI000F50495F RING finger protein 17 n=1 Tax=Tachysurus ...  50.1       0.002 
+UniRef90_A0A2W1BM51 Uncharacterized protein n=3 Tax=Helicoverpa a...  49.7       0.003 
+UniRef90_UPI000742817B tudor domain-containing protein 6-like n=1...  49.7       0.003 
+UniRef90_A0A154P9H4 Maternal protein tudor n=2 Tax=Dufourea novae...  49.7       0.003 
+UniRef90_A0A668SM01 Ring finger protein 17 n=1 Tax=Oreochromis au...  49.7       0.003 
+UniRef90_UPI0003F080CF putative ATP-dependent RNA helicase TDRD9 ...  49.7       0.003 
+UniRef90_UPI00148FE22F tudor domain-containing protein 6 n=1 Tax=...  49.7       0.003 
+UniRef90_UPI001055331F tudor domain-containing protein 1 isoform ...  49.7       0.003 
+UniRef90_A0A3Q1FQ24 Tudor domain containing 6 n=2 Tax=Acanthochro...  49.7       0.003 
+UniRef90_A0A1I8PVD9 Uncharacterized protein n=1 Tax=Stomoxys calc...  49.7       0.003 
+UniRef90_I3KFC1 Uncharacterized protein n=11 Tax=Pseudocrenilabri...  49.7       0.003 
+UniRef90_A0A663EU95 Tudor domain containing 15 n=2 Tax=Aquila chr...  49.7       0.003 
+UniRef90_UPI000B9123A9 uncharacterized protein LOC110988589 n=1 T...  49.7       0.003 
+UniRef90_F1NV00 Uncharacterized protein n=5 Tax=Phasianidae TaxID...  49.7       0.003 
+UniRef90_A0A1Y1JHN4 Uncharacterized protein n=1 Tax=Plasmodium go...  49.7       0.003 
+UniRef90_A0A2J7PCP5 RNA helicase n=1 Tax=Cryptotermes secundus Ta...  49.7       0.003 
+UniRef90_A0A3M0KWV4 Uncharacterized protein n=1 Tax=Hirundo rusti...  49.7       0.003 
+UniRef90_UPI00140F87EB ATP-dependent RNA helicase TDRD9 n=2 Tax=M...  49.3       0.003 
+UniRef90_A0A224ZBB5 Tudor domain-containing protein 1/4/6/7 n=3 T...  49.7       0.003 
+UniRef90_A0A668AUZ1 Uncharacterized protein n=11 Tax=Myripristis ...  49.3       0.003 
+UniRef90_A0A2J7QZX2 Uncharacterized protein n=2 Tax=Cryptotermes ...  49.3       0.003 
+UniRef90_A0A6A4J194 Uncharacterized protein n=1 Tax=Apolygus luco...  49.3       0.003 
+UniRef90_A0A673V8U2 Tudor domain containing 9 n=2 Tax=Suricata su...  49.3       0.003 
+UniRef90_UPI00053243FA tudor domain-containing protein 15-like n=...  49.3       0.003 
+UniRef90_UPI0008545C80 putative ATP-dependent RNA helicase TDRD9 ...  49.3       0.003 
+UniRef90_UPI001041D73C tudor domain-containing protein 6-like n=1...  49.3       0.004 
+UniRef90_UPI00103863F4 uncharacterized protein LOC114360174 n=1 T...  49.3       0.004 
+UniRef90_A0A2R2MMS9 ATP-dependent RNA helicase TDRD9 n=1 Tax=Ling...  49.3       0.004 
+UniRef90_A0A3Q3FIY2 Uncharacterized protein n=2 Tax=Labrus bergyl...  49.3       0.004 
+UniRef90_UPI001042819F LOW QUALITY PROTEIN: RING finger protein 1...  49.3       0.004 
+UniRef90_A0A6A4VR32 Maternal protein tudor n=1 Tax=Amphibalanus a...  49.3       0.004 
+UniRef90_UPI00065B949E uncharacterized protein LOC101851955 n=1 T...  49.3       0.004 
+UniRef90_UPI00097D4C86 RING finger protein 17 n=1 Tax=Paralichthy...  49.3       0.004 
+UniRef90_UPI000B9279CD probable ATP-dependent RNA helicase spindl...  49.3       0.004 
+UniRef90_A0A498LI49 Tudor domain-containing 6-like isoform X1 n=1...  49.3       0.004 
+UniRef90_A0A6J0BCC8 RING finger protein 17 n=1 Tax=Neodiprion lec...  49.3       0.004 
+UniRef90_UPI00071E53DC tudor domain-containing protein 6 n=1 Tax=...  49.3       0.004 
+UniRef90_A0A182RTK1 Uncharacterized protein n=1 Tax=Anopheles fun...  49.3       0.004 
+UniRef90_UPI0009A3E250 tudor domain-containing protein 6 n=1 Tax=...  49.3       0.004 
+UniRef90_A0A5E4R0P8 Uncharacterized protein n=1 Tax=Leptidea sina...  49.3       0.004 
+UniRef90_A0A3Q1ITX5 Tudor domain containing 6 n=2 Tax=Anabas test...  49.3       0.004 
+UniRef90_A0A1X7UQ57 Uncharacterized protein n=1 Tax=Amphimedon qu...  49.3       0.004 
+UniRef90_D6W9G2 RING finger protein 17-like Protein n=2 Tax=Tribo...  49.3       0.004 
+UniRef90_A0A6A4RSD6 Uncharacterized protein n=1 Tax=Scophthalmus ...  49.3       0.004 
+UniRef90_A0A1Y1K0F8 Uncharacterized protein (Fragment) n=8 Tax=Ph...  49.3       0.004 
+UniRef90_UPI00074FCC60 LOW QUALITY PROTEIN: putative ATP-dependen...  49.3       0.004 
+UniRef90_A0A0M4EX07 CG8920 (Fragment) n=4 Tax=Drosophila busckii ...  48.9       0.004 
+UniRef90_A0A401SCP2 Uncharacterized protein n=1 Tax=Chiloscyllium...  49.3       0.004 
+UniRef90_A0A5N4E1R9 ATP-dependent RNA helicase TDRD9 n=5 Tax=Came...  48.9       0.004 
+UniRef90_UPI000BAEC3A4 uncharacterized protein LOC111100584 isofo...  49.3       0.004 
+UniRef90_B4J7N8 GH21857 n=2 Tax=Drosophila grimshawi TaxID=7222 R...  49.3       0.004 
+UniRef90_UPI001408FDDC LOW QUALITY PROTEIN: tudor domain-containi...  49.3       0.004 
+UniRef90_UPI000E6D5B31 maternal protein tudor-like isoform X1 n=3...  49.3       0.004 
+UniRef90_W5LPY4 Uncharacterized protein n=2 Tax=Astyanax mexicanu...  48.9       0.004 
+UniRef90_UPI0010FBB286 tudor domain-containing protein 6 n=1 Tax=...  48.9       0.004 
+UniRef90_D6WEA3 Tudor n=5 Tax=Tribolium castaneum TaxID=7070 RepI...  48.9       0.005 
+UniRef90_A0A5J5CNS9 Uncharacterized protein (Fragment) n=2 Tax=Et...  48.9       0.005 
+UniRef90_A0A099Z715 Tudor domain-containing protein 6 (Fragment) ...  48.9       0.005 
+UniRef90_UPI00155E94AF RING finger protein 17 n=2 Tax=Etheostoma ...  48.9       0.005 
+UniRef90_UPI0005235ECF tudor domain-containing protein 6 n=1 Tax=...  48.9       0.005 
+UniRef90_W5NIA3 Tudor domain containing 6 n=1 Tax=Lepisosteus ocu...  48.9       0.005 
+UniRef90_A0A0N0PAT0 Maternal protein tudor n=6 Tax=Papilio TaxID=...  48.9       0.005 
+UniRef90_A0A1S3JVB9 uncharacterized protein LOC106176488 n=1 Tax=...  48.9       0.005 
+UniRef90_UPI00042B9EB5 LOW QUALITY PROTEIN: tudor domain-containi...  48.9       0.005 
+UniRef90_A0A5N4E189 ATP-dependent RNA helicase TDRD9 n=3 Tax=Came...  48.9       0.005 
+UniRef90_A0A668APG2 Uncharacterized protein n=1 Tax=Myripristis m...  48.9       0.005 
+UniRef90_A0A5A9NZM2 Tudor domain-containing protein 6 n=1 Tax=Tri...  48.9       0.005 
+UniRef90_UPI0010F57873 RING finger protein 17 n=1 Tax=Betta splen...  48.9       0.005 
+UniRef90_G3USV9 Tudor domain containing 15 n=2 Tax=Meleagris gall...  48.9       0.005 
+UniRef90_A0A3P8VEF9 Tudor domain-containing protein n=4 Tax=Cynog...  48.9       0.005 
+UniRef90_A0A667Y057 Uncharacterized protein n=1 Tax=Myripristis m...  48.9       0.005 
+UniRef90_UPI0010A328CE tudor domain-containing protein 6 isoform ...  48.9       0.005 
+UniRef90_A0A212FBP6 RING finger protein 17 n=2 Tax=Danaus plexipp...  48.9       0.005 
+UniRef90_UPI0007AD7ADC LOW QUALITY PROTEIN: tudor domain-containi...  48.9       0.006 
+UniRef90_A0A6L2PZX2 Uncharacterized protein n=1 Tax=Coptotermes f...  48.5       0.006 
+UniRef90_UPI000A1D0B13 maternal protein tudor n=1 Tax=Drosophila ...  48.9       0.006 
+UniRef90_A0A6J1WU94 RING finger protein 17 n=1 Tax=Galleria mello...  48.5       0.006 
+UniRef90_A0A1Z5L6B2 Serine protease HTRA2 mitochondrial (Fragment...  48.5       0.006 
+UniRef90_UPI0007E6110D maternal protein tudor n=1 Tax=Drosophila ...  48.5       0.006 
+UniRef90_A0A5C6NU74 Tudor domain-containing protein 6 n=3 Tax=Tak...  48.5       0.006 
+UniRef90_A0A484C8E1 Uncharacterized protein (Fragment) n=8 Tax=Pe...  48.5       0.006 
+UniRef90_A0A3B1IJW4 Uncharacterized protein n=1 Tax=Astyanax mexi...  48.5       0.006 
+UniRef90_C3XUE7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  48.5       0.006 
+UniRef90_A0A2U9C3Z1 Putative axonemal dynein light chain domain-c...  48.5       0.006 
+UniRef90_UPI00083C7CB8 maternal protein tudor n=1 Tax=Eufriesea m...  48.5       0.006 
+UniRef90_UPI0008164203 tudor domain-containing protein 15 n=5 Tax...  48.5       0.006 
+UniRef90_A0A4T0FVH3 Uncharacterized protein n=1 Tax=Wallemia hede...  48.5       0.006 
+UniRef90_UPI00123C3F9E uncharacterized protein LOC578673 n=1 Tax=...  48.5       0.006 
+UniRef90_F1R237 Tudor domain-containing 6 n=1 Tax=Danio rerio Tax...  48.5       0.006 
+UniRef90_UPI00104206E5 tudor domain-containing protein 6 n=1 Tax=...  48.5       0.007 
+UniRef90_UPI0007713BAB tudor domain-containing protein 15 n=4 Tax...  48.5       0.007 
+UniRef90_UPI0012ED12A0 ATP-dependent RNA helicase TDRD9 n=1 Tax=A...  48.5       0.007 
+UniRef90_UPI00063F68F4 maternal protein tudor isoform X1 n=2 Tax=...  48.5       0.007 
+UniRef90_UPI0015E1FFE6 RING finger protein 17 isoform X1 n=2 Tax=...  48.5       0.007 
+UniRef90_A0A261Y190 Uncharacterized protein n=1 Tax=Bifiguratus a...  48.5       0.007 
+UniRef90_A0A091DJL6 Tudor domain-containing protein 5 n=1 Tax=Fuk...  48.5       0.007 
+UniRef90_UPI0007E83151 uncharacterized protein LOC108029639 isofo...  48.5       0.007 
+UniRef90_A0A131XX24 RNA helicase n=6 Tax=Ixodes TaxID=6944 RepID=...  48.1       0.007 
+UniRef90_UPI0003F0DD11 uncharacterized protein LOC102806254 n=1 T...  48.5       0.007 
+UniRef90_A0A4Y9YWZ7 Smr domain-containing protein n=1 Tax=Dentipe...  48.1       0.007 
+UniRef90_A0A674IL95 Tudor domain containing 15 n=10 Tax=Durocrypt...  48.5       0.007 
+UniRef90_A0A6I8N027 Uncharacterized protein n=3 Tax=Ornithorhynch...  48.5       0.007 
+UniRef90_A0A218VC78 Tudor domain-containing protein 15 n=2 Tax=Lo...  48.1       0.007 
+UniRef90_UPI0012B5107E RING finger protein 17-like isoform X1 n=2...  48.1       0.007 
+UniRef90_A0A2C9JH92 Uncharacterized protein n=1 Tax=Biomphalaria ...  48.5       0.008 
+UniRef90_A0A061I2P6 Putative ATP-dependent RNA helicase TDRD9 iso...  48.1       0.008 
+UniRef90_UPI000F69070F RING finger protein 17-like n=2 Tax=Penaeu...  48.1       0.008 
+UniRef90_A0A4W4ECV4 RNA helicase n=5 Tax=Electrophorus electricus...  48.1       0.008 
+UniRef90_A0A2G8KVV0 RNA helicase n=1 Tax=Stichopus japonicus TaxI...  48.1       0.008 
+UniRef90_H3DIZ7 Uncharacterized protein n=2 Tax=Tetraodon nigrovi...  48.1       0.008 
+UniRef90_A0A662YV47 Tudor domain-containing protein 6 n=2 Tax=Aci...  48.1       0.008 
+UniRef90_V8NEV9 Tudor domain-containing protein 6 (Fragment) n=5 ...  48.1       0.008 
+UniRef90_UPI00052916F8 tudor domain-containing protein 6 n=1 Tax=...  48.1       0.008 
+UniRef90_F6Y670 Tudor domain containing 9 n=1 Tax=Equus caballus ...  48.1       0.008 
+UniRef90_A0A6J8AUR3 TDRD1_4_6_7 n=1 Tax=Mytilus coruscus TaxID=42...  48.1       0.009 
+UniRef90_UPI001486F028 tudor domain-containing protein 7A isoform...  48.1       0.009 
+UniRef90_UPI0014256456 tudor domain-containing protein 7-like n=1...  48.1       0.009 
+UniRef90_UPI000B50E3C3 LOW QUALITY PROTEIN: RING finger protein 1...  48.1       0.009 
+UniRef90_F1R3C5 Ring finger protein 17 n=1 Tax=Danio rerio TaxID=...  48.1       0.009 
+UniRef90_T1FQ43 Uncharacterized protein n=1 Tax=Helobdella robust...  48.1       0.009 
+UniRef90_UPI000529AF98 tudor domain-containing protein 15-like n=...  48.1       0.009 
+UniRef90_UPI000E6E3C81 tudor domain-containing protein 7B-like n=...  48.1       0.009 
+UniRef90_A0A0P5V6J3 Tudor domain-containing protein n=4 Tax=Daphn...  48.1       0.009 
+UniRef90_UPI000EF77B28 uncharacterized protein LOC113496502 n=1 T...  48.1       0.009 
+UniRef90_M9SYC4 Tudor domain-containing 7 protein n=2 Tax=Branchi...  47.8       0.009 
+UniRef90_UPI000A1C42EC tudor domain-containing protein 6 n=1 Tax=...  47.8       0.010 
+UniRef90_A0A034V4B4 Maternal protein tudor n=5 Tax=Bactrocera Tax...  47.8       0.010 
+UniRef90_W5KUQ3 Ring finger protein 17 n=3 Tax=Astyanax mexicanus...  47.8       0.011 
+UniRef90_A0A6J2TL18 tudor domain-containing protein 7 isoform X1 ...  47.8       0.011 
+UniRef90_A0A3B4ANB9 Tudor domain containing 6 n=2 Tax=Periophthal...  47.8       0.011 
+UniRef90_UPI00097D5DF0 tudor domain-containing protein 6-like n=1...  47.8       0.011 
+UniRef90_K7JU52 Uncharacterized protein n=1 Tax=Nasonia vitripenn...  47.8       0.011 
+UniRef90_A0A482V4D2 Maternal protein tudor n=1 Tax=Asbolus verruc...  47.8       0.011 
+UniRef90_A0A182K943 Uncharacterized protein n=1 Tax=Anopheles chr...  47.8       0.011 
+UniRef90_UPI0015A6240C tudor domain-containing protein 6 n=1 Tax=...  47.8       0.011 
+UniRef90_UPI0006D8E3D8 tudor domain-containing protein 5 n=1 Tax=...  47.8       0.011 
+UniRef90_A0A060W2P5 Uncharacterized protein n=18 Tax=Salmoninae T...  47.8       0.011 
+UniRef90_UPI0015E1C051 tudor domain-containing protein 15 n=1 Tax...  47.8       0.012 
+UniRef90_A0A3S3Q835 RING finger protein 17-like isoform X1 n=1 Ta...  47.8       0.012 
+UniRef90_A0A091QWE4 Tudor domain-containing protein 6 (Fragment) ...  47.8       0.012 
+UniRef90_UPI0006710177 tudor domain-containing protein 6 n=2 Tax=...  47.8       0.012 
+UniRef90_A0A137QDP4 Uncharacterized protein n=1 Tax=Leucoagaricus...  47.8       0.012 
+UniRef90_A0A2T7NMR8 Uncharacterized protein n=4 Tax=Pomacea canal...  47.4       0.012 
+UniRef90_UPI000FFD29A0 tudor domain-containing protein 15 n=1 Tax...  47.8       0.013 
+UniRef90_UPI000496F3F1 tudor domain-containing protein 6-like n=1...  47.8       0.013 
+UniRef90_UPI000A1C5CDD RING finger protein 17 n=1 Tax=Boleophthal...  47.4       0.013 
+UniRef90_A0A286YB87 Si:ch211-189e2.3 n=7 Tax=Danio rerio TaxID=79...  47.4       0.013 
+UniRef90_A0A1V4JNB5 Tudor domain-containing protein 6 n=2 Tax=Col...  47.8       0.013 
+UniRef90_A0A3B4AL91 Tudor domain containing 6 n=3 Tax=Periophthal...  47.4       0.013 
+UniRef90_UPI0011765869 tudor domain-containing protein 15-like n=...  47.4       0.013 
+UniRef90_UPI000A2C0319 RING finger protein 17-like isoform X1 n=2...  47.4       0.013 
+UniRef90_UPI001056A0C1 tudor domain-containing protein 15-like n=...  47.4       0.013 
+UniRef90_A0A3B5AAS8 Tudor domain containing 6 n=1 Tax=Stegastes p...  47.4       0.014 
+UniRef90_G5B1A6 RING finger protein 17 n=4 Tax=Heterocephalus gla...  47.4       0.014 
+UniRef90_A0A3Q3MRH5 Ring finger protein 17 n=2 Tax=Mastacembelus ...  47.4       0.014 
+UniRef90_B4GA65 GL11326 n=5 Tax=pseudoobscura subgroup TaxID=3235...  47.4       0.014 
+UniRef90_A0A3B3SNV8 Uncharacterized protein n=3 Tax=Paramormyrops...  47.4       0.014 
+UniRef90_A0A0A9W3F7 RING finger protein 17 n=3 Tax=Lygus hesperus...  47.4       0.014 
+UniRef90_I3IY50 Uncharacterized protein n=20 Tax=Pseudocrenilabri...  47.4       0.015 
+UniRef90_UPI000CDFF1B0 LOW QUALITY PROTEIN: ATP-dependent RNA hel...  47.4       0.015 
+UniRef90_A0A3S2LH46 Uncharacterized protein n=1 Tax=Chilo suppres...  47.4       0.015 
+UniRef90_UPI0004F47BC2 tudor domain-containing protein 15 n=2 Tax...  47.4       0.015 
+UniRef90_A0A672Q1J1 Tudor domain containing 6 n=2 Tax=Sinocycloch...  47.4       0.015 
+UniRef90_UPI00158AA3F2 maternal protein tudor-like isoform X1 n=4...  47.4       0.015 
+UniRef90_UPI000529F6BE tudor domain-containing protein 6-like n=1...  47.4       0.015 
+UniRef90_A0A1Y1XJK1 Uncharacterized protein n=1 Tax=Anaeromyces r...  47.4       0.015 
+UniRef90_A0A0P7UIP2 Tudor domain-containing protein 6-like n=4 Ta...  47.4       0.015 
+UniRef90_A0A093H5E3 Tudor domain-containing protein 6 (Fragment) ...  47.4       0.015 
+UniRef90_A0A6J0BKM6 maternal protein tudor n=1 Tax=Neodiprion lec...  47.4       0.015 
+UniRef90_UPI0007E5E55C tudor domain-containing protein 7B isoform...  47.4       0.015 
+UniRef90_U3JFM9 Uncharacterized protein n=4 Tax=Passeriformes Tax...  47.4       0.015 
+UniRef90_A0A4W3IGI4 Tudor domain containing 15 n=2 Tax=Callorhinc...  47.4       0.016 
+UniRef90_K7GGP5 Uncharacterized protein n=3 Tax=Pelodiscus sinens...  47.4       0.016 
+UniRef90_A0A6L2PDQ2 Uncharacterized protein n=1 Tax=Coptotermes f...  47.4       0.016 
+UniRef90_UPI00146B8A80 tudor domain-containing protein 6-like iso...  47.4       0.016 
+UniRef90_UPI0008F99FEC putative ATP-dependent RNA helicase TDRD12...  47.4       0.016 
+UniRef90_UPI000675CD49 putative ATP-dependent RNA helicase TDRD12...  47.4       0.016 
+UniRef90_UPI0005D006D4 RING finger protein 17 isoform X11 n=1 Tax...  47.0       0.017 
+UniRef90_UPI0011B3688B tudor domain-containing protein 6-like n=1...  47.0       0.017 
+UniRef90_UPI0004F0CB3D tudor domain-containing protein 15-like n=...  47.0       0.018 
+UniRef90_UPI0015B2DCFC tudor domain-containing protein 6 isoform ...  47.0       0.018 
+UniRef90_UPI000E1C7781 tudor domain-containing protein 6 n=2 Tax=...  47.0       0.018 
+UniRef90_UPI001402D492 tudor domain-containing protein 6-like n=1...  47.0       0.018 
+UniRef90_V9K7U7 Tudor domain-containing protein 6 (Fragment) n=2 ...  47.0       0.018 
+UniRef90_UPI001161B022 tudor domain-containing protein 1 isoform ...  47.0       0.018 
+UniRef90_A0A0C9QYQ3 Tud_1 protein (Fragment) n=7 Tax=Fopius arisa...  47.0       0.018 
+UniRef90_A0A3S3P4P5 RING finger protein 17-like protein n=1 Tax=D...  47.0       0.019 
+UniRef90_A0A484AXP1 Uncharacterized protein n=2 Tax=Drosophila na...  47.0       0.019 
+UniRef90_A0A4X2LNI9 Uncharacterized protein n=6 Tax=Diprotodontia...  47.0       0.019 
+UniRef90_A0A6J8BSJ3 TDRD1_4_6_7 n=1 Tax=Mytilus coruscus TaxID=42...  47.0       0.019 
+UniRef90_A0A4W3I021 Uncharacterized protein n=1 Tax=Callorhinchus...  47.0       0.019 
+UniRef90_F7D3M8 T-complex-associated-testis-expressed 1 n=2 Tax=X...  47.0       0.020 
+UniRef90_UPI0007781156 tudor domain-containing protein 15 n=1 Tax...  47.0       0.020 
+UniRef90_A0A3P8Z227 Si:dkeyp-93d12.1 n=2 Tax=Esox lucius TaxID=80...  47.0       0.020 
+UniRef90_A0A2R5LBJ1 Putative transcriptional coactivator (Fragmen...  47.0       0.020 
+UniRef90_G1KNB7 Tudor domain containing 6 n=2 Tax=Anolis caroline...  47.0       0.021 
+UniRef90_UPI00146A7BAF ATP-dependent RNA helicase TDRD9 n=1 Tax=M...  47.0       0.021 
+UniRef90_A0JM63 Uncharacterized protein n=5 Tax=Xenopus tropicali...  46.6       0.021 
+UniRef90_UPI0012AC3328 tudor domain-containing protein 15 isoform...  47.0       0.021 
+UniRef90_A0A093IWA9 Tudor domain-containing protein 6 (Fragment) ...  46.6       0.022 
+UniRef90_A0A3Q4HSF7 Tudor domain containing 6 n=2 Tax=Pseudocreni...  46.6       0.022 
+UniRef90_UPI000E41E246 tudor domain-containing protein 6-like n=1...  46.6       0.022 
+UniRef90_A0A1W5RVV7 Tudor domain containing protein 9 TDRD9 (Frag...  46.6       0.022 
+UniRef90_A0A3M0L272 Uncharacterized protein n=2 Tax=Passeriformes...  46.6       0.023 
+UniRef90_UPI000A2A7C19 uncharacterized protein LOC110236214 n=1 T...  46.6       0.023 
+UniRef90_A0A493TQM3 Tudor domain containing 6 n=3 Tax=Anatidae Ta...  46.6       0.023 
+UniRef90_UPI000EF7F965 uncharacterized protein LOC113501329 n=1 T...  46.6       0.024 
+UniRef90_A0A3L8T070 Uncharacterized protein (Fragment) n=1 Tax=Ch...  46.6       0.024 
+UniRef90_A0A4W3HZ02 Uncharacterized protein n=1 Tax=Callorhinchus...  46.6       0.024 
+UniRef90_A0A3N0YC23 Tudor domain-containing protein 6 n=1 Tax=Ana...  46.6       0.024 
+UniRef90_A0A4W3HT24 Uncharacterized protein n=1 Tax=Callorhinchus...  46.6       0.024 
+UniRef90_A0A3P9BJY1 RNA helicase n=5 Tax=Pseudocrenilabrinae TaxI...  46.6       0.025 
+UniRef90_A0A6G1A5B4 TDR15 protein (Fragment) n=1 Tax=Crocuta croc...  46.6       0.025 
+UniRef90_UPI000C14127F maternal protein tudor-like isoform X1 n=4...  46.6       0.025 
+UniRef90_A0A182M2D3 Uncharacterized protein n=1 Tax=Anopheles cul...  46.6       0.025 
+UniRef90_UPI0012BC5F1C tudor domain-containing protein 7A-like n=...  46.6       0.025 
+UniRef90_A0A3Q2VRR1 Uncharacterized protein n=3 Tax=Haplochromis ...  46.6       0.026 
+UniRef90_A0A0Q9X9W3 Uncharacterized protein, isoform D n=7 Tax=mo...  46.6       0.026 
+UniRef90_A0A210PGL2 Tudor domain-containing protein 12 n=2 Tax=Mi...  46.6       0.026 
+UniRef90_A0A665V4U3 Si:dkeyp-93d12.1 n=1 Tax=Echeneis naucrates T...  46.6       0.027 
+UniRef90_A0A094KWZ2 Tudor domain-containing protein 6 (Fragment) ...  46.6       0.027 
+UniRef90_A0A091R3B4 Tudor domain-containing protein 6 (Fragment) ...  46.6       0.027 
+UniRef90_A0A1U8DLJ3 tudor domain-containing protein 15 n=4 Tax=Cr...  46.6       0.027 
+UniRef90_UPI0006D8E38E tudor domain-containing protein 6 n=1 Tax=...  46.6       0.027 
+UniRef90_UPI001446A0FF tudor domain-containing protein 6 isoform ...  46.6       0.027 
+UniRef90_UPI00146C353B tudor domain-containing protein 6-like n=1...  46.6       0.027 
+UniRef90_A0A2H1WKT5 SFRICE_000815 (Fragment) n=1 Tax=Spodoptera f...  46.6       0.027 
+UniRef90_A0A2R5LD63 Putative transcriptional coactivator (Fragmen...  46.6       0.028 
+UniRef90_A0A5N5PSZ6 Uncharacterized protein n=2 Tax=Pangasianodon...  46.2       0.028 
+UniRef90_UPI00067D4D85 maternal protein tudor-like isoform X1 n=3...  46.6       0.029 
+UniRef90_UPI0005EDAD88 maternal protein tudor isoform X1 n=2 Tax=...  46.2       0.030 
+UniRef90_A0A671V507 Si:dkeyp-93d12.1 n=3 Tax=Sparus aurata TaxID=...  46.2       0.030 
+UniRef90_A0A6G0JAX8 Tudor domain-containing protein 7B n=1 Tax=La...  46.2       0.030 
+UniRef90_A0A668W5G2 RNA helicase n=4 Tax=Pseudocrenilabrinae TaxI...  46.2       0.032 
+UniRef90_A0A226MPE5 Uncharacterized protein n=1 Tax=Callipepla sq...  46.2       0.032 
+UniRef90_A0A671V468 Si:dkeyp-93d12.1 n=1 Tax=Sparus aurata TaxID=...  46.2       0.032 
+UniRef90_UPI000B3C8E14 maternal protein tudor n=1 Tax=Bombyx mori...  46.2       0.032 
+UniRef90_UPI0007383D1B maternal protein tudor isoform X1 n=2 Tax=...  46.2       0.032 
+UniRef90_UPI000DF69D54 maternal protein tudor-like isoform X1 n=4...  46.2       0.033 
+UniRef90_A0A2C9JEU3 Uncharacterized protein n=1 Tax=Biomphalaria ...  46.2       0.033 
+UniRef90_UPI000B45A714 putative ATP-dependent RNA helicase TDRD12...  46.2       0.034 
+UniRef90_UPI000FFB1DFA LOW QUALITY PROTEIN: ATP-dependent RNA hel...  46.2       0.034 
+UniRef90_UPI0012EE8D22 tudor domain-containing protein 15-like n=...  46.2       0.035 
+UniRef90_F1S9V4 Uncharacterized protein n=3 Tax=Sus scrofa TaxID=...  45.8       0.037 
+UniRef90_A0A1Y2ABQ7 Uncharacterized protein n=1 Tax=Neocallimasti...  45.8       0.037 
+UniRef90_A0A0P4W5H6 Uncharacterized protein n=4 Tax=Scylla olivac...  45.8       0.038 
+UniRef90_A0A1X7TYJ9 Uncharacterized protein n=2 Tax=Amphimedon qu...  45.8       0.038 
+UniRef90_A0A671NES9 Uncharacterized protein n=18 Tax=Cyprininae T...  45.8       0.038 
+UniRef90_A0A668W369 RNA helicase n=2 Tax=Oreochromis TaxID=8139 R...  45.8       0.041 
+UniRef90_UPI0005281F51 tudor domain-containing protein 15-like n=...  45.8       0.041 
+UniRef90_UPI00052888B3 tudor domain-containing protein 15-like n=...  45.8       0.042 
+UniRef90_A0A3P8QPG1 RNA helicase n=5 Tax=Pseudocrenilabrinae TaxI...  45.8       0.043 
+UniRef90_A0A2V0PFC0 Uncharacterized protein n=1 Tax=Raphidocelis ...  45.8       0.043 
+UniRef90_A0A6J1TCH5 tudor domain-containing protein 7A-like isofo...  45.8       0.044 
+UniRef90_A0A1U8CI52 tudor domain-containing protein 15 n=1 Tax=Me...  45.8       0.044 
+UniRef90_A0A1E1XLY1 Putative transcriptional coactivator (Fragmen...  45.8       0.045 
+UniRef90_A0A3B4Z4I8 Si:dkeyp-93d12.1 n=2 Tax=Stegastes partitus T...  45.8       0.046 
+UniRef90_A0A1A6HKL1 Uncharacterized protein (Fragment) n=1 Tax=Ne...  45.8       0.047 
+UniRef90_UPI00106D74E9 tudor domain-containing protein 1-like n=1...  45.8       0.047 
+UniRef90_A0A091RT01 Tudor domain-containing protein 6 (Fragment) ...  45.8       0.047 
+UniRef90_H3ARN7 Tudor domain containing 6 n=1 Tax=Latimeria chalu...  45.8       0.048 
+UniRef90_UPI0009949645 uncharacterized protein LOC109857491 isofo...  45.8       0.048 
+UniRef90_UPI0008737733 maternal protein tudor isoform X1 n=2 Tax=...  45.8       0.049 
+UniRef90_W4Z736 Glutaminyl-peptide cyclotransferase n=5 Tax=Stron...  45.8       0.049 
+UniRef90_A0A553RH58 Uncharacterized protein n=1 Tax=Danionella tr...  45.4       0.050 
+UniRef90_A0A1S3SAD6 tudor domain-containing protein 6 n=14 Tax=Sa...  45.8       0.050 
+UniRef90_A0A3L7HB61 TDRD15 n=2 Tax=Cricetulus griseus TaxID=10029...  45.4       0.050 
+UniRef90_A0A1Y2B6G4 Uncharacterized protein n=1 Tax=Neocallimasti...  45.4       0.053 
+UniRef90_A0A1Z5L504 Uncharacterized protein (Fragment) n=1 Tax=Or...  45.4       0.053 
+UniRef90_A0A667YMW7 Si:dkeyp-93d12.1 n=2 Tax=Myripristis murdjan ...  45.4       0.054 
+UniRef90_UPI0014713730 LOW QUALITY PROTEIN: tudor domain-containi...  45.4       0.056 
+UniRef90_A0A673AY12 Ring finger protein 17 n=2 Tax=Sphaeramia orb...  45.4       0.058 
+UniRef90_A0A194PW48 Maternal protein tudor n=5 Tax=Papilio xuthus...  45.4       0.059 
+UniRef90_A0A4Y2BDU3 Tudor domain-containing protein 1 n=1 Tax=Ara...  45.4       0.060 
+UniRef90_A0A665V499 Si:dkeyp-93d12.1 n=2 Tax=Echeneis naucrates T...  45.4       0.062 
+UniRef90_UPI00146C9B44 tudor domain-containing protein 6 n=1 Tax=...  45.4       0.063 
+UniRef90_A0A091EHS4 Putative ATP-dependent RNA helicase TDRD9 (Fr...  45.1       0.065 
+UniRef90_UPI000678A036 maternal protein tudor-like isoform X1 n=1...  45.1       0.068 
+UniRef90_UPI0006788CFA maternal protein tudor-like isoform X4 n=1...  45.1       0.070 
+UniRef90_UPI000A1C3790 tudor domain-containing protein 1 n=1 Tax=...  45.1       0.070 
+UniRef90_A0A485KT55 Aste57867_10877 protein n=1 Tax=Aphanomyces s...  45.1       0.071 
+UniRef90_UPI0006415D06 ankyrin repeat domain-containing protein 1...  45.1       0.072 
+UniRef90_A0A2I0U300 Tudor domain-containing protein 15 n=2 Tax=Sc...  45.1       0.073 
+UniRef90_A0A482WWM0 Uncharacterized protein n=1 Tax=Laodelphax st...  45.1       0.077 
+UniRef90_A0A444TYH0 Tudor domain-containing protein 6 n=2 Tax=Aci...  45.1       0.077 
+UniRef90_A0A0S3QP78 Protein TIC 214 n=1 Tax=Gnetum ula TaxID=3383...  45.1       0.079 
+UniRef90_A0A553RCA4 Uncharacterized protein (Fragment) n=1 Tax=Da...  45.1       0.082 
+UniRef90_A0A091NEG7 Tudor domain-containing protein 6 (Fragment) ...  44.7       0.088 
+UniRef90_UPI0005F3C567 uncharacterized protein LOC105568703 n=1 T...  44.7       0.089 
+UniRef90_C3Z5T8 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.7       0.089 
+UniRef90_UPI000719BF34 uncharacterized protein LOC106818830 n=1 T...  44.7       0.090 
+UniRef90_UPI0006C95015 maternal protein tudor isoform X1 n=3 Tax=...  44.7       0.093 
+UniRef90_A0A667WUC9 Uncharacterized protein n=4 Tax=Myripristis m...  44.7       0.094 
+UniRef90_A0A6J1N0I3 probable ATP-dependent RNA helicase spindle-E...  44.7       0.098 
+UniRef90_V5GSF3 Maternal protein tudor (Fragment) n=1 Tax=Anoplop...  44.7       0.099 
+UniRef90_UPI0008FA00CD tudor domain-containing protein 6-like n=1...  44.7       0.10  
+UniRef90_A0A3B4DM88 Uncharacterized protein n=2 Tax=Pygocentrus n...  44.3       0.11  
+UniRef90_L7M1F6 Putative transcriptional coactivator n=2 Tax=Rhip...  44.7       0.11  
+UniRef90_A0A0F8AWR5 Tudor domain-containing protein 7A n=1 Tax=La...  44.7       0.11  
+UniRef90_UPI001261F3CA tudor domain-containing protein 15 isoform...  44.3       0.12  
+UniRef90_E9FZJ6 Uncharacterized protein n=1 Tax=Daphnia pulex Tax...  44.3       0.13  
+UniRef90_H2ZYQ6 Tudor domain containing 9 n=2 Tax=Latimeria chalu...  44.3       0.13  
+UniRef90_A0A267GVF2 ANK_REP_REGION domain-containing protein n=4 ...  44.3       0.14  
+UniRef90_C0ILT9 Ankyrin repeat protein 17-like protein n=1 Tax=Hy...  44.3       0.14  
+UniRef90_A0A2T7NZD9 RNA helicase n=2 Tax=Pomacea canaliculata Tax...  43.9       0.15  
+UniRef90_D5XM94 Tudor domain containing 6, 5 prime (Fragment) n=1...  43.9       0.15  
+UniRef90_A0A1J1GX02 Cnd1 domain-containing protein n=1 Tax=Plasmo...  43.9       0.16  
+UniRef90_A0A3B4TIZ2 Si:dkeyp-93d12.1 n=5 Tax=Seriola TaxID=8160 R...  43.9       0.17  
+UniRef90_A0A448Z4A6 Uncharacterized protein n=1 Tax=Pseudo-nitzsc...  43.9       0.18  
+UniRef90_A0A164UII7 Uncharacterized protein n=3 Tax=Daphnia magna...  43.9       0.18  
+UniRef90_A0A060RRX8 Nucleoporin NUP100/NSP100, putative n=23 Tax=...  43.5       0.20  
+UniRef90_A0A4T0LLV9 Transcription factor n=5 Tax=Wallemia mellico...  43.5       0.21  
+UniRef90_A0A3B4TIF4 Si:dkeyp-93d12.1 n=1 Tax=Seriola dumerili Tax...  43.1       0.25  
+UniRef90_A0A3Q3GFW4 Si:dkeyp-93d12.1 n=2 Tax=Labrus bergylta TaxI...  43.1       0.25  
+UniRef90_A8J724 Transcriptional coactivator-like protein n=1 Tax=...  43.1       0.28  
+UniRef90_E3JUL1 Vps54 domain-containing protein n=4 Tax=Puccinia ...  42.7       0.33  
+UniRef90_UPI00143CE9AF tudor domain-containing protein 7A-like is...  42.7       0.34  
+UniRef90_A0A084W4V0 Maternal tudor protein n=1 Tax=Anopheles sine...  42.7       0.41  
+UniRef90_UPI00035958DF uncharacterized protein LOC101849772 n=1 T...  42.7       0.42  
+UniRef90_UPI00104257C6 tudor domain-containing protein 7 n=1 Tax=...  42.4       0.44  
+UniRef90_A0A1S3REU8 tudor domain-containing protein 7B-like n=24 ...  42.4       0.46  
+UniRef90_A0A091IDE1 Tudor domain-containing protein 6 (Fragment) ...  42.0       0.63  
+UniRef90_H9J608 Uncharacterized protein n=4 Tax=Bombyx TaxID=7090...  41.6       0.84  
+UniRef90_A0A653HCH7 Patatin-like phospholipase, putative n=1 Tax=...  41.2       1.2   
+UniRef90_W5J6W9 Maternal tudor protein n=2 Tax=Nyssorhynchus TaxI...  40.4       1.9   
+UniRef90_Q5VSI4 Si:dkeyp-93d12.1 n=3 Tax=Danio rerio TaxID=7955 R...  40.4       2.1   
+UniRef90_B8CBD3 Uncharacterized protein n=1 Tax=Thalassiosira pse...  40.0       2.4   
+UniRef90_A0A3M7L4X2 Uncharacterized protein n=2 Tax=Auxenochlorel...  40.0       2.6   
+UniRef90_A0A1C3KUX5 Uncharacterized protein n=3 Tax=Plasmodium ov...  39.7       3.2   
+UniRef90_A0A2T7Q1N9 ANK_REP_REGION domain-containing protein n=1 ...  39.3       4.2   
+UniRef90_A0A182F4B0 Uncharacterized protein n=1 Tax=Anopheles alb...  39.3       4.3   
+UniRef90_A0A4D5RSZ3 RNA helicase (Fragment) n=3 Tax=Ixodes scapul...  39.3       4.3   
+UniRef90_UPI000C75BE47 TRIO and F-actin-binding protein-like n=1 ...  38.9       4.9   
+UniRef90_UPI000D738B08 LOW QUALITY PROTEIN: ankyrin repeat domain...  38.9       6.0   
+UniRef90_I0IN64 Putative signal transduction histidine kinase wit...  38.5       8.2   
+UniRef90_UPI0006763E12 probable ATP-dependent RNA helicase spindl...  38.1       8.3   
+UniRef90_UPI000C13FF22 putative ATP-dependent RNA helicase TDRD12...  38.1       8.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.130    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2794072044672
+Warning: [psiblast] Query_1 sp|Q92667|AKAP1_H.. : Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics 
+Results from round 2
+
+
+Query= sp|Q92667|AKAP1_HUMAN A-kinase anchor protein 1, mitochondrial
+OS=Homo sapiens OX=9606 GN=AKAP1 PE=1 SV=1
+
+Length=903
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI0012DF1D3B titin isoform X1 n=5 Tax=Oncorhynchus TaxI...  446        3e-136
+UniRef90_UPI0015AD8D48 A-kinase anchor protein 1, mitochondrial-l...  442        3e-135
+UniRef90_UPI0006B0F10B uncharacterized protein LOC106471261 isofo...  308        5e-86 
+UniRef90_A0A2T7PHS9 Tudor domain-containing protein n=1 Tax=Pomac...  283        3e-77 
+UniRef90_UPI0003332E38 RING finger protein 17 isoform X1 n=2 Tax=...  253        2e-67 
+UniRef90_F7ETJ9 Uncharacterized protein n=9 Tax=Metatheria TaxID=...  251        1e-66 
+UniRef90_UPI000331654C RING finger protein 17 n=1 Tax=Sorex arane...  251        1e-66 
+UniRef90_A0A2Y9QFX5 RING finger protein 17 n=2 Tax=Afrotheria Tax...  250        2e-66 
+UniRef90_A0A091L3E2 RING finger protein 17 (Fragment) n=1 Tax=Cat...  249        2e-66 
+UniRef90_J9NYU9 Ring finger protein 17 n=8 Tax=Canidae TaxID=9608...  250        2e-66 
+UniRef90_UPI000DC1B1ED RING finger protein 17 isoform X2 n=1 Tax=...  249        4e-66 
+UniRef90_Q4R3G4 RING finger protein 17 n=89 Tax=Catarrhini TaxID=...  249        5e-66 
+UniRef90_UPI000732AA12 RING finger protein 17 isoform X3 n=1 Tax=...  249        5e-66 
+UniRef90_UPI0007327318 RING finger protein 17 isoform X2 n=1 Tax=...  249        5e-66 
+UniRef90_UPI0003ABB979 RING finger protein 17 isoform X2 n=1 Tax=...  249        5e-66 
+UniRef90_A0A2K5Y9J4 Uncharacterized protein n=3 Tax=Mandrillus le...  249        6e-66 
+UniRef90_UPI0003F069DF RING finger protein 17 n=1 Tax=Elephantulu...  248        8e-66 
+UniRef90_UPI0007A72365 RING finger protein 17 isoform X1 n=2 Tax=...  248        9e-66 
+UniRef90_A0A673SWN1 Ring finger protein 17 n=1 Tax=Suricata suric...  248        1e-65 
+UniRef90_A0A2K6NMP0 Ring finger protein 17 n=4 Tax=Rhinopithecus ...  248        2e-65 
+UniRef90_A0A667GMN6 Ring finger protein 17 n=1 Tax=Lynx canadensi...  247        2e-65 
+UniRef90_M3X2A4 Ring finger protein 17 n=4 Tax=Felidae TaxID=9681...  247        2e-65 
+UniRef90_A0A337SRB9 Ring finger protein 17 n=16 Tax=Carnivora Tax...  247        2e-65 
+UniRef90_UPI000328C8FC LOW QUALITY PROTEIN: RING finger protein 1...  247        2e-65 
+UniRef90_UPI0006443043 RING finger protein 17 isoform X1 n=2 Tax=...  247        2e-65 
+UniRef90_H0XC03 Ring finger protein 17 n=1 Tax=Otolemur garnettii...  247        3e-65 
+UniRef90_UPI00052248A1 RING finger protein 17 n=1 Tax=Haliaeetus ...  246        3e-65 
+UniRef90_A0A091K3Q6 RING finger protein 17 (Fragment) n=2 Tax=Col...  246        5e-65 
+UniRef90_UPI00141BB281 RING finger protein 17 isoform X1 n=7 Tax=...  246        6e-65 
+UniRef90_A0A4D9ES29 Unconventional myosin-XVI n=1 Tax=Platysterno...  245        7e-65 
+UniRef90_A0A0A0AW99 RING finger protein 17 (Fragment) n=2 Tax=Cha...  245        8e-65 
+UniRef90_A0A452I6F2 Ring finger protein 17 n=2 Tax=Gopherus agass...  245        8e-65 
+UniRef90_A0A2K6SQE8 Ring finger protein 17 n=2 Tax=Saimiri bolivi...  245        8e-65 
+UniRef90_A0A6J3GD31 RING finger protein 17 isoform X3 n=1 Tax=Sap...  245        1e-64 
+UniRef90_UPI000523428A RING finger protein 17 n=1 Tax=Chaetura pe...  245        1e-64 
+UniRef90_A0A6J3GDI3 RING finger protein 17 isoform X1 n=2 Tax=Sap...  245        1e-64 
+UniRef90_UPI000938FC44 RING finger protein 17 isoform X1 n=2 Tax=...  245        1e-64 
+UniRef90_UPI000E6B0128 RING finger protein 17 isoform X1 n=2 Tax=...  245        1e-64 
+UniRef90_UPI0003F16BBF RING finger protein 17 n=6 Tax=Pteropodina...  243        3e-64 
+UniRef90_UPI00071D2FAE RING finger protein 17 n=1 Tax=Calidris pu...  243        3e-64 
+UniRef90_F7HPA6 Ring finger protein 17 n=7 Tax=Callithrix jacchus...  243        4e-64 
+UniRef90_A0A6J3QVH0 LOW QUALITY PROTEIN: RING finger protein 17-l...  243        5e-64 
+UniRef90_A0A1S3A3Y7 RING finger protein 17 n=1 Tax=Erinaceus euro...  243        5e-64 
+UniRef90_UPI0003C8DCA7 RING finger protein 17 isoform X3 n=1 Tax=...  243        6e-64 
+UniRef90_UPI0003C8FF00 RING finger protein 17 isoform X2 n=1 Tax=...  243        6e-64 
+UniRef90_UPI0003C90971 RING finger protein 17 isoform X1 n=2 Tax=...  243        6e-64 
+UniRef90_A0A2K5QPN7 Uncharacterized protein n=3 Tax=Cebus capucin...  242        8e-64 
+UniRef90_F1RN25 Uncharacterized protein n=5 Tax=Sus scrofa TaxID=...  242        8e-64 
+UniRef90_A0A4W2DJB6 Ring finger protein 17 n=1 Tax=Bos indicus x ...  242        1e-63 
+UniRef90_A0A4X1U573 Uncharacterized protein n=1 Tax=Sus scrofa Ta...  242        1e-63 
+UniRef90_A0A093EHV3 RING finger protein 17 (Fragment) n=2 Tax=Tyt...  241        1e-63 
+UniRef90_UPI00052096BE RING finger protein 17 n=1 Tax=Cariama cri...  241        2e-63 
+UniRef90_UPI000333B4B9 LOW QUALITY PROTEIN: RING finger protein 1...  241        2e-63 
+UniRef90_A0A091EJ49 RING finger protein 17 (Fragment) n=7 Tax=Cor...  241        2e-63 
+UniRef90_A0A4W2F885 Uncharacterized protein n=1 Tax=Bos indicus x...  241        2e-63 
+UniRef90_W5PZ21 Ring finger protein 17 n=4 Tax=Caprinae TaxID=996...  241        2e-63 
+UniRef90_U3K290 Uncharacterized protein n=8 Tax=Passeriformes Tax...  241        2e-63 
+UniRef90_UPI00051C64F8 RING finger protein 17 n=1 Tax=Cuculus can...  241        2e-63 
+UniRef90_A0A452G8S7 Uncharacterized protein n=26 Tax=Pecora TaxID...  240        3e-63 
+UniRef90_A0A2Y9STS0 RING finger protein 17 n=4 Tax=Cetacea TaxID=...  240        4e-63 
+UniRef90_UPI00032AF7E9 RING finger protein 17 n=1 Tax=Ochotona pr...  239        9e-63 
+UniRef90_A0A341BWJ1 RING finger protein 17 n=8 Tax=Odontoceti Tax...  239        9e-63 
+UniRef90_A0A3Q0FKT5 RING finger protein 17 n=6 Tax=Crocodylia Tax...  239        1e-62 
+UniRef90_A0A091IQM9 RING finger protein 17 (Fragment) n=2 Tax=Egr...  239        1e-62 
+UniRef90_A0A674H9R7 Uncharacterized protein n=8 Tax=Passeriformes...  238        1e-62 
+UniRef90_UPI000FFBE8D5 RING finger protein 17 n=8 Tax=Durocryptod...  238        1e-62 
+UniRef90_UPI00106D8DE3 uncharacterized protein LOC114530338 isofo...  238        2e-62 
+UniRef90_UPI0003958208 RING finger protein 17 n=4 Tax=Paridae Tax...  238        2e-62 
+UniRef90_A0A091S115 RING finger protein 17 (Fragment) n=3 Tax=Psi...  238        2e-62 
+UniRef90_UPI00092E8478 RING finger protein 17 isoform X2 n=1 Tax=...  237        2e-62 
+UniRef90_UPI000FFC69BD RING finger protein 17 n=2 Tax=Falco TaxID...  237        3e-62 
+UniRef90_UPI0004F0F51D LOW QUALITY PROTEIN: RING finger protein 1...  237        3e-62 
+UniRef90_UPI0003C4899E RING finger protein 17 isoform X1 n=4 Tax=...  237        3e-62 
+UniRef90_A0A093I270 RING finger protein 17 (Fragment) n=2 Tax=Str...  237        4e-62 
+UniRef90_A0A485PCL5 Ring finger protein partial n=1 Tax=Lynx pard...  236        5e-62 
+UniRef90_UPI000530861B RING finger protein 17 n=1 Tax=Phaethon le...  236        6e-62 
+UniRef90_A0A6I9IZH6 RING finger protein 17 n=1 Tax=Chrysochloris ...  236        6e-62 
+UniRef90_A0A674H7U2 Uncharacterized protein n=2 Tax=Taeniopygia g...  235        1e-61 
+UniRef90_A0A091WQU0 RING finger protein 17 (Fragment) n=2 Tax=Opi...  236        1e-61 
+UniRef90_UPI000521BB18 RING finger protein 17 n=1 Tax=Dryobates p...  235        1e-61 
+UniRef90_A0A2U3W0E7 RING finger protein 17 n=16 Tax=Caniformia Ta...  235        2e-61 
+UniRef90_G1MG56 Uncharacterized protein n=1 Tax=Ailuropoda melano...  234        3e-61 
+UniRef90_A0A384C7A2 RING finger protein 17 isoform X1 n=3 Tax=Urs...  234        4e-61 
+UniRef90_A0A093PPZ6 RING finger protein 17 (Fragment) n=19 Tax=Pa...  234        5e-61 
+UniRef90_M3YPE9 Ring finger protein 17 n=5 Tax=Mustelidae TaxID=9...  233        6e-61 
+UniRef90_F6SHS3 Ring finger protein 17 n=1 Tax=Equus caballus Tax...  233        6e-61 
+UniRef90_UPI000C9EA263 RING finger protein 17 isoform X1 n=7 Tax=...  233        6e-61 
+UniRef90_A0A091UR50 RING finger protein 17 (Fragment) n=4 Tax=Neo...  233        7e-61 
+UniRef90_UPI001016C08A RING finger protein 17 isoform X1 n=1 Tax=...  233        1e-60 
+UniRef90_A0A091J6S0 RING finger protein 17 (Fragment) n=2 Tax=Cal...  233        1e-60 
+UniRef90_UPI000642897A RING finger protein 17 isoform X1 n=2 Tax=...  232        2e-60 
+UniRef90_UPI0013621D7B RING finger protein 17 isoform X6 n=1 Tax=...  231        3e-60 
+UniRef90_UPI0013629EB1 RING finger protein 17 isoform X5 n=1 Tax=...  231        3e-60 
+UniRef90_UPI00122DA948 RING finger protein 17 isoform X6 n=2 Tax=...  231        5e-60 
+UniRef90_UPI00122D7A0F RING finger protein 17 isoform X5 n=1 Tax=...  231        5e-60 
+UniRef90_A0A1S3KBL4 uncharacterized protein LOC106180249 n=1 Tax=...  231        5e-60 
+UniRef90_G1P185 Uncharacterized protein n=1 Tax=Myotis lucifugus ...  230        6e-60 
+UniRef90_UPI000CCC3F76 RING finger protein 17 isoform X1 n=1 Tax=...  230        7e-60 
+UniRef90_UPI000703D558 RING finger protein 17 n=2 Tax=Myotis TaxI...  230        7e-60 
+UniRef90_G1SSY9 Ring finger protein 17 n=1 Tax=Oryctolagus cunicu...  230        7e-60 
+UniRef90_UPI00048B5872 LOW QUALITY PROTEIN: RING finger protein 1...  230        8e-60 
+UniRef90_A0A1B0CI38 Katanin p80 WD40 repeat-containing subunit B1...  229        9e-60 
+UniRef90_UPI0015613893 RING finger protein 17 isoform X2 n=1 Tax=...  230        9e-60 
+UniRef90_H2Q7A9 Ring finger protein 17 n=12 Tax=Pan TaxID=9596 Re...  230        9e-60 
+UniRef90_H2ZSI6 Ring finger protein 17 n=3 Tax=Latimeria chalumna...  229        1e-59 
+UniRef90_UPI00046BD48B RING finger protein 17 n=1 Tax=Eptesicus f...  230        1e-59 
+UniRef90_G3RF06 Ring finger protein 17 n=1 Tax=Gorilla gorilla go...  230        1e-59 
+UniRef90_Q9BXT8-4 Isoform 4 of RING finger protein 17 n=1 Tax=Hom...  229        1e-59 
+UniRef90_Q9BXT8-5 Isoform 5 of RING finger protein 17 n=1 Tax=Hom...  229        1e-59 
+UniRef90_Q9BXT8 RING finger protein 17 n=4 Tax=Homininae TaxID=20...  229        1e-59 
+UniRef90_UPI0001D411CB RING finger protein 17 isoform 2 n=1 Tax=H...  229        1e-59 
+UniRef90_B7Z7S1 cDNA FLJ61721, highly similar to Homo sapiens rin...  229        1e-59 
+UniRef90_UPI00045E05F1 RING finger protein 17 n=1 Tax=Orycteropus...  229        1e-59 
+UniRef90_H2NJF0 Uncharacterized protein n=3 Tax=Pongo abelii TaxI...  229        1e-59 
+UniRef90_UPI000B4E9436 RING finger protein 17 n=1 Tax=Meriones un...  229        1e-59 
+UniRef90_UPI0006979C38 RING finger protein 17 isoform X1 n=5 Tax=...  229        2e-59 
+UniRef90_UPI00123ED394 RING finger protein 17 isoform X3 n=1 Tax=...  229        2e-59 
+UniRef90_UPI00123EBFF8 RING finger protein 17 isoform X1 n=6 Tax=...  229        2e-59 
+UniRef90_UPI000EF6EA96 RING finger protein 17 n=1 Tax=Athene cuni...  229        2e-59 
+UniRef90_UPI0006437F55 RING finger protein 17 n=1 Tax=Condylura c...  229        2e-59 
+UniRef90_UPI0005123F56 RING finger protein 17 isoform X10 n=1 Tax...  229        2e-59 
+UniRef90_UPI00057AC1F0 LOW QUALITY PROTEIN: RING finger protein 1...  228        3e-59 
+UniRef90_UPI0003337796 RING finger protein 17 n=1 Tax=Echinops te...  228        3e-59 
+UniRef90_UPI0013A60931 RING finger protein 17 isoform X2 n=4 Tax=...  228        3e-59 
+UniRef90_UPI001469A3C4 RING finger protein 17 n=1 Tax=Melopsittac...  228        4e-59 
+UniRef90_UPI0010A1801A RING finger protein 17 isoform X2 n=1 Tax=...  228        4e-59 
+UniRef90_UPI0010A0E845 RING finger protein 17 isoform X3 n=1 Tax=...  228        4e-59 
+UniRef90_Q99MV7 RING finger protein 17 n=11 Tax=root TaxID=1 RepI...  228        5e-59 
+UniRef90_A0A671DPV5 Ring finger protein 17 n=2 Tax=Rhinolophus fe...  228        5e-59 
+UniRef90_UPI0014191652 RING finger protein 17 n=3 Tax=Lacertinae ...  227        6e-59 
+UniRef90_A0A091QKV8 RING finger protein 17 (Fragment) n=2 Tax=Mer...  227        9e-59 
+UniRef90_UPI0006B07B9A RING finger protein 17 n=2 Tax=Apteryx Tax...  226        1e-58 
+UniRef90_UPI000D18577B RING finger protein 17 n=1 Tax=Desmodus ro...  226        2e-58 
+UniRef90_A0A091DG03 RING finger protein 17 n=2 Tax=Fukomys damare...  226        2e-58 
+UniRef90_A0A670HZF6 Ring finger protein 17 n=2 Tax=Podarcis mural...  225        2e-58 
+UniRef90_UPI000813980C RING finger protein 17 isoform X2 n=1 Tax=...  225        3e-58 
+UniRef90_UPI0008135145 RING finger protein 17 isoform X1 n=4 Tax=...  225        3e-58 
+UniRef90_A0A2I0MCX2 Ring finger protein 17 n=3 Tax=Columbidae Tax...  225        3e-58 
+UniRef90_UPI00109EF3AC RING finger protein 17 isoform X2 n=1 Tax=...  225        4e-58 
+UniRef90_G1K9Q0 Uncharacterized protein n=3 Tax=Anolis carolinens...  224        5e-58 
+UniRef90_A0A6I9X9T6 RING finger protein 17 n=5 Tax=Colubroidea Ta...  224        7e-58 
+UniRef90_UPI00022B7FAC LOW QUALITY PROTEIN: RING finger protein 1...  224        8e-58 
+UniRef90_A0A6J2NC48 RING finger protein 17 isoform X1 n=2 Tax=Phy...  224        8e-58 
+UniRef90_UPI000E55F732 RING finger protein 17 n=1 Tax=Urocitellus...  223        2e-57 
+UniRef90_A0A1U7T419 RING finger protein 17 n=1 Tax=Tarsius syrich...  221        8e-57 
+UniRef90_D3ZLP2 Ring finger protein 17 n=13 Tax=Murinae TaxID=391...  221        9e-57 
+UniRef90_UPI00074FC90C RING finger protein 17 n=1 Tax=Gekko japon...  221        1e-56 
+UniRef90_UPI001069B9EB ATP-dependent RNA helicase TDRD9-like n=1 ...  219        2e-56 
+UniRef90_UPI00112609D7 RING finger protein 17 n=1 Tax=Rhinatrema ...  218        5e-56 
+UniRef90_UPI0010FAF035 RING finger protein 17 n=1 Tax=Protobothro...  218        9e-56 
+UniRef90_UPI00052E736D RING finger protein 17 n=6 Tax=Tinamidae T...  218        9e-56 
+UniRef90_UPI000EA9A9B4 RING finger protein 17 n=1 Tax=Pseudonaja ...  217        1e-55 
+UniRef90_UPI0009A371EA RING finger protein 17 n=1 Tax=Rhincodon t...  217        1e-55 
+UniRef90_A0A6J3EN38 RING finger protein 17 n=5 Tax=Anatidae TaxID...  217        1e-55 
+UniRef90_A0A401SEJ7 Uncharacterized protein (Fragment) n=1 Tax=Ch...  215        4e-55 
+UniRef90_UPI0011857967 LOW QUALITY PROTEIN: RING finger protein 1...  214        1e-54 
+UniRef90_UPI0006714F0F LOW QUALITY PROTEIN: RING finger protein 1...  213        3e-54 
+UniRef90_F7G7H9 Tudor domain containing 1 n=2 Tax=Ornithorhynchus...  212        3e-54 
+UniRef90_A0A484GSA0 Uncharacterized protein n=7 Tax=Odontoceti Ta...  211        6e-54 
+UniRef90_A0A1L1RVQ1 Tudor domain containing 1 n=5 Tax=Phasianidae...  210        8e-54 
+UniRef90_I3LKM6 Uncharacterized protein n=4 Tax=Sus scrofa TaxID=...  211        9e-54 
+UniRef90_K7FUY3 Tudor domain containing 9 n=4 Tax=Pelodiscus sine...  211        1e-53 
+UniRef90_A0A287DBW2 Uncharacterized protein n=1 Tax=Ictidomys tri...  211        1e-53 
+UniRef90_I3MAN2 Uncharacterized protein n=8 Tax=Boreoeutheria Tax...  211        1e-53 
+UniRef90_A0A3M6UEB3 Uncharacterized protein n=2 Tax=Pocillopora d...  210        2e-53 
+UniRef90_UPI0015A59A74 RING finger protein 17 n=1 Tax=Oxyura jama...  210        2e-53 
+UniRef90_UPI000FFFC943 ATP-dependent RNA helicase TDRD9 isoform X...  210        2e-53 
+UniRef90_UPI000E55DCA9 ATP-dependent RNA helicase TDRD9 n=1 Tax=U...  210        2e-53 
+UniRef90_UPI0010FCC5C1 ATP-dependent RNA helicase TDRD9-like n=3 ...  209        3e-53 
+UniRef90_A0A3Q1M4R0 Tudor domain containing 1 n=7 Tax=Bovinae Tax...  209        3e-53 
+UniRef90_UPI00156C29EA ATP-dependent RNA helicase TDRD9 n=1 Tax=M...  209        4e-53 
+UniRef90_UPI0012ADD966 ATP-dependent RNA helicase TDRD9 isoform X...  209        5e-53 
+UniRef90_UPI0012AD779A ATP-dependent RNA helicase TDRD9 isoform X...  209        5e-53 
+UniRef90_Q3MHU3-2 Isoform 2 of ATP-dependent RNA helicase TDRD9 n...  201        6e-53 
+UniRef90_UPI001560662A RING finger protein 17 n=1 Tax=Acipenser r...  209        7e-53 
+UniRef90_A0A6B0RNB1 Uncharacterized protein n=1 Tax=Bos mutus Tax...  208        1e-52 
+UniRef90_A0A091DA17 Tudor domain-containing protein 1 n=2 Tax=Fuk...  208        1e-52 
+UniRef90_A0A4W3HK19 Uncharacterized protein n=5 Tax=Callorhinchus...  208        1e-52 
+UniRef90_Q8NDG6 ATP-dependent RNA helicase TDRD9 n=55 Tax=Simiifo...  208        2e-52 
+UniRef90_A0A452EE98 Uncharacterized protein n=7 Tax=Pecora TaxID=...  207        2e-52 
+UniRef90_UPI00076891C3 ATP-dependent RNA helicase TDRD9 n=3 Tax=P...  207        2e-52 
+UniRef90_G1MIF2 Tudor domain containing 9 n=1 Tax=Ailuropoda mela...  207        2e-52 
+UniRef90_UPI0012B58528 ATP-dependent RNA helicase TDRD9-like n=1 ...  207        2e-52 
+UniRef90_A0A4W2E0J9 Tudor domain containing 1 n=3 Tax=Bos TaxID=9...  206        3e-52 
+UniRef90_UPI0004ED5F8E RING finger protein 17 n=1 Tax=Nannospalax...  206        3e-52 
+UniRef90_UPI001552B685 ATP-dependent RNA helicase TDRD9 isoform X...  206        5e-52 
+UniRef90_A0A1U7SVI1 putative ATP-dependent RNA helicase TDRD9 n=1...  206        5e-52 
+UniRef90_Q14BI7 ATP-dependent RNA helicase TDRD9 n=7 Tax=Mus TaxI...  206        5e-52 
+UniRef90_A0A452VLB9 Uncharacterized protein n=21 Tax=Carnivora Ta...  206        5e-52 
+UniRef90_A0A3B3R8G2 Uncharacterized protein n=3 Tax=Paramormyrops...  206        5e-52 
+UniRef90_UPI000FFC9696 ATP-dependent RNA helicase TDRD9 n=4 Tax=D...  205        6e-52 
+UniRef90_UPI001401BD3A RING finger protein 17 n=1 Tax=Amblyraja r...  205        7e-52 
+UniRef90_A0A2K5IJZ2 Uncharacterized protein n=3 Tax=Colobinae Tax...  205        9e-52 
+UniRef90_A0A340X2U5 putative ATP-dependent RNA helicase TDRD9 n=1...  205        9e-52 
+UniRef90_UPI0015ACCE82 RING finger protein 17 isoform X1 n=3 Tax=...  205        1e-51 
+UniRef90_A0A673TBV7 Tudor domain containing 1 n=3 Tax=Suricata su...  204        1e-51 
+UniRef90_G1M9K2 Uncharacterized protein n=25 Tax=Caniformia TaxID...  204        1e-51 
+UniRef90_A0A0L8GK55 Tudor domain-containing protein n=1 Tax=Octop...  205        2e-51 
+UniRef90_A0A6J0WJW5 tudor domain-containing protein 1 n=2 Tax=Pec...  204        2e-51 
+UniRef90_UPI000F5587E9 uncharacterized protein LOC113669498 n=1 T...  204        2e-51 
+UniRef90_UPI00106D4E8B uncharacterized protein LOC114529879 isofo...  204        2e-51 
+UniRef90_UPI00052EFA58 tudor domain-containing protein 1 n=1 Tax=...  204        2e-51 
+UniRef90_UPI000C042EAC uncharacterized protein LOC111331556 n=1 T...  204        2e-51 
+UniRef90_F1Q1V6 Tudor domain containing 1 n=6 Tax=Caniformia TaxI...  203        4e-51 
+UniRef90_UPI0002C87705 RING finger protein 17 isoform X1 n=2 Tax=...  203        7e-51 
+UniRef90_UPI0011287250 ATP-dependent RNA helicase TDRD9 isoform X...  202        8e-51 
+UniRef90_UPI00076277F5 putative ATP-dependent RNA helicase TDRD9 ...  202        8e-51 
+UniRef90_M3WJI1 Tudor domain containing 9 n=10 Tax=Felidae TaxID=...  202        9e-51 
+UniRef90_UPI000C2F8424 ATP-dependent RNA helicase TDRD9 isoform X...  202        9e-51 
+UniRef90_UPI000812FCAA tudor domain-containing protein 1 n=1 Tax=...  201        1e-50 
+UniRef90_UPI001458909B RING finger protein 17 isoform X1 n=6 Tax=...  202        1e-50 
+UniRef90_A0A6J1ZZC6 ATP-dependent RNA helicase TDRD9 isoform X2 n...  201        1e-50 
+UniRef90_A0A6J1ZY66 ATP-dependent RNA helicase TDRD9 isoform X1 n...  201        1e-50 
+UniRef90_UPI0003330A73 putative ATP-dependent RNA helicase TDRD9 ...  201        1e-50 
+UniRef90_A0A2K5CAR8 Uncharacterized protein n=2 Tax=Aotus nancyma...  201        2e-50 
+UniRef90_A0A6J0E123 putative ATP-dependent RNA helicase TDRD9 iso...  201        2e-50 
+UniRef90_UPI000DF2FC1F ATP-dependent RNA helicase TDRD9 n=1 Tax=P...  201        2e-50 
+UniRef90_UPI000D6A1FFE ATP-dependent RNA helicase TDRD9 n=1 Tax=P...  201        2e-50 
+UniRef90_A0A6J0UZ75 putative ATP-dependent RNA helicase TDRD9 n=1...  200        2e-50 
+UniRef90_H0WWQ2 Tudor domain containing 9 n=5 Tax=Strepsirrhini T...  201        3e-50 
+UniRef90_UPI0010FC964D uncharacterized protein LOC114960381 isofo...  201        3e-50 
+UniRef90_UPI00148668B4 ATP-dependent RNA helicase TDRD9 isoform X...  200        3e-50 
+UniRef90_UPI000333F195 ATP-dependent RNA helicase TDRD9 n=1 Tax=E...  200        3e-50 
+UniRef90_G1KKN5 Uncharacterized protein n=2 Tax=Anolis carolinens...  200        3e-50 
+UniRef90_UPI001458C96B tudor domain-containing protein 1 isoform ...  200        4e-50 
+UniRef90_A0A1S3EXY6 putative ATP-dependent RNA helicase TDRD9 n=1...  200        4e-50 
+UniRef90_H0UZA7 Tudor domain containing 9 n=4 Tax=Hystricomorpha ...  199        7e-50 
+UniRef90_UPI000B3DEB2C RING finger protein 17 isoform X1 n=2 Tax=...  199        7e-50 
+UniRef90_UPI00118681A9 ATP-dependent RNA helicase TDRD9 n=4 Tax=G...  198        1e-49 
+UniRef90_UPI00032B02AF putative ATP-dependent RNA helicase TDRD9 ...  198        1e-49 
+UniRef90_A0A3L7HL77 TDRD9 n=2 Tax=Cricetulus griseus TaxID=10029 ...  198        1e-49 
+UniRef90_UPI0007A70358 putative ATP-dependent RNA helicase TDRD9 ...  198        1e-49 
+UniRef90_UPI000947ED3F LOW QUALITY PROTEIN: putative ATP-dependen...  198        2e-49 
+UniRef90_UPI001419BF2F ATP-dependent RNA helicase TDRD9 n=4 Tax=L...  198        2e-49 
+UniRef90_A0A3B4DBK2 Uncharacterized protein n=3 Tax=Pygocentrus n...  198        2e-49 
+UniRef90_UPI0003F08387 putative ATP-dependent RNA helicase TDRD9-...  198        2e-49 
+UniRef90_UPI0011409B50 uncharacterized protein LOC115219318 n=1 T...  199        2e-49 
+UniRef90_S7Q603 RING finger protein 17 n=1 Tax=Myotis brandtii Ta...  198        2e-49 
+UniRef90_A0A2B4RHX1 Tudor domain-containing protein 1 n=3 Tax=Sty...  198        2e-49 
+UniRef90_A0A091PJC9 RING finger protein 17 (Fragment) n=8 Tax=Neo...  185        2e-49 
+UniRef90_F6VF39 Uncharacterized protein n=7 Tax=Metatheria TaxID=...  197        2e-49 
+UniRef90_Q3MHU3 ATP-dependent RNA helicase TDRD9 n=20 Tax=Muroide...  197        4e-49 
+UniRef90_A0A1U7Q924 putative ATP-dependent RNA helicase TDRD9 n=4...  196        6e-49 
+UniRef90_A0A437C699 Uncharacterized protein n=1 Tax=Oryzias javan...  196        6e-49 
+UniRef90_UPI000331722F putative ATP-dependent RNA helicase TDRD9 ...  196        7e-49 
+UniRef90_A0A6A5EPE5 Uncharacterized protein n=3 Tax=Percidae TaxI...  196        7e-49 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0005D006D4 RING finger protein 17 isoform X11 n=1 Tax...  211        1e-53
+UniRef90_G5B1A6 RING finger protein 17 n=4 Tax=Heterocephalus gla...  204        2e-51
+UniRef90_F6Y670 Tudor domain containing 9 n=1 Tax=Equus caballus ...  202        7e-51
+UniRef90_A0A1J1IKG4 CLUMA_CG013984, isoform A n=2 Tax=Clunio mari...  201        1e-50
+UniRef90_A0A5N4E189 ATP-dependent RNA helicase TDRD9 n=3 Tax=Came...  200        3e-50
+UniRef90_A0A5N4E1R9 ATP-dependent RNA helicase TDRD9 n=5 Tax=Came...  200        3e-50
+UniRef90_UPI0003C8F977 ATP-dependent RNA helicase TDRD9 isoform X...  199        1e-49
+UniRef90_G5AWI0 Putative ATP-dependent RNA helicase TDRD9 n=1 Tax...  197        3e-49
+UniRef90_UPI00034FC55B putative ATP-dependent RNA helicase TDRD9 ...  197        3e-49
+UniRef90_A0A1S2ZF82 putative ATP-dependent RNA helicase TDRD9 n=1...  196        6e-49
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2794072044672
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

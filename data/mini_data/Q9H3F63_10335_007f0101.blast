@@ -1,0 +1,104 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q9H3F6-3|BACD3_HUMAN Isoform 3 of BTB/POZ domain-containing
+adapter for CUL3-mediated RhoA degradation protein 3 OS=Homo sapiens
+OX=9606 GN=KCTD10
+
+Length=155
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A6A4SEI6 Uncharacterized protein n=1 Tax=Scophthalmus ...  181        8e-51
+UniRef90_W6UFN6 Adenosylhomocysteinase n=1 Tax=Echinococcus granu...  83.6       8e-17
+UniRef90_A0A0N0VCR0 Uncharacterized protein n=1 Tax=Leptomonas py...  35.8       2.7  
+UniRef90_A0A388JNW6 DUF659 domain-containing protein n=1 Tax=Char...  35.4       3.2  
+UniRef90_UPI0009E2DC21 AAA family ATPase n=1 Tax=Methyloterricola...  35.4       3.6  
+UniRef90_UPI001404CA6A hypothetical protein n=1 Tax=Methylobacter...  34.3       8.8  
+UniRef90_UPI001425B0FF helicase with zinc finger domain 2-like is...  34.3       9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 105460598208
+Results from round 2
+
+
+Query= sp|Q9H3F6-3|BACD3_HUMAN Isoform 3 of BTB/POZ domain-containing
+adapter for CUL3-mediated RhoA degradation protein 3 OS=Homo sapiens
+OX=9606 GN=KCTD10
+
+Length=155
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6A4SEI6 Uncharacterized protein n=1 Tax=Scophthalmus ...  222        3e-65
+UniRef90_W6UFN6 Adenosylhomocysteinase n=1 Tax=Echinococcus granu...  170        3e-47
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A3S1H1G1 Uncharacterized protein n=1 Tax=Elysia chloro...  35.4       3.6  
+UniRef90_UPI00142596E6 ubiquitin carboxyl-terminal hydrolase 32-l...  34.6       6.2  
+UniRef90_A0A6J1DWH2 probable inactive ATP-dependent zinc metallop...  34.2       7.0  
+UniRef90_A0A0S4XRT3 PKD domain-containing protein n=1 Tax=Sulfuro...  34.6       7.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 105460598208
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,263 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q15758|AAAT_HUMAN Neutral amino acid transporter B(0) OS=Homo
+sapiens OX=9606 GN=SLC1A5 PE=1 SV=2
+
+Length=541
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A2U9CGJ4 Sepiapterin reductase n=2 Tax=Scophthalmus ma...  396        2e-122
+UniRef90_A0A498MPN9 Nipped-B protein n=1 Tax=Labeo rohita TaxID=8...  396        9e-120
+UniRef90_A0A1I8IEJ0 WD_REPEATS_REGION domain-containing protein n...  364        9e-109
+UniRef90_A0A556TRD9 Excitatory amino acid transporter 2 n=1 Tax=B...  361        5e-108
+UniRef90_A0A1I8HLI7 Uncharacterized protein n=1 Tax=Macrostomum l...  355        9e-106
+UniRef90_A0A151NK31 Aldehyde dehydrogenase family 16 member A1 n=...  350        1e-104
+UniRef90_A0A3M6TNM3 Uncharacterized protein n=2 Tax=Pocillopora d...  349        6e-104
+UniRef90_A0A139WKN9 Sodium/hydrogen exchanger n=4 Tax=Tribolium c...  325        1e-95 
+UniRef90_A0A154P280 Ankyrin repeat domain-containing protein 50 n...  301        4e-87 
+UniRef90_A0A1I8JLL3 Uncharacterized protein n=1 Tax=Macrostomum l...  300        1e-86 
+UniRef90_T1J799 Uncharacterized protein n=1 Tax=Strigamia maritim...  287        4e-82 
+UniRef90_A0A3L8DJ07 ANK_REP_REGION domain-containing protein n=1 ...  228        4e-62 
+UniRef90_A0A2A6BG43 Lgc-4 n=2 Tax=Pristionchus pacificus TaxID=54...  219        7e-59 
+UniRef90_B5Y3E7 Predicted protein n=1 Tax=Phaeodactylum tricornut...  167        2e-41 
+UniRef90_A0A1V9ZZR8 Dicarboxylate/amino acid:cation (Na or H) sym...  142        4e-33 
+UniRef90_A0A1V9YQ21 Dicarboxylate/amino acid:cation (Na or H) sym...  139        4e-32 
+UniRef90_A0A1V9YQ63 Dicarboxylate/amino acid:cation (Na or H) sym...  139        5e-32 
+UniRef90_A0A1V9YYY8 Dicarboxylate/amino acid:cation (Na or H) sym...  137        2e-31 
+UniRef90_A0A2D4C1U1 Pre-mRNA-splicing factor RSE1 n=1 Tax=Pythium...  136        5e-31 
+UniRef90_A0A158REI4 Uncharacterized protein n=1 Tax=Hydatigena ta...  108        3e-22 
+UniRef90_A0A6A5JSF1 WD40-repeat-containing domain n=1 Tax=Phytoph...  107        7e-22 
+UniRef90_A0A351YYJ8 Guanylate cyclase domain-containing protein n...  102        3e-20 
+UniRef90_A0A1V9ZHV5 Digestive organ expansion factor n=1 Tax=Thra...  95.9       6e-18 
+UniRef90_A0A2D4BNU3 Uncharacterized protein n=1 Tax=Pythium insid...  72.4       1e-10 
+UniRef90_A0A1I8IRE6 Fibrinogen C-terminal domain-containing prote...  50.4       7e-04 
+UniRef90_A0A5D6XRJ5 Uncharacterized protein n=1 Tax=Pythium brass...  45.1       0.037 
+UniRef90_Q4VZL0 Protein TIC 214 n=6 Tax=Cucumis sativus TaxID=365...  39.3       2.4   
+UniRef90_A0A1P8C7U3 Protein TIC 214 n=1 Tax=Cucumis x hytivus Tax...  38.9       3.1   
+UniRef90_A0A2H4DWK4 Protein TIC 214 n=1 Tax=Tacca leontopetaloide...  37.4       7.7   
+UniRef90_A0A0D3M9R5 Protein TIC 214 n=11 Tax=Paphiopedilum TaxID=...  37.4       7.9   
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1471821927095
+Results from round 2
+
+
+Query= sp|Q15758|AAAT_HUMAN Neutral amino acid transporter B(0) OS=Homo
+sapiens OX=9606 GN=SLC1A5 PE=1 SV=2
+
+Length=541
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A2U9CGJ4 Sepiapterin reductase n=2 Tax=Scophthalmus ma...  527        5e-172
+UniRef90_A0A498MPN9 Nipped-B protein n=1 Tax=Labeo rohita TaxID=8...  541        2e-170
+UniRef90_A0A556TRD9 Excitatory amino acid transporter 2 n=1 Tax=B...  511        9e-163
+UniRef90_A0A1I8IEJ0 WD_REPEATS_REGION domain-containing protein n...  509        3e-159
+UniRef90_A0A151NK31 Aldehyde dehydrogenase family 16 member A1 n=...  487        1e-155
+UniRef90_A0A1I8HLI7 Uncharacterized protein n=1 Tax=Macrostomum l...  484        7e-152
+UniRef90_A0A154P280 Ankyrin repeat domain-containing protein 50 n...  480        3e-151
+UniRef90_A0A139WKN9 Sodium/hydrogen exchanger n=4 Tax=Tribolium c...  449        4e-141
+UniRef90_A0A3M6TNM3 Uncharacterized protein n=2 Tax=Pocillopora d...  445        1e-138
+UniRef90_T1J799 Uncharacterized protein n=1 Tax=Strigamia maritim...  443        5e-136
+UniRef90_A0A1I8JLL3 Uncharacterized protein n=1 Tax=Macrostomum l...  402        7e-122
+UniRef90_B5Y3E7 Predicted protein n=1 Tax=Phaeodactylum tricornut...  395        9e-122
+UniRef90_A0A1V9ZZR8 Dicarboxylate/amino acid:cation (Na or H) sym...  389        4e-118
+UniRef90_A0A1V9YQ63 Dicarboxylate/amino acid:cation (Na or H) sym...  387        1e-116
+UniRef90_A0A1V9YQ21 Dicarboxylate/amino acid:cation (Na or H) sym...  373        2e-112
+UniRef90_A0A1V9ZHV5 Digestive organ expansion factor n=1 Tax=Thra...  368        1e-111
+UniRef90_A0A2D4C1U1 Pre-mRNA-splicing factor RSE1 n=1 Tax=Pythium...  357        2e-106
+UniRef90_A0A3L8DJ07 ANK_REP_REGION domain-containing protein n=1 ...  343        5e-102
+UniRef90_A0A6A5JSF1 WD40-repeat-containing domain n=1 Tax=Phytoph...  318        6e-94 
+UniRef90_A0A1V9YYY8 Dicarboxylate/amino acid:cation (Na or H) sym...  320        2e-93 
+UniRef90_A0A2A6BG43 Lgc-4 n=2 Tax=Pristionchus pacificus TaxID=54...  313        3e-92 
+UniRef90_A0A351YYJ8 Guanylate cyclase domain-containing protein n...  272        1e-77 
+UniRef90_A0A158REI4 Uncharacterized protein n=1 Tax=Hydatigena ta...  213        7e-57 
+UniRef90_A0A2D4BNU3 Uncharacterized protein n=1 Tax=Pythium insid...  212        1e-56 
+UniRef90_A0A1I8IRE6 Fibrinogen C-terminal domain-containing prote...  66.6       8e-09 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A5D6XRJ5 Uncharacterized protein n=1 Tax=Pythium brass...  112        4e-23
+UniRef90_A0A329SA01 Uncharacterized protein n=2 Tax=Phytophthora ...  83.6       5e-14
+UniRef90_H3GYK6 Uncharacterized protein n=1 Tax=Phytophthora ramo...  83.2       6e-14
+UniRef90_M4C5J3 Uncharacterized protein n=2 Tax=Peronosporaceae T...  71.6       2e-10
+UniRef90_A0A3M6VIG3 Uncharacterized protein n=2 Tax=Peronospora e...  63.6       7e-08
+UniRef90_W2PUF2 Uncharacterized protein (Fragment) n=11 Tax=Phyto...  63.2       1e-07
+UniRef90_A0A1I8I2K8 Uncharacterized protein n=1 Tax=Macrostomum l...  57.8       4e-06
+UniRef90_A0A6A3SI85 Uncharacterized protein n=9 Tax=Phytophthora ...  55.5       2e-05
+UniRef90_UPI000F68461F hypoxia up-regulated protein 1-like isofor...  53.2       1e-04
+UniRef90_A0A662XTF8 Uncharacterized protein n=1 Tax=Nothophytopht...  52.8       2e-04
+UniRef90_UPI0004709CBA aminotransferase class III-fold pyridoxal ...  42.8       0.21 
+UniRef90_A0A378XSJ9 PKS/NRPS hybrid sythetase n=37 Tax=Paenibacil...  42.8       0.23 
+UniRef90_A0A1E3L667 Mycosubtilin synthase subunit n=2 Tax=Paeniba...  42.0       0.39 
+UniRef90_A0A410ZJR3 SLT domain-containing protein n=34 Tax=Bacill...  41.2       0.64 
+UniRef90_A0A3M7NIM3 Sodium/hydrogen exchanger (Fragment) n=1 Tax=...  40.8       0.74 
+UniRef90_S6FG90 Mycosubtilin synthase subunit A n=266 Tax=Bacilla...  40.8       0.87 
+UniRef90_UPI00100A072F phage tail tape measure protein n=1 Tax=Ba...  40.4       0.95 
+UniRef90_A0A168HNQ9 Uncharacterized protein n=1 Tax=Paenibacillus...  40.4       0.97 
+UniRef90_UPI000B4546DC phage tail tape measure protein n=3 Tax=Ba...  40.4       1.1  
+UniRef90_A0A2T9ZKY3 Uncharacterized protein n=1 Tax=Smittium mega...  40.1       1.1  
+UniRef90_A0A1P7ZM90 Mycosubtlin synthetase A (Fragment) n=17 Tax=...  40.1       1.4  
+UniRef90_A0A2V1CEM5 AtrD, ABC-transporter n=1 Tax=Cadophora sp. D...  39.3       2.0  
+UniRef90_A0A6G4A2L0 Amino acid adenylation domain-containing prot...  39.3       2.4  
+UniRef90_A0A4P9X9B7 Uncharacterized protein n=1 Tax=Caulochytrium...  39.3       2.4  
+UniRef90_A0A287AQ53 Uncharacterized protein n=2 Tax=Sus scrofa Ta...  38.9       3.1  
+UniRef90_UPI0007F8DF89 phage tail tape measure protein n=2 Tax=Ba...  38.9       3.2  
+UniRef90_A0A2P5IA41 ABC-2 type transporter n=1 Tax=Diaporthe heli...  38.5       3.7  
+UniRef90_A0A5J4W3H7 Uncharacterized protein (Fragment) n=1 Tax=St...  38.5       4.0  
+UniRef90_A0A2D5WDT5 WD_REPEATS_REGION domain-containing protein n...  38.5       4.0  
+UniRef90_UPI000C25557E ATP-binding cassette sub-family A member 3...  38.5       4.3  
+UniRef90_A0A316D7H9 Phosphopantetheine binding protein n=1 Tax=Tu...  38.1       4.8  
+UniRef90_A0A0D3V6K4 Uncharacterized protein n=1 Tax=Paenibacillus...  38.1       5.0  
+UniRef90_UPI000DA6172B amino acid adenylation domain-containing p...  38.1       5.4  
+UniRef90_UPI00071986BB ATP-binding cassette sub-family A member 3...  37.8       6.2  
+UniRef90_UPI000DC66D07 ATP-binding cassette sub-family A member 3...  37.8       6.8  
+UniRef90_A0A521CVV8 AMP-binding enzyme C-terminal domain-containi...  37.4       9.0  
+UniRef90_A0A151Z5R2 ABC transporter A family protein n=1 Tax=Tieg...  37.4       9.1  
+UniRef90_A0A6C1CQ42 Transglycosylase SLT domain-containing protei...  37.4       9.3  
+UniRef90_UPI00135A0FBA CusA/CzcA family heavy metal efflux RND tr...  37.4       9.4  
+UniRef90_A0A5F4BSK1 Uncharacterized protein n=2 Tax=Canis lupus f...  37.4       9.7  
+UniRef90_UPI0009E80625 DNA translocase FtsK 4TM domain-containing...  37.0       9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1471821927095
+Results from round 3
+
+
+Query= sp|Q15758|AAAT_HUMAN Neutral amino acid transporter B(0) OS=Homo
+sapiens OX=9606 GN=SLC1A5 PE=1 SV=2
+
+Length=541
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A556TRD9 Excitatory amino acid transporter 2 n=1 Tax=B...  500        2e-158
+UniRef90_A0A498MPN9 Nipped-B protein n=1 Tax=Labeo rohita TaxID=8...  505        1e-157
+UniRef90_A0A2U9CGJ4 Sepiapterin reductase n=2 Tax=Scophthalmus ma...  470        2e-150
+UniRef90_A0A151NK31 Aldehyde dehydrogenase family 16 member A1 n=...  471        7e-150
+UniRef90_A0A1I8IEJ0 WD_REPEATS_REGION domain-containing protein n...  446        4e-137
+UniRef90_A0A139WKN9 Sodium/hydrogen exchanger n=4 Tax=Tribolium c...  432        2e-134
+UniRef90_A0A154P280 Ankyrin repeat domain-containing protein 50 n...  425        4e-131
+UniRef90_A0A1I8HLI7 Uncharacterized protein n=1 Tax=Macrostomum l...  425        2e-130
+UniRef90_T1J799 Uncharacterized protein n=1 Tax=Strigamia maritim...  411        7e-125
+UniRef90_A0A3M6TNM3 Uncharacterized protein n=2 Tax=Pocillopora d...  399        7e-122
+UniRef90_B5Y3E7 Predicted protein n=1 Tax=Phaeodactylum tricornut...  387        1e-118
+UniRef90_A0A1V9YQ21 Dicarboxylate/amino acid:cation (Na or H) sym...  365        2e-109
+UniRef90_A0A1V9ZZR8 Dicarboxylate/amino acid:cation (Na or H) sym...  354        2e-105
+UniRef90_A0A1V9YQ63 Dicarboxylate/amino acid:cation (Na or H) sym...  353        8e-105
+UniRef90_A0A1V9ZHV5 Digestive organ expansion factor n=1 Tax=Thra...  347        8e-104
+UniRef90_A0A1I8JLL3 Uncharacterized protein n=1 Tax=Macrostomum l...  344        6e-102
+UniRef90_A0A2D4C1U1 Pre-mRNA-splicing factor RSE1 n=1 Tax=Pythium...  344        6e-102
+UniRef90_A0A6A5JSF1 WD40-repeat-containing domain n=1 Tax=Phytoph...  305        3e-89 
+UniRef90_A0A3L8DJ07 ANK_REP_REGION domain-containing protein n=1 ...  303        6e-88 
+UniRef90_A0A1V9YYY8 Dicarboxylate/amino acid:cation (Na or H) sym...  287        4e-82 
+UniRef90_A0A351YYJ8 Guanylate cyclase domain-containing protein n...  282        3e-81 
+UniRef90_A0A2A6BG43 Lgc-4 n=2 Tax=Pristionchus pacificus TaxID=54...  280        2e-80 
+UniRef90_H3GYK6 Uncharacterized protein n=1 Tax=Phytophthora ramo...  276        2e-78 
+UniRef90_A0A329SA01 Uncharacterized protein n=2 Tax=Phytophthora ...  273        2e-77 
+UniRef90_A0A2D4BNU3 Uncharacterized protein n=1 Tax=Pythium insid...  270        8e-77 
+UniRef90_M4C5J3 Uncharacterized protein n=2 Tax=Peronosporaceae T...  265        1e-74 
+UniRef90_W2PUF2 Uncharacterized protein (Fragment) n=11 Tax=Phyto...  256        1e-71 
+UniRef90_A0A6A3SI85 Uncharacterized protein n=9 Tax=Phytophthora ...  229        2e-62 
+UniRef90_A0A1I8I2K8 Uncharacterized protein n=1 Tax=Macrostomum l...  224        1e-60 
+UniRef90_A0A3M6VIG3 Uncharacterized protein n=2 Tax=Peronospora e...  221        1e-59 
+UniRef90_A0A158REI4 Uncharacterized protein n=1 Tax=Hydatigena ta...  198        6e-52 
+UniRef90_A0A5D6XRJ5 Uncharacterized protein n=1 Tax=Pythium brass...  188        2e-48 
+UniRef90_A0A662XTF8 Uncharacterized protein n=1 Tax=Nothophytopht...  181        3e-46 
+UniRef90_UPI000F68461F hypoxia up-regulated protein 1-like isofor...  121        4e-26 
+UniRef90_A0A1I8IRE6 Fibrinogen C-terminal domain-containing prote...  69.0       1e-09 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A2T9ZKY3 Uncharacterized protein n=1 Tax=Smittium mega...  42.0       0.27 
+UniRef90_A0A2E8K7Q5 UnbV_ASPIC domain-containing protein n=1 Tax=...  40.9       0.74 
+UniRef90_A0A151Z5R2 ABC transporter A family protein n=1 Tax=Tieg...  40.5       1.0  
+UniRef90_A0A3M7NIM3 Sodium/hydrogen exchanger (Fragment) n=1 Tax=...  39.3       2.0  
+UniRef90_UPI0004709CBA aminotransferase class III-fold pyridoxal ...  39.3       2.0  
+UniRef90_A0A378XSJ9 PKS/NRPS hybrid sythetase n=37 Tax=Paenibacil...  39.3       2.2  
+UniRef90_F4S8W5 Uncharacterized protein (Fragment) n=1 Tax=Melamp...  39.0       2.8  
+UniRef90_A0A1Y1UZH8 p-loop containing nucleoside triphosphate hyd...  39.0       2.8  
+UniRef90_A0A174BAF2 Swarming motility protein SwrC n=47 Tax=Clost...  38.6       3.7  
+UniRef90_R9JAM2 Uncharacterized protein n=2 Tax=Bacteria TaxID=2 ...  38.2       4.4  
+UniRef90_UPI0012F6CA8B ATP-binding cassette sub-family A member 1...  37.8       6.3  
+UniRef90_UPI0013611B9B efflux RND transporter permease subunit n=...  37.4       7.2  
+UniRef90_A0A3A9B233 Acriflavin resistance protein n=1 Tax=bacteri...  37.4       7.8  
+UniRef90_A0A3B9N0E1 Glycerol acyltransferase n=1 Tax=Bacteroidale...  37.4       7.9  
+UniRef90_A0A0L8ALR1 Multidrug transporter AcrB n=4 Tax=Roseivirga...  37.4       8.0  
+UniRef90_R9N082 Uncharacterized protein n=1 Tax=Lachnospiraceae b...  37.4       8.4  
+UniRef90_A0A0C2Z7Z7 Uncharacterized protein n=1 Tax=Hebeloma cyli...  37.0       9.6  
+UniRef90_A0A4Q2BAY2 Acriflavin resistance protein n=1 Tax=bacteri...  37.0       9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.297    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0392    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1471821927095
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

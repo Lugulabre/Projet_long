@@ -1,0 +1,1194 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P13497-3|BMP1_HUMAN Isoform BMP1-4 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=302
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  362        4e-112
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  306        2e-92 
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  304        4e-92 
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  303        2e-91 
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  303        4e-91 
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  294        4e-88 
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  286        2e-85 
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  251        5e-73 
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  224        5e-64 
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  224        1e-63 
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  221        9e-63 
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  218        1e-61 
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  218        1e-61 
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  217        2e-61 
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  217        3e-61 
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  216        5e-61 
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  214        4e-60 
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  213        9e-60 
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  213        9e-60 
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  212        1e-59 
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  211        2e-59 
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  211        2e-59 
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  211        3e-59 
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  211        3e-59 
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  211        3e-59 
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  211        5e-59 
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  209        1e-58 
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  209        1e-58 
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  209        1e-58 
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  209        1e-58 
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  209        2e-58 
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  209        2e-58 
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  208        3e-58 
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  207        8e-58 
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  207        1e-57 
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  207        1e-57 
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  206        2e-57 
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  206        2e-57 
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  206        2e-57 
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  206        2e-57 
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  205        4e-57 
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  205        4e-57 
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  205        5e-57 
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  204        1e-56 
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  203        2e-56 
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  203        2e-56 
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  202        2e-56 
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  203        2e-56 
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  203        2e-56 
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  203        2e-56 
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  203        2e-56 
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  202        3e-56 
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  202        3e-56 
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  202        4e-56 
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  202        4e-56 
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  202        5e-56 
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  202        5e-56 
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  202        6e-56 
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  202        6e-56 
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  201        8e-56 
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  201        9e-56 
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  201        1e-55 
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  201        1e-55 
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  201        1e-55 
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  200        2e-55 
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  200        2e-55 
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  199        3e-55 
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  199        4e-55 
+UniRef90_UPI00084A889D LOW QUALITY PROTEIN: uncharacterized prote...  199        6e-55 
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  199        6e-55 
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  199        7e-55 
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  198        8e-55 
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  198        1e-54 
+UniRef90_A0A194QXS7 Metalloendopeptidase n=5 Tax=Papilio TaxID=71...  196        5e-54 
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  196        8e-54 
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  194        2e-53 
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  194        2e-53 
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  194        4e-53 
+UniRef90_G7Y8G0 Metalloendopeptidase (Fragment) n=1 Tax=Clonorchi...  190        5e-52 
+UniRef90_A0A5K3ETR7 Metalloendopeptidase n=3 Tax=Mesocestoides co...  190        6e-52 
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  188        2e-51 
+UniRef90_A0A654GZT5 Metalloendopeptidase n=1 Tax=Sparganum prolif...  188        4e-51 
+UniRef90_A0A6A5D3B5 Metalloendopeptidase n=1 Tax=Schistosoma haem...  187        6e-51 
+UniRef90_A0A6G0V4T9 Metalloendopeptidase n=1 Tax=Halicephalobus s...  187        7e-51 
+UniRef90_A0A4S2LA47 Metalloendopeptidase n=1 Tax=Opisthorchis fel...  186        2e-50 
+UniRef90_A0A0X3NJV3 Metalloendopeptidase n=2 Tax=Schistocephalus ...  186        2e-50 
+UniRef90_A0A074ZER5 Metalloendopeptidase n=3 Tax=Opisthorchis Tax...  186        2e-50 
+UniRef90_A0A183MQX7 Metalloendopeptidase n=2 Tax=Schistosoma marg...  186        3e-50 
+UniRef90_A0A068WJH7 Metalloendopeptidase n=4 Tax=Taeniidae TaxID=...  185        3e-50 
+UniRef90_A0A095C5C0 Metalloendopeptidase (Fragment) n=3 Tax=Schis...  184        1e-49 
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  183        2e-49 
+UniRef90_A0A5J4P1Y2 Metalloendopeptidase (Fragment) n=1 Tax=Parag...  182        3e-49 
+UniRef90_A0A4Z2DK01 Metalloendopeptidase (Fragment) n=1 Tax=Schis...  182        5e-49 
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  178        9e-48 
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  177        1e-47 
+UniRef90_A0A504YBB0 Metalloendopeptidase n=2 Tax=Fasciola TaxID=6...  178        1e-47 
+UniRef90_U4U9E3 Uncharacterized protein n=3 Tax=Dendroctonus pond...  166        9e-44 
+UniRef90_A0A1I8FMA8 Metalloendopeptidase n=1 Tax=Macrostomum lign...  163        1e-42 
+UniRef90_H3ED05 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  156        4e-40 
+UniRef90_A0A183A503 Metalloendopeptidase n=1 Tax=Echinostoma capr...  149        9e-38 
+UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  138        8e-34 
+UniRef90_A0A654GZ69 Metalloendopeptidase n=1 Tax=Sparganum prolif...  136        3e-33 
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  134        1e-32 
+UniRef90_UPI0012B5B770 uncharacterized protein LOC116297804 n=1 T...  121        4e-28 
+UniRef90_UPI000A2A59FB SCO-spondin n=1 Tax=Exaiptasia pallida Tax...  120        9e-28 
+UniRef90_A0A0V1E7I9 Metalloendopeptidase (Fragment) n=2 Tax=Trich...  118        4e-27 
+UniRef90_A0A0V1E839 Metalloendopeptidase n=1 Tax=Trichinella pseu...  117        6e-27 
+UniRef90_UPI00077F9421 uncharacterized protein LOC107450195 n=1 T...  114        1e-25 
+UniRef90_A0A182NRI0 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  113        2e-25 
+UniRef90_A0A0V0SMG1 Metalloendopeptidase n=1 Tax=Trichinella nels...  106        6e-23 
+UniRef90_A0A0V1P670 Metalloendopeptidase (Fragment) n=5 Tax=Trich...  105        8e-23 
+UniRef90_A0A0V0WBR6 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  105        9e-23 
+UniRef90_A0A0V0S4V6 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  103        5e-22 
+UniRef90_A0A0V1BB95 Metalloendopeptidase (Fragment) n=8 Tax=Trich...  103        6e-22 
+UniRef90_A0A0L0BYD0 Metalloendopeptidase n=1 Tax=Lucilia cuprina ...  103        6e-22 
+UniRef90_UPI0010FC7E8F uncharacterized protein LOC114961447 isofo...  103        8e-22 
+UniRef90_W4XFL4 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  101        2e-21 
+UniRef90_UPI0010A851BA astacin-like metalloendopeptidase n=1 Tax=...  100        5e-21 
+UniRef90_A0A1I7VMX7 Uncharacterized protein n=2 Tax=Loa loa TaxID...  99.4       1e-20 
+UniRef90_A0A0N4TYR4 Metalloendopeptidase n=1 Tax=Brugia pahangi T...  98.6       3e-20 
+UniRef90_A0A0V0UEP3 Metalloendopeptidase n=3 Tax=Trichinella TaxI...  98.2       4e-20 
+UniRef90_A0A0V0UEU1 Metalloendopeptidase n=12 Tax=Trichinella Tax...  97.8       5e-20 
+UniRef90_A0A0B2US33 Metalloendopeptidase n=1 Tax=Toxocara canis T...  97.1       8e-20 
+UniRef90_A0A2A6CQW7 Metalloendopeptidase n=2 Tax=Pristionchus pac...  97.1       1e-19 
+UniRef90_UPI001425656D uncharacterized protein LOC117108667 n=1 T...  96.7       1e-19 
+UniRef90_A0A6J1WLE5 tolloid-like protein 1 n=1 Tax=Galleria mello...  96.7       1e-19 
+UniRef90_K1Q3Y3 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  96.7       1e-19 
+UniRef90_A0A6J8DSM2 Uncharacterized protein n=2 Tax=Mytilus corus...  95.5       3e-19 
+UniRef90_A0A3N0Y7Y7 Metalloendopeptidase n=1 Tax=Anabarilius grah...  95.5       3e-19 
+UniRef90_A0A4P6B1Q9 Uncharacterized protein n=1 Tax=Alteromonas s...  94.4       7e-19 
+UniRef90_A0A2A2L0K3 Metalloendopeptidase n=2 Tax=Diploscapter pac...  93.6       1e-18 
+UniRef90_A0A2A2JT43 Metalloendopeptidase n=1 Tax=Diploscapter pac...  93.6       2e-18 
+UniRef90_C3YSP6 Metalloendopeptidase n=1 Tax=Branchiostoma florid...  92.4       3e-18 
+UniRef90_A0A498SI33 Metalloendopeptidase (Fragment) n=1 Tax=Acant...  92.4       3e-18 
+UniRef90_UPI000A2881F0 LOW QUALITY PROTEIN: meprin A subunit beta...  91.7       6e-18 
+UniRef90_A0A401NRP6 Metalloendopeptidase n=1 Tax=Scyliorhinus tor...  91.7       6e-18 
+UniRef90_A0A1Y3EQ05 Metalloendopeptidase n=1 Tax=Trichinella nati...  91.3       7e-18 
+UniRef90_A0A6L7X676 Uncharacterized protein n=1 Tax=Chloroflexi b...  90.9       9e-18 
+UniRef90_A0A2A6CIL4 Metallopeptidase n=2 Tax=Pristionchus pacific...  90.9       1e-17 
+UniRef90_A0A6J7ZXX6 Uncharacterized protein n=1 Tax=Mytilus corus...  90.9       1e-17 
+UniRef90_A0A0V1CWL5 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  90.5       1e-17 
+UniRef90_A0A498SIQ8 Uncharacterized protein n=1 Tax=Acanthocheilo...  90.1       2e-17 
+UniRef90_A0A261BDW7 Metalloendopeptidase (Fragment) n=2 Tax=Caeno...  89.0       5e-17 
+UniRef90_A0A2U9CVJ2 Metalloendopeptidase n=2 Tax=Scophthalmus max...  89.0       5e-17 
+UniRef90_A0A4W3HYC3 Metalloendopeptidase n=2 Tax=Callorhinchus mi...  89.0       5e-17 
+UniRef90_T1JEI6 Oxysterol-binding protein n=1 Tax=Strigamia marit...  88.6       7e-17 
+UniRef90_A0A6B1CGI9 ZnMc domain-containing protein n=1 Tax=Acidob...  88.6       7e-17 
+UniRef90_A0A553RHZ3 Metalloendopeptidase n=11 Tax=Danionella tran...  88.6       7e-17 
+UniRef90_UPI001301ACD2 astacin-like metalloendopeptidase n=1 Tax=...  88.2       1e-16 
+UniRef90_A0A2B4RQW2 Metalloendopeptidase n=1 Tax=Stylophora pisti...  87.8       1e-16 
+UniRef90_A0A6G0V722 Translation factor GUF1 homolog, mitochondria...  87.8       1e-16 
+UniRef90_UPI0012D3F57B uncharacterized protein LOC116346633 n=1 T...  87.8       1e-16 
+UniRef90_A0A6L8HM45 Uncharacterized protein n=1 Tax=Acidobacterii...  87.4       1e-16 
+UniRef90_E4XEV0 Metalloendopeptidase n=2 Tax=Oikopleura dioica Ta...  87.8       1e-16 
+UniRef90_A0A5C6NM16 Metalloendopeptidase n=1 Tax=Takifugu flavidu...  85.9       5e-16 
+UniRef90_K7FXG5 Metalloendopeptidase n=2 Tax=Pelodiscus sinensis ...  82.4       5e-16 
+UniRef90_A0A261ADM8 Metalloendopeptidase (Fragment) n=1 Tax=Caeno...  85.5       6e-16 
+UniRef90_T1JG75 Metalloendopeptidase n=1 Tax=Strigamia maritima T...  85.5       7e-16 
+UniRef90_A0A2T7PVQ3 Metalloendopeptidase n=2 Tax=Pomacea canalicu...  85.5       7e-16 
+UniRef90_UPI00109F0F89 astacin-like metalloendopeptidase n=1 Tax=...  85.1       9e-16 
+UniRef90_A0A6B0QT77 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  85.1       9e-16 
+UniRef90_A0A498LRF5 Metalloendopeptidase n=1 Tax=Labeo rohita Tax...  85.1       1e-15 
+UniRef90_A0A3M6UZU0 Uncharacterized protein n=2 Tax=Pocillopora d...  84.7       1e-15 
+UniRef90_A0A6G0UWX4 Metalloendopeptidase n=1 Tax=Halicephalobus s...  84.3       2e-15 
+UniRef90_A0A5N5PB07 Metalloendopeptidase n=2 Tax=Pangasianodon hy...  84.3       2e-15 
+UniRef90_UPI0012B58B67 MAM and LDL-receptor class A domain-contai...  84.3       2e-15 
+UniRef90_UPI0012B65352 MAM and LDL-receptor class A domain-contai...  84.3       2e-15 
+UniRef90_UPI0004433E75 astacin-like metalloendopeptidase isoform ...  84.3       2e-15 
+UniRef90_A0A4P5TY65 Fibronectin type-III domain-containing protei...  84.0       2e-15 
+UniRef90_A0A1U7SI06 Metalloendopeptidase n=4 Tax=Alligator TaxID=...  84.0       2e-15 
+UniRef90_A0A1I7RMW5 Metalloendopeptidase n=1 Tax=Bursaphelenchus ...  83.6       3e-15 
+UniRef90_UPI001425B6FD uncharacterized protein LOC117108641 n=1 T...  83.6       3e-15 
+UniRef90_A0A1B0EZT0 Metalloendopeptidase n=1 Tax=Phlebotomus papa...  83.6       3e-15 
+UniRef90_A0A6L7X8A7 Uncharacterized protein n=1 Tax=Chloroflexi b...  83.2       4e-15 
+UniRef90_UPI001402F501 uncharacterized protein LOC116938262 n=1 T...  82.8       5e-15 
+UniRef90_UPI000F660371 tolloid-like protein 2 n=1 Tax=Penaeus van...  82.0       9e-15 
+UniRef90_A0A0P7WVH9 Metalloendopeptidase (Fragment) n=1 Tax=Scler...  81.3       2e-14 
+UniRef90_UPI0011141047 meprin A subunit alpha-like n=1 Tax=Echene...  81.3       2e-14 
+UniRef90_A0A182UTF8 Metalloendopeptidase n=1 Tax=Anopheles merus ...  81.3       2e-14 
+UniRef90_A0A671XG73 Meprin A subunit n=2 Tax=Sparus aurata TaxID=...  80.5       3e-14 
+UniRef90_W4YGE5 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  80.9       3e-14 
+UniRef90_A0A6A4RVE3 Metalloendopeptidase n=1 Tax=Scophthalmus max...  80.5       3e-14 
+UniRef90_A0A6F9C2P9 Metalloendopeptidase n=1 Tax=Coregonus sp. 'b...  79.3       9e-14 
+UniRef90_UPI00148AB5D5 mucin-2 n=1 Tax=Crassostrea gigas TaxID=29...  79.0       1e-13 
+UniRef90_H3ETR4 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  78.2       2e-13 
+UniRef90_A0A4S2JBC3 Metalloendopeptidase n=1 Tax=Temnothorax long...  78.2       2e-13 
+UniRef90_UPI001401CB55 uncharacterized protein LOC116940453 isofo...  77.8       2e-13 
+UniRef90_UPI00141A2879 astacin-like metalloendopeptidase n=1 Tax=...  77.8       3e-13 
+UniRef90_A0A6J0SLX1 astacin-like metalloendopeptidase n=1 Tax=Pog...  77.8       3e-13 
+UniRef90_A0A2B4RII3 Metalloendopeptidase n=1 Tax=Stylophora pisti...  77.4       4e-13 
+UniRef90_UPI00148A487E MAM and LDL-receptor class A domain-contai...  77.0       5e-13 
+UniRef90_UPI001457FE56 MAM and LDL-receptor class A domain-contai...  77.0       6e-13 
+UniRef90_K1QBN8 Metalloendopeptidase n=2 Tax=Crassostrea gigas Ta...  76.6       6e-13 
+UniRef90_UPI001458BE4C MAM and LDL-receptor class A domain-contai...  76.6       7e-13 
+UniRef90_A0A1I7XMH0 Metalloendopeptidase n=1 Tax=Heterorhabditis ...  75.9       1e-12 
+UniRef90_A0A0V1L0G5 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  75.9       1e-12 
+UniRef90_A0A369S0B1 Metalloendopeptidase n=2 Tax=Trichoplax TaxID...  75.9       1e-12 
+UniRef90_A0A2B4SQA9 Metalloendopeptidase n=1 Tax=Stylophora pisti...  75.9       1e-12 
+UniRef90_UPI000D530513 mucin-2-like n=1 Tax=Kryptolebias marmorat...  75.9       1e-12 
+UniRef90_UPI000BAFE5AC MAM and LDL-receptor class A domain-contai...  75.5       2e-12 
+UniRef90_A0A0V0TUB5 Metalloendopeptidase n=11 Tax=Trichinella Tax...  73.9       4e-12 
+UniRef90_A0A2N3AEF1 Ig-like domain-containing protein n=1 Tax=Bac...  73.9       5e-12 
+UniRef90_A0A0V0UX20 Metalloendopeptidase n=1 Tax=Trichinella sp. ...  73.9       6e-12 
+UniRef90_UPI00148A3CE8 MAM and LDL-receptor class A domain-contai...  73.6       7e-12 
+UniRef90_K1QWK6 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  72.0       2e-11 
+UniRef90_UPI0006416314 uncharacterized protein LOC101234645 n=2 T...  70.5       7e-11 
+UniRef90_A0A419PNQ8 Metalloendopeptidase n=1 Tax=Clonorchis sinen...  70.5       7e-11 
+UniRef90_A0A4Q5NTH5 ZnMc domain-containing protein n=1 Tax=bacter...  70.5       7e-11 
+UniRef90_A0A210QSJ9 Endopeptidase-2 n=2 Tax=Mizuhopecten yessoens...  70.5       7e-11 
+UniRef90_A0A2H1V4J0 Metalloendopeptidase (Fragment) n=1 Tax=Spodo...  69.7       1e-10 
+UniRef90_A0A6A4VX16 NAD-dependent protein deacylase n=2 Tax=Amphi...  69.3       2e-10 
+UniRef90_A0A1W0XEQ2 Multifunctional fusion protein n=1 Tax=Hypsib...  68.6       3e-10 
+UniRef90_UPI000B45B0B1 MAM and LDL-receptor class A domain-contai...  68.6       3e-10 
+UniRef90_UPI00148A78AB MAM and LDL-receptor class A domain-contai...  67.4       7e-10 
+UniRef90_A0A3S1B7D9 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  67.0       1e-09 
+UniRef90_A0A1W0X9H2 Mast/stem cell growth factor receptor Kit n=1...  65.5       3e-09 
+UniRef90_UPI0006410565 uncharacterized protein LOC101240329 n=2 T...  65.5       3e-09 
+UniRef90_A0A6J8C3B4 Uncharacterized protein n=1 Tax=Mytilus corus...  65.5       3e-09 
+UniRef90_A0A6G0ICT2 Metalloendopeptidase n=1 Tax=Larimichthys cro...  65.1       5e-09 
+UniRef90_A0A6A5DM05 Metalloendopeptidase n=1 Tax=Schistosoma haem...  65.1       5e-09 
+UniRef90_UPI000640BE19 uncharacterized protein LOC101239439 n=1 T...  65.1       5e-09 
+UniRef90_A0A2D4BYL8 Callose synthase, putative n=1 Tax=Pythium in...  62.4       4e-08 
+UniRef90_A0A4R7SRX9 Astacin (Peptidase family M12A) n=1 Tax=Prost...  62.0       4e-08 
+UniRef90_A0A1Q9CZJ7 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  62.0       4e-08 
+UniRef90_A0A6J8A8C3 Uncharacterized protein n=1 Tax=Mytilus corus...  61.2       7e-08 
+UniRef90_A0A2A6BBA3 Metalloendopeptidase n=2 Tax=Pristionchus pac...  61.2       8e-08 
+UniRef90_A0A2D6PPW6 Uncharacterized protein n=1 Tax=Planctomycete...  60.8       9e-08 
+UniRef90_H9G811 Metalloendopeptidase n=2 Tax=Anolis carolinensis ...  57.0       1e-07 
+UniRef90_UPI00065B77A2 uncharacterized protein LOC101856539 n=1 T...  60.8       1e-07 
+UniRef90_A0A3R7PIW0 Metalloendopeptidase (Fragment) n=1 Tax=Penae...  60.8       1e-07 
+UniRef90_UPI000BAE942D neurogenic locus notch homolog protein 1-l...  60.1       2e-07 
+UniRef90_UPI000BAEE54A uncharacterized protein LOC111127870 isofo...  60.1       2e-07 
+UniRef90_A0A183CAF6 Metalloendopeptidase n=1 Tax=Globodera pallid...  59.3       3e-07 
+UniRef90_V4AWP6 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  58.9       4e-07 
+UniRef90_A0A2A6C2W7 Phosphotransferase n=2 Tax=Pristionchus pacif...  57.8       1e-06 
+UniRef90_A0A6J8C111 Uncharacterized protein n=2 Tax=Mytilus corus...  57.8       1e-06 
+UniRef90_UPI000BB0A218 MAM and LDL-receptor class A domain-contai...  56.6       3e-06 
+UniRef90_V4AZ63 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  55.5       6e-06 
+UniRef90_UPI00148AD8FF neurogenic locus notch homolog protein 1 n...  55.5       6e-06 
+UniRef90_A0A0C3C3G7 ZnMc domain-containing protein n=1 Tax=Hebelo...  55.1       9e-06 
+UniRef90_A0A433SRR6 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  53.9       2e-05 
+UniRef90_A0A1Q9F599 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  53.9       2e-05 
+UniRef90_A0A423SGK3 Metalloendopeptidase n=1 Tax=Penaeus vannamei...  53.1       4e-05 
+UniRef90_A0A4S4N202 Uncharacterized protein n=1 Tax=Antrodiella c...  52.8       5e-05 
+UniRef90_A0A1Q9E9H4 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  52.8       5e-05 
+UniRef90_UPI0014580954 neurogenic locus notch homolog protein 1-l...  52.4       6e-05 
+UniRef90_V4ADB3 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  52.0       7e-05 
+UniRef90_K7J1M1 Metalloendopeptidase n=1 Tax=Nasonia vitripennis ...  52.0       7e-05 
+UniRef90_A0A1Q9E6Z0 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  51.2       1e-04 
+UniRef90_UPI000BAF4B2A fibropellin-1-like n=1 Tax=Crassostrea vir...  50.8       2e-04 
+UniRef90_UPI00148AB64D uncharacterized protein LOC105337195 n=1 T...  50.8       2e-04 
+UniRef90_A0A6H5G648 Metalloendopeptidase n=1 Tax=Nesidiocoris ten...  49.7       4e-04 
+UniRef90_A0A4S4MZT5 Uncharacterized protein n=1 Tax=Antrodiella c...  48.9       8e-04 
+UniRef90_A0A316USG3 ZnMc domain-containing protein n=1 Tax=Jamina...  48.5       0.001 
+UniRef90_A0A6A5JA99 Metallopeptidase, catalytic domain n=2 Tax=Ph...  48.1       0.001 
+UniRef90_E4Y3Z5 Metalloendopeptidase n=1 Tax=Oikopleura dioica Ta...  47.8       0.002 
+UniRef90_A0A1Q3V9Z3 ZnMc domain-containing protein n=1 Tax=Rhodos...  47.0       0.003 
+UniRef90_A0A0C2YCS8 ZnMc domain-containing protein n=2 Tax=Hebelo...  46.2       0.005 
+UniRef90_A0A2A2L842 ZnMc domain-containing protein n=1 Tax=Diplos...  46.2       0.006 
+UniRef90_A7SA81 Predicted protein (Fragment) n=3 Tax=Nematostella...  43.1       0.009 
+UniRef90_A0A4Q4Q863 ZnMc domain-containing protein n=1 Tax=Altern...  45.1       0.012 
+UniRef90_A0A1D1UIZ7 Metalloendopeptidase n=1 Tax=Ramazzottius var...  45.1       0.012 
+UniRef90_A0A2A2KWH4 Metalloendopeptidase n=1 Tax=Diploscapter pac...  45.1       0.012 
+UniRef90_UPI00065B8EE2 uncharacterized protein LOC101848075 n=1 T...  45.1       0.013 
+UniRef90_A0A6J4G2J0 Uncharacterized protein n=1 Tax=Magnetospiril...  44.7       0.019 
+UniRef90_A0A0C3BQ89 Uncharacterized protein n=1 Tax=Hebeloma cyli...  44.3       0.024 
+UniRef90_A0A2B4SFF2 Guanine nucleotide exchange factor VAV3 n=1 T...  44.3       0.025 
+UniRef90_B0D415 Predicted protein n=1 Tax=Laccaria bicolor (strai...  43.9       0.033 
+UniRef90_A0A061H9B0 ZnMc domain-containing protein n=2 Tax=Anthra...  43.9       0.034 
+UniRef90_A0A2E2NDV4 Astacin domain-containing protein n=1 Tax=Phy...  43.5       0.041 
+UniRef90_A0A0C9XA24 Unplaced genomic scaffold K443scaffold_137, w...  43.5       0.042 
+UniRef90_A0A0C2XM86 Astacin domain-containing protein n=1 Tax=Heb...  43.1       0.053 
+UniRef90_B0DMI2 Predicted protein n=2 Tax=Laccaria TaxID=29882 Re...  42.4       0.10  
+UniRef90_A0A409W3W6 ZnMc domain-containing protein n=1 Tax=Panaeo...  42.4       0.11  
+UniRef90_A0A1W0X2E0 Metalloendopeptidase n=2 Tax=Hypsibius dujard...  41.6       0.16  
+UniRef90_A0A0L1KIN4 M12A family peptidase n=1 Tax=Perkinsela sp. ...  41.6       0.17  
+UniRef90_A0A4S4MYC8 Uncharacterized protein n=1 Tax=Antrodiella c...  41.6       0.17  
+UniRef90_A0A0C9WHZ2 Unplaced genomic scaffold K443scaffold_409, w...  41.6       0.19  
+UniRef90_A0A0S4J6P2 Astacin metallopeptidase, putative n=1 Tax=Bo...  41.2       0.24  
+UniRef90_A0A4S4MQX5 Uncharacterized protein n=1 Tax=Antrodiella c...  40.4       0.35  
+UniRef90_A0A2A2LT93 Metalloendopeptidase n=1 Tax=Diploscapter pac...  40.4       0.37  
+UniRef90_A0A4R0RSN4 Cyclin-dependent protein kinase n=1 Tax=Stecc...  40.4       0.39  
+UniRef90_A0A2A2K974 Uncharacterized protein n=5 Tax=Diploscapter ...  40.4       0.42  
+UniRef90_A0A4R0RVL8 ZnMc domain-containing protein n=1 Tax=Stecch...  40.0       0.52  
+UniRef90_B0E0N6 Predicted protein n=1 Tax=Laccaria bicolor (strai...  39.7       0.58  
+UniRef90_A0A146I400 ZnMc domain-containing protein n=1 Tax=Mycena...  39.7       0.75  
+UniRef90_A0A4R0RAU6 ZnMc domain-containing protein n=1 Tax=Stecch...  39.7       0.76  
+UniRef90_A0A146HQM4 ZnMc domain-containing protein n=1 Tax=Mycena...  39.3       0.86  
+UniRef90_A0A4R0RUK3 ZnMc domain-containing protein n=1 Tax=Stecch...  39.3       1.00  
+UniRef90_UPI000E6D8AEC microtubule-actin cross-linking factor 1, ...  38.9       1.3   
+UniRef90_UPI000E6D8DD7 uncharacterized protein LOC113239782 isofo...  38.9       1.4   
+UniRef90_A0A2Z4R4G3 ZnMc domain-containing protein n=3 Tax=Moraxe...  38.5       1.5   
+UniRef90_A0A4R0RI64 ZnMc domain-containing protein n=1 Tax=Stecch...  38.5       1.6   
+UniRef90_A0A146HDY6 ZnMc domain-containing protein (Fragment) n=1...  38.5       1.6   
+UniRef90_UPI000E6D8B95 microtubule-actin cross-linking factor 1 i...  38.1       1.9   
+UniRef90_UPI000E6D9F3A microtubule-actin cross-linking factor 1 i...  37.7       2.6   
+UniRef90_A0A2T5U297 Hemolysin type calcium-binding protein n=5 Ta...  37.7       2.8   
+UniRef90_A0A4R0RM36 Uncharacterized protein n=1 Tax=Steccherinum ...  37.7       2.8   
+UniRef90_UPI0013777810 cadherin domain-containing protein n=1 Tax...  37.4       3.5   
+UniRef90_W8W0Z3 Oikosin 24h n=2 Tax=Oikopleura dioica TaxID=34765...  37.4       4.1   
+UniRef90_A0A3N5LNA9 Choice-of-anchor D domain-containing protein ...  37.0       4.7   
+UniRef90_A0A2A2LXN1 Metalloendopeptidase n=1 Tax=Diploscapter pac...  36.6       6.0   
+UniRef90_A0A146HCZ1 ZnMc domain-containing protein (Fragment) n=1...  36.6       7.0   
+UniRef90_A0A158R435 BAT2_N domain-containing protein n=1 Tax=Syph...  36.6       7.2   
+UniRef90_E4XR50 Oikosin 24g n=2 Tax=Oikopleura dioica TaxID=34765...  36.2       7.3   
+UniRef90_K1PTB7 Protein SpAN n=3 Tax=Crassostrea gigas TaxID=2915...  36.2       8.4   
+UniRef90_A0A1W0XEY3 Metalloendopeptidase n=1 Tax=Hypsibius dujard...  36.2       8.9   
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 605695904982
+Results from round 2
+
+
+Query= sp|P13497-3|BMP1_HUMAN Isoform BMP1-4 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=302
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  344        1e-105
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  340        6e-104
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  334        1e-102
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  316        1e-96 
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  316        9e-96 
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  301        2e-90 
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  297        2e-89 
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  283        1e-84 
+UniRef90_A0A654GZT5 Metalloendopeptidase n=1 Tax=Sparganum prolif...  265        7e-78 
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  262        2e-77 
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  262        3e-77 
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  262        3e-77 
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  262        4e-77 
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  262        5e-77 
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  262        5e-77 
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  261        5e-77 
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  262        6e-77 
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  261        1e-76 
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  260        1e-76 
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  260        2e-76 
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  260        2e-76 
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  259        6e-76 
+UniRef90_G7Y8G0 Metalloendopeptidase (Fragment) n=1 Tax=Clonorchi...  259        7e-76 
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  258        1e-75 
+UniRef90_A0A4S2LA47 Metalloendopeptidase n=1 Tax=Opisthorchis fel...  258        2e-75 
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  258        2e-75 
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  257        2e-75 
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  257        3e-75 
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  256        6e-75 
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  256        8e-75 
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  256        8e-75 
+UniRef90_A0A5K3ETR7 Metalloendopeptidase n=3 Tax=Mesocestoides co...  256        9e-75 
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  255        1e-74 
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  255        1e-74 
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  255        2e-74 
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  254        4e-74 
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  253        5e-74 
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  253        5e-74 
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  253        8e-74 
+UniRef90_A0A0X3NJV3 Metalloendopeptidase n=2 Tax=Schistocephalus ...  253        1e-73 
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  253        1e-73 
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  253        1e-73 
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  252        2e-73 
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  252        2e-73 
+UniRef90_A0A074ZER5 Metalloendopeptidase n=3 Tax=Opisthorchis Tax...  252        2e-73 
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  252        2e-73 
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  251        3e-73 
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  251        4e-73 
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  251        4e-73 
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  251        5e-73 
+UniRef90_A0A6A5D3B5 Metalloendopeptidase n=1 Tax=Schistosoma haem...  251        5e-73 
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  250        5e-73 
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  251        6e-73 
+UniRef90_A0A4Z2DK01 Metalloendopeptidase (Fragment) n=1 Tax=Schis...  250        8e-73 
+UniRef90_A0A183MQX7 Metalloendopeptidase n=2 Tax=Schistosoma marg...  250        8e-73 
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  250        1e-72 
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  250        1e-72 
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  249        1e-72 
+UniRef90_A0A095C5C0 Metalloendopeptidase (Fragment) n=3 Tax=Schis...  250        1e-72 
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  250        1e-72 
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  249        2e-72 
+UniRef90_A0A5J4P1Y2 Metalloendopeptidase (Fragment) n=1 Tax=Parag...  249        2e-72 
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  249        2e-72 
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  249        2e-72 
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  248        3e-72 
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  249        3e-72 
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  248        4e-72 
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  248        4e-72 
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  248        4e-72 
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  248        5e-72 
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  248        8e-72 
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  245        8e-72 
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  247        9e-72 
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  247        9e-72 
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  247        9e-72 
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  246        1e-71 
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  246        2e-71 
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  246        3e-71 
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  245        3e-71 
+UniRef90_A0A068WJH7 Metalloendopeptidase n=4 Tax=Taeniidae TaxID=...  245        4e-71 
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  244        9e-71 
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  244        9e-71 
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  244        1e-70 
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  243        1e-70 
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  243        2e-70 
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  243        2e-70 
+UniRef90_A0A194QXS7 Metalloendopeptidase n=5 Tax=Papilio TaxID=71...  243        2e-70 
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  243        2e-70 
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  242        5e-70 
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  241        8e-70 
+UniRef90_A0A504YBB0 Metalloendopeptidase n=2 Tax=Fasciola TaxID=6...  241        1e-69 
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  241        1e-69 
+UniRef90_A0A0V1E7I9 Metalloendopeptidase (Fragment) n=2 Tax=Trich...  232        2e-66 
+UniRef90_A0A6G0V4T9 Metalloendopeptidase n=1 Tax=Halicephalobus s...  231        3e-66 
+UniRef90_K1QBN8 Metalloendopeptidase n=2 Tax=Crassostrea gigas Ta...  230        1e-65 
+UniRef90_A0A0V1E839 Metalloendopeptidase n=1 Tax=Trichinella pseu...  229        1e-65 
+UniRef90_A0A654GZ69 Metalloendopeptidase n=1 Tax=Sparganum prolif...  228        4e-65 
+UniRef90_U4U9E3 Uncharacterized protein n=3 Tax=Dendroctonus pond...  227        8e-65 
+UniRef90_UPI00084A889D LOW QUALITY PROTEIN: uncharacterized prote...  227        1e-64 
+UniRef90_A0A2H1V4J0 Metalloendopeptidase (Fragment) n=1 Tax=Spodo...  220        3e-62 
+UniRef90_UPI0010FC7E8F uncharacterized protein LOC114961447 isofo...  218        1e-61 
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  217        3e-61 
+UniRef90_A0A3N0Y7Y7 Metalloendopeptidase n=1 Tax=Anabarilius grah...  216        6e-61 
+UniRef90_A0A0L0BYD0 Metalloendopeptidase n=1 Tax=Lucilia cuprina ...  213        5e-60 
+UniRef90_UPI000A2A59FB SCO-spondin n=1 Tax=Exaiptasia pallida Tax...  212        1e-59 
+UniRef90_A0A0V0S4V6 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  210        1e-58 
+UniRef90_A0A0V1BB95 Metalloendopeptidase (Fragment) n=8 Tax=Trich...  209        1e-58 
+UniRef90_A0A183A503 Metalloendopeptidase n=1 Tax=Echinostoma capr...  209        1e-58 
+UniRef90_A0A6B0QT77 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  208        3e-58 
+UniRef90_A0A0V0UEP3 Metalloendopeptidase n=3 Tax=Trichinella TaxI...  208        4e-58 
+UniRef90_W4XFL4 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  208        4e-58 
+UniRef90_A0A0V0UEU1 Metalloendopeptidase n=12 Tax=Trichinella Tax...  208        4e-58 
+UniRef90_UPI00148A3CE8 MAM and LDL-receptor class A domain-contai...  206        1e-57 
+UniRef90_UPI000A2881F0 LOW QUALITY PROTEIN: meprin A subunit beta...  205        4e-57 
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  205        5e-57 
+UniRef90_UPI0012B5B770 uncharacterized protein LOC116297804 n=1 T...  203        2e-56 
+UniRef90_UPI00148A487E MAM and LDL-receptor class A domain-contai...  203        3e-56 
+UniRef90_UPI001457FE56 MAM and LDL-receptor class A domain-contai...  201        7e-56 
+UniRef90_A0A6G0V722 Translation factor GUF1 homolog, mitochondria...  201        9e-56 
+UniRef90_UPI000BAFE5AC MAM and LDL-receptor class A domain-contai...  201        9e-56 
+UniRef90_A0A182NRI0 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  200        3e-55 
+UniRef90_K1QWK6 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  199        4e-55 
+UniRef90_UPI0012B65352 MAM and LDL-receptor class A domain-contai...  199        4e-55 
+UniRef90_W4YGE5 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  198        8e-55 
+UniRef90_H3ED05 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  197        2e-54 
+UniRef90_UPI00077F9421 uncharacterized protein LOC107450195 n=1 T...  197        3e-54 
+UniRef90_UPI00148A78AB MAM and LDL-receptor class A domain-contai...  196        4e-54 
+UniRef90_A0A1I8FMA8 Metalloendopeptidase n=1 Tax=Macrostomum lign...  196        6e-54 
+UniRef90_A0A5N5PB07 Metalloendopeptidase n=2 Tax=Pangasianodon hy...  196        8e-54 
+UniRef90_A0A6F9C2P9 Metalloendopeptidase n=1 Tax=Coregonus sp. 'b...  194        3e-53 
+UniRef90_UPI00148AB5D5 mucin-2 n=1 Tax=Crassostrea gigas TaxID=29...  194        4e-53 
+UniRef90_A0A1B0EZT0 Metalloendopeptidase n=1 Tax=Phlebotomus papa...  194        4e-53 
+UniRef90_A0A671XG73 Meprin A subunit n=2 Tax=Sparus aurata TaxID=...  191        5e-53 
+UniRef90_K7FXG5 Metalloendopeptidase n=2 Tax=Pelodiscus sinensis ...  179        5e-53 
+UniRef90_C3YSP6 Metalloendopeptidase n=1 Tax=Branchiostoma florid...  193        6e-53 
+UniRef90_A0A2U9CVJ2 Metalloendopeptidase n=2 Tax=Scophthalmus max...  193        8e-53 
+UniRef90_A0A5C6NM16 Metalloendopeptidase n=1 Tax=Takifugu flavidu...  193        9e-53 
+UniRef90_A0A401NRP6 Metalloendopeptidase n=1 Tax=Scyliorhinus tor...  192        2e-52 
+UniRef90_A0A0P7WVH9 Metalloendopeptidase (Fragment) n=1 Tax=Scler...  191        3e-52 
+UniRef90_A0A0V0SMG1 Metalloendopeptidase n=1 Tax=Trichinella nels...  191        3e-52 
+UniRef90_A0A0V1P670 Metalloendopeptidase (Fragment) n=5 Tax=Trich...  191        4e-52 
+UniRef90_A0A0V0WBR6 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  191        4e-52 
+UniRef90_A0A1I7VMX7 Uncharacterized protein n=2 Tax=Loa loa TaxID...  190        5e-52 
+UniRef90_UPI001425656D uncharacterized protein LOC117108667 n=1 T...  190        7e-52 
+UniRef90_UPI0011141047 meprin A subunit alpha-like n=1 Tax=Echene...  189        9e-52 
+UniRef90_A0A6L7X676 Uncharacterized protein n=1 Tax=Chloroflexi b...  188        3e-51 
+UniRef90_A0A2B4RII3 Metalloendopeptidase n=1 Tax=Stylophora pisti...  188        3e-51 
+UniRef90_UPI000D530513 mucin-2-like n=1 Tax=Kryptolebias marmorat...  186        1e-50 
+UniRef90_UPI0012D3F57B uncharacterized protein LOC116346633 n=1 T...  186        2e-50 
+UniRef90_A0A4P6B1Q9 Uncharacterized protein n=1 Tax=Alteromonas s...  186        3e-50 
+UniRef90_A0A261ADM8 Metalloendopeptidase (Fragment) n=1 Tax=Caeno...  185        3e-50 
+UniRef90_A0A261BDW7 Metalloendopeptidase (Fragment) n=2 Tax=Caeno...  185        4e-50 
+UniRef90_UPI00141A2879 astacin-like metalloendopeptidase n=1 Tax=...  185        4e-50 
+UniRef90_A0A498LRF5 Metalloendopeptidase n=1 Tax=Labeo rohita Tax...  184        6e-50 
+UniRef90_A0A553RHZ3 Metalloendopeptidase n=11 Tax=Danionella tran...  184        6e-50 
+UniRef90_A0A6G0UWX4 Metalloendopeptidase n=1 Tax=Halicephalobus s...  184        7e-50 
+UniRef90_UPI001301ACD2 astacin-like metalloendopeptidase n=1 Tax=...  184        7e-50 
+UniRef90_A0A498SIQ8 Uncharacterized protein n=1 Tax=Acanthocheilo...  184        8e-50 
+UniRef90_A0A2A6CIL4 Metallopeptidase n=2 Tax=Pristionchus pacific...  184        1e-49 
+UniRef90_UPI0010A851BA astacin-like metalloendopeptidase n=1 Tax=...  183        2e-49 
+UniRef90_A0A498SI33 Metalloendopeptidase (Fragment) n=1 Tax=Acant...  183        2e-49 
+UniRef90_A0A2A6CQW7 Metalloendopeptidase n=2 Tax=Pristionchus pac...  182        3e-49 
+UniRef90_A0A6J7ZXX6 Uncharacterized protein n=1 Tax=Mytilus corus...  182        4e-49 
+UniRef90_A0A6J0SLX1 astacin-like metalloendopeptidase n=1 Tax=Pog...  182        4e-49 
+UniRef90_A0A4S2JBC3 Metalloendopeptidase n=1 Tax=Temnothorax long...  182        4e-49 
+UniRef90_A0A369S0B1 Metalloendopeptidase n=2 Tax=Trichoplax TaxID...  182        5e-49 
+UniRef90_UPI0004433E75 astacin-like metalloendopeptidase isoform ...  181        6e-49 
+UniRef90_A0A6J8A8C3 Uncharacterized protein n=1 Tax=Mytilus corus...  181        1e-48 
+UniRef90_A0A0N4TYR4 Metalloendopeptidase n=1 Tax=Brugia pahangi T...  180        2e-48 
+UniRef90_UPI001402F501 uncharacterized protein LOC116938262 n=1 T...  179        3e-48 
+UniRef90_UPI00109F0F89 astacin-like metalloendopeptidase n=1 Tax=...  179        4e-48 
+UniRef90_A0A6J8DSM2 Uncharacterized protein n=2 Tax=Mytilus corus...  179        5e-48 
+UniRef90_A0A6A4RVE3 Metalloendopeptidase n=1 Tax=Scophthalmus max...  179        6e-48 
+UniRef90_A0A182UTF8 Metalloendopeptidase n=1 Tax=Anopheles merus ...  177        2e-47 
+UniRef90_A0A3M6UZU0 Uncharacterized protein n=2 Tax=Pocillopora d...  177        2e-47 
+UniRef90_UPI000BAE942D neurogenic locus notch homolog protein 1-l...  177        2e-47 
+UniRef90_A0A2T7PVQ3 Metalloendopeptidase n=2 Tax=Pomacea canalicu...  177        3e-47 
+UniRef90_UPI001425B6FD uncharacterized protein LOC117108641 n=1 T...  177        3e-47 
+UniRef90_UPI0012B58B67 MAM and LDL-receptor class A domain-contai...  176        3e-47 
+UniRef90_UPI001458BE4C MAM and LDL-receptor class A domain-contai...  175        1e-46 
+UniRef90_A0A6L8HM45 Uncharacterized protein n=1 Tax=Acidobacterii...  174        2e-46 
+UniRef90_A0A1U7SI06 Metalloendopeptidase n=4 Tax=Alligator TaxID=...  174        2e-46 
+UniRef90_A0A2A2JT43 Metalloendopeptidase n=1 Tax=Diploscapter pac...  174        4e-46 
+UniRef90_K1Q3Y3 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  173        5e-46 
+UniRef90_UPI00065B77A2 uncharacterized protein LOC101856539 n=1 T...  173        6e-46 
+UniRef90_A0A4W3HYC3 Metalloendopeptidase n=2 Tax=Callorhinchus mi...  173        6e-46 
+UniRef90_UPI000B45B0B1 MAM and LDL-receptor class A domain-contai...  172        8e-46 
+UniRef90_A0A1Y3EQ05 Metalloendopeptidase n=1 Tax=Trichinella nati...  172        1e-45 
+UniRef90_T1JEI6 Oxysterol-binding protein n=1 Tax=Strigamia marit...  172        1e-45 
+UniRef90_UPI001401CB55 uncharacterized protein LOC116940453 isofo...  172        1e-45 
+UniRef90_A0A0V1CWL5 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  172        2e-45 
+UniRef90_A0A4P5TY65 Fibronectin type-III domain-containing protei...  171        2e-45 
+UniRef90_H3ETR4 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  171        3e-45 
+UniRef90_A0A0B2US33 Metalloendopeptidase n=1 Tax=Toxocara canis T...  170        5e-45 
+UniRef90_UPI000BB0A218 MAM and LDL-receptor class A domain-contai...  167        4e-44 
+UniRef90_A0A1I7RMW5 Metalloendopeptidase n=1 Tax=Bursaphelenchus ...  167        8e-44 
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  166        2e-43 
+UniRef90_A0A2B4RQW2 Metalloendopeptidase n=1 Tax=Stylophora pisti...  164        6e-43 
+UniRef90_A0A6B1CGI9 ZnMc domain-containing protein n=1 Tax=Acidob...  164        7e-43 
+UniRef90_UPI000BAEE54A uncharacterized protein LOC111127870 isofo...  164        8e-43 
+UniRef90_A0A2N3AEF1 Ig-like domain-containing protein n=1 Tax=Bac...  162        5e-42 
+UniRef90_A0A3S1B7D9 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  161        6e-42 
+UniRef90_A0A2A2L0K3 Metalloendopeptidase n=2 Tax=Diploscapter pac...  160        1e-41 
+UniRef90_UPI0006416314 uncharacterized protein LOC101234645 n=2 T...  160        1e-41 
+UniRef90_E4XEV0 Metalloendopeptidase n=2 Tax=Oikopleura dioica Ta...  160        2e-41 
+UniRef90_A0A210QSJ9 Endopeptidase-2 n=2 Tax=Mizuhopecten yessoens...  159        3e-41 
+UniRef90_A0A2A6BBA3 Metalloendopeptidase n=2 Tax=Pristionchus pac...  156        4e-40 
+UniRef90_UPI000BAF4B2A fibropellin-1-like n=1 Tax=Crassostrea vir...  154        1e-39 
+UniRef90_A0A6J8C111 Uncharacterized protein n=2 Tax=Mytilus corus...  154        2e-39 
+UniRef90_A0A0V1L0G5 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  153        3e-39 
+UniRef90_A0A1W0XEQ2 Multifunctional fusion protein n=1 Tax=Hypsib...  153        4e-39 
+UniRef90_A0A0V0TUB5 Metalloendopeptidase n=11 Tax=Trichinella Tax...  152        1e-38 
+UniRef90_A0A0V0UX20 Metalloendopeptidase n=1 Tax=Trichinella sp. ...  152        1e-38 
+UniRef90_UPI000640BE19 uncharacterized protein LOC101239439 n=1 T...  150        4e-38 
+UniRef90_A0A6J8C3B4 Uncharacterized protein n=1 Tax=Mytilus corus...  150        4e-38 
+UniRef90_A0A2B4SQA9 Metalloendopeptidase n=1 Tax=Stylophora pisti...  150        4e-38 
+UniRef90_A0A6G0ICT2 Metalloendopeptidase n=1 Tax=Larimichthys cro...  150        5e-38 
+UniRef90_UPI00148AD8FF neurogenic locus notch homolog protein 1 n...  150        5e-38 
+UniRef90_A0A6A4VX16 NAD-dependent protein deacylase n=2 Tax=Amphi...  148        2e-37 
+UniRef90_A0A433SRR6 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  147        4e-37 
+UniRef90_UPI0006410565 uncharacterized protein LOC101240329 n=2 T...  146        8e-37 
+UniRef90_A0A6L7X8A7 Uncharacterized protein n=1 Tax=Chloroflexi b...  146        1e-36 
+UniRef90_A0A1I7XMH0 Metalloendopeptidase n=1 Tax=Heterorhabditis ...  144        8e-36 
+UniRef90_V4AZ63 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  142        3e-35 
+UniRef90_UPI00148AB64D uncharacterized protein LOC105337195 n=1 T...  141        4e-35 
+UniRef90_A0A4Q5NTH5 ZnMc domain-containing protein n=1 Tax=bacter...  141        5e-35 
+UniRef90_K7J1M1 Metalloendopeptidase n=1 Tax=Nasonia vitripennis ...  140        1e-34 
+UniRef90_A0A419PNQ8 Metalloendopeptidase n=1 Tax=Clonorchis sinen...  139        2e-34 
+UniRef90_A0A6A5DM05 Metalloendopeptidase n=1 Tax=Schistosoma haem...  139        3e-34 
+UniRef90_H9G811 Metalloendopeptidase n=2 Tax=Anolis carolinensis ...  127        5e-34 
+UniRef90_V4ADB3 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  137        9e-34 
+UniRef90_V4AWP6 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  137        1e-33 
+UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  137        1e-33 
+UniRef90_A0A1Q9CZJ7 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  134        1e-32 
+UniRef90_A0A1Q9F599 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  134        1e-32 
+UniRef90_A0A183CAF6 Metalloendopeptidase n=1 Tax=Globodera pallid...  132        7e-32 
+UniRef90_A0A4R7SRX9 Astacin (Peptidase family M12A) n=1 Tax=Prost...  130        2e-31 
+UniRef90_A0A2D6PPW6 Uncharacterized protein n=1 Tax=Planctomycete...  127        5e-30 
+UniRef90_A0A1W0X9H2 Mast/stem cell growth factor receptor Kit n=1...  125        2e-29 
+UniRef90_A0A1Q9E6Z0 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  124        5e-29 
+UniRef90_UPI0014580954 neurogenic locus notch homolog protein 1-l...  120        5e-28 
+UniRef90_A0A1Q9E9H4 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  119        2e-27 
+UniRef90_A0A6J1WLE5 tolloid-like protein 1 n=1 Tax=Galleria mello...  115        6e-26 
+UniRef90_A0A423SGK3 Metalloendopeptidase n=1 Tax=Penaeus vannamei...  113        3e-25 
+UniRef90_A0A2D4BYL8 Callose synthase, putative n=1 Tax=Pythium in...  112        4e-25 
+UniRef90_A0A3R7PIW0 Metalloendopeptidase (Fragment) n=1 Tax=Penae...  111        1e-24 
+UniRef90_A0A0C3C3G7 ZnMc domain-containing protein n=1 Tax=Hebelo...  111        1e-24 
+UniRef90_T1JG75 Metalloendopeptidase n=1 Tax=Strigamia maritima T...  107        4e-23 
+UniRef90_UPI000F660371 tolloid-like protein 2 n=1 Tax=Penaeus van...  97.1       8e-20 
+UniRef90_A0A2A6C2W7 Phosphotransferase n=2 Tax=Pristionchus pacif...  93.6       1e-18 
+UniRef90_A0A4S4MZT5 Uncharacterized protein n=1 Tax=Antrodiella c...  92.9       2e-18 
+UniRef90_A0A6H5G648 Metalloendopeptidase n=1 Tax=Nesidiocoris ten...  92.5       3e-18 
+UniRef90_A0A4S4N202 Uncharacterized protein n=1 Tax=Antrodiella c...  91.3       8e-18 
+UniRef90_A0A316USG3 ZnMc domain-containing protein n=1 Tax=Jamina...  82.1       1e-14 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A2A2K974 Uncharacterized protein n=5 Tax=Diploscapter ...  125        1e-29
+UniRef90_K1PTB7 Protein SpAN n=3 Tax=Crassostrea gigas TaxID=2915...  123        7e-29
+UniRef90_E4Y3Z5 Metalloendopeptidase n=1 Tax=Oikopleura dioica Ta...  122        2e-28
+UniRef90_A0A1D1UIZ7 Metalloendopeptidase n=1 Tax=Ramazzottius var...  107        3e-23
+UniRef90_A0A2A2KWH4 Metalloendopeptidase n=1 Tax=Diploscapter pac...  103        5e-22
+UniRef90_A0A2A2L842 ZnMc domain-containing protein n=1 Tax=Diplos...  102        2e-21
+UniRef90_A0A1W0XEY3 Metalloendopeptidase n=1 Tax=Hypsibius dujard...  100        5e-21
+UniRef90_A0A2B4SFF2 Guanine nucleotide exchange factor VAV3 n=1 T...  97.5       7e-20
+UniRef90_A0A1W0X2E0 Metalloendopeptidase n=2 Tax=Hypsibius dujard...  96.3       2e-19
+UniRef90_A0A1D1URA9 ZnMc domain-containing protein n=1 Tax=Ramazz...  95.2       5e-19
+UniRef90_A0A0L1KIN4 M12A family peptidase n=1 Tax=Perkinsela sp. ...  94.8       5e-19
+UniRef90_A0A4S4MYC8 Uncharacterized protein n=1 Tax=Antrodiella c...  92.9       2e-18
+UniRef90_A0A0C2YCS8 ZnMc domain-containing protein n=2 Tax=Hebelo...  92.9       2e-18
+UniRef90_A0A0C3BQ89 Uncharacterized protein n=1 Tax=Hebeloma cyli...  92.5       3e-18
+UniRef90_A0A0C9XA24 Unplaced genomic scaffold K443scaffold_137, w...  90.5       1e-17
+UniRef90_A0A4R0RVL8 ZnMc domain-containing protein n=1 Tax=Stecch...  90.5       2e-17
+UniRef90_A0A0C9WHZ2 Unplaced genomic scaffold K443scaffold_409, w...  89.8       3e-17
+UniRef90_UPI000B4597DB MAM and LDL-receptor class A domain-contai...  88.2       9e-17
+UniRef90_A0A6A5JA99 Metallopeptidase, catalytic domain n=2 Tax=Ph...  87.8       1e-16
+UniRef90_B0DMI2 Predicted protein n=2 Tax=Laccaria TaxID=29882 Re...  86.7       3e-16
+UniRef90_B0D415 Predicted protein n=1 Tax=Laccaria bicolor (strai...  86.3       3e-16
+UniRef90_UPI00065B8EE2 uncharacterized protein LOC101848075 n=1 T...  86.3       4e-16
+UniRef90_A0A061H9B0 ZnMc domain-containing protein n=2 Tax=Anthra...  85.2       1e-15
+UniRef90_A0A2A2LT93 Metalloendopeptidase n=1 Tax=Diploscapter pac...  84.4       2e-15
+UniRef90_UPI000BAE9780 MAM and LDL-receptor class A domain-contai...  84.4       2e-15
+UniRef90_A0A409W3W6 ZnMc domain-containing protein n=1 Tax=Panaeo...  84.0       2e-15
+UniRef90_A0A2E2NDV4 Astacin domain-containing protein n=1 Tax=Phy...  82.5       8e-15
+UniRef90_A0A4S4MQX5 Uncharacterized protein n=1 Tax=Antrodiella c...  82.1       1e-14
+UniRef90_A0A0C2YCS0 ZnMc domain-containing protein n=1 Tax=Hebelo...  81.7       1e-14
+UniRef90_A0A4R0RUK3 ZnMc domain-containing protein n=1 Tax=Stecch...  80.9       2e-14
+UniRef90_A0A4R0RSN4 Cyclin-dependent protein kinase n=1 Tax=Stecc...  80.5       4e-14
+UniRef90_A0A146HDY6 ZnMc domain-containing protein (Fragment) n=1...  79.8       5e-14
+UniRef90_A0A4Q4Q863 ZnMc domain-containing protein n=1 Tax=Altern...  79.8       6e-14
+UniRef90_A0A4R0RM36 Uncharacterized protein n=1 Tax=Steccherinum ...  79.0       1e-13
+UniRef90_A0A2A2LXN1 Metalloendopeptidase n=1 Tax=Diploscapter pac...  78.6       2e-13
+UniRef90_B0E0N6 Predicted protein n=1 Tax=Laccaria bicolor (strai...  78.2       2e-13
+UniRef90_A0A0C2XM86 Astacin domain-containing protein n=1 Tax=Heb...  77.1       4e-13
+UniRef90_W8W0Z3 Oikosin 24h n=2 Tax=Oikopleura dioica TaxID=34765...  76.3       8e-13
+UniRef90_E4XR50 Oikosin 24g n=2 Tax=Oikopleura dioica TaxID=34765...  76.3       8e-13
+UniRef90_M9MH81 ZnMc domain-containing protein n=2 Tax=Moesziomyc...  75.9       1e-12
+UniRef90_A0A081CNY4 ZnMc domain-containing protein (Fragment) n=2...  74.8       3e-12
+UniRef90_M7B6I4 Astacin-like metalloendopeptidase n=1 Tax=Cheloni...  74.0       5e-12
+UniRef90_A0A4R0RI64 ZnMc domain-containing protein n=1 Tax=Stecch...  73.2       1e-11
+UniRef90_A7SA81 Predicted protein (Fragment) n=3 Tax=Nematostella...  68.2       1e-11
+UniRef90_A0A0S4J6P2 Astacin metallopeptidase, putative n=1 Tax=Bo...  69.7       1e-10
+UniRef90_A0A146HCZ1 ZnMc domain-containing protein (Fragment) n=1...  68.6       3e-10
+UniRef90_A0A2A4K372 CCHC-type domain-containing protein n=3 Tax=H...  67.8       6e-10
+UniRef90_A0A4R0RAU6 ZnMc domain-containing protein n=1 Tax=Stecch...  67.0       1e-09
+UniRef90_UPI0006410077 uncharacterized protein LOC100197525 n=1 T...  66.3       2e-09
+UniRef90_A0A146I400 ZnMc domain-containing protein n=1 Tax=Mycena...  66.3       2e-09
+UniRef90_A0A146HQM4 ZnMc domain-containing protein n=1 Tax=Mycena...  65.5       3e-09
+UniRef90_A0A2D4BQ49 Carn_acyltransf domain-containing protein n=1...  63.2       2e-08
+UniRef90_A0A177T6Z5 ZnMc domain-containing protein n=1 Tax=Tillet...  63.2       2e-08
+UniRef90_A0A0C9XTI8 Unplaced genomic scaffold K443scaffold_79, wh...  63.2       2e-08
+UniRef90_A0A6J4G2J0 Uncharacterized protein n=1 Tax=Magnetospiril...  62.0       5e-08
+UniRef90_A0A2Z4R4G3 ZnMc domain-containing protein n=3 Tax=Moraxe...  60.9       9e-08
+UniRef90_A0A182GU74 ZnMc domain-containing protein n=2 Tax=Aedes ...  59.3       3e-07
+UniRef90_A0A1Q3V9Z3 ZnMc domain-containing protein n=1 Tax=Rhodos...  58.2       7e-07
+UniRef90_A0A6C0C2X8 ZnMc domain-containing protein n=1 Tax=viral ...  57.4       2e-06
+UniRef90_A0A194QAP0 Putative aminopeptidase W07G4.4 n=2 Tax=Papil...  57.0       2e-06
+UniRef90_B0D485 Predicted protein n=1 Tax=Laccaria bicolor (strai...  56.6       2e-06
+UniRef90_A0A212JWQ4 Peptidase M10 serralysin n=1 Tax=uncultured d...  56.6       2e-06
+UniRef90_A0A2T5U297 Hemolysin type calcium-binding protein n=5 Ta...  54.7       1e-05
+UniRef90_A0A3M6TC25 Uncharacterized protein n=2 Tax=Pocillopora d...  52.4       5e-05
+UniRef90_A0A094BAT2 SGNH_hydro domain-containing protein n=1 Tax=...  52.4       6e-05
+UniRef90_A0A2R5EBQ7 ZnMc domain-containing protein n=2 Tax=Azospi...  52.0       8e-05
+UniRef90_A0A4P6MKZ5 ZnMc domain-containing protein n=1 Tax=Thalas...  51.6       9e-05
+UniRef90_A0A6P0RTE0 Uncharacterized protein (Fragment) n=1 Tax=Sy...  51.6       1e-04
+UniRef90_A0A6J4TG92 Alkaline phosphatase n=1 Tax=uncultured Sphin...  51.6       1e-04
+UniRef90_A0A428TZ09 Astacin domain-containing protein n=1 Tax=Fus...  51.3       1e-04
+UniRef90_UPI000A1F716C M10 family metallopeptidase C-terminal dom...  51.3       1e-04
+UniRef90_C5S4H3 Calcium-binding domain-containing protein (Fragme...  50.5       2e-04
+UniRef90_B6R118 ZnMc domain-containing protein n=1 Tax=Pseudovibr...  50.5       3e-04
+UniRef90_A0A4V0IHP9 RTX-III toxin determinant A from serotype 8 n...  50.5       3e-04
+UniRef90_A0A6N7F7E7 Uncharacterized protein n=1 Tax=Alphaproteoba...  50.5       3e-04
+UniRef90_G4CQC2 ZnMc domain-containing protein (Fragment) n=4 Tax...  50.5       3e-04
+UniRef90_A0A0Q4IQF6 ZnMc domain-containing protein n=2 Tax=Sphing...  50.5       3e-04
+UniRef90_A0A084EXM3 Serralysin B n=12 Tax=Haemophilus parasuis Ta...  50.1       4e-04
+UniRef90_UPI001431B81B M10 family metallopeptidase C-terminal dom...  49.7       4e-04
+UniRef90_A0A1N7HNL4 Ca2+-binding protein, RTX toxin-related n=2 T...  48.9       8e-04
+UniRef90_A0A5A9PC91 Matrix metalloproteinase-14 n=1 Tax=Triplophy...  48.9       9e-04
+UniRef90_A0A560Q202 Ca2+-binding RTX toxin-like protein n=2 Tax=P...  48.6       0.001
+UniRef90_A0A520W9K6 Matrixin family metalloprotease n=1 Tax=Alpha...  48.6       0.001
+UniRef90_A0A0F8C3B8 Acetyl-CoA acetyltransferase, mitochondrial n...  48.2       0.001
+UniRef90_A0A4R0RFU3 Uncharacterized protein n=1 Tax=Steccherinum ...  48.2       0.001
+UniRef90_A0A0P1GXW2 Serralysin B n=1 Tax=Tropicibacter naphthalen...  48.2       0.001
+UniRef90_A0A1X3D2C4 Uncharacterized protein n=1 Tax=Neisseria den...  48.2       0.001
+UniRef90_UPI0013659051 Ig-like domain-containing protein n=1 Tax=...  48.2       0.001
+UniRef90_A0A1T0A2Y6 Serralysin C n=11 Tax=Haemophilus parasuis Ta...  47.8       0.002
+UniRef90_UPI0013777810 cadherin domain-containing protein n=1 Tax...  47.8       0.002
+UniRef90_A0A4Q2XW58 ZnMc domain-containing protein (Fragment) n=1...  47.8       0.002
+UniRef90_A0A2T5ITB1 VCBS repeat-containing protein n=1 Tax=Agitoc...  47.8       0.002
+UniRef90_A0A0G4KQS5 Uncharacterized protein n=1 Tax=Verticillium ...  47.8       0.002
+UniRef90_UPI0014322492 M10 family metallopeptidase C-terminal dom...  47.8       0.002
+UniRef90_A0A6I6QA85 Matrixin family metalloprotease n=4 Tax=Pseud...  47.8       0.002
+UniRef90_UPI001448598E M10 family metallopeptidase C-terminal dom...  47.4       0.002
+UniRef90_A0A0P6R7E3 ZnMc domain-containing protein n=1 Tax=Phaeob...  47.4       0.002
+UniRef90_F4XIE4 Matrixin n=3 Tax=Moorea TaxID=1155738 RepID=F4XIE...  47.4       0.002
+UniRef90_A0A328BYX3 ZnMc domain-containing protein n=2 Tax=Glaess...  47.4       0.003
+UniRef90_UPI00125FAFA0 tandem-95 repeat protein n=1 Tax=Acinetoba...  47.4       0.003
+UniRef90_A0A537MIS2 ZnMc domain-containing protein n=1 Tax=Alphap...  47.4       0.003
+UniRef90_A0A3P2A1H9 Ig-like domain-containing protein n=2 Tax=Con...  47.0       0.003
+UniRef90_UPI0004683323 hypothetical protein n=1 Tax=Pseudomonas s...  47.0       0.003
+UniRef90_UPI001303CC7A Ig-like domain-containing protein n=1 Tax=...  47.0       0.003
+UniRef90_UPI00145E69F6 SBBP repeat-containing protein n=2 Tax=unc...  47.0       0.003
+UniRef90_A0A6J4FZG3 Uncharacterized protein n=2 Tax=Magnetospiril...  47.0       0.004
+UniRef90_A0A1N7AWT9 Matrixin n=2 Tax=unclassified Pseudomonas Tax...  46.6       0.004
+UniRef90_A0A448DB96 Iron-regulated protein frpC n=2 Tax=Neisseria...  46.6       0.004
+UniRef90_A0A6L7XWB9 Uncharacterized protein n=1 Tax=Gammaproteoba...  46.6       0.004
+UniRef90_A0A6A4TZ80 Uncharacterized protein n=1 Tax=Scophthalmus ...  46.6       0.004
+UniRef90_A0A6N9CJK2 Uncharacterized protein n=2 Tax=Gammaproteoba...  46.6       0.004
+UniRef90_A0A6L8D5T2 Uncharacterized protein (Fragment) n=1 Tax=Ga...  46.6       0.004
+UniRef90_A0A450SFE8 VCBS repeat-containing protein n=1 Tax=Candid...  46.6       0.005
+UniRef90_A0A3P2A3Y5 ZnMc domain-containing protein n=2 Tax=Conchi...  46.6       0.005
+UniRef90_A0A423MWT1 ZnMc domain-containing protein n=4 Tax=Pseudo...  46.2       0.005
+UniRef90_A0A2T5IYF3 Hemolysin type calcium-binding protein n=1 Ta...  46.6       0.005
+UniRef90_A0A173J9G9 Ca2+-binding protein, RTX toxin n=2 Tax=uncla...  46.2       0.005
+UniRef90_D5BMF5 Uncharacterized protein n=1 Tax=Puniceispirillum ...  46.2       0.005
+UniRef90_A0A2P8YV56 Uncharacterized protein n=1 Tax=Blattella ger...  46.2       0.005
+UniRef90_A0A080MHV5 Serralysin C n=5 Tax=Candidatus Accumulibacte...  46.2       0.006
+UniRef90_UPI0013C4C37B type I secretion C-terminal target domain-...  45.9       0.007
+UniRef90_A0A1X3CQ00 ZnMc domain-containing protein n=2 Tax=Neisse...  45.9       0.007
+UniRef90_A0A0M6ZTC6 Serralysin n=5 Tax=Labrenzia TaxID=478070 Rep...  45.9       0.007
+UniRef90_T1INB6 PNPLA domain-containing protein n=1 Tax=Strigamia...  45.9       0.007
+UniRef90_UPI0015876E08 calcium-binding protein n=1 Tax=Pseudomona...  45.9       0.007
+UniRef90_V4PL19 ZnMc domain-containing protein n=1 Tax=Asticcacau...  45.9       0.008
+UniRef90_A0A178MXQ3 Staphylococcus aureus surface protein A n=1 T...  45.9       0.008
+UniRef90_UPI001551AAAF M10 family metallopeptidase C-terminal dom...  45.9       0.008
+UniRef90_A0A2E5PU03 Uncharacterized protein n=2 Tax=root TaxID=1 ...  45.9       0.008
+UniRef90_F4QM40 Hemolysin-type calcium-binding repeat 2 copies fa...  45.5       0.009
+UniRef90_A0A423HYY1 ZnMc domain-containing protein n=1 Tax=Pseudo...  45.5       0.010
+UniRef90_W8QD71 Rhizobiocin n=1 Tax=Pseudomonas brassicacearum Ta...  45.1       0.012
+UniRef90_A0A0N9X5P9 ZnMc domain-containing protein n=3 Tax=Pseudo...  45.1       0.013
+UniRef90_UPI000F05D0DE RTX toxin n=1 Tax=Pseudomonas viridiflava ...  45.1       0.013
+UniRef90_A0A5E7I1J7 ZnMc domain-containing protein n=4 Tax=Pseudo...  45.1       0.014
+UniRef90_A0A1K1SJD3 Ca2+-binding protein, RTX toxin-related n=7 T...  45.1       0.014
+UniRef90_A0A080LU45 Serralysin C n=2 Tax=Candidatus Accumulibacte...  44.7       0.015
+UniRef90_A0A1G6IRA5 Serralysin n=1 Tax=Acinetobacter boissieri Ta...  45.1       0.015
+UniRef90_UPI000A1F7669 M10 family metallopeptidase C-terminal dom...  44.7       0.016
+UniRef90_A0A3N5LNA9 Choice-of-anchor D domain-containing protein ...  44.7       0.016
+UniRef90_UPI000A1E390A M10 family metallopeptidase C-terminal dom...  44.7       0.017
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 605695904982
+Results from round 3
+
+
+Query= sp|P13497-3|BMP1_HUMAN Isoform BMP1-4 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=302
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  320        3e-97
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  314        7e-95
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  304        1e-91
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  303        2e-91
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  297        1e-89
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  283        2e-84
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  266        2e-78
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  263        3e-77
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  260        4e-76
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  260        4e-76
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  259        5e-76
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  258        1e-75
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  258        2e-75
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  257        2e-75
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  257        3e-75
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  256        5e-75
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  256        5e-75
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  255        1e-74
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  255        2e-74
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  255        2e-74
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  254        4e-74
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  253        4e-74
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  253        4e-74
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  254        5e-74
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  253        1e-73
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  253        1e-73
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  252        1e-73
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  252        2e-73
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  252        2e-73
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  252        2e-73
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  252        2e-73
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  252        2e-73
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  252        2e-73
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  251        3e-73
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  251        4e-73
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  251        4e-73
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  251        5e-73
+UniRef90_A0A4S2LA47 Metalloendopeptidase n=1 Tax=Opisthorchis fel...  250        7e-73
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  250        1e-72
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  249        1e-72
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  249        2e-72
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  249        2e-72
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  249        2e-72
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  249        2e-72
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  248        4e-72
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  248        4e-72
+UniRef90_G7Y8G0 Metalloendopeptidase (Fragment) n=1 Tax=Clonorchi...  248        5e-72
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  247        1e-71
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  247        1e-71
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  247        2e-71
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  247        2e-71
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  246        2e-71
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  246        2e-71
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  246        3e-71
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  246        3e-71
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  245        3e-71
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  245        4e-71
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  245        7e-71
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  244        9e-71
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  244        1e-70
+UniRef90_A0A5K3ETR7 Metalloendopeptidase n=3 Tax=Mesocestoides co...  244        1e-70
+UniRef90_A0A074ZER5 Metalloendopeptidase n=3 Tax=Opisthorchis Tax...  244        1e-70
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  243        2e-70
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  243        4e-70
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  242        4e-70
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  242        5e-70
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  242        5e-70
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  239        8e-70
+UniRef90_A0A4Z2DK01 Metalloendopeptidase (Fragment) n=1 Tax=Schis...  241        1e-69
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  241        1e-69
+UniRef90_A0A654GZT5 Metalloendopeptidase n=1 Tax=Sparganum prolif...  241        1e-69
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  241        2e-69
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  241        2e-69
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  240        2e-69
+UniRef90_A0A095C5C0 Metalloendopeptidase (Fragment) n=3 Tax=Schis...  240        2e-69
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  240        3e-69
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  240        4e-69
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  240        4e-69
+UniRef90_A0A194QXS7 Metalloendopeptidase n=5 Tax=Papilio TaxID=71...  239        5e-69
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  239        5e-69
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  239        6e-69
+UniRef90_A0A6A5D3B5 Metalloendopeptidase n=1 Tax=Schistosoma haem...  239        6e-69
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  238        8e-69
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  238        8e-69
+UniRef90_A0A183MQX7 Metalloendopeptidase n=2 Tax=Schistosoma marg...  238        9e-69
+UniRef90_A0A0X3NJV3 Metalloendopeptidase n=2 Tax=Schistocephalus ...  238        1e-68
+UniRef90_A0A5J4P1Y2 Metalloendopeptidase (Fragment) n=1 Tax=Parag...  238        1e-68
+UniRef90_A0A068WJH7 Metalloendopeptidase n=4 Tax=Taeniidae TaxID=...  238        1e-68
+UniRef90_A0A6G0V4T9 Metalloendopeptidase n=1 Tax=Halicephalobus s...  237        5e-68
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  236        8e-68
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  235        1e-67
+UniRef90_A0A0V1E839 Metalloendopeptidase n=1 Tax=Trichinella pseu...  234        4e-67
+UniRef90_UPI00148A487E MAM and LDL-receptor class A domain-contai...  233        9e-67
+UniRef90_A0A504YBB0 Metalloendopeptidase n=2 Tax=Fasciola TaxID=6...  233        1e-66
+UniRef90_U4U9E3 Uncharacterized protein n=3 Tax=Dendroctonus pond...  233        1e-66
+UniRef90_A0A6G0V722 Translation factor GUF1 homolog, mitochondria...  232        2e-66
+UniRef90_UPI00148A3CE8 MAM and LDL-receptor class A domain-contai...  229        2e-65
+UniRef90_A0A0V1E7I9 Metalloendopeptidase (Fragment) n=2 Tax=Trich...  229        2e-65
+UniRef90_UPI000BAFE5AC MAM and LDL-receptor class A domain-contai...  225        4e-64
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  224        1e-63
+UniRef90_UPI00148A78AB MAM and LDL-receptor class A domain-contai...  223        1e-63
+UniRef90_UPI0010FC7E8F uncharacterized protein LOC114961447 isofo...  223        2e-63
+UniRef90_W4XFL4 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  222        4e-63
+UniRef90_A0A654GZ69 Metalloendopeptidase n=1 Tax=Sparganum prolif...  222        6e-63
+UniRef90_A0A0L0BYD0 Metalloendopeptidase n=1 Tax=Lucilia cuprina ...  220        3e-62
+UniRef90_UPI000A2A59FB SCO-spondin n=1 Tax=Exaiptasia pallida Tax...  219        7e-62
+UniRef90_K1QWK6 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  217        4e-61
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  215        2e-60
+UniRef90_A0A6B0QT77 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  214        3e-60
+UniRef90_A0A0V1BB95 Metalloendopeptidase (Fragment) n=8 Tax=Trich...  214        3e-60
+UniRef90_A0A2B4RII3 Metalloendopeptidase n=1 Tax=Stylophora pisti...  214        3e-60
+UniRef90_A0A0V0S4V6 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  214        4e-60
+UniRef90_UPI00084A889D LOW QUALITY PROTEIN: uncharacterized prote...  213        5e-60
+UniRef90_A0A3N0Y7Y7 Metalloendopeptidase n=1 Tax=Anabarilius grah...  213        5e-60
+UniRef90_UPI0012B5B770 uncharacterized protein LOC116297804 n=1 T...  211        2e-59
+UniRef90_UPI0012B65352 MAM and LDL-receptor class A domain-contai...  211        5e-59
+UniRef90_A0A5N5PB07 Metalloendopeptidase n=2 Tax=Pangasianodon hy...  210        6e-59
+UniRef90_K7FXG5 Metalloendopeptidase n=2 Tax=Pelodiscus sinensis ...  193        2e-58
+UniRef90_A0A2H1V4J0 Metalloendopeptidase (Fragment) n=1 Tax=Spodo...  208        4e-58
+UniRef90_W4YGE5 Metalloendopeptidase n=1 Tax=Strongylocentrotus p...  208        4e-58
+UniRef90_UPI001457FE56 MAM and LDL-receptor class A domain-contai...  206        1e-57
+UniRef90_A0A183A503 Metalloendopeptidase n=1 Tax=Echinostoma capr...  206        3e-57
+UniRef90_K1QBN8 Metalloendopeptidase n=2 Tax=Crassostrea gigas Ta...  205        3e-57
+UniRef90_UPI000A2881F0 LOW QUALITY PROTEIN: meprin A subunit beta...  205        4e-57
+UniRef90_A0A0V0UEU1 Metalloendopeptidase n=12 Tax=Trichinella Tax...  205        5e-57
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  205        6e-57
+UniRef90_A0A0V0UEP3 Metalloendopeptidase n=3 Tax=Trichinella TaxI...  205        6e-57
+UniRef90_H3ED05 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  203        2e-56
+UniRef90_UPI00077F9421 uncharacterized protein LOC107450195 n=1 T...  203        2e-56
+UniRef90_A0A1B0EZT0 Metalloendopeptidase n=1 Tax=Phlebotomus papa...  202        3e-56
+UniRef90_A0A6L7X676 Uncharacterized protein n=1 Tax=Chloroflexi b...  202        4e-56
+UniRef90_UPI0010A851BA astacin-like metalloendopeptidase n=1 Tax=...  201        7e-56
+UniRef90_UPI000BB0A218 MAM and LDL-receptor class A domain-contai...  201        8e-56
+UniRef90_A0A671XG73 Meprin A subunit n=2 Tax=Sparus aurata TaxID=...  198        1e-55
+UniRef90_UPI001425656D uncharacterized protein LOC117108667 n=1 T...  201        1e-55
+UniRef90_UPI0004433E75 astacin-like metalloendopeptidase isoform ...  200        2e-55
+UniRef90_UPI0012D3F57B uncharacterized protein LOC116346633 n=1 T...  200        3e-55
+UniRef90_A0A0V0WBR6 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  199        4e-55
+UniRef90_A0A0V1P670 Metalloendopeptidase (Fragment) n=5 Tax=Trich...  199        4e-55
+UniRef90_A0A6F9C2P9 Metalloendopeptidase n=1 Tax=Coregonus sp. 'b...  199        5e-55
+UniRef90_A0A0V0SMG1 Metalloendopeptidase n=1 Tax=Trichinella nels...  199        6e-55
+UniRef90_UPI001301ACD2 astacin-like metalloendopeptidase n=1 Tax=...  199        7e-55
+UniRef90_A0A401NRP6 Metalloendopeptidase n=1 Tax=Scyliorhinus tor...  198        9e-55
+UniRef90_A0A5C6NM16 Metalloendopeptidase n=1 Tax=Takifugu flavidu...  197        2e-54
+UniRef90_UPI00148AB5D5 mucin-2 n=1 Tax=Crassostrea gigas TaxID=29...  197        3e-54
+UniRef90_A0A4P6B1Q9 Uncharacterized protein n=1 Tax=Alteromonas s...  197        3e-54
+UniRef90_A0A2U9CVJ2 Metalloendopeptidase n=2 Tax=Scophthalmus max...  196        5e-54
+UniRef90_A0A6J0SLX1 astacin-like metalloendopeptidase n=1 Tax=Pog...  195        9e-54
+UniRef90_UPI00141A2879 astacin-like metalloendopeptidase n=1 Tax=...  195        1e-53
+UniRef90_UPI0011141047 meprin A subunit alpha-like n=1 Tax=Echene...  195        2e-53
+UniRef90_UPI000D530513 mucin-2-like n=1 Tax=Kryptolebias marmorat...  194        2e-53
+UniRef90_A0A498LRF5 Metalloendopeptidase n=1 Tax=Labeo rohita Tax...  193        4e-53
+UniRef90_A0A369S0B1 Metalloendopeptidase n=2 Tax=Trichoplax TaxID...  193        6e-53
+UniRef90_A0A6G0UWX4 Metalloendopeptidase n=1 Tax=Halicephalobus s...  193        7e-53
+UniRef90_A0A0P7WVH9 Metalloendopeptidase (Fragment) n=1 Tax=Scler...  193        7e-53
+UniRef90_A0A6L8HM45 Uncharacterized protein n=1 Tax=Acidobacterii...  193        7e-53
+UniRef90_UPI0012B58B67 MAM and LDL-receptor class A domain-contai...  193        8e-53
+UniRef90_A0A2A6CIL4 Metallopeptidase n=2 Tax=Pristionchus pacific...  192        1e-52
+UniRef90_A0A182NRI0 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  192        1e-52
+UniRef90_A0A1I7VMX7 Uncharacterized protein n=2 Tax=Loa loa TaxID...  192        1e-52
+UniRef90_A0A498SI33 Metalloendopeptidase (Fragment) n=1 Tax=Acant...  192        2e-52
+UniRef90_A0A1I8FMA8 Metalloendopeptidase n=1 Tax=Macrostomum lign...  191        2e-52
+UniRef90_C3YSP6 Metalloendopeptidase n=1 Tax=Branchiostoma florid...  191        3e-52
+UniRef90_UPI00109F0F89 astacin-like metalloendopeptidase n=1 Tax=...  191        4e-52
+UniRef90_A0A6A4RVE3 Metalloendopeptidase n=1 Tax=Scophthalmus max...  191        4e-52
+UniRef90_A0A4P5TY65 Fibronectin type-III domain-containing protei...  190        5e-52
+UniRef90_A0A2T7PVQ3 Metalloendopeptidase n=2 Tax=Pomacea canalicu...  190        8e-52
+UniRef90_A0A553RHZ3 Metalloendopeptidase n=11 Tax=Danionella tran...  189        1e-51
+UniRef90_A0A0N4TYR4 Metalloendopeptidase n=1 Tax=Brugia pahangi T...  189        2e-51
+UniRef90_A0A6J8A8C3 Uncharacterized protein n=1 Tax=Mytilus corus...  188        2e-51
+UniRef90_A0A6B1CGI9 ZnMc domain-containing protein n=1 Tax=Acidob...  188        3e-51
+UniRef90_UPI001458BE4C MAM and LDL-receptor class A domain-contai...  188        3e-51
+UniRef90_A0A1U7SI06 Metalloendopeptidase n=4 Tax=Alligator TaxID=...  188        5e-51
+UniRef90_UPI000B45B0B1 MAM and LDL-receptor class A domain-contai...  188        5e-51
+UniRef90_A0A261ADM8 Metalloendopeptidase (Fragment) n=1 Tax=Caeno...  187        6e-51
+UniRef90_A0A2A6CQW7 Metalloendopeptidase n=2 Tax=Pristionchus pac...  187        8e-51
+UniRef90_A0A498SIQ8 Uncharacterized protein n=1 Tax=Acanthocheilo...  186        1e-50
+UniRef90_UPI001402F501 uncharacterized protein LOC116938262 n=1 T...  186        1e-50
+UniRef90_A0A3M6UZU0 Uncharacterized protein n=2 Tax=Pocillopora d...  186        2e-50
+UniRef90_A0A6J8DSM2 Uncharacterized protein n=2 Tax=Mytilus corus...  185        3e-50
+UniRef90_A0A261BDW7 Metalloendopeptidase (Fragment) n=2 Tax=Caeno...  185        3e-50
+UniRef90_A0A6J7ZXX6 Uncharacterized protein n=1 Tax=Mytilus corus...  185        4e-50
+UniRef90_UPI000BAE942D neurogenic locus notch homolog protein 1-l...  185        5e-50
+UniRef90_A0A2A2JT43 Metalloendopeptidase n=1 Tax=Diploscapter pac...  183        1e-49
+UniRef90_K1Q3Y3 Metalloendopeptidase n=1 Tax=Crassostrea gigas Ta...  183        1e-49
+UniRef90_UPI000BAF4B2A fibropellin-1-like n=1 Tax=Crassostrea vir...  183        2e-49
+UniRef90_A0A1Y3EQ05 Metalloendopeptidase n=1 Tax=Trichinella nati...  183        3e-49
+UniRef90_A0A0V1CWL5 Metalloendopeptidase n=6 Tax=Trichinella TaxI...  182        4e-49
+UniRef90_A0A4W3HYC3 Metalloendopeptidase n=2 Tax=Callorhinchus mi...  181        5e-49
+UniRef90_A0A0B2US33 Metalloendopeptidase n=1 Tax=Toxocara canis T...  181        1e-48
+UniRef90_T1JEI6 Oxysterol-binding protein n=1 Tax=Strigamia marit...  180        2e-48
+UniRef90_A0A182UTF8 Metalloendopeptidase n=1 Tax=Anopheles merus ...  180        2e-48
+UniRef90_A0A1I7RMW5 Metalloendopeptidase n=1 Tax=Bursaphelenchus ...  176        5e-47
+UniRef90_H3ETR4 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  175        8e-47
+UniRef90_A0A4S2JBC3 Metalloendopeptidase n=1 Tax=Temnothorax long...  175        1e-46
+UniRef90_UPI001401CB55 uncharacterized protein LOC116940453 isofo...  175        1e-46
+UniRef90_UPI0006416314 uncharacterized protein LOC101234645 n=2 T...  172        1e-45
+UniRef90_UPI00148AD8FF neurogenic locus notch homolog protein 1 n...  172        1e-45
+UniRef90_A0A2B4SQA9 Metalloendopeptidase n=1 Tax=Stylophora pisti...  170        9e-45
+UniRef90_A0A2B4RQW2 Metalloendopeptidase n=1 Tax=Stylophora pisti...  169        1e-44
+UniRef90_A0A210QSJ9 Endopeptidase-2 n=2 Tax=Mizuhopecten yessoens...  168        4e-44
+UniRef90_UPI00065B77A2 uncharacterized protein LOC101856539 n=1 T...  167        7e-44
+UniRef90_UPI0006410565 uncharacterized protein LOC101240329 n=2 T...  166        2e-43
+UniRef90_UPI001425B6FD uncharacterized protein LOC117108641 n=1 T...  165        3e-43
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  164        5e-43
+UniRef90_A0A2N3AEF1 Ig-like domain-containing protein n=1 Tax=Bac...  163        1e-42
+UniRef90_UPI000640BE19 uncharacterized protein LOC101239439 n=1 T...  163        2e-42
+UniRef90_A0A433SRR6 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  162        4e-42
+UniRef90_A0A6G0ICT2 Metalloendopeptidase n=1 Tax=Larimichthys cro...  159        2e-41
+UniRef90_A0A6J8C111 Uncharacterized protein n=2 Tax=Mytilus corus...  159        3e-41
+UniRef90_UPI000BAEE54A uncharacterized protein LOC111127870 isofo...  158        6e-41
+UniRef90_A0A6J8C3B4 Uncharacterized protein n=1 Tax=Mytilus corus...  158        7e-41
+UniRef90_A0A3S1B7D9 Metalloendopeptidase n=1 Tax=Elysia chlorotic...  158        1e-40
+UniRef90_A0A2A2L0K3 Metalloendopeptidase n=2 Tax=Diploscapter pac...  155        8e-40
+UniRef90_V4AZ63 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  154        1e-39
+UniRef90_H9G811 Metalloendopeptidase n=2 Tax=Anolis carolinensis ...  141        2e-39
+UniRef90_A0A4Q5NTH5 ZnMc domain-containing protein n=1 Tax=bacter...  153        4e-39
+UniRef90_E4XEV0 Metalloendopeptidase n=2 Tax=Oikopleura dioica Ta...  153        4e-39
+UniRef90_A0A0V1L0G5 Metalloendopeptidase n=5 Tax=Trichinella TaxI...  152        1e-38
+UniRef90_A0A2A2K974 Uncharacterized protein n=5 Tax=Diploscapter ...  152        1e-38
+UniRef90_A0A1Q9F599 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  151        1e-38
+UniRef90_UPI00148AB64D uncharacterized protein LOC105337195 n=1 T...  150        4e-38
+UniRef90_A0A6A5DM05 Metalloendopeptidase n=1 Tax=Schistosoma haem...  150        4e-38
+UniRef90_V4AWP6 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  149        7e-38
+UniRef90_A0A0V0TUB5 Metalloendopeptidase n=11 Tax=Trichinella Tax...  149        9e-38
+UniRef90_A0A0V0UX20 Metalloendopeptidase n=1 Tax=Trichinella sp. ...  149        9e-38
+UniRef90_A0A6L7X8A7 Uncharacterized protein n=1 Tax=Chloroflexi b...  149        1e-37
+UniRef90_A0A6A4VX16 NAD-dependent protein deacylase n=2 Tax=Amphi...  149        1e-37
+UniRef90_A0A1W0XEQ2 Multifunctional fusion protein n=1 Tax=Hypsib...  148        2e-37
+UniRef90_A0A2A6BBA3 Metalloendopeptidase n=2 Tax=Pristionchus pac...  146        7e-37
+UniRef90_A0A419PNQ8 Metalloendopeptidase n=1 Tax=Clonorchis sinen...  145        2e-36
+UniRef90_K7J1M1 Metalloendopeptidase n=1 Tax=Nasonia vitripennis ...  145        2e-36
+UniRef90_A0A0C3C3G7 ZnMc domain-containing protein n=1 Tax=Hebelo...  144        4e-36
+UniRef90_A0A1W0X2E0 Metalloendopeptidase n=2 Tax=Hypsibius dujard...  143        2e-35
+UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  142        3e-35
+UniRef90_A0A1I7XMH0 Metalloendopeptidase n=1 Tax=Heterorhabditis ...  140        1e-34
+UniRef90_A0A1Q9CZJ7 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  139        3e-34
+UniRef90_A0A4S4MYC8 Uncharacterized protein n=1 Tax=Antrodiella c...  139        4e-34
+UniRef90_A0A4S4MZT5 Uncharacterized protein n=1 Tax=Antrodiella c...  138        7e-34
+UniRef90_K1PTB7 Protein SpAN n=3 Tax=Crassostrea gigas TaxID=2915...  137        1e-33
+UniRef90_A0A423SGK3 Metalloendopeptidase n=1 Tax=Penaeus vannamei...  136        3e-33
+UniRef90_A0A1D1UIZ7 Metalloendopeptidase n=1 Tax=Ramazzottius var...  136        3e-33
+UniRef90_A0A183CAF6 Metalloendopeptidase n=1 Tax=Globodera pallid...  135        5e-33
+UniRef90_V4ADB3 Metalloendopeptidase n=1 Tax=Lottia gigantea TaxI...  135        6e-33
+UniRef90_UPI0014580954 neurogenic locus notch homolog protein 1-l...  134        1e-32
+UniRef90_A0A2D6PPW6 Uncharacterized protein n=1 Tax=Planctomycete...  133        2e-32
+UniRef90_A0A0C2YCS8 ZnMc domain-containing protein n=2 Tax=Hebelo...  133        3e-32
+UniRef90_T1JG75 Metalloendopeptidase n=1 Tax=Strigamia maritima T...  132        7e-32
+UniRef90_A0A4R7SRX9 Astacin (Peptidase family M12A) n=1 Tax=Prost...  131        1e-31
+UniRef90_A0A0C3BQ89 Uncharacterized protein n=1 Tax=Hebeloma cyli...  130        4e-31
+UniRef90_A0A0C9WHZ2 Unplaced genomic scaffold K443scaffold_409, w...  129        8e-31
+UniRef90_A0A4R0RVL8 ZnMc domain-containing protein n=1 Tax=Stecch...  126        5e-30
+UniRef90_A0A1W0X9H2 Mast/stem cell growth factor receptor Kit n=1...  126        8e-30
+UniRef90_A0A1Q9E9H4 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  126        9e-30
+UniRef90_A0A3R7PIW0 Metalloendopeptidase (Fragment) n=1 Tax=Penae...  125        2e-29
+UniRef90_A0A4S4MQX5 Uncharacterized protein n=1 Tax=Antrodiella c...  125        2e-29
+UniRef90_E4Y3Z5 Metalloendopeptidase n=1 Tax=Oikopleura dioica Ta...  124        3e-29
+UniRef90_A0A1Q9E6Z0 Metalloendopeptidase n=1 Tax=Symbiodinium mic...  124        3e-29
+UniRef90_A0A4R0RSN4 Cyclin-dependent protein kinase n=1 Tax=Stecc...  124        3e-29
+UniRef90_UPI00065B8EE2 uncharacterized protein LOC101848075 n=1 T...  123        1e-28
+UniRef90_B0DMI2 Predicted protein n=2 Tax=Laccaria TaxID=29882 Re...  122        2e-28
+UniRef90_A0A0C9XA24 Unplaced genomic scaffold K443scaffold_137, w...  122        2e-28
+UniRef90_A0A4R0RM36 Uncharacterized protein n=1 Tax=Steccherinum ...  122        2e-28
+UniRef90_A0A4Q4Q863 ZnMc domain-containing protein n=1 Tax=Altern...  122        2e-28
+UniRef90_A0A409W3W6 ZnMc domain-containing protein n=1 Tax=Panaeo...  122        2e-28
+UniRef90_A0A146HDY6 ZnMc domain-containing protein (Fragment) n=1...  120        7e-28
+UniRef90_A0A2B4SFF2 Guanine nucleotide exchange factor VAV3 n=1 T...  119        1e-27
+UniRef90_A0A2A2KWH4 Metalloendopeptidase n=1 Tax=Diploscapter pac...  119        2e-27
+UniRef90_B0D415 Predicted protein n=1 Tax=Laccaria bicolor (strai...  119        2e-27
+UniRef90_A0A061H9B0 ZnMc domain-containing protein n=2 Tax=Anthra...  119        2e-27
+UniRef90_A0A4S4N202 Uncharacterized protein n=1 Tax=Antrodiella c...  116        2e-26
+UniRef90_A0A1W0XEY3 Metalloendopeptidase n=1 Tax=Hypsibius dujard...  116        3e-26
+UniRef90_B0E0N6 Predicted protein n=1 Tax=Laccaria bicolor (strai...  116        3e-26
+UniRef90_A0A0L1KIN4 M12A family peptidase n=1 Tax=Perkinsela sp. ...  114        7e-26
+UniRef90_A0A1D1URA9 ZnMc domain-containing protein n=1 Tax=Ramazz...  114        1e-25
+UniRef90_A0A081CNY4 ZnMc domain-containing protein (Fragment) n=2...  112        7e-25
+UniRef90_A0A4R0RUK3 ZnMc domain-containing protein n=1 Tax=Stecch...  111        8e-25
+UniRef90_A0A0C2YCS0 ZnMc domain-containing protein n=1 Tax=Hebelo...  111        8e-25
+UniRef90_A0A0C2XM86 Astacin domain-containing protein n=1 Tax=Heb...  110        3e-24
+UniRef90_A0A146HCZ1 ZnMc domain-containing protein (Fragment) n=1...  109        4e-24
+UniRef90_A0A2A4K372 CCHC-type domain-containing protein n=3 Tax=H...  109        6e-24
+UniRef90_A0A0S4J6P2 Astacin metallopeptidase, putative n=1 Tax=Bo...  109        7e-24
+UniRef90_M9MH81 ZnMc domain-containing protein n=2 Tax=Moesziomyc...  108        9e-24
+UniRef90_A0A6J1WLE5 tolloid-like protein 1 n=1 Tax=Galleria mello...  107        2e-23
+UniRef90_M7B6I4 Astacin-like metalloendopeptidase n=1 Tax=Cheloni...  106        7e-23
+UniRef90_A0A2A2L842 ZnMc domain-containing protein n=1 Tax=Diplos...  106        8e-23
+UniRef90_A0A2D4BYL8 Callose synthase, putative n=1 Tax=Pythium in...  105        1e-22
+UniRef90_A0A146HQM4 ZnMc domain-containing protein n=1 Tax=Mycena...  105        1e-22
+UniRef90_A0A316USG3 ZnMc domain-containing protein n=1 Tax=Jamina...  102        9e-22
+UniRef90_UPI000B4597DB MAM and LDL-receptor class A domain-contai...  97.6       6e-20
+UniRef90_A0A6A5JA99 Metallopeptidase, catalytic domain n=2 Tax=Ph...  97.6       7e-20
+UniRef90_A0A2A2LT93 Metalloendopeptidase n=1 Tax=Diploscapter pac...  97.2       8e-20
+UniRef90_UPI000BAE9780 MAM and LDL-receptor class A domain-contai...  96.8       1e-19
+UniRef90_UPI000F660371 tolloid-like protein 2 n=1 Tax=Penaeus van...  96.1       2e-19
+UniRef90_A0A2A2LXN1 Metalloendopeptidase n=1 Tax=Diploscapter pac...  95.7       3e-19
+UniRef90_A0A0C9XTI8 Unplaced genomic scaffold K443scaffold_79, wh...  92.2       4e-18
+UniRef90_A0A177T6Z5 ZnMc domain-containing protein n=1 Tax=Tillet...  91.0       1e-17
+UniRef90_A0A2A6C2W7 Phosphotransferase n=2 Tax=Pristionchus pacif...  89.5       3e-17
+UniRef90_A0A194QAP0 Putative aminopeptidase W07G4.4 n=2 Tax=Papil...  89.5       4e-17
+UniRef90_A0A4R0RI64 ZnMc domain-containing protein n=1 Tax=Stecch...  89.1       4e-17
+UniRef90_A0A146I400 ZnMc domain-containing protein n=1 Tax=Mycena...  88.7       6e-17
+UniRef90_A0A2D4BQ49 Carn_acyltransf domain-containing protein n=1...  87.2       2e-16
+UniRef90_B0D485 Predicted protein n=1 Tax=Laccaria bicolor (strai...  86.4       4e-16
+UniRef90_E4XR50 Oikosin 24g n=2 Tax=Oikopleura dioica TaxID=34765...  86.0       4e-16
+UniRef90_A0A4R0RAU6 ZnMc domain-containing protein n=1 Tax=Stecch...  86.0       5e-16
+UniRef90_A0A6H5G648 Metalloendopeptidase n=1 Tax=Nesidiocoris ten...  85.3       9e-16
+UniRef90_A0A2E2NDV4 Astacin domain-containing protein n=1 Tax=Phy...  84.9       1e-15
+UniRef90_UPI0006410077 uncharacterized protein LOC100197525 n=1 T...  83.7       3e-15
+UniRef90_W8W0Z3 Oikosin 24h n=2 Tax=Oikopleura dioica TaxID=34765...  81.4       2e-14
+UniRef90_A0A212JWQ4 Peptidase M10 serralysin n=1 Tax=uncultured d...  80.3       4e-14
+UniRef90_A0A2Z4R4G3 ZnMc domain-containing protein n=3 Tax=Moraxe...  79.5       7e-14
+UniRef90_A0A6J4G2J0 Uncharacterized protein n=1 Tax=Magnetospiril...  75.6       1e-12
+UniRef90_A7SA81 Predicted protein (Fragment) n=3 Tax=Nematostella...  68.7       9e-12
+UniRef90_A0A3M6TC25 Uncharacterized protein n=2 Tax=Pocillopora d...  72.6       2e-11
+UniRef90_A0A182GU74 ZnMc domain-containing protein n=2 Tax=Aedes ...  71.8       3e-11
+UniRef90_A0A2T5U297 Hemolysin type calcium-binding protein n=5 Ta...  69.5       2e-10
+UniRef90_G4CQC2 ZnMc domain-containing protein (Fragment) n=4 Tax...  69.1       2e-10
+UniRef90_A0A5A9PC91 Matrix metalloproteinase-14 n=1 Tax=Triplophy...  68.3       4e-10
+UniRef90_A0A6C0C2X8 ZnMc domain-containing protein n=1 Tax=viral ...  66.0       3e-09
+UniRef90_A0A1Q3V9Z3 ZnMc domain-containing protein n=1 Tax=Rhodos...  64.1       8e-09
+UniRef90_A0A2R5EBQ7 ZnMc domain-containing protein n=2 Tax=Azospi...  64.1       9e-09
+UniRef90_A0A428TZ09 Astacin domain-containing protein n=1 Tax=Fus...  63.7       1e-08
+UniRef90_UPI000A1F716C M10 family metallopeptidase C-terminal dom...  62.5       3e-08
+UniRef90_A0A084EXM3 Serralysin B n=12 Tax=Haemophilus parasuis Ta...  61.4       7e-08
+UniRef90_A0A6P0RTE0 Uncharacterized protein (Fragment) n=1 Tax=Sy...  61.4       8e-08
+UniRef90_A0A6N7F7E7 Uncharacterized protein n=1 Tax=Alphaproteoba...  61.0       9e-08
+UniRef90_A0A6J4TG92 Alkaline phosphatase n=1 Tax=uncultured Sphin...  61.0       1e-07
+UniRef90_A0A1N7HNL4 Ca2+-binding protein, RTX toxin-related n=2 T...  60.6       1e-07
+UniRef90_UPI001431B81B M10 family metallopeptidase C-terminal dom...  59.1       4e-07
+UniRef90_A0A094BAT2 SGNH_hydro domain-containing protein n=1 Tax=...  59.1       4e-07
+UniRef90_C5S4H3 Calcium-binding domain-containing protein (Fragme...  57.5       1e-06
+UniRef90_A0A4V0IHP9 RTX-III toxin determinant A from serotype 8 n...  56.8       2e-06
+UniRef90_A0A4P6MKZ5 ZnMc domain-containing protein n=1 Tax=Thalas...  56.4       3e-06
+UniRef90_A0A0Q4IQF6 ZnMc domain-containing protein n=2 Tax=Sphing...  56.0       4e-06
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A498M3B5 Metalloendopeptidase n=1 Tax=Labeo rohita Tax...  67.5       6e-10
+UniRef90_A0A1X3D2C4 Uncharacterized protein n=1 Tax=Neisseria den...  66.0       2e-09
+UniRef90_A0A4R0RFU3 Uncharacterized protein n=1 Tax=Steccherinum ...  64.9       6e-09
+UniRef90_A0A1X3CQ00 ZnMc domain-containing protein n=2 Tax=Neisse...  63.7       1e-08
+UniRef90_A0A448DB96 Iron-regulated protein frpC n=2 Tax=Neisseria...  63.3       2e-08
+UniRef90_A0A3S4Z5Q1 Iron-regulated protein frpC n=7 Tax=Neisseria...  62.2       4e-08
+UniRef90_A0A1T0A2Y6 Serralysin C n=11 Tax=Haemophilus parasuis Ta...  61.0       9e-08
+UniRef90_A0A498LAU2 Matrix metallo ase-14-like protein n=1 Tax=La...  60.2       2e-07
+UniRef90_A4CWW7 P/Homo B domain-containing protein n=1 Tax=Synech...  59.5       3e-07
+UniRef90_A0A485MBN3 Low-density lipoprotein n=4 Tax=Boreoeutheria...  58.7       6e-07
+UniRef90_A0A0G4KQS5 Uncharacterized protein n=1 Tax=Verticillium ...  57.9       1e-06
+UniRef90_T1INB6 PNPLA domain-containing protein n=1 Tax=Strigamia...  57.5       1e-06
+UniRef90_A0A533SYD2 ZnMc domain-containing protein n=2 Tax=Betapr...  57.5       1e-06
+UniRef90_UPI0013777810 cadherin domain-containing protein n=1 Tax...  57.1       2e-06
+UniRef90_W8QD71 Rhizobiocin n=1 Tax=Pseudomonas brassicacearum Ta...  56.8       2e-06
+UniRef90_A0A0P1GXW2 Serralysin B n=1 Tax=Tropicibacter naphthalen...  56.4       3e-06
+UniRef90_UPI0013659051 Ig-like domain-containing protein n=1 Tax=...  56.4       3e-06
+UniRef90_A0A423HYY1 ZnMc domain-containing protein n=1 Tax=Pseudo...  56.4       4e-06
+UniRef90_A0A6I6QA85 Matrixin family metalloprotease n=4 Tax=Pseud...  56.0       4e-06
+UniRef90_A0A560Q202 Ca2+-binding RTX toxin-like protein n=2 Tax=P...  55.6       5e-06
+UniRef90_A0A5B0F2U8 Calcium-binding protein n=1 Tax=Pseudomonas s...  55.6       5e-06
+UniRef90_A0A0N9X5P9 ZnMc domain-containing protein n=3 Tax=Pseudo...  55.6       6e-06
+UniRef90_UPI00087C28A0 calcium-binding protein n=7 Tax=Pseudomona...  55.6       6e-06
+UniRef90_A0A6A4TZ80 Uncharacterized protein n=1 Tax=Scophthalmus ...  55.6       6e-06
+UniRef90_A0A0C2MQN4 ZnMc domain-containing protein (Fragment) n=6...  55.2       7e-06
+UniRef90_A0A1H1R9Q2 Ca2+-binding protein, RTX toxin-related n=2 T...  55.2       7e-06
+UniRef90_A0A4P7PH93 Matrixin family metalloprotease n=1 Tax=Pseud...  55.2       8e-06
+UniRef90_A0A1X3DJD2 Uncharacterized protein n=5 Tax=Neisseria Tax...  55.2       8e-06
+UniRef90_A0A5E7WVG3 ZnMc domain-containing protein n=3 Tax=Pseudo...  55.2       8e-06
+UniRef90_A0A5E7I1J7 ZnMc domain-containing protein n=4 Tax=Pseudo...  54.8       9e-06
+UniRef90_A0A423HS83 Calcium-binding protein (Fragment) n=2 Tax=Ps...  54.8       9e-06
+UniRef90_UPI0005FBF9BE matrixin family metalloprotease n=1 Tax=Ps...  54.8       9e-06
+UniRef90_A0A1V3MLK9 ZnMc domain-containing protein n=1 Tax=Pseudo...  54.8       9e-06
+UniRef90_A0A0P6R7E3 ZnMc domain-containing protein n=1 Tax=Phaeob...  54.8       9e-06
+UniRef90_UPI00148A3BDC MAM and LDL-receptor class A domain-contai...  54.8       1e-05
+UniRef90_A0A1K1SJD3 Ca2+-binding protein, RTX toxin-related n=7 T...  54.5       1e-05
+UniRef90_UPI000A1F7669 M10 family metallopeptidase C-terminal dom...  54.5       1e-05
+UniRef90_A0A0S4HXT2 Serralysin C n=1 Tax=Pseudomonas sp. URMO17WK...  54.5       1e-05
+UniRef90_UPI000A1E390A M10 family metallopeptidase C-terminal dom...  54.5       1e-05
+UniRef90_J3F666 Ca2+-binding protein, RTX toxin n=1 Tax=Pseudomon...  54.5       1e-05
+UniRef90_A0A1N7AWT9 Matrixin n=2 Tax=unclassified Pseudomonas Tax...  54.5       1e-05
+UniRef90_A0A6J4FZG3 Uncharacterized protein n=2 Tax=Magnetospiril...  54.5       1e-05
+UniRef90_UPI0015876E08 calcium-binding protein n=1 Tax=Pseudomona...  54.1       2e-05
+UniRef90_UPI001551AAAF M10 family metallopeptidase C-terminal dom...  54.1       2e-05
+UniRef90_UPI000C6EE351 sterile alpha and TIR motif-containing pro...  54.1       2e-05
+UniRef90_A0A481QZ57 RTX toxin n=2 Tax=Pseudomonas TaxID=286 RepID...  54.1       2e-05
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.121    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0369    0.140     1.90     42.6     43.6 
+
+Effective search space used: 605695904982
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

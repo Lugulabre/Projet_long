@@ -1,0 +1,799 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P13497-2|BMP1_HUMAN Isoform BMP1-1 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=730
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  1214       0.0   
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  1194       0.0   
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  1154       0.0   
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  1139       0.0   
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  1123       0.0   
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  1090       0.0   
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  1078       0.0   
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  1077       0.0   
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  1061       0.0   
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  1046       0.0   
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  744        0.0   
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  744        0.0   
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  744        0.0   
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  741        0.0   
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  734        0.0   
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  734        0.0   
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  729        0.0   
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  725        0.0   
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  724        0.0   
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  722        0.0   
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  717        0.0   
+UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  717        0.0   
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  704        0.0   
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  703        0.0   
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  701        0.0   
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  701        0.0   
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  701        0.0   
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  700        0.0   
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  699        0.0   
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  699        0.0   
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  699        0.0   
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  698        0.0   
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  698        0.0   
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  697        0.0   
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  697        0.0   
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  695        0.0   
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  695        0.0   
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  695        0.0   
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  692        0.0   
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  691        0.0   
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  691        0.0   
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  689        0.0   
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  688        0.0   
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  684        0.0   
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  682        0.0   
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  677        0.0   
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  676        0.0   
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  676        0.0   
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  675        0.0   
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  674        0.0   
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  674        0.0   
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  674        0.0   
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  673        0.0   
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  672        0.0   
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  672        0.0   
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  672        0.0   
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  672        0.0   
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  671        0.0   
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  671        0.0   
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  671        0.0   
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  671        0.0   
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  671        0.0   
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  670        0.0   
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  670        0.0   
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  670        0.0   
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  669        0.0   
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  669        0.0   
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  669        0.0   
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  668        0.0   
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  665        0.0   
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  665        0.0   
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  665        0.0   
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  662        0.0   
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  659        0.0   
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  654        0.0   
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  651        0.0   
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  651        0.0   
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  645        0.0   
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  639        0.0   
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  631        0.0   
+UniRef90_UPI00084A889D LOW QUALITY PROTEIN: uncharacterized prote...  626        0.0   
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  626        0.0   
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  621        0.0   
+UniRef90_T1JG75 Metalloendopeptidase n=1 Tax=Strigamia maritima T...  608        0.0   
+UniRef90_U4U9E3 Uncharacterized protein n=3 Tax=Dendroctonus pond...  550        1e-175
+UniRef90_A0A654GZ69 Metalloendopeptidase n=1 Tax=Sparganum prolif...  503        2e-158
+UniRef90_UPI000F660371 tolloid-like protein 2 n=1 Tax=Penaeus van...  482        1e-152
+UniRef90_A0A6G0V4T9 Metalloendopeptidase n=1 Tax=Halicephalobus s...  483        9e-149
+UniRef90_H3ED05 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  475        8e-148
+UniRef90_A0A6J1WLE5 tolloid-like protein 1 n=1 Tax=Galleria mello...  459        1e-143
+UniRef90_A0A194QXS7 Metalloendopeptidase n=5 Tax=Papilio TaxID=71...  432        2e-132
+UniRef90_A0A5K3ETR7 Metalloendopeptidase n=3 Tax=Mesocestoides co...  409        1e-123
+UniRef90_A0A068WJH7 Metalloendopeptidase n=4 Tax=Taeniidae TaxID=...  407        2e-123
+UniRef90_A0A654GZT5 Metalloendopeptidase n=1 Tax=Sparganum prolif...  398        3e-119
+UniRef90_A0A0X3NJV3 Metalloendopeptidase n=2 Tax=Schistocephalus ...  386        5e-115
+UniRef90_A0A4S2LA47 Metalloendopeptidase n=1 Tax=Opisthorchis fel...  380        3e-114
+UniRef90_A0A504YBB0 Metalloendopeptidase n=2 Tax=Fasciola TaxID=6...  381        1e-112
+UniRef90_G7Y8G0 Metalloendopeptidase (Fragment) n=1 Tax=Clonorchi...  382        2e-112
+UniRef90_A0A5J4P1Y2 Metalloendopeptidase (Fragment) n=1 Tax=Parag...  376        4e-112
+UniRef90_A0A4Z2DK01 Metalloendopeptidase (Fragment) n=1 Tax=Schis...  372        1e-110
+UniRef90_A0A183MQX7 Metalloendopeptidase n=2 Tax=Schistosoma marg...  372        2e-109
+UniRef90_A0A6A5D3B5 Metalloendopeptidase n=1 Tax=Schistosoma haem...  373        2e-109
+UniRef90_A0A095C5C0 Metalloendopeptidase (Fragment) n=3 Tax=Schis...  369        6e-109
+UniRef90_A0A074ZER5 Metalloendopeptidase n=3 Tax=Opisthorchis Tax...  368        3e-108
+UniRef90_A0A183A503 Metalloendopeptidase n=1 Tax=Echinostoma capr...  347        2e-101
+UniRef90_H9IZ34 Uncharacterized protein n=3 Tax=Bombyx TaxID=7090...  321        2e-97 
+UniRef90_A0A482VQN5 CUB, FXa inhibition and/or EGF CA domain cont...  308        7e-88 
+UniRef90_V4AL16 Uncharacterized protein (Fragment) n=1 Tax=Lottia...  270        2e-74 
+UniRef90_A0A671N0N8 Uncharacterized protein n=1 Tax=Sinocyclochei...  265        2e-72 
+UniRef90_A0A0R4IIW6 Cubilin (intrinsic factor-cobalamin receptor)...  264        3e-72 
+UniRef90_UPI0015B1AAC2 cubilin n=1 Tax=Anguilla anguilla TaxID=79...  260        5e-71 
+UniRef90_A0A2I4CGW1 cubilin-like n=1 Tax=Austrofundulus limnaeus ...  259        1e-70 
+UniRef90_A0A3B1IMD0 Uncharacterized protein n=2 Tax=Astyanax mexi...  259        2e-70 
+UniRef90_UPI000A1C6202 cubilin n=1 Tax=Boleophthalmus pectinirost...  258        4e-70 
+UniRef90_K1P334 Cubilin n=3 Tax=Crassostrea gigas TaxID=29159 Rep...  258        4e-70 
+UniRef90_A0A6G1QL58 Cubilin n=1 Tax=Channa argus TaxID=215402 Rep...  257        7e-70 
+UniRef90_UPI0008FAB527 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  257        8e-70 
+UniRef90_W5MX16 Cubilin (intrinsic factor-cobalamin receptor) n=2...  257        9e-70 
+UniRef90_UPI0010FA9D34 cubilin n=1 Tax=Scleropages formosus TaxID...  256        1e-69 
+UniRef90_A0A673JJC6 Uncharacterized protein n=1 Tax=Sinocyclochei...  256        1e-69 
+UniRef90_A0A3Q3BJZ0 Uncharacterized protein n=1 Tax=Kryptolebias ...  256        1e-69 
+UniRef90_A0A3Q1IYA9 Cubilin (intrinsic factor-cobalamin receptor)...  256        1e-69 
+UniRef90_UPI0010F7464F cubilin n=1 Tax=Betta splendens TaxID=1584...  256        1e-69 
+UniRef90_A0A3B5QJN6 Uncharacterized protein n=10 Tax=Poeciliinae ...  256        2e-69 
+UniRef90_UPI0015603482 LOW QUALITY PROTEIN: cubilin n=1 Tax=Acipe...  256        2e-69 
+UniRef90_A0A671X8V1 Uncharacterized protein n=1 Tax=Sparus aurata...  256        2e-69 
+UniRef90_A0A673AMU3 Uncharacterized protein n=1 Tax=Sphaeramia or...  256        2e-69 
+UniRef90_A0A210QIT7 Cubilin n=2 Tax=Mizuhopecten yessoensis TaxID...  256        2e-69 
+UniRef90_UPI0007AD286F cubilin n=1 Tax=Sinocyclocheilus grahami T...  255        2e-69 
+UniRef90_UPI0007B84570 cubilin n=3 Tax=Cyprininae TaxID=2743694 R...  255        3e-69 
+UniRef90_A0A671N0K4 Uncharacterized protein n=1 Tax=Sinocyclochei...  255        3e-69 
+UniRef90_A0A672M677 Uncharacterized protein n=2 Tax=Sinocyclochei...  255        4e-69 
+UniRef90_A0A671MSW2 Uncharacterized protein n=1 Tax=Sinocyclochei...  254        4e-69 
+UniRef90_A0A3M6U9L6 Uncharacterized protein n=1 Tax=Pocillopora d...  254        4e-69 
+UniRef90_UPI00148FAC3F cubilin n=1 Tax=Notolabrus celidotus TaxID...  254        5e-69 
+UniRef90_A0A556TQB3 Cubilin n=1 Tax=Bagarius yarrelli TaxID=17577...  254        5e-69 
+UniRef90_UPI0010A46FC3 cubilin n=1 Tax=Denticeps clupeoides TaxID...  254        6e-69 
+UniRef90_UPI000F5115C4 LOW QUALITY PROTEIN: cubilin n=1 Tax=Tachy...  254        6e-69 
+UniRef90_A0A3B4F981 Uncharacterized protein n=1 Tax=Pundamilia ny...  254        7e-69 
+UniRef90_A0A3P9CHJ1 Uncharacterized protein n=1 Tax=Maylandia zeb...  254        9e-69 
+UniRef90_A0A0F8BXC8 Cubilin n=1 Tax=Larimichthys crocea TaxID=215...  253        1e-68 
+UniRef90_UPI0012AB5934 cubilin n=1 Tax=Clupea harengus TaxID=7950...  253        2e-68 
+UniRef90_UPI000A2C0941 cubilin n=1 Tax=Parasteatoda tepidariorum ...  252        2e-68 
+UniRef90_A0A0S7EXJ9 CUBN n=1 Tax=Poeciliopsis prolifica TaxID=188...  251        2e-68 
+UniRef90_A0A673AN44 Uncharacterized protein n=2 Tax=Sphaeramia or...  252        3e-68 
+UniRef90_A0A096LVX4 Uncharacterized protein n=3 Tax=Poecilia TaxI...  252        3e-68 
+UniRef90_A0A6J2UVV3 LOW QUALITY PROTEIN: cubilin n=1 Tax=Chanos c...  252        4e-68 
+UniRef90_UPI000C041AB3 cubilin-like isoform X1 n=2 Tax=Stylophora...  251        4e-68 
+UniRef90_A0A673AQB3 Uncharacterized protein n=1 Tax=Sphaeramia or...  252        4e-68 
+UniRef90_A0A0S7EVV0 CUBN (Fragment) n=5 Tax=Poeciliinae TaxID=586...  251        6e-68 
+UniRef90_A0A0S7EWD9 CUBN (Fragment) n=2 Tax=Poeciliinae TaxID=586...  250        6e-68 
+UniRef90_Q4T392 Chromosome undetermined SCAF10108, whole genome s...  251        6e-68 
+UniRef90_A0A3B4CZ60 Uncharacterized protein n=3 Tax=Pygocentrus n...  251        7e-68 
+UniRef90_A0A3Q2V4K4 Uncharacterized protein n=15 Tax=Pseudocrenil...  251        8e-68 
+UniRef90_UPI0010558CE0 cubilin n=1 Tax=Gouania willdenowi TaxID=4...  251        9e-68 
+UniRef90_A0A2U9CWS5 Putative cubilin-like n=2 Tax=Scophthalmus ma...  251        9e-68 
+UniRef90_A0A0S7EVU8 CUBN (Fragment) n=3 Tax=Poeciliopsis prolific...  250        9e-68 
+UniRef90_UPI00145907A8 cubilin-like n=1 Tax=Pecten maximus TaxID=...  251        1e-67 
+UniRef90_A0A671MX18 Uncharacterized protein n=1 Tax=Sinocyclochei...  250        1e-67 
+UniRef90_A0A5J5CG54 Uncharacterized protein (Fragment) n=1 Tax=Et...  250        1e-67 
+UniRef90_W5UEY8 Cubilin n=3 Tax=Siluroidei TaxID=1489793 RepID=W5...  250        2e-67 
+UniRef90_A0A1S3K4V4 cubilin n=1 Tax=Lingula unguis TaxID=7574 Rep...  249        2e-67 
+UniRef90_A0A6J2RTT0 LOW QUALITY PROTEIN: cubilin n=1 Tax=Cottoper...  249        2e-67 
+UniRef90_UPI0011135759 cubilin n=1 Tax=Echeneis naucrates TaxID=1...  249        4e-67 
+UniRef90_UPI00155EEBF6 cubilin n=1 Tax=Etheostoma cragini TaxID=4...  248        5e-67 
+UniRef90_UPI000BAF78B2 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  248        8e-67 
+UniRef90_A0A3B3RJX9 Uncharacterized protein n=2 Tax=Paramormyrops...  247        1e-66 
+UniRef90_UPI0010421B15 cubilin n=1 Tax=Parambassis ranga TaxID=21...  247        1e-66 
+UniRef90_A0A484C7S3 Uncharacterized protein n=5 Tax=Percidae TaxI...  246        2e-66 
+UniRef90_A0A5A9N6P3 Cubilin 460 kDa receptor n=1 Tax=Triplophysa ...  246        2e-66 
+UniRef90_A0A3B4VE51 Uncharacterized protein n=8 Tax=Seriola TaxID...  246        3e-66 
+UniRef90_UPI001401F397 cubilin n=1 Tax=Petromyzon marinus TaxID=7...  246        3e-66 
+UniRef90_A0A3B3BTJ4 Uncharacterized protein n=6 Tax=Oryzias TaxID...  246        3e-66 
+UniRef90_UPI0010FBA0E9 LOW QUALITY PROTEIN: cubilin n=1 Tax=Labru...  246        4e-66 
+UniRef90_A0A1I8FMA8 Metalloendopeptidase n=1 Tax=Macrostomum lign...  245        4e-66 
+UniRef90_UPI00159BFA7B cubilin n=2 Tax=Hippoglossus TaxID=8266 Re...  246        5e-66 
+UniRef90_UPI001471596E cubilin n=1 Tax=Thalassophryne amazonica T...  246        5e-66 
+UniRef90_A0A3P8XE81 Uncharacterized protein n=2 Tax=Esox lucius T...  245        5e-66 
+UniRef90_R7USD4 Uncharacterized protein n=1 Tax=Capitella teleta ...  245        6e-66 
+UniRef90_A0A4W5M3S1 Cubilin (intrinsic factor-cobalamin receptor)...  245        7e-66 
+UniRef90_UPI0003EC256B cubilin-like n=1 Tax=Neolamprologus bricha...  245        9e-66 
+UniRef90_A0A668AUE0 Uncharacterized protein n=2 Tax=Myripristis m...  245        9e-66 
+UniRef90_UPI0011454FDF LOW QUALITY PROTEIN: cubilin n=1 Tax=Takif...  245        9e-66 
+UniRef90_A0A3Q3MXM2 Cubilin (intrinsic factor-cobalamin receptor)...  244        1e-65 
+UniRef90_A0A668AY24 Uncharacterized protein n=1 Tax=Myripristis m...  244        1e-65 
+UniRef90_A0A3Q0T3V0 Cubilin (intrinsic factor-cobalamin receptor)...  244        1e-65 
+UniRef90_A0A4W6F2P1 Cubilin (intrinsic factor-cobalamin receptor)...  244        2e-65 
+UniRef90_UPI00145BCB2D cubilin n=1 Tax=Periophthalmus magnuspinna...  244        2e-65 
+UniRef90_UPI0009E29886 uncharacterized protein LOC110062698 n=1 T...  243        2e-65 
+UniRef90_A0A3Q1GL99 Uncharacterized protein n=3 Tax=Acanthochromi...  244        2e-65 
+UniRef90_UPI0014455BAB cubilin n=1 Tax=Epinephelus lanceolatus Ta...  243        3e-65 
+UniRef90_UPI001486CC99 cubilin n=1 Tax=Cyclopterus lumpus TaxID=8...  243        4e-65 
+UniRef90_UPI001184B6F4 cubilin isoform X1 n=2 Tax=Microcaecilia u...  243        4e-65 
+UniRef90_A0A076FET1 Cubilin (Fragment) n=1 Tax=Paracyclopina nana...  243        5e-65 
+UniRef90_A0A673JSH8 Uncharacterized protein n=1 Tax=Sinocyclochei...  242        8e-65 
+UniRef90_A0A662YT31 Cubilin n=1 Tax=Acipenser ruthenus TaxID=7906...  242        8e-65 
+UniRef90_UPI000B8F1D07 cubilin-like n=1 Tax=Folsomia candida TaxI...  241        1e-64 
+UniRef90_UPI0004975D94 cubilin n=1 Tax=Stegastes partitus TaxID=1...  241        2e-64 
+UniRef90_A0A226DQH9 Cubilin n=1 Tax=Folsomia candida TaxID=158441...  240        3e-64 
+UniRef90_UPI0010FC6F25 uncharacterized protein LOC114951456 n=2 T...  240        3e-64 
+UniRef90_UPI0012ED7966 cubilin n=1 Tax=Anarrhichthys ocellatus Ta...  240        3e-64 
+UniRef90_A0A672HSW0 Cubilin (intrinsic factor-cobalamin receptor)...  240        3e-64 
+UniRef90_A0A6J8DYF2 CUBN n=2 Tax=Mytilus coruscus TaxID=42192 Rep...  240        3e-64 
+UniRef90_A0A3Q1B7A2 Uncharacterized protein n=5 Tax=Amphiprion Ta...  240        4e-64 
+UniRef90_A0A437C8V8 Uncharacterized protein n=1 Tax=Oryzias javan...  239        4e-64 
+UniRef90_A0A1S3NCP6 cubilin n=9 Tax=Salmoninae TaxID=504568 RepID...  239        7e-64 
+UniRef90_A0A2T7PRE4 Uncharacterized protein n=2 Tax=Pomacea canal...  239        8e-64 
+UniRef90_W4ZE25 Uncharacterized protein n=1 Tax=Strongylocentrotu...  239        8e-64 
+UniRef90_B3RPJ1 Uncharacterized protein n=3 Tax=Trichoplax TaxID=...  238        1e-63 
+UniRef90_UPI000B90F1AA cubilin-like isoform X1 n=2 Tax=Acanthaste...  238        1e-63 
+UniRef90_A0A2J7Q5W7 Uncharacterized protein n=1 Tax=Cryptotermes ...  237        3e-63 
+UniRef90_A0A2G8KKH9 Putative cubilin n=1 Tax=Stichopus japonicus ...  236        5e-63 
+UniRef90_A0A3Q3IFJ0 Uncharacterized protein n=2 Tax=Monopterus al...  236        5e-63 
+UniRef90_G3N4C9 Cubilin (intrinsic factor-cobalamin receptor) n=1...  236        6e-63 
+UniRef90_A0A553QGQ0 Uncharacterized protein n=1 Tax=Danionella tr...  236        7e-63 
+UniRef90_C3XSR5 Uncharacterized protein (Fragment) n=1 Tax=Branch...  236        7e-63 
+UniRef90_UPI000B8E64F5 cubilin n=1 Tax=Zootermopsis nevadensis Ta...  235        1e-62 
+UniRef90_A0A4W4F6I3 Uncharacterized protein n=2 Tax=Electrophorus...  235        1e-62 
+UniRef90_UPI00145574B2 cubilin-like n=1 Tax=Asterias rubens TaxID...  235        1e-62 
+UniRef90_H3AQX1 Uncharacterized protein n=3 Tax=Latimeria chalumn...  235        2e-62 
+UniRef90_A0A067R9U0 Cubilin n=1 Tax=Zootermopsis nevadensis TaxID...  235        2e-62 
+UniRef90_A0A669BCZ3 Cubilin (intrinsic factor-cobalamin receptor)...  235        2e-62 
+UniRef90_A0A665V841 Cubilin (intrinsic factor-cobalamin receptor)...  234        2e-62 
+UniRef90_UPI0011B7FE55 cubilin n=1 Tax=Gadus morhua TaxID=8049 Re...  234        3e-62 
+UniRef90_A0A672HSW6 Cubilin (intrinsic factor-cobalamin receptor)...  234        3e-62 
+UniRef90_UPI001458B245 cubilin isoform X1 n=2 Tax=Geotrypetes ser...  234        4e-62 
+UniRef90_A0A1D2N1N1 Cubilin n=1 Tax=Orchesella cincta TaxID=48709...  234        5e-62 
+UniRef90_A0A1L8FVN0 Uncharacterized protein n=2 Tax=Xenopus laevi...  233        6e-62 
+UniRef90_A0A3Q4HHB4 Uncharacterized protein n=1 Tax=Neolamprologu...  233        8e-62 
+UniRef90_A0A3P8VFZ9 Cubilin (intrinsic factor-cobalamin receptor)...  233        1e-61 
+UniRef90_E4XC33 Uncharacterized protein n=1 Tax=Oikopleura dioica...  233        1e-61 
+UniRef90_A0A671XAZ8 Uncharacterized protein n=5 Tax=Sparus aurata...  232        2e-61 
+UniRef90_T1ISQ1 Uncharacterized protein n=1 Tax=Strigamia maritim...  232        2e-61 
+UniRef90_A0A5B7CLK0 Cubilin n=1 Tax=Portunus trituberculatus TaxI...  230        5e-61 
+UniRef90_A0A0L8I7Y9 Uncharacterized protein (Fragment) n=4 Tax=Oc...  230        5e-61 
+UniRef90_UPI0011C37F00 cubilin n=1 Tax=Calypte anna TaxID=9244 Re...  230        8e-61 
+UniRef90_A0A665V8H3 Cubilin (intrinsic factor-cobalamin receptor)...  230        9e-61 
+UniRef90_A0A6L2Q244 Uncharacterized protein (Fragment) n=1 Tax=Co...  230        9e-61 
+UniRef90_UPI0007BA4AA6 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  229        1e-60 
+UniRef90_A0A4W6F2N6 Cubilin (intrinsic factor-cobalamin receptor)...  229        1e-60 
+UniRef90_A0A0B7BRV5 Uncharacterized protein (Fragment) n=1 Tax=Ar...  229        1e-60 
+UniRef90_A0A4W4F6Q8 Uncharacterized protein n=1 Tax=Electrophorus...  229        2e-60 
+UniRef90_A0A0B7BPU2 Uncharacterized protein (Fragment) n=1 Tax=Ar...  229        2e-60 
+UniRef90_UPI000947FD4A cubilin-like n=1 Tax=Branchiostoma belcher...  229        2e-60 
+UniRef90_UPI0011283F3F cubilin n=1 Tax=Rhinatrema bivittatum TaxI...  229        2e-60 
+UniRef90_A0A671X8M4 Uncharacterized protein n=1 Tax=Sparus aurata...  229        2e-60 
+UniRef90_A0A671XF39 Uncharacterized protein n=1 Tax=Sparus aurata...  229        2e-60 
+UniRef90_H2YKV2 Uncharacterized protein n=1 Tax=Ciona savignyi Ta...  228        4e-60 
+UniRef90_A0A4Z2H8E7 Cubilin n=1 Tax=Liparis tanakae TaxID=230148 ...  228        4e-60 
+UniRef90_A0A3B5AVK3 Uncharacterized protein n=1 Tax=Stegastes par...  228        4e-60 
+UniRef90_A0A4W4F792 Uncharacterized protein n=1 Tax=Electrophorus...  228        5e-60 
+UniRef90_T1JZM0 Uncharacterized protein n=2 Tax=Tetranychus urtic...  228        6e-60 
+UniRef90_A0A4W3K7X0 Uncharacterized protein n=6 Tax=Callorhinchus...  227        6e-60 
+UniRef90_A0A4W5M2B1 Cubilin (intrinsic factor-cobalamin receptor)...  227        6e-60 
+UniRef90_A0A4C1T2N6 Cubilin homolog n=1 Tax=Eumeta variegata TaxI...  226        7e-60 
+UniRef90_A0A4U5VIR9 Cubilin n=1 Tax=Collichthys lucidus TaxID=240...  227        8e-60 
+UniRef90_A0A669DQK6 Cubilin (intrinsic factor-cobalamin receptor)...  226        1e-59 
+UniRef90_A0A162T3F3 Tolloid 2-like protein (Fragment) n=1 Tax=Dap...  226        1e-59 
+UniRef90_UPI0008F9D3FB cubilin-like n=1 Tax=Bemisia tabaci TaxID=...  226        2e-59 
+UniRef90_A0A6A7FUH2 Cubilin n=2 Tax=Hirondellea gigas TaxID=15184...  225        3e-59 
+UniRef90_E9G1W3 Cubilin n=1 Tax=Daphnia pulex TaxID=6669 RepID=E9...  225        3e-59 
+UniRef90_UPI0012B54C25 cubilin-like n=1 Tax=Actinia tenebrosa Tax...  225        3e-59 
+UniRef90_UPI000B3A78C1 cubilin n=1 Tax=Fundulus heteroclitus TaxI...  225        4e-59 
+UniRef90_A0A1B6EXK5 Uncharacterized protein (Fragment) n=1 Tax=Cu...  224        9e-59 
+UniRef90_A0A1B6F524 Uncharacterized protein (Fragment) n=1 Tax=Cu...  224        9e-59 
+UniRef90_A0A315VX19 Uncharacterized protein n=1 Tax=Gambusia affi...  223        2e-58 
+UniRef90_A0A4W4F8Q3 Uncharacterized protein n=1 Tax=Electrophorus...  223        3e-58 
+UniRef90_UPI001403F264 cubilin n=1 Tax=Amblyraja radiata TaxID=38...  222        3e-58 
+UniRef90_A0A6A4S7A8 Uncharacterized protein n=1 Tax=Scophthalmus ...  222        4e-58 
+UniRef90_UPI00052262C1 LOW QUALITY PROTEIN: cubilin n=1 Tax=Opist...  222        4e-58 
+UniRef90_UPI000392E471 cubilin n=1 Tax=Falco cherrug TaxID=345164...  222        4e-58 
+UniRef90_A0A6I9NVD8 cubilin-like n=4 Tax=Notothenioidei TaxID=820...  222        5e-58 
+UniRef90_UPI000626CC53 cubilin n=1 Tax=Orussus abietinus TaxID=22...  222        5e-58 
+UniRef90_E0VD28 Cubilin, putative (Fragment) n=1 Tax=Pediculus hu...  221        5e-58 
+UniRef90_UPI0013902D8D uncharacterized protein LOC116604499 n=1 T...  221        5e-58 
+UniRef90_UPI000679DD12 LOW QUALITY PROTEIN: cubilin n=1 Tax=Falco...  221        5e-58 
+UniRef90_A0A3Q3W0B5 Cubilin (intrinsic factor-cobalamin receptor)...  221        6e-58 
+UniRef90_A0A6F9BXM7 Uncharacterized protein n=1 Tax=Coregonus sp....  221        6e-58 
+UniRef90_H2YKV1 Uncharacterized protein n=1 Tax=Ciona savignyi Ta...  221        6e-58 
+UniRef90_A0A3B5AXX3 Uncharacterized protein n=1 Tax=Stegastes par...  221        8e-58 
+UniRef90_A0A553NVB8 Uncharacterized protein n=1 Tax=Tigriopus cal...  221        8e-58 
+UniRef90_UPI001140B264 cubilin-like n=1 Tax=Octopus vulgaris TaxI...  221        1e-57 
+UniRef90_UPI0008544E64 cubilin n=1 Tax=Nanorana parkeri TaxID=125...  221        1e-57 
+UniRef90_UPI0005238E82 cubilin n=1 Tax=Chaetura pelagica TaxID=88...  221        1e-57 
+UniRef90_A0A6L5CUI3 Uncharacterized protein n=1 Tax=Ephemera dani...  221        1e-57 
+UniRef90_A0A2R2MK57 cubilin-like n=1 Tax=Lingula unguis TaxID=757...  220        1e-57 
+UniRef90_A0A151MPZ0 Cubilin n=6 Tax=Crocodylia TaxID=1294634 RepI...  219        3e-57 
+UniRef90_A0A1Y1LNZ2 Uncharacterized protein n=3 Tax=Photinus pyra...  219        3e-57 
+UniRef90_A0A3B5L191 Cubilin (intrinsic factor-cobalamin receptor)...  219        3e-57 
+UniRef90_UPI000625CEDB cubilin-like n=1 Tax=Athalia rosae TaxID=3...  219        5e-57 
+UniRef90_UPI0015618AEA cubilin-like n=1 Tax=Acipenser ruthenus Ta...  218        8e-57 
+UniRef90_A0A3Q2TAZ9 Uncharacterized protein n=1 Tax=Fundulus hete...  218        8e-57 
+UniRef90_UPI0015E1DE5A LOW QUALITY PROTEIN: cubilin n=1 Tax=Moron...  218        9e-57 
+UniRef90_UPI00097D0ED5 cubilin-like n=1 Tax=Paralichthys olivaceu...  217        1e-56 
+UniRef90_A0A6J2GLM5 cubilin isoform X1 n=14 Tax=Neognathae TaxID=...  218        1e-56 
+UniRef90_UPI0005D0B69E cubilin-like n=1 Tax=Plutella xylostella T...  218        1e-56 
+UniRef90_A0A4W5M5A7 Cubilin (intrinsic factor-cobalamin receptor)...  218        1e-56 
+UniRef90_UPI000C6E249D cubilin-like n=1 Tax=Centruroides sculptur...  217        1e-56 
+UniRef90_UPI0015AF71B7 cubilin-like n=1 Tax=Stegodyphus dumicola ...  217        2e-56 
+UniRef90_A0A1B6K914 Uncharacterized protein (Fragment) n=2 Tax=Gr...  216        2e-56 
+UniRef90_A0A0A0AM60 Cubilin (Fragment) n=4 Tax=Neognathae TaxID=8...  217        2e-56 
+UniRef90_U3JYD5 Uncharacterized protein n=16 Tax=Passeriformes Ta...  216        3e-56 
+UniRef90_A0A6A4W2P4 Cubilin n=1 Tax=Amphibalanus amphitrite TaxID...  216        4e-56 
+UniRef90_G1N738 Cubilin n=1 Tax=Meleagris gallopavo TaxID=9103 Re...  216        4e-56 
+UniRef90_UPI001425982E cubilin-like n=1 Tax=Anneissia japonica Ta...  216        5e-56 
+UniRef90_UPI0015A6D3AE cubilin n=1 Tax=Oxyura jamaicensis TaxID=8...  216        5e-56 
+UniRef90_UPI00053276AA cubilin-like n=3 Tax=Neognathae TaxID=8825...  215        5e-56 
+UniRef90_UPI0007718865 cubilin n=1 Tax=Cephus cinctus TaxID=21122...  215        6e-56 
+UniRef90_UPI000F5F40A2 cubilin n=1 Tax=Larimichthys crocea TaxID=...  215        7e-56 
+UniRef90_A0A6J0BCU3 cubilin-like n=1 Tax=Neodiprion lecontei TaxI...  215        7e-56 
+UniRef90_A0A6I8QDJ4 Cubilin n=2 Tax=Xenopus tropicalis TaxID=8364...  215        8e-56 
+UniRef90_U3I7V1 Cubilin n=1 Tax=Anas platyrhynchos platyrhynchos ...  214        1e-55 
+UniRef90_A0A3B5AWR5 Uncharacterized protein n=1 Tax=Stegastes par...  214        1e-55 
+UniRef90_UPI000623118F cubilin-like n=1 Tax=Linepithema humile Ta...  214        1e-55 
+UniRef90_UPI0007ACD522 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  214        1e-55 
+UniRef90_UPI0010FB02DA cubilin n=1 Tax=Protobothrops mucrosquamat...  214        1e-55 
+UniRef90_A0A3S3P5I2 Cubilin-like protein (Fragment) n=2 Tax=Dinot...  214        2e-55 
+UniRef90_UPI00051EEC2A cubilin n=1 Tax=Egretta garzetta TaxID=188...  214        2e-55 
+UniRef90_F1NIW7 Uncharacterized protein n=7 Tax=Galliformes TaxID...  214        2e-55 
+UniRef90_A0A669QSV3 Cubilin n=2 Tax=Phasianus colchicus TaxID=905...  214        2e-55 
+UniRef90_A0A673XZG8 Uncharacterized protein n=1 Tax=Salmo trutta ...  214        2e-55 
+UniRef90_UPI00051B1292 cubilin n=1 Tax=Cuculus canorus TaxID=5566...  213        4e-55 
+UniRef90_A0A6J3CGV9 cubilin n=6 Tax=Neognathae TaxID=8825 RepID=A...  213        4e-55 
+UniRef90_UPI000E1CF359 cubilin isoform X1 n=7 Tax=Apteryx TaxID=8...  213        5e-55 
+UniRef90_A0A336LWX6 CSON006732 protein n=2 Tax=Culicoides sonoren...  213        6e-55 
+UniRef90_UPI0007198AFB cubilin n=1 Tax=Ceratotherium simum simum ...  212        6e-55 
+UniRef90_UPI001161B83C cubilin n=1 Tax=Ixodes scapularis TaxID=69...  212        7e-55 
+UniRef90_UPI00071C7DEA cubilin n=1 Tax=Calidris pugnax TaxID=1988...  212        7e-55 
+UniRef90_A0A091GUE6 Cubilin (Fragment) n=2 Tax=Buceros rhinoceros...  212        8e-55 
+UniRef90_UPI0005F5512D cubilin-like n=1 Tax=Vollenhovia emeryi Ta...  212        1e-54 
+UniRef90_E2B4S3 Cubilin (Fragment) n=2 Tax=Harpegnathos saltator ...  212        1e-54 
+UniRef90_UPI0004D05EC9 cubilin-like n=1 Tax=Galeopterus variegatu...  211        1e-54 
+UniRef90_A0A6J0UQM2 cubilin n=1 Tax=Pogona vitticeps TaxID=103695...  212        1e-54 
+UniRef90_UPI00074FD648 cubilin n=1 Tax=Gekko japonicus TaxID=1469...  211        1e-54 
+UniRef90_A0A673XZ79 Uncharacterized protein n=1 Tax=Salmo trutta ...  211        1e-54 
+UniRef90_UPI0014038440 cubilin n=1 Tax=Tyto alba alba TaxID=50798...  211        1e-54 
+UniRef90_A0A2I4CGW0 cubilin-like n=1 Tax=Austrofundulus limnaeus ...  211        1e-54 
+UniRef90_N6TY91 Uncharacterized protein (Fragment) n=1 Tax=Dendro...  211        1e-54 
+UniRef90_UPI000441C49F cubilin n=1 Tax=Python bivittatus TaxID=17...  211        2e-54 
+UniRef90_UPI00052364AC LOW QUALITY PROTEIN: cubilin n=2 Tax=Psitt...  211        2e-54 
+UniRef90_A0A154PQG1 Cubilin n=2 Tax=Dufourea novaeangliae TaxID=1...  210        3e-54 
+UniRef90_A0A0P6JBC8 Cubilin n=2 Tax=Heterocephalus glaber TaxID=1...  210        3e-54 
+UniRef90_A0A6J0BKS0 cubilin n=1 Tax=Neodiprion lecontei TaxID=441...  210        3e-54 
+UniRef90_UPI00094EB293 cubilin n=1 Tax=Dendroctonus ponderosae Ta...  210        3e-54 
+UniRef90_UPI0013F1BC27 cubilin n=1 Tax=Odontomachus brunneus TaxI...  210        4e-54 
+UniRef90_UPI00051B8303 cubilin-like n=1 Tax=Fulmarus glacialis Ta...  210        4e-54 
+UniRef90_A0A1V4KBB4 Cubilin isoform A n=3 Tax=Columbidae TaxID=89...  210        4e-54 
+UniRef90_A0A1S3F0B1 cubilin n=1 Tax=Dipodomys ordii TaxID=10020 R...  209        6e-54 
+UniRef90_UPI00052EBA14 cubilin n=1 Tax=Tinamus guttatus TaxID=948...  209        6e-54 
+UniRef90_A0A6I9XWC6 LOW QUALITY PROTEIN: cubilin n=1 Tax=Thamnoph...  209        7e-54 
+UniRef90_UPI000E1EA5AF cubilin n=1 Tax=Dromaius novaehollandiae T...  209        8e-54 
+UniRef90_A0A663E299 Cubilin n=3 Tax=Accipitrinae TaxID=8955 RepID...  209        8e-54 
+UniRef90_A0A4S2KYA2 Cubilin n=2 Tax=Temnothorax TaxID=300110 RepI...  209        9e-54 
+UniRef90_G1KZB6 Uncharacterized protein n=2 Tax=Anolis carolinens...  208        9e-54 
+UniRef90_UPI001377CB7C LOW QUALITY PROTEIN: cubilin n=1 Tax=Thamn...  209        1e-53 
+UniRef90_A0A673XZS6 Uncharacterized protein n=1 Tax=Salmo trutta ...  209        1e-53 
+UniRef90_UPI000C9F8C8F cubilin n=1 Tax=Octodon degus TaxID=10160 ...  209        1e-53 
+UniRef90_A0A452HIM9 Cubilin n=10 Tax=Cryptodira TaxID=8464 RepID=...  208        1e-53 
+UniRef90_UPI00096B3B00 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  208        1e-53 
+UniRef90_UPI0006418011 cubilin-like isoform X1 n=2 Tax=Hydra vulg...  208        1e-53 
+UniRef90_T2MIX0 Cubilin (Fragment) n=1 Tax=Hydra vulgaris TaxID=6...  208        1e-53 
+UniRef90_F1MKV7 Cubilin n=19 Tax=Amniota TaxID=32524 RepID=F1MKV7...  208        1e-53 
+UniRef90_A0A6J1NH62 cubilin-like n=1 Tax=Bicyclus anynana TaxID=1...  208        1e-53 
+UniRef90_A0A663LVN8 Uncharacterized protein n=2 Tax=Athene cunicu...  208        1e-53 
+UniRef90_UPI000E1BBD4E cubilin n=1 Tax=Nothoprocta perdicaria Tax...  208        2e-53 
+UniRef90_A0A670IYP9 Uncharacterized protein n=2 Tax=Podarcis mura...  208        2e-53 
+UniRef90_UPI00158C1ED3 cubilin n=1 Tax=Chelonus insularis TaxID=4...  208        2e-53 
+UniRef90_UPI0011CEED3D cubilin n=1 Tax=Gopherus evgoodei TaxID=18...  207        2e-53 
+UniRef90_A0A131Z645 Cubilin (Fragment) n=1 Tax=Rhipicephalus appe...  207        2e-53 
+UniRef90_A0A091TNR1 Cubilin (Fragment) n=1 Tax=Phaethon lepturus ...  207        2e-53 
+UniRef90_A0A1B6EBE4 Uncharacterized protein n=1 Tax=Clastoptera a...  207        3e-53 
+UniRef90_A0A224Y5E8 Cubilin n=2 Tax=Rhipicephalus zambeziensis Ta...  207        3e-53 
+UniRef90_UPI000530B1DF LOW QUALITY PROTEIN: cubilin n=3 Tax=Neogn...  207        3e-53 
+UniRef90_UPI001141B9E4 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  207        3e-53 
+UniRef90_UPI000BA7ECE3 cubilin-like n=1 Tax=Limulus polyphemus Ta...  207        4e-53 
+UniRef90_W4Y2C1 Uncharacterized protein n=1 Tax=Strongylocentrotu...  206        4e-53 
+UniRef90_UPI0006D4FC6D cubilin n=2 Tax=Halyomorpha halys TaxID=28...  207        4e-53 
+UniRef90_E2AK37 Cubilin n=2 Tax=Camponotus floridanus TaxID=10442...  206        5e-53 
+UniRef90_A0A0K2U7P1 Cubilinlike [Oreochromis niloticus] n=1 Tax=L...  206        5e-53 
+UniRef90_UPI00065B63CB cubilin-like n=1 Tax=Aplysia californica T...  206        6e-53 
+UniRef90_UPI0012D41D6E cubilin homolog n=1 Tax=Contarinia nasturt...  206        7e-53 
+UniRef90_A0A212EUA3 Cubilin n=2 Tax=Danaus plexippus plexippus Ta...  206        9e-53 
+UniRef90_UPI000994F3FA cubilin-like n=1 Tax=Pseudomyrmex gracilis...  206        1e-52 
+UniRef90_UPI0013F23864 cubilin n=1 Tax=Chelonoidis abingdonii Tax...  206        1e-52 
+UniRef90_A0A093GPV9 Cubilin (Fragment) n=2 Tax=Dryobates pubescen...  205        1e-52 
+UniRef90_UPI0013043D6D cubilin n=1 Tax=Nomia melanderi TaxID=2448...  205        1e-52 
+UniRef90_A0A091PM77 Cubilin (Fragment) n=3 Tax=Neognathae TaxID=8...  205        1e-52 
+UniRef90_A0A139WIG7 Cubilin-like Protein n=3 Tax=Tribolium castan...  205        1e-52 
+UniRef90_A0A151X975 Cubilin n=2 Tax=Trachymyrmex zeteki TaxID=647...  205        2e-52 
+UniRef90_A0A0J7KUZ3 Cubilin-like protein (Fragment) n=1 Tax=Lasiu...  204        2e-52 
+UniRef90_UPI0004F0BCCA cubilin n=1 Tax=Merops nubicus TaxID=57421...  204        2e-52 
+UniRef90_Q59ED1 Cubilin variant (Fragment) n=1 Tax=Homo sapiens T...  204        2e-52 
+UniRef90_A0A091CV18 Cubilin n=2 Tax=Fukomys damarensis TaxID=8855...  204        2e-52 
+UniRef90_UPI000510AA1A cubilin n=4 Tax=Neognathae TaxID=8825 RepI...  204        2e-52 
+UniRef90_UPI000F737DFD cubilin isoform X1 n=1 Tax=Cricetulus gris...  204        3e-52 
+UniRef90_UPI0005EEA851 LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  204        3e-52 
+UniRef90_UPI0006432EE3 cubilin n=1 Tax=Microcebus murinus TaxID=3...  204        3e-52 
+UniRef90_A0A2R7WBN5 Uncharacterized protein n=1 Tax=Oncopeltus fa...  204        3e-52 
+UniRef90_A0A2K6GR93 Uncharacterized protein n=2 Tax=Propithecus c...  204        3e-52 
+UniRef90_UPI0010FB2433 cubilin-like n=1 Tax=Nylanderia fulva TaxI...  204        4e-52 
+UniRef90_UPI001425656D uncharacterized protein LOC117108667 n=1 T...  203        4e-52 
+UniRef90_UPI000873CC01 cubilin-like n=1 Tax=Anoplophora glabripen...  204        5e-52 
+UniRef90_UPI000549B045 cubilin n=1 Tax=Meleagris gallopavo TaxID=...  203        5e-52 
+UniRef90_A0A1U7T390 cubilin n=1 Tax=Tarsius syrichta TaxID=186848...  203        5e-52 
+UniRef90_UPI00102E1FB8 LOW QUALITY PROTEIN: cubilin n=1 Tax=Monom...  203        6e-52 
+UniRef90_A0A2G8KKI5 Putative cubilin n=1 Tax=Stichopus japonicus ...  202        6e-52 
+UniRef90_UPI00051E15BE cubilin n=1 Tax=Struthio camelus australis...  203        8e-52 
+UniRef90_UPI000B92DD5A cubilin homolog n=1 Tax=Pieris rapae TaxID...  203        8e-52 
+UniRef90_UPI0006D50F15 cubilin-like n=1 Tax=Microplitis demolitor...  202        9e-52 
+UniRef90_UPI000718BA12 cubilin-like n=1 Tax=Polistes canadensis T...  202        1e-51 
+UniRef90_UPI000711A6EA cubilin n=1 Tax=Dinoponera quadriceps TaxI...  202        1e-51 
+UniRef90_U3KLX7 Cubilin n=2 Tax=Oryctolagus cuniculus TaxID=9986 ...  202        1e-51 
+UniRef90_UPI0005D03B6F cubilin isoform X2 n=2 Tax=Homo sapiens Ta...  202        1e-51 
+UniRef90_UPI0005CFF3ED cubilin isoform X1 n=1 Tax=Homo sapiens Ta...  202        1e-51 
+UniRef90_UPI000C2555AD cubilin-like n=1 Tax=Leptinotarsa decemlin...  202        1e-51 
+UniRef90_A0A195B134 Cubilin n=10 Tax=Attini TaxID=143999 RepID=A0...  202        1e-51 
+UniRef90_A0A670IZC3 Uncharacterized protein n=7 Tax=Lacertinae Ta...  202        1e-51 
+UniRef90_UPI00106B1DBD cubilin-like isoform X1 n=2 Tax=Dendroneph...  202        1e-51 
+UniRef90_O60494 Cubilin n=17 Tax=Hominoidea TaxID=314295 RepID=CU...  202        1e-51 
+UniRef90_UPI000E6D7DAD cubilin homolog n=1 Tax=Hyposmocoma kahama...  202        1e-51 
+UniRef90_UPI00073845AA cubilin n=1 Tax=Diachasma alloeum TaxID=45...  202        1e-51 
+UniRef90_A0A4C1SZC8 Cubilin n=1 Tax=Eumeta variegata TaxID=151549...  202        2e-51 
+UniRef90_UPI000C876CDA cubilin n=1 Tax=Cavia porcellus TaxID=1014...  202        2e-51 
+UniRef90_A0A0P7XCF6 Cubilin-like (Fragment) n=1 Tax=Scleropages f...  201        2e-51 
+UniRef90_UPI00103E32C0 cubilin homolog n=1 Tax=Ostrinia furnacali...  202        2e-51 
+UniRef90_UPI00038EA52D cubilin n=1 Tax=Chinchilla lanigera TaxID=...  202        2e-51 
+UniRef90_UPI0010F77FE2 cubilin isoform X1 n=3 Tax=Osmia TaxID=124...  202        2e-51 
+UniRef90_H0V9C9 Cubilin n=1 Tax=Cavia porcellus TaxID=10141 RepID...  202        2e-51 
+UniRef90_UPI000F683D87 cubilin-like n=1 Tax=Penaeus vannamei TaxI...  201        2e-51 
+UniRef90_A0A194Q604 Cubilin n=1 Tax=Papilio xuthus TaxID=66420 Re...  201        3e-51 
+UniRef90_A0A669QSU5 Cubilin n=1 Tax=Phasianus colchicus TaxID=905...  201        3e-51 
+UniRef90_UPI0006791AA5 cubilin-like n=1 Tax=Papilio xuthus TaxID=...  201        3e-51 
+UniRef90_UPI000528D19B cubilin-like n=2 Tax=Neognathae TaxID=8825...  201        3e-51 
+UniRef90_H0WUM7 Uncharacterized protein n=2 Tax=Otolemur garnetti...  201        4e-51 
+UniRef90_A0A2W1BVG8 Uncharacterized protein n=1 Tax=Helicoverpa a...  201        4e-51 
+UniRef90_UPI000E33FEC9 LOW QUALITY PROTEIN: cubilin n=1 Tax=Solen...  201        4e-51 
+UniRef90_UPI00067BA27D cubilin n=1 Tax=Amyelois transitella TaxID...  201        4e-51 
+UniRef90_UPI00083FF133 cubilin n=1 Tax=Ceratina calcarata TaxID=1...  201        4e-51 
+UniRef90_A0A182TYW6 Uncharacterized protein n=1 Tax=Anopheles mel...  201        5e-51 
+UniRef90_A0A6I9WYR8 cubilin-like n=1 Tax=Pogonomyrmex barbatus Ta...  201        5e-51 
+UniRef90_H2N9V3 Cubilin n=39 Tax=Simiiformes TaxID=314293 RepID=H...  201        5e-51 
+UniRef90_A0A4X2LXG9 Cubilin n=1 Tax=Vombatus ursinus TaxID=29139 ...  201        5e-51 
+UniRef90_A0A1S2ZYT7 cubilin n=1 Tax=Erinaceus europaeus TaxID=936...  200        5e-51 
+UniRef90_V9K7F5 Cubilin (Fragment) n=1 Tax=Callorhinchus milii Ta...  200        6e-51 
+UniRef90_A0A482VJF7 Cubilin (Fragment) n=1 Tax=Asbolus verrucosus...  200        6e-51 
+UniRef90_A0A6I9LNX1 cubilin n=2 Tax=Peromyscus TaxID=10040 RepID=...  200        7e-51 
+UniRef90_A0A6J2XC60 cubilin-like n=1 Tax=Sitophilus oryzae TaxID=...  200        7e-51 
+UniRef90_A0A026WW83 Cubilin n=3 Tax=Ooceraea biroi TaxID=2015173 ...  200        8e-51 
+UniRef90_A0A1S4GQ51 Cubilin n=6 Tax=gambiae species complex TaxID...  200        8e-51 
+UniRef90_UPI000675C87B cubilin n=1 Tax=Papilio polytes TaxID=7619...  200        8e-51 
+UniRef90_A0A194RCD8 Cubilin n=1 Tax=Papilio machaon TaxID=76193 R...  199        9e-51 
+UniRef90_UPI00038C6230 cubilin n=1 Tax=Microtus ochrogaster TaxID...  199        1e-50 
+UniRef90_UPI000C1FE8ED cubilin homolog n=1 Tax=Onthophagus taurus...  199        1e-50 
+UniRef90_UPI001145376A LOW QUALITY PROTEIN: cubilin-like n=1 Tax=...  199        1e-50 
+UniRef90_F6UUU8 Uncharacterized protein n=1 Tax=Monodelphis domes...  199        1e-50 
+UniRef90_UPI0011828A23 cubilin n=1 Tax=Manduca sexta TaxID=7130 R...  199        1e-50 
+UniRef90_Q4T6P6 Chromosome undetermined SCAF8681, whole genome sh...  199        2e-50 
+UniRef90_A0A0L7LS14 Cubilin n=1 Tax=Operophtera brumata TaxID=104...  199        2e-50 
+UniRef90_A0A2H8TEF1 Cubilin n=1 Tax=Melanaphis sacchari TaxID=742...  199        2e-50 
+UniRef90_UPI00062AB3DC cubilin n=1 Tax=Dasypus novemcinctus TaxID...  199        2e-50 
+UniRef90_UPI000C206100 cubilin-like n=1 Tax=Onthophagus taurus Ta...  198        2e-50 
+UniRef90_UPI00093DF1BD cubilin n=1 Tax=Hipposideros armiger TaxID...  198        2e-50 
+UniRef90_UPI0004ED3097 cubilin n=1 Tax=Nannospalax galili TaxID=1...  198        3e-50 
+UniRef90_O70244 Cubilin n=2 Tax=Rattus norvegicus TaxID=10116 Rep...  198        3e-50 
+UniRef90_A0A182PP60 Uncharacterized protein n=2 Tax=Anopheles epi...  198        3e-50 
+UniRef90_A0A182JRH3 Uncharacterized protein n=1 Tax=Anopheles chr...  198        3e-50 
+UniRef90_UPI000A28A790 LOW QUALITY PROTEIN: cubilin n=2 Tax=Dipro...  198        3e-50 
+UniRef90_A0A232EQA9 Uncharacterized protein (Fragment) n=1 Tax=Tr...  198        3e-50 
+UniRef90_H2YKV5 Uncharacterized protein n=1 Tax=Ciona savignyi Ta...  197        4e-50 
+UniRef90_F6ZW56 Cubilin n=5 Tax=Equus TaxID=35510 RepID=F6ZW56_HORSE  197        4e-50 
+UniRef90_UPI0010A0889A LOW QUALITY PROTEIN: cubilin n=1 Tax=Erpet...  197        5e-50 
+UniRef90_UPI0015B20B26 cubilin-like n=1 Tax=Stegodyphus dumicola ...  197        5e-50 
+UniRef90_A0A674HNM5 Cubilin n=2 Tax=Taeniopygia guttata TaxID=597...  197        6e-50 
+UniRef90_G1KDI1 Uncharacterized protein n=1 Tax=Anolis carolinens...  197        6e-50 
+UniRef90_K7IWK0 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  197        6e-50 
+UniRef90_H0YSU3 Cubilin n=1 Tax=Taeniopygia guttata TaxID=59729 R...  197        6e-50 
+UniRef90_A0A673SJQ0 CUB and Sushi multiple domains 1 n=1 Tax=Suri...  197        6e-50 
+UniRef90_UPI00071A6A3C cubilin-like n=1 Tax=Equus asinus TaxID=97...  197        6e-50 
+UniRef90_UPI00057B40AA LOW QUALITY PROTEIN: cubilin n=1 Tax=Camel...  197        7e-50 
+UniRef90_UPI0015694E7D cubilin-like n=1 Tax=Aphantopus hyperantus...  197        7e-50 
+UniRef90_L5L0M4 Cubilin n=6 Tax=Pteropodinae TaxID=77225 RepID=L5...  197        7e-50 
+UniRef90_A0A1D1V8D3 Uncharacterized protein n=1 Tax=Ramazzottius ...  197        7e-50 
+UniRef90_UPI000C76B65F cubilin-like n=1 Tax=Eurytemora affinis Ta...  197        8e-50 
+UniRef90_A0A226NJ21 Uncharacterized protein n=1 Tax=Callipepla sq...  197        8e-50 
+UniRef90_A0A087UF82 Cubilin (Fragment) n=1 Tax=Stegodyphus mimosa...  196        9e-50 
+UniRef90_L9JA46 Cubilin n=2 Tax=Tupaia chinensis TaxID=246437 Rep...  197        9e-50 
+UniRef90_F7D8H4 Uncharacterized protein n=1 Tax=Ornithorhynchus a...  196        1e-49 
+UniRef90_A0A6G1AMN4 CUBN protein (Fragment) n=1 Tax=Crocuta crocu...  196        1e-49 
+UniRef90_A0A182NM22 Uncharacterized protein n=1 Tax=Anopheles dir...  196        1e-49 
+UniRef90_A0A0M8ZPB5 Cubilin n=1 Tax=Melipona quadrifasciata TaxID...  196        1e-49 
+UniRef90_A0A3L7I0U6 CUBN (Fragment) n=1 Tax=Cricetulus griseus Ta...  196        1e-49 
+UniRef90_UPI00032B027D cubilin n=1 Tax=Ochotona princeps TaxID=99...  196        1e-49 
+UniRef90_A0A226PYF3 Uncharacterized protein n=1 Tax=Colinus virgi...  196        1e-49 
+UniRef90_A0A182RN21 Uncharacterized protein n=1 Tax=Anopheles fun...  196        2e-49 
+UniRef90_UPI000D73C2ED uncharacterized protein LOC112557056 isofo...  196        2e-49 
+UniRef90_A0A2A4JDL6 Uncharacterized protein n=2 Tax=Heliothis vir...  196        2e-49 
+UniRef90_A0A182Y0Z6 Uncharacterized protein n=1 Tax=Anopheles ste...  196        2e-49 
+UniRef90_A0A088ANB9 Uncharacterized protein n=6 Tax=Apis TaxID=74...  196        2e-49 
+UniRef90_UPI00077B019D cubilin-like n=1 Tax=Acropora digitifera T...  195        2e-49 
+UniRef90_S7Q107 Cubilin n=1 Tax=Myotis brandtii TaxID=109478 RepI...  195        3e-49 
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2161183689266
+Results from round 2
+
+
+Query= sp|P13497-2|BMP1_HUMAN Isoform BMP1-1 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=730
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  1052       0.0   
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  1033       0.0   
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  1032       0.0   
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  1027       0.0   
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  998        0.0   
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  958        0.0   
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  954        0.0   
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  949        0.0   
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  921        0.0   
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  877        0.0   
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  872        0.0   
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  867        0.0   
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  867        0.0   
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  867        0.0   
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  866        0.0   
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  866        0.0   
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  866        0.0   
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  865        0.0   
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  865        0.0   
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  863        0.0   
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  860        0.0   
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  859        0.0   
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  857        0.0   
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  856        0.0   
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  855        0.0   
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  853        0.0   
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  851        0.0   
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  849        0.0   
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  848        0.0   
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  847        0.0   
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  846        0.0   
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  845        0.0   
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  845        0.0   
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  844        0.0   
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  844        0.0   
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  844        0.0   
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  843        0.0   
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  842        0.0   
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  842        0.0   
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  841        0.0   
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  839        0.0   
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  839        0.0   
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  839        0.0   
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  838        0.0   
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  838        0.0   
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  837        0.0   
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  837        0.0   
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  837        0.0   
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  837        0.0   
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  836        0.0   
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  836        0.0   
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  836        0.0   
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  836        0.0   
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  834        0.0   
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  834        0.0   
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  834        0.0   
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  833        0.0   
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  833        0.0   
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  832        0.0   
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  832        0.0   
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  831        0.0   
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  831        0.0   
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  829        0.0   
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  829        0.0   
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  829        0.0   
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  829        0.0   
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  826        0.0   
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  826        0.0   
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  825        0.0   
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  825        0.0   
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  825        0.0   
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  823        0.0   
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  819        0.0   
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  818        0.0   
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  817        0.0   
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  804        0.0   
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  804        0.0   
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  800        0.0   
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  794        0.0   
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  779        0.0   
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  776        0.0   
+UniRef90_UPI00084A889D LOW QUALITY PROTEIN: uncharacterized prote...  739        0.0   
+UniRef90_U4U9E3 Uncharacterized protein n=3 Tax=Dendroctonus pond...  715        0.0   
+UniRef90_T1JG75 Metalloendopeptidase n=1 Tax=Strigamia maritima T...  705        0.0   
+UniRef90_A0A654GZ69 Metalloendopeptidase n=1 Tax=Sparganum prolif...  676        0.0   
+UniRef90_H3ED05 Metalloendopeptidase n=1 Tax=Pristionchus pacific...  629        0.0   
+UniRef90_A0A6G0V4T9 Metalloendopeptidase n=1 Tax=Halicephalobus s...  620        0.0   
+UniRef90_A0A6J1WLE5 tolloid-like protein 1 n=1 Tax=Galleria mello...  615        0.0   
+UniRef90_A0A5K3ETR7 Metalloendopeptidase n=3 Tax=Mesocestoides co...  585        0.0   
+UniRef90_A0A194QXS7 Metalloendopeptidase n=5 Tax=Papilio TaxID=71...  573        0.0   
+UniRef90_A0A0F8BXC8 Cubilin n=1 Tax=Larimichthys crocea TaxID=215...  571        0.0   
+UniRef90_A0A654GZT5 Metalloendopeptidase n=1 Tax=Sparganum prolif...  569        0.0   
+UniRef90_UPI000F660371 tolloid-like protein 2 n=1 Tax=Penaeus van...  568        0.0   
+UniRef90_A0A068WJH7 Metalloendopeptidase n=4 Tax=Taeniidae TaxID=...  567        0.0   
+UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  560        1e-180
+UniRef90_A0A4S2LA47 Metalloendopeptidase n=1 Tax=Opisthorchis fel...  557        1e-180
+UniRef90_A0A2I4CGW1 cubilin-like n=1 Tax=Austrofundulus limnaeus ...  555        2e-176
+UniRef90_A0A0X3NJV3 Metalloendopeptidase n=2 Tax=Schistocephalus ...  550        9e-176
+UniRef90_A0A5A9N6P3 Cubilin 460 kDa receptor n=1 Tax=Triplophysa ...  541        3e-175
+UniRef90_A0A4W5M3S1 Cubilin (intrinsic factor-cobalamin receptor)...  562        1e-174
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.158    0.550    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0484    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2161183689266
+Results from round 3
+
+
+Query= sp|P13497-2|BMP1_HUMAN Isoform BMP1-1 of Bone morphogenetic protein
+1 OS=Homo sapiens OX=9606 GN=BMP1
+
+Length=730
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_L5LI99 Metalloendopeptidase n=1 Tax=Myotis davidii TaxID...  959        0.0  
+UniRef90_A0A662Z0W7 Metalloendopeptidase n=3 Tax=Euteleostomi Tax...  951        0.0  
+UniRef90_A0A6B0S6D9 Metalloendopeptidase n=1 Tax=Bos mutus TaxID=...  948        0.0  
+UniRef90_A0A3M0ISX1 Metalloendopeptidase n=1 Tax=Hirundo rustica ...  929        0.0  
+UniRef90_A0A218UBI5 Metalloendopeptidase n=1 Tax=Lonchura striata...  902        0.0  
+UniRef90_A0A674GTQ2 Metalloendopeptidase n=3 Tax=Neognathae TaxID...  868        0.0  
+UniRef90_A0A6A4SH00 Metalloendopeptidase n=3 Tax=Percomorphaceae ...  868        0.0  
+UniRef90_A0A182W2Z3 Metalloendopeptidase n=1 Tax=Anopheles minimu...  866        0.0  
+UniRef90_A0A182F8E3 Metalloendopeptidase n=1 Tax=Anopheles albima...  863        0.0  
+UniRef90_A0A556UFS7 Metalloendopeptidase n=1 Tax=Bagarius yarrell...  860        0.0  
+UniRef90_A0A182UVZ7 Metalloendopeptidase n=1 Tax=Anopheles merus ...  859        0.0  
+UniRef90_A0A182JUP1 Metalloendopeptidase n=1 Tax=Anopheles christ...  859        0.0  
+UniRef90_A0A182NCK7 Metalloendopeptidase n=1 Tax=Anopheles dirus ...  858        0.0  
+UniRef90_A0A182PU03 Metalloendopeptidase n=1 Tax=Anopheles epirot...  854        0.0  
+UniRef90_A0A182H9K0 Metalloendopeptidase n=5 Tax=Stegomyia TaxID=...  852        0.0  
+UniRef90_A0A154PEV0 Metalloendopeptidase n=1 Tax=Dufourea novaean...  850        0.0  
+UniRef90_A0A195FKG8 Metalloendopeptidase n=28 Tax=Myrmicinae TaxI...  847        0.0  
+UniRef90_B0WYW5 Metalloendopeptidase n=1 Tax=Culex quinquefasciat...  847        0.0  
+UniRef90_UPI000718B42C bone morphogenetic protein 1 n=2 Tax=Polis...  842        0.0  
+UniRef90_UPI000D62546C tolloid-like protein 2 isoform X1 n=3 Tax=...  837        0.0  
+UniRef90_UPI00081165F8 uncharacterized protein LOC108359767 isofo...  835        0.0  
+UniRef90_UPI00062586FC bone morphogenetic protein 1 n=1 Tax=Oruss...  831        0.0  
+UniRef90_A0A2M4A6I1 Metalloendopeptidase (Fragment) n=4 Tax=Nysso...  831        0.0  
+UniRef90_W8APA8 Metalloendopeptidase (Fragment) n=2 Tax=Ceratitis...  831        0.0  
+UniRef90_A0A6H5J419 Metalloendopeptidase n=2 Tax=Trichogramma Tax...  830        0.0  
+UniRef90_B4JEI9 Metalloendopeptidase n=1 Tax=Drosophila grimshawi...  830        0.0  
+UniRef90_A0A1J1IWD1 Metalloendopeptidase n=1 Tax=Clunio marinus T...  830        0.0  
+UniRef90_A0A088AKL5 Metalloendopeptidase n=16 Tax=Apidae TaxID=74...  829        0.0  
+UniRef90_B3M039 Metalloendopeptidase n=2 Tax=ananassae subgroup T...  828        0.0  
+UniRef90_B4LW38 Metalloendopeptidase n=3 Tax=virilis group TaxID=...  828        0.0  
+UniRef90_UPI000E6E3CCF tolloid-like protein 1 n=1 Tax=Ctenocephal...  828        0.0  
+UniRef90_E2C7H5 Metalloendopeptidase n=6 Tax=Ponerini TaxID=14171...  827        0.0  
+UniRef90_A0A182JKN2 Metalloendopeptidase n=1 Tax=Anopheles atropa...  827        0.0  
+UniRef90_A0A182ML92 Metalloendopeptidase n=3 Tax=Cellia TaxID=445...  827        0.0  
+UniRef90_G5B9Q0 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=...  827        0.0  
+UniRef90_A0A6J1SS44 tolloid-like protein 1 n=1 Tax=Frankliniella ...  826        0.0  
+UniRef90_A0A1I8MRK3 Metalloendopeptidase n=1 Tax=Musca domestica ...  826        0.0  
+UniRef90_A0A0L0C6T7 Metalloendopeptidase (Fragment) n=2 Tax=Lucil...  825        0.0  
+UniRef90_A0A0A1XPB1 Metalloendopeptidase n=4 Tax=Zeugodacus cucur...  824        0.0  
+UniRef90_A0A084WR39 Metalloendopeptidase n=1 Tax=Anopheles sinens...  823        0.0  
+UniRef90_UPI0007E828D7 dorsal-ventral patterning protein tolloid ...  823        0.0  
+UniRef90_A0A1I8PPZ3 Metalloendopeptidase n=1 Tax=Stomoxys calcitr...  823        0.0  
+UniRef90_UPI00148CF76B dorsal-ventral patterning protein tolloid ...  822        0.0  
+UniRef90_A0A182QG59 Metalloendopeptidase n=1 Tax=Anopheles faraut...  822        0.0  
+UniRef90_A0A6J2TM94 dorsal-ventral patterning protein tolloid n=1...  822        0.0  
+UniRef90_A0A1S4GIU3 Metalloendopeptidase n=6 Tax=gambiae species ...  822        0.0  
+UniRef90_UPI001471669E dorsal-ventral patterning protein tolloid ...  821        0.0  
+UniRef90_A0A0K8URL5 Metalloendopeptidase n=12 Tax=Bactrocera TaxI...  820        0.0  
+UniRef90_A0A484B3M1 Metalloendopeptidase n=8 Tax=repleta group Ta...  818        0.0  
+UniRef90_B4GPE9 Metalloendopeptidase n=20 Tax=obscura group TaxID...  818        0.0  
+UniRef90_UPI00067E3B14 tolloid-like protein 1 n=1 Tax=Amyelois tr...  817        0.0  
+UniRef90_UPI000E6D9142 tolloid-like protein 1 n=1 Tax=Hyposmocoma...  817        0.0  
+UniRef90_UPI0010F5673F tolloid-like protein 1 n=6 Tax=Megachilina...  816        0.0  
+UniRef90_UPI000BA0C8DE uncharacterized protein LOC111065635 n=1 T...  816        0.0  
+UniRef90_A0A1B0C8Y1 Metalloendopeptidase n=2 Tax=Phlebotominae Ta...  816        0.0  
+UniRef90_UPI00118448C6 tolloid-like protein 1 n=1 Tax=Manduca sex...  815        0.0  
+UniRef90_A0A2M4A658 Metalloendopeptidase (Fragment) n=2 Tax=Anoph...  814        0.0  
+UniRef90_A0A2M3YYR7 Metalloendopeptidase (Fragment) n=3 Tax=Anoph...  813        0.0  
+UniRef90_Q9VC47 Metalloendopeptidase n=20 Tax=melanogaster group ...  813        0.0  
+UniRef90_A0A3S2LIK7 Metalloendopeptidase n=1 Tax=Chilo suppressal...  813        0.0  
+UniRef90_A0A0M4F702 Metalloendopeptidase n=6 Tax=Drosophila busck...  812        0.0  
+UniRef90_A0A1A9WC30 Metalloendopeptidase n=1 Tax=Glossina brevipa...  809        0.0  
+UniRef90_UPI0006D4E62A bone morphogenetic protein 1 n=1 Tax=Micro...  808        0.0  
+UniRef90_UPI0012D41A43 dorsal-ventral patterning protein tolloid ...  808        0.0  
+UniRef90_A0A2A4K265 Metalloendopeptidase n=8 Tax=Noctuidae TaxID=...  808        0.0  
+UniRef90_UPI0014825C26 tolloid-like protein 1 n=1 Tax=Thrips palm...  807        0.0  
+UniRef90_UPI0013DDFE3C dorsal-ventral patterning protein tolloid ...  807        0.0  
+UniRef90_A0A6J1N0D9 tolloid-like protein 1 n=2 Tax=Satyrini TaxID...  804        0.0  
+UniRef90_B4HH60 Metalloendopeptidase n=1 Tax=Drosophila sechellia...  804        0.0  
+UniRef90_UPI000B929D28 tolloid-like protein 1 n=1 Tax=Pieris rapa...  801        0.0  
+UniRef90_UPI000E774185 tolloid-like protein 1 n=1 Tax=Vanessa tam...  801        0.0  
+UniRef90_B4NL40 Metalloendopeptidase (Fragment) n=2 Tax=Drosophil...  799        0.0  
+UniRef90_A0A212EJW7 Metalloendopeptidase n=2 Tax=Danaus plexippus...  793        0.0  
+UniRef90_UPI0001A6400C putative tolloid n=1 Tax=Schistosoma manso...  788        0.0  
+UniRef90_A0A0V0RS05 Metalloendopeptidase n=20 Tax=Trichinella Tax...  773        0.0  
+UniRef90_A0A1A9YUG8 Metalloendopeptidase n=7 Tax=Glossina TaxID=7...  772        0.0  
+UniRef90_UPI0005D0BB44 tolloid-like protein 1 n=1 Tax=Plutella xy...  771        0.0  
+UniRef90_G3GUX9 Metalloendopeptidase n=15 Tax=Boreoeutheria TaxID...  770        0.0  
+UniRef90_A0A085N178 Metalloendopeptidase n=1 Tax=Trichuris suis T...  768        0.0  
+UniRef90_A0A336MKA2 Metalloendopeptidase n=3 Tax=Culicoides sonor...  765        0.0  
+UniRef90_UPI000C6F67CC tolloid-like protein 2 n=1 Tax=Copidosoma ...  758        0.0  
+UniRef90_A0A0F8BXC8 Cubilin n=1 Tax=Larimichthys crocea TaxID=215...  731        0.0  
+UniRef90_A0A3Q2V4K4 Uncharacterized protein n=15 Tax=Pseudocrenil...  720        0.0  
+UniRef90_A0A4W5M3S1 Cubilin (intrinsic factor-cobalamin receptor)...  719        0.0  
+UniRef90_W5MX16 Cubilin (intrinsic factor-cobalamin receptor) n=2...  716        0.0  
+UniRef90_A0A3B4F981 Uncharacterized protein n=1 Tax=Pundamilia ny...  716        0.0  
+UniRef90_UPI0015603482 LOW QUALITY PROTEIN: cubilin n=1 Tax=Acipe...  715        0.0  
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.167    0.600    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0511    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2161183689266
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

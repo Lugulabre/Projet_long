@@ -1,0 +1,280 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P49902|5NTC_HUMAN Cytosolic purine 5'-nucleotidase OS=Homo
+sapiens OX=9606 GN=NT5C2 PE=1 SV=1
+
+Length=561
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_U3IAM4 Uncharacterized protein n=3 Tax=Anas platyrhyncho...  781        0.0   
+UniRef90_G7YRK8 5'-nucleotidase n=1 Tax=Clonorchis sinensis TaxID...  528        6e-169
+UniRef90_A0A388KHM0 Uncharacterized protein n=1 Tax=Chara braunii...  246        3e-68 
+UniRef90_A0A6H5IVG2 ANK_REP_REGION domain-containing protein n=1 ...  174        2e-43 
+UniRef90_A0A498HPC3 Uncharacterized protein n=3 Tax=Maleae TaxID=...  170        2e-42 
+UniRef90_A0A444UHQ4 5'-nucleotidase domain-containing protein 3 n...  169        6e-42 
+UniRef90_A0A3P6ZI48 Uncharacterized protein n=2 Tax=Hymenolepis d...  157        5e-38 
+UniRef90_A0A150GXU3 Peptidylprolyl isomerase n=1 Tax=Gonium pecto...  155        2e-37 
+UniRef90_A0A2I0WKQ1 Pentatricopeptide repeat-containing protein n...  151        5e-36 
+UniRef90_A0A1I8I8B8 Uncharacterized protein n=1 Tax=Macrostomum l...  146        3e-34 
+UniRef90_A0A6A4SX48 Uncharacterized protein n=2 Tax=Scophthalmus ...  132        7e-30 
+UniRef90_H9J1X0 DNA helicase n=1 Tax=Bombyx mori TaxID=7091 RepID...  122        2e-26 
+UniRef90_A0A423SX77 Heat shock protein 70 n=1 Tax=Penaeus vanname...  116        1e-24 
+UniRef90_A0A2A3ERE1 Transforming growth factor-beta-induced prote...  70.5       5e-10 
+UniRef90_A0A2D4BN20 Uncharacterized protein n=1 Tax=Pythium insid...  58.2       4e-06 
+UniRef90_A0A444UIZ1 Protein bicaudal D-like 2 n=1 Tax=Acipenser r...  57.0       7e-06 
+UniRef90_E4XSL5 Uncharacterized protein n=1 Tax=Oikopleura dioica...  55.8       2e-05 
+UniRef90_A0A2R5G9G1 ABC transporter B family member 25 n=1 Tax=Ho...  51.6       3e-04 
+UniRef90_A0A6A3XNH5 Uncharacterized protein n=4 Tax=Phytophthora ...  48.1       0.005 
+UniRef90_A0A225WI33 Uncharacterized protein n=1 Tax=Phytophthora ...  41.2       0.55  
+UniRef90_S9PZX5 Myosin type-2 heavy chain 2 n=1 Tax=Schizosacchar...  40.4       1.2   
+UniRef90_A0A3Q0GSQ6 dermatan-sulfate epimerase isoform X1 n=12 Ta...  38.1       4.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1546344556315
+Results from round 2
+
+
+Query= sp|P49902|5NTC_HUMAN Cytosolic purine 5'-nucleotidase OS=Homo
+sapiens OX=9606 GN=NT5C2 PE=1 SV=1
+
+Length=561
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_U3IAM4 Uncharacterized protein n=3 Tax=Anas platyrhyncho...  630        0.0   
+UniRef90_G7YRK8 5'-nucleotidase n=1 Tax=Clonorchis sinensis TaxID...  567        0.0   
+UniRef90_A0A444UHQ4 5'-nucleotidase domain-containing protein 3 n...  504        1e-159
+UniRef90_A0A388KHM0 Uncharacterized protein n=1 Tax=Chara braunii...  489        9e-158
+UniRef90_A0A6H5IVG2 ANK_REP_REGION domain-containing protein n=1 ...  483        3e-153
+UniRef90_A0A3P6ZI48 Uncharacterized protein n=2 Tax=Hymenolepis d...  440        9e-136
+UniRef90_A0A6A4SX48 Uncharacterized protein n=2 Tax=Scophthalmus ...  435        1e-134
+UniRef90_A0A423SX77 Heat shock protein 70 n=1 Tax=Penaeus vanname...  395        1e-121
+UniRef90_A0A498HPC3 Uncharacterized protein n=3 Tax=Maleae TaxID=...  384        2e-118
+UniRef90_A0A1I8I8B8 Uncharacterized protein n=1 Tax=Macrostomum l...  388        1e-117
+UniRef90_H9J1X0 DNA helicase n=1 Tax=Bombyx mori TaxID=7091 RepID...  377        4e-114
+UniRef90_A0A2I0WKQ1 Pentatricopeptide repeat-containing protein n...  322        3e-94 
+UniRef90_A0A150GXU3 Peptidylprolyl isomerase n=1 Tax=Gonium pecto...  297        5e-86 
+UniRef90_A0A2D4BN20 Uncharacterized protein n=1 Tax=Pythium insid...  287        8e-82 
+UniRef90_A0A2A3ERE1 Transforming growth factor-beta-induced prote...  283        5e-81 
+UniRef90_E4XSL5 Uncharacterized protein n=1 Tax=Oikopleura dioica...  240        8e-66 
+UniRef90_A0A2R5G9G1 ABC transporter B family member 25 n=1 Tax=Ho...  178        6e-45 
+UniRef90_A0A444UIZ1 Protein bicaudal D-like 2 n=1 Tax=Acipenser r...  172        6e-43 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6A3XNH5 Uncharacterized protein n=4 Tax=Phytophthora ...  204        9e-54
+UniRef90_A0A225WI33 Uncharacterized protein n=1 Tax=Phytophthora ...  112        2e-23
+UniRef90_A0A3Q0GSQ6 dermatan-sulfate epimerase isoform X1 n=12 Ta...  108        6e-22
+UniRef90_A0A2U9CYN9 Putative dermatan-sulfate epimerase n=3 Tax=S...  74.4       3e-11
+UniRef90_A0A0C3QG47 UvrD-like helicase ATP-binding domain-contain...  44.8       0.048
+UniRef90_A0A0C3QRS4 UvrD-like helicase ATP-binding domain-contain...  41.7       0.46 
+UniRef90_A0A413BQG4 DNA (cytosine-5-)-methyltransferase n=1 Tax=P...  41.3       0.52 
+UniRef90_UPI0007EFF597 uncharacterized protein LOC108227793 isofo...  41.3       0.57 
+UniRef90_UPI000B8B3405 uncharacterized protein LOC110776087 n=1 T...  41.3       0.58 
+UniRef90_UPI0007F04849 uncharacterized protein LOC108198216 n=1 T...  40.2       1.2  
+UniRef90_A0A2S5B0F6 Kinesin motor domain-containing protein n=1 T...  40.2       1.3  
+UniRef90_A0A484EAV5 Phosphodiesterase n=1 Tax=Bremia lactucae Tax...  39.8       1.4  
+UniRef90_A0A3Q0CVN8 DUF4549 domain-containing protein n=4 Tax=Cri...  39.8       1.7  
+UniRef90_A0A1U7DRU8 Cell surface protein SprA n=1 Tax=Seonamhaeic...  39.8       1.9  
+UniRef90_A0A449HZX7 CRISPR-associated endonuclease Cas9 n=1 Tax=B...  39.0       2.9  
+UniRef90_K3W7I5 Uncharacterized protein n=1 Tax=Globisporangium u...  38.2       4.6  
+UniRef90_A0A1G0IG11 Uncharacterized protein n=1 Tax=Gammaproteoba...  37.9       6.8  
+UniRef90_A0A3G6T4K1 Uncharacterized protein n=2 Tax=Chryseobacter...  37.5       7.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.124    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0381    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1546344556315
+Results from round 3
+
+
+Query= sp|P49902|5NTC_HUMAN Cytosolic purine 5'-nucleotidase OS=Homo
+sapiens OX=9606 GN=NT5C2 PE=1 SV=1
+
+Length=561
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_U3IAM4 Uncharacterized protein n=3 Tax=Anas platyrhyncho...  610        0.0   
+UniRef90_G7YRK8 5'-nucleotidase n=1 Tax=Clonorchis sinensis TaxID...  562        0.0   
+UniRef90_A0A444UHQ4 5'-nucleotidase domain-containing protein 3 n...  516        3e-164
+UniRef90_A0A388KHM0 Uncharacterized protein n=1 Tax=Chara braunii...  498        4e-161
+UniRef90_A0A6H5IVG2 ANK_REP_REGION domain-containing protein n=1 ...  493        3e-157
+UniRef90_A0A6A4SX48 Uncharacterized protein n=2 Tax=Scophthalmus ...  462        2e-144
+UniRef90_A0A3P6ZI48 Uncharacterized protein n=2 Tax=Hymenolepis d...  456        1e-141
+UniRef90_A0A423SX77 Heat shock protein 70 n=1 Tax=Penaeus vanname...  423        5e-132
+UniRef90_A0A1I8I8B8 Uncharacterized protein n=1 Tax=Macrostomum l...  419        7e-129
+UniRef90_H9J1X0 DNA helicase n=1 Tax=Bombyx mori TaxID=7091 RepID...  403        8e-124
+UniRef90_A0A498HPC3 Uncharacterized protein n=3 Tax=Maleae TaxID=...  397        6e-123
+UniRef90_A0A2I0WKQ1 Pentatricopeptide repeat-containing protein n...  327        5e-96 
+UniRef90_A0A6A3XNH5 Uncharacterized protein n=4 Tax=Phytophthora ...  323        2e-95 
+UniRef90_A0A2D4BN20 Uncharacterized protein n=1 Tax=Pythium insid...  312        1e-90 
+UniRef90_A0A150GXU3 Peptidylprolyl isomerase n=1 Tax=Gonium pecto...  310        2e-90 
+UniRef90_A0A2A3ERE1 Transforming growth factor-beta-induced prote...  296        1e-85 
+UniRef90_E4XSL5 Uncharacterized protein n=1 Tax=Oikopleura dioica...  255        6e-71 
+UniRef90_A0A2R5G9G1 ABC transporter B family member 25 n=1 Tax=Ho...  222        8e-60 
+UniRef90_A0A3Q0GSQ6 dermatan-sulfate epimerase isoform X1 n=12 Ta...  184        6e-47 
+UniRef90_A0A444UIZ1 Protein bicaudal D-like 2 n=1 Tax=Acipenser r...  181        7e-46 
+UniRef90_A0A225WI33 Uncharacterized protein n=1 Tax=Phytophthora ...  171        1e-42 
+UniRef90_A0A2U9CYN9 Putative dermatan-sulfate epimerase n=3 Tax=S...  120        8e-26 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A0C3Q3E4 UvrD-like helicase ATP-binding domain-contain...  42.5       0.22 
+UniRef90_A0A3Q0CVN8 DUF4549 domain-containing protein n=4 Tax=Cri...  42.1       0.29 
+UniRef90_A0A2N9EV70 Uncharacterized protein n=1 Tax=Fagus sylvati...  42.1       0.32 
+UniRef90_UPI00085C6B1F phosphodiester glycosidase family protein ...  41.7       0.37 
+UniRef90_A0A1U7DRU8 Cell surface protein SprA n=1 Tax=Seonamhaeic...  41.7       0.39 
+UniRef90_UPI0007EFF597 uncharacterized protein LOC108227793 isofo...  41.7       0.46 
+UniRef90_UPI000B8B3405 uncharacterized protein LOC110776087 n=1 T...  40.5       0.85 
+UniRef90_UPI0007F04849 uncharacterized protein LOC108198216 n=1 T...  40.2       1.1  
+UniRef90_A0A6J0G2W0 xanthine dehydrogenase-like n=1 Tax=Drosophil...  40.2       1.3  
+UniRef90_A0A1G0IG11 Uncharacterized protein n=1 Tax=Gammaproteoba...  40.2       1.3  
+UniRef90_UPI0007EFF438 uncharacterized protein LOC108192726 n=1 T...  39.4       2.2  
+UniRef90_A0A371JKS2 Uncharacterized protein n=1 Tax=Muricauda sp....  39.4       2.3  
+UniRef90_UPI0014717D45 nesprin-1 isoform X11 n=2 Tax=Drosophila g...  39.4       2.6  
+UniRef90_UPI001471DA29 nesprin-1 isoform X2 n=2 Tax=Drosophila gu...  39.4       2.6  
+UniRef90_UPI000BA0850E LOW QUALITY PROTEIN: nesprin-1-like n=1 Ta...  39.0       3.1  
+UniRef90_UPI0007E6CB9B uncharacterized protein LOC108102515 isofo...  39.0       3.2  
+UniRef90_UPI0007E641A6 uncharacterized protein LOC108102515 isofo...  39.0       3.2  
+UniRef90_UPI0007E6994A uncharacterized protein LOC108102515 isofo...  39.0       3.2  
+UniRef90_UPI0014713F0C nesprin-1 isoform X6 n=2 Tax=Drosophila gu...  39.0       3.2  
+UniRef90_UPI001471E746 nesprin-1 isoform X4 n=5 Tax=obscura subgr...  39.0       3.2  
+UniRef90_A0A3B0JMY6 Blast:Nesprin-1 n=1 Tax=Drosophila guanche Ta...  39.0       3.3  
+UniRef90_A0A1W4UV46 nesprin-1 isoform X1 n=1 Tax=Drosophila ficus...  39.0       3.5  
+UniRef90_UPI000F096C2F uncharacterized protein LOC6589136 isoform...  38.6       3.7  
+UniRef90_A0A5A9NTB6 Calmodulin-regulated spectrin-associated prot...  38.6       3.7  
+UniRef90_M9MRD6 Muscle-specific protein 300 kDa, isoform I n=13 T...  38.6       4.2  
+UniRef90_M9PCM8 Muscle-specific protein 300 kDa, isoform K n=7 Ta...  38.6       4.2  
+UniRef90_M9PC84 Muscle-specific protein 300 kDa, isoform L n=7 Ta...  38.6       4.2  
+UniRef90_M9MRD1 Muscle-specific protein 300 kDa, isoform D n=17 T...  38.6       4.2  
+UniRef90_UPI000C26C13B uncharacterized protein LOC6644286 isoform...  38.6       4.2  
+UniRef90_A0A4T0JEY3 Importin N-terminal domain-containing protein...  38.2       4.3  
+UniRef90_UPI00143FAE2D nesprin-1 isoform X7 n=1 Tax=Drosophila mi...  38.2       4.7  
+UniRef90_UPI00143F30A9 nesprin-1 isoform X1 n=7 Tax=Drosophila mi...  38.2       4.7  
+UniRef90_M9MRD4 Muscle-specific protein 300 kDa, isoform B n=24 T...  38.2       4.8  
+UniRef90_UPI0007EF221C uncharacterized protein LOC108198170 n=1 T...  38.2       4.9  
+UniRef90_A0A5N5DFM2 Lysine-specific demethylase lid n=3 Tax=Botry...  38.2       5.1  
+UniRef90_UPI0013DE451B uncharacterized protein LOC6613451 isoform...  38.2       5.2  
+UniRef90_UPI001432D3C0 uncharacterized protein LOC117150514 isofo...  38.2       5.4  
+UniRef90_UPI0013DE710E uncharacterized protein LOC6613451 isoform...  38.2       5.4  
+UniRef90_UPI0013DDE57A uncharacterized protein LOC6613451 isoform...  38.2       5.4  
+UniRef90_UPI0013DDA0DF uncharacterized protein LOC6613451 isoform...  38.2       5.4  
+UniRef90_UPI0013DDAA62 uncharacterized protein LOC6613451 isoform...  38.2       5.4  
+UniRef90_UPI0013DDD476 uncharacterized protein LOC6613451 isoform...  38.2       5.4  
+UniRef90_A0A6I8W017 nesprin-1 isoform X7 n=1 Tax=Drosophila pseud...  38.2       5.4  
+UniRef90_UPI0013DDA3B7 nesprin-1 isoform X12 n=1 Tax=Drosophila s...  38.2       5.5  
+UniRef90_A0A6I8VYP1 nesprin-1 isoform X1 n=7 Tax=Drosophila pseud...  38.2       5.5  
+UniRef90_UPI0007E6B256 LOW QUALITY PROTEIN: uncharacterized prote...  38.2       5.5  
+UniRef90_UPI0007E75A03 nesprin-1 isoform X7 n=1 Tax=Drosophila bi...  38.2       5.5  
+UniRef90_UPI0007E78DF9 nesprin-1 isoform X6 n=1 Tax=Drosophila bi...  38.2       5.5  
+UniRef90_A0A6J0GBW6 uncharacterized protein LOC108021033 isoform ...  38.2       5.7  
+UniRef90_A0A6J0GCD6 uncharacterized protein LOC108021033 isoform ...  38.2       5.7  
+UniRef90_A0A6J0G8N3 uncharacterized protein LOC108021033 isoform ...  38.2       5.7  
+UniRef90_A0A6J0GCF0 uncharacterized protein LOC108021033 isoform ...  38.2       5.8  
+UniRef90_A0A6I8VYE1 nesprin-1 isoform X9 n=1 Tax=Drosophila pseud...  38.2       5.9  
+UniRef90_UPI000C26D0E3 nesprin-1 isoform X6 n=1 Tax=Drosophila wi...  38.2       6.0  
+UniRef90_UPI0007E8862D uncharacterized protein LOC108147814 isofo...  38.2       6.0  
+UniRef90_UPI0007E68B1F uncharacterized protein LOC108063789 n=1 T...  38.2       6.0  
+UniRef90_UPI0007E657D0 uncharacterized protein LOC108147814 isofo...  37.8       6.1  
+UniRef90_UPI0007E5D619 nesprin-1 isoform X4 n=1 Tax=Drosophila el...  37.8       6.1  
+UniRef90_A0A6J0G900 nesprin-1 isoform X12 n=8 Tax=suzukii subgrou...  37.8       6.2  
+UniRef90_A0A0Q9X345 Uncharacterized protein, isoform D n=2 Tax=Dr...  37.8       6.3  
+UniRef90_A0A0Q9X1R5 Uncharacterized protein, isoform B n=1 Tax=Dr...  37.8       6.4  
+UniRef90_A0A6I8VYQ7 nesprin-1 isoform X16 n=3 Tax=pseudoobscura s...  37.8       6.5  
+UniRef90_A0A6I8W023 nesprin-1 isoform X12 n=7 Tax=pseudoobscura s...  37.8       6.5  
+UniRef90_A0A6I8VYG9 nesprin-1 isoform X10 n=9 Tax=pseudoobscura s...  37.8       6.5  
+UniRef90_UPI0009722EE5 uncharacterized protein LOC101890034 n=1 T...  37.8       6.7  
+UniRef90_B4G8M2 GL18807 n=1 Tax=Drosophila persimilis TaxID=7234 ...  37.8       6.8  
+UniRef90_UPI000C26D2FE nesprin-1 isoform X7 n=4 Tax=Sophophora Ta...  37.8       7.0  
+UniRef90_A0A2S5B0F6 Kinesin motor domain-containing protein n=1 T...  37.8       7.2  
+UniRef90_A0A6J2U6X4 nesprin-1 isoform X5 n=1 Tax=Drosophila leban...  37.8       7.3  
+UniRef90_UPI0007E70E5E nesprin-1 isoform X10 n=1 Tax=Drosophila b...  37.8       7.3  
+UniRef90_UPI0007E754AB nesprin-1 isoform X1 n=8 Tax=melanogaster ...  37.8       7.3  
+UniRef90_B4I1D6 GM18531 n=1 Tax=Drosophila sechellia TaxID=7238 R...  37.8       7.4  
+UniRef90_A0A6J0G961 nesprin-1 isoform X20 n=2 Tax=suzukii subgrou...  37.8       7.5  
+UniRef90_A0A6J0GCJ6 nesprin-1 isoform X16 n=4 Tax=suzukii subgrou...  37.8       7.5  
+UniRef90_A0A6I8VYF2 nesprin-1 isoform X19 n=3 Tax=pseudoobscura s...  37.8       7.5  
+UniRef90_A0A1I8MJ32 Uncharacterized protein n=1 Tax=Musca domesti...  37.5       8.2  
+UniRef90_A0A6J2U4Q1 nesprin-1 isoform X3 n=1 Tax=Drosophila leban...  37.5       8.2  
+UniRef90_UPI0013A5E833 uncharacterized protein LOC6497204 isoform...  37.5       8.5  
+UniRef90_UPI0013A5D65B uncharacterized protein LOC6497204 isoform...  37.5       8.5  
+UniRef90_UPI0013A5EF3F uncharacterized protein LOC6497204 isoform...  37.5       8.6  
+UniRef90_A0A3M0J2A6 Uncharacterized protein n=1 Tax=Hirundo rusti...  37.5       8.9  
+UniRef90_T1PPI4 Spectrin repeat protein (Fragment) n=1 Tax=Musca ...  37.5       9.0  
+UniRef90_A0A6J2U2P1 nesprin-1 isoform X1 n=2 Tax=Drosophila leban...  37.5       9.1  
+UniRef90_UPI0007E5D0CE nesprin-1 isoform X2 n=4 Tax=melanogaster ...  37.5       9.2  
+UniRef90_A0A0L0C4Q7 Calponin-homology (CH) domain-containing prot...  37.5       9.4  
+UniRef90_A0A6J2U2P6 nesprin-1 isoform X4 n=1 Tax=Drosophila leban...  37.5       9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.126    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0386    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1546344556315
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
