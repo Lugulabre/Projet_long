@@ -1,0 +1,1612 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P43166|CAH7_HUMAN Carbonic anhydrase 7 OS=Homo sapiens OX=9606
+GN=CA7 PE=1 SV=1
+
+Length=264
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A1I8I8J7 Carbonic anhydrase n=1 Tax=Macrostomum lignan...  164        2e-43
+UniRef90_A0A6L2QF01 Uncharacterized protein n=1 Tax=Coptotermes f...  159        1e-41
+UniRef90_A0A6A4T7E2 Alpha-mannosidase n=1 Tax=Scophthalmus maximu...  155        3e-40
+UniRef90_A0A3B5AVS0 Protein-tyrosine-phosphatase n=5 Tax=Pomacent...  144        2e-36
+UniRef90_H2SF35 Protein-tyrosine-phosphatase n=3 Tax=Takifugu rub...  143        3e-36
+UniRef90_K1P7Z9 Alpha-carbonic anhydrase domain-containing protei...  143        4e-36
+UniRef90_A0A3B3QVG9 Protein-tyrosine-phosphatase n=2 Tax=Paramorm...  143        4e-36
+UniRef90_UPI0011B77924 receptor-type tyrosine-protein phosphatase...  143        5e-36
+UniRef90_UPI001041F0E4 receptor-type tyrosine-protein phosphatase...  142        9e-36
+UniRef90_A0A673A9J7 Protein-tyrosine-phosphatase n=3 Tax=Sphaeram...  142        1e-35
+UniRef90_A0A2I4B1N8 Protein-tyrosine-phosphatase n=1 Tax=Austrofu...  142        1e-35
+UniRef90_UPI000B45DA14 nuclear factor of activated T-cells 5-like...  142        1e-35
+UniRef90_UPI000A1C7149 receptor-type tyrosine-protein phosphatase...  142        1e-35
+UniRef90_A0A3Q3A0X0 Protein-tyrosine-phosphatase n=1 Tax=Kryptole...  142        1e-35
+UniRef90_A0A1A7Z242 Protein-tyrosine-phosphatase n=11 Tax=Nothobr...  142        1e-35
+UniRef90_A0A1A8KB70 Protein-tyrosine-phosphatase n=1 Tax=Nothobra...  141        1e-35
+UniRef90_UPI00092E77FB receptor-type tyrosine-protein phosphatase...  141        2e-35
+UniRef90_A0A3Q0G9K9 Protein-tyrosine-phosphatase n=3 Tax=Archosau...  141        2e-35
+UniRef90_UPI0010FAA256 receptor-type tyrosine-protein phosphatase...  141        2e-35
+UniRef90_A0A210PWV2 Carbonate dehydratase IV n=1 Tax=Mizuhopecten...  140        2e-35
+UniRef90_A0A3Q2Z570 Protein-tyrosine-phosphatase n=1 Tax=Hippocam...  140        3e-35
+UniRef90_UPI0004435732 receptor-type tyrosine-protein phosphatase...  140        3e-35
+UniRef90_F6Z7H9 Protein-tyrosine-phosphatase n=6 Tax=Metatheria T...  140        4e-35
+UniRef90_K7FJW6 Protein-tyrosine-phosphatase n=1 Tax=Pelodiscus s...  140        4e-35
+UniRef90_UPI00145A1128 receptor-type tyrosine-protein phosphatase...  140        4e-35
+UniRef90_A0A672I989 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  140        4e-35
+UniRef90_A0A087YHN2 Protein-tyrosine-phosphatase n=5 Tax=Poecilii...  140        5e-35
+UniRef90_A0A3P8SZU2 Protein-tyrosine-phosphatase n=1 Tax=Amphipri...  140        5e-35
+UniRef90_A0A3Q1B4U0 Protein-tyrosine-phosphatase n=1 Tax=Amphipri...  140        5e-35
+UniRef90_A0A402EH60 Protein-tyrosine-phosphatase n=2 Tax=Gekkonin...  139        7e-35
+UniRef90_A0A3Q2DJS3 Protein-tyrosine-phosphatase n=7 Tax=Cyprinod...  139        7e-35
+UniRef90_UPI001054B05A receptor-type tyrosine-protein phosphatase...  139        1e-34
+UniRef90_A0A3P9CGE0 Protein-tyrosine-phosphatase n=10 Tax=Percomo...  139        1e-34
+UniRef90_UPI0015534F79 receptor-type tyrosine-protein phosphatase...  139        1e-34
+UniRef90_A0A3Q3CEZ9 Protein-tyrosine-phosphatase n=2 Tax=Haplochr...  139        1e-34
+UniRef90_A0A4W6D926 Protein-tyrosine-phosphatase n=20 Tax=Percomo...  138        2e-34
+UniRef90_UPI0003EC64B9 receptor-type tyrosine-protein phosphatase...  138        2e-34
+UniRef90_A0A674MCR6 Protein-tyrosine-phosphatase n=2 Tax=Takifugu...  138        2e-34
+UniRef90_A0A674NHU4 Protein-tyrosine-phosphatase n=1 Tax=Takifugu...  138        2e-34
+UniRef90_A0A3Q3MNA6 Protein-tyrosine-phosphatase n=3 Tax=Mastacem...  138        2e-34
+UniRef90_A0A4W6D8T7 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  138        2e-34
+UniRef90_UPI0010FA9015 receptor-type tyrosine-protein phosphatase...  138        3e-34
+UniRef90_A0A4V6AN53 Protein-tyrosine-phosphatase n=3 Tax=Sciaenid...  138        3e-34
+UniRef90_A0A484DEW4 Protein-tyrosine-phosphatase n=5 Tax=Percidae...  137        3e-34
+UniRef90_A0A556TIF5 Carbonic anhydrase n=1 Tax=Bagarius yarrelli ...  137        4e-34
+UniRef90_A0A674JD02 Protein-tyrosine-phosphatase n=1 Tax=Terrapen...  137        4e-34
+UniRef90_UPI0013786320 receptor-type tyrosine-protein phosphatase...  137        6e-34
+UniRef90_A0A3Q3KGT4 Protein-tyrosine-phosphatase n=5 Tax=Monopter...  137        6e-34
+UniRef90_A0A3Q1JWI4 Protein-tyrosine-phosphatase n=3 Tax=Anabas t...  137        7e-34
+UniRef90_A0A3Q0S7W7 Protein-tyrosine-phosphatase n=4 Tax=Heroini ...  137        7e-34
+UniRef90_A0A663F8U4 Protein-tyrosine-phosphatase n=1 Tax=Aquila c...  136        8e-34
+UniRef90_UPI000E1BB7CB receptor-type tyrosine-protein phosphatase...  136        8e-34
+UniRef90_UPI00117665B2 receptor-type tyrosine-protein phosphatase...  136        8e-34
+UniRef90_A0A4S2KTH4 Alpha-carbonic anhydrase domain-containing pr...  136        9e-34
+UniRef90_UPI0013F192FB receptor-type tyrosine-protein phosphatase...  136        1e-33
+UniRef90_A0A3P9M616 Protein-tyrosine-phosphatase n=2 Tax=Oryzias ...  136        1e-33
+UniRef90_UPI0010FA56E4 receptor-type tyrosine-protein phosphatase...  136        1e-33
+UniRef90_UPI0015902BF0 receptor-type tyrosine-protein phosphatase...  136        1e-33
+UniRef90_UPI0011C34A5D LOW QUALITY PROTEIN: receptor-type tyrosin...  135        1e-33
+UniRef90_A0A3Q2Z4R6 Protein-tyrosine-phosphatase n=1 Tax=Hippocam...  135        1e-33
+UniRef90_A0A3B3QN68 Protein-tyrosine-phosphatase n=3 Tax=Paramorm...  135        2e-33
+UniRef90_A0A670JAV8 Protein-tyrosine-phosphatase n=1 Tax=Podarcis...  135        2e-33
+UniRef90_A0A6J0UKP7 receptor-type tyrosine-protein phosphatase ga...  135        2e-33
+UniRef90_UPI0008542699 receptor-type tyrosine-protein phosphatase...  135        2e-33
+UniRef90_UPI00141A3AFE receptor-type tyrosine-protein phosphatase...  135        2e-33
+UniRef90_A0A672I8R8 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  135        2e-33
+UniRef90_UPI0014197E20 receptor-type tyrosine-protein phosphatase...  135        2e-33
+UniRef90_A0A672I9Z0 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  135        2e-33
+UniRef90_UPI0010A0C12C receptor-type tyrosine-protein phosphatase...  135        2e-33
+UniRef90_A0A6J0UJ18 receptor-type tyrosine-protein phosphatase ga...  135        2e-33
+UniRef90_A0A672I9N9 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  135        2e-33
+UniRef90_A0A672I8R2 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  135        2e-33
+UniRef90_A0A672IAG5 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  135        2e-33
+UniRef90_UPI00148D12BD receptor-type tyrosine-protein phosphatase...  135        2e-33
+UniRef90_A0A3B4G776 Protein-tyrosine-phosphatase n=1 Tax=Pundamil...  135        3e-33
+UniRef90_A0A665V0F6 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  135        3e-33
+UniRef90_UPI0014717F0B receptor-type tyrosine-protein phosphatase...  135        3e-33
+UniRef90_R0LNJ1 Protein-tyrosine-phosphatase (Fragment) n=1 Tax=A...  135        3e-33
+UniRef90_UPI0015B0ED3C receptor-type tyrosine-protein phosphatase...  135        3e-33
+UniRef90_UPI00145AD84A receptor-type tyrosine-protein phosphatase...  134        3e-33
+UniRef90_A0A2Y9D6I5 Protein-tyrosine-phosphatase n=3 Tax=Afrother...  134        3e-33
+UniRef90_UPI00085414AA receptor-type tyrosine-protein phosphatase...  134        4e-33
+UniRef90_UPI001056CB12 receptor-type tyrosine-protein phosphatase...  134        4e-33
+UniRef90_A0A673ABP6 Protein-tyrosine-phosphatase n=1 Tax=Sphaeram...  134        4e-33
+UniRef90_A0A673AAJ4 Protein-tyrosine-phosphatase n=1 Tax=Sphaeram...  134        5e-33
+UniRef90_G1KFX3 Protein-tyrosine-phosphatase n=1 Tax=Anolis carol...  134        5e-33
+UniRef90_UPI0007DB6B1A receptor-type tyrosine-protein phosphatase...  134        5e-33
+UniRef90_I3J8S5 Protein-tyrosine-phosphatase n=8 Tax=Oreochromis ...  134        6e-33
+UniRef90_UPI0007DB6BEA receptor-type tyrosine-protein phosphatase...  133        8e-33
+UniRef90_UPI0015A9B1DA receptor-type tyrosine-protein phosphatase...  133        8e-33
+UniRef90_UPI000854E5A4 receptor-type tyrosine-protein phosphatase...  134        8e-33
+UniRef90_Q98936 Receptor-type tyrosine-protein phosphatase gamma ...  133        8e-33
+UniRef90_UPI0003EC54AC receptor-type tyrosine-protein phosphatase...  133        9e-33
+UniRef90_UPI001458FF7D uncharacterized protein LOC117332574 n=1 T...  133        1e-32
+UniRef90_A0A3B4AWY1 Protein-tyrosine-phosphatase n=1 Tax=Periopht...  133        1e-32
+UniRef90_A0A6G1PI72 Protein-tyrosine-phosphatase n=1 Tax=Channa a...  133        1e-32
+UniRef90_G3X0A8 Protein-tyrosine-phosphatase n=3 Tax=Sarcophilus ...  133        1e-32
+UniRef90_UPI000A1C73AC LOW QUALITY PROTEIN: receptor-type tyrosin...  133        1e-32
+UniRef90_A0A2B4RR96 Mucin-4 n=1 Tax=Stylophora pistillata TaxID=5...  133        1e-32
+UniRef90_UPI000C7EC6E0 receptor-type tyrosine-protein phosphatase...  133        1e-32
+UniRef90_UPI000333187A receptor-type tyrosine-protein phosphatase...  132        1e-32
+UniRef90_W5MWP0 Protein-tyrosine-phosphatase n=2 Tax=Lepisosteus ...  132        2e-32
+UniRef90_A0A670XUK0 Protein-tyrosine-phosphatase n=20 Tax=Toxicof...  132        2e-32
+UniRef90_A0A6J3B5B0 receptor-type tyrosine-protein phosphatase ga...  132        2e-32
+UniRef90_UPI0010A9845E receptor-type tyrosine-protein phosphatase...  132        2e-32
+UniRef90_UPI00070400D5 receptor-type tyrosine-protein phosphatase...  132        2e-32
+UniRef90_A0A6I8REK8 Protein-tyrosine-phosphatase n=1 Tax=Xenopus ...  132        3e-32
+UniRef90_UPI0007A6FB23 receptor-type tyrosine-protein phosphatase...  132        3e-32
+UniRef90_UPI0012F651E6 receptor-type tyrosine-protein phosphatase...  132        3e-32
+UniRef90_A0A3B4B1I8 Protein-tyrosine-phosphatase n=1 Tax=Periopht...  132        3e-32
+UniRef90_A0A3Q4BK75 Protein-tyrosine-phosphatase n=1 Tax=Mola mol...  132        3e-32
+UniRef90_A0A6J2CHQ7 receptor-type tyrosine-protein phosphatase ga...  131        4e-32
+UniRef90_A0A6I9L1B7 receptor-type tyrosine-protein phosphatase ga...  131        4e-32
+UniRef90_UPI0012ECCB03 receptor-type tyrosine-protein phosphatase...  131        5e-32
+UniRef90_A0A6I8QZW2 Protein-tyrosine-phosphatase n=3 Tax=Xenopus ...  131        5e-32
+UniRef90_Q8CIN2 Protein-tyrosine-phosphatase n=1 Tax=Rattus norve...  131        5e-32
+UniRef90_UPI0010A0BBB3 LOW QUALITY PROTEIN: receptor-type tyrosin...  131        5e-32
+UniRef90_Q9I909 Protein-tyrosine-phosphatase n=3 Tax=Xenopus laev...  131        6e-32
+UniRef90_UPI00140F6092 receptor-type tyrosine-protein phosphatase...  131        6e-32
+UniRef90_Q8CIN3 Protein-tyrosine-phosphatase n=3 Tax=Boreoeutheri...  131        6e-32
+UniRef90_A0A669BBC0 Protein-tyrosine-phosphatase n=1 Tax=Oreochro...  131        6e-32
+UniRef90_UPI00148FAB2D receptor-type tyrosine-protein phosphatase...  131        6e-32
+UniRef90_A0A3P8XDF0 Protein-tyrosine-phosphatase n=4 Tax=Esox luc...  131        6e-32
+UniRef90_A0A667Z3Q1 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  131        7e-32
+UniRef90_UPI000F2F3D7A receptor-type tyrosine-protein phosphatase...  131        7e-32
+UniRef90_A0A667YCG6 Protein-tyrosine-phosphatase n=4 Tax=Myripris...  130        7e-32
+UniRef90_A0A668UU19 Protein-tyrosine-phosphatase n=1 Tax=Oreochro...  130        8e-32
+UniRef90_UPI0005F3ED6D LOW QUALITY PROTEIN: receptor-type tyrosin...  130        8e-32
+UniRef90_G3N8Z9 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  130        9e-32
+UniRef90_UPI001176073C receptor-type tyrosine-protein phosphatase...  130        9e-32
+UniRef90_UPI0009B319CA receptor-type tyrosine-protein phosphatase...  130        9e-32
+UniRef90_UPI000D52F748 receptor-type tyrosine-protein phosphatase...  130        9e-32
+UniRef90_UPI000D53A71D receptor-type tyrosine-protein phosphatase...  130        9e-32
+UniRef90_UPI0012AD2CE3 receptor-type tyrosine-protein phosphatase...  130        1e-31
+UniRef90_UPI0015556388 receptor-type tyrosine-protein phosphatase...  130        1e-31
+UniRef90_UPI0010A53999 receptor-type tyrosine-protein phosphatase...  130        1e-31
+UniRef90_A0A6H5IYR4 Alpha-carbonic anhydrase domain-containing pr...  130        1e-31
+UniRef90_A0A1S3LA12 Protein-tyrosine-phosphatase n=26 Tax=Salmoni...  130        1e-31
+UniRef90_UPI00038BB38A receptor-type tyrosine-protein phosphatase...  130        1e-31
+UniRef90_A0A1S3A4I4 Protein-tyrosine-phosphatase n=3 Tax=Boreoeut...  130        1e-31
+UniRef90_Q9I908 Receptor-type protein tyrosine phosphatase beta.2...  130        1e-31
+UniRef90_A0A671W7M9 Protein-tyrosine-phosphatase n=2 Tax=Sparus a...  130        1e-31
+UniRef90_A0A6G0US22 Alpha-carbonic anhydrase domain-containing pr...  130        1e-31
+UniRef90_S7NTF0 Protein-tyrosine-phosphatase n=2 Tax=Vespertilion...  130        1e-31
+UniRef90_H3C603 Protein tyrosine phosphatase receptor type Z1a n=...  129        2e-31
+UniRef90_A0A671W8S9 Protein-tyrosine-phosphatase n=1 Tax=Sparus a...  129        2e-31
+UniRef90_A0A665V1N4 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  129        2e-31
+UniRef90_A0A665V110 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  129        2e-31
+UniRef90_A0A673ACI9 Protein-tyrosine-phosphatase n=1 Tax=Sphaeram...  129        2e-31
+UniRef90_A0A671FI25 Protein-tyrosine-phosphatase n=5 Tax=Rhinolop...  129        2e-31
+UniRef90_UPI0012AC440F receptor-type tyrosine-protein phosphatase...  129        2e-31
+UniRef90_A0A665V139 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  129        2e-31
+UniRef90_A0A498LUD4 Carbonic anhydrase n=1 Tax=Labeo rohita TaxID...  129        2e-31
+UniRef90_A0A665V0H6 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  129        3e-31
+UniRef90_A0A1S3LD90 Protein-tyrosine-phosphatase n=18 Tax=Salmoni...  129        3e-31
+UniRef90_UPI00148704B9 receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_UPI00146A4CD4 receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_P23470 Receptor-type tyrosine-protein phosphatase gamma ...  129        3e-31
+UniRef90_UPI0015D0999E receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_UPI000FFBD9FD receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_A0A665V1F0 Protein-tyrosine-phosphatase n=2 Tax=Echeneis...  129        3e-31
+UniRef90_UPI0010A58E37 receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_UPI000816486C receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_UPI000854D82D receptor-type tyrosine-protein phosphatase...  129        3e-31
+UniRef90_A0A2U9BGM4 Protein-tyrosine-phosphatase n=4 Tax=Pleurone...  129        4e-31
+UniRef90_A0A452VG05 Protein-tyrosine-phosphatase n=1 Tax=Ursus ma...  129        4e-31
+UniRef90_UPI000E1E9E0B receptor-type tyrosine-protein phosphatase...  129        4e-31
+UniRef90_A0A1S3P3N0 Protein-tyrosine-phosphatase n=10 Tax=Salmoni...  128        5e-31
+UniRef90_A0A4X2M9U5 Protein-tyrosine-phosphatase n=3 Tax=Metather...  128        5e-31
+UniRef90_A0A2D0RZB2 Protein-tyrosine-phosphatase n=8 Tax=Siluroid...  128        5e-31
+UniRef90_UPI0010F543C4 receptor-type tyrosine-protein phosphatase...  128        5e-31
+UniRef90_A0A091J6D8 Protein-tyrosine-phosphatase (Fragment) n=4 T...  128        6e-31
+UniRef90_UPI001476F1B6 receptor-type tyrosine-protein phosphatase...  128        6e-31
+UniRef90_A0A6J2PTJ3 receptor-type tyrosine-protein phosphatase ze...  128        6e-31
+UniRef90_UPI0011CFBD95 receptor-type tyrosine-protein phosphatase...  128        6e-31
+UniRef90_A0A3B4C558 Protein-tyrosine-phosphatase n=1 Tax=Pygocent...  128        6e-31
+UniRef90_UPI0011D001A7 receptor-type tyrosine-protein phosphatase...  128        6e-31
+UniRef90_A0A1U7QLF3 Protein-tyrosine-phosphatase n=5 Tax=Muroidea...  128        7e-31
+UniRef90_UPI000E1C12B1 receptor-type tyrosine-protein phosphatase...  128        7e-31
+UniRef90_UPI0011803D64 receptor-type tyrosine-protein phosphatase...  128        7e-31
+UniRef90_A0A4W5MG92 Protein-tyrosine-phosphatase n=1 Tax=Hucho hu...  128        8e-31
+UniRef90_A0A1U7QFT4 Protein-tyrosine-phosphatase n=9 Tax=Cricetin...  128        8e-31
+UniRef90_A0A674EWL0 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  127        8e-31
+UniRef90_UPI00143D3DF7 receptor-type tyrosine-protein phosphatase...  127        8e-31
+UniRef90_UPI000E4138BA receptor-type tyrosine-protein phosphatase...  127        8e-31
+UniRef90_A0A6J2VN95 receptor-type tyrosine-protein phosphatase ga...  127        8e-31
+UniRef90_A0A671NTR2 Protein-tyrosine-phosphatase n=2 Tax=Sinocycl...  127        9e-31
+UniRef90_UPI0010567197 receptor-type tyrosine-protein phosphatase...  127        9e-31
+UniRef90_UPI000FFB7F6B receptor-type tyrosine-protein phosphatase...  127        9e-31
+UniRef90_A0A091V0J1 Protein-tyrosine-phosphatase (Fragment) n=7 T...  127        1e-30
+UniRef90_A0A0F8D3V7 Transient receptor potential cation channel s...  127        1e-30
+UniRef90_UPI00140216FB receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_A0A674EV70 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  127        1e-30
+UniRef90_A0A2I0MJH0 Protein-tyrosine-phosphatase n=36 Tax=Aves Ta...  127        1e-30
+UniRef90_Q6IRM3 Protein-tyrosine-phosphatase n=3 Tax=Xenopus TaxI...  127        1e-30
+UniRef90_W5LAN1 Protein-tyrosine-phosphatase n=2 Tax=Astyanax mex...  127        1e-30
+UniRef90_UPI000E3FF969 receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_E6ZFK5 Protein-tyrosine-phosphatase n=1 Tax=Dicentrarchu...  127        1e-30
+UniRef90_A0A670IVR0 Protein-tyrosine-phosphatase n=7 Tax=Lacertin...  127        1e-30
+UniRef90_UPI0015928BF6 receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_A0A663F421 Uncharacterized protein n=1 Tax=Aquila chrysa...  127        1e-30
+UniRef90_A0A5N5L2F8 Protein-tyrosine-phosphatase n=4 Tax=Siluroid...  127        1e-30
+UniRef90_UPI0014031691 receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_UPI0007A6DC76 receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_A0A672MN86 Protein-tyrosine-phosphatase n=4 Tax=Cyprinin...  127        1e-30
+UniRef90_UPI0008118F7E unconventional myosin-VI-like n=1 Tax=Rhag...  127        1e-30
+UniRef90_A0A2U9BJ00 Protein-tyrosine-phosphatase n=2 Tax=Scophtha...  127        1e-30
+UniRef90_UPI000B4EADEB receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_A0A6I8SQH2 Protein-tyrosine-phosphatase n=5 Tax=Xenopus ...  127        1e-30
+UniRef90_UPI00155E0272 receptor-type tyrosine-protein phosphatase...  127        1e-30
+UniRef90_A0A663F3X2 Uncharacterized protein n=1 Tax=Aquila chrysa...  127        1e-30
+UniRef90_UPI0013F1C581 receptor-type tyrosine-protein phosphatase...  127        2e-30
+UniRef90_A0A4W6F8S7 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  127        2e-30
+UniRef90_A0A6J2PRS3 receptor-type tyrosine-protein phosphatase ze...  127        2e-30
+UniRef90_UPI000A28B98B LOW QUALITY PROTEIN: receptor-type tyrosin...  127        2e-30
+UniRef90_A0A663N7P2 Protein-tyrosine-phosphatase n=11 Tax=Neognat...  127        2e-30
+UniRef90_A0A2I3M4P9 Protein-tyrosine-phosphatase n=1 Tax=Papio an...  127        2e-30
+UniRef90_F6ZVL3 Protein-tyrosine-phosphatase n=2 Tax=Monodelphis ...  127        2e-30
+UniRef90_UPI00051E1634 receptor-type tyrosine-protein phosphatase...  127        2e-30
+UniRef90_UPI000846DD08 receptor-type tyrosine-protein phosphatase...  127        2e-30
+UniRef90_UPI0011B68014 receptor-type tyrosine-protein phosphatase...  127        2e-30
+UniRef90_UPI00109F9EA9 LOW QUALITY PROTEIN: receptor-type tyrosin...  127        2e-30
+UniRef90_A0A091MWH8 Protein-tyrosine-phosphatase (Fragment) n=2 T...  127        2e-30
+UniRef90_UPI000521625F LOW QUALITY PROTEIN: receptor-type tyrosin...  127        2e-30
+UniRef90_UPI000E1BD5EE receptor-type tyrosine-protein phosphatase...  127        2e-30
+UniRef90_A0A2D0PKW9 Protein-tyrosine-phosphatase n=3 Tax=Siluroid...  126        2e-30
+UniRef90_A0A2I3MCS3 Protein-tyrosine-phosphatase n=1 Tax=Papio an...  126        2e-30
+UniRef90_A0A3Q3MWP4 Protein-tyrosine-phosphatase n=3 Tax=Labrus b...  126        2e-30
+UniRef90_A0A2I3MHW3 Protein-tyrosine-phosphatase n=1 Tax=Papio an...  126        2e-30
+UniRef90_A0A2K5NB79 Protein-tyrosine-phosphatase n=2 Tax=Cercoceb...  126        2e-30
+UniRef90_UPI0011CF42D7 receptor-type tyrosine-protein phosphatase...  126        2e-30
+UniRef90_UPI0014558EF2 LOW QUALITY PROTEIN: receptor-type tyrosin...  126        2e-30
+UniRef90_A0A401P493 Protein-tyrosine-phosphatase n=1 Tax=Scyliorh...  126        2e-30
+UniRef90_A0A2K6GLI9 Protein tyrosine phosphatase receptor type Z1...  126        2e-30
+UniRef90_UPI001302039D receptor-type tyrosine-protein phosphatase...  126        2e-30
+UniRef90_UPI00051E49F8 receptor-type tyrosine-protein phosphatase...  126        3e-30
+UniRef90_G3H7L5 Protein-tyrosine-phosphatase (Fragment) n=1 Tax=C...  126        3e-30
+UniRef90_A0A1L8GU20 Protein-tyrosine-phosphatase n=2 Tax=Xenopus ...  126        3e-30
+UniRef90_A0A6J0UF71 receptor-type tyrosine-protein phosphatase ze...  126        3e-30
+UniRef90_UPI001419E1A8 receptor-type tyrosine-protein phosphatase...  126        3e-30
+UniRef90_UPI0014582D3B receptor-type tyrosine-protein phosphatase...  126        4e-30
+UniRef90_A0A6J0UDH4 receptor-type tyrosine-protein phosphatase ze...  126        4e-30
+UniRef90_A0A6I8RSS4 Protein-tyrosine-phosphatase n=1 Tax=Xenopus ...  126        4e-30
+UniRef90_F7DIK1 Protein-tyrosine-phosphatase n=1 Tax=Xenopus trop...  126        4e-30
+UniRef90_UPI0013F1BBBB receptor-type tyrosine-protein phosphatase...  126        4e-30
+UniRef90_UPI001446EF97 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_UPI000A3BFFFA receptor-type tyrosine-protein phosphatase...  126        4e-30
+UniRef90_UPI0014031397 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_UPI0002BCD4A6 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_A0A6J3RX22 receptor-type tyrosine-protein phosphatase ze...  125        4e-30
+UniRef90_A0A667YW42 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  125        4e-30
+UniRef90_UPI0007A6B6F2 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_UPI0007877EB1 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_UPI0007879CA3 receptor-type tyrosine-protein phosphatase...  125        4e-30
+UniRef90_UPI001470CEB9 LOW QUALITY PROTEIN: receptor-type tyrosin...  125        5e-30
+UniRef90_UPI0012ED0CF8 receptor-type tyrosine-protein phosphatase...  125        5e-30
+UniRef90_A0A3M0KAN5 Uncharacterized protein n=1 Tax=Hirundo rusti...  125        5e-30
+UniRef90_UPI000F44424F receptor-type tyrosine-protein phosphatase...  125        5e-30
+UniRef90_A0A1U7QS69 Protein-tyrosine-phosphatase n=3 Tax=Cricetin...  125        5e-30
+UniRef90_A0A671WYQ0 Protein-tyrosine-phosphatase n=8 Tax=Eupercar...  125        5e-30
+UniRef90_UPI00125D3AA4 receptor-type tyrosine-protein phosphatase...  125        5e-30
+UniRef90_A0A6A5FMA7 Protein-tyrosine-phosphatase n=1 Tax=Perca fl...  125        5e-30
+UniRef90_A0A093KBL4 Protein-tyrosine-phosphatase (Fragment) n=10 ...  125        5e-30
+UniRef90_UPI000E6AEB5F receptor-type tyrosine-protein phosphatase...  125        6e-30
+UniRef90_A0A673ME39 Protein-tyrosine-phosphatase n=4 Tax=Sinocycl...  125        6e-30
+UniRef90_UPI000DBC7BE0 receptor-type tyrosine-protein phosphatase...  125        6e-30
+UniRef90_A0A1B1LZI1 Protein-tyrosine-phosphatase n=1 Tax=Danio re...  125        6e-30
+UniRef90_A0A6I9M6M7 receptor-type tyrosine-protein phosphatase ze...  125        6e-30
+UniRef90_A0A671WWR2 Protein-tyrosine-phosphatase n=1 Tax=Sparus a...  125        6e-30
+UniRef90_UPI00155EE0EE receptor-type tyrosine-protein phosphatase...  125        6e-30
+UniRef90_UPI00106F051A receptor-type tyrosine-protein phosphatase...  125        6e-30
+UniRef90_A0A6J0HGN8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  125        7e-30
+UniRef90_UPI0005F55AB2 receptor-type tyrosine-protein phosphatase...  125        7e-30
+UniRef90_A0A6J2PPJ2 receptor-type tyrosine-protein phosphatase ga...  125        7e-30
+UniRef90_G3WWI5 Protein-tyrosine-phosphatase n=2 Tax=Sarcophilus ...  125        7e-30
+UniRef90_UPI0004434F18 receptor-type tyrosine-protein phosphatase...  125        7e-30
+UniRef90_UPI0014870CC0 receptor-type tyrosine-protein phosphatase...  125        7e-30
+UniRef90_UPI0010A1DD4F receptor-type tyrosine-protein phosphatase...  125        7e-30
+UniRef90_UPI000CEA8360 receptor-type tyrosine-protein phosphatase...  125        7e-30
+UniRef90_UPI00038C08C9 receptor-type tyrosine-protein phosphatase...  125        8e-30
+UniRef90_B2RXS8 Protein-tyrosine-phosphatase n=8 Tax=Murinae TaxI...  125        8e-30
+UniRef90_A0A671NR90 Protein-tyrosine-phosphatase n=2 Tax=Sinocycl...  125        8e-30
+UniRef90_A0A2K6GLH2 Protein tyrosine phosphatase receptor type Z1...  125        8e-30
+UniRef90_A0A2J8UP78 Protein-tyrosine-phosphatase n=2 Tax=Pongo ab...  125        8e-30
+UniRef90_UPI000FCD233A receptor-type tyrosine-protein phosphatase...  125        8e-30
+UniRef90_UPI0003315AFD receptor-type tyrosine-protein phosphatase...  125        9e-30
+UniRef90_A0A452EZJ5 Protein-tyrosine-phosphatase n=2 Tax=Capra hi...  125        9e-30
+UniRef90_W5QAR6 Protein-tyrosine-phosphatase n=2 Tax=Bovidae TaxI...  125        9e-30
+UniRef90_A0A2Y9T6E5 Protein-tyrosine-phosphatase n=8 Tax=Cetacea ...  125        9e-30
+UniRef90_UPI0003443A34 receptor-type tyrosine-protein phosphatase...  125        9e-30
+UniRef90_UPI000BBD4D18 receptor-type tyrosine-protein phosphatase...  124        9e-30
+UniRef90_UPI0013F27852 receptor-type tyrosine-protein phosphatase...  124        9e-30
+UniRef90_A0A672MSF3 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  124        1e-29
+UniRef90_UPI0003441F43 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A383ZQD7 Protein-tyrosine-phosphatase n=1 Tax=Balaenop...  124        1e-29
+UniRef90_P23471-3 Isoform 3 of Receptor-type tyrosine-protein pho...  124        1e-29
+UniRef90_UPI001155A4E0 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_UPI001155560C receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A494C1H9 Protein-tyrosine-phosphatase n=1 Tax=Homo sap...  124        1e-29
+UniRef90_UPI000292B192 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_UPI000B4F964F receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_UPI00146EB1BF LOW QUALITY PROTEIN: receptor-type tyrosin...  124        1e-29
+UniRef90_G3PCS5 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  124        1e-29
+UniRef90_A0A494C036 Protein-tyrosine-phosphatase n=17 Tax=Boreoeu...  124        1e-29
+UniRef90_A0A494C1R4 Protein-tyrosine-phosphatase n=32 Tax=Boreoeu...  124        1e-29
+UniRef90_UPI000787BD49 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A1L8GQ70 Protein-tyrosine-phosphatase n=1 Tax=Xenopus ...  124        1e-29
+UniRef90_UPI001386F587 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A6J2BG65 receptor-type tyrosine-protein phosphatase ze...  124        1e-29
+UniRef90_UPI00063F9BCB receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A6J2MMG8 receptor-type tyrosine-protein phosphatase ze...  124        1e-29
+UniRef90_UPI0014905AC7 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A6J2BIF1 receptor-type tyrosine-protein phosphatase ze...  124        1e-29
+UniRef90_A0A091F7Z3 Protein-tyrosine-phosphatase (Fragment) n=20 ...  124        1e-29
+UniRef90_A0A5F4CCI8 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  124        1e-29
+UniRef90_UPI0010F59A82 receptor-type tyrosine-protein phosphatase...  124        1e-29
+UniRef90_A0A2U3W896 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  124        1e-29
+UniRef90_UPI0010F908C0 receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_UPI0010F9592E receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_A0A091KCP2 Protein-tyrosine-phosphatase (Fragment) n=2 T...  124        2e-29
+UniRef90_A0A5F4CYQ1 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  124        2e-29
+UniRef90_A0A6I9Z0F0 receptor-type tyrosine-protein phosphatase ze...  124        2e-29
+UniRef90_F1PGN5 Protein-tyrosine-phosphatase n=1 Tax=Canis lupus ...  124        2e-29
+UniRef90_UPI0010F58DD5 receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_UPI0013963B08 receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_UPI00139616FB receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_H0Z2E7 Protein-tyrosine-phosphatase n=8 Tax=Neognathae T...  124        2e-29
+UniRef90_A0A6J3AA40 receptor-type tyrosine-protein phosphatase ze...  124        2e-29
+UniRef90_A0A665TNG8 Protein-tyrosine-phosphatase n=4 Tax=Echeneis...  124        2e-29
+UniRef90_A0A6I9LQP1 receptor-type tyrosine-protein phosphatase ze...  124        2e-29
+UniRef90_F1MGK5 Protein-tyrosine-phosphatase n=23 Tax=Pecora TaxI...  124        2e-29
+UniRef90_A0A673Z676 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  124        2e-29
+UniRef90_A0A672U9T0 Protein-tyrosine-phosphatase n=5 Tax=Psittaci...  124        2e-29
+UniRef90_UPI001458F9A3 receptor-type tyrosine-protein phosphatase...  124        2e-29
+UniRef90_A0A099ZSY9 Protein-tyrosine-phosphatase (Fragment) n=2 T...  124        2e-29
+UniRef90_A0A4W6DRB7 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  123        2e-29
+UniRef90_A0A3Q3G2S7 Protein-tyrosine-phosphatase n=1 Tax=Labrus b...  123        2e-29
+UniRef90_UPI001494B48F receptor-type tyrosine-protein phosphatase...  123        2e-29
+UniRef90_A0A452F135 Protein-tyrosine-phosphatase n=4 Tax=Bovidae ...  123        2e-29
+UniRef90_A0A1L8GI27 Protein-tyrosine-phosphatase (Fragment) n=1 T...  123        3e-29
+UniRef90_A0A3Q3G4K5 Protein-tyrosine-phosphatase n=1 Tax=Labrus b...  123        3e-29
+UniRef90_A0A091QEG7 Protein-tyrosine-phosphatase (Fragment) n=5 T...  123        3e-29
+UniRef90_J9NZ52 Protein-tyrosine-phosphatase n=3 Tax=Canidae TaxI...  123        3e-29
+UniRef90_A0A1V4J8T9 Receptor-type tyrosine-protein phosphatase ze...  123        3e-29
+UniRef90_UPI0004ED27A4 receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_F7IRI4 Protein-tyrosine-phosphatase n=4 Tax=Callithrix j...  123        3e-29
+UniRef90_UPI000E4660CB receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A091G892 Protein-tyrosine-phosphatase (Fragment) n=2 T...  123        3e-29
+UniRef90_A0A673VE84 Protein-tyrosine-phosphatase n=14 Tax=Felifor...  123        3e-29
+UniRef90_A0A2Y9NSP2 Protein-tyrosine-phosphatase n=15 Tax=Odontoc...  123        3e-29
+UniRef90_A0A2Y9RYA1 Protein-tyrosine-phosphatase n=2 Tax=Trichech...  123        3e-29
+UniRef90_A0A493TU04 Protein-tyrosine-phosphatase n=4 Tax=Archosau...  123        3e-29
+UniRef90_A0A6I9J9E1 receptor-type tyrosine-protein phosphatase ze...  123        3e-29
+UniRef90_H0XEL7 Protein-tyrosine-phosphatase n=1 Tax=Otolemur gar...  123        3e-29
+UniRef90_UPI00148C4DF2 receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A493THL0 Protein tyrosine phosphatase receptor type Z1...  123        3e-29
+UniRef90_E0VS50 Carbonic anhydrase n=1 Tax=Pediculus humanus subs...  123        3e-29
+UniRef90_UPI000BAA32B2 LOW QUALITY PROTEIN: receptor-type tyrosin...  123        3e-29
+UniRef90_UPI0002C662B1 receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A4W5NPZ0 Carbonic anhydrase XVI b n=1 Tax=Hucho hucho ...  123        3e-29
+UniRef90_UPI00159CB4A4 receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_UPI0003EC2A8A receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_G3SHA3 Protein-tyrosine-phosphatase n=48 Tax=Simiiformes...  123        3e-29
+UniRef90_UPI00097CFBAB receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A2I3G431 Protein-tyrosine-phosphatase n=3 Tax=Hominoid...  123        3e-29
+UniRef90_UPI00097DB45F receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A4X1VXJ4 Protein-tyrosine-phosphatase n=3 Tax=Sus scro...  123        3e-29
+UniRef90_UPI0004D07828 receptor-type tyrosine-protein phosphatase...  123        3e-29
+UniRef90_A0A401T434 Protein-tyrosine-phosphatase n=1 Tax=Chiloscy...  123        3e-29
+UniRef90_P23471 Receptor-type tyrosine-protein phosphatase zeta n...  123        3e-29
+UniRef90_UPI00112B094F receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_UPI0003EC0921 receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_A0A383ZQB4 Protein-tyrosine-phosphatase n=3 Tax=Balaenop...  123        4e-29
+UniRef90_UPI0004D0A521 receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_UPI0006707DBF LOW QUALITY PROTEIN: receptor-type tyrosin...  123        4e-29
+UniRef90_UPI000D5358DA receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_UPI00038C33BF receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_A0A4W6F8T4 Protein-tyrosine-phosphatase n=4 Tax=Carangar...  123        4e-29
+UniRef90_A0A6J2MTY8 receptor-type tyrosine-protein phosphatase ze...  123        4e-29
+UniRef90_UPI000FFF9B7E receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_UPI000B541406 receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_A0A087RGN8 Protein-tyrosine-phosphatase (Fragment) n=1 T...  123        4e-29
+UniRef90_I3NGX7 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  123        4e-29
+UniRef90_A0A093CG79 Protein-tyrosine-phosphatase (Fragment) n=2 T...  123        4e-29
+UniRef90_UPI00159C67E4 receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_UPI000D535158 receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_A0A151J5I0 Serine/threonine-protein kinase 11-interactin...  123        4e-29
+UniRef90_UPI00022F51BF receptor-type tyrosine-protein phosphatase...  123        4e-29
+UniRef90_A0A3Q2GVC6 Protein-tyrosine-phosphatase n=1 Tax=Equus ca...  122        4e-29
+UniRef90_UPI00084D5DE0 receptor-type tyrosine-protein phosphatase...  122        4e-29
+UniRef90_UPI000E559CF9 receptor-type tyrosine-protein phosphatase...  122        4e-29
+UniRef90_UPI001481D6AD LOW QUALITY PROTEIN: receptor-type tyrosin...  122        5e-29
+UniRef90_UPI000520BBCF receptor-type tyrosine-protein phosphatase...  122        5e-29
+UniRef90_A0A6I9YZ59 receptor-type tyrosine-protein phosphatase ze...  122        5e-29
+UniRef90_UPI000C9E93D5 receptor-type tyrosine-protein phosphatase...  122        5e-29
+UniRef90_A0A493T8E4 Protein tyrosine phosphatase receptor type Z1...  122        5e-29
+UniRef90_UPI00104242AE receptor-type tyrosine-protein phosphatase...  122        5e-29
+UniRef90_UPI0004BD65F2 receptor-type tyrosine-protein phosphatase...  122        5e-29
+UniRef90_A0A665V0I3 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  122        5e-29
+UniRef90_A0A673V4K7 Protein-tyrosine-phosphatase n=5 Tax=Suricata...  122        5e-29
+UniRef90_UPI000643D2CD receptor-type tyrosine-protein phosphatase...  122        6e-29
+UniRef90_Q62656-2 Isoform 2 of Receptor-type tyrosine-protein pho...  122        6e-29
+UniRef90_UPI00057A3CD7 receptor-type tyrosine-protein phosphatase...  122        6e-29
+UniRef90_UPI000981AAD3 receptor-type tyrosine-protein phosphatase...  122        6e-29
+UniRef90_M3Y668 Protein-tyrosine-phosphatase n=3 Tax=Mustela TaxI...  122        6e-29
+UniRef90_UPI00062A61AE receptor-type tyrosine-protein phosphatase...  122        6e-29
+UniRef90_A0A6J2S968 receptor-type tyrosine-protein phosphatase ze...  122        6e-29
+UniRef90_A0A2U3W899 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  122        7e-29
+UniRef90_UPI0005298259 receptor-type tyrosine-protein phosphatase...  122        7e-29
+UniRef90_UPI001016C88C receptor-type tyrosine-protein phosphatase...  122        7e-29
+UniRef90_UPI000579F7C3 receptor-type tyrosine-protein phosphatase...  122        7e-29
+UniRef90_UPI000643D385 receptor-type tyrosine-protein phosphatase...  122        7e-29
+UniRef90_A0A340X6A5 Protein-tyrosine-phosphatase n=1 Tax=Lipotes ...  122        8e-29
+UniRef90_UPI000989ECD8 receptor-type tyrosine-protein phosphatase...  122        8e-29
+UniRef90_UPI0011C13A97 receptor-type tyrosine-protein phosphatase...  122        8e-29
+UniRef90_A0A2Y9RQ65 Protein-tyrosine-phosphatase n=1 Tax=Trichech...  122        8e-29
+UniRef90_A0A2Y9I0B4 Protein-tyrosine-phosphatase n=9 Tax=Caniform...  122        8e-29
+UniRef90_UPI0008753BF7 LOW QUALITY PROTEIN: receptor-type tyrosin...  122        8e-29
+UniRef90_UPI000696869F receptor-type tyrosine-protein phosphatase...  122        8e-29
+UniRef90_UPI0012F6AA3E receptor-type tyrosine-protein phosphatase...  122        8e-29
+UniRef90_UPI0013F2D297 receptor-type tyrosine-protein phosphatase...  122        9e-29
+UniRef90_A0A2Y9JY59 Protein-tyrosine-phosphatase n=4 Tax=Mustelid...  122        9e-29
+UniRef90_A0A6J2ULM6 receptor-type tyrosine-protein phosphatase ze...  122        9e-29
+UniRef90_A0A091H9G0 Protein-tyrosine-phosphatase (Fragment) n=1 T...  122        9e-29
+UniRef90_UPI0005290037 receptor-type tyrosine-protein phosphatase...  122        9e-29
+UniRef90_UPI00159C27B4 receptor-type tyrosine-protein phosphatase...  122        1e-28
+UniRef90_UPI0013874171 receptor-type tyrosine-protein phosphatase...  122        1e-28
+UniRef90_A0A093PL44 Protein-tyrosine-phosphatase (Fragment) n=1 T...  122        1e-28
+UniRef90_UPI0004ED117E receptor-type tyrosine-protein phosphatase...  122        1e-28
+UniRef90_UPI00159C7DB3 receptor-type tyrosine-protein phosphatase...  122        1e-28
+UniRef90_UPI00148D4AA4 receptor-type tyrosine-protein phosphatase...  122        1e-28
+UniRef90_UPI00140E500E LOW QUALITY PROTEIN: receptor-type tyrosin...  122        1e-28
+UniRef90_A0A3Q2Y260 Protein-tyrosine-phosphatase n=2 Tax=Hippocam...  121        1e-28
+UniRef90_UPI0012ED158A receptor-type tyrosine-protein phosphatase...  121        1e-28
+UniRef90_A0A2K5R457 Protein-tyrosine-phosphatase n=10 Tax=Cebidae...  122        1e-28
+UniRef90_UPI0004D0A741 receptor-type tyrosine-protein phosphatase...  121        1e-28
+UniRef90_G3SUI0 Protein-tyrosine-phosphatase n=3 Tax=Loxodonta af...  121        1e-28
+UniRef90_A0A2K5EC70 Protein-tyrosine-phosphatase n=5 Tax=Aotus na...  121        1e-28
+UniRef90_A0A1D9CFC8 Protein tyrosine phosphatase receptor-type Z ...  121        1e-28
+UniRef90_I3N8P8 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  121        1e-28
+UniRef90_A0A1A7Z2V7 Protein-tyrosine-phosphatase n=1 Tax=Iconisem...  121        1e-28
+UniRef90_UPI000B3A56B7 receptor-type tyrosine-protein phosphatase...  121        1e-28
+UniRef90_UPI0005239597 LOW QUALITY PROTEIN: receptor-type tyrosin...  121        1e-28
+UniRef90_A0A1S2ZV54 Protein-tyrosine-phosphatase n=2 Tax=Erinaceu...  121        1e-28
+UniRef90_A0A0Q3PGR3 Receptor-type tyrosine-protein phosphatase ze...  121        1e-28
+UniRef90_A0A3B4YI84 Protein-tyrosine-phosphatase n=2 Tax=Seriola ...  121        1e-28
+UniRef90_A0A0J9YVD2 Receptor-type tyrosine-protein phosphatase ze...  121        1e-28
+UniRef90_A0A6J3DUD8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  121        1e-28
+UniRef90_A0A3P9A9B1 Protein-tyrosine-phosphatase n=5 Tax=Esox luc...  121        1e-28
+UniRef90_UPI00032AD53E receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_A0A4X1W3G0 Protein-tyrosine-phosphatase n=1 Tax=Sus scro...  121        2e-28
+UniRef90_A0A286ZVC4 Protein-tyrosine-phosphatase n=5 Tax=Sus scro...  121        2e-28
+UniRef90_UPI00146C7BDC receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI00045D8586 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI00032902F3 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI0010FAAE85 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_U3K5R4 Protein tyrosine phosphatase receptor type Z1 n=5...  121        2e-28
+UniRef90_UPI0011C194A5 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_F6ZRD8 Protein-tyrosine-phosphatase n=5 Tax=Equus TaxID=...  121        2e-28
+UniRef90_UPI0008131F1D receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI0010421442 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI000739CBB1 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_A0A6J2ARY9 receptor-type tyrosine-protein phosphatase ze...  121        2e-28
+UniRef90_A0A6J2ARH1 receptor-type tyrosine-protein phosphatase ze...  121        2e-28
+UniRef90_UPI0011B0DCE9 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI000B38450C receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI0010A75802 receptor-type tyrosine-protein phosphatase...  120        2e-28
+UniRef90_UPI000905CCC1 receptor-type tyrosine-protein phosphatase...  120        2e-28
+UniRef90_UPI0014868B29 receptor-type tyrosine-protein phosphatase...  121        2e-28
+UniRef90_UPI000904A286 receptor-type tyrosine-protein phosphatase...  120        2e-28
+UniRef90_UPI0011B012DC receptor-type tyrosine-protein phosphatase...  120        2e-28
+UniRef90_A0A6G1QR34 Protein-tyrosine-phosphatase n=1 Tax=Channa a...  120        2e-28
+UniRef90_UPI0010A7C9A9 receptor-type tyrosine-protein phosphatase...  120        2e-28
+UniRef90_A0A498LEU8 Protein-tyrosine-phosphatase n=2 Tax=Labeo ro...  120        2e-28
+UniRef90_A0A667YAN9 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  120        3e-28
+UniRef90_UPI0006D91439 receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_UPI000BBE36A2 receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_UPI00101A522A receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_UPI0003F0DD8C receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_A0A1S3WDW2 Protein-tyrosine-phosphatase n=3 Tax=Erinaceu...  120        3e-28
+UniRef90_UPI000B39750B receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_UPI000D52FDCB receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_A0A3Q1LP12 Protein-tyrosine-phosphatase n=11 Tax=Bovinae...  120        3e-28
+UniRef90_A0A0P7VMU2 Protein-tyrosine-phosphatase (Fragment) n=6 T...  120        3e-28
+UniRef90_UPI000742A4AE receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_Q62656 Receptor-type tyrosine-protein phosphatase zeta n...  120        3e-28
+UniRef90_A0A671WYU2 Protein-tyrosine-phosphatase n=2 Tax=Sparus a...  120        3e-28
+UniRef90_A0A484D3Z9 Protein-tyrosine-phosphatase n=3 Tax=Percidae...  120        3e-28
+UniRef90_A0A671WWS8 Protein-tyrosine-phosphatase n=1 Tax=Sparus a...  120        3e-28
+UniRef90_UPI0015E07228 receptor-type tyrosine-protein phosphatase...  120        3e-28
+UniRef90_UPI0007DA7A01 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI0007AD4E2E receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI0012ED0F56 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI000B545EA9 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI001471D4CB receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_A0A556U1A1 Transcription initiation factor TFIID 150 kDa...  120        4e-28
+UniRef90_UPI0010FB5F33 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI0014033F67 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_UPI0015C3B638 receptor-type tyrosine-protein phosphatase...  120        4e-28
+UniRef90_A0A4W5QHP9 Protein-tyrosine-phosphatase n=1 Tax=Hucho hu...  120        5e-28
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 471631565286
+Results from round 2
+
+
+Query= sp|P43166|CAH7_HUMAN Carbonic anhydrase 7 OS=Homo sapiens OX=9606
+GN=CA7 PE=1 SV=1
+
+Length=264
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI000D0A88CD receptor-type tyrosine-protein phosphatase...  400        5e-128
+UniRef90_A0A1S3KN71 Protein-tyrosine-phosphatase n=3 Tax=Salmo sa...  398        2e-127
+UniRef90_UPI0011314498 receptor-type tyrosine-protein phosphatase...  398        2e-127
+UniRef90_UPI0012DE3154 receptor-type tyrosine-protein phosphatase...  400        5e-127
+UniRef90_UPI0011C13A97 receptor-type tyrosine-protein phosphatase...  400        1e-126
+UniRef90_A0A493THL0 Protein tyrosine phosphatase receptor type Z1...  393        1e-126
+UniRef90_A0A493TU04 Protein-tyrosine-phosphatase n=4 Tax=Archosau...  392        1e-126
+UniRef90_UPI000BBE36A2 receptor-type tyrosine-protein phosphatase...  396        2e-126
+UniRef90_UPI000F5E1420 receptor-type tyrosine-protein phosphatase...  399        2e-126
+UniRef90_UPI0015E1540B LOW QUALITY PROTEIN: receptor-type tyrosin...  396        3e-126
+UniRef90_A0A4W6DRB7 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  396        3e-126
+UniRef90_UPI0013AFD25B receptor-type tyrosine-protein phosphatase...  399        4e-126
+UniRef90_UPI0015E1C541 receptor-type tyrosine-protein phosphatase...  396        5e-126
+UniRef90_UPI000E4660CB receptor-type tyrosine-protein phosphatase...  398        6e-126
+UniRef90_A0A1S3PDB2 Protein-tyrosine-phosphatase n=1 Tax=Salmo sa...  394        7e-126
+UniRef90_A0A1S3PCW9 Protein-tyrosine-phosphatase n=1 Tax=Salmo sa...  394        7e-126
+UniRef90_A0A3P9CDD1 Protein-tyrosine-phosphatase n=11 Tax=Pseudoc...  395        1e-125
+UniRef90_UPI00097D9506 receptor-type tyrosine-protein phosphatase...  399        1e-125
+UniRef90_UPI000B4EF323 receptor-type tyrosine-protein phosphatase...  399        1e-125
+UniRef90_UPI0011C194A5 receptor-type tyrosine-protein phosphatase...  399        1e-125
+UniRef90_UPI0010FA18CE receptor-type tyrosine-protein phosphatase...  393        1e-125
+UniRef90_UPI000D09BCEC receptor-type tyrosine-protein phosphatase...  398        1e-125
+UniRef90_UPI00146B15FB receptor-type tyrosine-protein phosphatase...  392        2e-125
+UniRef90_UPI000E463C96 receptor-type tyrosine-protein phosphatase...  394        2e-125
+UniRef90_UPI000E465B33 receptor-type tyrosine-protein phosphatase...  393        2e-125
+UniRef90_A0A4W5MJJ9 Protein-tyrosine-phosphatase n=2 Tax=Hucho hu...  393        2e-125
+UniRef90_UPI00155EE0EE receptor-type tyrosine-protein phosphatase...  398        3e-125
+UniRef90_A0A2U9B1E9 Protein-tyrosine-phosphatase n=3 Tax=Scophtha...  398        3e-125
+UniRef90_A0A3P8XM92 Protein-tyrosine-phosphatase n=6 Tax=Esox luc...  392        3e-125
+UniRef90_UPI00148C4DF2 receptor-type tyrosine-protein phosphatase...  393        3e-125
+UniRef90_UPI00159CB4A4 receptor-type tyrosine-protein phosphatase...  393        3e-125
+UniRef90_A0A6J2PTJ3 receptor-type tyrosine-protein phosphatase ze...  396        3e-125
+UniRef90_UPI000BBE736B receptor-type tyrosine-protein phosphatase...  394        3e-125
+UniRef90_UPI000E1E9E0B receptor-type tyrosine-protein phosphatase...  394        4e-125
+UniRef90_UPI000F5DB379 receptor-type tyrosine-protein phosphatase...  398        4e-125
+UniRef90_A0A1S3KN66 Protein-tyrosine-phosphatase n=3 Tax=Salmo sa...  397        4e-125
+UniRef90_UPI000B8F3C1B receptor-type tyrosine-protein phosphatase...  393        5e-125
+UniRef90_A0A6A5FDS7 Protein-tyrosine-phosphatase n=6 Tax=Percidae...  397        7e-125
+UniRef90_A0A4W6FYB9 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  393        8e-125
+UniRef90_UPI0015E07228 receptor-type tyrosine-protein phosphatase...  392        1e-124
+UniRef90_UPI0011EA2502 receptor-type tyrosine-protein phosphatase...  392        1e-124
+UniRef90_UPI000497C0B2 receptor-type tyrosine-protein phosphatase...  396        2e-124
+UniRef90_UPI00146C7BDC receptor-type tyrosine-protein phosphatase...  396        2e-124
+UniRef90_UPI000C6F752A receptor-type tyrosine-protein phosphatase...  396        2e-124
+UniRef90_UPI0011D001A7 receptor-type tyrosine-protein phosphatase...  392        2e-124
+UniRef90_UPI0010421EF9 receptor-type tyrosine-protein phosphatase...  392        2e-124
+UniRef90_UPI0010A5064B receptor-type tyrosine-protein phosphatase...  391        2e-124
+UniRef90_A0A5F4CCI8 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  395        2e-124
+UniRef90_UPI0011CFBD95 receptor-type tyrosine-protein phosphatase...  392        2e-124
+UniRef90_F1PGN5 Protein-tyrosine-phosphatase n=1 Tax=Canis lupus ...  395        2e-124
+UniRef90_J9NZ52 Protein-tyrosine-phosphatase n=3 Tax=Canidae TaxI...  396        2e-124
+UniRef90_UPI000BAA32B2 LOW QUALITY PROTEIN: receptor-type tyrosin...  396        3e-124
+UniRef90_A0A3P8XNF7 Protein tyrosine phosphatase receptor type Z1...  391        3e-124
+UniRef90_UPI000B4F462B receptor-type tyrosine-protein phosphatase...  390        3e-124
+UniRef90_A0A6J2PRS3 receptor-type tyrosine-protein phosphatase ze...  395        3e-124
+UniRef90_A0A5F4CYQ1 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  395        3e-124
+UniRef90_UPI0011800382 receptor-type tyrosine-protein phosphatase...  391        5e-124
+UniRef90_UPI0010421442 receptor-type tyrosine-protein phosphatase...  393        5e-124
+UniRef90_UPI00159C902A receptor-type tyrosine-protein phosphatase...  392        5e-124
+UniRef90_UPI0012AB69FE receptor-type tyrosine-protein phosphatase...  390        5e-124
+UniRef90_A0A1A8TXK4 Protein-tyrosine-phosphatase n=8 Tax=Nothobra...  390        5e-124
+UniRef90_UPI00159C67E4 receptor-type tyrosine-protein phosphatase...  392        5e-124
+UniRef90_A0A663F421 Uncharacterized protein n=1 Tax=Aquila chrysa...  391        5e-124
+UniRef90_UPI000E41EEF3 receptor-type tyrosine-protein phosphatase...  395        6e-124
+UniRef90_UPI0014031691 receptor-type tyrosine-protein phosphatase...  390        6e-124
+UniRef90_A0A663F3X2 Uncharacterized protein n=1 Tax=Aquila chrysa...  391        6e-124
+UniRef90_I3K1F1 Protein-tyrosine-phosphatase n=5 Tax=Pseudocrenil...  390        6e-124
+UniRef90_UPI0008753BF7 LOW QUALITY PROTEIN: receptor-type tyrosin...  394        8e-124
+UniRef90_UPI000CDF77DB receptor-type tyrosine-protein phosphatase...  391        1e-123
+UniRef90_UPI000E4627B0 receptor-type tyrosine-protein phosphatase...  390        1e-123
+UniRef90_UPI000CDFE27B receptor-type tyrosine-protein phosphatase...  390        1e-123
+UniRef90_UPI000496A0D4 receptor-type tyrosine-protein phosphatase...  394        1e-123
+UniRef90_A0A672RP81 Protein-tyrosine-phosphatase n=2 Tax=Sinocycl...  386        1e-123
+UniRef90_A0A6J2V274 receptor-type tyrosine-protein phosphatase ze...  391        1e-123
+UniRef90_UPI00087506AF receptor-type tyrosine-protein phosphatase...  394        1e-123
+UniRef90_UPI0011E9B9FB receptor-type tyrosine-protein phosphatase...  389        1e-123
+UniRef90_UPI0010F57EB7 receptor-type tyrosine-protein phosphatase...  393        1e-123
+UniRef90_UPI001486EB48 receptor-type tyrosine-protein phosphatase...  390        1e-123
+UniRef90_UPI00099F5001 receptor-type tyrosine-protein phosphatase...  388        1e-123
+UniRef90_A0A672LX92 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  389        2e-123
+UniRef90_UPI0011761649 receptor-type tyrosine-protein phosphatase...  391        2e-123
+UniRef90_UPI0013963B08 receptor-type tyrosine-protein phosphatase...  389        2e-123
+UniRef90_A0A2I0MJH0 Protein-tyrosine-phosphatase n=36 Tax=Aves Ta...  389        2e-123
+UniRef90_UPI0012ED158A receptor-type tyrosine-protein phosphatase...  388        2e-123
+UniRef90_UPI000E461E27 receptor-type tyrosine-protein phosphatase...  389        2e-123
+UniRef90_A0A493T8E4 Protein tyrosine phosphatase receptor type Z1...  390        2e-123
+UniRef90_UPI00148FE249 receptor-type tyrosine-protein phosphatase...  388        2e-123
+UniRef90_UPI0010FAAE85 receptor-type tyrosine-protein phosphatase...  390        2e-123
+UniRef90_A0A1S3PCP0 Protein-tyrosine-phosphatase n=8 Tax=Salmonin...  392        2e-123
+UniRef90_UPI00139616FB receptor-type tyrosine-protein phosphatase...  389        2e-123
+UniRef90_A0A484D3Z9 Protein-tyrosine-phosphatase n=3 Tax=Percidae...  393        3e-123
+UniRef90_UPI0015E11E78 receptor-type tyrosine-protein phosphatase...  390        3e-123
+UniRef90_UPI0013F1C581 receptor-type tyrosine-protein phosphatase...  389        3e-123
+UniRef90_UPI00159C27B4 receptor-type tyrosine-protein phosphatase...  392        3e-123
+UniRef90_UPI0014473199 receptor-type tyrosine-protein phosphatase...  391        3e-123
+UniRef90_A0A6G0HRJ3 Protein-tyrosine-phosphatase n=3 Tax=Larimich...  388        4e-123
+UniRef90_H0Z2E7 Protein-tyrosine-phosphatase n=8 Tax=Neognathae T...  388        4e-123
+UniRef90_UPI00148D4AA4 receptor-type tyrosine-protein phosphatase...  392        4e-123
+UniRef90_UPI0015E1E3D0 receptor-type tyrosine-protein phosphatase...  392        4e-123
+UniRef90_UPI00038C08C9 receptor-type tyrosine-protein phosphatase...  388        4e-123
+UniRef90_UPI001476D4C3 receptor-type tyrosine-protein phosphatase...  391        4e-123
+UniRef90_UPI000FFBD9FD receptor-type tyrosine-protein phosphatase...  388        5e-123
+UniRef90_A0A3Q2GVC6 Protein-tyrosine-phosphatase n=1 Tax=Equus ca...  386        5e-123
+UniRef90_A0A4X1VXJ4 Protein-tyrosine-phosphatase n=3 Tax=Sus scro...  388        5e-123
+UniRef90_UPI000B4ED98A receptor-type tyrosine-protein phosphatase...  389        5e-123
+UniRef90_A0A2J8UP78 Protein-tyrosine-phosphatase n=2 Tax=Pongo ab...  388        5e-123
+UniRef90_A0A671W5J4 Protein-tyrosine-phosphatase n=4 Tax=Sparus a...  388        6e-123
+UniRef90_UPI0015A9B1C0 receptor-type tyrosine-protein phosphatase...  389        6e-123
+UniRef90_UPI000C9E93D5 receptor-type tyrosine-protein phosphatase...  388        6e-123
+UniRef90_A0A2K6GLI9 Protein tyrosine phosphatase receptor type Z1...  385        6e-123
+UniRef90_A0A494C1R4 Protein-tyrosine-phosphatase n=32 Tax=Boreoeu...  388        6e-123
+UniRef90_UPI0004BD65F2 receptor-type tyrosine-protein phosphatase...  388        7e-123
+UniRef90_UPI0003441F43 receptor-type tyrosine-protein phosphatase...  388        7e-123
+UniRef90_UPI000742BCCE receptor-type tyrosine-protein phosphatase...  391        7e-123
+UniRef90_A0A494C1H9 Protein-tyrosine-phosphatase n=1 Tax=Homo sap...  388        8e-123
+UniRef90_UPI000B3A56B7 receptor-type tyrosine-protein phosphatase...  386        8e-123
+UniRef90_UPI0003443A34 receptor-type tyrosine-protein phosphatase...  388        8e-123
+UniRef90_UPI00094E73EE LOW QUALITY PROTEIN: receptor-type tyrosin...  391        9e-123
+UniRef90_UPI000E460D9B receptor-type tyrosine-protein phosphatase...  391        9e-123
+UniRef90_UPI0014868B29 receptor-type tyrosine-protein phosphatase...  391        9e-123
+UniRef90_P23471-3 Isoform 3 of Receptor-type tyrosine-protein pho...  387        9e-123
+UniRef90_UPI000292B192 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_A0A665TNG8 Protein-tyrosine-phosphatase n=4 Tax=Echeneis...  386        1e-122
+UniRef90_A0A6J3RX22 receptor-type tyrosine-protein phosphatase ze...  387        1e-122
+UniRef90_UPI001494B48F receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_UPI00051E1634 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_UPI00070400D5 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_A0A2U3W896 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  387        1e-122
+UniRef90_UPI001386F587 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_UPI0010FB5F33 receptor-type tyrosine-protein phosphatase...  386        1e-122
+UniRef90_A0A2Y9RYA1 Protein-tyrosine-phosphatase n=2 Tax=Trichech...  387        1e-122
+UniRef90_UPI00051E49F8 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_UPI00034F615E receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_A0A3Q1HK94 Protein-tyrosine-phosphatase n=4 Tax=Anabas t...  391        1e-122
+UniRef90_UPI000B4EADEB receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_UPI0013F27852 receptor-type tyrosine-protein phosphatase...  387        1e-122
+UniRef90_A0A383ZQD7 Protein-tyrosine-phosphatase n=1 Tax=Balaenop...  387        2e-122
+UniRef90_A0A6J3AA40 receptor-type tyrosine-protein phosphatase ze...  387        2e-122
+UniRef90_UPI00039449DA receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_UPI00117E7F65 receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_UPI0002BCD4A6 receptor-type tyrosine-protein phosphatase...  386        2e-122
+UniRef90_UPI000DBC7BE0 receptor-type tyrosine-protein phosphatase...  386        2e-122
+UniRef90_A0A6J2BIF1 receptor-type tyrosine-protein phosphatase ze...  386        2e-122
+UniRef90_UPI000F44424F receptor-type tyrosine-protein phosphatase...  386        2e-122
+UniRef90_UPI0010A2CC8F receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_UPI0015556388 receptor-type tyrosine-protein phosphatase...  391        2e-122
+UniRef90_UPI000E414F7F receptor-type tyrosine-protein phosphatase...  387        2e-122
+UniRef90_UPI000A1C3A57 receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_A0A494C036 Protein-tyrosine-phosphatase n=17 Tax=Boreoeu...  387        2e-122
+UniRef90_UPI001113D990 receptor-type tyrosine-protein phosphatase...  386        2e-122
+UniRef90_A0A3Q1BKE4 Protein-tyrosine-phosphatase n=4 Tax=Pomacent...  386        3e-122
+UniRef90_A0A6J2BG65 receptor-type tyrosine-protein phosphatase ze...  386        3e-122
+UniRef90_A0A0P7VMU2 Protein-tyrosine-phosphatase (Fragment) n=6 T...  390        3e-122
+UniRef90_UPI0005F55AB2 receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_A0A3Q1H4T7 Protein-tyrosine-phosphatase n=3 Tax=Acanthoc...  390        3e-122
+UniRef90_UPI00113137F9 receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_UPI001470CEB9 LOW QUALITY PROTEIN: receptor-type tyrosin...  389        3e-122
+UniRef90_UPI00053F75D8 receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_UPI00062A61AE receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_A0A2Y9T6E5 Protein-tyrosine-phosphatase n=8 Tax=Cetacea ...  386        3e-122
+UniRef90_A0A498LEU8 Protein-tyrosine-phosphatase n=2 Tax=Labeo ro...  385        4e-122
+UniRef90_UPI00140F6092 receptor-type tyrosine-protein phosphatase...  386        4e-122
+UniRef90_UPI001155A4E0 receptor-type tyrosine-protein phosphatase...  386        4e-122
+UniRef90_UPI000521625F LOW QUALITY PROTEIN: receptor-type tyrosin...  390        5e-122
+UniRef90_UPI001155560C receptor-type tyrosine-protein phosphatase...  386        5e-122
+UniRef90_UPI000B4F62C5 receptor-type tyrosine-protein phosphatase...  388        5e-122
+UniRef90_UPI000846DD08 receptor-type tyrosine-protein phosphatase...  385        5e-122
+UniRef90_UPI000E6AEB5F receptor-type tyrosine-protein phosphatase...  385        5e-122
+UniRef90_UPI0008131F1D receptor-type tyrosine-protein phosphatase...  385        5e-122
+UniRef90_B2RXS8 Protein-tyrosine-phosphatase n=8 Tax=Murinae TaxI...  385        5e-122
+UniRef90_UPI0013F2D297 receptor-type tyrosine-protein phosphatase...  385        6e-122
+UniRef90_A0A091V0J1 Protein-tyrosine-phosphatase (Fragment) n=7 T...  390        6e-122
+UniRef90_UPI000E4068C3 receptor-type tyrosine-protein phosphatase...  388        7e-122
+UniRef90_W5K060 Protein-tyrosine-phosphatase n=3 Tax=Astyanax mex...  384        7e-122
+UniRef90_UPI0010F59A82 receptor-type tyrosine-protein phosphatase...  385        7e-122
+UniRef90_UPI00145B5B8F receptor-type tyrosine-protein phosphatase...  388        7e-122
+UniRef90_UPI0014870CC0 receptor-type tyrosine-protein phosphatase...  385        7e-122
+UniRef90_A0A6J2ULM6 receptor-type tyrosine-protein phosphatase ze...  388        8e-122
+UniRef90_UPI0011764ACF receptor-type tyrosine-protein phosphatase...  384        8e-122
+UniRef90_A0A663N7P2 Protein-tyrosine-phosphatase n=11 Tax=Neognat...  389        8e-122
+UniRef90_UPI000579F7C3 receptor-type tyrosine-protein phosphatase...  385        9e-122
+UniRef90_A0A6I9M6M7 receptor-type tyrosine-protein phosphatase ze...  385        9e-122
+UniRef90_UPI000B39750B receptor-type tyrosine-protein phosphatase...  385        1e-121
+UniRef90_UPI00057A3CD7 receptor-type tyrosine-protein phosphatase...  385        1e-121
+UniRef90_F6ZVL3 Protein-tyrosine-phosphatase n=2 Tax=Monodelphis ...  384        1e-121
+UniRef90_UPI0011E9DBE0 receptor-type tyrosine-protein phosphatase...  388        1e-121
+UniRef90_UPI0006707DBF LOW QUALITY PROTEIN: receptor-type tyrosin...  389        1e-121
+UniRef90_UPI0009B41641 receptor-type tyrosine-protein phosphatase...  382        1e-121
+UniRef90_A0A4X2M9U5 Protein-tyrosine-phosphatase n=3 Tax=Metather...  384        1e-121
+UniRef90_UPI0014031397 receptor-type tyrosine-protein phosphatase...  388        1e-121
+UniRef90_I3K4D6 Protein-tyrosine-phosphatase n=6 Tax=Pseudocrenil...  384        1e-121
+UniRef90_UPI0011CF42D7 receptor-type tyrosine-protein phosphatase...  388        2e-121
+UniRef90_H3C603 Protein tyrosine phosphatase receptor type Z1a n=...  383        2e-121
+UniRef90_A0A2D0T647 Protein-tyrosine-phosphatase n=5 Tax=Siluroid...  382        2e-121
+UniRef90_UPI0004F44A14 receptor-type tyrosine-protein phosphatase...  383        2e-121
+UniRef90_UPI00038C33BF receptor-type tyrosine-protein phosphatase...  388        2e-121
+UniRef90_A0A6J3DUD8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  388        2e-121
+UniRef90_UPI000C310C73 receptor-type tyrosine-protein phosphatase...  387        2e-121
+UniRef90_UPI0007B8E283 receptor-type tyrosine-protein phosphatase...  387        2e-121
+UniRef90_UPI001447AFE6 LOW QUALITY PROTEIN: receptor-type tyrosin...  383        2e-121
+UniRef90_A0A2D0SE71 Protein-tyrosine-phosphatase n=2 Tax=Siluroid...  383        2e-121
+UniRef90_A0A3P9PL20 Protein-tyrosine-phosphatase n=6 Tax=Poecilia...  383        2e-121
+UniRef90_A0A087Y2J1 Protein-tyrosine-phosphatase n=1 Tax=Poecilia...  383        2e-121
+UniRef90_UPI000B4F964F receptor-type tyrosine-protein phosphatase...  388        2e-121
+UniRef90_UPI000E1C12B1 receptor-type tyrosine-protein phosphatase...  383        2e-121
+UniRef90_UPI001302039D receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI0004ED27A4 receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI000A3BFFFA receptor-type tyrosine-protein phosphatase...  388        3e-121
+UniRef90_M4A7E7 Protein-tyrosine-phosphatase n=7 Tax=Poeciliinae ...  382        3e-121
+UniRef90_A0A1A7WTD5 Protein-tyrosine-phosphatase n=2 Tax=Iconisem...  383        3e-121
+UniRef90_UPI000B541406 receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI001145AAE1 receptor-type tyrosine-protein phosphatase...  381        3e-121
+UniRef90_UPI000E559CF9 receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI0003EC0921 receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_I3NGX7 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  383        4e-121
+UniRef90_A0A672RBM4 Protein-tyrosine-phosphatase n=9 Tax=Cyprinin...  381        4e-121
+UniRef90_A0A3Q3NMM4 Protein-tyrosine-phosphatase n=1 Tax=Mastacem...  381        4e-121
+UniRef90_UPI001055BB51 LOW QUALITY PROTEIN: receptor-type tyrosin...  382        4e-121
+UniRef90_A0A091J6D8 Protein-tyrosine-phosphatase (Fragment) n=4 T...  387        4e-121
+UniRef90_A0A1A7Z2V7 Protein-tyrosine-phosphatase n=1 Tax=Iconisem...  384        4e-121
+UniRef90_UPI0003EC2A8A receptor-type tyrosine-protein phosphatase...  383        4e-121
+UniRef90_A0A673ANF4 Protein-tyrosine-phosphatase n=1 Tax=Sphaeram...  386        4e-121
+UniRef90_M3Y668 Protein-tyrosine-phosphatase n=3 Tax=Mustela TaxI...  387        4e-121
+UniRef90_UPI0012AC221B LOW QUALITY PROTEIN: receptor-type tyrosin...  381        5e-121
+UniRef90_A0A2I4CMU2 Protein-tyrosine-phosphatase n=3 Tax=Austrofu...  384        5e-121
+UniRef90_A0A3B3QFS5 Protein tyrosine phosphatase receptor type Z1...  381        5e-121
+UniRef90_UPI0008143BAF receptor-type tyrosine-protein phosphatase...  381        5e-121
+UniRef90_UPI000B38450C receptor-type tyrosine-protein phosphatase...  386        5e-121
+UniRef90_UPI000FFF9B7E receptor-type tyrosine-protein phosphatase...  383        5e-121
+UniRef90_UPI000E41C6BB receptor-type tyrosine-protein phosphatase...  386        6e-121
+UniRef90_A0A671QBM4 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  385        6e-121
+UniRef90_A0A1V4J8T9 Receptor-type tyrosine-protein phosphatase ze...  386        6e-121
+UniRef90_UPI000CD61FF7 receptor-type tyrosine-protein phosphatase...  381        6e-121
+UniRef90_UPI0013874171 receptor-type tyrosine-protein phosphatase...  386        6e-121
+UniRef90_M4A326 Protein-tyrosine-phosphatase n=5 Tax=Xiphophorus ...  382        6e-121
+UniRef90_A0A3B3CC14 Protein-tyrosine-phosphatase n=3 Tax=Oryzias ...  380        6e-121
+UniRef90_A0A6J2ARY9 receptor-type tyrosine-protein phosphatase ze...  383        6e-121
+UniRef90_UPI0007ACBB3C receptor-type tyrosine-protein phosphatase...  386        7e-121
+UniRef90_UPI0010F908C0 receptor-type tyrosine-protein phosphatase...  381        7e-121
+UniRef90_UPI000E4121C5 receptor-type tyrosine-protein phosphatase...  380        7e-121
+UniRef90_Q62656-2 Isoform 2 of Receptor-type tyrosine-protein pho...  382        7e-121
+UniRef90_A0A286XCJ8 Protein-tyrosine-phosphatase n=1 Tax=Cavia po...  382        7e-121
+UniRef90_A0A6J2ARH1 receptor-type tyrosine-protein phosphatase ze...  382        8e-121
+UniRef90_UPI000643D385 receptor-type tyrosine-protein phosphatase...  385        8e-121
+UniRef90_UPI0011B012DC receptor-type tyrosine-protein phosphatase...  382        8e-121
+UniRef90_UPI0010F9592E receptor-type tyrosine-protein phosphatase...  381        8e-121
+UniRef90_UPI0013B3A5BB receptor-type tyrosine-protein phosphatase...  382        8e-121
+UniRef90_UPI000E42193C receptor-type tyrosine-protein phosphatase...  386        8e-121
+UniRef90_A0A1U7QFT4 Protein-tyrosine-phosphatase n=9 Tax=Cricetin...  382        8e-121
+UniRef90_A0A286ZVC4 Protein-tyrosine-phosphatase n=5 Tax=Sus scro...  386        9e-121
+UniRef90_UPI0011B0DCE9 receptor-type tyrosine-protein phosphatase...  382        9e-121
+UniRef90_A0A6J2MMG8 receptor-type tyrosine-protein phosphatase ze...  382        1e-120
+UniRef90_UPI000739CBB1 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI000904A286 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI000D630EFB receptor-type tyrosine-protein phosphatase...  386        1e-120
+UniRef90_UPI0007877EB1 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_A0A2Y9I0B4 Protein-tyrosine-phosphatase n=9 Tax=Caniform...  386        1e-120
+UniRef90_UPI0012ED0F56 receptor-type tyrosine-protein phosphatase...  385        1e-120
+UniRef90_A0A1S2ZV54 Protein-tyrosine-phosphatase n=2 Tax=Erinaceu...  382        1e-120
+UniRef90_UPI000905CCC1 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI0007879CA3 receptor-type tyrosine-protein phosphatase...  381        1e-120
+UniRef90_UPI0004D07828 receptor-type tyrosine-protein phosphatase...  381        1e-120
+UniRef90_A0A091HYI3 Protein-tyrosine-phosphatase (Fragment) n=3 T...  386        1e-120
+UniRef90_A0A4X1W3G0 Protein-tyrosine-phosphatase n=1 Tax=Sus scro...  386        1e-120
+UniRef90_UPI0004D0A521 receptor-type tyrosine-protein phosphatase...  381        1e-120
+UniRef90_G3SUI0 Protein-tyrosine-phosphatase n=3 Tax=Loxodonta af...  385        2e-120
+UniRef90_A0A2Y9RQ65 Protein-tyrosine-phosphatase n=1 Tax=Trichech...  385        2e-120
+UniRef90_A0A671FI25 Protein-tyrosine-phosphatase n=5 Tax=Rhinolop...  385        2e-120
+UniRef90_A0A2U3W899 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  385        2e-120
+UniRef90_UPI0007AD4E2E receptor-type tyrosine-protein phosphatase...  380        2e-120
+UniRef90_A0A151PET0 Protein-tyrosine-phosphatase n=2 Tax=Alligato...  378        2e-120
+UniRef90_A0A091MWH8 Protein-tyrosine-phosphatase (Fragment) n=2 T...  385        2e-120
+UniRef90_UPI0010567197 receptor-type tyrosine-protein phosphatase...  383        2e-120
+UniRef90_A0A673VE84 Protein-tyrosine-phosphatase n=14 Tax=Felifor...  385        2e-120
+UniRef90_A0A498MFZ9 Protein-tyrosine-phosphatase n=2 Tax=Labeo ro...  385        2e-120
+UniRef90_A0A087X7U0 Protein-tyrosine-phosphatase n=2 Tax=Poecilia...  381        2e-120
+UniRef90_A0A0J9YVD2 Receptor-type tyrosine-protein phosphatase ze...  383        2e-120
+UniRef90_UPI0013F1BBBB receptor-type tyrosine-protein phosphatase...  385        2e-120
+UniRef90_UPI000FFB7F6B receptor-type tyrosine-protein phosphatase...  385        2e-120
+UniRef90_A0A0P6JVS5 Protein-tyrosine-phosphatase n=6 Tax=Heteroce...  385        2e-120
+UniRef90_UPI0002C662B1 receptor-type tyrosine-protein phosphatase...  385        2e-120
+UniRef90_A0A6J0HGN8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  385        2e-120
+UniRef90_A0A099ZSY9 Protein-tyrosine-phosphatase (Fragment) n=2 T...  385        2e-120
+UniRef90_F6ZRD8 Protein-tyrosine-phosphatase n=5 Tax=Equus TaxID=...  385        2e-120
+UniRef90_UPI000D535158 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_A0A093CG79 Protein-tyrosine-phosphatase (Fragment) n=2 T...  385        3e-120
+UniRef90_G3SHA3 Protein-tyrosine-phosphatase n=48 Tax=Simiiformes...  385        3e-120
+UniRef90_A0A383ZQB4 Protein-tyrosine-phosphatase n=3 Tax=Balaenop...  385        3e-120
+UniRef90_A0A093KBL4 Protein-tyrosine-phosphatase (Fragment) n=10 ...  385        3e-120
+UniRef90_A0A4W6FYC5 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  378        3e-120
+UniRef90_UPI000D5358DA receptor-type tyrosine-protein phosphatase...  381        3e-120
+UniRef90_A0A087RGN8 Protein-tyrosine-phosphatase (Fragment) n=1 T...  385        3e-120
+UniRef90_UPI0010A1DD4F receptor-type tyrosine-protein phosphatase...  385        3e-120
+UniRef90_A0A673V4K7 Protein-tyrosine-phosphatase n=5 Tax=Suricata...  385        3e-120
+UniRef90_P23471 Receptor-type tyrosine-protein phosphatase zeta n...  385        3e-120
+UniRef90_A0A2Y9NSP2 Protein-tyrosine-phosphatase n=15 Tax=Odontoc...  384        4e-120
+UniRef90_UPI001016C88C receptor-type tyrosine-protein phosphatase...  384        4e-120
+UniRef90_UPI000740471F receptor-type tyrosine-protein phosphatase...  382        4e-120
+UniRef90_UPI0003F0DD8C receptor-type tyrosine-protein phosphatase...  384        4e-120
+UniRef90_UPI0004434F18 receptor-type tyrosine-protein phosphatase...  384        4e-120
+UniRef90_A0A4W5K274 Protein-tyrosine-phosphatase n=4 Tax=Salmonin...  380        4e-120
+UniRef90_A0A2Y9JY59 Protein-tyrosine-phosphatase n=4 Tax=Mustelid...  384        4e-120
+UniRef90_F1MGK5 Protein-tyrosine-phosphatase n=23 Tax=Pecora TaxI...  384        4e-120
+UniRef90_UPI000D52FDCB receptor-type tyrosine-protein phosphatase...  381        4e-120
+UniRef90_UPI000FCD233A receptor-type tyrosine-protein phosphatase...  384        4e-120
+UniRef90_A0A452EZJ5 Protein-tyrosine-phosphatase n=2 Tax=Capra hi...  384        5e-120
+UniRef90_A0A4W6G059 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  377        5e-120
+UniRef90_A0A3M0KAN5 Uncharacterized protein n=1 Tax=Hirundo rusti...  384        5e-120
+UniRef90_A0A6A5E9D4 Protein-tyrosine-phosphatase n=1 Tax=Perca fl...  383        5e-120
+UniRef90_A0A2K6GLH2 Protein tyrosine phosphatase receptor type Z1...  384        6e-120
+UniRef90_W5QAR6 Protein-tyrosine-phosphatase n=2 Tax=Bovidae TaxI...  384        6e-120
+UniRef90_UPI00155DF316 receptor-type tyrosine-protein phosphatase...  378        6e-120
+UniRef90_UPI00022F51BF receptor-type tyrosine-protein phosphatase...  384        6e-120
+UniRef90_UPI00063F9BCB receptor-type tyrosine-protein phosphatase...  383        6e-120
+UniRef90_A0A6I9LQP1 receptor-type tyrosine-protein phosphatase ze...  384        6e-120
+UniRef90_UPI000812C09D receptor-type tyrosine-protein phosphatase...  383        7e-120
+UniRef90_A0A091G892 Protein-tyrosine-phosphatase (Fragment) n=2 T...  383        7e-120
+UniRef90_UPI00032902F3 receptor-type tyrosine-protein phosphatase...  383        8e-120
+UniRef90_UPI000F4F23FD receptor-type tyrosine-protein phosphatase...  379        8e-120
+UniRef90_A0A1S3FFY5 Protein-tyrosine-phosphatase n=1 Tax=Dipodomy...  383        8e-120
+UniRef90_A0A5N5NEW4 Protein-tyrosine-phosphatase n=3 Tax=Pangasia...  382        1e-119
+UniRef90_UPI0007B98781 receptor-type tyrosine-protein phosphatase...  383        1e-119
+UniRef90_UPI0010F58DD5 receptor-type tyrosine-protein phosphatase...  383        1e-119
+UniRef90_UPI00155F13EC receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_A0A2K5R457 Protein-tyrosine-phosphatase n=10 Tax=Cebidae...  383        1e-119
+UniRef90_A0A3B3C0X1 Protein-tyrosine-phosphatase n=5 Tax=Oryzias ...  378        1e-119
+UniRef90_UPI000DF45790 receptor-type tyrosine-protein phosphatase...  380        1e-119
+UniRef90_UPI00033326CA receptor-type tyrosine-protein phosphatase...  383        1e-119
+UniRef90_A0A2K5EC70 Protein-tyrosine-phosphatase n=5 Tax=Aotus na...  383        1e-119
+UniRef90_UPI000CD60FCE receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_UPI00155EDC90 receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_UPI000696869F receptor-type tyrosine-protein phosphatase...  383        1e-119
+UniRef90_A0A672U9T0 Protein-tyrosine-phosphatase n=5 Tax=Psittaci...  383        1e-119
+UniRef90_UPI0011B70123 receptor-type tyrosine-protein phosphatase...  378        1e-119
+UniRef90_UPI0007A6DC76 receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_A0A0Q3PGR3 Receptor-type tyrosine-protein phosphatase ze...  383        1e-119
+UniRef90_Q62656-3 Isoform 3 of Receptor-type tyrosine-protein pho...  380        1e-119
+UniRef90_UPI000989ECD8 receptor-type tyrosine-protein phosphatase...  383        1e-119
+UniRef90_A0A2D0SCU4 Protein-tyrosine-phosphatase n=5 Tax=Ictaluru...  381        1e-119
+UniRef90_UPI00073FF3CB receptor-type tyrosine-protein phosphatase...  380        1e-119
+UniRef90_W5NG14 Protein-tyrosine-phosphatase n=4 Tax=Lepisosteus ...  383        1e-119
+UniRef90_UPI00101A522A receptor-type tyrosine-protein phosphatase...  383        2e-119
+UniRef90_UPI0004A4BF4E receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_Q62656 Receptor-type tyrosine-protein phosphatase zeta n...  383        2e-119
+UniRef90_UPI0004A3F97E receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_A0A3P8UKQ3 Protein-tyrosine-phosphatase n=1 Tax=Cynoglos...  377        2e-119
+UniRef90_A0A091F7Z3 Protein-tyrosine-phosphatase (Fragment) n=20 ...  382        2e-119
+UniRef90_UPI000CD5F324 receptor-type tyrosine-protein phosphatase...  381        2e-119
+UniRef90_A0A3N0Z355 Protein-tyrosine-phosphatase n=1 Tax=Anabaril...  378        2e-119
+UniRef90_A0A3B5AVS0 Protein-tyrosine-phosphatase n=5 Tax=Pomacent...  378        2e-119
+UniRef90_H2MY92 Protein-tyrosine-phosphatase n=4 Tax=Oryzias lati...  376        2e-119
+UniRef90_UPI0004ED117E receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_A0A5A9PTB8 Protein-tyrosine-phosphatase n=1 Tax=Triploph...  381        2e-119
+UniRef90_A0A2I4C1N2 Protein-tyrosine-phosphatase n=1 Tax=Austrofu...  381        2e-119
+UniRef90_UPI00045D8586 receptor-type tyrosine-protein phosphatase...  382        3e-119
+UniRef90_UPI000E1BD5EE receptor-type tyrosine-protein phosphatase...  382        3e-119
+UniRef90_UPI00106DF1C1 receptor-type tyrosine-protein phosphatase...  378        3e-119
+UniRef90_A0A3P8QDE7 Protein-tyrosine-phosphatase n=10 Tax=Pseudoc...  381        3e-119
+UniRef90_UPI000D530A25 receptor-type tyrosine-protein phosphatase...  381        3e-119
+UniRef90_UPI000351093A LOW QUALITY PROTEIN: receptor-type tyrosin...  382        3e-119
+UniRef90_A0A6I9J9E1 receptor-type tyrosine-protein phosphatase ze...  382        3e-119
+UniRef90_UPI000742A4AE receptor-type tyrosine-protein phosphatase...  381        3e-119
+UniRef90_A0A667Y6Z6 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  375        3e-119
+UniRef90_G1T4Z5 Protein-tyrosine-phosphatase n=4 Tax=Oryctolagus ...  381        4e-119
+UniRef90_UPI00032AD53E receptor-type tyrosine-protein phosphatase...  381        4e-119
+UniRef90_F7IRI4 Protein-tyrosine-phosphatase n=4 Tax=Callithrix j...  381        4e-119
+UniRef90_A0A1A8U6N6 Protein tyrosine phosphatase, receptor-type, ...  381        4e-119
+UniRef90_UPI00094E0569 receptor-type tyrosine-protein phosphatase...  377        5e-119
+UniRef90_UPI000BBD8916 receptor-type tyrosine-protein phosphatase...  380        5e-119
+UniRef90_G3WWI5 Protein-tyrosine-phosphatase n=2 Tax=Sarcophilus ...  381        5e-119
+UniRef90_G3P1C4 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  381        5e-119
+UniRef90_UPI001176ABB7 LOW QUALITY PROTEIN: receptor-type tyrosin...  380        5e-119
+UniRef90_A0A1U7QS69 Protein-tyrosine-phosphatase n=3 Tax=Cricetin...  381        5e-119
+UniRef90_A0A672I989 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  376        6e-119
+UniRef90_UPI00140E500E LOW QUALITY PROTEIN: receptor-type tyrosin...  381        6e-119
+UniRef90_A0A1A8C7J4 Protein tyrosine phosphatase, receptor-type, ...  377        6e-119
+UniRef90_G3Q670 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  376        7e-119
+UniRef90_F6Z7H9 Protein-tyrosine-phosphatase n=6 Tax=Metatheria T...  376        7e-119
+UniRef90_A0A096MDJ4 Protein-tyrosine-phosphatase n=2 Tax=Poecilia...  380        7e-119
+UniRef90_UPI0010FA984D receptor-type tyrosine-protein phosphatase...  375        9e-119
+UniRef90_UPI0007DA7A01 receptor-type tyrosine-protein phosphatase...  376        9e-119
+UniRef90_X1WET2 Protein-tyrosine-phosphatase (Fragment) n=4 Tax=D...  380        1e-118
+UniRef90_UPI0004435732 receptor-type tyrosine-protein phosphatase...  376        1e-118
+UniRef90_A0A6J2MTY8 receptor-type tyrosine-protein phosphatase ze...  380        1e-118
+UniRef90_A0A1S3SFU4 Protein-tyrosine-phosphatase n=27 Tax=Salmoni...  376        1e-118
+UniRef90_I3N8P8 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  380        1e-118
+UniRef90_B8A5J4 Protein-tyrosine-phosphatase n=5 Tax=Danio rerio ...  374        1e-118
+UniRef90_UPI000CE17B67 receptor-type tyrosine-protein phosphatase...  376        1e-118
+UniRef90_A0A671QKP8 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  374        1e-118
+UniRef90_A0A6J2S968 receptor-type tyrosine-protein phosphatase ze...  375        1e-118
+UniRef90_UPI00129D90C3 receptor-type tyrosine-protein phosphatase...  380        1e-118
+UniRef90_UPI000643D2CD receptor-type tyrosine-protein phosphatase...  380        1e-118
+UniRef90_UPI000CE1DB81 receptor-type tyrosine-protein phosphatase...  376        1e-118
+UniRef90_UPI0009075396 receptor-type tyrosine-protein phosphatase...  376        1e-118
+UniRef90_UPI0010A75802 receptor-type tyrosine-protein phosphatase...  376        1e-118
+UniRef90_A0A1D9CFC8 Protein tyrosine phosphatase receptor-type Z ...  374        1e-118
+UniRef90_A0A2I4B1N8 Protein-tyrosine-phosphatase n=1 Tax=Austrofu...  375        2e-118
+UniRef90_A0A1S3WDW2 Protein-tyrosine-phosphatase n=3 Tax=Erinaceu...  380        2e-118
+UniRef90_UPI000787BD49 receptor-type tyrosine-protein phosphatase...  380        2e-118
+UniRef90_UPI000739CFD4 receptor-type tyrosine-protein phosphatase...  380        2e-118
+UniRef90_UPI0010A7C9A9 receptor-type tyrosine-protein phosphatase...  376        2e-118
+UniRef90_UPI000D1856C8 receptor-type tyrosine-protein phosphatase...  380        2e-118
+UniRef90_A0A3P9NMG4 Protein-tyrosine-phosphatase n=20 Tax=Poecili...  379        2e-118
+UniRef90_A0A5C6PAT9 Receptor-type tyrosine-protein phosphatase ze...  371        2e-118
+UniRef90_UPI0003315AFD receptor-type tyrosine-protein phosphatase...  379        2e-118
+UniRef90_Q9WUT8 DSD-1-proteoglycan n=1 Tax=Mus musculus TaxID=100...  377        2e-118
+UniRef90_UPI0015CFD9B6 receptor-type tyrosine-protein phosphatase...  375        2e-118
+UniRef90_UPI00146A3791 receptor-type tyrosine-protein phosphatase...  375        2e-118
+UniRef90_UPI0004D0A741 receptor-type tyrosine-protein phosphatase...  379        3e-118
+UniRef90_UPI0010FAA256 receptor-type tyrosine-protein phosphatase...  375        3e-118
+UniRef90_UPI000B545EA9 receptor-type tyrosine-protein phosphatase...  377        3e-118
+UniRef90_M3WUH4 Protein-tyrosine-phosphatase n=1 Tax=Felis catus ...  379        3e-118
+UniRef90_A0A4V6AN53 Protein-tyrosine-phosphatase n=3 Tax=Sciaenid...  375        3e-118
+UniRef90_M3WN84 Protein-tyrosine-phosphatase n=1 Tax=Felis catus ...  379        3e-118
+UniRef90_A0A1A8KB70 Protein-tyrosine-phosphatase n=1 Tax=Nothobra...  374        3e-118
+UniRef90_UPI0008147B5B receptor-type tyrosine-protein phosphatase...  378        3e-118
+UniRef90_A0A3Q2DJS3 Protein-tyrosine-phosphatase n=7 Tax=Cyprinod...  375        3e-118
+UniRef90_UPI0015C3B638 receptor-type tyrosine-protein phosphatase...  375        4e-118
+UniRef90_A0A3Q3KGT4 Protein-tyrosine-phosphatase n=5 Tax=Monopter...  374        4e-118
+UniRef90_A0A3Q3A0X0 Protein-tyrosine-phosphatase n=1 Tax=Kryptole...  374        5e-118
+UniRef90_U3K5R4 Protein tyrosine phosphatase receptor type Z1 n=5...  378        5e-118
+UniRef90_A0A4U5UGK5 Protein-tyrosine-phosphatase n=1 Tax=Collicht...  378        5e-118
+UniRef90_A0A1A7Z242 Protein-tyrosine-phosphatase n=11 Tax=Nothobr...  374        6e-118
+UniRef90_A0A3Q2Z570 Protein-tyrosine-phosphatase n=1 Tax=Hippocam...  374        6e-118
+UniRef90_A0A674DAM9 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  371        7e-118
+UniRef90_UPI001145E884 receptor-type tyrosine-protein phosphatase...  377        7e-118
+UniRef90_A0A5F5XYW3 Protein-tyrosine-phosphatase n=1 Tax=Felis ca...  378        7e-118
+UniRef90_A0A3Q2TQ14 Protein-tyrosine-phosphatase n=1 Tax=Fundulus...  373        8e-118
+UniRef90_A0A670IVR0 Protein-tyrosine-phosphatase n=7 Tax=Lacertin...  375        8e-118
+UniRef90_A0A3Q1JWI4 Protein-tyrosine-phosphatase n=3 Tax=Anabas t...  373        9e-118
+UniRef90_UPI0008542699 receptor-type tyrosine-protein phosphatase...  373        9e-118
+UniRef90_A0A3B5AGZ9 Protein-tyrosine-phosphatase n=1 Tax=Stegaste...  372        9e-118
+UniRef90_A0A402EH60 Protein-tyrosine-phosphatase n=2 Tax=Gekkonin...  373        1e-117
+UniRef90_UPI001471FF2E receptor-type tyrosine-protein phosphatase...  373        1e-117
+UniRef90_UPI001471D4CB receptor-type tyrosine-protein phosphatase...  373        1e-117
+UniRef90_H2SF35 Protein-tyrosine-phosphatase n=3 Tax=Takifugu rub...  373        1e-117
+UniRef90_UPI001471BF76 receptor-type tyrosine-protein phosphatase...  373        1e-117
+UniRef90_K7FJW6 Protein-tyrosine-phosphatase n=1 Tax=Pelodiscus s...  373        1e-117
+UniRef90_UPI0007A6B6F2 receptor-type tyrosine-protein phosphatase...  377        1e-117
+UniRef90_UPI001041F0E4 receptor-type tyrosine-protein phosphatase...  373        1e-117
+UniRef90_A0A3B4CW28 Protein-tyrosine-phosphatase n=3 Tax=Pygocent...  372        1e-117
+UniRef90_A0A4W6D8T7 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  371        1e-117
+UniRef90_A0A087YHN2 Protein-tyrosine-phosphatase n=5 Tax=Poecilii...  373        2e-117
+UniRef90_A0A3Q3MNA6 Protein-tyrosine-phosphatase n=3 Tax=Mastacem...  373        2e-117
+UniRef90_UPI0015928BF6 receptor-type tyrosine-protein phosphatase...  376        2e-117
+UniRef90_UPI000F4E8F5E receptor-type tyrosine-protein phosphatase...  376        2e-117
+UniRef90_UPI0015B1C364 receptor-type tyrosine-protein phosphatase...  371        2e-117
+UniRef90_UPI0010FAB432 receptor-type tyrosine-protein phosphatase...  376        2e-117
+UniRef90_UPI000981AAD3 receptor-type tyrosine-protein phosphatase...  376        2e-117
+UniRef90_A0A3B3C3J5 Protein-tyrosine-phosphatase n=1 Tax=Oryzias ...  376        2e-117
+UniRef90_UPI0010FA56E4 receptor-type tyrosine-protein phosphatase...  372        3e-117
+UniRef90_A0A484DEW4 Protein-tyrosine-phosphatase n=5 Tax=Percidae...  372        3e-117
+UniRef90_A0A3P9A9B1 Protein-tyrosine-phosphatase n=5 Tax=Esox luc...  373        3e-117
+UniRef90_A0A6G1QR34 Protein-tyrosine-phosphatase n=1 Tax=Channa a...  375        3e-117
+UniRef90_UPI00092E77FB receptor-type tyrosine-protein phosphatase...  372        4e-117
+UniRef90_A0A673G0D5 Protein-tyrosine-phosphatase n=2 Tax=Cyprinin...  368        4e-117
+UniRef90_A0A673A9J7 Protein-tyrosine-phosphatase n=3 Tax=Sphaeram...  371        4e-117
+UniRef90_Q6IRM3 Protein-tyrosine-phosphatase n=3 Tax=Xenopus TaxI...  372        4e-117
+UniRef90_A0A6I8NGZ9 Protein-tyrosine-phosphatase n=2 Tax=Ornithor...  376        4e-117
+UniRef90_A0A6I8REK8 Protein-tyrosine-phosphatase n=1 Tax=Xenopus ...  372        4e-117
+UniRef90_UPI001054B05A receptor-type tyrosine-protein phosphatase...  371        5e-117
+UniRef90_UPI000F5169BF receptor-type tyrosine-protein phosphatase...  370        5e-117
+UniRef90_UPI00148704B9 receptor-type tyrosine-protein phosphatase...  371        6e-117
+UniRef90_UPI000816486C receptor-type tyrosine-protein phosphatase...  371        6e-117
+UniRef90_A0A3Q0G9K9 Protein-tyrosine-phosphatase n=3 Tax=Archosau...  371        7e-117
+UniRef90_A0A669DTD4 Protein-tyrosine-phosphatase n=2 Tax=Oreochro...  371        7e-117
+UniRef90_A0A665V0F6 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  371        7e-117
+UniRef90_UPI0007A6FB23 receptor-type tyrosine-protein phosphatase...  371        7e-117
+UniRef90_A0A4W6D926 Protein-tyrosine-phosphatase n=20 Tax=Percomo...  371        7e-117
+UniRef90_A0A2Y9D6I5 Protein-tyrosine-phosphatase n=3 Tax=Afrother...  371        8e-117
+UniRef90_A0A673MZJ7 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  370        8e-117
+UniRef90_A0A6J2CHQ7 receptor-type tyrosine-protein phosphatase ga...  371        9e-117
+UniRef90_UPI0015CF9787 receptor-type tyrosine-protein phosphatase...  374        9e-117
+UniRef90_UPI0011B8336B receptor-type tyrosine-protein phosphatase...  373        1e-116
+UniRef90_A0A6J0UF71 receptor-type tyrosine-protein phosphatase ze...  373        1e-116
+UniRef90_UPI001419E1A8 receptor-type tyrosine-protein phosphatase...  374        1e-116
+UniRef90_A0A5C6NB76 Protein-tyrosine-phosphatase (Fragment) n=1 T...  370        1e-116
+UniRef90_UPI0015534F79 receptor-type tyrosine-protein phosphatase...  370        1e-116
+UniRef90_A0A6J3B5B0 receptor-type tyrosine-protein phosphatase ga...  370        1e-116
+UniRef90_UPI0012F651E6 receptor-type tyrosine-protein phosphatase...  373        1e-116
+UniRef90_A0A669F7R2 Protein-tyrosine-phosphatase n=2 Tax=Oreochro...  368        2e-116
+UniRef90_A0A663F8U4 Protein-tyrosine-phosphatase n=1 Tax=Aquila c...  370        2e-116
+UniRef90_UPI000F2F3D7A receptor-type tyrosine-protein phosphatase...  370        2e-116
+UniRef90_UPI00117665B2 receptor-type tyrosine-protein phosphatase...  370        2e-116
+UniRef90_A0A6I9L1B7 receptor-type tyrosine-protein phosphatase ga...  370        2e-116
+UniRef90_A0A1U7QLF3 Protein-tyrosine-phosphatase n=5 Tax=Muroidea...  370        2e-116
+UniRef90_A0A674JD02 Protein-tyrosine-phosphatase n=1 Tax=Terrapen...  370        2e-116
+UniRef90_UPI000CE1CD81 receptor-type tyrosine-protein phosphatase...  373        2e-116
+UniRef90_UPI00038BB38A receptor-type tyrosine-protein phosphatase...  370        2e-116
+UniRef90_UPI000C7EC6E0 receptor-type tyrosine-protein phosphatase...  370        3e-116
+UniRef90_UPI00109F9EA9 LOW QUALITY PROTEIN: receptor-type tyrosin...  373        3e-116
+UniRef90_UPI0012ECCB03 receptor-type tyrosine-protein phosphatase...  369        3e-116
+UniRef90_UPI0009B319CA receptor-type tyrosine-protein phosphatase...  369        3e-116
+UniRef90_UPI0010A0536F receptor-type tyrosine-protein phosphatase...  371        3e-116
+UniRef90_UPI0006D91439 receptor-type tyrosine-protein phosphatase...  370        3e-116
+UniRef90_UPI00092E67BD LOW QUALITY PROTEIN: receptor-type tyrosin...  373        3e-116
+UniRef90_UPI000333187A receptor-type tyrosine-protein phosphatase...  370        3e-116
+UniRef90_Q8CIN2 Protein-tyrosine-phosphatase n=1 Tax=Rattus norve...  369        3e-116
+UniRef90_UPI0010F543C4 receptor-type tyrosine-protein phosphatase...  370        3e-116
+UniRef90_UPI000A28B98B LOW QUALITY PROTEIN: receptor-type tyrosin...  373        4e-116
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.148    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0452    0.140     1.90     42.6     43.6 
+
+Effective search space used: 471631565286
+Results from round 3
+
+
+Query= sp|P43166|CAH7_HUMAN Carbonic anhydrase 7 OS=Homo sapiens OX=9606
+GN=CA7 PE=1 SV=1
+
+Length=264
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI000D0A88CD receptor-type tyrosine-protein phosphatase...  415        8e-134
+UniRef90_A0A1S3KN71 Protein-tyrosine-phosphatase n=3 Tax=Salmo sa...  414        2e-133
+UniRef90_UPI0011314498 receptor-type tyrosine-protein phosphatase...  414        2e-133
+UniRef90_UPI0011C13A97 receptor-type tyrosine-protein phosphatase...  416        9e-133
+UniRef90_UPI0012DE3154 receptor-type tyrosine-protein phosphatase...  415        1e-132
+UniRef90_UPI000F5E1420 receptor-type tyrosine-protein phosphatase...  416        1e-132
+UniRef90_UPI000BBE36A2 receptor-type tyrosine-protein phosphatase...  412        2e-132
+UniRef90_UPI000E463C96 receptor-type tyrosine-protein phosphatase...  411        6e-132
+UniRef90_UPI0013AFD25B receptor-type tyrosine-protein phosphatase...  415        7e-132
+UniRef90_UPI000E465B33 receptor-type tyrosine-protein phosphatase...  411        7e-132
+UniRef90_UPI0015E1540B LOW QUALITY PROTEIN: receptor-type tyrosin...  412        8e-132
+UniRef90_A0A4W6DRB7 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  410        1e-131
+UniRef90_UPI0010FA18CE receptor-type tyrosine-protein phosphatase...  410        1e-131
+UniRef90_UPI000B8F3C1B receptor-type tyrosine-protein phosphatase...  410        1e-131
+UniRef90_UPI000E4660CB receptor-type tyrosine-protein phosphatase...  412        4e-131
+UniRef90_A0A1S3PDB2 Protein-tyrosine-phosphatase n=1 Tax=Salmo sa...  408        5e-131
+UniRef90_A0A1S3PCW9 Protein-tyrosine-phosphatase n=1 Tax=Salmo sa...  408        5e-131
+UniRef90_UPI0011C194A5 receptor-type tyrosine-protein phosphatase...  414        5e-131
+UniRef90_A0A4W5MJJ9 Protein-tyrosine-phosphatase n=2 Tax=Hucho hu...  408        5e-131
+UniRef90_UPI0015E1C541 receptor-type tyrosine-protein phosphatase...  409        6e-131
+UniRef90_UPI00155EE0EE receptor-type tyrosine-protein phosphatase...  414        6e-131
+UniRef90_UPI000F5DB379 receptor-type tyrosine-protein phosphatase...  413        9e-131
+UniRef90_A0A2U9B1E9 Protein-tyrosine-phosphatase n=3 Tax=Scophtha...  414        9e-131
+UniRef90_A0A6J2PTJ3 receptor-type tyrosine-protein phosphatase ze...  410        1e-130
+UniRef90_UPI00146B15FB receptor-type tyrosine-protein phosphatase...  406        1e-130
+UniRef90_UPI000B4EF323 receptor-type tyrosine-protein phosphatase...  413        1e-130
+UniRef90_UPI000D09BCEC receptor-type tyrosine-protein phosphatase...  413        1e-130
+UniRef90_UPI00148C4DF2 receptor-type tyrosine-protein phosphatase...  407        2e-130
+UniRef90_A0A1S3KN66 Protein-tyrosine-phosphatase n=3 Tax=Salmo sa...  412        2e-130
+UniRef90_A0A3P8XM92 Protein-tyrosine-phosphatase n=6 Tax=Esox luc...  406        2e-130
+UniRef90_UPI00159CB4A4 receptor-type tyrosine-protein phosphatase...  407        2e-130
+UniRef90_A0A6A5FDS7 Protein-tyrosine-phosphatase n=6 Tax=Percidae...  412        3e-130
+UniRef90_UPI0010421442 receptor-type tyrosine-protein phosphatase...  409        4e-130
+UniRef90_UPI00097D9506 receptor-type tyrosine-protein phosphatase...  412        4e-130
+UniRef90_UPI0011E9B9FB receptor-type tyrosine-protein phosphatase...  406        5e-130
+UniRef90_UPI0015E07228 receptor-type tyrosine-protein phosphatase...  405        1e-129
+UniRef90_UPI0012ED158A receptor-type tyrosine-protein phosphatase...  405        1e-129
+UniRef90_UPI00146C7BDC receptor-type tyrosine-protein phosphatase...  410        1e-129
+UniRef90_UPI000BBE736B receptor-type tyrosine-protein phosphatase...  406        2e-129
+UniRef90_A0A4W6FYB9 Protein-tyrosine-phosphatase n=2 Tax=Lates ca...  405        2e-129
+UniRef90_UPI000497C0B2 receptor-type tyrosine-protein phosphatase...  410        2e-129
+UniRef90_A0A6J2PRS3 receptor-type tyrosine-protein phosphatase ze...  409        3e-129
+UniRef90_A0A665TNG8 Protein-tyrosine-phosphatase n=4 Tax=Echeneis...  403        4e-129
+UniRef90_A0A3P9CDD1 Protein-tyrosine-phosphatase n=11 Tax=Pseudoc...  404        4e-129
+UniRef90_UPI000B4F462B receptor-type tyrosine-protein phosphatase...  402        5e-129
+UniRef90_UPI0010421EF9 receptor-type tyrosine-protein phosphatase...  404        6e-129
+UniRef90_UPI000CDF77DB receptor-type tyrosine-protein phosphatase...  405        6e-129
+UniRef90_UPI000CDFE27B receptor-type tyrosine-protein phosphatase...  405        6e-129
+UniRef90_UPI00159C67E4 receptor-type tyrosine-protein phosphatase...  405        6e-129
+UniRef90_UPI0010F57EB7 receptor-type tyrosine-protein phosphatase...  408        8e-129
+UniRef90_UPI000496A0D4 receptor-type tyrosine-protein phosphatase...  408        9e-129
+UniRef90_UPI00148FE249 receptor-type tyrosine-protein phosphatase...  403        1e-128
+UniRef90_UPI00159C902A receptor-type tyrosine-protein phosphatase...  405        1e-128
+UniRef90_UPI000C6F752A receptor-type tyrosine-protein phosphatase...  408        1e-128
+UniRef90_UPI0014473199 receptor-type tyrosine-protein phosphatase...  405        1e-128
+UniRef90_UPI000B3A56B7 receptor-type tyrosine-protein phosphatase...  402        2e-128
+UniRef90_A0A3P8XNF7 Protein tyrosine phosphatase receptor type Z1...  402        2e-128
+UniRef90_A0A493THL0 Protein tyrosine phosphatase receptor type Z1...  398        2e-128
+UniRef90_UPI0008753BF7 LOW QUALITY PROTEIN: receptor-type tyrosin...  407        2e-128
+UniRef90_UPI0015E1E3D0 receptor-type tyrosine-protein phosphatase...  407        2e-128
+UniRef90_A0A493TU04 Protein-tyrosine-phosphatase n=4 Tax=Archosau...  397        2e-128
+UniRef90_UPI000E460D9B receptor-type tyrosine-protein phosphatase...  407        3e-128
+UniRef90_UPI000E4627B0 receptor-type tyrosine-protein phosphatase...  402        3e-128
+UniRef90_UPI001486EB48 receptor-type tyrosine-protein phosphatase...  403        3e-128
+UniRef90_A0A484D3Z9 Protein-tyrosine-phosphatase n=3 Tax=Percidae...  407        3e-128
+UniRef90_UPI00087506AF receptor-type tyrosine-protein phosphatase...  407        3e-128
+UniRef90_UPI00099F5001 receptor-type tyrosine-protein phosphatase...  400        3e-128
+UniRef90_UPI0010FB5F33 receptor-type tyrosine-protein phosphatase...  400        4e-128
+UniRef90_A0A671W5J4 Protein-tyrosine-phosphatase n=4 Tax=Sparus a...  402        4e-128
+UniRef90_I3K4D6 Protein-tyrosine-phosphatase n=6 Tax=Pseudocrenil...  401        5e-128
+UniRef90_A0A1A8TXK4 Protein-tyrosine-phosphatase n=8 Tax=Nothobra...  401        5e-128
+UniRef90_A0A1S3PCP0 Protein-tyrosine-phosphatase n=8 Tax=Salmonin...  405        5e-128
+UniRef90_UPI0015E11E78 receptor-type tyrosine-protein phosphatase...  403        6e-128
+UniRef90_A0A3Q1H4T7 Protein-tyrosine-phosphatase n=3 Tax=Acanthoc...  405        7e-128
+UniRef90_A0A6G0HRJ3 Protein-tyrosine-phosphatase n=3 Tax=Larimich...  400        1e-127
+UniRef90_UPI00159C27B4 receptor-type tyrosine-protein phosphatase...  405        1e-127
+UniRef90_UPI00148D4AA4 receptor-type tyrosine-protein phosphatase...  405        1e-127
+UniRef90_UPI00117E7F65 receptor-type tyrosine-protein phosphatase...  405        1e-127
+UniRef90_I3K1F1 Protein-tyrosine-phosphatase n=5 Tax=Pseudocrenil...  400        1e-127
+UniRef90_UPI0011761649 receptor-type tyrosine-protein phosphatase...  402        1e-127
+UniRef90_A0A672LX92 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  400        1e-127
+UniRef90_UPI000B4ED98A receptor-type tyrosine-protein phosphatase...  401        2e-127
+UniRef90_A0A672RP81 Protein-tyrosine-phosphatase n=2 Tax=Sinocycl...  397        2e-127
+UniRef90_UPI0011800382 receptor-type tyrosine-protein phosphatase...  400        2e-127
+UniRef90_UPI0010A5064B receptor-type tyrosine-protein phosphatase...  398        2e-127
+UniRef90_UPI000E41EEF3 receptor-type tyrosine-protein phosphatase...  404        2e-127
+UniRef90_UPI001476D4C3 receptor-type tyrosine-protein phosphatase...  403        2e-127
+UniRef90_UPI000E461E27 receptor-type tyrosine-protein phosphatase...  400        2e-127
+UniRef90_UPI0011EA2502 receptor-type tyrosine-protein phosphatase...  399        3e-127
+UniRef90_UPI0011E9DBE0 receptor-type tyrosine-protein phosphatase...  403        3e-127
+UniRef90_UPI000C310C73 receptor-type tyrosine-protein phosphatase...  403        4e-127
+UniRef90_UPI0012AB69FE receptor-type tyrosine-protein phosphatase...  398        5e-127
+UniRef90_A0A673ANF4 Protein-tyrosine-phosphatase n=1 Tax=Sphaeram...  403        6e-127
+UniRef90_UPI000742BCCE receptor-type tyrosine-protein phosphatase...  402        7e-127
+UniRef90_UPI001113D990 receptor-type tyrosine-protein phosphatase...  398        8e-127
+UniRef90_UPI0011764ACF receptor-type tyrosine-protein phosphatase...  397        9e-127
+UniRef90_UPI000E1E9E0B receptor-type tyrosine-protein phosphatase...  398        1e-126
+UniRef90_UPI0015A9B1C0 receptor-type tyrosine-protein phosphatase...  399        1e-126
+UniRef90_UPI001145AAE1 receptor-type tyrosine-protein phosphatase...  395        1e-126
+UniRef90_UPI000A1C3A57 receptor-type tyrosine-protein phosphatase...  402        2e-126
+UniRef90_A0A3Q1BKE4 Protein-tyrosine-phosphatase n=4 Tax=Pomacent...  397        2e-126
+UniRef90_A0A3Q1HK94 Protein-tyrosine-phosphatase n=4 Tax=Anabas t...  402        2e-126
+UniRef90_UPI001447AFE6 LOW QUALITY PROTEIN: receptor-type tyrosin...  397        2e-126
+UniRef90_UPI0011D001A7 receptor-type tyrosine-protein phosphatase...  397        2e-126
+UniRef90_UPI00113137F9 receptor-type tyrosine-protein phosphatase...  397        2e-126
+UniRef90_UPI0011CFBD95 receptor-type tyrosine-protein phosphatase...  397        2e-126
+UniRef90_UPI00155DF316 receptor-type tyrosine-protein phosphatase...  395        2e-126
+UniRef90_UPI00039449DA receptor-type tyrosine-protein phosphatase...  401        4e-126
+UniRef90_UPI000B38450C receptor-type tyrosine-protein phosphatase...  400        4e-126
+UniRef90_UPI00145B5B8F receptor-type tyrosine-protein phosphatase...  400        5e-126
+UniRef90_UPI000B4F62C5 receptor-type tyrosine-protein phosphatase...  400        5e-126
+UniRef90_A0A3P8UKQ3 Protein-tyrosine-phosphatase n=1 Tax=Cynoglos...  395        5e-126
+UniRef90_UPI0012ED0F56 receptor-type tyrosine-protein phosphatase...  400        6e-126
+UniRef90_UPI00155F13EC receptor-type tyrosine-protein phosphatase...  396        6e-126
+UniRef90_UPI000E414F7F receptor-type tyrosine-protein phosphatase...  397        6e-126
+UniRef90_UPI00155EDC90 receptor-type tyrosine-protein phosphatase...  395        7e-126
+UniRef90_UPI000D630EFB receptor-type tyrosine-protein phosphatase...  400        7e-126
+UniRef90_A0A1A7Z2V7 Protein-tyrosine-phosphatase n=1 Tax=Iconisem...  397        8e-126
+UniRef90_A0A2I0MJH0 Protein-tyrosine-phosphatase n=36 Tax=Aves Ta...  395        8e-126
+UniRef90_UPI0014868B29 receptor-type tyrosine-protein phosphatase...  399        9e-126
+UniRef90_UPI001470CEB9 LOW QUALITY PROTEIN: receptor-type tyrosin...  399        1e-125
+UniRef90_UPI00094E73EE LOW QUALITY PROTEIN: receptor-type tyrosin...  400        1e-125
+UniRef90_UPI0010FAAE85 receptor-type tyrosine-protein phosphatase...  396        1e-125
+UniRef90_UPI000B39750B receptor-type tyrosine-protein phosphatase...  395        1e-125
+UniRef90_A0A1A7WTD5 Protein-tyrosine-phosphatase n=2 Tax=Iconisem...  394        1e-125
+UniRef90_UPI0009B41641 receptor-type tyrosine-protein phosphatase...  392        1e-125
+UniRef90_A0A6J2V274 receptor-type tyrosine-protein phosphatase ze...  396        1e-125
+UniRef90_UPI0004F44A14 receptor-type tyrosine-protein phosphatase...  393        2e-125
+UniRef90_UPI00070400D5 receptor-type tyrosine-protein phosphatase...  395        2e-125
+UniRef90_M4A7E7 Protein-tyrosine-phosphatase n=7 Tax=Poeciliinae ...  393        2e-125
+UniRef90_UPI0014031691 receptor-type tyrosine-protein phosphatase...  395        2e-125
+UniRef90_A0A663F421 Uncharacterized protein n=1 Tax=Aquila chrysa...  395        2e-125
+UniRef90_A0A6A5E9D4 Protein-tyrosine-phosphatase n=1 Tax=Perca fl...  399        2e-125
+UniRef90_A0A663F3X2 Uncharacterized protein n=1 Tax=Aquila chrysa...  395        2e-125
+UniRef90_UPI0013F1C581 receptor-type tyrosine-protein phosphatase...  395        2e-125
+UniRef90_UPI000DF45790 receptor-type tyrosine-protein phosphatase...  395        3e-125
+UniRef90_A0A6J2ULM6 receptor-type tyrosine-protein phosphatase ze...  397        3e-125
+UniRef90_UPI000E4068C3 receptor-type tyrosine-protein phosphatase...  397        4e-125
+UniRef90_A0A498LEU8 Protein-tyrosine-phosphatase n=2 Tax=Labeo ro...  393        4e-125
+UniRef90_UPI0010F908C0 receptor-type tyrosine-protein phosphatase...  393        4e-125
+UniRef90_UPI0010F9592E receptor-type tyrosine-protein phosphatase...  393        5e-125
+UniRef90_UPI000FFBD9FD receptor-type tyrosine-protein phosphatase...  394        6e-125
+UniRef90_UPI0010A2CC8F receptor-type tyrosine-protein phosphatase...  397        6e-125
+UniRef90_A0A3P8QDE7 Protein-tyrosine-phosphatase n=10 Tax=Pseudoc...  397        6e-125
+UniRef90_A0A493T8E4 Protein tyrosine phosphatase receptor type Z1...  393        7e-125
+UniRef90_A0A3B3CC14 Protein-tyrosine-phosphatase n=3 Tax=Oryzias ...  391        7e-125
+UniRef90_A0A2D0SE71 Protein-tyrosine-phosphatase n=2 Tax=Siluroid...  392        7e-125
+UniRef90_W5K060 Protein-tyrosine-phosphatase n=3 Tax=Astyanax mex...  391        8e-125
+UniRef90_UPI0008143BAF receptor-type tyrosine-protein phosphatase...  391        9e-125
+UniRef90_A0A4W5K274 Protein-tyrosine-phosphatase n=4 Tax=Salmonin...  392        1e-124
+UniRef90_A0A087X7U0 Protein-tyrosine-phosphatase n=2 Tax=Poecilia...  392        1e-124
+UniRef90_A0A3Q3NMM4 Protein-tyrosine-phosphatase n=1 Tax=Mastacem...  390        1e-124
+UniRef90_UPI0007B8E283 receptor-type tyrosine-protein phosphatase...  396        2e-124
+UniRef90_H0Z2E7 Protein-tyrosine-phosphatase n=8 Tax=Neognathae T...  392        2e-124
+UniRef90_UPI001055BB51 LOW QUALITY PROTEIN: receptor-type tyrosin...  391        2e-124
+UniRef90_A0A087Y2J1 Protein-tyrosine-phosphatase n=1 Tax=Poecilia...  391        2e-124
+UniRef90_A0A3B3C0X1 Protein-tyrosine-phosphatase n=5 Tax=Oryzias ...  391        2e-124
+UniRef90_UPI00106DF1C1 receptor-type tyrosine-protein phosphatase...  391        3e-124
+UniRef90_A0A0P7VMU2 Protein-tyrosine-phosphatase (Fragment) n=6 T...  395        3e-124
+UniRef90_UPI00051E1634 receptor-type tyrosine-protein phosphatase...  391        3e-124
+UniRef90_A0A3P9PL20 Protein-tyrosine-phosphatase n=6 Tax=Poecilia...  391        3e-124
+UniRef90_UPI000740471F receptor-type tyrosine-protein phosphatase...  393        4e-124
+UniRef90_UPI0011B70123 receptor-type tyrosine-protein phosphatase...  390        4e-124
+UniRef90_A0A4W6FYC5 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  388        4e-124
+UniRef90_UPI00051E49F8 receptor-type tyrosine-protein phosphatase...  391        4e-124
+UniRef90_UPI0012AC221B LOW QUALITY PROTEIN: receptor-type tyrosin...  389        4e-124
+UniRef90_A0A2I4CMU2 Protein-tyrosine-phosphatase n=3 Tax=Austrofu...  392        5e-124
+UniRef90_A0A1A8U6N6 Protein tyrosine phosphatase, receptor-type, ...  394        5e-124
+UniRef90_UPI001176ABB7 LOW QUALITY PROTEIN: receptor-type tyrosin...  395        5e-124
+UniRef90_UPI000D52FDCB receptor-type tyrosine-protein phosphatase...  392        5e-124
+UniRef90_A0A1S3SFU4 Protein-tyrosine-phosphatase n=27 Tax=Salmoni...  390        5e-124
+UniRef90_UPI0010F58DD5 receptor-type tyrosine-protein phosphatase...  395        6e-124
+UniRef90_A0A2D0T647 Protein-tyrosine-phosphatase n=5 Tax=Siluroid...  389        6e-124
+UniRef90_A0A671QBM4 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  393        6e-124
+UniRef90_UPI000E42193C receptor-type tyrosine-protein phosphatase...  395        7e-124
+UniRef90_UPI0007ACBB3C receptor-type tyrosine-protein phosphatase...  395        7e-124
+UniRef90_M4A326 Protein-tyrosine-phosphatase n=5 Tax=Xiphophorus ...  390        8e-124
+UniRef90_A0A4W6G059 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  388        8e-124
+UniRef90_UPI000CD60FCE receptor-type tyrosine-protein phosphatase...  390        8e-124
+UniRef90_UPI000E41C6BB receptor-type tyrosine-protein phosphatase...  395        8e-124
+UniRef90_A0A672RBM4 Protein-tyrosine-phosphatase n=9 Tax=Cyprinin...  387        9e-124
+UniRef90_UPI0010567197 receptor-type tyrosine-protein phosphatase...  392        1e-123
+UniRef90_H2MY92 Protein-tyrosine-phosphatase n=4 Tax=Oryzias lati...  388        1e-123
+UniRef90_A0A1A8C7J4 Protein tyrosine phosphatase, receptor-type, ...  390        1e-123
+UniRef90_UPI0013B3A5BB receptor-type tyrosine-protein phosphatase...  390        1e-123
+UniRef90_UPI0015556388 receptor-type tyrosine-protein phosphatase...  395        1e-123
+UniRef90_UPI000E4121C5 receptor-type tyrosine-protein phosphatase...  386        1e-123
+UniRef90_UPI0007AD4E2E receptor-type tyrosine-protein phosphatase...  388        2e-123
+UniRef90_A0A498MFZ9 Protein-tyrosine-phosphatase n=2 Tax=Labeo ro...  393        2e-123
+UniRef90_UPI000521625F LOW QUALITY PROTEIN: receptor-type tyrosin...  393        2e-123
+UniRef90_UPI000A3BFFFA receptor-type tyrosine-protein phosphatase...  393        3e-123
+UniRef90_G3Q670 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  388        3e-123
+UniRef90_UPI000E1C12B1 receptor-type tyrosine-protein phosphatase...  389        3e-123
+UniRef90_UPI000CD61FF7 receptor-type tyrosine-protein phosphatase...  387        3e-123
+UniRef90_W5NG14 Protein-tyrosine-phosphatase n=4 Tax=Lepisosteus ...  393        3e-123
+UniRef90_UPI00073FF3CB receptor-type tyrosine-protein phosphatase...  390        3e-123
+UniRef90_UPI0011CF42D7 receptor-type tyrosine-protein phosphatase...  393        4e-123
+UniRef90_UPI000CE17B67 receptor-type tyrosine-protein phosphatase...  388        4e-123
+UniRef90_UPI0006707DBF LOW QUALITY PROTEIN: receptor-type tyrosin...  393        4e-123
+UniRef90_UPI000BAA32B2 LOW QUALITY PROTEIN: receptor-type tyrosin...  392        5e-123
+UniRef90_UPI000CE1DB81 receptor-type tyrosine-protein phosphatase...  388        5e-123
+UniRef90_A0A5A9PTB8 Protein-tyrosine-phosphatase n=1 Tax=Triploph...  391        6e-123
+UniRef90_A0A091V0J1 Protein-tyrosine-phosphatase (Fragment) n=7 T...  392        6e-123
+UniRef90_UPI0014031397 receptor-type tyrosine-protein phosphatase...  392        7e-123
+UniRef90_A0A663N7P2 Protein-tyrosine-phosphatase n=11 Tax=Neognat...  392        7e-123
+UniRef90_A0A1V4J8T9 Receptor-type tyrosine-protein phosphatase ze...  392        8e-123
+UniRef90_UPI0007B98781 receptor-type tyrosine-protein phosphatase...  391        8e-123
+UniRef90_UPI000F4F23FD receptor-type tyrosine-protein phosphatase...  387        9e-123
+UniRef90_UPI000D530A25 receptor-type tyrosine-protein phosphatase...  391        1e-122
+UniRef90_F1PGN5 Protein-tyrosine-phosphatase n=1 Tax=Canis lupus ...  391        1e-122
+UniRef90_A0A3B3QFS5 Protein tyrosine phosphatase receptor type Z1...  385        1e-122
+UniRef90_A0A5F4CCI8 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  390        1e-122
+UniRef90_J9NZ52 Protein-tyrosine-phosphatase n=3 Tax=Canidae TaxI...  391        1e-122
+UniRef90_A0A3N0Z355 Protein-tyrosine-phosphatase n=1 Tax=Anabaril...  387        1e-122
+UniRef90_A0A6J3DUD8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  391        1e-122
+UniRef90_A0A669DTD4 Protein-tyrosine-phosphatase n=2 Tax=Oreochro...  386        2e-122
+UniRef90_A0A093CG79 Protein-tyrosine-phosphatase (Fragment) n=2 T...  391        2e-122
+UniRef90_A0A2D0SCU4 Protein-tyrosine-phosphatase n=5 Tax=Ictaluru...  388        2e-122
+UniRef90_UPI0004A4BF4E receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_A0A667Y6Z6 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  384        2e-122
+UniRef90_A0A5F4CYQ1 Protein-tyrosine-phosphatase n=1 Tax=Canis lu...  390        2e-122
+UniRef90_UPI0004A3F97E receptor-type tyrosine-protein phosphatase...  390        2e-122
+UniRef90_UPI001145E884 receptor-type tyrosine-protein phosphatase...  389        2e-122
+UniRef90_A0A5C6PAT9 Receptor-type tyrosine-protein phosphatase ze...  381        2e-122
+UniRef90_A0A5N5NEW4 Protein-tyrosine-phosphatase n=3 Tax=Pangasia...  390        3e-122
+UniRef90_UPI0013963B08 receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_UPI0013F1BBBB receptor-type tyrosine-protein phosphatase...  390        3e-122
+UniRef90_UPI00139616FB receptor-type tyrosine-protein phosphatase...  386        3e-122
+UniRef90_A0A3Q2GVC6 Protein-tyrosine-phosphatase n=1 Tax=Equus ca...  384        4e-122
+UniRef90_X1WET2 Protein-tyrosine-phosphatase (Fragment) n=4 Tax=D...  389        4e-122
+UniRef90_A0A2J8UP78 Protein-tyrosine-phosphatase n=2 Tax=Pongo ab...  386        4e-122
+UniRef90_A0A2K6GLI9 Protein tyrosine phosphatase receptor type Z1...  382        4e-122
+UniRef90_UPI000C9E93D5 receptor-type tyrosine-protein phosphatase...  386        4e-122
+UniRef90_A0A494C1R4 Protein-tyrosine-phosphatase n=32 Tax=Boreoeu...  386        4e-122
+UniRef90_A0A091J6D8 Protein-tyrosine-phosphatase (Fragment) n=4 T...  390        4e-122
+UniRef90_UPI000FFB7F6B receptor-type tyrosine-protein phosphatase...  390        5e-122
+UniRef90_A0A099ZSY9 Protein-tyrosine-phosphatase (Fragment) n=2 T...  390        5e-122
+UniRef90_A0A494C1H9 Protein-tyrosine-phosphatase n=1 Tax=Homo sap...  386        5e-122
+UniRef90_UPI00038C08C9 receptor-type tyrosine-protein phosphatase...  385        5e-122
+UniRef90_G3P1C4 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  390        5e-122
+UniRef90_A0A3B5AGZ9 Protein-tyrosine-phosphatase n=1 Tax=Stegaste...  384        5e-122
+UniRef90_UPI000292B192 receptor-type tyrosine-protein phosphatase...  385        6e-122
+UniRef90_UPI0004BD65F2 receptor-type tyrosine-protein phosphatase...  385        6e-122
+UniRef90_UPI000742A4AE receptor-type tyrosine-protein phosphatase...  388        6e-122
+UniRef90_P23471-3 Isoform 3 of Receptor-type tyrosine-protein pho...  385        6e-122
+UniRef90_UPI000739CBB1 receptor-type tyrosine-protein phosphatase...  385        6e-122
+UniRef90_H3C603 Protein tyrosine phosphatase receptor type Z1a n=...  384        6e-122
+UniRef90_A0A4X1VXJ4 Protein-tyrosine-phosphatase n=3 Tax=Sus scro...  385        7e-122
+UniRef90_B8A5J4 Protein-tyrosine-phosphatase n=5 Tax=Danio rerio ...  383        7e-122
+UniRef90_A0A151PET0 Protein-tyrosine-phosphatase n=2 Tax=Alligato...  381        7e-122
+UniRef90_A0A671QKP8 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  383        8e-122
+UniRef90_A0A2I4C1N2 Protein-tyrosine-phosphatase n=1 Tax=Austrofu...  388        8e-122
+UniRef90_UPI0013F27852 receptor-type tyrosine-protein phosphatase...  385        8e-122
+UniRef90_A0A3Q2TQ14 Protein-tyrosine-phosphatase n=1 Tax=Fundulus...  383        8e-122
+UniRef90_A0A091HYI3 Protein-tyrosine-phosphatase (Fragment) n=3 T...  389        9e-122
+UniRef90_UPI0003441F43 receptor-type tyrosine-protein phosphatase...  385        9e-122
+UniRef90_UPI00034F615E receptor-type tyrosine-protein phosphatase...  385        1e-121
+UniRef90_A0A6J3RX22 receptor-type tyrosine-protein phosphatase ze...  385        1e-121
+UniRef90_UPI0005F55AB2 receptor-type tyrosine-protein phosphatase...  385        1e-121
+UniRef90_UPI0003443A34 receptor-type tyrosine-protein phosphatase...  385        1e-121
+UniRef90_A0A091MWH8 Protein-tyrosine-phosphatase (Fragment) n=2 T...  388        1e-121
+UniRef90_A0A087RGN8 Protein-tyrosine-phosphatase (Fragment) n=1 T...  388        1e-121
+UniRef90_A0A093KBL4 Protein-tyrosine-phosphatase (Fragment) n=10 ...  388        1e-121
+UniRef90_A0A4U5UGK5 Protein-tyrosine-phosphatase n=1 Tax=Collicht...  388        1e-121
+UniRef90_F6ZVL3 Protein-tyrosine-phosphatase n=2 Tax=Monodelphis ...  384        1e-121
+UniRef90_UPI001386F587 receptor-type tyrosine-protein phosphatase...  384        1e-121
+UniRef90_A0A494C036 Protein-tyrosine-phosphatase n=17 Tax=Boreoeu...  385        1e-121
+UniRef90_A0A6J0HGN8 LOW QUALITY PROTEIN: receptor-type tyrosine-p...  388        1e-121
+UniRef90_A0A383ZQD7 Protein-tyrosine-phosphatase n=1 Tax=Balaenop...  384        2e-121
+UniRef90_A0A2U3W896 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  384        2e-121
+UniRef90_UPI001494B48F receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_UPI000B4EADEB receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_A0A6J3AA40 receptor-type tyrosine-protein phosphatase ze...  384        2e-121
+UniRef90_A0A6J2S968 receptor-type tyrosine-protein phosphatase ze...  383        2e-121
+UniRef90_A0A6G1QR34 Protein-tyrosine-phosphatase n=1 Tax=Channa a...  387        2e-121
+UniRef90_A0A3B3C3J5 Protein-tyrosine-phosphatase n=1 Tax=Oryzias ...  388        2e-121
+UniRef90_A0A2Y9RYA1 Protein-tyrosine-phosphatase n=2 Tax=Trichech...  384        2e-121
+UniRef90_UPI00062A61AE receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_A0A674DAM9 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  381        2e-121
+UniRef90_UPI0002BCD4A6 receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_UPI00053F75D8 receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_UPI000E6AEB5F receptor-type tyrosine-protein phosphatase...  384        2e-121
+UniRef90_A0A091G892 Protein-tyrosine-phosphatase (Fragment) n=2 T...  388        2e-121
+UniRef90_UPI0009B4601A receptor-type tyrosine-protein phosphatase...  383        2e-121
+UniRef90_UPI000BBD8916 receptor-type tyrosine-protein phosphatase...  387        2e-121
+UniRef90_UPI0008542699 receptor-type tyrosine-protein phosphatase...  382        2e-121
+UniRef90_A0A3P9A9B1 Protein-tyrosine-phosphatase n=5 Tax=Esox luc...  384        2e-121
+UniRef90_A0A669F7R2 Protein-tyrosine-phosphatase n=2 Tax=Oreochro...  381        3e-121
+UniRef90_UPI000CD5F324 receptor-type tyrosine-protein phosphatase...  386        3e-121
+UniRef90_UPI000F44424F receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI0008147B5B receptor-type tyrosine-protein phosphatase...  386        3e-121
+UniRef90_A0A3P9NMG4 Protein-tyrosine-phosphatase n=20 Tax=Poecili...  387        3e-121
+UniRef90_A0A6J2BIF1 receptor-type tyrosine-protein phosphatase ze...  383        3e-121
+UniRef90_A0A6J2BG65 receptor-type tyrosine-protein phosphatase ze...  383        3e-121
+UniRef90_UPI00094E0569 receptor-type tyrosine-protein phosphatase...  383        3e-121
+UniRef90_UPI000FCD233A receptor-type tyrosine-protein phosphatase...  387        4e-121
+UniRef90_A0A4X2M9U5 Protein-tyrosine-phosphatase n=3 Tax=Metather...  383        4e-121
+UniRef90_A0A2Y9T6E5 Protein-tyrosine-phosphatase n=8 Tax=Cetacea ...  383        4e-121
+UniRef90_UPI0010F59A82 receptor-type tyrosine-protein phosphatase...  383        4e-121
+UniRef90_A0A096MDJ4 Protein-tyrosine-phosphatase n=2 Tax=Poecilia...  386        5e-121
+UniRef90_A0A3M0KAN5 Uncharacterized protein n=1 Tax=Hirundo rusti...  387        5e-121
+UniRef90_UPI00146A3791 receptor-type tyrosine-protein phosphatase...  382        6e-121
+UniRef90_UPI000E1BD5EE receptor-type tyrosine-protein phosphatase...  386        6e-121
+UniRef90_UPI001302039D receptor-type tyrosine-protein phosphatase...  382        6e-121
+UniRef90_B2RXS8 Protein-tyrosine-phosphatase n=8 Tax=Murinae TaxI...  383        6e-121
+UniRef90_A0A672U9T0 Protein-tyrosine-phosphatase n=5 Tax=Psittaci...  386        7e-121
+UniRef90_UPI0014870CC0 receptor-type tyrosine-protein phosphatase...  383        7e-121
+UniRef90_UPI0008131F1D receptor-type tyrosine-protein phosphatase...  382        7e-121
+UniRef90_UPI001471D4CB receptor-type tyrosine-protein phosphatase...  382        8e-121
+UniRef90_UPI000579F7C3 receptor-type tyrosine-protein phosphatase...  382        8e-121
+UniRef90_A0A0Q3PGR3 Receptor-type tyrosine-protein phosphatase ze...  386        8e-121
+UniRef90_UPI000DBC7BE0 receptor-type tyrosine-protein phosphatase...  382        8e-121
+UniRef90_UPI00140F6092 receptor-type tyrosine-protein phosphatase...  382        9e-121
+UniRef90_UPI001155A4E0 receptor-type tyrosine-protein phosphatase...  382        9e-121
+UniRef90_UPI00057A3CD7 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI001155560C receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI0013F2D297 receptor-type tyrosine-protein phosphatase...  382        1e-120
+UniRef90_UPI0003EC0921 receptor-type tyrosine-protein phosphatase...  381        1e-120
+UniRef90_UPI0003EC2A8A receptor-type tyrosine-protein phosphatase...  381        1e-120
+UniRef90_A0A3Q1FR18 Protein-tyrosine-phosphatase n=1 Tax=Acanthoc...  380        1e-120
+UniRef90_UPI0015CFD9B6 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_Q6IRM3 Protein-tyrosine-phosphatase n=3 Tax=Xenopus TaxI...  381        2e-120
+UniRef90_UPI000B541406 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_UPI000846DD08 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_UPI0004ED27A4 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_UPI000E559CF9 receptor-type tyrosine-protein phosphatase...  381        2e-120
+UniRef90_A0A6I9M6M7 receptor-type tyrosine-protein phosphatase ze...  381        2e-120
+UniRef90_I3NGX7 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  381        2e-120
+UniRef90_A0A6G1QU41 Protein-tyrosine-phosphatase n=1 Tax=Channa a...  385        2e-120
+UniRef90_A0A6J2ARY9 receptor-type tyrosine-protein phosphatase ze...  381        3e-120
+UniRef90_A0A286XCJ8 Protein-tyrosine-phosphatase n=1 Tax=Cavia po...  380        3e-120
+UniRef90_A0A6J2MMG8 receptor-type tyrosine-protein phosphatase ze...  381        3e-120
+UniRef90_UPI000FFF9B7E receptor-type tyrosine-protein phosphatase...  381        3e-120
+UniRef90_UPI0015B1C364 receptor-type tyrosine-protein phosphatase...  379        3e-120
+UniRef90_A0A6J2ARH1 receptor-type tyrosine-protein phosphatase ze...  381        3e-120
+UniRef90_A0A091F7Z3 Protein-tyrosine-phosphatase (Fragment) n=20 ...  385        3e-120
+UniRef90_UPI00038C33BF receptor-type tyrosine-protein phosphatase...  385        3e-120
+UniRef90_UPI0011B012DC receptor-type tyrosine-protein phosphatase...  381        3e-120
+UniRef90_UPI0011B0DCE9 receptor-type tyrosine-protein phosphatase...  380        4e-120
+UniRef90_UPI000CE2325A receptor-type tyrosine-protein phosphatase...  384        4e-120
+UniRef90_UPI000904A286 receptor-type tyrosine-protein phosphatase...  380        5e-120
+UniRef90_UPI000B4F964F receptor-type tyrosine-protein phosphatase...  384        5e-120
+UniRef90_UPI000905CCC1 receptor-type tyrosine-protein phosphatase...  380        5e-120
+UniRef90_UPI000CE1CD81 receptor-type tyrosine-protein phosphatase...  383        5e-120
+UniRef90_UPI0004434F18 receptor-type tyrosine-protein phosphatase...  384        6e-120
+UniRef90_UPI0011B8336B receptor-type tyrosine-protein phosphatase...  381        6e-120
+UniRef90_A0A6I8REK8 Protein-tyrosine-phosphatase n=1 Tax=Xenopus ...  380        6e-120
+UniRef90_Q62656-2 Isoform 2 of Receptor-type tyrosine-protein pho...  380        6e-120
+UniRef90_UPI000D535158 receptor-type tyrosine-protein phosphatase...  380        7e-120
+UniRef90_UPI000D5358DA receptor-type tyrosine-protein phosphatase...  380        8e-120
+UniRef90_A0A3S2N1K5 Protein-tyrosine-phosphatase n=2 Tax=Oryzias ...  382        8e-120
+UniRef90_UPI0004D07828 receptor-type tyrosine-protein phosphatase...  379        9e-120
+UniRef90_UPI000F4E8F5E receptor-type tyrosine-protein phosphatase...  382        9e-120
+UniRef90_UPI0009075396 receptor-type tyrosine-protein phosphatase...  379        9e-120
+UniRef90_UPI00129D90C3 receptor-type tyrosine-protein phosphatase...  383        9e-120
+UniRef90_UPI000F5169BF receptor-type tyrosine-protein phosphatase...  377        9e-120
+UniRef90_UPI0007877EB1 receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_G3SUI0 Protein-tyrosine-phosphatase n=3 Tax=Loxodonta af...  383        1e-119
+UniRef90_A0A3B4CW28 Protein-tyrosine-phosphatase n=3 Tax=Pygocent...  378        1e-119
+UniRef90_A0A673G0D5 Protein-tyrosine-phosphatase n=2 Tax=Cyprinin...  375        1e-119
+UniRef90_UPI0004D0A521 receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_UPI00140E500E LOW QUALITY PROTEIN: receptor-type tyrosin...  383        1e-119
+UniRef90_UPI0010FA984D receptor-type tyrosine-protein phosphatase...  377        1e-119
+UniRef90_A0A671VAK4 Protein-tyrosine-phosphatase n=1 Tax=Sparus a...  377        1e-119
+UniRef90_UPI0007879CA3 receptor-type tyrosine-protein phosphatase...  379        1e-119
+UniRef90_A0A4W6DNV9 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  378        1e-119
+UniRef90_A0A671W5U9 Protein-tyrosine-phosphatase n=1 Tax=Sparus a...  376        1e-119
+UniRef90_A0A670IVR0 Protein-tyrosine-phosphatase n=7 Tax=Lacertin...  380        1e-119
+UniRef90_A0A673MZJ7 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  377        1e-119
+UniRef90_UPI001471FF2E receptor-type tyrosine-protein phosphatase...  378        1e-119
+UniRef90_UPI001471BF76 receptor-type tyrosine-protein phosphatase...  378        2e-119
+UniRef90_UPI000643D385 receptor-type tyrosine-protein phosphatase...  381        2e-119
+UniRef90_A0A286ZVC4 Protein-tyrosine-phosphatase n=5 Tax=Sus scro...  382        2e-119
+UniRef90_M3Y668 Protein-tyrosine-phosphatase n=3 Tax=Mustela TaxI...  382        2e-119
+UniRef90_UPI0013874171 receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_G3SHA3 Protein-tyrosine-phosphatase n=48 Tax=Simiiformes...  382        2e-119
+UniRef90_A0A0P6JVS5 Protein-tyrosine-phosphatase n=6 Tax=Heteroce...  382        2e-119
+UniRef90_UPI000739CFD4 receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_UPI0002C662B1 receptor-type tyrosine-protein phosphatase...  382        2e-119
+UniRef90_F6ZRD8 Protein-tyrosine-phosphatase n=5 Tax=Equus TaxID=...  382        2e-119
+UniRef90_A0A2Y9RQ65 Protein-tyrosine-phosphatase n=1 Tax=Trichech...  382        2e-119
+UniRef90_A0A1U7QFT4 Protein-tyrosine-phosphatase n=9 Tax=Cricetin...  378        2e-119
+UniRef90_A0A2Y9I0B4 Protein-tyrosine-phosphatase n=9 Tax=Caniform...  382        3e-119
+UniRef90_P23471 Receptor-type tyrosine-protein phosphatase zeta n...  382        3e-119
+UniRef90_A0A4X1W3G0 Protein-tyrosine-phosphatase n=1 Tax=Sus scro...  382        3e-119
+UniRef90_U3K5R4 Protein tyrosine phosphatase receptor type Z1 n=5...  382        3e-119
+UniRef90_UPI0012F651E6 receptor-type tyrosine-protein phosphatase...  380        3e-119
+UniRef90_UPI0015928BF6 receptor-type tyrosine-protein phosphatase...  382        3e-119
+UniRef90_UPI0007A6DC76 receptor-type tyrosine-protein phosphatase...  378        3e-119
+UniRef90_UPI0010A75802 receptor-type tyrosine-protein phosphatase...  378        3e-119
+UniRef90_UPI0003F0DD8C receptor-type tyrosine-protein phosphatase...  382        3e-119
+UniRef90_A0A383ZQB4 Protein-tyrosine-phosphatase n=3 Tax=Balaenop...  382        3e-119
+UniRef90_A0A2K5R457 Protein-tyrosine-phosphatase n=10 Tax=Cebidae...  381        3e-119
+UniRef90_UPI00085414AA receptor-type tyrosine-protein phosphatase...  380        3e-119
+UniRef90_A0A674DA80 Protein-tyrosine-phosphatase n=6 Tax=Salmonid...  375        3e-119
+UniRef90_UPI0010A7C9A9 receptor-type tyrosine-protein phosphatase...  378        3e-119
+UniRef90_A0A2U3W899 Protein-tyrosine-phosphatase n=1 Tax=Odobenus...  381        4e-119
+UniRef90_A0A1S2ZV54 Protein-tyrosine-phosphatase n=2 Tax=Erinaceu...  378        4e-119
+UniRef90_A0A673VE84 Protein-tyrosine-phosphatase n=14 Tax=Felifor...  381        4e-119
+UniRef90_A0A2K6GLH2 Protein tyrosine phosphatase receptor type Z1...  381        4e-119
+UniRef90_A0A665TU33 Protein tyrosine phosphatase receptor type Z1...  374        5e-119
+UniRef90_A0A2Y9NSP2 Protein-tyrosine-phosphatase n=15 Tax=Odontoc...  381        5e-119
+UniRef90_UPI00063F9BCB receptor-type tyrosine-protein phosphatase...  381        5e-119
+UniRef90_A0A671FI25 Protein-tyrosine-phosphatase n=5 Tax=Rhinolop...  381        5e-119
+UniRef90_UPI00033326CA receptor-type tyrosine-protein phosphatase...  381        5e-119
+UniRef90_A0A5C6NB76 Protein-tyrosine-phosphatase (Fragment) n=1 T...  376        5e-119
+UniRef90_A0A2K5EC70 Protein-tyrosine-phosphatase n=5 Tax=Aotus na...  381        5e-119
+UniRef90_UPI00032902F3 receptor-type tyrosine-protein phosphatase...  381        5e-119
+UniRef90_A0A402EH60 Protein-tyrosine-phosphatase n=2 Tax=Gekkonin...  376        7e-119
+UniRef90_A0A5A9PFB7 Protein-tyrosine-phosphatase n=1 Tax=Triploph...  377        8e-119
+UniRef90_A0A0J9YVD2 Receptor-type tyrosine-protein phosphatase ze...  378        8e-119
+UniRef90_A0A674DBL3 Protein-tyrosine-phosphatase n=1 Tax=Salmo tr...  374        8e-119
+UniRef90_A0A2Y9JY59 Protein-tyrosine-phosphatase n=4 Tax=Mustelid...  380        8e-119
+UniRef90_UPI001016C88C receptor-type tyrosine-protein phosphatase...  380        8e-119
+UniRef90_A0A673V4K7 Protein-tyrosine-phosphatase n=5 Tax=Suricata...  380        1e-118
+UniRef90_UPI000812C09D receptor-type tyrosine-protein phosphatase...  380        1e-118
+UniRef90_UPI0010A1DD4F receptor-type tyrosine-protein phosphatase...  380        1e-118
+UniRef90_UPI00022F51BF receptor-type tyrosine-protein phosphatase...  380        1e-118
+UniRef90_A0A6J0UF71 receptor-type tyrosine-protein phosphatase ze...  378        1e-118
+UniRef90_G3WWI5 Protein-tyrosine-phosphatase n=2 Tax=Sarcophilus ...  380        1e-118
+UniRef90_UPI000351093A LOW QUALITY PROTEIN: receptor-type tyrosin...  380        2e-118
+UniRef90_A0A3B5AVS0 Protein-tyrosine-phosphatase n=5 Tax=Pomacent...  375        2e-118
+UniRef90_UPI000989ECD8 receptor-type tyrosine-protein phosphatase...  380        2e-118
+UniRef90_UPI00101A522A receptor-type tyrosine-protein phosphatase...  380        2e-118
+UniRef90_A0A6I9J9E1 receptor-type tyrosine-protein phosphatase ze...  380        2e-118
+UniRef90_A0A669BP22 Protein-tyrosine-phosphatase n=2 Tax=Pseudocr...  375        2e-118
+UniRef90_F1MGK5 Protein-tyrosine-phosphatase n=23 Tax=Pecora TaxI...  380        2e-118
+UniRef90_A0A667YMG5 Protein-tyrosine-phosphatase n=1 Tax=Myripris...  378        2e-118
+UniRef90_A0A6I9Z0F0 receptor-type tyrosine-protein phosphatase ze...  375        2e-118
+UniRef90_UPI0015CF9787 receptor-type tyrosine-protein phosphatase...  379        2e-118
+UniRef90_A0A452EZJ5 Protein-tyrosine-phosphatase n=2 Tax=Capra hi...  379        2e-118
+UniRef90_UPI00032AD53E receptor-type tyrosine-protein phosphatase...  379        2e-118
+UniRef90_A0A6I9LQP1 receptor-type tyrosine-protein phosphatase ze...  379        2e-118
+UniRef90_A0A6I8QZW2 Protein-tyrosine-phosphatase n=3 Tax=Xenopus ...  379        2e-118
+UniRef90_Q62656 Receptor-type tyrosine-protein phosphatase zeta n...  379        2e-118
+UniRef90_UPI0004ED117E receptor-type tyrosine-protein phosphatase...  379        2e-118
+UniRef90_A0A665ULT1 Protein-tyrosine-phosphatase n=1 Tax=Echeneis...  375        2e-118
+UniRef90_W5QAR6 Protein-tyrosine-phosphatase n=2 Tax=Bovidae TaxI...  379        3e-118
+UniRef90_UPI000696869F receptor-type tyrosine-protein phosphatase...  379        3e-118
+UniRef90_UPI001419E1A8 receptor-type tyrosine-protein phosphatase...  379        3e-118
+UniRef90_A0A3P8QE39 Protein-tyrosine-phosphatase n=3 Tax=Haplochr...  373        3e-118
+UniRef90_A0A1S3FFY5 Protein-tyrosine-phosphatase n=1 Tax=Dipodomy...  379        3e-118
+UniRef90_Q62656-3 Isoform 3 of Receptor-type tyrosine-protein pho...  376        4e-118
+UniRef90_A0A6J2MTY8 receptor-type tyrosine-protein phosphatase ze...  379        4e-118
+UniRef90_F7IRI4 Protein-tyrosine-phosphatase n=4 Tax=Callithrix j...  378        4e-118
+UniRef90_UPI000854E5A4 receptor-type tyrosine-protein phosphatase...  378        4e-118
+UniRef90_UPI00045D8586 receptor-type tyrosine-protein phosphatase...  378        4e-118
+UniRef90_UPI00109F9EA9 LOW QUALITY PROTEIN: receptor-type tyrosin...  378        5e-118
+UniRef90_Q9I909 Protein-tyrosine-phosphatase n=3 Tax=Xenopus laev...  378        5e-118
+UniRef90_A0A1L8GU20 Protein-tyrosine-phosphatase n=2 Tax=Xenopus ...  378        7e-118
+UniRef90_UPI0010A0536F receptor-type tyrosine-protein phosphatase...  376        7e-118
+UniRef90_G1T4Z5 Protein-tyrosine-phosphatase n=4 Tax=Oryctolagus ...  378        7e-118
+UniRef90_I3N8P8 Protein-tyrosine-phosphatase n=1 Tax=Ictidomys tr...  378        8e-118
+UniRef90_UPI000D1856C8 receptor-type tyrosine-protein phosphatase...  378        8e-118
+UniRef90_UPI0007DA7A01 receptor-type tyrosine-protein phosphatase...  373        9e-118
+UniRef90_A0A6J0UDH4 receptor-type tyrosine-protein phosphatase ze...  378        9e-118
+UniRef90_UPI0010FAB432 receptor-type tyrosine-protein phosphatase...  376        1e-117
+UniRef90_A0A1D9CFC8 Protein tyrosine phosphatase receptor-type Z ...  371        1e-117
+UniRef90_A0A401P493 Protein-tyrosine-phosphatase n=1 Tax=Scyliorh...  373        1e-117
+UniRef90_A0A672I989 Protein-tyrosine-phosphatase n=1 Tax=Salarias...  373        1e-117
+UniRef90_UPI000787BD49 receptor-type tyrosine-protein phosphatase...  377        1e-117
+UniRef90_A0A671T2I2 Protein-tyrosine-phosphatase n=8 Tax=Cyprinin...  370        2e-117
+UniRef90_UPI00109FF4E2 receptor-type tyrosine-protein phosphatase...  377        2e-117
+UniRef90_A0A671T3Z7 Protein-tyrosine-phosphatase n=1 Tax=Sinocycl...  370        2e-117
+UniRef90_A0A4V6AN53 Protein-tyrosine-phosphatase n=3 Tax=Sciaenid...  373        2e-117
+UniRef90_UPI0003315AFD receptor-type tyrosine-protein phosphatase...  377        2e-117
+UniRef90_A0A2I4B1N8 Protein-tyrosine-phosphatase n=1 Tax=Austrofu...  373        2e-117
+UniRef90_A0A1A8KB70 Protein-tyrosine-phosphatase n=1 Tax=Nothobra...  372        2e-117
+UniRef90_F6Z7H9 Protein-tyrosine-phosphatase n=6 Tax=Metatheria T...  373        2e-117
+UniRef90_G3Q675 Protein-tyrosine-phosphatase n=1 Tax=Gasterosteus...  376        2e-117
+UniRef90_A0A6I8NGZ9 Protein-tyrosine-phosphatase n=2 Tax=Ornithor...  376        2e-117
+UniRef90_A0A3Q2DJS3 Protein-tyrosine-phosphatase n=7 Tax=Cyprinod...  372        2e-117
+UniRef90_Q9I908 Receptor-type protein tyrosine phosphatase beta.2...  374        2e-117
+UniRef90_M3WUH4 Protein-tyrosine-phosphatase n=1 Tax=Felis catus ...  376        2e-117
+UniRef90_A0A1U7QS69 Protein-tyrosine-phosphatase n=3 Tax=Cricetin...  376        3e-117
+UniRef90_A0A1A7Z242 Protein-tyrosine-phosphatase n=11 Tax=Nothobr...  372        3e-117
+UniRef90_M3WN84 Protein-tyrosine-phosphatase n=1 Tax=Felis catus ...  376        3e-117
+UniRef90_UPI000643D2CD receptor-type tyrosine-protein phosphatase...  376        3e-117
+UniRef90_UPI0006D91439 receptor-type tyrosine-protein phosphatase...  373        3e-117
+UniRef90_UPI0004D0A741 receptor-type tyrosine-protein phosphatase...  376        3e-117
+UniRef90_UPI0004435732 receptor-type tyrosine-protein phosphatase...  372        3e-117
+UniRef90_A0A3Q2Z570 Protein-tyrosine-phosphatase n=1 Tax=Hippocam...  371        3e-117
+UniRef90_UPI00092E67BD LOW QUALITY PROTEIN: receptor-type tyrosin...  376        4e-117
+UniRef90_A0A3Q3A0X0 Protein-tyrosine-phosphatase n=1 Tax=Kryptole...  371        4e-117
+UniRef90_UPI0015C3B638 receptor-type tyrosine-protein phosphatase...  372        4e-117
+UniRef90_UPI000B545EA9 receptor-type tyrosine-protein phosphatase...  374        4e-117
+UniRef90_UPI0007A6B6F2 receptor-type tyrosine-protein phosphatase...  375        5e-117
+UniRef90_A0A3P9NMI0 Protein-tyrosine-phosphatase n=2 Tax=Poecilia...  369        5e-117
+UniRef90_A0A1S3WDW2 Protein-tyrosine-phosphatase n=3 Tax=Erinaceu...  375        6e-117
+UniRef90_UPI00148704B9 receptor-type tyrosine-protein phosphatase...  371        6e-117
+UniRef90_UPI001041F0E4 receptor-type tyrosine-protein phosphatase...  371        6e-117
+UniRef90_A0A1U8DKC5 receptor-type tyrosine-protein phosphatase ze...  375        6e-117
+UniRef90_A0A5F5XYW3 Protein-tyrosine-phosphatase n=1 Tax=Felis ca...  375        7e-117
+UniRef90_A0A3Q1JWI4 Protein-tyrosine-phosphatase n=3 Tax=Anabas t...  371        7e-117
+UniRef90_UPI000981AAD3 receptor-type tyrosine-protein phosphatase...  375        7e-117
+UniRef90_A0A087YHN2 Protein-tyrosine-phosphatase n=5 Tax=Poecilii...  371        7e-117
+UniRef90_Q9WUT8 DSD-1-proteoglycan n=1 Tax=Mus musculus TaxID=100...  373        9e-117
+UniRef90_A0A4W6D8T7 Protein-tyrosine-phosphatase n=1 Tax=Lates ca...  368        1e-116
+UniRef90_A0A3Q3KGT4 Protein-tyrosine-phosphatase n=5 Tax=Monopter...  370        1e-116
+UniRef90_A0A093PL44 Protein-tyrosine-phosphatase (Fragment) n=1 T...  374        1e-116
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.146    0.476    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0447    0.140     1.90     42.6     43.6 
+
+Effective search space used: 471631565286
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

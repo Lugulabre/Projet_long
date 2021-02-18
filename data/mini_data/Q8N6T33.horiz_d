@@ -1,0 +1,41 @@
+DISOPRED predictions for a false positive rate threshold of: 5%
+
+conf: 999999888875100000000000000000000000000000000000000000000000
+pred: ************................................................
+  AA: MASPRTRKVLKEVRVQDENNVCFECGAFNPQWVSVTYGIWICLECSGRHRGLGVHLSFVR
+              10        20        30        40        50        60
+
+conf: 000000000000000000000000000003557888999999888764410000000034
+pred: ..............................*****************.............
+  AA: SVTMDKWKDIELEKMKAGGNAKFREFLESQEDYDPCWSLQEKYNSRAAALFRDKVVALAE
+              70        80        90       100       110       120
+
+conf: 567788888999999888888777777778888888888887766665555666667777
+pred: ************************************************************
+  AA: GREWSLESSPAQNWTPPQPRTLPSMVHRVSGQPQSVTASSDKAFEDWLNDDLGSYQGAQG
+             130       140       150       160       170       180
+
+conf: 777777788888999999999998888877778899999999999999988888889999
+pred: ************************************************************
+  AA: NRYVGFGNTPPPQKKEDDFLNNAMSSLYSGWSSFTTGASRFASAAKEGATKFGSQASQKA
+             190       200       210       220       230       240
+
+conf: 999999999999999999988887778778777777766555543333222222000000
+pred: *******************************************.................
+  AA: SELGHSLNENVLKPAQEKVKEGKIFDDVSSGVSQLASKCQRRLCCHQSHCSAGHLGRAFC
+             250       260       270       280       290       300
+
+conf: 000000000045667788888778765100000000000000000000000000000000
+pred: ...........****************.................................
+  AA: PVSWHEALCGQTGREEQASLLPPKHVVGALEVCARGCPRCHVPHTPGTAAEWPGRLCLSR
+             310       320       330       340       350       360
+
+conf: 1124566754455421000000000000000000000000689
+  AA: ESVVRDGGTSPPFFRGKQRAPWTAPRRATVIRTAVWTTSKTAT
+pred: ....*****..**...........................***
+             370       380       390       400
+
+Asterisks (*) represent disorder predictions and dots (.) 
+prediction of order. The confidence estimates give a rough
+indication of the probability that each residue is disordered.
+

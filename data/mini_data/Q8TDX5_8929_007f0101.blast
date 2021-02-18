@@ -1,0 +1,168 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q8TDX5|ACMSD_HUMAN 2-amino-3-carboxymuconate-6-semialdehyde
+decarboxylase OS=Homo sapiens OX=9606 GN=ACMSD PE=1 SV=1
+
+Length=336
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A444UFK7 Alpha-1,6-mannosyl-glycoprotein 6-beta-N-acet...  483        2e-157
+UniRef90_A0A163MCW5 MFS domain-containing protein n=1 Tax=Didymel...  119        4e-27 
+UniRef90_A0A4U6XE92 Multisubstrate pseudouridine synthase 7 n=2 T...  99.0       4e-20 
+UniRef90_A0A3E2GSX2 Amidohydro-rel domain-containing protein (Fra...  89.4       7e-17 
+UniRef90_B8M1Z2 C6 transcription factor, putative n=1 Tax=Talarom...  79.7       9e-14 
+UniRef90_A0A6A4HYZ4 Amidohydro-rel domain-containing protein n=1 ...  76.3       1e-12 
+UniRef90_K3W0Q5 PKS14 n=8 Tax=Fusarium sambucinum species complex...  75.9       2e-12 
+UniRef90_A0A366S4L5 Uncharacterized protein n=1 Tax=Fusarium coff...  70.9       8e-11 
+UniRef90_A0A6A5JAR8 Carboxypeptidase n=1 Tax=Phytophthora cactoru...  52.4       9e-05 
+UniRef90_A0A0D8D7F7 Carrier domain-containing protein (Fragment) ...  38.1       2.9   
+UniRef90_A0A6A4GT73 CCHC-type domain-containing protein n=1 Tax=G...  37.0       6.1   
+UniRef90_UPI000A1E713D non-ribosomal peptide synthetase n=1 Tax=T...  36.6       8.6   
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 728664609270
+Results from round 2
+
+
+Query= sp|Q8TDX5|ACMSD_HUMAN 2-amino-3-carboxymuconate-6-semialdehyde
+decarboxylase OS=Homo sapiens OX=9606 GN=ACMSD PE=1 SV=1
+
+Length=336
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A444UFK7 Alpha-1,6-mannosyl-glycoprotein 6-beta-N-acet...  409        1e-129
+UniRef90_A0A366S4L5 Uncharacterized protein n=1 Tax=Fusarium coff...  312        7e-94 
+UniRef90_A0A163MCW5 MFS domain-containing protein n=1 Tax=Didymel...  296        2e-88 
+UniRef90_K3W0Q5 PKS14 n=8 Tax=Fusarium sambucinum species complex...  294        2e-87 
+UniRef90_A0A3E2GSX2 Amidohydro-rel domain-containing protein (Fra...  288        2e-85 
+UniRef90_B8M1Z2 C6 transcription factor, putative n=1 Tax=Talarom...  286        5e-85 
+UniRef90_A0A4U6XE92 Multisubstrate pseudouridine synthase 7 n=2 T...  267        3e-78 
+UniRef90_A0A6A4HYZ4 Amidohydro-rel domain-containing protein n=1 ...  261        4e-76 
+UniRef90_A0A6A5JAR8 Carboxypeptidase n=1 Tax=Phytophthora cactoru...  93.7       2e-18 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI00096B381F voltage-dependent calcium channel subunit ...  44.8       0.017
+UniRef90_A0A178U8X0 Uncharacterized protein (Fragment) n=1 Tax=Ar...  42.9       0.087
+UniRef90_A0A2W7KKG3 Glycosyl transferase family 2 n=1 Tax=Humital...  42.1       0.13 
+UniRef90_UPI00064761B2 DUF4781 domain-containing protein n=1 Tax=...  42.1       0.15 
+UniRef90_UPI0015AF7A8E hypothetical protein n=1 Tax=Bacteroidales...  40.2       0.52 
+UniRef90_A0A147GEP6 Peptide synthetase n=3 Tax=Pseudomonas TaxID=...  39.8       0.71 
+UniRef90_E2BWI0 Histone acetyltransferase n=1 Tax=Harpegnathos sa...  39.8       0.73 
+UniRef90_UPI0007120E3C CREB-binding protein isoform X1 n=2 Tax=Di...  39.4       0.93 
+UniRef90_UPI0013F2B20E histone acetyltransferase p300-like isofor...  39.4       1.1  
+UniRef90_A0A4S2KGQ5 Histone acetyltransferase n=1 Tax=Temnothorax...  39.0       1.2  
+UniRef90_A0A395T0U7 Neoverrucotoxin subunit beta n=1 Tax=Fusarium...  39.0       1.3  
+UniRef90_A0A195FCA5 Histone acetyltransferase n=4 Tax=Trachymyrme...  39.0       1.3  
+UniRef90_E2AQY6 Histone acetyltransferase n=1 Tax=Camponotus flor...  39.0       1.4  
+UniRef90_UPI00063F03E6 CREB-binding protein isoform X1 n=3 Tax=Mo...  39.0       1.4  
+UniRef90_UPI000DC67D1C CREB-binding protein isoform X1 n=3 Tax=Ca...  39.0       1.4  
+UniRef90_UPI00063FAFE9 CREB-binding protein isoform X3 n=1 Tax=Mo...  39.0       1.4  
+UniRef90_UPI00063F15A1 CREB-binding protein isoform X4 n=1 Tax=Mo...  39.0       1.4  
+UniRef90_UPI00102E1932 CREB-binding protein isoform X5 n=1 Tax=Mo...  39.0       1.5  
+UniRef90_A0A0J7KNU1 Histone acetyltransferase n=1 Tax=Lasius nige...  39.0       1.5  
+UniRef90_A0A195BPB8 Histone acetyltransferase n=13 Tax=Formicidae...  39.0       1.5  
+UniRef90_A0A195CID4 Histone acetyltransferase n=1 Tax=Cyphomyrmex...  39.0       1.5  
+UniRef90_UPI0010FB0D10 LOW QUALITY PROTEIN: CREB-binding protein-...  39.0       1.5  
+UniRef90_UPI0006238F3F LOW QUALITY PROTEIN: CREB-binding protein ...  38.6       1.6  
+UniRef90_A0A6I9X6G7 LOW QUALITY PROTEIN: histone acetyltransferas...  38.6       1.6  
+UniRef90_A0A6J1PN04 CREB-binding protein isoform X1 n=3 Tax=Temno...  38.6       1.6  
+UniRef90_UPI000595B378 CREB-binding protein isoform X1 n=6 Tax=So...  38.6       1.6  
+UniRef90_UPI0005EFAFF9 CREB-binding protein isoform X1 n=5 Tax=Wa...  38.6       1.6  
+UniRef90_UPI0012F4F160 amino acid adenylation domain-containing p...  38.6       1.6  
+UniRef90_A0A151WR39 Histone acetyltransferase n=1 Tax=Trachymyrme...  38.6       1.6  
+UniRef90_UPI0005F4760A CREB-binding protein-like isoform X1 n=4 T...  38.6       1.6  
+UniRef90_F4WL85 Histone acetyltransferase n=10 Tax=Attini TaxID=1...  38.6       1.7  
+UniRef90_UPI0005963864 CREB-binding protein isoform X6 n=1 Tax=So...  38.6       1.7  
+UniRef90_UPI0008522999 CREB-binding protein n=1 Tax=Cyphomyrmex c...  38.6       1.7  
+UniRef90_A0A6J1PN14 CREB-binding protein isoform X4 n=2 Tax=Formi...  38.6       1.7  
+UniRef90_UPI00084ED030 CREB-binding protein isoform X1 n=5 Tax=Tr...  38.6       1.7  
+UniRef90_UPI00084E9E28 CREB-binding protein isoform X4 n=1 Tax=Tr...  38.6       1.8  
+UniRef90_UPI00084E9B75 CREB-binding protein isoform X3 n=1 Tax=Tr...  38.6       1.8  
+UniRef90_UPI00084C5915 CREB-binding protein isoform X1 n=2 Tax=At...  38.6       1.8  
+UniRef90_UPI000302255E non-ribosomal peptide synthetase n=1 Tax=N...  38.6       1.8  
+UniRef90_A0A195EL67 Histone acetyltransferase n=1 Tax=Trachymyrme...  38.6       1.8  
+UniRef90_A0A158NZI1 Histone acetyltransferase n=1 Tax=Atta cephal...  38.6       1.8  
+UniRef90_UPI00084E7F1C CREB-binding protein isoform X7 n=1 Tax=Tr...  38.6       1.8  
+UniRef90_UPI00084E7844 CREB-binding protein isoform X9 n=1 Tax=Tr...  38.6       1.8  
+UniRef90_UPI00084F687D CREB-binding protein isoform X6 n=1 Tax=Tr...  38.6       1.9  
+UniRef90_UPI00106C7581 NFX1-type zinc finger-containing protein 1...  38.2       2.2  
+UniRef90_A0A1B8AH77 Uncharacterized protein n=2 Tax=Fusarium samb...  38.2       2.4  
+UniRef90_A0A026W1M1 Histone acetyltransferase n=7 Tax=Ooceraea bi...  38.2       2.5  
+UniRef90_A0A3L8D702 Histone acetyltransferase n=1 Tax=Ooceraea bi...  38.2       2.6  
+UniRef90_UPI0002D3BFFC non-ribosomal peptide synthetase n=1 Tax=N...  38.2       2.8  
+UniRef90_K3VIX3 Uncharacterized protein n=6 Tax=Fusarium TaxID=55...  37.8       2.8  
+UniRef90_A0A4R6S0U0 RHH-type proline utilization regulon transcri...  37.8       3.1  
+UniRef90_W9ARV2 Mycocerosic acid synthase n=4 Tax=Mycobacteriacea...  37.5       4.3  
+UniRef90_K6V578 Mycobactin synthetase protein B n=1 Tax=Gordonia ...  37.1       4.9  
+UniRef90_UPI001370D99E amino acid adenylation domain-containing p...  37.1       5.1  
+UniRef90_A0A6P1D6Z2 Amino acid adenylation domain-containing prot...  37.1       5.2  
+UniRef90_UPI00135754F1 amino acid adenylation domain-containing p...  36.7       7.4  
+UniRef90_A0A4R1DH92 Amino acid adenylation domain-containing prot...  36.3       8.4  
+UniRef90_A0A318KBL8 Mycobactin synthetase protein B (Fragment) n=...  36.3       8.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.125    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0383    0.140     1.90     42.6     43.6 
+
+Effective search space used: 728664609270
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

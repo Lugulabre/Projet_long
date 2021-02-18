@@ -1,0 +1,483 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q99700-2|ATX2_HUMAN Isoform 2 of Ataxin-2 OS=Homo sapiens OX=9606
+GN=ATXN2
+
+Length=995
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_Q99700 Ataxin-2 n=3 Tax=Homo sapiens TaxID=9606 RepID=AT...  1968       0.0   
+UniRef90_A0A2J8MYR0 ATXN2 isoform 2 n=2 Tax=Pan troglodytes TaxID...  1963       0.0   
+UniRef90_UPI000D09E9C9 ataxin-2 isoform X8 n=1 Tax=Pan troglodyte...  1961       0.0   
+UniRef90_UPI00136210E7 ataxin-2 isoform X16 n=3 Tax=Hylobates mol...  1934       0.0   
+UniRef90_A0A2J8XKY9 ATXN2 isoform 2 n=2 Tax=Pongo abelii TaxID=96...  1926       0.0   
+UniRef90_UPI0012376A95 ataxin-2 isoform X1 n=4 Tax=Rhinopithecus ...  1867       0.0   
+UniRef90_UPI000E6B2438 ataxin-2 isoform X12 n=6 Tax=Piliocolobus ...  1866       0.0   
+UniRef90_UPI000E6AF8F7 ataxin-2 isoform X10 n=1 Tax=Piliocolobus ...  1866       0.0   
+UniRef90_UPI000E6AF476 ataxin-2 isoform X19 n=1 Tax=Piliocolobus ...  1866       0.0   
+UniRef90_UPI000E6B201C ataxin-2 isoform X7 n=1 Tax=Piliocolobus t...  1865       0.0   
+UniRef90_UPI000E6B0C63 ataxin-2 isoform X21 n=1 Tax=Piliocolobus ...  1865       0.0   
+UniRef90_UPI000E6B2D64 ataxin-2 isoform X5 n=1 Tax=Piliocolobus t...  1865       0.0   
+UniRef90_UPI000E6B2C6F ataxin-2 isoform X6 n=1 Tax=Piliocolobus t...  1865       0.0   
+UniRef90_UPI000E6AE5DF ataxin-2 isoform X9 n=1 Tax=Piliocolobus t...  1864       0.0   
+UniRef90_UPI000E6B1043 ataxin-2 isoform X4 n=1 Tax=Piliocolobus t...  1864       0.0   
+UniRef90_UPI000E6B27E1 ataxin-2 isoform X2 n=1 Tax=Piliocolobus t...  1863       0.0   
+UniRef90_G1QI79 Ataxin 2 n=5 Tax=Hylobatidae TaxID=9577 RepID=G1Q...  1821       0.0   
+UniRef90_H2NIN9 Ataxin 2 n=12 Tax=Euarchontoglires TaxID=314146 R...  1744       0.0   
+UniRef90_A0A2R8Y5A6 Ataxin-2 n=12 Tax=Simiiformes TaxID=314293 Re...  1651       0.0   
+UniRef90_A0A5F9ZHX3 Ataxin-2 n=88 Tax=Boreoeutheria TaxID=1437010...  1642       0.0   
+UniRef90_UPI0010A29256 ataxin-2 isoform X1 n=8 Tax=Macaca mulatta...  1511       0.0   
+UniRef90_UPI0003338F5B ataxin-2 isoform X1 n=5 Tax=Octodon degus ...  1506       0.0   
+UniRef90_A0A2R8ZXS0 LsmAD domain-containing protein n=17 Tax=Euth...  1491       0.0   
+UniRef90_H0WGT4 LsmAD domain-containing protein n=3 Tax=Otolemur ...  1480       0.0   
+UniRef90_A0A5E4ATG0 LsmAD domain-containing protein n=8 Tax=Marmo...  1476       0.0   
+UniRef90_A0A2Y9HRS9 ataxin-2 isoform X3 n=1 Tax=Neomonachus schau...  1472       0.0   
+UniRef90_UPI00080A5FC9 ataxin-2 isoform X1 n=4 Tax=Boreoeutheria ...  1472       0.0   
+UniRef90_H0UW34 Ataxin 2 n=3 Tax=Eutheria TaxID=9347 RepID=H0UW34...  1467       0.0   
+UniRef90_A0A455AHB7 ataxin-2 isoform X5 n=1 Tax=Physeter macrocep...  1462       0.0   
+UniRef90_UPI000E55FCD1 ataxin-2 isoform X1 n=2 Tax=Urocitellus pa...  1459       0.0   
+UniRef90_A0A6D2WBT2 ATXN2 isoform 10 n=4 Tax=Pan TaxID=9596 RepID...  1454       0.0   
+UniRef90_F8VQP2 Ataxin-2 n=4 Tax=Homininae TaxID=207598 RepID=F8V...  1452       0.0   
+UniRef90_A0A2I2Z076 Ataxin 2 n=4 Tax=Gorilla gorilla gorilla TaxI...  1449       0.0   
+UniRef90_A0A2I3LC85 LsmAD domain-containing protein n=226 Tax=Bor...  1448       0.0   
+UniRef90_UPI0013A5FD99 ataxin-2 isoform X8 n=2 Tax=Camelus TaxID=...  1435       0.0   
+UniRef90_A0A2Y9Q374 ataxin-2 isoform X1 n=47 Tax=Laurasiatheria T...  1435       0.0   
+UniRef90_UPI0013A66129 ataxin-2 isoform X4 n=1 Tax=Camelus ferus ...  1434       0.0   
+UniRef90_UPI0013A66FED ataxin-2 isoform X3 n=1 Tax=Camelus ferus ...  1434       0.0   
+UniRef90_A0A2K6PBQ0 Ataxin 2 n=1 Tax=Rhinopithecus roxellana TaxI...  1432       0.0   
+UniRef90_UPI00101712C5 ataxin-2 isoform X1 n=5 Tax=Eumetopias jub...  1431       0.0   
+UniRef90_UPI0013A67B33 ataxin-2 isoform X1 n=6 Tax=Camelus ferus ...  1427       0.0   
+UniRef90_A0A286ZI01 LsmAD domain-containing protein n=28 Tax=Sus ...  1427       0.0   
+UniRef90_UPI0000EBD9B4 ataxin-2 isoform X2 n=1 Tax=Bos taurus Tax...  1426       0.0   
+UniRef90_A0A4W2GKM2 LsmAD domain-containing protein n=2 Tax=Bos T...  1425       0.0   
+UniRef90_A0A4W2I9J6 LsmAD domain-containing protein n=2 Tax=Bos T...  1425       0.0   
+UniRef90_UPI000DBC4A84 ataxin-2 isoform X1 n=4 Tax=Bubalus bubali...  1425       0.0   
+UniRef90_UPI0003841745 ataxin-2 isoform X6 n=1 Tax=Bos indicus x ...  1424       0.0   
+UniRef90_A0A4W2GKG4 LsmAD domain-containing protein n=1 Tax=Bos i...  1424       0.0   
+UniRef90_UPI00101000D2 ataxin-2 isoform X2 n=1 Tax=Ovis aries Tax...  1422       0.0   
+UniRef90_UPI00100F75A0 ataxin-2 isoform X1 n=1 Tax=Ovis aries Tax...  1421       0.0   
+UniRef90_UPI000A2B8A0E ataxin-2 isoform X4 n=1 Tax=Sus scrofa Tax...  1421       0.0   
+UniRef90_UPI000A2B585C ataxin-2 isoform X12 n=1 Tax=Sus scrofa Ta...  1420       0.0   
+UniRef90_UPI000A2B2432 ataxin-2 isoform X5 n=7 Tax=Sus scrofa Tax...  1420       0.0   
+UniRef90_UPI000A2AFA61 ataxin-2 isoform X1 n=2 Tax=Sus scrofa Tax...  1420       0.0   
+UniRef90_A0A4W2C8W3 LsmAD domain-containing protein n=3 Tax=Bos T...  1417       0.0   
+UniRef90_A0A452EB49 LsmAD domain-containing protein n=4 Tax=Capra...  1412       0.0   
+UniRef90_A0A3Q2GYR1 Ataxin 2 n=1 Tax=Equus caballus TaxID=9796 Re...  1411       0.0   
+UniRef90_E1BE88 Ataxin 2 n=18 Tax=Pecora TaxID=35500 RepID=E1BE88...  1404       0.0   
+UniRef90_O70305 Ataxin-2 n=14 Tax=Mus musculus TaxID=10090 RepID=...  1402       0.0   
+UniRef90_UPI001263D928 LOW QUALITY PROTEIN: ataxin-2 n=1 Tax=Came...  1401       0.0   
+UniRef90_A0A6D2YC12 ATXN2 isoform 1 n=4 Tax=Homininae TaxID=20759...  1389       0.0   
+UniRef90_A0A2K6G1R3 LsmAD domain-containing protein n=7 Tax=Lemur...  1384       0.0   
+UniRef90_UPI00027496C3 ataxin-2 n=4 Tax=Boreoeutheria TaxID=14370...  1369       0.0   
+UniRef90_A0A4W2C8Y6 LsmAD domain-containing protein n=18 Tax=Bore...  1352       0.0   
+UniRef90_UPI000697BECF ataxin-2 n=1 Tax=Chinchilla lanigera TaxID...  1350       0.0   
+UniRef90_UPI0003333722 ataxin-2 n=1 Tax=Jaculus jaculus TaxID=513...  1346       0.0   
+UniRef90_UPI000980B9E9 ataxin-2 isoform X9 n=1 Tax=Castor canaden...  1344       0.0   
+UniRef90_UPI000980A80D ataxin-2 isoform X7 n=1 Tax=Castor canaden...  1343       0.0   
+UniRef90_UPI0009812573 ataxin-2 isoform X12 n=10 Tax=Boreoeutheri...  1337       0.0   
+UniRef90_A0A3Q0D3F0 ataxin-2 isoform X1 n=7 Tax=Boreoeutheria Tax...  1308       0.0   
+UniRef90_A0A3Q0D812 ataxin-2 isoform X2 n=10 Tax=Cricetinae TaxID...  1308       0.0   
+UniRef90_UPI0007608EEB ataxin-2 isoform X8 n=2 Tax=Bos TaxID=9903...  1304       0.0   
+UniRef90_UPI0004E47AB9 ataxin-2 isoform X3 n=10 Tax=Rattus TaxID=...  1302       0.0   
+UniRef90_UPI000788E12A ataxin-2 isoform X1 n=1 Tax=Rousettus aegy...  1298       0.0   
+UniRef90_A0A4X1U2H4 LsmAD domain-containing protein n=3 Tax=Euthe...  1288       0.0   
+UniRef90_F7C5U0 Ataxin 2 n=44 Tax=Eutheria TaxID=9347 RepID=F7C5U...  1271       0.0   
+UniRef90_A0A6J0DBB0 ataxin-2 isoform X1 n=6 Tax=Boreoeutheria Tax...  1270       0.0   
+UniRef90_A0A091CVC7 Ataxin-2 n=5 Tax=Boreoeutheria TaxID=1437010 ...  1255       0.0   
+UniRef90_UPI0007EE6C42 ataxin-2 isoform X2 n=9 Tax=Glires TaxID=3...  1251       0.0   
+UniRef90_A0A337S300 Ataxin 2 n=11 Tax=Eutheria TaxID=9347 RepID=A...  1244       0.0   
+UniRef90_A0A337RWY3 Ataxin 2 n=9 Tax=Felidae TaxID=9681 RepID=A0A...  1241       0.0   
+UniRef90_A0A2K5QMQ9 LsmAD domain-containing protein n=1 Tax=Cebus...  1214       0.0   
+UniRef90_A0A151NSD3 Uncharacterized protein n=2 Tax=Alligator mis...  1142       0.0   
+UniRef90_B5DFB6 Atxn2 protein (Fragment) n=21 Tax=Muroidea TaxID=...  1104       0.0   
+UniRef90_F7FFP9 Ataxin 2 n=21 Tax=Amniota TaxID=32524 RepID=F7FFP...  956        0.0   
+UniRef90_A0A3N0YYR7 Non-specific serine/threonine protein kinase ...  717        0.0   
+UniRef90_Q8WWM7-8 Isoform 8 of Ataxin-2-like protein n=27 Tax=Bor...  357        2e-104
+UniRef90_Q8WWM7 Ataxin-2-like protein n=273 Tax=Eutheria TaxID=93...  355        9e-104
+UniRef90_A0A4W2GQA3 LsmAD domain-containing protein n=1 Tax=Bos i...  353        7e-102
+UniRef90_A0A485P425 Ataxin 2-like n=1 Tax=Lynx pardinus TaxID=191...  351        7e-100
+UniRef90_A0A485P484 Ataxin 2-like isoform 5 n=1 Tax=Lynx pardinus...  351        8e-100
+UniRef90_A0A485P378 LsmAD domain-containing protein n=1 Tax=Lynx ...  351        9e-100
+UniRef90_A0A485P047 Ataxin 2-like isoform 7 n=1 Tax=Lynx pardinus...  350        1e-99 
+UniRef90_UPI0014023775 ataxin-2-like isoform X1 n=5 Tax=Petromyzo...  326        3e-92 
+UniRef90_A0A0L7QL66 Ataxin-2-like protein n=1 Tax=Habropoda labor...  198        5e-49 
+UniRef90_A0A2A3ESF8 Ataxin-2 n=2 Tax=Apis cerana TaxID=7461 RepID...  197        5e-49 
+UniRef90_UPI0005EFF559 protein-methionine sulfoxide oxidase Mical...  188        7e-46 
+UniRef90_A0A4S2KN76 LsmAD domain-containing protein n=2 Tax=Myrmi...  186        3e-45 
+UniRef90_A0A6F9DEF8 PERQ amino acid-rich with GYF domain-containi...  184        1e-44 
+UniRef90_A0A0L8H054 LsmAD domain-containing protein n=1 Tax=Octop...  166        3e-39 
+UniRef90_UPI000F66F960 ataxin-2 homolog n=1 Tax=Dermatophagoides ...  140        4e-31 
+UniRef90_A0A226E5R7 Oxysterol-binding protein n=1 Tax=Folsomia ca...  138        2e-30 
+UniRef90_UPI00084AC16E ataxin-2 homolog n=1 Tax=Hyalella azteca T...  113        8e-23 
+UniRef90_A0A261XY39 LsmAD domain-containing protein n=1 Tax=Bifig...  99.8       2e-18 
+UniRef90_A0A1L9UR24 LsmAD domain-containing protein n=15 Tax=Aspe...  88.2       5e-15 
+UniRef90_A0A4U0WUK5 MFS domain-containing protein (Fragment) n=1 ...  86.7       2e-14 
+UniRef90_UPI0015C3F5E9 Pab1 binding protein n=1 Tax=Lasiodiplodia...  84.7       7e-14 
+UniRef90_A0A0B2V2B4 Ataxin-2-like protein n=3 Tax=Toxocara canis ...  80.9       1e-12 
+UniRef90_A0A1Q9DMS1 Ataxin-2-like n=1 Tax=Symbiodinium microadria...  80.5       1e-12 
+UniRef90_A0A4S9XKP8 LsmAD domain-containing protein n=37 Tax=Aure...  75.9       2e-11 
+UniRef90_A0A364KL83 LsmAD domain-containing protein n=1 Tax=Talar...  75.1       5e-11 
+UniRef90_D5GP89 Sox C-terminal domain-containing protein n=4 Tax=...  74.7       7e-11 
+UniRef90_A0A0M3K3W4 LsmAD domain-containing protein n=1 Tax=Anisa...  72.4       4e-10 
+UniRef90_A0A5J5BEU0 LsmAD domain-containing protein n=1 Tax=Nyssa...  71.2       8e-10 
+UniRef90_A0A5C3F1S9 LsmAD domain-containing protein n=2 Tax=Anthr...  70.1       2e-09 
+UniRef90_UPI000BBF0AF7 uncharacterized protein LOC106439347 isofo...  68.9       5e-09 
+UniRef90_A0A4U5R0B4 Lecithin:cholesterol acyltransferase family p...  66.6       2e-08 
+UniRef90_A0A4U6X9Q7 Cytochrome b-c1 complex subunit 2, mitochondr...  64.7       9e-08 
+UniRef90_A0A0G4N032 LsmAD domain-containing protein n=1 Tax=Verti...  62.8       4e-07 
+UniRef90_A0A180GE33 LsmAD domain-containing protein n=2 Tax=Pucci...  58.2       9e-06 
+UniRef90_A0A2P6V2R2 3-ketoacyl-synthase 11-like n=1 Tax=Micractin...  52.4       4e-04 
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.125    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3130395619173
+Results from round 2
+
+
+Query= sp|Q99700-2|ATX2_HUMAN Isoform 2 of Ataxin-2 OS=Homo sapiens OX=9606
+GN=ATXN2
+
+Length=995
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI00136210E7 ataxin-2 isoform X16 n=3 Tax=Hylobates mol...  1106       0.0   
+UniRef90_UPI00080A5FC9 ataxin-2 isoform X1 n=4 Tax=Boreoeutheria ...  1101       0.0   
+UniRef90_UPI000D09E9C9 ataxin-2 isoform X8 n=1 Tax=Pan troglodyte...  1101       0.0   
+UniRef90_A0A2J8XKY9 ATXN2 isoform 2 n=2 Tax=Pongo abelii TaxID=96...  1098       0.0   
+UniRef90_UPI0012376A95 ataxin-2 isoform X1 n=4 Tax=Rhinopithecus ...  1095       0.0   
+UniRef90_UPI000E6B27E1 ataxin-2 isoform X2 n=1 Tax=Piliocolobus t...  1094       0.0   
+UniRef90_UPI000E6B2D64 ataxin-2 isoform X5 n=1 Tax=Piliocolobus t...  1093       0.0   
+UniRef90_UPI000E6B2C6F ataxin-2 isoform X6 n=1 Tax=Piliocolobus t...  1092       0.0   
+UniRef90_Q99700 Ataxin-2 n=3 Tax=Homo sapiens TaxID=9606 RepID=AT...  1091       0.0   
+UniRef90_UPI0003338F5B ataxin-2 isoform X1 n=5 Tax=Octodon degus ...  1087       0.0   
+UniRef90_UPI000E6B2438 ataxin-2 isoform X12 n=6 Tax=Piliocolobus ...  1087       0.0   
+UniRef90_A0A2J8MYR0 ATXN2 isoform 2 n=2 Tax=Pan troglodytes TaxID...  1086       0.0   
+UniRef90_UPI0010A29256 ataxin-2 isoform X1 n=8 Tax=Macaca mulatta...  1085       0.0   
+UniRef90_UPI000E6B1043 ataxin-2 isoform X4 n=1 Tax=Piliocolobus t...  1084       0.0   
+UniRef90_H0WGT4 LsmAD domain-containing protein n=3 Tax=Otolemur ...  1083       0.0   
+UniRef90_UPI000E6AE5DF ataxin-2 isoform X9 n=1 Tax=Piliocolobus t...  1082       0.0   
+UniRef90_UPI000E6B201C ataxin-2 isoform X7 n=1 Tax=Piliocolobus t...  1079       0.0   
+UniRef90_A0A2Y9HRS9 ataxin-2 isoform X3 n=1 Tax=Neomonachus schau...  1078       0.0   
+UniRef90_UPI000E6AF8F7 ataxin-2 isoform X10 n=1 Tax=Piliocolobus ...  1076       0.0   
+UniRef90_A0A5E4ATG0 LsmAD domain-containing protein n=8 Tax=Marmo...  1074       0.0   
+UniRef90_H0UW34 Ataxin 2 n=3 Tax=Eutheria TaxID=9347 RepID=H0UW34...  1073       0.0   
+UniRef90_UPI000E6AF476 ataxin-2 isoform X19 n=1 Tax=Piliocolobus ...  1072       0.0   
+UniRef90_UPI000E6B0C63 ataxin-2 isoform X21 n=1 Tax=Piliocolobus ...  1069       0.0   
+UniRef90_A0A455AHB7 ataxin-2 isoform X5 n=1 Tax=Physeter macrocep...  1064       0.0   
+UniRef90_UPI000A2AFA61 ataxin-2 isoform X1 n=2 Tax=Sus scrofa Tax...  1064       0.0   
+UniRef90_UPI000A2B8A0E ataxin-2 isoform X4 n=1 Tax=Sus scrofa Tax...  1062       0.0   
+UniRef90_A0A286ZI01 LsmAD domain-containing protein n=28 Tax=Sus ...  1062       0.0   
+UniRef90_UPI0013A67B33 ataxin-2 isoform X1 n=6 Tax=Camelus ferus ...  1060       0.0   
+UniRef90_UPI000A2B2432 ataxin-2 isoform X5 n=7 Tax=Sus scrofa Tax...  1059       0.0   
+UniRef90_UPI000E55FCD1 ataxin-2 isoform X1 n=2 Tax=Urocitellus pa...  1058       0.0   
+UniRef90_UPI000A2B585C ataxin-2 isoform X12 n=1 Tax=Sus scrofa Ta...  1057       0.0   
+UniRef90_UPI0013A66FED ataxin-2 isoform X3 n=1 Tax=Camelus ferus ...  1057       0.0   
+UniRef90_UPI0013A66129 ataxin-2 isoform X4 n=1 Tax=Camelus ferus ...  1056       0.0   
+UniRef90_A0A3Q2GYR1 Ataxin 2 n=1 Tax=Equus caballus TaxID=9796 Re...  1055       0.0   
+UniRef90_G1QI79 Ataxin 2 n=5 Tax=Hylobatidae TaxID=9577 RepID=G1Q...  1055       0.0   
+UniRef90_UPI00101712C5 ataxin-2 isoform X1 n=5 Tax=Eumetopias jub...  1054       0.0   
+UniRef90_UPI0013A5FD99 ataxin-2 isoform X8 n=2 Tax=Camelus TaxID=...  1054       0.0   
+UniRef90_A0A2Y9Q374 ataxin-2 isoform X1 n=47 Tax=Laurasiatheria T...  1052       0.0   
+UniRef90_A0A091CVC7 Ataxin-2 n=5 Tax=Boreoeutheria TaxID=1437010 ...  1050       0.0   
+UniRef90_UPI000DBC4A84 ataxin-2 isoform X1 n=4 Tax=Bubalus bubali...  1047       0.0   
+UniRef90_UPI000788E12A ataxin-2 isoform X1 n=1 Tax=Rousettus aegy...  1045       0.0   
+UniRef90_A0A4W2GKG4 LsmAD domain-containing protein n=1 Tax=Bos i...  1043       0.0   
+UniRef90_A0A4W2I9J6 LsmAD domain-containing protein n=2 Tax=Bos T...  1041       0.0   
+UniRef90_UPI0003841745 ataxin-2 isoform X6 n=1 Tax=Bos indicus x ...  1041       0.0   
+UniRef90_UPI0000EBD9B4 ataxin-2 isoform X2 n=1 Tax=Bos taurus Tax...  1041       0.0   
+UniRef90_A0A4W2GKM2 LsmAD domain-containing protein n=2 Tax=Bos T...  1040       0.0   
+UniRef90_UPI00100F75A0 ataxin-2 isoform X1 n=1 Tax=Ovis aries Tax...  1040       0.0   
+UniRef90_UPI00101000D2 ataxin-2 isoform X2 n=1 Tax=Ovis aries Tax...  1040       0.0   
+UniRef90_A0A452EB49 LsmAD domain-containing protein n=4 Tax=Capra...  1037       0.0   
+UniRef90_E1BE88 Ataxin 2 n=18 Tax=Pecora TaxID=35500 RepID=E1BE88...  1034       0.0   
+UniRef90_UPI000697BECF ataxin-2 n=1 Tax=Chinchilla lanigera TaxID...  1027       0.0   
+UniRef90_A0A2I3LC85 LsmAD domain-containing protein n=226 Tax=Bor...  1025       0.0   
+UniRef90_UPI00027496C3 ataxin-2 n=4 Tax=Boreoeutheria TaxID=14370...  1024       0.0   
+UniRef90_UPI001263D928 LOW QUALITY PROTEIN: ataxin-2 n=1 Tax=Came...  1021       0.0   
+UniRef90_A0A2K6G1R3 LsmAD domain-containing protein n=7 Tax=Lemur...  1007       0.0   
+UniRef90_O70305 Ataxin-2 n=14 Tax=Mus musculus TaxID=10090 RepID=...  1004       0.0   
+UniRef90_UPI0009812573 ataxin-2 isoform X12 n=10 Tax=Boreoeutheri...  994        0.0   
+UniRef90_UPI000980A80D ataxin-2 isoform X7 n=1 Tax=Castor canaden...  991        0.0   
+UniRef90_UPI000980B9E9 ataxin-2 isoform X9 n=1 Tax=Castor canaden...  990        0.0   
+UniRef90_A0A151NSD3 Uncharacterized protein n=2 Tax=Alligator mis...  986        0.0   
+UniRef90_A0A2R8ZXS0 LsmAD domain-containing protein n=17 Tax=Euth...  984        0.0   
+UniRef90_A0A2K6PBQ0 Ataxin 2 n=1 Tax=Rhinopithecus roxellana TaxI...  983        0.0   
+UniRef90_UPI0003333722 ataxin-2 n=1 Tax=Jaculus jaculus TaxID=513...  977        0.0   
+UniRef90_H2NIN9 Ataxin 2 n=12 Tax=Euarchontoglires TaxID=314146 R...  970        0.0   
+UniRef90_A0A2R8Y5A6 Ataxin-2 n=12 Tax=Simiiformes TaxID=314293 Re...  961        0.0   
+UniRef90_A0A5F9ZHX3 Ataxin-2 n=88 Tax=Boreoeutheria TaxID=1437010...  953        0.0   
+UniRef90_UPI0004E47AB9 ataxin-2 isoform X3 n=10 Tax=Rattus TaxID=...  933        0.0   
+UniRef90_A0A3Q0D3F0 ataxin-2 isoform X1 n=7 Tax=Boreoeutheria Tax...  925        0.0   
+UniRef90_A0A3Q0D812 ataxin-2 isoform X2 n=10 Tax=Cricetinae TaxID...  924        0.0   
+UniRef90_UPI0007608EEB ataxin-2 isoform X8 n=2 Tax=Bos TaxID=9903...  924        0.0   
+UniRef90_A0A337RWY3 Ataxin 2 n=9 Tax=Felidae TaxID=9681 RepID=A0A...  911        0.0   
+UniRef90_F8VQP2 Ataxin-2 n=4 Tax=Homininae TaxID=207598 RepID=F8V...  910        0.0   
+UniRef90_A0A2K5QMQ9 LsmAD domain-containing protein n=1 Tax=Cebus...  904        0.0   
+UniRef90_A0A337S300 Ataxin 2 n=11 Tax=Eutheria TaxID=9347 RepID=A...  903        0.0   
+UniRef90_A0A6J0DBB0 ataxin-2 isoform X1 n=6 Tax=Boreoeutheria Tax...  898        0.0   
+UniRef90_F7C5U0 Ataxin 2 n=44 Tax=Eutheria TaxID=9347 RepID=F7C5U...  896        0.0   
+UniRef90_A0A6D2WBT2 ATXN2 isoform 10 n=4 Tax=Pan TaxID=9596 RepID...  894        0.0   
+UniRef90_A0A2I2Z076 Ataxin 2 n=4 Tax=Gorilla gorilla gorilla TaxI...  891        0.0   
+UniRef90_A0A4W2C8W3 LsmAD domain-containing protein n=3 Tax=Bos T...  890        0.0   
+UniRef90_UPI0007EE6C42 ataxin-2 isoform X2 n=9 Tax=Glires TaxID=3...  888        0.0   
+UniRef90_A0A6D2YC12 ATXN2 isoform 1 n=4 Tax=Homininae TaxID=20759...  835        0.0   
+UniRef90_A0A4W2C8Y6 LsmAD domain-containing protein n=18 Tax=Bore...  833        0.0   
+UniRef90_A0A4X1U2H4 LsmAD domain-containing protein n=3 Tax=Euthe...  814        0.0   
+UniRef90_B5DFB6 Atxn2 protein (Fragment) n=21 Tax=Muroidea TaxID=...  765        0.0   
+UniRef90_A0A3N0YYR7 Non-specific serine/threonine protein kinase ...  744        0.0   
+UniRef90_F7FFP9 Ataxin 2 n=21 Tax=Amniota TaxID=32524 RepID=F7FFP...  670        0.0   
+UniRef90_UPI0014023775 ataxin-2-like isoform X1 n=5 Tax=Petromyzo...  422        9e-127
+UniRef90_A0A4W2GQA3 LsmAD domain-containing protein n=1 Tax=Bos i...  336        1e-95 
+UniRef90_A0A4S2KN76 LsmAD domain-containing protein n=2 Tax=Myrmi...  338        1e-94 
+UniRef90_Q8WWM7 Ataxin-2-like protein n=273 Tax=Eutheria TaxID=93...  324        2e-92 
+UniRef90_UPI0005EFF559 protein-methionine sulfoxide oxidase Mical...  331        3e-92 
+UniRef90_Q8WWM7-8 Isoform 8 of Ataxin-2-like protein n=27 Tax=Bor...  319        1e-90 
+UniRef90_A0A485P047 Ataxin 2-like isoform 7 n=1 Tax=Lynx pardinus...  321        1e-89 
+UniRef90_A0A485P425 Ataxin 2-like n=1 Tax=Lynx pardinus TaxID=191...  316        1e-87 
+UniRef90_A0A485P484 Ataxin 2-like isoform 5 n=1 Tax=Lynx pardinus...  315        2e-87 
+UniRef90_A0A485P378 LsmAD domain-containing protein n=1 Tax=Lynx ...  309        2e-85 
+UniRef90_A0A2A3ESF8 Ataxin-2 n=2 Tax=Apis cerana TaxID=7461 RepID...  305        3e-84 
+UniRef90_A0A0L7QL66 Ataxin-2-like protein n=1 Tax=Habropoda labor...  293        6e-80 
+UniRef90_A0A0L8H054 LsmAD domain-containing protein n=1 Tax=Octop...  232        5e-60 
+UniRef90_A0A4U5R0B4 Lecithin:cholesterol acyltransferase family p...  231        1e-59 
+UniRef90_A0A4U0WUK5 MFS domain-containing protein (Fragment) n=1 ...  215        2e-54 
+UniRef90_A0A226E5R7 Oxysterol-binding protein n=1 Tax=Folsomia ca...  213        5e-54 
+UniRef90_A0A5J5BEU0 LsmAD domain-containing protein n=1 Tax=Nyssa...  212        1e-53 
+UniRef90_A0A261XY39 LsmAD domain-containing protein n=1 Tax=Bifig...  207        6e-52 
+UniRef90_UPI000F66F960 ataxin-2 homolog n=1 Tax=Dermatophagoides ...  203        8e-51 
+UniRef90_A0A6F9DEF8 PERQ amino acid-rich with GYF domain-containi...  200        6e-50 
+UniRef90_UPI0015C3F5E9 Pab1 binding protein n=1 Tax=Lasiodiplodia...  198        3e-49 
+UniRef90_A0A364KL83 LsmAD domain-containing protein n=1 Tax=Talar...  196        1e-48 
+UniRef90_A0A1Q9DMS1 Ataxin-2-like n=1 Tax=Symbiodinium microadria...  194        6e-48 
+UniRef90_UPI00084AC16E ataxin-2 homolog n=1 Tax=Hyalella azteca T...  188        6e-46 
+UniRef90_A0A180GE33 LsmAD domain-containing protein n=2 Tax=Pucci...  187        1e-45 
+UniRef90_A0A2P6V2R2 3-ketoacyl-synthase 11-like n=1 Tax=Micractin...  182        4e-44 
+UniRef90_D5GP89 Sox C-terminal domain-containing protein n=4 Tax=...  177        1e-42 
+UniRef90_UPI000BBF0AF7 uncharacterized protein LOC106439347 isofo...  175        6e-42 
+UniRef90_A0A1L9UR24 LsmAD domain-containing protein n=15 Tax=Aspe...  161        9e-38 
+UniRef90_A0A0B2V2B4 Ataxin-2-like protein n=3 Tax=Toxocara canis ...  157        1e-36 
+UniRef90_A0A0G4N032 LsmAD domain-containing protein n=1 Tax=Verti...  154        2e-35 
+UniRef90_A0A5C3F1S9 LsmAD domain-containing protein n=2 Tax=Anthr...  151        2e-34 
+UniRef90_A0A4S9XKP8 LsmAD domain-containing protein n=37 Tax=Aure...  147        2e-33 
+UniRef90_A0A0M3K3W4 LsmAD domain-containing protein n=1 Tax=Anisa...  131        2e-28 
+UniRef90_A0A4U6X9Q7 Cytochrome b-c1 complex subunit 2, mitochondr...  123        6e-26 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6L2P9Q7 Uncharacterized protein n=1 Tax=Coptotermes f...  278        3e-75
+UniRef90_A0A6L2LDL3 Polyadenylate-binding protein-interacting pro...  214        3e-54
+UniRef90_A0A4D8ZW69 LsmAD domain-containing protein n=1 Tax=Salvi...  178        6e-43
+UniRef90_A0A2P6U097 3-ketoacyl-synthase 11 isoform A n=1 Tax=Chlo...  176        4e-42
+UniRef90_A0A2T9YUP5 HECT-type E3 ubiquitin transferase n=2 Tax=Ha...  164        1e-38
+UniRef90_A0A0E9NFC8 LsmAD domain-containing protein n=2 Tax=Saito...  158        1e-36
+UniRef90_A0A418B4S1 LsmAD domain-containing protein n=1 Tax=Aphan...  157        2e-36
+UniRef90_A0A4T0FHH4 Alpha-aminoadipate reductase n=1 Tax=Wallemia...  156        5e-36
+UniRef90_E3JV93 LsmAD domain-containing protein n=4 Tax=Puccinia ...  155        1e-35
+UniRef90_G4ZFF8 ANK_REP_REGION domain-containing protein n=1 Tax=...  151        3e-34
+UniRef90_A0A2V1AQ46 Exocyst complex component Sec6 n=1 Tax=[Candi...  150        4e-34
+UniRef90_A0A4T0I0K9 Alpha-aminoadipate reductase n=1 Tax=Wallemia...  141        2e-31
+UniRef90_A0A3M7KTZ9 Very-long-chain 3-oxoacyl-CoA synthase n=2 Ta...  141        3e-31
+UniRef90_A0A2N5VDM9 LsmAD domain-containing protein n=4 Tax=Pucci...  136        6e-30
+UniRef90_A0A4U0VMY8 Endonuclease III homolog n=1 Tax=Rhodotorula ...  136        9e-30
+UniRef90_A0A0L0VH18 LsmAD domain-containing protein n=2 Tax=Pucci...  135        1e-29
+UniRef90_A8JCT6 Predicted protein (Fragment) n=2 Tax=Chlamydomona...  135        2e-29
+UniRef90_A0A3N4LZI0 LsmAD domain-containing protein n=1 Tax=Terfe...  127        4e-27
+UniRef90_A0A484G4G7 Cytochrome b-c1 complex subunit 2 n=1 Tax=Col...  122        1e-25
+UniRef90_A0A4T0IZQ6 SAM_MT_RSMB_NOP domain-containing protein n=1...  120        7e-25
+UniRef90_A0A0L6UWH2 LsmAD domain-containing protein n=1 Tax=Pucci...  120        8e-25
+UniRef90_A0A1V9X9D5 Microtubule-actin cross-linking factor 1-like...  118        4e-24
+UniRef90_UPI000E414E16 zonadhesin-like n=1 Tax=Carassius auratus ...  115        4e-23
+UniRef90_A0A427XUG5 LsmAD domain-containing protein n=1 Tax=Apiot...  109        2e-21
+UniRef90_A0A168D1L1 LsmAD domain protein n=1 Tax=Ascosphaera apis...  108        4e-21
+UniRef90_A0A3M7MRF3 LsmAD domain-containing protein (Fragment) n=...  106        2e-20
+UniRef90_A0A0K6S605 LsmAD domain-containing protein n=2 Tax=Chrom...  105        4e-20
+UniRef90_A0A383VPF7 LsmAD domain-containing protein n=1 Tax=Tetra...  103        1e-19
+UniRef90_UPI000D0A89B2 LOW QUALITY PROTEIN: lysosomal-trafficking...  96.5       2e-17
+UniRef90_A0A4P9Y0H7 LsmAD domain-containing protein n=1 Tax=Pipto...  92.7       2e-16
+UniRef90_A0A267DXV6 Uncharacterized protein n=1 Tax=Macrostomum l...  92.7       2e-16
+UniRef90_A0A4P2R1L2 USP domain-containing protein n=2 Tax=Sorangi...  88.8       5e-15
+UniRef90_UPI00122D9240 protein piccolo isoform X1 n=12 Tax=Hyloba...  86.5       2e-14
+UniRef90_A0A3Q2IF52 Piccolo presynaptic cytomatrix protein n=12 T...  86.5       2e-14
+UniRef90_A0A498LQ72 Ribosome-binding 1-like isoform X1 n=1 Tax=La...  85.0       5e-14
+UniRef90_UPI000C6DF126 histone-lysine N-methyltransferase 2C-like...  85.0       6e-14
+UniRef90_UPI000C6E42C8 histone-lysine N-methyltransferase 2C-like...  85.0       6e-14
+UniRef90_UPI000C6CDEC0 histone-lysine N-methyltransferase 2C-like...  85.0       7e-14
+UniRef90_A0A1I5KKR1 Uncharacterized protein n=1 Tax=Amycolatopsis...  84.6       8e-14
+UniRef90_F0VI22 DEHA2G03652p, related n=2 Tax=Neospora caninum (s...  83.1       2e-13
+UniRef90_G1ME71 Piccolo presynaptic cytomatrix protein n=1 Tax=Ai...  83.1       3e-13
+UniRef90_A0A482SQK5 REJ domain-containing protein (Fragment) n=1 ...  82.7       3e-13
+UniRef90_A0A384BPK5 LOW QUALITY PROTEIN: protein piccolo n=1 Tax=...  81.5       7e-13
+UniRef90_A0A125YIP5 LsmAD domain-containing protein n=15 Tax=Toxo...  80.4       1e-12
+UniRef90_A0A452UP62 Uncharacterized protein n=1 Tax=Ursus maritim...  80.4       2e-12
+UniRef90_A0A673ZM27 Uncharacterized protein n=5 Tax=Salmo TaxID=8...  78.8       4e-12
+UniRef90_A0A267FV83 Uncharacterized protein n=2 Tax=Macrostomum l...  78.8       4e-12
+UniRef90_UPI0010F83391 receptor-type tyrosine-protein phosphatase...  78.8       5e-12
+UniRef90_UPI00112B4CC1 proliferation marker protein Ki-67 isoform...  78.0       7e-12
+UniRef90_UPI0013B41C3B histone-lysine N-methyltransferase 2C-like...  77.3       1e-11
+UniRef90_UPI0001C14696 S-layer homology domain-containing protein...  76.9       2e-11
+UniRef90_A0A2A9MQ80 LsmAD domain-containing protein n=1 Tax=Besno...  76.5       2e-11
+UniRef90_UPI0013F24DCB protein piccolo isoform X5 n=1 Tax=Hylobat...  76.9       2e-11
+UniRef90_G1ME65 Piccolo presynaptic cytomatrix protein n=1 Tax=Ai...  76.9       2e-11
+UniRef90_A0A482S5G9 REJ domain-containing protein n=1 Tax=archaeo...  75.7       4e-11
+UniRef90_Q06852 Cell surface glycoprotein 1 n=3 Tax=Hungateiclost...  75.4       5e-11
+UniRef90_A0A3Q7W690 protein piccolo n=1 Tax=Ursus arctos horribil...  75.4       5e-11
+UniRef90_UPI000840400D hypothetical protein n=1 Tax=Nocardia alta...  75.4       6e-11
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.113    0.298    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0347    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3130395619173
+Results from round 3
+
+
+Query= sp|Q99700-2|ATX2_HUMAN Isoform 2 of Ataxin-2 OS=Homo sapiens OX=9606
+GN=ATXN2
+
+Length=995
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI0012376A95 ataxin-2 isoform X1 n=4 Tax=Rhinopithecus ...  569        0.0   
+UniRef90_A0A2J8XKY9 ATXN2 isoform 2 n=2 Tax=Pongo abelii TaxID=96...  568        0.0   
+UniRef90_UPI0003338F5B ataxin-2 isoform X1 n=5 Tax=Octodon degus ...  558        2e-177
+UniRef90_UPI000E6B0C63 ataxin-2 isoform X21 n=1 Tax=Piliocolobus ...  555        1e-176
+UniRef90_UPI000E6AF476 ataxin-2 isoform X19 n=1 Tax=Piliocolobus ...  555        1e-176
+UniRef90_UPI0010A29256 ataxin-2 isoform X1 n=8 Tax=Macaca mulatta...  555        3e-176
+UniRef90_UPI000E6B2438 ataxin-2 isoform X12 n=6 Tax=Piliocolobus ...  555        6e-176
+UniRef90_UPI000E6AF8F7 ataxin-2 isoform X10 n=1 Tax=Piliocolobus ...  555        9e-176
+UniRef90_Q99700 Ataxin-2 n=3 Tax=Homo sapiens TaxID=9606 RepID=AT...  553        1e-175
+UniRef90_UPI000E6AE5DF ataxin-2 isoform X9 n=1 Tax=Piliocolobus t...  555        1e-175
+UniRef90_UPI000E6B201C ataxin-2 isoform X7 n=1 Tax=Piliocolobus t...  555        1e-175
+UniRef90_UPI000E6B2C6F ataxin-2 isoform X6 n=1 Tax=Piliocolobus t...  555        2e-175
+UniRef90_UPI000E6B1043 ataxin-2 isoform X4 n=1 Tax=Piliocolobus t...  555        2e-175
+UniRef90_UPI000E6B2D64 ataxin-2 isoform X5 n=1 Tax=Piliocolobus t...  555        2e-175
+UniRef90_UPI000E6B27E1 ataxin-2 isoform X2 n=1 Tax=Piliocolobus t...  555        3e-175
+UniRef90_A0A2Y9HRS9 ataxin-2 isoform X3 n=1 Tax=Neomonachus schau...  549        4e-174
+UniRef90_A0A2J8MYR0 ATXN2 isoform 2 n=2 Tax=Pan troglodytes TaxID...  548        8e-174
+UniRef90_UPI000D09E9C9 ataxin-2 isoform X8 n=1 Tax=Pan troglodyte...  548        4e-173
+UniRef90_A0A455AHB7 ataxin-2 isoform X5 n=1 Tax=Physeter macrocep...  546        6e-173
+UniRef90_UPI00136210E7 ataxin-2 isoform X16 n=3 Tax=Hylobates mol...  545        2e-172
+UniRef90_A0A5E4ATG0 LsmAD domain-containing protein n=8 Tax=Marmo...  542        2e-171
+UniRef90_G1QI79 Ataxin 2 n=5 Tax=Hylobatidae TaxID=9577 RepID=G1Q...  540        3e-171
+UniRef90_H0UW34 Ataxin 2 n=3 Tax=Eutheria TaxID=9347 RepID=H0UW34...  541        4e-171
+UniRef90_H0WGT4 LsmAD domain-containing protein n=3 Tax=Otolemur ...  540        7e-171
+UniRef90_UPI000788E12A ataxin-2 isoform X1 n=1 Tax=Rousettus aegy...  539        2e-170
+UniRef90_A0A2I3LC85 LsmAD domain-containing protein n=226 Tax=Bor...  536        6e-169
+UniRef90_UPI00101712C5 ataxin-2 isoform X1 n=5 Tax=Eumetopias jub...  535        9e-169
+UniRef90_A0A2Y9Q374 ataxin-2 isoform X1 n=47 Tax=Laurasiatheria T...  535        1e-168
+UniRef90_UPI0013A5FD99 ataxin-2 isoform X8 n=2 Tax=Camelus TaxID=...  533        3e-168
+UniRef90_UPI0013A66129 ataxin-2 isoform X4 n=1 Tax=Camelus ferus ...  533        4e-168
+UniRef90_UPI0013A66FED ataxin-2 isoform X3 n=1 Tax=Camelus ferus ...  533        5e-168
+UniRef90_UPI000E55FCD1 ataxin-2 isoform X1 n=2 Tax=Urocitellus pa...  532        1e-167
+UniRef90_UPI00080A5FC9 ataxin-2 isoform X1 n=4 Tax=Boreoeutheria ...  530        2e-166
+UniRef90_A0A286ZI01 LsmAD domain-containing protein n=28 Tax=Sus ...  528        5e-166
+UniRef90_A0A4W2GKM2 LsmAD domain-containing protein n=2 Tax=Bos T...  524        2e-165
+UniRef90_UPI0003841745 ataxin-2 isoform X6 n=1 Tax=Bos indicus x ...  524        2e-165
+UniRef90_A0A4W2GKG4 LsmAD domain-containing protein n=1 Tax=Bos i...  524        4e-165
+UniRef90_UPI000DBC4A84 ataxin-2 isoform X1 n=4 Tax=Bubalus bubali...  525        4e-165
+UniRef90_UPI0000EBD9B4 ataxin-2 isoform X2 n=1 Tax=Bos taurus Tax...  524        6e-165
+UniRef90_A0A4W2I9J6 LsmAD domain-containing protein n=2 Tax=Bos T...  524        6e-165
+UniRef90_A0A3Q2GYR1 Ataxin 2 n=1 Tax=Equus caballus TaxID=9796 Re...  524        1e-164
+UniRef90_UPI0013A67B33 ataxin-2 isoform X1 n=6 Tax=Camelus ferus ...  524        2e-164
+UniRef90_E1BE88 Ataxin 2 n=18 Tax=Pecora TaxID=35500 RepID=E1BE88...  522        1e-163
+UniRef90_UPI00101000D2 ataxin-2 isoform X2 n=1 Tax=Ovis aries Tax...  521        1e-163
+UniRef90_UPI00100F75A0 ataxin-2 isoform X1 n=1 Tax=Ovis aries Tax...  521        2e-163
+UniRef90_UPI000A2B585C ataxin-2 isoform X12 n=1 Tax=Sus scrofa Ta...  519        5e-163
+UniRef90_UPI000A2B2432 ataxin-2 isoform X5 n=7 Tax=Sus scrofa Tax...  519        8e-163
+UniRef90_UPI000A2B8A0E ataxin-2 isoform X4 n=1 Tax=Sus scrofa Tax...  519        9e-163
+UniRef90_UPI000A2AFA61 ataxin-2 isoform X1 n=2 Tax=Sus scrofa Tax...  519        1e-162
+UniRef90_A0A452EB49 LsmAD domain-containing protein n=4 Tax=Capra...  515        3e-161
+UniRef90_O70305 Ataxin-2 n=14 Tax=Mus musculus TaxID=10090 RepID=...  514        4e-161
+UniRef90_UPI001263D928 LOW QUALITY PROTEIN: ataxin-2 n=1 Tax=Came...  515        4e-161
+UniRef90_UPI00027496C3 ataxin-2 n=4 Tax=Boreoeutheria TaxID=14370...  509        4e-159
+UniRef90_A0A2K6G1R3 LsmAD domain-containing protein n=7 Tax=Lemur...  507        2e-158
+UniRef90_H2NIN9 Ataxin 2 n=12 Tax=Euarchontoglires TaxID=314146 R...  500        3e-156
+UniRef90_UPI000980B9E9 ataxin-2 isoform X9 n=1 Tax=Castor canaden...  499        2e-155
+UniRef90_UPI000980A80D ataxin-2 isoform X7 n=1 Tax=Castor canaden...  499        2e-155
+UniRef90_UPI0009812573 ataxin-2 isoform X12 n=10 Tax=Boreoeutheri...  493        1e-152
+UniRef90_A0A2R8Y5A6 Ataxin-2 n=12 Tax=Simiiformes TaxID=314293 Re...  485        3e-151
+UniRef90_UPI000697BECF ataxin-2 n=1 Tax=Chinchilla lanigera TaxID...  493        3e-151
+UniRef90_A0A2R8ZXS0 LsmAD domain-containing protein n=17 Tax=Euth...  486        1e-150
+UniRef90_A0A2K6PBQ0 Ataxin 2 n=1 Tax=Rhinopithecus roxellana TaxI...  485        2e-150
+UniRef90_A0A091CVC7 Ataxin-2 n=5 Tax=Boreoeutheria TaxID=1437010 ...  493        6e-150
+UniRef90_UPI0003333722 ataxin-2 n=1 Tax=Jaculus jaculus TaxID=513...  479        2e-148
+UniRef90_A0A5F9ZHX3 Ataxin-2 n=88 Tax=Boreoeutheria TaxID=1437010...  476        6e-148
+UniRef90_A0A3Q0D812 ataxin-2 isoform X2 n=10 Tax=Cricetinae TaxID...  470        6e-146
+UniRef90_A0A3Q0D3F0 ataxin-2 isoform X1 n=7 Tax=Boreoeutheria Tax...  470        6e-146
+UniRef90_UPI0004E47AB9 ataxin-2 isoform X3 n=10 Tax=Rattus TaxID=...  467        4e-145
+UniRef90_A0A2I2Z076 Ataxin 2 n=4 Tax=Gorilla gorilla gorilla TaxI...  463        4e-144
+UniRef90_A0A6D2WBT2 ATXN2 isoform 10 n=4 Tax=Pan TaxID=9596 RepID...  461        3e-143
+UniRef90_UPI0007608EEB ataxin-2 isoform X8 n=2 Tax=Bos TaxID=9903...  462        4e-143
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.104    0.230    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0320    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3130395619173
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

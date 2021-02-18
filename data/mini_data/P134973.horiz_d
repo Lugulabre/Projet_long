@@ -1,0 +1,36 @@
+DISOPRED predictions for a false positive rate threshold of: 5%
+
+conf: 999680010000000000000000014677788899998888887776654200000000
+pred: *****......................***********************..........
+  AA: MPGVARLPLLLGLLLLPRPGRPLDLADYTYDLAEEDDSEPLNYKDPCKAAAFLGDIALDE
+              10        20        30        40        50        60
+
+conf: 134467778888999999999999999999999998888889999999999999999999
+pred: ....********************************************************
+  AA: EDLRAFQVQQAVDLRRHTARKSSIKAAVPGNTSTPSCQSTNGQPQRGACGRWRGRSRSRR
+              70        80        90       100       110       120
+
+conf: 987742200000000000000000000000000000000000000000000000000000
+pred: ****........................................................
+  AA: AATSRPERVWPDGVIPFVIGGNFTGSQRAVFRQAMRHWEKHTCVTFLERTDEDSYIVFTY
+             130       140       150       160       170       180
+
+conf: 000000000000000000000000000000000000000000000000000000000000
+pred: ............................................................
+  AA: RPCGCCSYVGRRGGGPQAISIGKNCDKFGIVVHELGHVVGFWHEHTRPDRDRHVSIVREN
+             190       200       210       220       230       240
+
+conf: 000000000000000000000000000000000000021430022100000001477799
+pred: .......................................................*****
+  AA: IQPGVLHSSLLLLSCGSRNGASFPCSLESSTHQALCWTGLFLRPSPFPRLPLAAPRTLRA
+             250       260       270       280       290       300
+
+conf: 99
+  AA: GV
+pred: **
+      
+
+Asterisks (*) represent disorder predictions and dots (.) 
+prediction of order. The confidence estimates give a rough
+indication of the probability that each residue is disordered.
+

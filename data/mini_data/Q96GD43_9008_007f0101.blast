@@ -1,0 +1,1607 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q96GD4-3|AURKB_HUMAN Isoform 3 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=142
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_Q08DN4 Aurora 1 n=4 Tax=Bos TaxID=9903 RepID=Q08DN4_BOVIN    249        3e-81
+UniRef90_L9KM72 Aurora 1 (Fragment) n=1 Tax=Tupaia chinensis TaxI...  239        1e-71
+UniRef90_UPI000C878CDE uncharacterized protein LOC105304870 n=1 T...  127        3e-32
+UniRef90_A0A6J2F189 uncharacterized protein LOC113936256 n=1 Tax=...  125        8e-32
+UniRef90_D2HQJ1 Uncharacterized protein n=2 Tax=Caniformia TaxID=...  124        3e-31
+UniRef90_V8NU15 Period circadian protein-like 2 (Fragment) n=1 Ta...  124        4e-31
+UniRef90_UPI000F444945 uncharacterized protein LOC113615147 n=1 T...  123        5e-31
+UniRef90_L5MIA6 Zinc finger protein 805 n=2 Tax=Myotis davidii Ta...  119        2e-29
+UniRef90_A0A556TVL0 Transmembrane protein 107 n=1 Tax=Bagarius ya...  117        6e-29
+UniRef90_A0A091DWF2 Zinc finger protein 548 n=2 Tax=Fukomys damar...  111        8e-27
+UniRef90_A0A2D4BHX3 Component of oligomeric Golgi complex 3 n=1 T...  99.4       1e-22
+UniRef90_A0A2A2KM83 Non-specific serine/threonine protein kinase ...  96.3       2e-21
+UniRef90_A0A1I8JDG5 Protein kinase domain-containing protein n=6 ...  94.4       9e-21
+UniRef90_A0A0B7N2K9 Uncharacterized protein n=1 Tax=Parasitella p...  92.4       4e-20
+UniRef90_A0A3M0W5S2 Protein kinase domain-containing protein (Fra...  85.9       7e-18
+UniRef90_F0WVZ3 Non-specific serine/threonine protein kinase (Fra...  85.1       2e-17
+UniRef90_A0A438NIN3 Protein kinase domain-containing protein n=1 ...  82.0       2e-16
+UniRef90_A0A1Q9F2F9 Non-specific serine/threonine protein kinase ...  80.9       4e-16
+UniRef90_UPI001153A2C4 hypothetical protein n=1 Tax=Pyricularia p...  80.1       7e-16
+UniRef90_L7JL74 Protein kinase domain-containing protein n=2 Tax=...  76.3       2e-14
+UniRef90_Q235V0 Non-specific serine/threonine protein kinase n=1 ...  75.9       2e-14
+UniRef90_V2YVG6 Vacuolar protein sorting-associated protein 70 n=...  74.3       8e-14
+UniRef90_A0A1J1J6T1 Non-specific serine/threonine protein kinase ...  71.2       1e-12
+UniRef90_E4XPK6 Non-specific serine/threonine protein kinase n=1 ...  70.9       1e-12
+UniRef90_Q22DW7 Non-specific serine/threonine protein kinase n=1 ...  61.2       3e-09
+UniRef90_A0A2P6TTJ2 Serine threonine kinase n=1 Tax=Chlorella sor...  55.5       3e-07
+UniRef90_A0A0V0QFH0 Non-specific serine/threonine protein kinase ...  55.1       4e-07
+UniRef90_F4PPV7 Protein serine/threonine kinase n=1 Tax=Cavenderi...  54.7       5e-07
+UniRef90_A0A1Y1HN36 Uncharacterized protein n=1 Tax=Klebsormidium...  54.3       9e-07
+UniRef90_A0A1J7HSZ5 Uncharacterized protein n=3 Tax=Lupinus TaxID...  52.4       4e-06
+UniRef90_UPI001182F422 citron Rho-interacting kinase-like isoform...  52.0       4e-06
+UniRef90_UPI00067DFD90 citron Rho-interacting kinase-like n=1 Tax...  52.0       5e-06
+UniRef90_A0A2C9UNJ3 Uncharacterized protein n=9 Tax=Crotonoideae ...  51.6       7e-06
+UniRef90_A0A3S2M395 Uncharacterized protein n=1 Tax=Chilo suppres...  51.6       8e-06
+UniRef90_A0A6A6N0D8 Uncharacterized protein n=2 Tax=Hevea brasili...  51.2       8e-06
+UniRef90_A0A061FV35 Kinase superfamily protein isoform 5 n=15 Tax...  51.2       1e-05
+UniRef90_UPI00084B7668 mucin-4-like n=1 Tax=Hyalella azteca TaxID...  50.8       1e-05
+UniRef90_A0A0L0HVI8 AGC protein kinase n=2 Tax=Spizellomyces TaxI...  50.8       1e-05
+UniRef90_Q24FU4 Non-specific serine/threonine protein kinase n=1 ...  50.4       1e-05
+UniRef90_A0A3Q7HN35 Non-specific serine/threonine protein kinase ...  50.4       2e-05
+UniRef90_A0A1L7B551 Root hair elongation protein n=2 Tax=Marchant...  50.4       2e-05
+UniRef90_A0A4D9CWY9 Non-specific serine/threonine protein kinase ...  50.4       2e-05
+UniRef90_A0A507DXQ2 Microtubule-associated serine/threonine-prote...  50.1       2e-05
+UniRef90_A0A139I066 MICOS complex subunit MIC60 n=1 Tax=Pseudocer...  50.1       2e-05
+UniRef90_M1VID2 RIM15-like serine/threonine kinase n=1 Tax=Cyanid...  50.1       2e-05
+UniRef90_A0A1Y1HQ23 Non-specific serine/threonine protein kinase ...  50.1       2e-05
+UniRef90_A0A498HYU4 Uncharacterized protein n=1 Tax=Malus domesti...  50.1       2e-05
+UniRef90_UPI0007AF97E5 probable serine/threonine protein kinase I...  50.1       2e-05
+UniRef90_A0A498KFY0 Uncharacterized protein n=5 Tax=Magnoliopsida...  50.1       2e-05
+UniRef90_UPI00053C8025 probable serine/threonine protein kinase I...  50.1       3e-05
+UniRef90_A0A444U6E0 Polo-like kinase 4 n=1 Tax=Acipenser ruthenus...  49.7       3e-05
+UniRef90_A0A2K1IH11 Uncharacterized protein n=2 Tax=Physcomitrium...  49.7       3e-05
+UniRef90_A0A2P6VAV9 Protein kinase domain-containing protein n=1 ...  49.7       3e-05
+UniRef90_A0A445D1U0 Uncharacterized protein n=13 Tax=Magnoliopsid...  49.7       3e-05
+UniRef90_A0A3Q7FSI1 Uncharacterized protein n=5 Tax=Solanum subge...  49.7       3e-05
+UniRef90_A0A152A4U5 Protein serine/threonine kinase n=1 Tax=Tiegh...  49.7       3e-05
+UniRef90_UPI00103BB0CE citron Rho-interacting kinase-like n=1 Tax...  49.7       4e-05
+UniRef90_UPI0011E03EF5 LOW QUALITY PROTEIN: probable serine/threo...  49.3       4e-05
+UniRef90_UPI000B3978ED citron Rho-interacting kinase-like n=1 Tax...  49.3       4e-05
+UniRef90_A0A2A4JCK2 Uncharacterized protein (Fragment) n=1 Tax=He...  49.3       4e-05
+UniRef90_A0A088RVQ7 Non-specific serine/threonine protein kinase ...  48.9       5e-05
+UniRef90_A0A4D9AVU5 Uncharacterized protein n=2 Tax=Salvia splend...  48.9       6e-05
+UniRef90_A0A0K9QER6 Uncharacterized protein n=3 Tax=Chenopodioide...  48.9       6e-05
+UniRef90_A0A553PCL2 Protein kinase domain-containing protein n=1 ...  48.9       6e-05
+UniRef90_F4J6F6 Probable serine/threonine protein kinase IREH1 n=...  48.5       7e-05
+UniRef90_A0A2V0NLQ5 Serine threonine kinase-like n=1 Tax=Raphidoc...  48.9       7e-05
+UniRef90_A0A3Q7H094 Uncharacterized protein n=9 Tax=Solanaceae Ta...  48.5       7e-05
+UniRef90_A0A067NYX1 Serine/threonine protein kinase RIM15 n=1 Tax...  48.5       7e-05
+UniRef90_A0A2J6LYV8 Uncharacterized protein n=2 Tax=Lactuca sativ...  48.5       7e-05
+UniRef90_K7LEH0 Uncharacterized protein n=10 Tax=Phaseoleae TaxID...  48.5       7e-05
+UniRef90_A0A5N6RTY1 Uncharacterized protein n=1 Tax=Carpinus fang...  48.5       7e-05
+UniRef90_A0A2G2ZC05 Putative serine/threonine protein kinase IRE3...  48.5       7e-05
+UniRef90_A0A2K1IRA5 Uncharacterized protein n=2 Tax=Physcomitrium...  48.5       8e-05
+UniRef90_A0A218VQ48 Uncharacterized protein n=1 Tax=Punica granat...  48.5       8e-05
+UniRef90_A0A443RKJ0 Serine/threonine protein kinase-like protein ...  48.5       8e-05
+UniRef90_UPI000C1D7CCE probable serine/threonine protein kinase I...  48.5       8e-05
+UniRef90_A0A3Q0F5Y0 probable serine/threonine protein kinase IREH...  48.5       8e-05
+UniRef90_UPI000C789889 uncharacterized protein LOC111711765 isofo...  48.5       8e-05
+UniRef90_A0A329T517 Uncharacterized protein n=1 Tax=Phytophthora ...  48.5       9e-05
+UniRef90_A0A1S4BIC3 probable serine/threonine protein kinase IREH...  48.5       9e-05
+UniRef90_W9QJ88 Putative serine/threonine-protein kinase n=2 Tax=...  48.5       9e-05
+UniRef90_UPI000901B4A6 probable serine/threonine protein kinase I...  48.5       9e-05
+UniRef90_A0A3Q0FAD8 probable serine/threonine protein kinase IREH...  48.1       9e-05
+UniRef90_UPI000C1D51DA probable serine/threonine protein kinase I...  48.1       1e-04
+UniRef90_A0A177VAC5 Uncharacterized protein n=2 Tax=Tilletia TaxI...  48.1       1e-04
+UniRef90_F4PVM5 Protein serine/threonine kinase n=1 Tax=Cavenderi...  48.1       1e-04
+UniRef90_A0A2Z7B6J7 Uncharacterized protein n=1 Tax=Dorcoceras hy...  48.1       1e-04
+UniRef90_A0A2K1K868 Uncharacterized protein n=4 Tax=Physcomitrium...  48.1       1e-04
+UniRef90_I7ME14 Non-specific serine/threonine protein kinase n=1 ...  48.1       1e-04
+UniRef90_A0A2P2MIL4 Uncharacterized protein MANES_14G172600 n=3 T...  48.1       1e-04
+UniRef90_UPI000C1D56DD probable serine/threonine protein kinase I...  48.1       1e-04
+UniRef90_A0A1U8AQJ9 probable serine/threonine protein kinase IREH...  48.1       1e-04
+UniRef90_W1NZ40 Uncharacterized protein n=4 Tax=Amborella trichop...  48.1       1e-04
+UniRef90_A0A328DDW3 Uncharacterized protein n=3 Tax=Cuscuta sect....  48.1       1e-04
+UniRef90_D3BAM4 Protein serine/threonine kinase n=1 Tax=Polysphon...  48.1       1e-04
+UniRef90_UPI000CE21C33 LOW QUALITY PROTEIN: probable serine/threo...  48.1       1e-04
+UniRef90_A0A2G2WQ68 Putative serine/threonine protein kinase IRE3...  48.1       1e-04
+UniRef90_A0A067L7C1 Uncharacterized protein n=1 Tax=Jatropha curc...  48.1       1e-04
+UniRef90_A0A068TQV3 Uncharacterized protein n=5 Tax=Coffea TaxID=...  47.8       1e-04
+UniRef90_A0A507CLN7 Microtubule-associated serine/threonine-prote...  47.8       1e-04
+UniRef90_A0A2L2YXY1 Protein kinase domain-containing protein (Fra...  45.8       1e-04
+UniRef90_A0A1B1DYW3 Non-specific serine/threonine protein kinase ...  47.8       1e-04
+UniRef90_A0A2K1IMA3 Uncharacterized protein n=2 Tax=Physcomitrium...  47.8       1e-04
+UniRef90_UPI00125E90E6 probable serine/threonine protein kinase I...  47.8       1e-04
+UniRef90_A0A1D6L1R5 Putative serine/threonine protein kinase IREH...  47.8       1e-04
+UniRef90_A0A0K9PAT1 Putative Kinase n=1 Tax=Zostera marina TaxID=...  47.8       1e-04
+UniRef90_M5WSV3 Uncharacterized protein n=18 Tax=fabids TaxID=918...  47.8       1e-04
+UniRef90_A0A177UDZ1 Uncharacterized protein n=2 Tax=Tilletia TaxI...  47.8       1e-04
+UniRef90_A0A507FEJ5 Uncharacterized protein n=1 Tax=Chytriomyces ...  47.8       1e-04
+UniRef90_A0A507C099 Uncharacterized protein n=1 Tax=Synchytrium m...  47.8       1e-04
+UniRef90_W5JQH6 Polo-like kinase 4 n=1 Tax=Anopheles darlingi Tax...  47.8       1e-04
+UniRef90_A0A498I4U4 Uncharacterized protein n=1 Tax=Malus domesti...  47.8       1e-04
+UniRef90_A0A498M121 Polo-like kinase 4 n=1 Tax=Labeo rohita TaxID...  47.8       1e-04
+UniRef90_A0A081CJR3 Protein kinase C n=3 Tax=Moesziomyces TaxID=6...  47.8       2e-04
+UniRef90_UPI000EF7E81A citron Rho-interacting kinase-like n=1 Tax...  47.8       2e-04
+UniRef90_A0A3Q0J4F5 Non-specific serine/threonine protein kinase ...  47.8       2e-04
+UniRef90_D8S980 Uncharacterized protein (Fragment) n=6 Tax=Selagi...  47.4       2e-04
+UniRef90_A0A2G3A2Y0 probable serine/threonine protein kinase IREH...  47.8       2e-04
+UniRef90_UPI0015DFEFDD citron rho-interacting kinase-like isoform...  47.8       2e-04
+UniRef90_A0A328D6I7 Uncharacterized protein n=2 Tax=Cuscuta sect....  47.4       2e-04
+UniRef90_A0A087HDV2 E3 ubiquitin ligase n=1 Tax=Arabis alpina Tax...  47.4       2e-04
+UniRef90_A0A078J4V1 BnaA01g36900D protein n=25 Tax=Brassicaceae T...  47.4       2e-04
+UniRef90_UPI000644EA85 hypothetical protein n=1 Tax=Acytostelium ...  47.4       2e-04
+UniRef90_A0A2P6P1R5 Uncharacterized protein n=5 Tax=Rosoideae Tax...  47.4       2e-04
+UniRef90_A0A368SFL0 Uncharacterized protein n=8 Tax=PACMAD clade ...  47.4       2e-04
+UniRef90_UPI000D62CA01 probable serine/threonine protein kinase I...  47.4       2e-04
+UniRef90_A0A4S8N039 Uncharacterized protein n=1 Tax=Dendrothele b...  47.4       2e-04
+UniRef90_A0A0D9VY43 Protein kinase domain-containing protein n=8 ...  47.4       2e-04
+UniRef90_A0A443SW44 Serine/threonine protein kinase-like protein ...  47.4       2e-04
+UniRef90_A0A5B8MR44 cGMP-dependent protein kinase n=1 Tax=Chlorop...  47.4       2e-04
+UniRef90_A0A251RT06 Uncharacterized protein n=2 Tax=Helianthus an...  47.4       2e-04
+UniRef90_A0A099P2D6 alpha-1,2-Mannosidase n=3 Tax=Pichia kudriavz...  47.4       2e-04
+UniRef90_A0A6A3C946 Putative serine/threonine protein kinase IRE3...  47.4       2e-04
+UniRef90_A0A2G2X6A6 Putative serine/threonine protein kinase IRE ...  47.4       2e-04
+UniRef90_G7E3J5 Uncharacterized protein n=1 Tax=Mixia osmundae (s...  47.4       2e-04
+UniRef90_A0A3B6IK20 Uncharacterized protein n=5 Tax=Triticum TaxI...  47.4       2e-04
+UniRef90_A0A4D9AUG0 Uncharacterized protein n=2 Tax=Salvia splend...  47.4       2e-04
+UniRef90_UPI000C04225C probable serine/threonine protein kinase I...  47.4       2e-04
+UniRef90_A0A371DSN2 Uncharacterized protein n=2 Tax=Polyporus Tax...  47.4       2e-04
+UniRef90_A0A2U1MG53 Protein kinase superfamily protein n=2 Tax=An...  47.4       2e-04
+UniRef90_A0A5A7R8W1 Kinase n=1 Tax=Striga asiatica TaxID=4170 Rep...  47.4       2e-04
+UniRef90_A0A6A1VH67 Uncharacterized protein n=1 Tax=Morella rubra...  47.4       2e-04
+UniRef90_A0A0E0KI56 Uncharacterized protein n=4 Tax=Oryza punctat...  47.4       2e-04
+UniRef90_B9T5A7 Kinase, putative n=1 Tax=Ricinus communis TaxID=3...  47.4       2e-04
+UniRef90_A0A507FDM1 Uncharacterized protein n=1 Tax=Chytriomyces ...  47.4       2e-04
+UniRef90_A0A520R6Z4 Non-specific serine/threonine protein kinase ...  47.4       2e-04
+UniRef90_A0A118K4F1 Protein kinase, catalytic domain-containing p...  47.4       2e-04
+UniRef90_Q10E10 Os03g0711800 protein n=24 Tax=Oryza TaxID=4527 Re...  47.4       2e-04
+UniRef90_A0A5N6N9L0 Uncharacterized protein n=1 Tax=Mikania micra...  47.4       2e-04
+UniRef90_A0A6J1C754 probable serine/threonine protein kinase IREH...  47.4       2e-04
+UniRef90_A0A0N4ZC60 Protein kinase domain-containing protein n=1 ...  47.4       2e-04
+UniRef90_A0A1E5UQM1 Putative serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_A0A1U8I5C0 probable serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_A0A6I9TJI4 probable serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_UPI001263933B probable serine/threonine protein kinase I...  47.0       2e-04
+UniRef90_A0A2I4EVM1 probable serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_W6ZY04 Non-specific serine/threonine protein kinase n=1 ...  47.0       2e-04
+UniRef90_I1GP76 Uncharacterized protein n=34 Tax=Pooideae TaxID=1...  47.0       2e-04
+UniRef90_A0A6A3A206 Putative serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_A0A2P5CHC3 cGMP-dependent kinase n=2 Tax=Cannabaceae Tax...  47.0       2e-04
+UniRef90_A0A4Y7JK31 Uncharacterized protein n=2 Tax=Papaver somni...  47.0       2e-04
+UniRef90_A0A1Q0ZG94 Serine/threonine-protein kinase AtPK1/AtPK6 n...  47.0       2e-04
+UniRef90_A0A072UB59 AGC family Serine/Threonine kinase family pro...  47.0       2e-04
+UniRef90_A0A2G9HMG2 Microtubule-associated serine/threonine kinas...  47.0       2e-04
+UniRef90_A0A2I0WMJ8 Serine/threonine-protein kinase n=4 Tax=Epide...  47.0       2e-04
+UniRef90_A0A2I4GAK0 probable serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_A0A394DKQ8 Uncharacterized protein n=5 Tax=Lupinus TaxID...  47.0       2e-04
+UniRef90_A0A1D1Y8I9 Putative serine/threonine-protein kinase DDB_...  47.0       2e-04
+UniRef90_UPI0003D7374B probable serine/threonine protein kinase I...  47.0       2e-04
+UniRef90_A0A2H3WXQ8 probable serine/threonine protein kinase IREH...  47.0       2e-04
+UniRef90_A0A5P1FEJ5 Uncharacterized protein n=2 Tax=Asparagus off...  47.0       3e-04
+UniRef90_A0A2U3EJY5 Uncharacterized protein n=1 Tax=Purpureocilli...  47.0       3e-04
+UniRef90_A0A1U8B620 probable serine/threonine protein kinase IREH...  47.0       3e-04
+UniRef90_A0A261Y0X6 Uncharacterized protein n=1 Tax=Bifiguratus a...  47.0       3e-04
+UniRef90_F6GSP4 Uncharacterized protein n=12 Tax=Vitis TaxID=3603...  47.0       3e-04
+UniRef90_A2XLA4 Uncharacterized protein n=2 Tax=Oryza TaxID=4527 ...  47.0       3e-04
+UniRef90_A0A5B7AF07 Putative serine/threonine protein kinase IREH...  47.0       3e-04
+UniRef90_A0A166I945 Uncharacterized protein n=2 Tax=Daucus carota...  47.0       3e-04
+UniRef90_A0A0D2X5R8 Protein kinase C n=2 Tax=Capsaspora owczarzak...  47.0       3e-04
+UniRef90_A0A5A8E904 Uncharacterized protein n=4 Tax=Cafeteria roe...  47.0       3e-04
+UniRef90_A0A640KIT4 Non-specific serine/threonine protein kinase ...  47.0       3e-04
+UniRef90_A0A3S3MC86 Putative serine/threonine protein kinase IREH...  47.0       3e-04
+UniRef90_UPI0014257A9C citron Rho-interacting kinase-like n=1 Tax...  47.0       3e-04
+UniRef90_A0A2I0ADC7 Serine/threonine-protein kinase n=1 Tax=Apost...  47.0       3e-04
+UniRef90_UPI0011D1AAE2 probable serine/threonine protein kinase I...  47.0       3e-04
+UniRef90_A0A654EI27 Protein kinase domain-containing protein n=5 ...  47.0       3e-04
+UniRef90_A0A4S4DX70 Uncharacterized protein n=2 Tax=Camellia sine...  47.0       3e-04
+UniRef90_F4HYG2 Probable serine/threonine protein kinase IRE3 n=3...  47.0       3e-04
+UniRef90_A0A200QLB1 Protein kinase domain n=1 Tax=Macleaya cordat...  47.0       3e-04
+UniRef90_A0A2H5RWW0 Serine threonine protein kinase n=5 Tax=Rhizo...  47.0       3e-04
+UniRef90_A0A4S8IBB4 Protein kinase domain-containing protein n=2 ...  47.0       3e-04
+UniRef90_A0A517NMN7 Non-specific serine/threonine protein kinase ...  47.0       3e-04
+UniRef90_A0A059AUZ3 Uncharacterized protein n=3 Tax=Eucalyptus gr...  47.0       3e-04
+UniRef90_A0A5J5BKT0 Uncharacterized protein n=1 Tax=Nyssa sinensi...  46.6       3e-04
+UniRef90_A0A443NXM6 Putative serine/threonine protein kinase IREH...  46.6       3e-04
+UniRef90_M0TGB7 Uncharacterized protein n=3 Tax=Musa TaxID=4640 R...  46.6       3e-04
+UniRef90_A0A1U8L4B8 probable serine/threonine protein kinase IREH...  46.6       3e-04
+UniRef90_A0A2R6QHN1 Serine/threonine protein kinase n=1 Tax=Actin...  46.6       3e-04
+UniRef90_A0A1Y5I3W7 15-cis-phytoene desaturase, chloroplastic/chr...  46.6       3e-04
+UniRef90_A0A2I0W2U8 Serine/threonine-protein kinase n=6 Tax=Dendr...  46.6       3e-04
+UniRef90_A0A397J4D2 Uncharacterized protein n=1 Tax=Diversispora ...  46.6       3e-04
+UniRef90_A0A2H3YQT7 probable serine/threonine protein kinase IREH...  46.6       3e-04
+UniRef90_A0A1S8BJL8 Serine/threonine-protein kinase RIM15 n=2 Tax...  46.6       3e-04
+UniRef90_A0A6A6BR68 Uncharacterized protein n=1 Tax=Aplosporella ...  46.6       3e-04
+UniRef90_UPI000C6DF59A serine/threonine-protein kinase AKL1-like ...  46.6       3e-04
+UniRef90_A0A136JEB0 Uncharacterized protein n=1 Tax=Microdochium ...  46.6       4e-04
+UniRef90_UPI0015C3EF8D PAS domain-containing protein n=1 Tax=Lasi...  46.6       4e-04
+UniRef90_K2S5R1 PAS domain-containing protein n=2 Tax=Botryosphae...  46.6       4e-04
+UniRef90_D6RMI0 AGC/NDR protein kinase n=1 Tax=Coprinopsis cinere...  46.6       4e-04
+UniRef90_A0A336LTH7 CSON004354 protein n=1 Tax=Culicoides sonoren...  46.6       4e-04
+UniRef90_A0A0J8B5G8 Uncharacterized protein n=1 Tax=Beta vulgaris...  46.6       4e-04
+UniRef90_A0A507DBU0 Uncharacterized protein n=2 Tax=Synchytrium e...  46.6       4e-04
+UniRef90_A0A1S3B6M3 probable serine/threonine protein kinase IREH...  46.6       4e-04
+UniRef90_A0A1V9ZRJ8 Kinase n=1 Tax=Thraustotheca clavata TaxID=74...  46.6       4e-04
+UniRef90_A0A078B242 Protein kinase domain containing protein n=1 ...  46.6       4e-04
+UniRef90_F0ZY26 Uncharacterized protein n=1 Tax=Dictyostelium pur...  46.6       4e-04
+UniRef90_A0A6G1SQ46 NUAK family SNF1-like kinase 1 n=1 Tax=Aceria...  46.6       4e-04
+UniRef90_A0A087X4E6 Polo-like kinase 4 n=2 Tax=Poecilia formosa T...  46.2       4e-04
+UniRef90_A0A0V0QDT9 Non-specific serine/threonine protein kinase ...  46.2       4e-04
+UniRef90_A0A077R8X6 Protein kinase C n=1 Tax=Melanopsichium penns...  46.2       4e-04
+UniRef90_A0A2P6NKC1 Uncharacterized protein n=1 Tax=Planoprotoste...  46.2       4e-04
+UniRef90_A0A1I8CVK2 Protein kinase domain-containing protein n=1 ...  46.2       4e-04
+UniRef90_A0A1S2Z0B2 probable serine/threonine protein kinase IREH...  46.2       5e-04
+UniRef90_A0A6J2U316 uncharacterized protein LOC115629250 n=1 Tax=...  46.2       5e-04
+UniRef90_M5XSA9 Protein kinase domain-containing protein (Fragmen...  46.2       5e-04
+UniRef90_B6JV54 AGC protein kinase Ppk18 n=1 Tax=Schizosaccharomy...  46.2       5e-04
+UniRef90_A0A1W0A2P1 Kinase (Fragment) n=1 Tax=Thraustotheca clava...  46.2       5e-04
+UniRef90_A0A1V8SYK7 Uncharacterized protein n=3 Tax=Rachicladospo...  46.2       5e-04
+UniRef90_A0A6A1W8B9 Protein kinase domain-containing protein n=1 ...  46.2       5e-04
+UniRef90_M2LHF8 Uncharacterized protein n=1 Tax=Baudoinia panamer...  46.2       5e-04
+UniRef90_A0A0D1Y690 Uncharacterized protein n=1 Tax=Exophiala sid...  46.2       5e-04
+UniRef90_A0A3M0VXU5 Uncharacterized protein (Fragment) n=2 Tax=un...  46.2       5e-04
+UniRef90_A0A167W403 Serine/threonine-protein kinase domain protei...  46.2       6e-04
+UniRef90_A0A165XBM1 Uncharacterized protein n=1 Tax=Daucus carota...  46.2       6e-04
+UniRef90_B7PZ91 Serine/threonine protein kinase, putative n=7 Tax...  45.8       6e-04
+UniRef90_A0A438K1W6 Putative serine/threonine protein kinase IRE4...  45.8       6e-04
+UniRef90_R9P0N9 Phosphatidyl-N-methylethanolamine N-methyltransfe...  45.8       6e-04
+UniRef90_A0A3M7NF86 Uncharacterized protein (Fragment) n=1 Tax=Ch...  45.8       6e-04
+UniRef90_A0A6A7AES4 Putative response regulator receiver RIM15p n...  45.8       6e-04
+UniRef90_A0A226E068 NUAK family SNF1-like kinase 1 n=2 Tax=Folsom...  45.8       6e-04
+UniRef90_A0A1L0AWE8 Uncharacterized protein n=1 Tax=Hanseniaspora...  45.8       6e-04
+UniRef90_UPI00096B4312 LOW QUALITY PROTEIN: uncharacterized prote...  45.8       6e-04
+UniRef90_UPI00052E7F49 serine/threonine-protein kinase PLK4 n=1 T...  45.8       6e-04
+UniRef90_A0A3M7NR46 Uncharacterized protein (Fragment) n=1 Tax=Ch...  45.8       6e-04
+UniRef90_A0A6I9RG39 probable serine/threonine protein kinase IREH...  45.8       6e-04
+UniRef90_A0A6A6JPX1 Uncharacterized protein n=1 Tax=Westerdykella...  45.8       7e-04
+UniRef90_A0A183UFA4 Protein kinase domain-containing protein n=1 ...  45.8       7e-04
+UniRef90_A0A3G2S2K3 Serine/threonine-protein kinase ppk18 n=2 Tax...  45.8       7e-04
+UniRef90_L8X6X1 Protein kinase response regulator receiver domain...  45.8       7e-04
+UniRef90_W2RMR1 Uncharacterized protein n=1 Tax=Cyphellophora eur...  45.8       7e-04
+UniRef90_A0A5C7H284 Uncharacterized protein n=1 Tax=Acer yangbien...  45.8       7e-04
+UniRef90_UPI000440EF3D hypothetical protein n=1 Tax=Stereum hirsu...  45.8       7e-04
+UniRef90_A0A200RA50 Protein kinase domain n=2 Tax=Magnoliopsida T...  45.8       7e-04
+UniRef90_UPI0005D0BE80 citron Rho-interacting kinase-like n=1 Tax...  45.8       7e-04
+UniRef90_A0A0B7FR69 Serine/threonine-protein kinase RIM15 n=1 Tax...  45.8       7e-04
+UniRef90_A0A177CQ17 Putative response regulator receiver RIM15p n...  45.8       7e-04
+UniRef90_A0A0D2IXD8 Rhinocladiella mackenziei CBS 650.93 unplaced...  45.8       7e-04
+UniRef90_A0A150V2F8 Uncharacterized protein n=1 Tax=Acidomyces ri...  45.4       8e-04
+UniRef90_Q559T8 Probable serine/threonine-protein kinase DDB_G027...  45.4       8e-04
+UniRef90_A0A550D095 Uncharacterized protein n=1 Tax=Auriculariops...  45.4       8e-04
+UniRef90_A0A166BC37 Uncharacterized protein n=2 Tax=unclassified ...  45.4       8e-04
+UniRef90_A0A6A5YHF6 Serine threonine protein kinase-like protein ...  45.4       8e-04
+UniRef90_A0A085W3Q1 Non-specific serine/threonine protein kinase ...  45.4       8e-04
+UniRef90_A0A6A5QAS9 Serine threonine protein kinase-like protein ...  45.4       8e-04
+UniRef90_R0IVI8 Uncharacterized protein n=8 Tax=Pleosporaceae Tax...  45.4       8e-04
+UniRef90_A0A178A7P9 Uncharacterized protein n=1 Tax=Stagonospora ...  45.4       8e-04
+UniRef90_A0A6A5CBH7 Protein kinase domain-containing protein n=1 ...  45.4       8e-04
+UniRef90_A0A5N5F6I0 Uncharacterized protein n=1 Tax=Pyrus ussurie...  45.4       8e-04
+UniRef90_A0A2I0AWK0 Serine/threonine-protein kinase n=1 Tax=Apost...  45.4       8e-04
+UniRef90_A0A6A6IRY5 Putative response regulator receiver RIM15p n...  45.4       8e-04
+UniRef90_UPI00144AA1CF putative response regulator receiver RIM15...  45.4       8e-04
+UniRef90_A0A6A5VPW8 Serine threonine protein kinase-like protein ...  45.4       8e-04
+UniRef90_A0A6A7C0T8 Kinase-like protein n=1 Tax=Piedraia hortae C...  45.4       9e-04
+UniRef90_A0A0N1P1C6 Serine/threonine-protein kinase cek1 n=1 Tax=...  45.4       9e-04
+UniRef90_A0A2R6RT17 Serine/threonine protein kinase n=1 Tax=Actin...  45.4       9e-04
+UniRef90_A0A151Z433 Uncharacterized protein n=1 Tax=Tieghemosteli...  45.4       9e-04
+UniRef90_A0A6G1IUP1 Putative response regulator receiver RIM15p n...  45.4       9e-04
+UniRef90_Q2QM12 Incomplete root hair elongation, putative, expres...  45.4       9e-04
+UniRef90_A0A1X7VQH1 Protein kinase domain-containing protein n=2 ...  45.4       9e-04
+UniRef90_A0A177D0N8 Uncharacterized protein n=8 Tax=Alternaria se...  45.4       9e-04
+UniRef90_A0A0D9QRJ2 Non-specific serine/threonine protein kinase ...  45.4       9e-04
+UniRef90_A0A6H0XQL8 Uncharacterized protein n=1 Tax=Peltaster fru...  45.4       9e-04
+UniRef90_D6X1X2 Protein kinase domain-containing protein n=3 Tax=...  45.4       9e-04
+UniRef90_A0A6A5KPB3 Putative response regulator receiver RIM15p n...  45.4       9e-04
+UniRef90_A0A1Y1ZXN3 Serine threonine protein kinase-like protein ...  45.4       9e-04
+UniRef90_A0A5N6TS48 Uncharacterized protein n=1 Tax=Aspergillus a...  45.4       0.001
+UniRef90_I7LTH5 Non-specific serine/threonine protein kinase n=1 ...  45.4       0.001
+UniRef90_A0A6J1TFX1 serine/arginine repetitive matrix protein 2 i...  45.4       0.001
+UniRef90_A0A3N7HHK3 Uncharacterized protein n=8 Tax=Saliceae TaxI...  45.4       0.001
+UniRef90_A0A6A1VF64 Adenylate kinase n=1 Tax=Morella rubra TaxID=...  45.4       0.001
+UniRef90_A0A194WSZ2 Putative Serine/threonine-protein kinase cek1...  45.4       0.001
+UniRef90_A0A165I3T0 Uncharacterized protein n=1 Tax=Laetiporus su...  45.4       0.001
+UniRef90_A0A6A6T5M5 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_A0A178DM98 Uncharacterized protein (Fragment) n=1 Tax=Py...  45.4       0.001
+UniRef90_E4ZVQ0 Similar to serine threonine protein kinase n=2 Ta...  45.4       0.001
+UniRef90_E6ZQT2 Protein kinase C n=6 Tax=Sporisorium TaxID=63265 ...  45.4       0.001
+UniRef90_A0A6A6E989 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_A0A6A5WBR7 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_B2WCL6 Serine/threonine-protein kinase CBK1 n=4 Tax=Pyre...  45.4       0.001
+UniRef90_A0A1S7UM32 Putative agc protein kinase n=1 Tax=Rosellini...  45.4       0.001
+UniRef90_A0A364NEY7 Serine threonine protein kinase n=1 Tax=Stemp...  45.4       0.001
+UniRef90_A0A6A6VWQ8 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_J3LTJ3 Uncharacterized protein n=2 Tax=Oryza brachyantha...  45.1       0.001
+UniRef90_A0A158Q8Y4 Protein kinase domain-containing protein n=1 ...  45.4       0.001
+UniRef90_UPI000C200895 protein kinase 4 isoform X1 n=3 Tax=Onthop...  45.4       0.001
+UniRef90_A0A0N4V7Z4 Protein kinase domain-containing protein n=1 ...  45.4       0.001
+UniRef90_A0A6A6WST8 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_Q0UVL1 Uncharacterized protein n=1 Tax=Phaeosphaeria nod...  45.4       0.001
+UniRef90_A0A653D9E5 Protein kinase domain-containing protein n=1 ...  45.4       0.001
+UniRef90_UPI0014839B81 LOW QUALITY PROTEIN: serine/arginine repet...  45.4       0.001
+UniRef90_F0XE17 Serine/threonine-protein kinase n=1 Tax=Grosmanni...  45.4       0.001
+UniRef90_A0A094CLF9 Uncharacterized protein n=1 Tax=Pseudogymnoas...  45.4       0.001
+UniRef90_UPI0013F2393E cyclin-dependent kinase 12-like isoform X1...  45.4       0.001
+UniRef90_A0A1Y1XA81 Uncharacterized protein n=1 Tax=Anaeromyces r...  45.4       0.001
+UniRef90_A0A182GAN5 Protein kinase domain-containing protein n=3 ...  45.4       0.001
+UniRef90_A0A1D3PAX0 Non-specific serine/threonine protein kinase ...  45.4       0.001
+UniRef90_A0A6G1JXQ9 Putative response regulator receiver RIM15p n...  45.4       0.001
+UniRef90_A0A094HG36 Uncharacterized protein n=1 Tax=Pseudogymnoas...  45.4       0.001
+UniRef90_UPI000B77497C probable serine/threonine protein kinase I...  45.1       0.001
+UniRef90_A0A4S4LUM9 Uncharacterized protein n=1 Tax=Bondarzewia m...  45.4       0.001
+UniRef90_M0RLR3 Uncharacterized protein n=3 Tax=Musa TaxID=4640 R...  45.1       0.001
+UniRef90_A0A2T2N2N8 Serine threonine protein kinase-like protein ...  45.4       0.001
+UniRef90_A0A6G1H9V1 Uncharacterized protein n=1 Tax=Aulographum h...  45.1       0.001
+UniRef90_A0A158PNQ9 Protein kinase domain-containing protein n=1 ...  45.1       0.001
+UniRef90_A0A317UZJ5 Serine threonine protein kinase n=1 Tax=Asper...  45.1       0.001
+UniRef90_A0A6A6VP13 Putative response regulator receiver RIM15p n...  45.1       0.001
+UniRef90_A0A5K1V419 Non-specific serine/threonine protein kinase ...  45.1       0.001
+UniRef90_A0A163I222 ATP binding n=1 Tax=Didymella rabiei TaxID=54...  45.1       0.001
+UniRef90_A0A319FLN8 Serine threonine protein kinase n=1 Tax=Asper...  45.1       0.001
+UniRef90_A0A1R3RAP3 Uncharacterized protein n=2 Tax=Aspergillus T...  45.1       0.001
+UniRef90_F1KQ27 NUAK family SNF1-like kinase 1 n=3 Tax=Ascaris su...  45.1       0.001
+UniRef90_A0A6A5RAS6 Uncharacterized protein n=2 Tax=Didymellaceae...  45.1       0.001
+UniRef90_A0A1Y2U8R4 Uncharacterized protein n=2 Tax=unclassified ...  45.1       0.001
+UniRef90_A0A5N5QV96 Uncharacterized protein n=1 Tax=Ceratobasidiu...  45.1       0.001
+UniRef90_N1JD50 Serine/threonine-protein kinase ppk18 n=2 Tax=Blu...  45.1       0.001
+UniRef90_A0A507BYR5 Protein kinase C n=1 Tax=Synchytrium microbal...  45.1       0.001
+UniRef90_M0S5U2 Protein kinase domain-containing protein n=4 Tax=...  45.1       0.001
+UniRef90_A0A139HRN8 Uncharacterized protein n=1 Tax=Pseudocercosp...  45.1       0.001
+UniRef90_A0A2U1LHT4 AGC (cAMP-dependent, cGMP-dependent and prote...  45.1       0.001
+UniRef90_A0A1Y2M3T0 Uncharacterized protein n=1 Tax=Epicoccum nig...  45.1       0.001
+UniRef90_A0A094ARS2 Uncharacterized protein (Fragment) n=4 Tax=un...  45.1       0.001
+UniRef90_A0A2S4PVX0 Uncharacterized protein (Fragment) n=2 Tax=Er...  45.1       0.001
+UniRef90_A0A507C9Z2 Uncharacterized protein n=1 Tax=Synchytrium m...  45.1       0.001
+UniRef90_A0A0D1Y473 Uncharacterized protein n=2 Tax=Exophiala mes...  45.1       0.001
+UniRef90_A0A5J4Z682 Putative serine/threonine protein kinase IRE4...  45.1       0.001
+UniRef90_UPI0011E55E07 uncharacterized protein LOC115744291 n=1 T...  45.1       0.001
+UniRef90_G1XBK9 Uncharacterized protein n=5 Tax=Arthrobotrys TaxI...  45.1       0.001
+UniRef90_A0A6I8TTF7 Protein kinase domain-containing protein n=10...  45.1       0.001
+UniRef90_A0A0A1SVM7 Uncharacterized protein n=1 Tax=Torrubiella h...  45.1       0.001
+UniRef90_A0A0B1PI71 Putative serine threonine-protein kinase ppk1...  45.1       0.001
+UniRef90_A0A5J4YUN9 Putative serine/threonine protein kinase IRE3...  45.1       0.001
+UniRef90_W4KDP9 Uncharacterized protein n=1 Tax=Heterobasidion ir...  45.1       0.001
+UniRef90_A0A2T7PXG2 Uncharacterized protein n=2 Tax=Pomacea canal...  45.1       0.001
+UniRef90_D3BKW3 Protein kinase 3 n=1 Tax=Polysphondylium pallidum...  45.1       0.001
+UniRef90_W3XQT1 Uncharacterized protein n=1 Tax=Pestalotiopsis fi...  45.1       0.001
+UniRef90_W9VTW6 AGC protein kinase n=4 Tax=Herpotrichiellaceae Ta...  45.1       0.001
+UniRef90_A0A5J4YYQ9 Putative serine/threonine protein kinase IRE ...  45.1       0.001
+UniRef90_A0A061QQ55 Protein kinase n=3 Tax=Tetraselmis sp. GSL018...  44.7       0.001
+UniRef90_A0A0C3NPH0 Uncharacterized protein n=1 Tax=Phlebiopsis g...  45.1       0.001
+UniRef90_C4JHW2 Uncharacterized protein n=1 Tax=Uncinocarpus rees...  44.7       0.001
+UniRef90_A0A1Y1XU68 Uncharacterized protein n=1 Tax=Basidiobolus ...  44.7       0.001
+UniRef90_A0A067N8N4 Uncharacterized protein n=1 Tax=Botryobasidiu...  44.7       0.001
+UniRef90_A0A074XH82 Uncharacterized protein n=30 Tax=Aureobasidiu...  44.7       0.001
+UniRef90_A0A2V1E0D1 Putative response regulator receiver RIM15p n...  44.7       0.002
+UniRef90_A0A2K1IYU9 Uncharacterized protein n=2 Tax=Physcomitrium...  44.7       0.002
+UniRef90_A0A6A5U3J3 Uncharacterized protein n=1 Tax=Byssothecium ...  44.7       0.002
+UniRef90_M5GCH0 Uncharacterized protein n=1 Tax=Dacryopinax primo...  44.7       0.002
+UniRef90_A0A3N4LTB2 Uncharacterized protein n=1 Tax=Terfezia boud...  44.7       0.002
+UniRef90_A0A6C1M2M4 Rim15, signal transduction response regulator...  44.7       0.002
+UniRef90_U4LQP2 Similar to Serine/threonine-protein kinase cek1 a...  44.7       0.002
+UniRef90_UPI000D645A56 mucin-17 isoform X3 n=1 Tax=Tetranychus ur...  44.7       0.002
+UniRef90_A0A4P1R1N9 Adenylate kinase n=4 Tax=Lupinus TaxID=3869 R...  44.7       0.002
+UniRef90_H3DW22 Protein kinase domain-containing protein n=1 Tax=...  44.7       0.002
+UniRef90_A4I2H1 Non-specific serine/threonine protein kinase n=6 ...  44.7       0.002
+UniRef90_A2R594 Aspergillus niger contig An15c0120, genomic conti...  44.7       0.002
+UniRef90_A0A250X1L8 Protein kinase domain-containing protein n=1 ...  44.7       0.002
+UniRef90_A0A2B7XB54 AGC protein kinase n=1 Tax=Blastomyces parvus...  44.7       0.002
+UniRef90_A0A6A6RLI0 Uncharacterized protein n=1 Tax=Massarina ebu...  44.7       0.002
+UniRef90_A0A0U1M897 Serine/threonine-protein kinase RIM15 n=1 Tax...  44.7       0.002
+UniRef90_A0A2D3V387 Related to RIM15-protein kinase involved in e...  44.7       0.002
+UniRef90_A0A3G2S6T3 Protein kinase C-like protein n=2 Tax=Malasse...  44.7       0.002
+UniRef90_UPI0013C51D13 citron Rho-interacting kinase-like n=1 Tax...  44.7       0.002
+UniRef90_A6QSA2 Uncharacterized protein n=3 Tax=Ajellomyces capsu...  44.7       0.002
+UniRef90_M1VZL9 Related to RIM15-protein kinase involved in expre...  44.7       0.002
+UniRef90_UPI00159B392D uncharacterized protein n=1 Tax=Talaromyce...  44.7       0.002
+UniRef90_A0A1L9UBQ0 Uncharacterized protein n=1 Tax=Aspergillus b...  44.7       0.002
+UniRef90_A0A0B7KM16 Uncharacterized protein n=1 Tax=Bionectria oc...  44.7       0.002
+UniRef90_A0A6A6CZ14 Uncharacterized protein n=1 Tax=Zasmidium cel...  44.7       0.002
+UniRef90_A0A1M3TH15 Uncharacterized protein n=1 Tax=Aspergillus l...  44.7       0.002
+UniRef90_A0A179U5Q4 AGC protein kinase n=4 Tax=Blastomyces TaxID=...  44.7       0.002
+UniRef90_A0A2B7ZTH0 AGC protein kinase n=2 Tax=Emmonsia crescens ...  44.7       0.002
+UniRef90_A0A0J8R9S8 Serine/threonine-protein kinase CBK1 n=1 Tax=...  44.7       0.002
+UniRef90_A0A2G5I792 Serine/threonine-protein kinase cek1 n=4 Tax=...  44.7       0.002
+UniRef90_A0A4T0WUZ9 Uncharacterized protein n=1 Tax=[Candida] inc...  44.7       0.002
+UniRef90_A0A0H1BC62 Protein-serine/threonine kinase n=2 Tax=Blast...  44.7       0.002
+UniRef90_K1XK72 Serine/threonine-protein kinase n=1 Tax=Marssonin...  44.7       0.002
+UniRef90_N1QMP7 Uncharacterized protein n=1 Tax=Sphaerulina musiv...  44.7       0.002
+UniRef90_G3JJ49 Serine/threonine-protein kinase sck1 n=1 Tax=Cord...  44.7       0.002
+UniRef90_S8A697 Uncharacterized protein n=1 Tax=Dactylellina hapt...  44.7       0.002
+UniRef90_E9EL53 Serine/threonine-protein kinase, active site prot...  44.7       0.002
+UniRef90_A0A4S2MU96 Uncharacterized protein n=1 Tax=Ascodesmis ni...  44.7       0.002
+UniRef90_N1Q5Y4 Uncharacterized protein n=3 Tax=Pseudocercospora ...  44.7       0.002
+UniRef90_A0A2J6RT02 Putative Serine/threonine-protein kinase cek1...  44.7       0.002
+UniRef90_UPI000644EC00 hypothetical protein n=1 Tax=Acytostelium ...  44.7       0.002
+UniRef90_A0A168B5V1 Serine/threonine-protein kinase domain protei...  44.7       0.002
+UniRef90_R7YJ96 AGC protein kinase n=1 Tax=Coniosporium apollinis...  44.7       0.002
+UniRef90_A0A072P3C5 AGC protein kinase n=1 Tax=Exophiala aquamari...  44.7       0.002
+UniRef90_D4B5A1 Uncharacterized protein n=12 Tax=Arthrodermatacea...  44.7       0.002
+UniRef90_A0A319DRP5 Uncharacterized protein n=2 Tax=Aspergillus T...  44.7       0.002
+UniRef90_A0A2P5HJ71 Serine/threonine-protein kinase RIM15 n=1 Tax...  44.7       0.002
+UniRef90_S9W096 AGC protein kinase Ppk18 n=1 Tax=Schizosaccharomy...  44.7       0.002
+UniRef90_A0A1J9PMT1 AGC protein kinase n=1 Tax=Emergomyces pasteu...  44.7       0.002
+UniRef90_A0A099NZN6 Uncharacterized protein n=4 Tax=Pichia kudria...  44.7       0.002
+UniRef90_A0A2V1CPL1 Putative Serine/threonine-protein kinase cek1...  44.7       0.002
+UniRef90_A0A6A5Y3Q4 Putative response regulator receiver RIM15p n...  44.7       0.002
+UniRef90_A0A0D1YTR1 Uncharacterized protein n=1 Tax=Verruconis ga...  44.7       0.002
+UniRef90_A0A182VXG2 Protein kinase domain-containing protein n=1 ...  44.7       0.002
+UniRef90_A0A553I8P3 Uncharacterized protein n=1 Tax=Xylaria flabe...  44.7       0.002
+UniRef90_A0A6J3M6Q0 uncharacterized protein n=1 Tax=Dissoconium a...  44.7       0.002
+UniRef90_A0A4U0U907 Uncharacterized protein n=1 Tax=Hortaea thail...  44.7       0.002
+UniRef90_A0A2B7XVS6 AGC protein kinase n=1 Tax=Helicocarpus grise...  44.7       0.002
+UniRef90_A0A1Y2WWH5 Uncharacterized protein n=2 Tax=Daldinia TaxI...  44.7       0.002
+UniRef90_N1Q4M7 Uncharacterized protein n=1 Tax=Dothistroma septo...  44.7       0.002
+UniRef90_A0A1L9WNM4 Uncharacterized protein n=9 Tax=Aspergillus T...  44.7       0.002
+UniRef90_A0A2C5Z1V5 Uncharacterized protein n=1 Tax=Ophiocordycep...  44.7       0.002
+UniRef90_A0A5J5EZU2 Uncharacterized protein n=1 Tax=Sphaerosporel...  44.7       0.002
+UniRef90_A0A1I7S2Z5 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_A0A1V1T152 Uncharacterized protein n=3 Tax=Fungi TaxID=4...  44.7       0.002
+UniRef90_A0A044TU21 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_A0A559MEF2 Serine/threonine-protein kinase n=2 Tax=Lachn...  44.7       0.002
+UniRef90_A0A182PAH1 Protein kinase domain-containing protein n=1 ...  44.7       0.002
+UniRef90_A0A5C6GCD4 Rim15, signal transduction response regulator...  44.3       0.002
+UniRef90_A0A3M7GMF5 Uncharacterized protein n=13 Tax=Hortaea wern...  44.3       0.002
+UniRef90_A0A4U0UQV2 Uncharacterized protein n=3 Tax=Friedmanniomy...  44.3       0.002
+UniRef90_A0A6G1HWX5 Uncharacterized protein n=1 Tax=Trichodelitsc...  44.3       0.002
+UniRef90_W9X2S1 AGC protein kinase n=9 Tax=Herpotrichiellaceae Ta...  44.3       0.002
+UniRef90_A0A2U1M8Q9 GPCR kinase n=1 Tax=Artemisia annua TaxID=356...  44.3       0.002
+UniRef90_UPI00094F1BE0 uncharacterized protein LOC109543138 isofo...  44.3       0.002
+UniRef90_A0A0D0DX38 Unplaced genomic scaffold scaffold_21, whole ...  44.3       0.002
+UniRef90_A0A1B7NSS9 AGC protein kinase n=1 Tax=Emmonsia sp. CAC-2...  44.3       0.002
+UniRef90_A0A369GSV7 Uncharacterized protein n=3 Tax=Ophiocordycep...  44.3       0.002
+UniRef90_A0A3E2H7C2 Uncharacterized protein (Fragment) n=1 Tax=Sc...  44.3       0.002
+UniRef90_A0A2C5Z521 Uncharacterized protein n=2 Tax=Ophiocordycep...  44.3       0.002
+UniRef90_A0A2B7XSA6 AGC protein kinase n=1 Tax=Polytolypa hystric...  44.3       0.002
+UniRef90_H2KYA5 Protein kinase domain-containing protein n=22 Tax...  44.3       0.002
+UniRef90_A0A3D8SF09 Putative serine kinase cek1 n=2 Tax=Coleophom...  44.3       0.002
+UniRef90_A0A4Q7K803 Uncharacterized protein n=1 Tax=Pochonia chla...  44.3       0.002
+UniRef90_A1DI60 Serine threonine protein kinase, putative n=12 Ta...  44.3       0.002
+UniRef90_G0RZN7 Serine/threonine protein kinase-like protein n=1 ...  44.3       0.002
+UniRef90_A0A182R382 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_A0A084WE42 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_A0A1L7WMX8 Related to protein kinase cek1 n=1 Tax=Phialo...  44.3       0.002
+UniRef90_A0A2A9PP81 Uncharacterized protein n=1 Tax=Ophiocordycep...  44.3       0.002
+UniRef90_F9X076 Uncharacterized protein n=5 Tax=Zymoseptoria TaxI...  44.3       0.002
+UniRef90_T1KLQ4 Protein kinase domain-containing protein n=3 Tax=...  44.3       0.002
+UniRef90_T1IV06 Protein kinase domain-containing protein n=1 Tax=...  44.3       0.002
+UniRef90_A0A182NFS6 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_D5GNM8 Uncharacterized protein n=5 Tax=Tuberaceae TaxID=...  44.3       0.002
+UniRef90_T5A8S3 Serine/threonine-protein kinase domain protein n=...  44.3       0.002
+UniRef90_A0A370TS93 Putative Serine kinase cek1 n=1 Tax=Venustamp...  44.3       0.002
+UniRef90_A0A517KWZ3 Uncharacterized protein n=1 Tax=Venturia effu...  44.3       0.002
+UniRef90_A0A066WJA5 Uncharacterized protein n=1 Tax=Tilletiaria a...  44.3       0.002
+UniRef90_A0A1E3BKD1 Uncharacterized protein n=1 Tax=Aspergillus c...  44.3       0.002
+UniRef90_A0A3M7CU90 Uncharacterized protein n=4 Tax=Hortaea werne...  44.3       0.002
+UniRef90_A0A4U0WXE7 Uncharacterized protein n=1 Tax=Friedmanniomy...  44.3       0.002
+UniRef90_UPI000B987A18 titin homolog n=2 Tax=Nilaparvata lugens T...  44.3       0.002
+UniRef90_G3J388 Serine threonine protein kinase, putative n=2 Tax...  44.3       0.002
+UniRef90_A0A2S7PBI2 Uncharacterized protein n=3 Tax=unclassified ...  44.3       0.002
+UniRef90_A0A086T8T4 Serine/threonine-protein kinase-like protein ...  44.3       0.002
+UniRef90_A0A218Z061 Uncharacterized protein n=1 Tax=Marssonina co...  44.3       0.002
+UniRef90_A0A168IR80 Serine/threonine-protein kinase domain protei...  44.3       0.002
+UniRef90_A0A4E9EQ31 Protein kinase domain-containing protein n=5 ...  44.3       0.002
+UniRef90_S3D9E9 Protein kinase-like (PK-like) n=2 Tax=Glarea lozo...  44.3       0.002
+UniRef90_A0A179HMJ7 AGC protein kinase n=2 Tax=Purpureocillium li...  44.3       0.002
+UniRef90_A0A063C6L6 Putative response regulator receiver RIM15p n...  44.3       0.002
+UniRef90_A0A6A7FZK8 Serine/threonine-protein kinase greatwall iso...  44.3       0.002
+UniRef90_A0A698XL55 Uncharacterized protein n=2 Tax=Eurotiales Ta...  44.3       0.002
+UniRef90_A0A0A2V2B8 AGC protein kinase n=5 Tax=Paracoccidioides T...  44.3       0.002
+UniRef90_A0A4U0WMB7 Uncharacterized protein n=1 Tax=Cryomyces min...  44.3       0.002
+UniRef90_UPI0015C31E03 uncharacterized protein n=1 Tax=Geosmithia...  44.3       0.002
+UniRef90_Q0CEN1 Uncharacterized protein n=2 Tax=Aspergillus terre...  44.3       0.002
+UniRef90_A0A6A6P7X9 Uncharacterized protein n=1 Tax=Lineolata rhi...  44.3       0.002
+UniRef90_A0A182R0M1 Protein kinase domain-containing protein n=1 ...  44.3       0.002
+UniRef90_A0A4Q4Y985 Uncharacterized protein n=8 Tax=Monosporascus...  44.3       0.002
+UniRef90_A0A3M6WXM4 Uncharacterized protein (Fragment) n=1 Tax=Ho...  44.3       0.002
+UniRef90_A0A1E1JTD7 Related to protein kinase cek1 n=3 Tax=Rhynch...  44.3       0.002
+UniRef90_A0A428NES4 Uncharacterized protein n=6 Tax=Fusarium sola...  44.3       0.002
+UniRef90_V5FM02 Serine threonine protein kinase n=2 Tax=Byssochla...  44.3       0.002
+UniRef90_W7I1A8 Uncharacterized protein n=1 Tax=Drechslerella ste...  44.3       0.002
+UniRef90_A0A182HJ59 Protein kinase domain-containing protein n=3 ...  44.3       0.002
+UniRef90_A0A060SAU9 Uncharacterized protein n=1 Tax=Pycnoporus ci...  44.3       0.002
+UniRef90_B8MQ89 Serine threonine protein kinase, putative n=1 Tax...  44.3       0.002
+UniRef90_UPI00144AACC7 serine/threonine-protein kinase ppk18 n=1 ...  44.3       0.002
+UniRef90_A1C743 Serine threonine protein kinase, putative n=1 Tax...  44.3       0.002
+UniRef90_A0A017RZ86 Uncharacterized protein n=2 Tax=Aspergillus T...  44.3       0.002
+UniRef90_A0A6J2XF02 uncharacterized protein LOC115877759 isoform ...  44.3       0.002
+UniRef90_A0A167WL68 Serine/threonine-protein kinase domain protei...  44.3       0.002
+UniRef90_A0A2N6NGU5 Serine/threonine-protein kinase cek1 n=5 Tax=...  44.3       0.002
+UniRef90_A0A6G1FT85 uncharacterized protein n=1 Tax=Eremomyces bi...  44.3       0.002
+UniRef90_A0A545VYP4 AGC protein kinase n=1 Tax=Cordyceps javanica...  44.3       0.002
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 98534597486
+Results from round 2
+
+
+Query= sp|Q96GD4-3|AURKB_HUMAN Isoform 3 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=142
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_Q08DN4 Aurora 1 n=4 Tax=Bos TaxID=9903 RepID=Q08DN4_BOVIN    218        4e-69
+UniRef90_L9KM72 Aurora 1 (Fragment) n=1 Tax=Tupaia chinensis TaxI...  212        2e-62
+UniRef90_UPI000C878CDE uncharacterized protein LOC105304870 n=1 T...  133        2e-34
+UniRef90_A0A6J2F189 uncharacterized protein LOC113936256 n=1 Tax=...  132        3e-34
+UniRef90_UPI000F444945 uncharacterized protein LOC113615147 n=1 T...  129        5e-33
+UniRef90_D2HQJ1 Uncharacterized protein n=2 Tax=Caniformia TaxID=...  129        6e-33
+UniRef90_A0A2C9UNJ3 Uncharacterized protein n=9 Tax=Crotonoideae ...  128        1e-32
+UniRef90_A0A6A6N0D8 Uncharacterized protein n=2 Tax=Hevea brasili...  127        2e-32
+UniRef90_A0A3Q7FSI1 Uncharacterized protein n=5 Tax=Solanum subge...  126        4e-32
+UniRef90_A0A067L7C1 Uncharacterized protein n=1 Tax=Jatropha curc...  126        5e-32
+UniRef90_A0A1S4BIC3 probable serine/threonine protein kinase IREH...  126        5e-32
+UniRef90_A0A3Q7H094 Uncharacterized protein n=9 Tax=Solanaceae Ta...  125        1e-31
+UniRef90_A0A2G2WQ68 Putative serine/threonine protein kinase IRE3...  125        2e-31
+UniRef90_A0A3M0W5S2 Protein kinase domain-containing protein (Fra...  124        2e-31
+UniRef90_A0A2G3A2Y0 probable serine/threonine protein kinase IREH...  124        2e-31
+UniRef90_V8NU15 Period circadian protein-like 2 (Fragment) n=1 Ta...  124        2e-31
+UniRef90_L5MIA6 Zinc finger protein 805 n=2 Tax=Myotis davidii Ta...  124        3e-31
+UniRef90_W9QJ88 Putative serine/threonine-protein kinase n=2 Tax=...  124        3e-31
+UniRef90_UPI000CE21C33 LOW QUALITY PROTEIN: probable serine/threo...  124        3e-31
+UniRef90_A0A3N7HHK3 Uncharacterized protein n=8 Tax=Saliceae TaxI...  123        4e-31
+UniRef90_UPI000C1D56DD probable serine/threonine protein kinase I...  123        5e-31
+UniRef90_A0A1J7HSZ5 Uncharacterized protein n=3 Tax=Lupinus TaxID...  123        6e-31
+UniRef90_A0A166I945 Uncharacterized protein n=2 Tax=Daucus carota...  123        6e-31
+UniRef90_A0A5A7R8W1 Kinase n=1 Tax=Striga asiatica TaxID=4170 Rep...  123        6e-31
+UniRef90_A0A2J6LYV8 Uncharacterized protein n=2 Tax=Lactuca sativ...  123        6e-31
+UniRef90_UPI0011E03EF5 LOW QUALITY PROTEIN: probable serine/threo...  123        7e-31
+UniRef90_UPI001263933B probable serine/threonine protein kinase I...  123        8e-31
+UniRef90_A0A061FV35 Kinase superfamily protein isoform 5 n=15 Tax...  123        8e-31
+UniRef90_A0A4D9AUG0 Uncharacterized protein n=2 Tax=Salvia splend...  122        8e-31
+UniRef90_UPI000901B4A6 probable serine/threonine protein kinase I...  122        8e-31
+UniRef90_A0A5J5BKT0 Uncharacterized protein n=1 Tax=Nyssa sinensi...  122        8e-31
+UniRef90_A0A5C7H284 Uncharacterized protein n=1 Tax=Acer yangbien...  122        8e-31
+UniRef90_A0A2Z7B6J7 Uncharacterized protein n=1 Tax=Dorcoceras hy...  122        9e-31
+UniRef90_UPI00053C8025 probable serine/threonine protein kinase I...  122        1e-30
+UniRef90_A0A4Y7JK31 Uncharacterized protein n=2 Tax=Papaver somni...  122        1e-30
+UniRef90_A0A1U8B620 probable serine/threonine protein kinase IREH...  122        1e-30
+UniRef90_A0A445D1U0 Uncharacterized protein n=13 Tax=Magnoliopsid...  122        1e-30
+UniRef90_A0A1U8AQJ9 probable serine/threonine protein kinase IREH...  122        1e-30
+UniRef90_A0A059AUZ3 Uncharacterized protein n=3 Tax=Eucalyptus gr...  122        1e-30
+UniRef90_UPI000C1D51DA probable serine/threonine protein kinase I...  122        1e-30
+UniRef90_A0A068TQV3 Uncharacterized protein n=5 Tax=Coffea TaxID=...  122        1e-30
+UniRef90_A0A2G2ZC05 Putative serine/threonine protein kinase IRE3...  122        2e-30
+UniRef90_UPI0003D7374B probable serine/threonine protein kinase I...  122        2e-30
+UniRef90_A0A6I9TJI4 probable serine/threonine protein kinase IREH...  122        2e-30
+UniRef90_B9T5A7 Kinase, putative n=1 Tax=Ricinus communis TaxID=3...  122        2e-30
+UniRef90_F6GSP4 Uncharacterized protein n=12 Tax=Vitis TaxID=3603...  122        2e-30
+UniRef90_UPI0011D1AAE2 probable serine/threonine protein kinase I...  122        2e-30
+UniRef90_UPI00125E90E6 probable serine/threonine protein kinase I...  122        2e-30
+UniRef90_UPI0007AF97E5 probable serine/threonine protein kinase I...  121        2e-30
+UniRef90_F4J6F6 Probable serine/threonine protein kinase IREH1 n=...  121        2e-30
+UniRef90_A0A5B7AF07 Putative serine/threonine protein kinase IREH...  121        2e-30
+UniRef90_A0A2I4EVM1 probable serine/threonine protein kinase IREH...  121        3e-30
+UniRef90_A0A4S4DX70 Uncharacterized protein n=2 Tax=Camellia sine...  121        3e-30
+UniRef90_A0A200QLB1 Protein kinase domain n=1 Tax=Macleaya cordat...  121        3e-30
+UniRef90_A0A6J1C754 probable serine/threonine protein kinase IREH...  121        3e-30
+UniRef90_A0A2G9HMG2 Microtubule-associated serine/threonine kinas...  121        3e-30
+UniRef90_UPI000C1D7CCE probable serine/threonine protein kinase I...  121        3e-30
+UniRef90_A0A394DKQ8 Uncharacterized protein n=5 Tax=Lupinus TaxID...  121        3e-30
+UniRef90_A0A1S3B6M3 probable serine/threonine protein kinase IREH...  121        3e-30
+UniRef90_A0A2I4GAK0 probable serine/threonine protein kinase IREH...  120        4e-30
+UniRef90_A0A2P5CHC3 cGMP-dependent kinase n=2 Tax=Cannabaceae Tax...  120        4e-30
+UniRef90_UPI0015DFEFDD citron rho-interacting kinase-like isoform...  120        5e-30
+UniRef90_UPI000D62CA01 probable serine/threonine protein kinase I...  120        5e-30
+UniRef90_K7LEH0 Uncharacterized protein n=10 Tax=Phaseoleae TaxID...  120        5e-30
+UniRef90_UPI001182F422 citron Rho-interacting kinase-like isoform...  120        5e-30
+UniRef90_A0A5N6RTY1 Uncharacterized protein n=1 Tax=Carpinus fang...  120        6e-30
+UniRef90_A0A328D6I7 Uncharacterized protein n=2 Tax=Cuscuta sect....  120        6e-30
+UniRef90_UPI000C04225C probable serine/threonine protein kinase I...  120        6e-30
+UniRef90_A0A2R6QHN1 Serine/threonine protein kinase n=1 Tax=Actin...  120        6e-30
+UniRef90_A0A5P1FEJ5 Uncharacterized protein n=2 Tax=Asparagus off...  120        8e-30
+UniRef90_A0A218VQ48 Uncharacterized protein n=1 Tax=Punica granat...  120        9e-30
+UniRef90_A0A1U8I5C0 probable serine/threonine protein kinase IREH...  119        1e-29
+UniRef90_A0A443NXM6 Putative serine/threonine protein kinase IREH...  119        1e-29
+UniRef90_A0A118K4F1 Protein kinase, catalytic domain-containing p...  119        1e-29
+UniRef90_A0A1U8L4B8 probable serine/threonine protein kinase IREH...  119        1e-29
+UniRef90_A0A072UB59 AGC family Serine/Threonine kinase family pro...  119        1e-29
+UniRef90_A2XLA4 Uncharacterized protein n=2 Tax=Oryza TaxID=4527 ...  119        2e-29
+UniRef90_UPI00103BB0CE citron Rho-interacting kinase-like n=1 Tax...  119        2e-29
+UniRef90_A0A0J8B5G8 Uncharacterized protein n=1 Tax=Beta vulgaris...  119        2e-29
+UniRef90_A0A6A1VH67 Uncharacterized protein n=1 Tax=Morella rubra...  118        2e-29
+UniRef90_M5WSV3 Uncharacterized protein n=18 Tax=fabids TaxID=918...  118        2e-29
+UniRef90_W1NZ40 Uncharacterized protein n=4 Tax=Amborella trichop...  118        2e-29
+UniRef90_UPI000EF7E81A citron Rho-interacting kinase-like n=1 Tax...  118        2e-29
+UniRef90_A0A251RT06 Uncharacterized protein n=2 Tax=Helianthus an...  118        2e-29
+UniRef90_A0A2P2MIL4 Uncharacterized protein MANES_14G172600 n=3 T...  118        2e-29
+UniRef90_A0A6A3A206 Putative serine/threonine protein kinase IREH...  118        2e-29
+UniRef90_D6RMI0 AGC/NDR protein kinase n=1 Tax=Coprinopsis cinere...  118        3e-29
+UniRef90_Q10E10 Os03g0711800 protein n=24 Tax=Oryza TaxID=4527 Re...  118        3e-29
+UniRef90_A0A0E0KI56 Uncharacterized protein n=4 Tax=Oryza punctat...  118        4e-29
+UniRef90_A0A1Q0ZG94 Serine/threonine-protein kinase AtPK1/AtPK6 n...  117        5e-29
+UniRef90_A0A4D9AVU5 Uncharacterized protein n=2 Tax=Salvia splend...  117        5e-29
+UniRef90_A0A3S2M395 Uncharacterized protein n=1 Tax=Chilo suppres...  117        5e-29
+UniRef90_A0A1S2Z0B2 probable serine/threonine protein kinase IREH...  117        6e-29
+UniRef90_A0A6A1VF64 Adenylate kinase n=1 Tax=Morella rubra TaxID=...  117        6e-29
+UniRef90_I1GP76 Uncharacterized protein n=34 Tax=Pooideae TaxID=1...  117        6e-29
+UniRef90_A0A4S8N039 Uncharacterized protein n=1 Tax=Dendrothele b...  117        6e-29
+UniRef90_A0A2A4JCK2 Uncharacterized protein (Fragment) n=1 Tax=He...  117        7e-29
+UniRef90_A0A5N6N9L0 Uncharacterized protein n=1 Tax=Mikania micra...  117        7e-29
+UniRef90_A0A1D6L1R5 Putative serine/threonine protein kinase IREH...  117        7e-29
+UniRef90_A0A091DWF2 Zinc finger protein 548 n=2 Tax=Fukomys damar...  117        8e-29
+UniRef90_A0A2U1MG53 Protein kinase superfamily protein n=2 Tax=An...  117        8e-29
+UniRef90_A0A438NIN3 Protein kinase domain-containing protein n=1 ...  117        9e-29
+UniRef90_A0A3B6IK20 Uncharacterized protein n=5 Tax=Triticum TaxI...  117        9e-29
+UniRef90_A0A2P6P1R5 Uncharacterized protein n=5 Tax=Rosoideae Tax...  117        1e-28
+UniRef90_A0A1E5UQM1 Putative serine/threonine protein kinase IREH...  116        1e-28
+UniRef90_F0WVZ3 Non-specific serine/threonine protein kinase (Fra...  116        1e-28
+UniRef90_A0A6A3C946 Putative serine/threonine protein kinase IRE3...  116        1e-28
+UniRef90_A0A067NYX1 Serine/threonine protein kinase RIM15 n=1 Tax...  116        2e-28
+UniRef90_UPI000B3978ED citron Rho-interacting kinase-like n=1 Tax...  116        2e-28
+UniRef90_A0A2I0WMJ8 Serine/threonine-protein kinase n=4 Tax=Epide...  115        2e-28
+UniRef90_A0A368SFL0 Uncharacterized protein n=8 Tax=PACMAD clade ...  115        2e-28
+UniRef90_A0A328DDW3 Uncharacterized protein n=3 Tax=Cuscuta sect....  115        2e-28
+UniRef90_A0A2I0ADC7 Serine/threonine-protein kinase n=1 Tax=Apost...  115        2e-28
+UniRef90_A0A078J4V1 BnaA01g36900D protein n=25 Tax=Brassicaceae T...  115        3e-28
+UniRef90_UPI00067DFD90 citron Rho-interacting kinase-like n=1 Tax...  115        3e-28
+UniRef90_A0A3Q0FAD8 probable serine/threonine protein kinase IREH...  115        3e-28
+UniRef90_A0A3S3MC86 Putative serine/threonine protein kinase IREH...  115        3e-28
+UniRef90_F4HYG2 Probable serine/threonine protein kinase IRE3 n=3...  115        3e-28
+UniRef90_A0A654EI27 Protein kinase domain-containing protein n=5 ...  115        3e-28
+UniRef90_A0A2G2X6A6 Putative serine/threonine protein kinase IRE ...  114        5e-28
+UniRef90_A0A2H3WXQ8 probable serine/threonine protein kinase IREH...  114        6e-28
+UniRef90_A0A200RA50 Protein kinase domain n=2 Tax=Magnoliopsida T...  114        7e-28
+UniRef90_A0A3Q0F5Y0 probable serine/threonine protein kinase IREH...  114        8e-28
+UniRef90_A0A0K9QER6 Uncharacterized protein n=3 Tax=Chenopodioide...  114        8e-28
+UniRef90_A0A6A1W8B9 Protein kinase domain-containing protein n=1 ...  114        9e-28
+UniRef90_A0A2I0W2U8 Serine/threonine-protein kinase n=6 Tax=Dendr...  113        1e-27
+UniRef90_A0A438K1W6 Putative serine/threonine protein kinase IRE4...  113        1e-27
+UniRef90_A0A1D1Y8I9 Putative serine/threonine-protein kinase DDB_...  113        1e-27
+UniRef90_A0A2D4BHX3 Component of oligomeric Golgi complex 3 n=1 T...  113        2e-27
+UniRef90_A0A520R6Z4 Non-specific serine/threonine protein kinase ...  113        2e-27
+UniRef90_A0A0K9PAT1 Putative Kinase n=1 Tax=Zostera marina TaxID=...  112        3e-27
+UniRef90_A0A2R6RT17 Serine/threonine protein kinase n=1 Tax=Actin...  112        3e-27
+UniRef90_A0A556TVL0 Transmembrane protein 107 n=1 Tax=Bagarius ya...  112        4e-27
+UniRef90_M5XSA9 Protein kinase domain-containing protein (Fragmen...  112        5e-27
+UniRef90_A0A165XBM1 Uncharacterized protein n=1 Tax=Daucus carota...  112        5e-27
+UniRef90_A0A5N5F6I0 Uncharacterized protein n=1 Tax=Pyrus ussurie...  112        6e-27
+UniRef90_A0A2A2KM83 Non-specific serine/threonine protein kinase ...  111        7e-27
+UniRef90_A0A2H3YQT7 probable serine/threonine protein kinase IREH...  111        7e-27
+UniRef90_A0A1I8JDG5 Protein kinase domain-containing protein n=6 ...  111        1e-26
+UniRef90_A0A6I9RG39 probable serine/threonine protein kinase IREH...  110        1e-26
+UniRef90_A0A0B7N2K9 Uncharacterized protein n=1 Tax=Parasitella p...  110        1e-26
+UniRef90_D8S980 Uncharacterized protein (Fragment) n=6 Tax=Selagi...  109        3e-26
+UniRef90_Q2QM12 Incomplete root hair elongation, putative, expres...  109        3e-26
+UniRef90_A0A1L7B551 Root hair elongation protein n=2 Tax=Marchant...  109        5e-26
+UniRef90_M0TGB7 Uncharacterized protein n=3 Tax=Musa TaxID=4640 R...  108        9e-26
+UniRef90_A0A1W0A2P1 Kinase (Fragment) n=1 Tax=Thraustotheca clava...  108        9e-26
+UniRef90_UPI001153A2C4 hypothetical protein n=1 Tax=Pyricularia p...  108        1e-25
+UniRef90_L7JL74 Protein kinase domain-containing protein n=2 Tax=...  107        2e-25
+UniRef90_A0A2P6TTJ2 Serine threonine kinase n=1 Tax=Chlorella sor...  107        3e-25
+UniRef90_A0A2K1IH11 Uncharacterized protein n=2 Tax=Physcomitrium...  106        4e-25
+UniRef90_A0A1L0AWE8 Uncharacterized protein n=1 Tax=Hanseniaspora...  106        5e-25
+UniRef90_A0A498I4U4 Uncharacterized protein n=1 Tax=Malus domesti...  106        5e-25
+UniRef90_A0A152A4U5 Protein serine/threonine kinase n=1 Tax=Tiegh...  105        1e-24
+UniRef90_A0A3G2S2K3 Serine/threonine-protein kinase ppk18 n=2 Tax...  105        1e-24
+UniRef90_A0A0D9VY43 Protein kinase domain-containing protein n=8 ...  104        2e-24
+UniRef90_A0A2K1IRA5 Uncharacterized protein n=2 Tax=Physcomitrium...  104        2e-24
+UniRef90_A0A2P6VAV9 Protein kinase domain-containing protein n=1 ...  103        6e-24
+UniRef90_A0A1Q9F2F9 Non-specific serine/threonine protein kinase ...  103        7e-24
+UniRef90_A0A2K1IMA3 Uncharacterized protein n=2 Tax=Physcomitrium...  103        7e-24
+UniRef90_B6JV54 AGC protein kinase Ppk18 n=1 Tax=Schizosaccharomy...  103        8e-24
+UniRef90_D3BAM4 Protein serine/threonine kinase n=1 Tax=Polysphon...  102        9e-24
+UniRef90_A0A4S8IBB4 Protein kinase domain-containing protein n=2 ...  102        1e-23
+UniRef90_A0A507DBU0 Uncharacterized protein n=2 Tax=Synchytrium e...  102        1e-23
+UniRef90_F4PPV7 Protein serine/threonine kinase n=1 Tax=Cavenderi...  102        2e-23
+UniRef90_A0A2K1K868 Uncharacterized protein n=4 Tax=Physcomitrium...  102        2e-23
+UniRef90_F4PVM5 Protein serine/threonine kinase n=1 Tax=Cavenderi...  102        2e-23
+UniRef90_A0A2L2YXY1 Protein kinase domain-containing protein (Fra...  94.7       2e-23
+UniRef90_UPI0005D0BE80 citron Rho-interacting kinase-like n=1 Tax...  102        2e-23
+UniRef90_F0ZY26 Uncharacterized protein n=1 Tax=Dictyostelium pur...  101        2e-23
+UniRef90_A0A1Y1HN36 Uncharacterized protein n=1 Tax=Klebsormidium...  101        3e-23
+UniRef90_UPI000644EA85 hypothetical protein n=1 Tax=Acytostelium ...  101        3e-23
+UniRef90_A0A371DSN2 Uncharacterized protein n=2 Tax=Polyporus Tax...  100        4e-23
+UniRef90_Q22DW7 Non-specific serine/threonine protein kinase n=1 ...  100        5e-23
+UniRef90_Q235V0 Non-specific serine/threonine protein kinase n=1 ...  100        5e-23
+UniRef90_A0A2P6NKC1 Uncharacterized protein n=1 Tax=Planoprotoste...  100        6e-23
+UniRef90_M1VID2 RIM15-like serine/threonine kinase n=1 Tax=Cyanid...  100        6e-23
+UniRef90_A0A6G1SQ46 NUAK family SNF1-like kinase 1 n=1 Tax=Aceria...  100        6e-23
+UniRef90_A0A165I3T0 Uncharacterized protein n=1 Tax=Laetiporus su...  100        7e-23
+UniRef90_A0A1Y5I3W7 15-cis-phytoene desaturase, chloroplastic/chr...  100        8e-23
+UniRef90_A0A507C099 Uncharacterized protein n=1 Tax=Synchytrium m...  99.7       1e-22
+UniRef90_V2YVG6 Vacuolar protein sorting-associated protein 70 n=...  99.7       1e-22
+UniRef90_UPI000440EF3D hypothetical protein n=1 Tax=Stereum hirsu...  99.0       2e-22
+UniRef90_A0A507CLN7 Microtubule-associated serine/threonine-prote...  99.0       2e-22
+UniRef90_UPI0014257A9C citron Rho-interacting kinase-like n=1 Tax...  98.2       4e-22
+UniRef90_A0A6A6E989 Putative response regulator receiver RIM15p n...  98.2       4e-22
+UniRef90_A0A397J4D2 Uncharacterized protein n=1 Tax=Diversispora ...  97.8       5e-22
+UniRef90_A0A6G1IUP1 Putative response regulator receiver RIM15p n...  97.8       5e-22
+UniRef90_A0A507DXQ2 Microtubule-associated serine/threonine-prote...  97.8       6e-22
+UniRef90_A0A136JEB0 Uncharacterized protein n=1 Tax=Microdochium ...  97.4       6e-22
+UniRef90_UPI00144AA1CF putative response regulator receiver RIM15...  97.4       7e-22
+UniRef90_A0A2V0NLQ5 Serine threonine kinase-like n=1 Tax=Raphidoc...  97.0       9e-22
+UniRef90_Q559T8 Probable serine/threonine-protein kinase DDB_G027...  96.7       1e-21
+UniRef90_A0A194WSZ2 Putative Serine/threonine-protein kinase cek1...  96.7       1e-21
+UniRef90_A0A329T517 Uncharacterized protein n=1 Tax=Phytophthora ...  96.7       1e-21
+UniRef90_A0A177UDZ1 Uncharacterized protein n=2 Tax=Tilletia TaxI...  96.7       1e-21
+UniRef90_UPI000C6DF59A serine/threonine-protein kinase AKL1-like ...  96.3       2e-21
+UniRef90_UPI0015C3EF8D PAS domain-containing protein n=1 Tax=Lasi...  96.3       2e-21
+UniRef90_A0A653D9E5 Protein kinase domain-containing protein n=1 ...  95.9       2e-21
+UniRef90_L8X6X1 Protein kinase response regulator receiver domain...  95.9       2e-21
+UniRef90_A0A507FDM1 Uncharacterized protein n=1 Tax=Chytriomyces ...  95.9       2e-21
+UniRef90_A0A0B7FR69 Serine/threonine-protein kinase RIM15 n=1 Tax...  95.9       2e-21
+UniRef90_A0A6A5WBR7 Putative response regulator receiver RIM15p n...  95.9       3e-21
+UniRef90_A0A261Y0X6 Uncharacterized protein n=1 Tax=Bifiguratus a...  95.5       3e-21
+UniRef90_A0A178DM98 Uncharacterized protein (Fragment) n=1 Tax=Py...  95.5       3e-21
+UniRef90_A0A2H5RWW0 Serine threonine protein kinase n=5 Tax=Rhizo...  95.1       4e-21
+UniRef90_A0A6A6WST8 Putative response regulator receiver RIM15p n...  95.1       4e-21
+UniRef90_A0A6A6JPX1 Uncharacterized protein n=1 Tax=Westerdykella...  95.1       4e-21
+UniRef90_G7E3J5 Uncharacterized protein n=1 Tax=Mixia osmundae (s...  95.1       5e-21
+UniRef90_A0A6A6IRY5 Putative response regulator receiver RIM15p n...  95.1       5e-21
+UniRef90_A0A178A7P9 Uncharacterized protein n=1 Tax=Stagonospora ...  95.1       5e-21
+UniRef90_A0A177CQ17 Putative response regulator receiver RIM15p n...  95.1       5e-21
+UniRef90_A0A3M0VXU5 Uncharacterized protein (Fragment) n=2 Tax=un...  95.1       5e-21
+UniRef90_A0A177VAC5 Uncharacterized protein n=2 Tax=Tilletia TaxI...  95.1       5e-21
+UniRef90_A0A6A5YHF6 Serine threonine protein kinase-like protein ...  94.7       6e-21
+UniRef90_Q0UVL1 Uncharacterized protein n=1 Tax=Phaeosphaeria nod...  94.7       7e-21
+UniRef90_A0A0L0HVI8 AGC protein kinase n=2 Tax=Spizellomyces TaxI...  94.3       7e-21
+UniRef90_A0A6A7C0T8 Kinase-like protein n=1 Tax=Piedraia hortae C...  94.3       8e-21
+UniRef90_A0A1S8BJL8 Serine/threonine-protein kinase RIM15 n=2 Tax...  94.3       9e-21
+UniRef90_A0A6A6BR68 Uncharacterized protein n=1 Tax=Aplosporella ...  94.0       1e-20
+UniRef90_A0A0D1Y690 Uncharacterized protein n=1 Tax=Exophiala sid...  94.0       1e-20
+UniRef90_A0A3M7NR46 Uncharacterized protein (Fragment) n=1 Tax=Ch...  94.0       1e-20
+UniRef90_A0A6A5QAS9 Serine threonine protein kinase-like protein ...  94.0       1e-20
+UniRef90_A0A150V2F8 Uncharacterized protein n=1 Tax=Acidomyces ri...  94.0       1e-20
+UniRef90_A0A364NEY7 Serine threonine protein kinase n=1 Tax=Stemp...  94.0       1e-20
+UniRef90_A0A0D2IXD8 Rhinocladiella mackenziei CBS 650.93 unplaced...  94.0       1e-20
+UniRef90_A0A166BC37 Uncharacterized protein n=2 Tax=unclassified ...  94.0       1e-20
+UniRef90_A0A498M121 Polo-like kinase 4 n=1 Tax=Labeo rohita TaxID...  93.6       1e-20
+UniRef90_A0A6A5KPB3 Putative response regulator receiver RIM15p n...  93.6       2e-20
+UniRef90_R0IVI8 Uncharacterized protein n=8 Tax=Pleosporaceae Tax...  93.6       2e-20
+UniRef90_A0A443SW44 Serine/threonine protein kinase-like protein ...  93.6       2e-20
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A2K1XHH1 Uncharacterized protein n=10 Tax=Saliceae Tax...  118        2e-29
+UniRef90_A0A0B2RKP9 UMP-CMP kinase n=2 Tax=Glycine soja TaxID=384...  117        6e-29
+UniRef90_A0A4P1R1N9 Adenylate kinase n=4 Tax=Lupinus TaxID=3869 R...  114        9e-28
+UniRef90_A0A2U1LHT4 AGC (cAMP-dependent, cGMP-dependent and prote...  113        1e-27
+UniRef90_M0RLR3 Uncharacterized protein n=3 Tax=Musa TaxID=4640 R...  112        5e-27
+UniRef90_A0A4D6LKH1 UMP-CMP kinase n=5 Tax=Vigna TaxID=3913 RepID...  112        6e-27
+UniRef90_V2XKY6 Serine threonine protein n=2 Tax=Moniliophthora r...  110        2e-26
+UniRef90_A0A6A4IPF6 Uncharacterized protein n=1 Tax=Gymnopus andr...  109        5e-26
+UniRef90_UPI000B77497C probable serine/threonine protein kinase I...  108        6e-26
+UniRef90_UPI0013C51D13 citron Rho-interacting kinase-like n=1 Tax...  108        9e-26
+UniRef90_A0A0C3CBY6 Uncharacterized protein n=1 Tax=Hebeloma cyli...  108        1e-25
+UniRef90_A0A2K3NLE3 Microtubule-associated serine/threonine-prote...  108        1e-25
+UniRef90_A0A4Y7T7M2 Uncharacterized protein n=1 Tax=Coprinellus m...  108        1e-25
+UniRef90_UPI000E6D9F0F citron Rho-interacting kinase isoform X1 n...  107        2e-25
+UniRef90_A0A1Y2BH95 Uncharacterized protein n=1 Tax=Neocallimasti...  107        2e-25
+UniRef90_A0A371HTZ0 Adenylate kinase (Fragment) n=1 Tax=Mucuna pr...  107        3e-25
+UniRef90_A0A0C3D710 Uncharacterized protein n=1 Tax=Oidiodendron ...  106        5e-25
+UniRef90_UPI000E778A28 citron Rho-interacting kinase n=1 Tax=Vane...  106        5e-25
+UniRef90_A0A124SAS0 AGC-kinase, C-terminal n=1 Tax=Cynara cardunc...  106        6e-25
+UniRef90_A0A369JUV9 Serine/threonine-protein kinase cek1 n=1 Tax=...  105        7e-25
+UniRef90_A0A1Q3DVE7 RIM15 response regulator receiver protein n=1...  105        1e-24
+UniRef90_UPI000B92D6EA citron Rho-interacting kinase-like isoform...  105        1e-24
+UniRef90_UPI0015685F71 citron rho-interacting kinase-like n=1 Tax...  105        1e-24
+UniRef90_A0A2A9NUF5 Uncharacterized protein n=1 Tax=Amanita thier...  104        2e-24
+UniRef90_A0A409WFU4 Uncharacterized protein n=1 Tax=Psilocybe cya...  104        2e-24
+UniRef90_A0A0D2PGG2 Uncharacterized protein n=1 Tax=Hypholoma sub...  104        2e-24
+UniRef90_B0CY06 Predicted protein n=2 Tax=Laccaria TaxID=29882 Re...  104        2e-24
+UniRef90_A0A409VNJ7 Uncharacterized protein n=1 Tax=Gymnopilus di...  104        2e-24
+UniRef90_A0A1Y1VIZ6 Uncharacterized protein n=1 Tax=Piromyces fin...  104        2e-24
+UniRef90_J4G0Z9 Uncharacterized protein n=1 Tax=Fibroporia radicu...  104        3e-24
+UniRef90_A0A0C3PTV7 Uncharacterized protein n=1 Tax=Pisolithus ti...  104        3e-24
+UniRef90_A0A137Q916 Serine/threonine-protein kinase cek1 n=1 Tax=...  104        3e-24
+UniRef90_A0A1Q2YKL0 Uncharacterized protein n=1 Tax=Pichia membra...  103        4e-24
+UniRef90_A0A4Q2DSX7 Uncharacterized protein n=1 Tax=Psathyrella a...  103        4e-24
+UniRef90_UPI0006795ED4 citron Rho-interacting kinase isoform X1 n...  103        5e-24
+UniRef90_A0A1Y1VUG7 Uncharacterized protein n=1 Tax=Anaeromyces r...  103        5e-24
+UniRef90_A0A0L6WHH0 Serine/threonine-protein kinase cek1 n=1 Tax=...  103        5e-24
+UniRef90_A0A2U1M8Q9 GPCR kinase n=1 Tax=Artemisia annua TaxID=356...  103        5e-24
+UniRef90_A0A165KC61 Uncharacterized protein n=2 Tax=Calocera TaxI...  103        5e-24
+UniRef90_B8P313 Protein kinase response regulator receiver domain...  103        7e-24
+UniRef90_W4KDP9 Uncharacterized protein n=1 Tax=Heterobasidion ir...  103        8e-24
+UniRef90_UPI000675E8F8 citron Rho-interacting kinase-like n=1 Tax...  102        8e-24
+UniRef90_A0A5C3L892 Kinase-like protein n=1 Tax=Coprinopsis marce...  102        9e-24
+UniRef90_A0A1B7NIC4 RIM15, signal transduction response regulator...  102        1e-23
+UniRef90_A0A0C3AV55 Uncharacterized protein n=1 Tax=Scleroderma c...  102        1e-23
+UniRef90_A0A550CS57 Uncharacterized protein n=1 Tax=Auriculariops...  102        1e-23
+UniRef90_A0A0D0A0G9 Unplaced genomic scaffold CY34scaffold_83, wh...  102        2e-23
+UniRef90_A0A066W319 Uncharacterized protein (Fragment) n=1 Tax=Rh...  102        2e-23
+UniRef90_A0A067TVA8 Uncharacterized protein n=1 Tax=Galerina marg...  101        2e-23
+UniRef90_A0A4S8K816 Uncharacterized protein n=1 Tax=Musa balbisia...  101        2e-23
+UniRef90_A0A0C2X757 Uncharacterized protein n=1 Tax=Amanita musca...  101        2e-23
+UniRef90_A0A2K3DRF7 Protein kinase domain-containing protein n=1 ...  101        2e-23
+UniRef90_A0A286UN62 Signal transduction response regulator n=1 Ta...  101        3e-23
+UniRef90_A0A2K1IYU9 Uncharacterized protein n=2 Tax=Physcomitrium...  101        3e-23
+UniRef90_A0A2R6NR03 Uncharacterized protein n=2 Tax=Phlebia centr...  101        3e-23
+UniRef90_A0A0L0HNJ0 AGC protein kinase n=2 Tax=Spizellomyces TaxI...  101        3e-23
+UniRef90_A0A0C3NPH0 Uncharacterized protein n=1 Tax=Phlebiopsis g...  101        4e-23
+UniRef90_A0A0K6FVY1 Serine/threonine-protein kinase RIM15 n=2 Tax...  100        5e-23
+UniRef90_A0A420IG97 Putative serine threonine-protein kinase ppk1...  100        5e-23
+UniRef90_A0A146IKB6 Serine/threonine protein n=1 Tax=Mycena chlor...  100        5e-23
+UniRef90_A0A4S4LUM9 Uncharacterized protein n=1 Tax=Bondarzewia m...  100        5e-23
+UniRef90_A0A5C3MG68 Uncharacterized protein n=1 Tax=Crucibulum la...  100        5e-23
+UniRef90_UPI000440759E uncharacterized protein n=1 Tax=Fomitipori...  100        6e-23
+UniRef90_D8PP30 Uncharacterized protein n=1 Tax=Schizophyllum com...  100        6e-23
+UniRef90_F8NMC3 RIM15, signal transduction response regulator n=2...  100        7e-23
+UniRef90_A0A0L8RJW5 Uncharacterized protein n=2 Tax=Saccharomyces...  100        8e-23
+UniRef90_A0A099NZN6 Uncharacterized protein n=4 Tax=Pichia kudria...  100        8e-23
+UniRef90_P43565 Serine/threonine-protein kinase RIM15 n=20 Tax=Sa...  99.7       1e-22
+UniRef90_A0A177WE39 Uncharacterized protein n=1 Tax=Batrachochytr...  99.7       1e-22
+UniRef90_K5W0S1 RIM15 response regulator receiver protein n=2 Tax...  99.7       1e-22
+UniRef90_L8H258 Protein kinase domain containing protein n=1 Tax=...  99.7       1e-22
+UniRef90_A0A1C7M176 Serine/threonine-protein kinase cek1 n=1 Tax=...  99.7       1e-22
+UniRef90_A0A2G8STE5 Transporter n=1 Tax=Ganoderma sinense ZZ0214-...  99.7       1e-22
+UniRef90_A0A507FE50 Uncharacterized protein n=1 Tax=Chytriomyces ...  99.7       1e-22
+UniRef90_A0A0D0A4J3 Unplaced genomic scaffold scaffold_6, whole g...  99.7       1e-22
+UniRef90_A0A316VB10 Uncharacterized protein n=1 Tax=Meira miltonr...  99.7       1e-22
+UniRef90_A0A1E3NIW1 Uncharacterized protein (Fragment) n=1 Tax=Pi...  99.7       1e-22
+UniRef90_A0A0D0DX38 Unplaced genomic scaffold scaffold_21, whole ...  99.3       1e-22
+UniRef90_UPI001483B5D1 citron rho-interacting kinase n=1 Tax=Thri...  99.3       1e-22
+UniRef90_A0A376B627 Uncharacterized protein n=1 Tax=Saccharomycod...  99.3       2e-22
+UniRef90_A0A2J7ZZE8 Putative serine/threonine-protein kinase n=1 ...  99.3       2e-22
+UniRef90_A0A4Y9YE16 Uncharacterized protein n=1 Tax=Fomitopsis ro...  99.3       2e-22
+UniRef90_S7QJ44 Kinase-like protein n=1 Tax=Gloeophyllum trabeum ...  99.3       2e-22
+UniRef90_UPI000644EC00 hypothetical protein n=1 Tax=Acytostelium ...  99.0       2e-22
+UniRef90_A0A161MAB2 Ste20-like protein serine threonine-protein k...  91.6       2e-22
+UniRef90_A0A218Z061 Uncharacterized protein n=1 Tax=Marssonina co...  99.0       2e-22
+UniRef90_A0A165N7Q4 Kinase-like protein n=2 Tax=Gloeophyllales Ta...  99.0       2e-22
+UniRef90_UPI0004623D62 hypothetical protein n=1 Tax=Trametes vers...  99.0       2e-22
+UniRef90_R7SZJ9 Uncharacterized protein n=3 Tax=Dichomitus squale...  98.6       2e-22
+UniRef90_M5GCH0 Uncharacterized protein n=1 Tax=Dacryopinax primo...  98.6       2e-22
+UniRef90_A0A2H3JTI7 Uncharacterized protein n=1 Tax=Wolfiporia co...  98.6       3e-22
+UniRef90_A0A4R0RUI1 Uncharacterized protein n=1 Tax=Steccherinum ...  98.6       3e-22
+UniRef90_A0A0B7KM16 Uncharacterized protein n=1 Tax=Bionectria oc...  98.6       3e-22
+UniRef90_K5W5F9 Uncharacterized protein n=1 Tax=Phanerochaete car...  98.6       3e-22
+UniRef90_A0A2N6NGU5 Serine/threonine-protein kinase cek1 n=5 Tax=...  98.6       3e-22
+UniRef90_A0A1S8VXC8 Uncharacterized protein n=3 Tax=Batrachochytr...  98.6       3e-22
+UniRef90_A0A2S4PVX0 Uncharacterized protein (Fragment) n=2 Tax=Er...  98.6       3e-22
+UniRef90_A0A2J6RT02 Putative Serine/threonine-protein kinase cek1...  98.6       3e-22
+UniRef90_A0A2T3BAF4 Uncharacterized protein n=1 Tax=Amorphotheca ...  98.6       3e-22
+UniRef90_A0A1Y2FFG5 Uncharacterized protein n=1 Tax=Protomyces la...  98.2       3e-22
+UniRef90_A0A4U6XAY2 Serine/threonine-protein kinase cek1 n=1 Tax=...  98.2       3e-22
+UniRef90_A0A0D7BEB0 Uncharacterized protein n=1 Tax=Cylindrobasid...  98.2       3e-22
+UniRef90_A0A4T0WUZ9 Uncharacterized protein n=1 Tax=[Candida] inc...  98.2       4e-22
+UniRef90_A0A1E1JTD7 Related to protein kinase cek1 n=3 Tax=Rhynch...  98.2       4e-22
+UniRef90_UPI000E6E1D05 LOW QUALITY PROTEIN: citron Rho-interactin...  97.8       5e-22
+UniRef90_M7PF15 Uncharacterized protein n=2 Tax=Pneumocystis TaxI...  97.8       5e-22
+UniRef90_A0A1L7WMX8 Related to protein kinase cek1 n=1 Tax=Phialo...  97.8       5e-22
+UniRef90_A0A010S6D3 Uncharacterized protein n=14 Tax=Colletotrich...  97.8       5e-22
+UniRef90_A0A3E2H7C2 Uncharacterized protein (Fragment) n=1 Tax=Sc...  97.8       6e-22
+UniRef90_A0A507C9Z2 Uncharacterized protein n=1 Tax=Synchytrium m...  97.8       6e-22
+UniRef90_A0A401GBR6 Serine/threonine-protein kinase cek1 n=1 Tax=...  97.8       6e-22
+UniRef90_K1XK72 Serine/threonine-protein kinase n=1 Tax=Marssonin...  97.4       6e-22
+UniRef90_A0A1Y2I6N3 Uncharacterized protein n=2 Tax=Trametes TaxI...  97.4       6e-22
+UniRef90_A0A2H3C9B1 RIM15, signal transduction response regulator...  97.4       6e-22
+UniRef90_A0A5N5QWG4 Serine/threonine-protein kinase n=1 Tax=Cerat...  97.4       7e-22
+UniRef90_A0A067N8N4 Uncharacterized protein n=1 Tax=Botryobasidiu...  97.4       7e-22
+UniRef90_A0A6A6RLI0 Uncharacterized protein n=1 Tax=Massarina ebu...  97.4       8e-22
+UniRef90_A0A0W4ZR93 Uncharacterized protein n=2 Tax=Pneumocystis ...  97.0       8e-22
+UniRef90_A0A165U221 Uncharacterized protein n=1 Tax=Daedalea quer...  97.0       8e-22
+UniRef90_A0A4S4LHK5 Uncharacterized protein n=1 Tax=Phellinidium ...  97.0       9e-22
+UniRef90_S8EK84 Uncharacterized protein n=1 Tax=Fomitopsis pinico...  97.0       9e-22
+UniRef90_G2Q468 Uncharacterized protein n=1 Tax=Myceliophthora th...  97.0       9e-22
+UniRef90_A0A164ZJB7 Kinase-like protein n=2 Tax=Sistotremastrum T...  97.0       9e-22
+UniRef90_A0A0F4ZDY0 Uncharacterized protein n=1 Tax=Thielaviopsis...  97.0       9e-22
+UniRef90_A0A2C5XKX4 Serine/threonine-protein kinase cek1 n=1 Tax=...  97.0       1e-21
+UniRef90_A0A1C7N5P4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  97.0       1e-21
+UniRef90_A0A284QZC6 Uncharacterized protein n=1 Tax=Armillaria os...  97.0       1e-21
+UniRef90_A0A5C2SVK2 Uncharacterized protein n=2 Tax=Lentinus tigr...  97.0       1e-21
+UniRef90_G2QZG0 Uncharacterized protein n=2 Tax=Thermothielavioid...  97.0       1e-21
+UniRef90_E3QD29 Uncharacterized protein n=2 Tax=Colletotrichum Ta...  97.0       1e-21
+UniRef90_A0A0C3GH21 Uncharacterized protein n=1 Tax=Piloderma cro...  96.7       1e-21
+UniRef90_A0A0K8TXA8 NUAK family SNF1-like kinase 1 (Fragment) n=6...  96.3       1e-21
+UniRef90_P38938 Serine/threonine-protein kinase cek1 n=1 Tax=Schi...  96.7       1e-21
+UniRef90_A0A150GXM7 Uncharacterized protein n=1 Tax=Gonium pector...  96.7       1e-21
+UniRef90_A0A409VD39 Uncharacterized protein n=1 Tax=Panaeolus cya...  96.7       1e-21
+UniRef90_H6C5H4 Protein-serine/threonine kinase n=1 Tax=Exophiala...  96.7       1e-21
+UniRef90_A0A370TS93 Putative Serine kinase cek1 n=1 Tax=Venustamp...  96.7       1e-21
+UniRef90_A0A4T0FNK9 Uncharacterized protein n=1 Tax=Wallemia hede...  96.3       2e-21
+UniRef90_A0A250X1L8 Protein kinase domain-containing protein n=1 ...  96.3       2e-21
+UniRef90_UPI00158B444C uncharacterized protein LOC118066284 n=1 T...  96.3       2e-21
+UniRef90_M2QUQ8 Response regulator receiver n=1 Tax=Ceriporiopsis...  96.3       2e-21
+UniRef90_A8PS91 Uncharacterized protein n=1 Tax=Malassezia globos...  96.3       2e-21
+UniRef90_A0A1Y2U8R4 Uncharacterized protein n=2 Tax=unclassified ...  96.3       2e-21
+UniRef90_UPI00143DFA6B uncharacterized protein LOC117170224 isofo...  96.3       2e-21
+UniRef90_A0A3N4LTB2 Uncharacterized protein n=1 Tax=Terfezia boud...  96.3       2e-21
+UniRef90_A0A6A5U3J3 Uncharacterized protein n=1 Tax=Byssothecium ...  96.3       2e-21
+UniRef90_L2GGY6 Response regulator receiver rim15p n=1 Tax=Collet...  96.3       2e-21
+UniRef90_A0A507EAS6 Uncharacterized protein n=1 Tax=Powellomyces ...  96.3       2e-21
+UniRef90_A0A4U0WMB7 Uncharacterized protein n=1 Tax=Cryomyces min...  96.3       2e-21
+UniRef90_C7YK24 Predicted protein n=1 Tax=Nectria haematococca (s...  96.3       2e-21
+UniRef90_A0A0D2ESK9 Uncharacterized protein n=1 Tax=Exophiala xen...  96.3       2e-21
+UniRef90_A0A2V1CPL1 Putative Serine/threonine-protein kinase cek1...  96.3       2e-21
+UniRef90_L7JKF9 Serine/threonine-protein kinase RIM15 n=5 Tax=Pyr...  96.3       2e-21
+UniRef90_A0A0J9XDU6 Similar to Saccharomyces cerevisiae YFL033C R...  96.3       2e-21
+UniRef90_A0A1X0RTM2 Uncharacterized protein n=5 Tax=Rhizopus TaxI...  96.3       2e-21
+UniRef90_A0A545VYP4 AGC protein kinase n=1 Tax=Cordyceps javanica...  96.3       2e-21
+UniRef90_Q2H5T4 Uncharacterized protein n=1 Tax=Chaetomium globos...  96.3       2e-21
+UniRef90_A0A5C3QV51 Uncharacterized protein n=1 Tax=Pterula graci...  96.3       2e-21
+UniRef90_N1JD50 Serine/threonine-protein kinase ppk18 n=2 Tax=Blu...  95.9       2e-21
+UniRef90_A0A0B1PI71 Putative serine threonine-protein kinase ppk1...  95.9       2e-21
+UniRef90_A0A559MEF2 Serine/threonine-protein kinase n=2 Tax=Lachn...  95.9       2e-21
+UniRef90_A0A058ZEN6 AGC/MAST protein kinase n=1 Tax=Fonticula alb...  95.9       2e-21
+UniRef90_A0A063C6L6 Putative response regulator receiver RIM15p n...  95.9       2e-21
+UniRef90_A0A2C6A741 Uncharacterized protein n=1 Tax=Cordyceps sp....  95.9       2e-21
+UniRef90_A0A428NES4 Uncharacterized protein n=6 Tax=Fusarium sola...  95.9       2e-21
+UniRef90_B6K2N1 AGC protein kinase Cek1 n=1 Tax=Schizosaccharomyc...  95.9       2e-21
+UniRef90_N4V7Q3 Response regulator receiver rim15p n=4 Tax=Collet...  95.9       2e-21
+UniRef90_A0A166BUD8 Uncharacterized protein n=1 Tax=Exidia glandu...  95.9       3e-21
+UniRef90_A0A067QCF3 Uncharacterized protein n=1 Tax=Jaapia argill...  95.9       3e-21
+UniRef90_A0A1M8A5M7 Similar to S.cerevisiae protein CBK1 (Serine/...  95.9       3e-21
+UniRef90_A0A1U7LJH5 Serine/threonine-protein kinase ppk18 n=1 Tax...  95.9       3e-21
+UniRef90_A0A060SAU9 Uncharacterized protein n=1 Tax=Pycnoporus ci...  95.9       3e-21
+UniRef90_S3D9E9 Protein kinase-like (PK-like) n=2 Tax=Glarea lozo...  95.9       3e-21
+UniRef90_A0A2K1QL49 Serine/threonine-protein kinase ppk18 n=1 Tax...  95.9       3e-21
+UniRef90_A0A0D2WJB6 AGC protein kinase n=1 Tax=Capsaspora owczarz...  95.9       3e-21
+UniRef90_UPI0004416420 hypothetical protein n=1 Tax=Punctularia s...  95.5       3e-21
+UniRef90_A0A3D8SF09 Putative serine kinase cek1 n=2 Tax=Coleophom...  95.5       3e-21
+UniRef90_A0A4R5XF67 Uncharacterized protein n=1 Tax=Rickenella me...  95.5       3e-21
+UniRef90_A0A4Z0ADA9 Uncharacterized protein n=1 Tax=Hericium alpe...  95.5       3e-21
+UniRef90_A0A067R9L4 NUAK family SNF1-like kinase 1 n=2 Tax=Zooter...  95.5       3e-21
+UniRef90_A0A0P7BCH8 Uncharacterized protein n=1 Tax=Neonectria di...  95.5       3e-21
+UniRef90_A0A1E3Q9H3 Uncharacterized protein n=1 Tax=Lipomyces sta...  95.5       4e-21
+UniRef90_A0A5B1QBB6 Uncharacterized protein n=1 Tax=Dentipellis s...  95.5       4e-21
+UniRef90_A0A0P1BHN6 Related to serine threonine protein kinase n=...  95.1       4e-21
+UniRef90_I1RCJ5 Uncharacterized protein n=51 Tax=Fusarium TaxID=5...  95.1       4e-21
+UniRef90_Q7S2I4 Serine threonine protein kinase n=5 Tax=Sordariac...  95.1       5e-21
+UniRef90_A0A6J3M6Q0 uncharacterized protein n=1 Tax=Dissoconium a...  95.1       5e-21
+UniRef90_J7S6U4 Uncharacterized protein n=1 Tax=Kazachstania naga...  95.1       5e-21
+UniRef90_A0A182R0M1 Protein kinase domain-containing protein n=1 ...  95.1       5e-21
+UniRef90_A0A066WJA5 Uncharacterized protein n=1 Tax=Tilletiaria a...  95.1       5e-21
+UniRef90_I1BYJ6 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  95.1       5e-21
+UniRef90_A0A4S4MMV6 Uncharacterized protein n=1 Tax=Antrodiella c...  95.1       5e-21
+UniRef90_W7I1A8 Uncharacterized protein n=1 Tax=Drechslerella ste...  95.1       5e-21
+UniRef90_A0A6G1H9V1 Uncharacterized protein n=1 Tax=Aulographum h...  95.1       5e-21
+UniRef90_A0A182IRI6 Protein kinase domain-containing protein n=1 ...  94.7       5e-21
+UniRef90_A0A2N3NDY6 Uncharacterized protein n=1 Tax=Lomentospora ...  94.7       5e-21
+UniRef90_A0A167WL68 Serine/threonine-protein kinase domain protei...  94.7       6e-21
+UniRef90_A0A094FLX2 Uncharacterized protein n=1 Tax=Pseudogymnoas...  94.7       6e-21
+UniRef90_A0A182PAH1 Protein kinase domain-containing protein n=1 ...  94.7       6e-21
+UniRef90_UPI00083C438D uncharacterized protein LOC108563115 n=1 T...  94.7       6e-21
+UniRef90_A0A164YA17 Non-specific serine/threonine protein kinase ...  94.7       6e-21
+UniRef90_A0A1Y1XA81 Uncharacterized protein n=1 Tax=Anaeromyces r...  94.7       6e-21
+UniRef90_A0A175VUK5 Serine/threonine-protein kinase cek1 n=1 Tax=...  94.7       6e-21
+UniRef90_A0A194SFJ6 Uncharacterized protein n=1 Tax=Rhodotorula g...  94.7       6e-21
+UniRef90_G9N943 Putative response regulator receiver Rim15p n=1 T...  94.7       6e-21
+UniRef90_A0A182HJ59 Protein kinase domain-containing protein n=3 ...  94.7       7e-21
+UniRef90_A0A084WE42 Protein kinase domain-containing protein n=1 ...  94.7       7e-21
+UniRef90_A0A425BJW5 Uncharacterized protein n=1 Tax=Scytalidium s...  94.7       7e-21
+UniRef90_A0A4Q4Y985 Uncharacterized protein n=8 Tax=Monosporascus...  94.7       7e-21
+UniRef90_A0A0H2S7G1 Uncharacterized protein n=1 Tax=Schizopora pa...  94.7       7e-21
+UniRef90_G1XBK9 Uncharacterized protein n=5 Tax=Arthrobotrys TaxI...  94.3       7e-21
+UniRef90_S9W096 AGC protein kinase Ppk18 n=1 Tax=Schizosaccharomy...  94.3       7e-21
+UniRef90_A0A168IR80 Serine/threonine-protein kinase domain protei...  94.3       7e-21
+UniRef90_J3NIX9 AGC protein kinase n=1 Tax=Gaeumannomyces tritici...  94.3       7e-21
+UniRef90_A0A182VXG2 Protein kinase domain-containing protein n=1 ...  94.3       7e-21
+UniRef90_A0A182R382 Protein kinase domain-containing protein n=1 ...  94.3       8e-21
+UniRef90_A7ERY0 Uncharacterized protein n=15 Tax=Sclerotiniaceae ...  94.3       8e-21
+UniRef90_G3J388 Serine threonine protein kinase, putative n=2 Tax...  94.3       8e-21
+UniRef90_B0W8J2 Serine/threonine protein kinase n=4 Tax=Culex Tax...  94.3       8e-21
+UniRef90_A0A2S7PBI2 Uncharacterized protein n=3 Tax=unclassified ...  94.3       8e-21
+UniRef90_A0A316UWZ5 Uncharacterized protein n=1 Tax=Jaminaea rose...  94.3       8e-21
+UniRef90_A0A182NFS6 Protein kinase domain-containing protein n=1 ...  94.3       8e-21
+UniRef90_A0A195F2E5 NUAK family SNF1-like kinase 1 n=5 Tax=Attini...  94.3       8e-21
+UniRef90_A0A6A6VP13 Putative response regulator receiver RIM15p n...  94.3       8e-21
+UniRef90_A0A5M9JA27 Uncharacterized protein n=2 Tax=Monilinia Tax...  94.3       9e-21
+UniRef90_A0A1Q3FM01 Putative catalytic domain of amp-activated pr...  94.3       9e-21
+UniRef90_UPI0003F49562 uncharacterized protein n=1 Tax=Tremella m...  94.3       9e-21
+UniRef90_E9HJU7 Non-specific serine/threonine protein kinase n=1 ...  94.3       9e-21
+UniRef90_A0A3N4LHS0 Uncharacterized protein n=1 Tax=Morchella con...  94.3       9e-21
+UniRef90_A0A367KVW5 Uncharacterized protein (Fragment) n=1 Tax=Rh...  94.3       1e-20
+UniRef90_A0A1Q8S393 Serine/threonine-protein kinase RIM15 n=1 Tax...  94.3       1e-20
+UniRef90_A0A6I8TTF7 Protein kinase domain-containing protein n=10...  94.0       1e-20
+UniRef90_A0A517KWZ3 Uncharacterized protein n=1 Tax=Venturia effu...  94.0       1e-20
+UniRef90_Q7QBH3 AGAP003174-PA n=5 Tax=gambiae species complex Tax...  94.0       1e-20
+UniRef90_A0A5N6Z059 Uncharacterized protein n=1 Tax=Aspergillus c...  94.0       1e-20
+UniRef90_A0A168B5V1 Serine/threonine-protein kinase domain protei...  94.0       1e-20
+UniRef90_A0A1E5R6M0 Serine/threonine-protein kinase RIM15 n=1 Tax...  94.0       1e-20
+UniRef90_A0A072P3C5 AGC protein kinase n=1 Tax=Exophiala aquamari...  94.0       1e-20
+UniRef90_W9VTW6 AGC protein kinase n=4 Tax=Herpotrichiellaceae Ta...  94.0       1e-20
+UniRef90_A0A5M3MTB8 Uncharacterized protein n=1 Tax=Coniophora pu...  94.0       1e-20
+UniRef90_A0A166FZC8 Uncharacterized protein n=1 Tax=Fibularhizoct...  94.0       1e-20
+UniRef90_A0A1Y2M3T0 Uncharacterized protein n=1 Tax=Epicoccum nig...  94.0       1e-20
+UniRef90_A0A1X7QYW1 Similar to Saccharomyces cerevisiae YFL033C R...  94.0       1e-20
+UniRef90_A0A086T8T4 Serine/threonine-protein kinase-like protein ...  94.0       1e-20
+UniRef90_A0A2T2N2N8 Serine threonine protein kinase-like protein ...  94.0       1e-20
+UniRef90_I4Y847 Uncharacterized protein n=1 Tax=Wallemia mellicol...  94.0       1e-20
+UniRef90_A0A3A2ZNY9 Serine threonine protein kinase n=1 Tax=Asper...  94.0       1e-20
+UniRef90_A0A182MVF4 Protein kinase domain-containing protein n=1 ...  94.0       1e-20
+UniRef90_A0A094HXQ9 Uncharacterized protein (Fragment) n=1 Tax=Ps...  94.0       1e-20
+UniRef90_A0A1Y2VWP6 Uncharacterized protein n=1 Tax=Hypoxylon sp....  94.0       1e-20
+UniRef90_UPI00102E1569 uncharacterized protein LOC105836154 isofo...  94.0       1e-20
+UniRef90_A0A182K3W9 Protein kinase domain-containing protein n=1 ...  94.0       1e-20
+UniRef90_Q5KL65 Uncharacterized protein n=6 Tax=Cryptococcus neof...  94.0       1e-20
+UniRef90_A0A5M6BW00 Uncharacterized protein n=1 Tax=Kwoniella sha...  94.0       1e-20
+UniRef90_A0A3M6WXM4 Uncharacterized protein (Fragment) n=1 Tax=Ho...  94.0       1e-20
+UniRef90_A0A5N5WN79 Uncharacterized protein n=1 Tax=Aspergillus l...  93.6       1e-20
+UniRef90_A0A177AC88 Rim15, signal transduction response regulator...  93.6       1e-20
+UniRef90_A0A319DRP5 Uncharacterized protein n=2 Tax=Aspergillus T...  93.6       1e-20
+UniRef90_A0A179HMJ7 AGC protein kinase n=2 Tax=Purpureocillium li...  93.6       1e-20
+UniRef90_A0A074XH82 Uncharacterized protein n=30 Tax=Aureobasidiu...  93.6       1e-20
+UniRef90_A0A061H2F8 Uncharacterized protein n=2 Tax=Anthracocysti...  93.6       1e-20
+UniRef90_A0A1B8G8K8 Rim15, signal transduction response regulator...  93.6       1e-20
+UniRef90_A0A2V1E0D1 Putative response regulator receiver RIM15p n...  93.6       1e-20
+UniRef90_A0A316U0M4 Uncharacterized protein n=1 Tax=Pseudomicrost...  93.6       1e-20
+UniRef90_A0A0E9NIE5 Uncharacterized protein n=2 Tax=Saitoella com...  93.6       1e-20
+UniRef90_A0A0M8N6R6 Serine/threonine-protein kinase RIM15 n=1 Tax...  93.6       2e-20
+UniRef90_A0A1L9UBQ0 Uncharacterized protein n=1 Tax=Aspergillus b...  93.6       2e-20
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0418    0.140     1.90     42.6     43.6 
+
+Effective search space used: 98534597486
+Results from round 3
+
+
+Query= sp|Q96GD4-3|AURKB_HUMAN Isoform 3 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=142
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_Q08DN4 Aurora 1 n=4 Tax=Bos TaxID=9903 RepID=Q08DN4_BOVIN    172        3e-51
+UniRef90_L9KM72 Aurora 1 (Fragment) n=1 Tax=Tupaia chinensis TaxI...  163        6e-45
+UniRef90_A0A0C3D710 Uncharacterized protein n=1 Tax=Oidiodendron ...  159        1e-43
+UniRef90_D6RMI0 AGC/NDR protein kinase n=1 Tax=Coprinopsis cinere...  157        8e-43
+UniRef90_A0A067NYX1 Serine/threonine protein kinase RIM15 n=1 Tax...  155        3e-42
+UniRef90_A0A4S8N039 Uncharacterized protein n=1 Tax=Dendrothele b...  155        3e-42
+UniRef90_V2XKY6 Serine threonine protein n=2 Tax=Moniliophthora r...  153        1e-41
+UniRef90_A0A0C3CBY6 Uncharacterized protein n=1 Tax=Hebeloma cyli...  153        1e-41
+UniRef90_A0A1E1JTD7 Related to protein kinase cek1 n=3 Tax=Rhynch...  153        1e-41
+UniRef90_A0A6A4IPF6 Uncharacterized protein n=1 Tax=Gymnopus andr...  152        5e-41
+UniRef90_A0A218Z061 Uncharacterized protein n=1 Tax=Marssonina co...  152        6e-41
+UniRef90_A0A1Q3DVE7 RIM15 response regulator receiver protein n=1...  151        8e-41
+UniRef90_A0A3E2H7C2 Uncharacterized protein (Fragment) n=1 Tax=Sc...  151        1e-40
+UniRef90_A0A409VNJ7 Uncharacterized protein n=1 Tax=Gymnopilus di...  151        1e-40
+UniRef90_A0A0D2PGG2 Uncharacterized protein n=1 Tax=Hypholoma sub...  150        1e-40
+UniRef90_Q7S2I4 Serine threonine protein kinase n=5 Tax=Sordariac...  150        2e-40
+UniRef90_Q2H5T4 Uncharacterized protein n=1 Tax=Chaetomium globos...  150        2e-40
+UniRef90_A0A2N6NGU5 Serine/threonine-protein kinase cek1 n=5 Tax=...  150        2e-40
+UniRef90_A0A0P7BCH8 Uncharacterized protein n=1 Tax=Neonectria di...  150        3e-40
+UniRef90_A0A428NES4 Uncharacterized protein n=6 Tax=Fusarium sola...  149        4e-40
+UniRef90_A0A409WFU4 Uncharacterized protein n=1 Tax=Psilocybe cya...  149        4e-40
+UniRef90_A0A175VUK5 Serine/threonine-protein kinase cek1 n=1 Tax=...  149        4e-40
+UniRef90_W4KDP9 Uncharacterized protein n=1 Tax=Heterobasidion ir...  149        4e-40
+UniRef90_K1XK72 Serine/threonine-protein kinase n=1 Tax=Marssonin...  149        4e-40
+UniRef90_C7YK24 Predicted protein n=1 Tax=Nectria haematococca (s...  149        5e-40
+UniRef90_A0A0C3PTV7 Uncharacterized protein n=1 Tax=Pisolithus ti...  149        5e-40
+UniRef90_A7ERY0 Uncharacterized protein n=15 Tax=Sclerotiniaceae ...  149        5e-40
+UniRef90_A0A370TS93 Putative Serine kinase cek1 n=1 Tax=Venustamp...  149        6e-40
+UniRef90_G2Q468 Uncharacterized protein n=1 Tax=Myceliophthora th...  148        6e-40
+UniRef90_G2QZG0 Uncharacterized protein n=2 Tax=Thermothielavioid...  148        6e-40
+UniRef90_A0A420IG97 Putative serine threonine-protein kinase ppk1...  148        6e-40
+UniRef90_A0A0C4E6T8 AGC protein kinase n=1 Tax=Magnaporthiopsis p...  148        7e-40
+UniRef90_A0A2T3BAF4 Uncharacterized protein n=1 Tax=Amorphotheca ...  148        7e-40
+UniRef90_A0A545VYP4 AGC protein kinase n=1 Tax=Cordyceps javanica...  148        8e-40
+UniRef90_N1JD50 Serine/threonine-protein kinase ppk18 n=2 Tax=Blu...  148        9e-40
+UniRef90_S3D9E9 Protein kinase-like (PK-like) n=2 Tax=Glarea lozo...  148        1e-39
+UniRef90_I1RCJ5 Uncharacterized protein n=51 Tax=Fusarium TaxID=5...  148        1e-39
+UniRef90_A0A2S4PVX0 Uncharacterized protein (Fragment) n=2 Tax=Er...  148        1e-39
+UniRef90_J3NIX9 AGC protein kinase n=1 Tax=Gaeumannomyces tritici...  147        2e-39
+UniRef90_A0A369JUV9 Serine/threonine-protein kinase cek1 n=1 Tax=...  147        2e-39
+UniRef90_A0A559MEF2 Serine/threonine-protein kinase n=2 Tax=Lachn...  147        2e-39
+UniRef90_A0A0D7BEB0 Uncharacterized protein n=1 Tax=Cylindrobasid...  147        2e-39
+UniRef90_A0A067TVA8 Uncharacterized protein n=1 Tax=Galerina marg...  147        2e-39
+UniRef90_A0A2R6NR03 Uncharacterized protein n=2 Tax=Phlebia centr...  147        3e-39
+UniRef90_A0A425BJW5 Uncharacterized protein n=1 Tax=Scytalidium s...  147        3e-39
+UniRef90_B8P313 Protein kinase response regulator receiver domain...  147        3e-39
+UniRef90_A0A2A9NUF5 Uncharacterized protein n=1 Tax=Amanita thier...  147        3e-39
+UniRef90_A0A4Y7T7M2 Uncharacterized protein n=1 Tax=Coprinellus m...  147        4e-39
+UniRef90_A0A0B7KM16 Uncharacterized protein n=1 Tax=Bionectria oc...  146        4e-39
+UniRef90_A0A0B1PI71 Putative serine threonine-protein kinase ppk1...  146        4e-39
+UniRef90_T5A8S3 Serine/threonine-protein kinase domain protein n=...  146        4e-39
+UniRef90_S7QJ44 Kinase-like protein n=1 Tax=Gloeophyllum trabeum ...  146        4e-39
+UniRef90_A0A2V1CPL1 Putative Serine/threonine-protein kinase cek1...  146        4e-39
+UniRef90_A0A167WL68 Serine/threonine-protein kinase domain protei...  146        5e-39
+UniRef90_A0A0C3AV55 Uncharacterized protein n=1 Tax=Scleroderma c...  146        5e-39
+UniRef90_A0A4U6XAY2 Serine/threonine-protein kinase cek1 n=1 Tax=...  146        6e-39
+UniRef90_B2AU43 Podospora anserina S mat+ genomic DNA chromosome ...  146        6e-39
+UniRef90_A0A084QBI2 Uncharacterized protein n=1 Tax=Stachybotrys ...  146        7e-39
+UniRef90_UPI0003F49562 uncharacterized protein n=1 Tax=Tremella m...  145        7e-39
+UniRef90_A0A2A9PP81 Uncharacterized protein n=1 Tax=Ophiocordycep...  145        7e-39
+UniRef90_A0A5M9JA27 Uncharacterized protein n=2 Tax=Monilinia Tax...  145        7e-39
+UniRef90_J4G0Z9 Uncharacterized protein n=1 Tax=Fibroporia radicu...  145        7e-39
+UniRef90_A0A6G1IUP1 Putative response regulator receiver RIM15p n...  145        7e-39
+UniRef90_A0A2C6A741 Uncharacterized protein n=1 Tax=Cordyceps sp....  145        8e-39
+UniRef90_A0A1Q8S393 Serine/threonine-protein kinase RIM15 n=1 Tax...  145        8e-39
+UniRef90_A0A6A6E989 Putative response regulator receiver RIM15p n...  145        8e-39
+UniRef90_A0A4Q2DSX7 Uncharacterized protein n=1 Tax=Psathyrella a...  145        8e-39
+UniRef90_A0A086T8T4 Serine/threonine-protein kinase-like protein ...  145        8e-39
+UniRef90_A0A094FLX2 Uncharacterized protein n=1 Tax=Pseudogymnoas...  145        8e-39
+UniRef90_A0A316VB10 Uncharacterized protein n=1 Tax=Meira miltonr...  145        8e-39
+UniRef90_B2WCL6 Serine/threonine-protein kinase CBK1 n=4 Tax=Pyre...  145        9e-39
+UniRef90_A0A165N7Q4 Kinase-like protein n=2 Tax=Gloeophyllales Ta...  145        9e-39
+UniRef90_A0A2J6RT02 Putative Serine/threonine-protein kinase cek1...  145        9e-39
+UniRef90_A0A0C3NPH0 Uncharacterized protein n=1 Tax=Phlebiopsis g...  145        1e-38
+UniRef90_A0A3N7HHK3 Uncharacterized protein n=8 Tax=Saliceae TaxI...  145        1e-38
+UniRef90_A0A5C3L892 Kinase-like protein n=1 Tax=Coprinopsis marce...  145        1e-38
+UniRef90_M5GCH0 Uncharacterized protein n=1 Tax=Dacryopinax primo...  145        1e-38
+UniRef90_A0A168IR80 Serine/threonine-protein kinase domain protei...  145        1e-38
+UniRef90_A0A137Q916 Serine/threonine-protein kinase cek1 n=1 Tax=...  145        1e-38
+UniRef90_A0A5C3MG68 Uncharacterized protein n=1 Tax=Crucibulum la...  145        1e-38
+UniRef90_A0A084AQ98 Uncharacterized protein n=2 Tax=Stachybotrys ...  145        1e-38
+UniRef90_D8PP30 Uncharacterized protein n=1 Tax=Schizophyllum com...  145        1e-38
+UniRef90_L2GGY6 Response regulator receiver rim15p n=1 Tax=Collet...  145        1e-38
+UniRef90_A0A371DSN2 Uncharacterized protein n=2 Tax=Polyporus Tax...  145        1e-38
+UniRef90_A0A550CS57 Uncharacterized protein n=1 Tax=Auriculariops...  145        1e-38
+UniRef90_A0A6A6RLI0 Uncharacterized protein n=1 Tax=Massarina ebu...  145        1e-38
+UniRef90_UPI00144AA1CF putative response regulator receiver RIM15...  145        1e-38
+UniRef90_G3J388 Serine threonine protein kinase, putative n=2 Tax...  145        1e-38
+UniRef90_A0A010S6D3 Uncharacterized protein n=14 Tax=Colletotrich...  145        1e-38
+UniRef90_A0A0D0DX38 Unplaced genomic scaffold scaffold_21, whole ...  145        1e-38
+UniRef90_A0A146IKB6 Serine/threonine protein n=1 Tax=Mycena chlor...  145        2e-38
+UniRef90_A0A3D8SF09 Putative serine kinase cek1 n=2 Tax=Coleophom...  145        2e-38
+UniRef90_A0A6A5WBR7 Putative response regulator receiver RIM15p n...  144        2e-38
+UniRef90_K5W5F9 Uncharacterized protein n=1 Tax=Phanerochaete car...  144        2e-38
+UniRef90_A0A6A5YHF6 Serine threonine protein kinase-like protein ...  144        2e-38
+UniRef90_A0A0L6WHH0 Serine/threonine-protein kinase cek1 n=1 Tax=...  144        2e-38
+UniRef90_B0CY06 Predicted protein n=2 Tax=Laccaria TaxID=29882 Re...  144        2e-38
+UniRef90_A0A177D0N8 Uncharacterized protein n=8 Tax=Alternaria se...  144        2e-38
+UniRef90_L7JKF9 Serine/threonine-protein kinase RIM15 n=5 Tax=Pyr...  144        2e-38
+UniRef90_A0A6A5Y3Q4 Putative response regulator receiver RIM15p n...  144        2e-38
+UniRef90_A0A1C7M176 Serine/threonine-protein kinase cek1 n=1 Tax=...  144        2e-38
+UniRef90_A0A1B7NIC4 RIM15, signal transduction response regulator...  144        2e-38
+UniRef90_A0A6A5U3J3 Uncharacterized protein n=1 Tax=Byssothecium ...  144        3e-38
+UniRef90_UPI000440EF3D hypothetical protein n=1 Tax=Stereum hirsu...  144        3e-38
+UniRef90_A0A2T2N2N8 Serine threonine protein kinase-like protein ...  144        3e-38
+UniRef90_A0A177AC88 Rim15, signal transduction response regulator...  144        3e-38
+UniRef90_A0A5P1FEJ5 Uncharacterized protein n=2 Tax=Asparagus off...  144        3e-38
+UniRef90_A0A165KC61 Uncharacterized protein n=2 Tax=Calocera TaxI...  144        3e-38
+UniRef90_A0A0D0A4J3 Unplaced genomic scaffold scaffold_6, whole g...  143        3e-38
+UniRef90_F8NMC3 RIM15, signal transduction response regulator n=2...  143        3e-38
+UniRef90_A0A063C6L6 Putative response regulator receiver RIM15p n...  143        3e-38
+UniRef90_A0A178DM98 Uncharacterized protein (Fragment) n=1 Tax=Py...  143        4e-38
+UniRef90_N4V7Q3 Response regulator receiver rim15p n=4 Tax=Collet...  143        4e-38
+UniRef90_A0A168B5V1 Serine/threonine-protein kinase domain protei...  143        4e-38
+UniRef90_A0A6A6IRY5 Putative response regulator receiver RIM15p n...  143        4e-38
+UniRef90_A0A0A1SVM7 Uncharacterized protein n=1 Tax=Torrubiella h...  143        5e-38
+UniRef90_W9QJ88 Putative serine/threonine-protein kinase n=2 Tax=...  143        5e-38
+UniRef90_A0A2N3NDY6 Uncharacterized protein n=1 Tax=Lomentospora ...  143        5e-38
+UniRef90_A0A6A5RAS6 Uncharacterized protein n=2 Tax=Didymellaceae...  143        5e-38
+UniRef90_E3QD29 Uncharacterized protein n=2 Tax=Colletotrichum Ta...  143        5e-38
+UniRef90_K5W0S1 RIM15 response regulator receiver protein n=2 Tax...  143        5e-38
+UniRef90_A0A194WSZ2 Putative Serine/threonine-protein kinase cek1...  143        6e-38
+UniRef90_A0A4Z0ADA9 Uncharacterized protein n=1 Tax=Hericium alpe...  143        7e-38
+UniRef90_A0A2C9UNJ3 Uncharacterized protein n=9 Tax=Crotonoideae ...  143        7e-38
+UniRef90_A0A4S4LUM9 Uncharacterized protein n=1 Tax=Bondarzewia m...  143        8e-38
+UniRef90_A0A6A6N0D8 Uncharacterized protein n=2 Tax=Hevea brasili...  142        8e-38
+UniRef90_A0A5M6BW00 Uncharacterized protein n=1 Tax=Kwoniella sha...  143        8e-38
+UniRef90_G9N943 Putative response regulator receiver Rim15p n=1 T...  142        8e-38
+UniRef90_P43565 Serine/threonine-protein kinase RIM15 n=20 Tax=Sa...  142        9e-38
+UniRef90_A0A6A5KPB3 Putative response regulator receiver RIM15p n...  142        9e-38
+UniRef90_A0A165I3T0 Uncharacterized protein n=1 Tax=Laetiporus su...  142        9e-38
+UniRef90_A0A0D0A0G9 Unplaced genomic scaffold CY34scaffold_83, wh...  142        9e-38
+UniRef90_A0A3Q7FSI1 Uncharacterized protein n=5 Tax=Solanum subge...  142        9e-38
+UniRef90_A0A178A7P9 Uncharacterized protein n=1 Tax=Stagonospora ...  142        1e-37
+UniRef90_A0A0C2X757 Uncharacterized protein n=1 Tax=Amanita musca...  142        1e-37
+UniRef90_A0A1B8G8K8 Rim15, signal transduction response regulator...  142        1e-37
+UniRef90_A0A2G8STE5 Transporter n=1 Tax=Ganoderma sinense ZZ0214-...  142        1e-37
+UniRef90_A0A177CQ17 Putative response regulator receiver RIM15p n...  142        1e-37
+UniRef90_A0A2C5Z521 Uncharacterized protein n=2 Tax=Ophiocordycep...  142        1e-37
+UniRef90_R7SZJ9 Uncharacterized protein n=3 Tax=Dichomitus squale...  142        2e-37
+UniRef90_A0A364NEY7 Serine threonine protein kinase n=1 Tax=Stemp...  142        2e-37
+UniRef90_A0A4R0RUI1 Uncharacterized protein n=1 Tax=Steccherinum ...  142        2e-37
+UniRef90_A0A2S7PBI2 Uncharacterized protein n=3 Tax=unclassified ...  142        2e-37
+UniRef90_A0A151GFU8 Serine/threonine-protein kinase domain protei...  142        2e-37
+UniRef90_A0A6A6T5M5 Putative response regulator receiver RIM15p n...  142        2e-37
+UniRef90_A0A401GBR6 Serine/threonine-protein kinase cek1 n=1 Tax=...  142        2e-37
+UniRef90_A0A4Y7JK31 Uncharacterized protein n=2 Tax=Papaver somni...  141        2e-37
+UniRef90_R0IVI8 Uncharacterized protein n=8 Tax=Pleosporaceae Tax...  141        2e-37
+UniRef90_A0A2H3C9B1 RIM15, signal transduction response regulator...  141        2e-37
+UniRef90_A0A0F4ZDY0 Uncharacterized protein n=1 Tax=Thielaviopsis...  141        2e-37
+UniRef90_A0A4U0WMB7 Uncharacterized protein n=1 Tax=Cryomyces min...  141        2e-37
+UniRef90_A0A6A6WST8 Putative response regulator receiver RIM15p n...  141        2e-37
+UniRef90_A0A067L7C1 Uncharacterized protein n=1 Tax=Jatropha curc...  141        2e-37
+UniRef90_UPI000440759E uncharacterized protein n=1 Tax=Fomitipori...  141        2e-37
+UniRef90_A0A6G1JXQ9 Putative response regulator receiver RIM15p n...  141        2e-37
+UniRef90_A0A5B1QBB6 Uncharacterized protein n=1 Tax=Dentipellis s...  141        2e-37
+UniRef90_F0XE17 Serine/threonine-protein kinase n=1 Tax=Grosmanni...  141        2e-37
+UniRef90_A0A286UN62 Signal transduction response regulator n=1 Ta...  141        2e-37
+UniRef90_A0A1Y2M3T0 Uncharacterized protein n=1 Tax=Epicoccum nig...  141        2e-37
+UniRef90_A0A179HMJ7 AGC protein kinase n=2 Tax=Purpureocillium li...  141        2e-37
+UniRef90_UPI0015C31E03 uncharacterized protein n=1 Tax=Geosmithia...  141        2e-37
+UniRef90_A0A166I945 Uncharacterized protein n=2 Tax=Daucus carota...  141        2e-37
+UniRef90_A0A1U8AQJ9 probable serine/threonine protein kinase IREH...  141        3e-37
+UniRef90_A0A2V1E0D1 Putative response regulator receiver RIM15p n...  141        3e-37
+UniRef90_A0A084G9Y2 Uncharacterized protein n=1 Tax=Pseudallesche...  141        3e-37
+UniRef90_UPI0004623D62 hypothetical protein n=1 Tax=Trametes vers...  141        3e-37
+UniRef90_A0A0L0HNJ0 AGC protein kinase n=2 Tax=Spizellomyces TaxI...  141        3e-37
+UniRef90_A0A0B2RKP9 UMP-CMP kinase n=2 Tax=Glycine soja TaxID=384...  141        3e-37
+UniRef90_A0A2C5Z1V5 Uncharacterized protein n=1 Tax=Ophiocordycep...  141        3e-37
+UniRef90_A2XLA4 Uncharacterized protein n=2 Tax=Oryza TaxID=4527 ...  141        3e-37
+UniRef90_A0A094HXQ9 Uncharacterized protein (Fragment) n=1 Tax=Ps...  141        3e-37
+UniRef90_A0A1Y2I6N3 Uncharacterized protein n=2 Tax=Trametes TaxI...  141        3e-37
+UniRef90_E4ZVQ0 Similar to serine threonine protein kinase n=2 Ta...  141        4e-37
+UniRef90_A0A4Y9YE16 Uncharacterized protein n=1 Tax=Fomitopsis ro...  141        4e-37
+UniRef90_A0A6A1VF64 Adenylate kinase n=1 Tax=Morella rubra TaxID=...  141        4e-37
+UniRef90_A0A4Q4Y985 Uncharacterized protein n=8 Tax=Monosporascus...  141        4e-37
+UniRef90_A0A6A6APQ0 Serine threonine protein kinase-like protein ...  140        4e-37
+UniRef90_A0A6A5QAS9 Serine threonine protein kinase-like protein ...  140        4e-37
+UniRef90_A0A395N8C8 Agc kinase n=5 Tax=Trichoderma TaxID=5543 Rep...  140        4e-37
+UniRef90_A0A067N8N4 Uncharacterized protein n=1 Tax=Botryobasidiu...  140        4e-37
+UniRef90_A0A200QLB1 Protein kinase domain n=1 Tax=Macleaya cordat...  140        4e-37
+UniRef90_A0A1S4BIC3 probable serine/threonine protein kinase IREH...  140        4e-37
+UniRef90_A0A2G2WQ68 Putative serine/threonine protein kinase IRE3...  140        4e-37
+UniRef90_A0A6A7AES4 Putative response regulator receiver RIM15p n...  140        4e-37
+UniRef90_A0A0F9ZXB1 AGC protein kinase n=6 Tax=Trichoderma TaxID=...  140        5e-37
+UniRef90_A0A2H3JTI7 Uncharacterized protein n=1 Tax=Wolfiporia co...  140        5e-37
+UniRef90_UPI0011E03EF5 LOW QUALITY PROTEIN: probable serine/threo...  140        5e-37
+UniRef90_A0A445D1U0 Uncharacterized protein n=13 Tax=Magnoliopsid...  140        5e-37
+UniRef90_A0A1Y2E2R6 Uncharacterized protein n=1 Tax=Pseudomassari...  140        5e-37
+UniRef90_UPI000C1D56DD probable serine/threonine protein kinase I...  140        5e-37
+UniRef90_A0A1U8B620 probable serine/threonine protein kinase IREH...  140        5e-37
+UniRef90_A0A420YEY8 Rim15, signal transduction response regulator...  140        5e-37
+UniRef90_W1NZ40 Uncharacterized protein n=4 Tax=Amborella trichop...  140        6e-37
+UniRef90_A0A0M8N6R6 Serine/threonine-protein kinase RIM15 n=1 Tax...  140        6e-37
+UniRef90_A0A2K3Q9B5 Serine/threonine-protein kinase cek1 n=3 Tax=...  140        6e-37
+UniRef90_A0A1Y2U8R4 Uncharacterized protein n=2 Tax=unclassified ...  140        6e-37
+UniRef90_A0A6J3M6Q0 uncharacterized protein n=1 Tax=Dissoconium a...  140        6e-37
+UniRef90_A0A1L7WMX8 Related to protein kinase cek1 n=1 Tax=Phialo...  140        6e-37
+UniRef90_UPI0007AF97E5 probable serine/threonine protein kinase I...  140        7e-37
+UniRef90_UPI001263933B probable serine/threonine protein kinase I...  140        7e-37
+UniRef90_A0A1V6P058 Uncharacterized protein n=1 Tax=Penicillium d...  140        7e-37
+UniRef90_A0A0G4LY70 Uncharacterized protein n=4 Tax=Verticillium ...  140        8e-37
+UniRef90_E9EL53 Serine/threonine-protein kinase, active site prot...  140        8e-37
+UniRef90_A0A0L8RJW5 Uncharacterized protein n=2 Tax=Saccharomyces...  140        8e-37
+UniRef90_A0A3Q7H094 Uncharacterized protein n=9 Tax=Solanaceae Ta...  140        9e-37
+UniRef90_B9T5A7 Kinase, putative n=1 Tax=Ricinus communis TaxID=3...  140        9e-37
+UniRef90_A0A2G3A2Y0 probable serine/threonine protein kinase IREH...  140        1e-36
+UniRef90_UPI0003D7374B probable serine/threonine protein kinase I...  139        1e-36
+UniRef90_A0A5C7H284 Uncharacterized protein n=1 Tax=Acer yangbien...  139        1e-36
+UniRef90_A0A1U7LJH5 Serine/threonine-protein kinase ppk18 n=1 Tax...  139        1e-36
+UniRef90_Q10E10 Os03g0711800 protein n=24 Tax=Oryza TaxID=4527 Re...  139        1e-36
+UniRef90_A0A1V1T152 Uncharacterized protein n=3 Tax=Fungi TaxID=4...  139        1e-36
+UniRef90_M2QUQ8 Response regulator receiver n=1 Tax=Ceriporiopsis...  139        1e-36
+UniRef90_A0A284QZC6 Uncharacterized protein n=1 Tax=Armillaria os...  139        1e-36
+UniRef90_A0A164ZJB7 Kinase-like protein n=2 Tax=Sistotremastrum T...  139        1e-36
+UniRef90_A0A5J5BKT0 Uncharacterized protein n=1 Tax=Nyssa sinensi...  139        1e-36
+UniRef90_A0A1S7UM32 Putative agc protein kinase n=1 Tax=Rosellini...  139        1e-36
+UniRef90_UPI0015C3EF8D PAS domain-containing protein n=1 Tax=Lasi...  139        1e-36
+UniRef90_G0RZN7 Serine/threonine protein kinase-like protein n=1 ...  139        1e-36
+UniRef90_A0A059AUZ3 Uncharacterized protein n=3 Tax=Eucalyptus gr...  139        1e-36
+UniRef90_A0A2P5CHC3 cGMP-dependent kinase n=2 Tax=Cannabaceae Tax...  139        1e-36
+UniRef90_A0A5C2SVK2 Uncharacterized protein n=2 Tax=Lentinus tigr...  139        1e-36
+UniRef90_A0A166FZC8 Uncharacterized protein n=1 Tax=Fibularhizoct...  139        1e-36
+UniRef90_A0A068TQV3 Uncharacterized protein n=5 Tax=Coffea TaxID=...  139        1e-36
+UniRef90_A0A3G2S2K3 Serine/threonine-protein kinase ppk18 n=2 Tax...  139        1e-36
+UniRef90_H6C5H4 Protein-serine/threonine kinase n=1 Tax=Exophiala...  139        1e-36
+UniRef90_A0A438K1W6 Putative serine/threonine protein kinase IRE4...  139        1e-36
+UniRef90_A0A0E0KI56 Uncharacterized protein n=4 Tax=Oryza punctat...  139        1e-36
+UniRef90_A0A165U221 Uncharacterized protein n=1 Tax=Daedalea quer...  139        2e-36
+UniRef90_A0A1Q0ZG94 Serine/threonine-protein kinase AtPK1/AtPK6 n...  139        2e-36
+UniRef90_A0A1J7K5X5 Uncharacterized protein n=1 Tax=Coniochaeta l...  139        2e-36
+UniRef90_A0A6A5SHT3 Putative response regulator receiver RIM15p n...  139        2e-36
+UniRef90_I1GP76 Uncharacterized protein n=34 Tax=Pooideae TaxID=1...  139        2e-36
+UniRef90_Q2QM12 Incomplete root hair elongation, putative, expres...  139        2e-36
+UniRef90_A0A060SAU9 Uncharacterized protein n=1 Tax=Pycnoporus ci...  139        2e-36
+UniRef90_F9X076 Uncharacterized protein n=5 Tax=Zymoseptoria TaxI...  139        2e-36
+UniRef90_M0RLR3 Uncharacterized protein n=3 Tax=Musa TaxID=4640 R...  138        2e-36
+UniRef90_S8EK84 Uncharacterized protein n=1 Tax=Fomitopsis pinico...  139        2e-36
+UniRef90_M1VZL9 Related to RIM15-protein kinase involved in expre...  138        2e-36
+UniRef90_G9P6I6 Putative response regulator receiver Rim15p n=4 T...  138        2e-36
+UniRef90_A0A1J7HSZ5 Uncharacterized protein n=3 Tax=Lupinus TaxID...  138        2e-36
+UniRef90_A0A6A6VP13 Putative response regulator receiver RIM15p n...  138        2e-36
+UniRef90_A0A5N5KJ35 Uncharacterized protein n=2 Tax=Coniochaeta s...  138        2e-36
+UniRef90_A0A2G2X6A6 Putative serine/threonine protein kinase IRE ...  138        2e-36
+UniRef90_A0A5A7R8W1 Kinase n=1 Tax=Striga asiatica TaxID=4170 Rep...  138        2e-36
+UniRef90_A0A061FV35 Kinase superfamily protein isoform 5 n=15 Tax...  138        2e-36
+UniRef90_A0A3N4LHS0 Uncharacterized protein n=1 Tax=Morchella con...  138        2e-36
+UniRef90_UPI0011D1AAE2 probable serine/threonine protein kinase I...  138        3e-36
+UniRef90_A0A6A5VPW8 Serine threonine protein kinase-like protein ...  138        3e-36
+UniRef90_A0A4D9AUG0 Uncharacterized protein n=2 Tax=Salvia splend...  138        3e-36
+UniRef90_A0A3N4LTB2 Uncharacterized protein n=1 Tax=Terfezia boud...  138        3e-36
+UniRef90_A0A409VD39 Uncharacterized protein n=1 Tax=Panaeolus cya...  138        3e-36
+UniRef90_I1BYJ6 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  138        3e-36
+UniRef90_A0A4S4DX70 Uncharacterized protein n=2 Tax=Camellia sine...  138        3e-36
+UniRef90_A0A1E5UQM1 Putative serine/threonine protein kinase IREH...  138        3e-36
+UniRef90_A0A1S3B6M3 probable serine/threonine protein kinase IREH...  138        3e-36
+UniRef90_A0A2J6LYV8 Uncharacterized protein n=2 Tax=Lactuca sativ...  138        3e-36
+UniRef90_A0A3B6IK20 Uncharacterized protein n=5 Tax=Triticum TaxI...  138        3e-36
+UniRef90_A0A1E3Q9H3 Uncharacterized protein n=1 Tax=Lipomyces sta...  138        3e-36
+UniRef90_UPI0004416420 hypothetical protein n=1 Tax=Punctularia s...  138        3e-36
+UniRef90_A0A165XBM1 Uncharacterized protein n=1 Tax=Daucus carota...  138        3e-36
+UniRef90_UPI000901B4A6 probable serine/threonine protein kinase I...  138        3e-36
+UniRef90_A0A067QCF3 Uncharacterized protein n=1 Tax=Jaapia argill...  138        3e-36
+UniRef90_A0A6J1C754 probable serine/threonine protein kinase IREH...  138        3e-36
+UniRef90_A0A0F2LTG9 Serine/threonineeeee-protein kinase RIM15 n=3...  138        3e-36
+UniRef90_A0A2K1XHH1 Uncharacterized protein n=10 Tax=Saliceae Tax...  138        3e-36
+UniRef90_A0A5N5F6I0 Uncharacterized protein n=1 Tax=Pyrus ussurie...  138        3e-36
+UniRef90_A0A4S4MMV6 Uncharacterized protein n=1 Tax=Antrodiella c...  138        4e-36
+UniRef90_A0A394DKQ8 Uncharacterized protein n=5 Tax=Lupinus TaxID...  138        4e-36
+UniRef90_A0A1F5L2H2 Uncharacterized protein n=2 Tax=Penicillium T...  138        4e-36
+UniRef90_A0A1Y2B3C9 Uncharacterized protein n=1 Tax=Naematelia en...  138        4e-36
+UniRef90_A0A2I0WMJ8 Serine/threonine-protein kinase n=4 Tax=Epide...  138        4e-36
+UniRef90_UPI000D62CA01 probable serine/threonine protein kinase I...  138        4e-36
+UniRef90_A0A166BUD8 Uncharacterized protein n=1 Tax=Exidia glandu...  138        4e-36
+UniRef90_A0A2G2ZC05 Putative serine/threonine protein kinase IRE3...  138        4e-36
+UniRef90_A0A1Y2BH95 Uncharacterized protein n=1 Tax=Neocallimasti...  138        4e-36
+UniRef90_A0A317XR04 Uncharacterized protein n=1 Tax=Testicularia ...  138        4e-36
+UniRef90_A0A3M9YLC9 Rim15, signal transduction response regulator...  137        5e-36
+UniRef90_A0A6G1HWX5 Uncharacterized protein n=1 Tax=Trichodelitsc...  138        5e-36
+UniRef90_F4J6F6 Probable serine/threonine protein kinase IREH1 n=...  137        5e-36
+UniRef90_A0A6A6R2F9 Putative response regulator receiver RIM15p n...  137        5e-36
+UniRef90_A0A2I4EVM1 probable serine/threonine protein kinase IREH...  137        5e-36
+UniRef90_K7LEH0 Uncharacterized protein n=10 Tax=Phaseoleae TaxID...  137        5e-36
+UniRef90_A0A517KWZ3 Uncharacterized protein n=1 Tax=Venturia effu...  137        5e-36
+UniRef90_A0A6A6PLB1 Uncharacterized protein n=1 Tax=Neohortaea ac...  137        5e-36
+UniRef90_F6GSP4 Uncharacterized protein n=12 Tax=Vitis TaxID=3603...  137        5e-36
+UniRef90_A0A0D1YTR1 Uncharacterized protein n=1 Tax=Verruconis ga...  137        6e-36
+UniRef90_A0A1Y1ZXN3 Serine threonine protein kinase-like protein ...  137        6e-36
+UniRef90_M9MFS3 NDR and related serine/threonine kinases n=4 Tax=...  137        6e-36
+UniRef90_A0A6I9TJI4 probable serine/threonine protein kinase IREH...  137        6e-36
+UniRef90_A0A2Z7B6J7 Uncharacterized protein n=1 Tax=Dorcoceras hy...  137        6e-36
+UniRef90_A0A1B9HIX2 AGC protein kinase n=2 Tax=Kwoniella heveanen...  137        6e-36
+UniRef90_A0A2I4GAK0 probable serine/threonine protein kinase IREH...  137        6e-36
+UniRef90_A0A1Y1VIZ6 Uncharacterized protein n=1 Tax=Piromyces fin...  137        6e-36
+UniRef90_A0A2I0ADC7 Serine/threonine-protein kinase n=1 Tax=Apost...  137        6e-36
+UniRef90_A0A364KVD6 Uncharacterized protein n=1 Tax=Talaromyces a...  137        6e-36
+UniRef90_A0A6A6H135 Uncharacterized protein n=1 Tax=Viridothelium...  137        6e-36
+UniRef90_A0A1E3IX74 AGC protein kinase n=2 Tax=Cryptococcus depau...  137        7e-36
+UniRef90_A0A177VAC5 Uncharacterized protein n=2 Tax=Tilletia TaxI...  137        7e-36
+UniRef90_A0A3N4ID85 Uncharacterized protein n=1 Tax=Ascobolus imm...  137        7e-36
+UniRef90_A0A0F8XPY1 Uncharacterized protein n=3 Tax=Aspergillus T...  137        7e-36
+UniRef90_A0A553I8P3 Uncharacterized protein n=1 Tax=Xylaria flabe...  137        7e-36
+UniRef90_A0A5B7AF07 Putative serine/threonine protein kinase IREH...  137        7e-36
+UniRef90_A0A1D6L1R5 Putative serine/threonine protein kinase IREH...  137        7e-36
+UniRef90_UPI000C1D51DA probable serine/threonine protein kinase I...  137        7e-36
+UniRef90_A0A1Q2YKL0 Uncharacterized protein n=1 Tax=Pichia membra...  137        7e-36
+UniRef90_A0A200RA50 Protein kinase domain n=2 Tax=Magnoliopsida T...  137        7e-36
+UniRef90_UPI000CE21C33 LOW QUALITY PROTEIN: probable serine/threo...  137        7e-36
+UniRef90_A0A2R6RT17 Serine/threonine protein kinase n=1 Tax=Actin...  137        8e-36
+UniRef90_UPI000C04225C probable serine/threonine protein kinase I...  137        8e-36
+UniRef90_A0A1Y2VWP6 Uncharacterized protein n=1 Tax=Hypoxylon sp....  137        8e-36
+UniRef90_A0A072UB59 AGC family Serine/Threonine kinase family pro...  137        8e-36
+UniRef90_A0A2K1QL49 Serine/threonine-protein kinase ppk18 n=1 Tax...  137        8e-36
+UniRef90_UPI00125E90E6 probable serine/threonine protein kinase I...  137        8e-36
+UniRef90_A0A6G1H9V1 Uncharacterized protein n=1 Tax=Aulographum h...  137        8e-36
+UniRef90_S3BQ25 Agc protein kinase n=1 Tax=Ophiostoma piceae (str...  137        8e-36
+UniRef90_A0A1U8I5C0 probable serine/threonine protein kinase IREH...  137        8e-36
+UniRef90_A0A507AV57 Uncharacterized protein n=1 Tax=Phialemoniops...  137        9e-36
+UniRef90_A0A5C6GCD4 Rim15, signal transduction response regulator...  137        9e-36
+UniRef90_A0A3A2ZNY9 Serine threonine protein kinase n=1 Tax=Asper...  137        9e-36
+UniRef90_A0A328D6I7 Uncharacterized protein n=2 Tax=Cuscuta sect....  137        9e-36
+UniRef90_A0A1V6TKQ1 Uncharacterized protein n=1 Tax=Penicillium s...  137        9e-36
+UniRef90_A0A218VQ48 Uncharacterized protein n=1 Tax=Punica granat...  137        9e-36
+UniRef90_Q0CEN1 Uncharacterized protein n=2 Tax=Aspergillus terre...  137        9e-36
+UniRef90_A0A369GSV7 Uncharacterized protein n=3 Tax=Ophiocordycep...  137        1e-35
+UniRef90_A0A2U1LHT4 AGC (cAMP-dependent, cGMP-dependent and prote...  137        1e-35
+UniRef90_A0A3M6WXM4 Uncharacterized protein (Fragment) n=1 Tax=Ho...  137        1e-35
+UniRef90_A0A2P2MIL4 Uncharacterized protein MANES_14G172600 n=3 T...  137        1e-35
+UniRef90_I4Y847 Uncharacterized protein n=1 Tax=Wallemia mellicol...  137        1e-35
+UniRef90_A0A167WYJ8 Serine/threonine-protein kinase n=1 Tax=Sporo...  137        1e-35
+UniRef90_M5WSV3 Uncharacterized protein n=18 Tax=fabids TaxID=918...  137        1e-35
+UniRef90_A0A2C5XKX4 Serine/threonine-protein kinase cek1 n=1 Tax=...  137        1e-35
+UniRef90_A0A3N2PZB9 Uncharacterized protein n=1 Tax=Sodiomyces al...  137        1e-35
+UniRef90_A0A2H3WXQ8 probable serine/threonine protein kinase IREH...  137        1e-35
+UniRef90_A0A2R6QHN1 Serine/threonine protein kinase n=1 Tax=Actin...  137        1e-35
+UniRef90_A0A4P1R1N9 Adenylate kinase n=4 Tax=Lupinus TaxID=3869 R...  137        1e-35
+UniRef90_A0A1D1Y8I9 Putative serine/threonine-protein kinase DDB_...  136        1e-35
+UniRef90_A0A6A1W8B9 Protein kinase domain-containing protein n=1 ...  136        1e-35
+UniRef90_B6K2N1 AGC protein kinase Cek1 n=1 Tax=Schizosaccharomyc...  136        1e-35
+UniRef90_UPI00053C8025 probable serine/threonine protein kinase I...  136        1e-35
+UniRef90_A0A4Q1BWH1 AGC protein kinase n=1 Tax=Tremella mesenteri...  136        1e-35
+UniRef90_A0A0P1BHN6 Related to serine threonine protein kinase n=...  136        1e-35
+UniRef90_M7PF15 Uncharacterized protein n=2 Tax=Pneumocystis TaxI...  136        1e-35
+UniRef90_A0A0W4ZR93 Uncharacterized protein n=2 Tax=Pneumocystis ...  136        1e-35
+UniRef90_A0A1W5DBU3 Serine threonine protein kinase n=2 Tax=Lasal...  136        1e-35
+UniRef90_A0A4Z1NKZ9 Putative response regulator receiver RIM15p n...  136        1e-35
+UniRef90_A0A433QHQ4 Uncharacterized protein (Fragment) n=1 Tax=Ji...  136        1e-35
+UniRef90_A0A118K4F1 Protein kinase, catalytic domain-containing p...  136        1e-35
+UniRef90_A0A4S4LHK5 Uncharacterized protein n=1 Tax=Phellinidium ...  136        2e-35
+UniRef90_S7ZS80 Uncharacterized protein n=1 Tax=Penicillium oxali...  136        2e-35
+UniRef90_A0A3M0VXU5 Uncharacterized protein (Fragment) n=2 Tax=un...  136        2e-35
+UniRef90_A0A166BC37 Uncharacterized protein n=2 Tax=unclassified ...  136        2e-35
+UniRef90_A0A6A3A206 Putative serine/threonine protein kinase IREH...  136        2e-35
+UniRef90_A0A5C3QV51 Uncharacterized protein n=1 Tax=Pterula graci...  136        2e-35
+UniRef90_A0A1L9TF57 Uncharacterized protein n=2 Tax=Aspergillus s...  136        2e-35
+UniRef90_A0A5N5QWG4 Serine/threonine-protein kinase n=1 Tax=Cerat...  136        2e-35
+UniRef90_A0A5M3MTB8 Uncharacterized protein n=1 Tax=Coniophora pu...  136        2e-35
+UniRef90_A0A066W319 Uncharacterized protein (Fragment) n=1 Tax=Rh...  136        2e-35
+UniRef90_A0A161HF00 Protein kinase RIM15 n=1 Tax=Sugiyamaella lig...  136        2e-35
+UniRef90_A0A1S2Z0B2 probable serine/threonine protein kinase IREH...  136        2e-35
+UniRef90_A0A1U8L4B8 probable serine/threonine protein kinase IREH...  136        2e-35
+UniRef90_UPI000C1D7CCE probable serine/threonine protein kinase I...  136        2e-35
+UniRef90_A0A6A6BR68 Uncharacterized protein n=1 Tax=Aplosporella ...  136        2e-35
+UniRef90_A0A376B627 Uncharacterized protein n=1 Tax=Saccharomycod...  136        2e-35
+UniRef90_S2J3V7 AGC protein kinase (Fragment) n=1 Tax=Mucor circi...  136        2e-35
+UniRef90_A0A1E3NIW1 Uncharacterized protein (Fragment) n=1 Tax=Pi...  136        2e-35
+UniRef90_A0A0J8B5G8 Uncharacterized protein n=1 Tax=Beta vulgaris...  136        2e-35
+UniRef90_A0A319DRP5 Uncharacterized protein n=2 Tax=Aspergillus T...  135        2e-35
+UniRef90_A0A1M8A5M7 Similar to S.cerevisiae protein CBK1 (Serine/...  135        2e-35
+UniRef90_A0A2G9HMG2 Microtubule-associated serine/threonine kinas...  135        2e-35
+UniRef90_A0A6I9RG39 probable serine/threonine protein kinase IREH...  135        2e-35
+UniRef90_A0A642V890 Uncharacterized protein n=1 Tax=Trichomonascu...  135        3e-35
+UniRef90_A0A077R0H0 Related to serine/threonine protein kinase n=...  135        3e-35
+UniRef90_A0A5N6RTY1 Uncharacterized protein n=1 Tax=Carpinus fang...  135        3e-35
+UniRef90_A0A4U0UQV2 Uncharacterized protein n=3 Tax=Friedmanniomy...  135        3e-35
+UniRef90_A0A368SFL0 Uncharacterized protein n=8 Tax=PACMAD clade ...  135        3e-35
+UniRef90_A0A5N6L1P2 Uncharacterized protein n=1 Tax=Carpinus fang...  135        3e-35
+UniRef90_A0A443NXM6 Putative serine/threonine protein kinase IREH...  135        3e-35
+UniRef90_A0A2U1MG53 Protein kinase superfamily protein n=2 Tax=An...  135        3e-35
+UniRef90_A0A1Y2WWH5 Uncharacterized protein n=2 Tax=Daldinia TaxI...  135        3e-35
+UniRef90_A1C743 Serine threonine protein kinase, putative n=1 Tax...  135        3e-35
+UniRef90_A0A0H2S7G1 Uncharacterized protein n=1 Tax=Schizopora pa...  135        3e-35
+UniRef90_A0A0C3GH21 Uncharacterized protein n=1 Tax=Piloderma cro...  135        3e-35
+UniRef90_W3XQT1 Uncharacterized protein n=1 Tax=Pestalotiopsis fi...  135        3e-35
+UniRef90_A0A3M7NR46 Uncharacterized protein (Fragment) n=1 Tax=Ch...  135        3e-35
+UniRef90_A0A4D6LKH1 UMP-CMP kinase n=5 Tax=Vigna TaxID=3913 RepID...  135        3e-35
+UniRef90_A0A1C7N5P4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  135        4e-35
+UniRef90_A0A0G4N2X3 Uncharacterized protein (Fragment) n=1 Tax=Ve...  135        4e-35
+UniRef90_A0A6A6JPX1 Uncharacterized protein n=1 Tax=Westerdykella...  135        4e-35
+UniRef90_A0A4R5XF67 Uncharacterized protein n=1 Tax=Rickenella me...  135        4e-35
+UniRef90_A0A168L0Z6 Uncharacterized protein n=1 Tax=Absidia glauc...  135        4e-35
+UniRef90_A0A061H2F8 Uncharacterized protein n=2 Tax=Anthracocysti...  135        4e-35
+UniRef90_A0A2I0W2U8 Serine/threonine-protein kinase n=6 Tax=Dendr...  135        4e-35
+UniRef90_A0A3M7GMF5 Uncharacterized protein n=13 Tax=Hortaea wern...  135        4e-35
+UniRef90_A0A078J4V1 BnaA01g36900D protein n=25 Tax=Brassicaceae T...  135        4e-35
+UniRef90_A0A6H0XQL8 Uncharacterized protein n=1 Tax=Peltaster fru...  135        4e-35
+UniRef90_A0A163I222 ATP binding n=1 Tax=Didymella rabiei TaxID=54...  135        4e-35
+UniRef90_E6R2C2 Uncharacterized protein n=4 Tax=Cryptococcus gatt...  135        4e-35
+UniRef90_A0A0D1CAE8 Uncharacterized protein n=1 Tax=Ustilago mayd...  135        5e-35
+UniRef90_A0A1E3K3I0 AGC protein kinase n=4 Tax=Cryptococcus TaxID...  135        5e-35
+UniRef90_A0A1Y1VUG7 Uncharacterized protein n=1 Tax=Anaeromyces r...  135        5e-35
+UniRef90_A0A1M3TH15 Uncharacterized protein n=1 Tax=Aspergillus l...  135        5e-35
+UniRef90_A0A2N1JF55 Uncharacterized protein n=1 Tax=Malassezia ve...  135        5e-35
+UniRef90_A0A4D9AVU5 Uncharacterized protein n=2 Tax=Salvia splend...  135        5e-35
+UniRef90_A0A3Q0FAD8 probable serine/threonine protein kinase IREH...  135        5e-35
+UniRef90_A0A5N6N9L0 Uncharacterized protein n=1 Tax=Mikania micra...  135        5e-35
+UniRef90_A0A177UDZ1 Uncharacterized protein n=2 Tax=Tilletia TaxI...  135        5e-35
+UniRef90_A0A0A2LA45 CheY-like superfamily n=1 Tax=Penicillium ita...  135        5e-35
+UniRef90_A0A0B7MXD0 Uncharacterized protein n=1 Tax=Parasitella p...  135        5e-35
+UniRef90_Q5KL65 Uncharacterized protein n=6 Tax=Cryptococcus neof...  135        5e-35
+UniRef90_A0A1X0RTM2 Uncharacterized protein n=5 Tax=Rhizopus TaxI...  135        5e-35
+UniRef90_A0A5N6Z059 Uncharacterized protein n=1 Tax=Aspergillus c...  135        5e-35
+UniRef90_D5GNM8 Uncharacterized protein n=5 Tax=Tuberaceae TaxID=...  135        5e-35
+UniRef90_A0A5C3E4Z5 Related to serine/threonine protein kinase n=...  135        6e-35
+UniRef90_A0A0C3QPH9 Uncharacterized protein n=1 Tax=Tulasnella ca...  134        6e-35
+UniRef90_A0A2H3YQT7 probable serine/threonine protein kinase IREH...  134        6e-35
+UniRef90_A0A0D2IXD8 Rhinocladiella mackenziei CBS 650.93 unplaced...  134        6e-35
+UniRef90_A0A2P6P1R5 Uncharacterized protein n=5 Tax=Rosoideae Tax...  134        6e-35
+UniRef90_A0A328DDW3 Uncharacterized protein n=3 Tax=Cuscuta sect....  134        6e-35
+UniRef90_A0A0D2ESK9 Uncharacterized protein n=1 Tax=Exophiala xen...  134        6e-35
+UniRef90_R7YJ96 AGC protein kinase n=1 Tax=Coniosporium apollinis...  134        6e-35
+UniRef90_A0A2K1IH11 Uncharacterized protein n=2 Tax=Physcomitrium...  134        6e-35
+UniRef90_A0A5M9MSH2 Rim15, signal transduction response regulator...  134        6e-35
+UniRef90_A0A251RT06 Uncharacterized protein n=2 Tax=Helianthus an...  134        7e-35
+UniRef90_A0A367KVW5 Uncharacterized protein (Fragment) n=1 Tax=Rh...  134        7e-35
+UniRef90_A1DI60 Serine threonine protein kinase, putative n=12 Ta...  134        7e-35
+UniRef90_A2R594 Aspergillus niger contig An15c0120, genomic conti...  134        7e-35
+UniRef90_A0A5N5WN79 Uncharacterized protein n=1 Tax=Aspergillus l...  134        7e-35
+UniRef90_A0A0C9LU89 AGC/MAST/MAST protein kinase n=1 Tax=Mucor am...  134        8e-35
+UniRef90_A0A0K6FVY1 Serine/threonine-protein kinase RIM15 n=2 Tax...  134        8e-35
+UniRef90_A0A1Q5SRM2 Serine/threonine-protein kinase cek1 n=2 Tax=...  134        8e-35
+UniRef90_A0A371HTZ0 Adenylate kinase (Fragment) n=1 Tax=Mucuna pr...  134        8e-35
+UniRef90_A0A0K9PAT1 Putative Kinase n=1 Tax=Zostera marina TaxID=...  134        8e-35
+UniRef90_A0A2K3NLE3 Microtubule-associated serine/threonine-prote...  134        9e-35
+UniRef90_A0A4U7KQF7 Uncharacterized protein n=1 Tax=Sporisorium g...  134        9e-35
+UniRef90_A0A2G5I792 Serine/threonine-protein kinase cek1 n=4 Tax=...  134        9e-35
+UniRef90_A0A1L9UBQ0 Uncharacterized protein n=1 Tax=Aspergillus b...  134        9e-35
+UniRef90_A0A4U7B001 Protein kinase domain-containing protein 35 n...  134        9e-35
+UniRef90_A0A1L9WNM4 Uncharacterized protein n=9 Tax=Aspergillus T...  134        9e-35
+UniRef90_A0A316Z2T8 Uncharacterized protein n=1 Tax=Tilletiopsis ...  134        1e-34
+UniRef90_A0A1L9R9B3 Uncharacterized protein n=1 Tax=Aspergillus w...  134        1e-34
+UniRef90_I2G393 Related to serine/threonine protein kinase n=2 Ta...  134        1e-34
+UniRef90_A8PS91 Uncharacterized protein n=1 Tax=Malassezia globos...  134        1e-34
+UniRef90_A0A5C5FVR8 Uncharacterized protein n=1 Tax=Rhodotorula d...  134        1e-34
+UniRef90_A0A3M2SZY4 Serine threonine protein kinase n=2 Tax=Asper...  134        1e-34
+UniRef90_B6GWY8 Pc12g00100 protein n=15 Tax=Penicillium TaxID=507...  133        1e-34
+UniRef90_UPI00159B392D uncharacterized protein n=1 Tax=Talaromyce...  133        1e-34
+UniRef90_A0A066WJA5 Uncharacterized protein n=1 Tax=Tilletiaria a...  133        1e-34
+UniRef90_A0A1L9SGH0 Uncharacterized protein n=1 Tax=Penicilliopsi...  133        1e-34
+UniRef90_A0A0B7FR69 Serine/threonine-protein kinase RIM15 n=1 Tax...  133        1e-34
+UniRef90_A0A1Y2FFG5 Uncharacterized protein n=1 Tax=Protomyces la...  133        1e-34
+UniRef90_A0A0B7NQP5 Uncharacterized protein n=1 Tax=Parasitella p...  133        1e-34
+UniRef90_A0A4U0U907 Uncharacterized protein n=1 Tax=Hortaea thail...  133        1e-34
+UniRef90_A0A1S8BJL8 Serine/threonine-protein kinase RIM15 n=2 Tax...  133        1e-34
+UniRef90_A0A6G1FT85 uncharacterized protein n=1 Tax=Eremomyces bi...  133        1e-34
+UniRef90_A0A3M7NF86 Uncharacterized protein (Fragment) n=1 Tax=Ch...  133        1e-34
+UniRef90_A0A0N1P1C6 Serine/threonine-protein kinase cek1 n=1 Tax=...  133        2e-34
+UniRef90_K2S5R1 PAS domain-containing protein n=2 Tax=Botryosphae...  133        2e-34
+UniRef90_A0A1X2H895 Uncharacterized protein n=1 Tax=Syncephalastr...  133        2e-34
+UniRef90_A0A4T0FNK9 Uncharacterized protein n=1 Tax=Wallemia hede...  133        2e-34
+UniRef90_A0A6G1LK05 Uncharacterized protein n=1 Tax=Teratosphaeri...  133        2e-34
+UniRef90_A0A3S3MC86 Putative serine/threonine protein kinase IREH...  133        2e-34
+UniRef90_A0A6A6GIP4 Uncharacterized protein n=1 Tax=Elsinoe ampel...  133        2e-34
+UniRef90_D8S980 Uncharacterized protein (Fragment) n=6 Tax=Selagi...  133        2e-34
+UniRef90_A0A150V2F8 Uncharacterized protein n=1 Tax=Acidomyces ri...  133        2e-34
+UniRef90_A0A0C9LVP2 AGC/MAST/MAST protein kinase n=1 Tax=Mucor am...  133        2e-34
+UniRef90_A0A5N6TS48 Uncharacterized protein n=1 Tax=Aspergillus a...  133        2e-34
+UniRef90_M5XSA9 Protein kinase domain-containing protein (Fragmen...  133        2e-34
+UniRef90_A0A6A6URZ4 Uncharacterized protein n=1 Tax=Microthyrium ...  133        2e-34
+UniRef90_A0A6A1VH67 Uncharacterized protein n=1 Tax=Morella rubra...  133        2e-34
+UniRef90_A0A316U0M4 Uncharacterized protein n=1 Tax=Pseudomicrost...  133        2e-34
+UniRef90_A0A0D1Y690 Uncharacterized protein n=1 Tax=Exophiala sid...  133        2e-34
+UniRef90_A0A1Y1XU68 Uncharacterized protein n=1 Tax=Basidiobolus ...  133        2e-34
+UniRef90_M2LHF8 Uncharacterized protein n=1 Tax=Baudoinia panamer...  133        2e-34
+UniRef90_A0A2K1IMA3 Uncharacterized protein n=2 Tax=Physcomitrium...  133        2e-34
+UniRef90_A0A1V8SYK7 Uncharacterized protein n=3 Tax=Rachicladospo...  132        3e-34
+UniRef90_A0A5J5EZU2 Uncharacterized protein n=1 Tax=Sphaerosporel...  132        3e-34
+UniRef90_A0A1L0AWE8 Uncharacterized protein n=1 Tax=Hanseniaspora...  132        3e-34
+UniRef90_UPI00114F9411 hypothetical protein n=1 Tax=Pyricularia p...  132        3e-34
+UniRef90_P38938 Serine/threonine-protein kinase cek1 n=1 Tax=Schi...  132        3e-34
+UniRef90_A0A319FLN8 Serine threonine protein kinase n=1 Tax=Asper...  132        3e-34
+UniRef90_A0A1R3RAP3 Uncharacterized protein n=2 Tax=Aspergillus T...  132        3e-34
+UniRef90_Q0UVL1 Uncharacterized protein n=1 Tax=Phaeosphaeria nod...  132        3e-34
+UniRef90_A0A2I2F8Y8 Uncharacterized protein n=1 Tax=Aspergillus c...  132        3e-34
+UniRef90_G2WYY1 Serine/threonine-protein kinase RIM15 n=6 Tax=Ver...  132        3e-34
+UniRef90_A0A427Y539 Uncharacterized protein n=1 Tax=Apiotrichum p...  132        3e-34
+UniRef90_B8MQ89 Serine threonine protein kinase, putative n=1 Tax...  132        3e-34
+UniRef90_A0A698XL55 Uncharacterized protein n=2 Tax=Eurotiales Ta...  132        3e-34
+UniRef90_A0A5N7C051 Uncharacterized protein n=2 Tax=Petromyces al...  132        4e-34
+UniRef90_A0A3M7CU90 Uncharacterized protein n=4 Tax=Hortaea werne...  132        4e-34
+UniRef90_R9P598 AGC/NDR protein kinase n=1 Tax=Pseudozyma hubeien...  132        4e-34
+UniRef90_A0A0J8R9S8 Serine/threonine-protein kinase CBK1 n=1 Tax=...  132        4e-34
+UniRef90_A0A0F7S9M8 Related to serine/threonine protein kinase n=...  132        4e-34
+UniRef90_A0A6A7C0T8 Kinase-like protein n=1 Tax=Piedraia hortae C...  132        4e-34
+UniRef90_A0A4U0VZR0 Fe-S cluster assembly protein DRE2 n=1 Tax=Rh...  132        4e-34
+UniRef90_A0A136JEB0 Uncharacterized protein n=1 Tax=Microdochium ...  132        4e-34
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A0C4ELK6 Uncharacterized protein n=1 Tax=Puccinia trit...  135        5e-35
+UniRef90_A0A060T1U4 ARAD1C27148p n=1 Tax=Blastobotrys adeninivora...  132        3e-34
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.144    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 98534597486
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

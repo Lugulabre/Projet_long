@@ -1,0 +1,1129 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P42575|CASP2_HUMAN Caspase-2 OS=Homo sapiens OX=9606 GN=CASP2
+PE=1 SV=2
+
+Length=452
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  189        1e-49
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  157        8e-39
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  148        1e-35
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  145        6e-35
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  144        1e-34
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  139        1e-32
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  138        2e-32
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  137        5e-32
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  131        4e-30
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  131        6e-30
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  128        4e-29
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  128        4e-29
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  128        5e-29
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  128        5e-29
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  127        7e-29
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  127        1e-28
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  125        3e-28
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  123        2e-27
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  121        7e-27
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  121        7e-27
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  120        2e-26
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  118        1e-25
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  117        2e-25
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  117        3e-25
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  114        2e-24
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  108        1e-22
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  108        2e-22
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  106        6e-22
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  105        1e-21
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  105        2e-21
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  103        5e-21
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  102        1e-20
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  101        5e-20
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  98.6       3e-19
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  94.7       5e-18
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  94.4       7e-18
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  91.3       8e-17
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  89.0       3e-16
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  86.3       3e-15
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  79.3       6e-13
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  71.6       1e-10
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  71.2       2e-10
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  70.5       4e-10
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  70.1       4e-10
+UniRef90_A0A1D2MSV5 Caspase-2 (Fragment) n=1 Tax=Orchesella cinct...  69.3       7e-10
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  67.8       2e-09
+UniRef90_A0A1I8JAM8 Uncharacterized protein n=2 Tax=Macrostomum l...  67.8       3e-09
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  65.1       2e-08
+UniRef90_A0A1I8GZQ7 Uncharacterized protein n=1 Tax=Macrostomum l...  64.7       2e-08
+UniRef90_A0A1X7U9K3 Uncharacterized protein n=1 Tax=Amphimedon qu...  64.3       3e-08
+UniRef90_UPI000947BD96 uncharacterized protein LOC109475966 n=1 T...  62.0       2e-07
+UniRef90_A0A1B0C8E7 Exocyst complex component 6 n=1 Tax=Lutzomyia...  61.6       2e-07
+UniRef90_A0A267H0N0 Uncharacterized protein n=1 Tax=Macrostomum l...  58.2       2e-06
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  58.2       2e-06
+UniRef90_UPI000BA828F3 apoptotic protease-activating factor 1-lik...  53.5       7e-05
+UniRef90_A0A267G4L1 Uncharacterized protein n=1 Tax=Macrostomum l...  52.4       2e-04
+UniRef90_A0A267H6X4 Uncharacterized protein n=1 Tax=Macrostomum l...  50.4       6e-04
+UniRef90_A0A0U1YWJ4 Apoptotic protease activating factor 1 n=3 Ta...  50.1       8e-04
+UniRef90_A0A267E7E3 Uncharacterized protein n=1 Tax=Macrostomum l...  49.7       0.001
+UniRef90_UPI00094811B6 LOW QUALITY PROTEIN: uncharacterized prote...  49.3       0.002
+UniRef90_K7J007 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  48.9       0.002
+UniRef90_C3XTW5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  48.5       0.002
+UniRef90_UPI000947AAAC contactin-2-like isoform X1 n=6 Tax=Branch...  48.1       0.003
+UniRef90_A0A1S3H853 uncharacterized protein LOC106152581 n=1 Tax=...  47.8       0.004
+UniRef90_C3YAL5 CARD domain-containing protein n=1 Tax=Branchiost...  47.8       0.004
+UniRef90_UPI00106CF9DA apoptotic protease-activating factor 1-lik...  47.8       0.004
+UniRef90_A0A1S3JEX4 uncharacterized protein LOC106172698 n=1 Tax=...  47.4       0.005
+UniRef90_UPI0009E3E016 apoptotic protease-activating factor 1-lik...  45.4       0.021
+UniRef90_C3Z5Q3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.7       0.031
+UniRef90_C3XSQ3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.7       0.032
+UniRef90_UPI000947F77E LOW QUALITY PROTEIN: uncharacterized prote...  44.7       0.041
+UniRef90_C3ZLI5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.7       0.041
+UniRef90_C3YZV6 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  44.3       0.053
+UniRef90_C3YGB3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.3       0.054
+UniRef90_A0A6J8BA82 Uncharacterized protein n=1 Tax=Mytilus corus...  43.9       0.066
+UniRef90_UPI00148A5681 trichohyalin-like n=1 Tax=Crassostrea giga...  43.5       0.075
+UniRef90_A0A6H5HC86 COP9 signalosome complex subunit 6 n=2 Tax=Ne...  43.5       0.077
+UniRef90_C3ZGJ7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  43.1       0.100
+UniRef90_C3YHV6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  43.1       0.12 
+UniRef90_A0A3M6V2D9 Uncharacterized protein n=2 Tax=Pocillopora d...  42.7       0.14 
+UniRef90_C3ZLL0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  42.7       0.16 
+UniRef90_UPI001238C931 apoptotic protease-activating factor 1 n=1...  42.4       0.17 
+UniRef90_UPI000947F2E1 uncharacterized protein LOC109461677 n=1 T...  42.4       0.17 
+UniRef90_B3SBJ1 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  42.4       0.21 
+UniRef90_A0A4Y2QVC8 Disks large 5 (Fragment) n=4 Tax=Araneus vent...  42.0       0.24 
+UniRef90_UPI0012B55309 apoptotic protease-activating factor 1-lik...  42.0       0.25 
+UniRef90_UPI000947F7E2 proteoglycan 4-like n=1 Tax=Branchiostoma ...  42.0       0.27 
+UniRef90_A0A182VV31 Uncharacterized protein n=1 Tax=Anopheles min...  42.0       0.27 
+UniRef90_C3Y1F2 Uncharacterized protein n=1 Tax=Branchiostoma flo...  41.6       0.33 
+UniRef90_A0A2B4SA85 Apoptotic protease-activating factor 1 n=2 Ta...  41.2       0.43 
+UniRef90_A0A6J8EQX3 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  41.2       0.44 
+UniRef90_A0A6J0BC51 apoptotic protease-activating factor 1 n=1 Ta...  41.2       0.44 
+UniRef90_A0A2B4SIV6 E3 ubiquitin-protein ligase HECTD1 n=2 Tax=St...  41.2       0.45 
+UniRef90_UPI000B90C686 apoptotic protease-activating factor 1-lik...  40.8       0.61 
+UniRef90_A5DTR2 SAC3 domain-containing protein n=1 Tax=Lodderomyc...  40.8       0.61 
+UniRef90_UPI0003F0DD41 apoptotic protease-activating factor 1-lik...  40.0       0.95 
+UniRef90_UPI0007AD4DBB tight junction protein ZO-1-like n=1 Tax=S...  40.0       1.00 
+UniRef90_A0A1D5NS76 Tight junction protein 1b n=24 Tax=Cyprinoide...  40.0       1.1  
+UniRef90_T1JJ67 Uncharacterized protein n=1 Tax=Strigamia maritim...  40.0       1.1  
+UniRef90_UPI0006256112 apoptotic protease-activating factor 1 iso...  40.0       1.1  
+UniRef90_A0A667Z0S8 Apoptotic protease-activating factor 1 n=2 Ta...  39.7       1.2  
+UniRef90_A0A667ZCL7 Apoptotic protease-activating factor 1 n=1 Ta...  39.7       1.2  
+UniRef90_A0A2D0WVQ2 Apoptotic protease-activating factor 1 n=2 Ta...  39.7       1.2  
+UniRef90_A0A154P701 Apoptotic protease-activating factor 1 n=1 Ta...  39.7       1.3  
+UniRef90_UPI000BB073ED serine/threonine-protein phosphatase 6 reg...  39.7       1.4  
+UniRef90_C3XRI5 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  39.3       1.5  
+UniRef90_E2B006 Apoptotic protease-activating factor 1 n=4 Tax=Ca...  39.3       1.6  
+UniRef90_C3ZPW9 Uncharacterized protein n=1 Tax=Branchiostoma flo...  39.3       1.6  
+UniRef90_UPI00094788B7 uncharacterized protein LOC109462411 n=1 T...  39.3       1.7  
+UniRef90_UPI0013042F7B apoptotic protease-activating factor 1 iso...  39.3       1.7  
+UniRef90_UPI00083C53FD apoptotic protease-activating factor 1 n=1...  39.3       1.7  
+UniRef90_A0A0S2GA03 D-alanine--poly(Phosphoribitol) ligase, subun...  39.3       1.8  
+UniRef90_U6KAJ0 Adenylate cyclase, putative n=1 Tax=Eimeria mitis...  39.3       1.9  
+UniRef90_A0A671NRL2 Tight junction protein 1b n=2 Tax=Sinocycloch...  38.9       2.1  
+UniRef90_A0A6J8A3F3 Uncharacterized protein n=1 Tax=Mytilus corus...  38.9       2.4  
+UniRef90_C3YKF2 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  38.9       2.5  
+UniRef90_UPI0006238E05 uncharacterized protein LOC105672528 isofo...  38.5       2.8  
+UniRef90_A0A0N0BFS6 Apoptotic protease-activating factor 1 n=1 Ta...  38.5       3.3  
+UniRef90_A7RLM8 Predicted protein n=3 Tax=Nematostella vectensis ...  38.1       3.7  
+UniRef90_A0A0P7X6D9 Apoptotic protease-activating factor 1-like n...  38.1       4.2  
+UniRef90_UPI000258DE6B apoptotic protease-activating factor 1 iso...  37.7       4.4  
+UniRef90_UPI000BB074D7 uncharacterized protein LOC111100064 n=1 T...  37.7       4.5  
+UniRef90_UPI00073FAA54 tight junction protein ZO-1 isoform X4 n=1...  37.7       5.5  
+UniRef90_A0A671MX07 Uncharacterized protein n=10 Tax=Sinocycloche...  37.7       5.6  
+UniRef90_UPI0007400C24 tight junction protein ZO-1 isoform X11 n=...  37.7       5.9  
+UniRef90_W5N8F1 Uncharacterized protein n=10 Tax=Lepisosteus ocul...  37.4       6.0  
+UniRef90_UPI0014433869 apoptotic protease-activating factor 1 iso...  37.4       6.2  
+UniRef90_C3ZLI6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  37.4       6.3  
+UniRef90_A0A1S3IA88 uncharacterized protein LOC106162433 n=1 Tax=...  37.4       7.1  
+UniRef90_C3YWB2 Uncharacterized protein n=1 Tax=Branchiostoma flo...  37.4       7.4  
+UniRef90_UPI00083FE737 apoptotic protease-activating factor 1 iso...  37.0       8.5  
+UniRef90_UPI0006C957A5 apoptotic protease-activating factor 1-lik...  37.0       8.8  
+UniRef90_UPI000BAEC9FD uncharacterized protein LOC111101937 n=1 T...  37.0       9.1  
+UniRef90_A0A2C9K9Y9 Multifunctional fusion protein n=1 Tax=Biomph...  37.0       9.3  
+UniRef90_Q6GNU6 Apoptotic protease-activating factor 1 n=4 Tax=Xe...  37.0       9.3  
+UniRef90_A0A3L7HQK1 BIRC2 n=3 Tax=Cricetulus griseus TaxID=10029 ...  37.0       9.5  
+UniRef90_UPI0010F98530 apoptotic protease-activating factor 1 iso...  37.0       9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1148955657388
+Results from round 2
+
+
+Query= sp|P42575|CASP2_HUMAN Caspase-2 OS=Homo sapiens OX=9606 GN=CASP2
+PE=1 SV=2
+
+Length=452
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  360        8e-110
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  361        3e-109
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  320        5e-95 
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  318        2e-94 
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  313        3e-93 
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  312        4e-92 
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  306        3e-90 
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  306        6e-90 
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  301        1e-88 
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  301        4e-88 
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  297        3e-87 
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  297        4e-87 
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  288        2e-84 
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  290        3e-84 
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  287        3e-83 
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  285        9e-83 
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  283        3e-82 
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  280        2e-81 
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  281        3e-81 
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  279        5e-81 
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  279        1e-80 
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  275        3e-79 
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  273        5e-79 
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  273        2e-78 
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  271        6e-78 
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  266        2e-76 
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  264        1e-75 
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  264        2e-75 
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  263        5e-75 
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  262        5e-75 
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  261        1e-74 
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  259        1e-73 
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  251        4e-71 
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  250        1e-70 
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  248        6e-70 
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  246        2e-69 
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  245        8e-69 
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  237        4e-66 
+UniRef90_A0A1X7U9K3 Uncharacterized protein n=1 Tax=Amphimedon qu...  233        7e-65 
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  231        3e-64 
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  226        3e-62 
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  220        3e-60 
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  214        2e-58 
+UniRef90_A0A267H0N0 Uncharacterized protein n=1 Tax=Macrostomum l...  202        3e-54 
+UniRef90_A0A1I8GZQ7 Uncharacterized protein n=1 Tax=Macrostomum l...  198        1e-52 
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  197        2e-52 
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  195        7e-52 
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  194        3e-51 
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  188        4e-49 
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  173        4e-44 
+UniRef90_A0A267G4L1 Uncharacterized protein n=1 Tax=Macrostomum l...  172        5e-44 
+UniRef90_A0A1D2MSV5 Caspase-2 (Fragment) n=1 Tax=Orchesella cinct...  166        5e-42 
+UniRef90_A0A267H6X4 Uncharacterized protein n=1 Tax=Macrostomum l...  156        2e-38 
+UniRef90_A0A1B0C8E7 Exocyst complex component 6 n=1 Tax=Lutzomyia...  147        2e-35 
+UniRef90_A0A1I8JAM8 Uncharacterized protein n=2 Tax=Macrostomum l...  136        9e-32 
+UniRef90_UPI000947BD96 uncharacterized protein LOC109475966 n=1 T...  131        4e-30 
+UniRef90_UPI000BA828F3 apoptotic protease-activating factor 1-lik...  113        4e-24 
+UniRef90_A0A0U1YWJ4 Apoptotic protease activating factor 1 n=3 Ta...  107        3e-22 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1X7TVQ6 Uncharacterized protein n=1 Tax=Amphimedon qu...  181        8e-47
+UniRef90_A0A267E7E3 Uncharacterized protein n=1 Tax=Macrostomum l...  173        2e-44
+UniRef90_K7J007 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  125        6e-28
+UniRef90_A0A6H5HC86 COP9 signalosome complex subunit 6 n=2 Tax=Ne...  115        7e-25
+UniRef90_UPI0009E3E016 apoptotic protease-activating factor 1-lik...  93.6       1e-17
+UniRef90_UPI00106CF9DA apoptotic protease-activating factor 1-lik...  93.2       2e-17
+UniRef90_A0A2B4SA85 Apoptotic protease-activating factor 1 n=2 Ta...  88.2       8e-16
+UniRef90_A0A3M6V2D9 Uncharacterized protein n=2 Tax=Pocillopora d...  85.9       4e-15
+UniRef90_UPI0015C55BF3 caspase family protein n=1 Tax=Hyphomicrob...  84.0       2e-14
+UniRef90_UPI0012B55309 apoptotic protease-activating factor 1-lik...  82.8       3e-14
+UniRef90_A0A503SRY4 Tetratricopeptide repeat protein n=1 Tax=Meso...  82.1       7e-14
+UniRef90_B3SBJ1 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  81.3       1e-13
+UniRef90_C3ZLI5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  75.1       1e-11
+UniRef90_UPI00094811B6 LOW QUALITY PROTEIN: uncharacterized prote...  73.6       4e-11
+UniRef90_A7RLM8 Predicted protein n=3 Tax=Nematostella vectensis ...  73.2       4e-11
+UniRef90_C3YZV6 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  71.3       2e-10
+UniRef90_A0A6H5ICX6 CASPASE_P20 domain-containing protein n=1 Tax...  70.5       3e-10
+UniRef90_C3Z5Q3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  70.1       4e-10
+UniRef90_C3YAL5 CARD domain-containing protein n=1 Tax=Branchiost...  70.1       4e-10
+UniRef90_UPI000947F77E LOW QUALITY PROTEIN: uncharacterized prote...  69.4       7e-10
+UniRef90_A0A4Y2QVC8 Disks large 5 (Fragment) n=4 Tax=Araneus vent...  69.4       7e-10
+UniRef90_A0A3Q3VN16 Apoptotic protease-activating factor 1 n=3 Ta...  69.0       9e-10
+UniRef90_C3XSQ3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  69.0       9e-10
+UniRef90_C3XTW5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  68.6       1e-09
+UniRef90_C3YGB3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  68.6       1e-09
+UniRef90_I6YLS5 Apoptotic protease-activating factor 1 n=1 Tax=Cy...  68.2       1e-09
+UniRef90_A0A6L2PTV1 Uncharacterized protein n=1 Tax=Coptotermes f...  68.2       2e-09
+UniRef90_A0A6G1QSI8 Apoptotic protease-activating factor 1 n=1 Ta...  68.2       2e-09
+UniRef90_UPI000947B60E uncharacterized protein LOC109477248 n=1 T...  68.2       2e-09
+UniRef90_A0A2D0WVQ2 Apoptotic protease-activating factor 1 n=2 Ta...  68.2       2e-09
+UniRef90_A0A673AY87 Apoptotic protease-activating factor 1 n=6 Ta...  67.8       2e-09
+UniRef90_UPI000B90C686 apoptotic protease-activating factor 1-lik...  67.8       2e-09
+UniRef90_UPI0008547D8D apoptotic protease-activating factor 1 iso...  67.4       2e-09
+UniRef90_A0A2I7G3X4 Apaf-1 n=1 Tax=Patiria pectinifera TaxID=7594...  67.4       3e-09
+UniRef90_UPI0013AFB447 tetratricopeptide repeat protein n=3 Tax=R...  67.1       3e-09
+UniRef90_H2MKX5 Apoptotic protease-activating factor 1 n=4 Tax=Or...  67.1       3e-09
+UniRef90_A0A503XAW9 Tetratricopeptide repeat protein n=5 Tax=Bact...  66.7       4e-09
+UniRef90_A0A3P8X7H0 Uncharacterized protein n=4 Tax=Esox lucius T...  66.7       4e-09
+UniRef90_H2U9E5 Apoptotic protease-activating factor 1 n=4 Tax=Ta...  66.7       4e-09
+UniRef90_A0A4Z2BH75 Apoptotic protease-activating factor 1 n=1 Ta...  66.7       5e-09
+UniRef90_UPI001238C931 apoptotic protease-activating factor 1 n=1...  66.3       6e-09
+UniRef90_C3ZLL0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  66.3       6e-09
+UniRef90_UPI00145A02DF caspase family protein n=1 Tax=Mesorhizobi...  66.3       7e-09
+UniRef90_C3YQ93 Uncharacterized protein n=1 Tax=Branchiostoma flo...  65.9       9e-09
+UniRef90_UPI0003F0DD41 apoptotic protease-activating factor 1-lik...  65.5       1e-08
+UniRef90_UPI000BA80EF9 apoptotic protease-activating factor 1-lik...  65.5       1e-08
+UniRef90_C3ZPW9 Uncharacterized protein n=1 Tax=Branchiostoma flo...  65.5       1e-08
+UniRef90_UPI000947F7E2 proteoglycan 4-like n=1 Tax=Branchiostoma ...  65.5       1e-08
+UniRef90_X6JQX0 CASPASE_P20 domain-containing protein n=50 Tax=Me...  65.1       1e-08
+UniRef90_A0A0K8S2D8 Apoptotic protease-activating factor 1 n=23 T...  65.1       1e-08
+UniRef90_A0A212UHA6 Caspase domain-containing protein n=2 Tax=Hym...  65.1       2e-08
+UniRef90_A0A1S3H853 uncharacterized protein LOC106152581 n=1 Tax=...  65.1       2e-08
+UniRef90_UPI00125CEFBF tight junction protein ZO-1-like isoform X...  64.7       2e-08
+UniRef90_UPI0013AF1D05 tight junction protein ZO-1-like isoform X...  64.4       2e-08
+UniRef90_A0A5B8L5R9 Uncharacterized protein n=1 Tax=Nitratireduct...  64.4       2e-08
+UniRef90_C3ZPV0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  64.7       2e-08
+UniRef90_A0A3B3D666 Apoptotic protease-activating factor 1 n=1 Ta...  64.4       3e-08
+UniRef90_A0A1I8HMF7 Uncharacterized protein n=1 Tax=Macrostomum l...  64.4       3e-08
+UniRef90_UPI00155E6532 tight junction protein ZO-1 isoform X1 n=8...  64.4       3e-08
+UniRef90_C3ZGJ7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  64.0       3e-08
+UniRef90_F1P1P3 Apoptotic protease-activating factor 1 n=9 Tax=Ga...  64.0       4e-08
+UniRef90_UPI0006C957A5 apoptotic protease-activating factor 1-lik...  64.0       4e-08
+UniRef90_X5QBI8 Uncharacterized protein n=6 Tax=Mesorhizobium Tax...  64.0       4e-08
+UniRef90_A0A401REP2 Apoptotic protease-activating factor 1 (Fragm...  64.0       4e-08
+UniRef90_UPI0005CF4C31 apoptotic protease-activating factor 1-lik...  64.0       4e-08
+UniRef90_UPI00094813DF receptor-type tyrosine-protein phosphatase...  63.6       4e-08
+UniRef90_Q6GNU6 Apoptotic protease-activating factor 1 n=4 Tax=Xe...  63.6       4e-08
+UniRef90_A0A444UND8 Apoptotic protease-activating factor 1 n=6 Ta...  63.6       5e-08
+UniRef90_A0A395KDS0 Putative caspase-like protein n=10 Tax=Mesorh...  63.2       6e-08
+UniRef90_C3XRI5 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  62.8       8e-08
+UniRef90_A0A6J0UEB9 apoptotic protease-activating factor 1 n=1 Ta...  62.8       8e-08
+UniRef90_UPI0014581AC2 sterile alpha motif domain-containing prot...  62.8       9e-08
+UniRef90_A0A672JDT0 Tight junction protein 1b n=3 Tax=Salarias fa...  62.8       9e-08
+UniRef90_A0A1S3JEX4 uncharacterized protein LOC106172698 n=1 Tax=...  62.8       9e-08
+UniRef90_UPI001455AA89 apoptotic protease-activating factor 1-lik...  62.4       9e-08
+UniRef90_UPI0014433869 apoptotic protease-activating factor 1 iso...  62.4       1e-07
+UniRef90_UPI00094E6008 apoptotic protease-activating factor 1 iso...  62.4       1e-07
+UniRef90_UPI0011C10A60 tight junction protein ZO-1-like isoform X...  62.4       1e-07
+UniRef90_UPI0011C0FA52 tight junction protein ZO-1-like isoform X...  62.4       1e-07
+UniRef90_UPI0011C18368 tight junction protein ZO-1-like isoform X...  62.4       1e-07
+UniRef90_UPI0011C18926 tight junction protein ZO-1-like isoform X...  62.4       1e-07
+UniRef90_UPI0011C10097 tight junction protein ZO-1-like isoform X...  62.4       1e-07
+UniRef90_A0A671VUH7 Tight junction protein 1b n=20 Tax=Euacanthom...  62.4       1e-07
+UniRef90_UPI00094788B7 uncharacterized protein LOC109462411 n=1 T...  62.0       1e-07
+UniRef90_A0A2B4SIV6 E3 ubiquitin-protein ligase HECTD1 n=2 Tax=St...  61.7       2e-07
+UniRef90_A0A2I4AW01 Apoptotic protease-activating factor 1 n=1 Ta...  61.7       2e-07
+UniRef90_A0A6J0BC51 apoptotic protease-activating factor 1 n=1 Ta...  61.7       2e-07
+UniRef90_UPI0005F47071 apoptotic protease-activating factor 1 iso...  61.3       2e-07
+UniRef90_C3Y1F2 Uncharacterized protein n=1 Tax=Branchiostoma flo...  61.3       2e-07
+UniRef90_UPI0010FCB61A tight junction protein ZO-1-like isoform X...  60.9       3e-07
+UniRef90_UPI00073D9386 apoptotic protease-activating factor 1 iso...  60.9       3e-07
+UniRef90_F7DSK0 Apoptotic protease-activating factor 1 n=4 Tax=Xe...  60.9       3e-07
+UniRef90_C3YWB2 Uncharacterized protein n=1 Tax=Branchiostoma flo...  60.9       4e-07
+UniRef90_A0A6J8EQX3 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  60.9       4e-07
+UniRef90_A0A2R2MQF9 malignant fibrous histiocytoma-amplified sequ...  60.9       4e-07
+UniRef90_UPI001403C3EB apoptotic protease-activating factor 1 iso...  60.1       5e-07
+UniRef90_A0A4W3JJE7 Apoptotic protease-activating factor 1 n=11 T...  60.1       5e-07
+UniRef90_A0A099ZLV5 Apoptotic protease-activating factor 1 n=7 Ta...  60.1       6e-07
+UniRef90_UPI0004D0522F apoptotic protease-activating factor 1 n=1...  60.1       6e-07
+UniRef90_A0A6J8B640 Uncharacterized protein n=1 Tax=Mytilus corus...  60.1       6e-07
+UniRef90_C3YKF2 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  60.1       6e-07
+UniRef90_UPI0003F082DA disks large homolog 5-like n=1 Tax=Saccogl...  60.1       6e-07
+UniRef90_A0A4W5RK58 Apoptotic protease-activating factor 1 n=1 Ta...  59.7       7e-07
+UniRef90_A0A671VRF8 Tight junction protein 1b n=1 Tax=Sparus aura...  60.1       7e-07
+UniRef90_UPI0011B4D280 uncharacterized protein LOC115560655 n=1 T...  59.7       7e-07
+UniRef90_A0A1X7U112 Uncharacterized protein n=1 Tax=Amphimedon qu...  59.7       7e-07
+UniRef90_A0A673ZIQ0 Apoptotic protease-activating factor 1 n=3 Ta...  59.7       8e-07
+UniRef90_A0A673ZI81 Uncharacterized protein n=2 Tax=Salmo trutta ...  59.7       8e-07
+UniRef90_UPI001457EB0D disks large homolog 5-like isoform X1 n=5 ...  59.7       9e-07
+UniRef90_UPI00109FFEE2 apoptotic protease-activating factor 1 iso...  59.4       9e-07
+UniRef90_A0A401PKP0 Uncharacterized protein n=1 Tax=Scyliorhinus ...  59.4       9e-07
+UniRef90_A0A6J3KK41 apoptotic protease-activating factor 1 isofor...  59.4       1e-06
+UniRef90_A0A0N0BFS6 Apoptotic protease-activating factor 1 n=1 Ta...  59.4       1e-06
+UniRef90_A0A1I8IM38 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  59.4       1e-06
+UniRef90_A0A1S3SI20 apoptotic protease-activating factor 1-like i...  59.0       1e-06
+UniRef90_A0A4W6CZT5 Uncharacterized protein n=1 Tax=Lates calcari...  59.0       1e-06
+UniRef90_A0A151WFA7 Apoptotic protease-activating factor 1 n=2 Ta...  58.6       2e-06
+UniRef90_A0A3S1BN66 Uncharacterized protein n=1 Tax=Elysia chloro...  58.6       2e-06
+UniRef90_UPI0012B5ACE6 tight junction protein ZO-1-like isoform X...  58.6       2e-06
+UniRef90_A0A0D2X4X5 CASPASE_P20 domain-containing protein n=1 Tax...  58.6       2e-06
+UniRef90_C3YHV6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  58.6       2e-06
+UniRef90_UPI0009B41F9E tight junction protein ZO-1-like isoform X...  58.2       2e-06
+UniRef90_UPI0009B2F528 tight junction protein ZO-1-like isoform X...  58.2       2e-06
+UniRef90_UPI0007384FEE apoptotic protease-activating factor 1 n=1...  58.2       2e-06
+UniRef90_A0A0C9RL69 Apaf1_1 protein n=5 Tax=Fopius arisanus TaxID...  58.2       2e-06
+UniRef90_UPI00083C53FD apoptotic protease-activating factor 1 n=1...  58.2       2e-06
+UniRef90_A0A672I7J1 Apoptotic protease-activating factor 1 n=1 Ta...  58.2       2e-06
+UniRef90_UPI00117CAD55 tight junction protein ZO-1-like isoform X...  58.2       3e-06
+UniRef90_UPI0013042F7B apoptotic protease-activating factor 1 iso...  57.8       3e-06
+UniRef90_A0A673BGP1 Uncharacterized protein n=11 Tax=Percomorphac...  57.8       3e-06
+UniRef90_A0A674D307 Apoptotic protease-activating factor 1 n=1 Ta...  57.8       3e-06
+UniRef90_UPI0011B58EA6 tight junction protein ZO-1-like isoform X...  57.8       3e-06
+UniRef90_UPI0011B440F1 tight junction protein ZO-1-like isoform X...  57.8       3e-06
+UniRef90_UPI00067DDCDE apoptotic protease-activating factor 1-lik...  57.4       3e-06
+UniRef90_UPI000947AAAC contactin-2-like isoform X1 n=6 Tax=Branch...  57.4       4e-06
+UniRef90_A0A3P8U921 Tight junction protein 1b n=6 Tax=Amphiprion ...  57.4       4e-06
+UniRef90_A0A154P701 Apoptotic protease-activating factor 1 n=1 Ta...  57.4       4e-06
+UniRef90_UPI001140A3F1 tight junction protein ZO-1-like isoform X...  57.4       4e-06
+UniRef90_UPI0006256112 apoptotic protease-activating factor 1 iso...  57.4       4e-06
+UniRef90_UPI00148A5681 trichohyalin-like n=1 Tax=Crassostrea giga...  57.4       4e-06
+UniRef90_A0A3Q2ZQ12 Uncharacterized protein n=8 Tax=Aplocheiloide...  57.4       5e-06
+UniRef90_A0A669DP98 Tight junction protein 1b n=3 Tax=Ovalentaria...  57.4       5e-06
+UniRef90_UPI0011E9CA45 tight junction protein ZO-1-like isoform X...  57.0       5e-06
+UniRef90_UPI000441AC2C apoptotic protease-activating factor 1 n=1...  57.0       5e-06
+UniRef90_A0A026W6Z6 Apoptotic protease-activating factor n=3 Tax=...  57.0       5e-06
+UniRef90_A0A3P9PLY7 Uncharacterized protein n=1 Tax=Poecilia reti...  57.0       5e-06
+UniRef90_UPI0004A282B0 tight junction protein ZO-1 isoform X5 n=1...  57.0       5e-06
+UniRef90_A0A3P9PM27 Uncharacterized protein n=16 Tax=Poeciliinae ...  57.0       5e-06
+UniRef90_T1JJ67 Uncharacterized protein n=1 Tax=Strigamia maritim...  57.0       6e-06
+UniRef90_A0A6J8D3G3 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  56.7       7e-06
+UniRef90_UPI0011771A27 tight junction protein ZO-1 isoform X2 n=1...  56.7       7e-06
+UniRef90_A0A2B4S5A8 Caspase-2 n=2 Tax=Stylophora pistillata TaxID...  56.7       7e-06
+UniRef90_A0A654H852 CARD domain-containing protein n=1 Tax=Sparga...  56.7       7e-06
+UniRef90_A0A6J8ALP9 Uncharacterized protein n=1 Tax=Mytilus corus...  56.3       9e-06
+UniRef90_A0A210PEA9 Sterile alpha motif domain-containing protein...  56.3       9e-06
+UniRef90_A0A158NBK9 CARD domain-containing protein n=13 Tax=Attin...  55.9       1e-05
+UniRef90_F6R504 Apoptotic protease-activating factor 1 n=10 Tax=P...  55.9       1e-05
+UniRef90_A0A4Z2C7I2 Uncharacterized protein n=10 Tax=Takifugu Tax...  55.9       1e-05
+UniRef90_H2DL11 Apaf1 n=1 Tax=Schmidtea mediterranea TaxID=79327 ...  55.9       1e-05
+UniRef90_A0A162RRZ9 Apoptotic Protease-activating factor 1 n=3 Ta...  55.5       1e-05
+UniRef90_UPI000C6CA781 apoptotic protease-activating factor 1-lik...  55.5       1e-05
+UniRef90_A0A369S1S2 Apoptotic protease-activating factor 1 n=2 Ta...  55.5       1e-05
+UniRef90_A0A1S3K030 uncharacterized protein LOC106177688 n=1 Tax=...  55.5       1e-05
+UniRef90_UPI0010FAF134 uncharacterized protein LOC114927905 isofo...  55.5       2e-05
+UniRef90_A0A3B1JNQ3 Uncharacterized protein n=17 Tax=Characoidei ...  55.5       2e-05
+UniRef90_UPI0014773397 tight junction protein ZO-1 isoform X1 n=7...  55.5       2e-05
+UniRef90_UPI0007AD4DBB tight junction protein ZO-1-like n=1 Tax=S...  55.1       2e-05
+UniRef90_E2B006 Apoptotic protease-activating factor 1 n=4 Tax=Ca...  55.1       2e-05
+UniRef90_UPI00117605C9 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_K7JPL4 CARD domain-containing protein n=5 Tax=Pteromalin...  55.1       2e-05
+UniRef90_UPI0010A3360E tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A4E974 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A36742 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A3C207 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A47920 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A4722F tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI000BAED6E5 sterile alpha motif domain-containing prot...  55.1       2e-05
+UniRef90_UPI0010A5573D tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_UPI0010A45931 tight junction protein ZO-1-like isoform X...  55.1       2e-05
+UniRef90_A0A670JLE2 Uncharacterized protein n=5 Tax=Podarcis mura...  54.7       3e-05
+UniRef90_UPI0006D4F19E apoptotic protease-activating factor 1-lik...  54.7       3e-05
+UniRef90_A0A504YHS0 Apoptotic protease-activating factor 1 n=1 Ta...  54.7       3e-05
+UniRef90_A0A4E0S3W3 Apoptotic protease-activating factor 1 n=1 Ta...  54.7       3e-05
+UniRef90_UPI000E425B6B tight junction protein ZO-1-like isoform X...  54.7       3e-05
+UniRef90_A0A1S3H0X8 malignant fibrous histiocytoma-amplified sequ...  54.3       3e-05
+UniRef90_UPI0006448397 tight junction protein ZO-1 isoform X6 n=1...  54.3       4e-05
+UniRef90_A0A1X7TGQ1 CASPASE_P20 domain-containing protein n=2 Tax...  54.3       4e-05
+UniRef90_UPI000258DE6B apoptotic protease-activating factor 1 iso...  54.3       4e-05
+UniRef90_UPI000644A6AB tight junction protein ZO-1 isoform X1 n=1...  54.3       4e-05
+UniRef90_UPI000A2A70F0 uncharacterized protein LOC110237846 n=1 T...  54.0       4e-05
+UniRef90_A0A2R2MJU7 tight junction protein ZO-1-like isoform X1 n...  54.0       4e-05
+UniRef90_A0A673YUW2 Uncharacterized protein n=4 Tax=Salmoninae Ta...  54.0       5e-05
+UniRef90_UPI000BB027EF ankyrin-3-like isoform X1 n=2 Tax=Crassost...  54.0       5e-05
+UniRef90_A0A1X7U759 Uncharacterized protein n=1 Tax=Amphimedon qu...  54.0       5e-05
+UniRef90_UPI000BB02CE4 tight junction protein ZO-1-like isoform X...  53.6       6e-05
+UniRef90_A0A663MM60 Uncharacterized protein n=82 Tax=Neognathae T...  53.6       6e-05
+UniRef90_UPI0009E42837 tight junction protein ZO-1-like isoform X...  53.6       6e-05
+UniRef90_A0A663MNL0 Uncharacterized protein n=155 Tax=Neognathae ...  53.6       6e-05
+UniRef90_A0A6J8BGB8 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  53.6       7e-05
+UniRef90_C3YEE8 Uncharacterized protein n=1 Tax=Branchiostoma flo...  53.2       7e-05
+UniRef90_UPI000BB0841B uncharacterized protein LOC111113163 isofo...  53.2       8e-05
+UniRef90_A0A671MX07 Uncharacterized protein n=10 Tax=Sinocycloche...  53.2       9e-05
+UniRef90_UPI000947F2E1 uncharacterized protein LOC109461677 n=1 T...  52.8       1e-04
+UniRef90_A0A671NRL2 Tight junction protein 1b n=2 Tax=Sinocycloch...  52.8       1e-04
+UniRef90_UPI000C6F648B apoptotic protease-activating factor 1-lik...  52.8       1e-04
+UniRef90_A0A6J8A9G6 DLG5 n=3 Tax=Mytilus coruscus TaxID=42192 Rep...  52.8       1e-04
+UniRef90_UPI000718BC3B apoptotic protease-activating factor 1 iso...  52.4       1e-04
+UniRef90_A0A0L7QS16 Apoptotic protease-activating factor 1 n=2 Ta...  52.4       1e-04
+UniRef90_A0A3G1ZL41 Apoptotic protease-activating factor 1 n=1 Ta...  52.4       1e-04
+UniRef90_A0A210PE80 Sterile alpha motif domain-containing protein...  52.4       1e-04
+UniRef90_UPI0007AD2A3C tight junction protein ZO-1-like isoform X...  52.4       2e-04
+UniRef90_A0A672SGE9 Uncharacterized protein n=1 Tax=Sinocyclochei...  52.4       2e-04
+UniRef90_A0A210Q601 Tight junction protein ZO-1 n=22 Tax=Pectinid...  52.4       2e-04
+UniRef90_UPI0010F98530 apoptotic protease-activating factor 1 iso...  52.0       2e-04
+UniRef90_UPI00148A4345 uncharacterized protein LOC117681326 n=1 T...  52.0       2e-04
+UniRef90_UPI00148AB9C4 tight junction protein ZO-1 n=1 Tax=Crasso...  52.4       2e-04
+UniRef90_UPI0013F2187E apoptotic protease-activating factor 1 iso...  52.0       2e-04
+UniRef90_UPI00148AAF22 uncharacterized protein LOC117681325 isofo...  52.0       2e-04
+UniRef90_A0A5K4EPR2 Uncharacterized protein n=5 Tax=Schistosoma T...  52.0       2e-04
+UniRef90_A0A0V1BPN0 Apoptotic protease-activating factor 1 (Fragm...  52.0       2e-04
+UniRef90_A0A2B4RRX7 Tight junction protein ZO-1 n=7 Tax=Pocillopo...  52.0       2e-04
+UniRef90_A0A1U7SIV8 Apoptotic protease-activating factor 1 n=6 Ta...  51.6       2e-04
+UniRef90_UPI00063F241E apoptotic protease-activating factor 1 iso...  51.6       2e-04
+UniRef90_UPI000E40DB76 tight junction protein ZO-1-like isoform X...  52.0       2e-04
+UniRef90_UPI00146A3F60 apoptotic protease-activating factor 1 n=4...  51.6       2e-04
+UniRef90_UPI001476BC07 tight junction protein ZO-1 isoform X14 n=...  51.6       2e-04
+UniRef90_UPI0014770F97 tight junction protein ZO-1 isoform X12 n=...  51.6       2e-04
+UniRef90_A0A3P8YQC5 Uncharacterized protein n=1 Tax=Esox lucius T...  51.6       2e-04
+UniRef90_UPI0014768C79 tight junction protein ZO-1 isoform X4 n=1...  51.6       2e-04
+UniRef90_UPI001476A5CB tight junction protein ZO-1 isoform X2 n=1...  51.6       2e-04
+UniRef90_A0A0V1LLJ5 Apoptotic protease-activating factor 1 n=24 T...  51.6       3e-04
+UniRef90_UPI00083FE737 apoptotic protease-activating factor 1 iso...  51.6       3e-04
+UniRef90_UPI00146F2892 uncharacterized protein LOC117484789 isofo...  51.6       3e-04
+UniRef90_A0A1I8FYK8 CARD domain-containing protein n=2 Tax=Macros...  51.6       3e-04
+UniRef90_UPI0012AB2ECC tight junction protein ZO-1-like n=1 Tax=C...  51.3       3e-04
+UniRef90_A0A4Z2DT23 Apoptotic protease-activating factor 1 n=1 Ta...  51.3       3e-04
+UniRef90_UPI0009479DEB LOW QUALITY PROTEIN: death-associated prot...  51.3       3e-04
+UniRef90_UPI00148A4437 uncharacterized protein LOC105326615 isofo...  51.3       4e-04
+UniRef90_A0A3P8ZRD2 Uncharacterized protein n=3 Tax=Esox lucius T...  50.9       4e-04
+UniRef90_B7PB18 Apoptotic protease-activating factor, putative n=...  50.9       4e-04
+UniRef90_A0A1S3IP94 disks large homolog 5 n=1 Tax=Lingula unguis ...  50.9       4e-04
+UniRef90_UPI001471E95C uncharacterized protein LOC117549781 isofo...  50.9       4e-04
+UniRef90_A0A3B5PYU7 Uncharacterized protein n=16 Tax=Xiphophorus ...  50.9       4e-04
+UniRef90_A0A3P9QDQ3 Uncharacterized protein n=6 Tax=Poeciliinae T...  50.9       4e-04
+UniRef90_A0A669EJA0 Uncharacterized protein n=4 Tax=Oreochromis n...  50.9       5e-04
+UniRef90_UPI000FFB3233 tight junction protein ZO-1 isoform X5 n=1...  50.5       5e-04
+UniRef90_UPI00145778ED caspase family protein n=1 Tax=Flammeovirg...  50.5       6e-04
+UniRef90_A0A669DX61 Uncharacterized protein n=2 Tax=Oreochromis n...  50.5       6e-04
+UniRef90_A0A3P9QCN6 Uncharacterized protein n=13 Tax=Poecilia Tax...  50.5       6e-04
+UniRef90_A0A6C2YJN2 TPR_REGION domain-containing protein n=1 Tax=...  50.5       6e-04
+UniRef90_UPI00117C7026 uncharacterized protein LOC115437549 n=1 T...  50.5       6e-04
+UniRef90_A0A6J2UTI7 LOW QUALITY PROTEIN: tight junction protein Z...  50.5       7e-04
+UniRef90_I3JZT4 Apoptotic protease-activating factor 1 n=20 Tax=P...  50.1       7e-04
+UniRef90_A0A1S3PTA7 tight junction protein ZO-1-like isoform X1 n...  50.1       8e-04
+UniRef90_A0A1S3PTA8 tight junction protein ZO-1-like isoform X7 n...  50.1       8e-04
+UniRef90_A0A1S3PTA3 tight junction protein ZO-1-like isoform X2 n...  50.1       8e-04
+UniRef90_A0A0M2GPI1 ATP-binding protein n=1 Tax=Streptomyces vari...  50.1       8e-04
+UniRef90_A0A1S3PTB3 tight junction protein ZO-1-like isoform X12 ...  50.1       8e-04
+UniRef90_A0A1S3PUN8 tight junction protein ZO-1-like isoform X17 ...  50.1       8e-04
+UniRef90_A0A1S3PTA0 tight junction protein ZO-1-like isoform X9 n...  50.1       8e-04
+UniRef90_A0A4U5TYQ8 Receptor activity-modifying protein 1 n=1 Tax...  50.1       8e-04
+UniRef90_A0A4U5TYA5 Protein NLRC5 n=7 Tax=Sciaenidae TaxID=30870 ...  49.7       9e-04
+UniRef90_A0A670JIL1 Uncharacterized protein n=4 Tax=Podarcis mura...  49.7       9e-04
+UniRef90_UPI0015926A7E LOW QUALITY PROTEIN: interferon-induced ve...  49.7       0.001
+UniRef90_A0A673X9C7 Uncharacterized protein n=2 Tax=Salmo trutta ...  49.7       0.001
+UniRef90_UPI0009482D16 uncharacterized protein LOC109483019 n=1 T...  49.7       0.001
+UniRef90_A0A1S3K334 uncharacterized protein LOC106178346 n=1 Tax=...  49.3       0.001
+UniRef90_A0A1I8ILA0 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  49.3       0.001
+UniRef90_UPI0008523CE4 apoptotic protease-activating factor 1-lik...  49.0       0.001
+UniRef90_A0A3B3VUG8 Si:ch211-108d22.2 n=1 Tax=Poecilia latipinna ...  49.3       0.001
+UniRef90_UPI0011433A80 uncharacterized protein LOC115242566 isofo...  49.0       0.002
+UniRef90_A0A1S3K9S3 serine/threonine-protein phosphatase 6 regula...  49.0       0.002
+UniRef90_UPI00136B1929 caspase family protein n=1 Tax=Massilia sp...  49.0       0.002
+UniRef90_UPI000BB0C83F uncharacterized protein LOC111119087 n=1 T...  49.0       0.002
+UniRef90_UPI0014258ABE disks large homolog 5-like isoform X1 n=3 ...  49.0       0.002
+UniRef90_A0A669EU86 Uncharacterized protein n=2 Tax=Oreochromis n...  49.0       0.002
+UniRef90_A0A1D5NS76 Tight junction protein 1b n=24 Tax=Cyprinoide...  49.0       0.002
+UniRef90_UPI000B90BA88 disks large homolog 5-like isoform X1 n=4 ...  49.0       0.002
+UniRef90_UPI0015C09862 caspase family protein n=1 Tax=Nostoc sp. ...  48.6       0.002
+UniRef90_A0A6F9AU13 Uncharacterized protein n=1 Tax=Coregonus sp....  48.6       0.002
+UniRef90_UPI0012307A29 caspase family protein n=1 Tax=Microcystis...  48.6       0.002
+UniRef90_A0A2A3EA66 Apoptotic protease-activating factor n=9 Tax=...  48.6       0.002
+UniRef90_A0A2N9BGQ7 HSP90 family protein n=2 Tax=Streptomyces Tax...  48.6       0.002
+UniRef90_A0A672MFV3 Uncharacterized protein n=1 Tax=Sinocyclochei...  48.6       0.003
+UniRef90_A0A6G1PDF7 Nucleotide-binding oligomerization domain-con...  48.6       0.003
+UniRef90_A0A6J2W7H9 NACHT, LRR and PYD domains-containing protein...  48.2       0.003
+UniRef90_UPI0010FCB76A LOW QUALITY PROTEIN: uncharacterized prote...  48.2       0.003
+UniRef90_A0A6I9XKH9 apoptotic protease-activating factor 1 isofor...  48.2       0.003
+UniRef90_UPI000B4F23B8 uncharacterized protein LOC110498591 n=1 T...  48.2       0.003
+UniRef90_UPI00118259E2 uncharacterized protein LOC115441754 n=1 T...  48.2       0.003
+UniRef90_UPI0012FF3D56 tight junction protein ZO-1 isoform X12 n=...  47.8       0.003
+UniRef90_A0A0X3XEW0 CASPASE_P20 domain-containing protein n=1 Tax...  47.8       0.003
+UniRef90_A0A556U487 Tight junction protein ZO-1 n=1 Tax=Bagarius ...  48.2       0.003
+UniRef90_A0A1Q8JG60 DNA helicase n=4 Tax=Pseudonocardia TaxID=184...  47.8       0.004
+UniRef90_A0A1X7TXS7 Uncharacterized protein n=3 Tax=Amphimedon qu...  47.8       0.004
+UniRef90_A0A1S3J548 uncharacterized protein LOC106170294 n=1 Tax=...  47.8       0.004
+UniRef90_UPI000E4087D5 LOW QUALITY PROTEIN: uncharacterized prote...  47.8       0.004
+UniRef90_UPI00140227D3 apoptotic protease-activating factor 1 iso...  47.8       0.004
+UniRef90_A0A673VZM6 Uncharacterized protein n=9 Tax=Salmo trutta ...  47.8       0.004
+UniRef90_A0A673VPG4 Uncharacterized protein n=3 Tax=Salmo trutta ...  47.8       0.004
+UniRef90_UPI0011E9DF4F uncharacterized protein LOC115798040 n=1 T...  47.8       0.004
+UniRef90_UPI00148A2CEB uncharacterized protein LOC105320306 n=1 T...  47.8       0.004
+UniRef90_UPI00065B7222 mucin-5AC-like n=1 Tax=Aplysia californica...  47.8       0.004
+UniRef90_UPI000B4F099F uncharacterized protein LOC110513757 n=1 T...  47.8       0.004
+UniRef90_A0A673IGZ9 Uncharacterized protein n=1 Tax=Sinocyclochei...  47.4       0.005
+UniRef90_UPI000B4F0B37 uncharacterized protein LOC110513758 n=1 T...  47.4       0.005
+UniRef90_UPI000E4080A2 uncharacterized protein LOC113016627 isofo...  47.8       0.005
+UniRef90_D9X206 Predicted protein n=2 Tax=Streptomyces viridochro...  47.4       0.005
+UniRef90_A0A6G0TUR5 Uncharacterized protein n=1 Tax=Aphis glycine...  47.4       0.005
+UniRef90_UPI00146B8053 uncharacterized protein LOC117499055 isofo...  47.4       0.006
+UniRef90_UPI000771C9FD apoptotic protease-activating factor 1 iso...  47.4       0.006
+UniRef90_UPI000C6EEDD3 uncharacterized protein LOC102226515 isofo...  47.4       0.006
+UniRef90_A0A3B5QR85 Uncharacterized protein n=32 Tax=Xiphophorus ...  47.4       0.006
+UniRef90_UPI00145A6F15 uncharacterized protein si:ch211-108d22.2 ...  47.0       0.007
+UniRef90_UPI000C6E55DE uncharacterized protein LOC111607605 isofo...  47.0       0.007
+UniRef90_UPI00156061FA uncharacterized protein si:ch211-108d22.2 ...  47.0       0.007
+UniRef90_A0A6J8DRH1 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  47.0       0.007
+UniRef90_A0A232F544 Uncharacterized protein n=11 Tax=Pteromalinae...  47.0       0.007
+UniRef90_A0A3Q3BZS6 Uncharacterized protein n=1 Tax=Haplochromis ...  46.6       0.008
+UniRef90_UPI001490244C uncharacterized protein LOC117808220 isofo...  47.0       0.008
+UniRef90_A0A6J0T2T1 tight junction protein ZO-1 isoform X1 n=12 T...  46.6       0.008
+UniRef90_A0A6J0SVF7 tight junction protein ZO-1 isoform X7 n=1 Ta...  46.6       0.008
+UniRef90_C3ZLI6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  46.6       0.008
+UniRef90_UPI00146B1F91 uncharacterized protein LOC117449657 n=1 T...  46.6       0.008
+UniRef90_A0A6J0T053 tight junction protein ZO-1 isoform X11 n=1 T...  46.6       0.008
+UniRef90_A0A6J0SZ87 tight junction protein ZO-1 isoform X4 n=2 Ta...  46.6       0.008
+UniRef90_UPI000E3FCC3F uncharacterized protein LOC113107869 isofo...  46.6       0.009
+UniRef90_A0A3Q0FV18 LOW QUALITY PROTEIN: interferon-induced very ...  46.6       0.009
+UniRef90_UPI0005EE603C apoptotic protease-activating factor 1-lik...  46.6       0.009
+UniRef90_A0A3Q2VPK0 Uncharacterized protein n=1 Tax=Haplochromis ...  46.6       0.009
+UniRef90_UPI0011766091 NLR family CARD domain-containing protein ...  46.6       0.009
+UniRef90_A0A537NT24 Tetratricopeptide repeat protein n=1 Tax=Alph...  46.6       0.009
+UniRef90_X6MCI4 TPR_REGION domain-containing protein n=1 Tax=Reti...  46.6       0.009
+UniRef90_U9VJS1 Peptidase c14 caspase catalytic subunit p20 n=1 T...  46.6       0.009
+UniRef90_A0A3Q2VEX0 Uncharacterized protein n=5 Tax=Haplochromis ...  46.6       0.009
+UniRef90_A0A3Q2VG41 Uncharacterized protein n=3 Tax=Haplochromis ...  46.6       0.009
+UniRef90_A0A365ZLE9 CASPASE_P20 domain-containing protein n=2 Tax...  46.6       0.009
+UniRef90_A0A5C7PMS7 CHAT domain-containing protein n=1 Tax=Burkho...  46.6       0.009
+UniRef90_A0A3Q1I8G0 Uncharacterized protein n=1 Tax=Anabas testud...  46.6       0.010
+UniRef90_A0A3B4VEW5 Uncharacterized protein n=3 Tax=Seriola dumer...  46.6       0.010
+UniRef90_A0A0R3W924 Uncharacterized protein n=1 Tax=Taenia asiati...  46.3       0.011
+UniRef90_UPI0015919C80 LOW QUALITY PROTEIN: interferon-induced ve...  46.3       0.011
+UniRef90_A0A3B4VEZ0 Uncharacterized protein n=2 Tax=Seriola dumer...  46.3       0.011
+UniRef90_A0A087W1P0 Apoptotic protease activating factor 1 n=3 Ta...  46.3       0.012
+UniRef90_UPI00155B3F51 caspase family protein n=1 Tax=Streptomyce...  46.3       0.012
+UniRef90_UPI000B4F0288 NACHT, LRR and PYD domains-containing prot...  46.3       0.012
+UniRef90_UPI000E46120B uncharacterized protein LOC113164556 isofo...  46.3       0.012
+UniRef90_UPI0010420C77 uncharacterized protein LOC114449748 n=1 T...  46.3       0.012
+UniRef90_UPI000711F069 apoptotic protease-activating factor 1 iso...  46.3       0.013
+UniRef90_UPI000B9323BD apoptotic protease-activating factor 1-lik...  46.3       0.013
+UniRef90_A0A267EY48 CARD domain-containing protein n=2 Tax=Macros...  46.3       0.013
+UniRef90_UPI001462F418 caspase family protein n=3 Tax=Brasilonema...  45.9       0.014
+UniRef90_A0A3Q1I8K3 Uncharacterized protein n=1 Tax=Anabas testud...  45.9       0.014
+UniRef90_A0A3P9C9R8 Uncharacterized protein n=2 Tax=Maylandia zeb...  45.9       0.014
+UniRef90_W5N8F1 Uncharacterized protein n=10 Tax=Lepisosteus ocul...  45.9       0.014
+UniRef90_UPI001486E979 tight junction protein ZO-1 isoform X4 n=1...  45.9       0.014
+UniRef90_UPI00073FAA54 tight junction protein ZO-1 isoform X4 n=1...  45.9       0.014
+UniRef90_UPI0007400C24 tight junction protein ZO-1 isoform X11 n=...  45.9       0.014
+UniRef90_UPI001457846B caspase family protein n=1 Tax=Flammeovirg...  45.9       0.014
+UniRef90_UPI00146E3010 caspase family protein n=1 Tax=Flammeovirg...  45.9       0.015
+UniRef90_A0A4W6D4A3 Si:ch211-108d22.2 n=2 Tax=Lates calcarifer Ta...  45.9       0.015
+UniRef90_UPI0014487A85 uncharacterized protein LOC117249944 n=1 T...  45.9       0.015
+UniRef90_UPI000873DDF6 uncharacterized protein LOC108873155 isofo...  45.9       0.015
+UniRef90_A0A6J0C3Y3 tight junction protein ZO-1 isoform X1 n=6 Ta...  45.9       0.015
+UniRef90_UPI000B4E8ADF uncharacterized protein LOC110498597 n=1 T...  45.9       0.015
+UniRef90_A0A2C9JRF9 CARD domain-containing protein n=1 Tax=Biomph...  45.9       0.016
+UniRef90_C3ZTV6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  45.9       0.017
+UniRef90_UPI001175D403 nuclear GTPase SLIP-GC-like isoform X2 n=1...  45.5       0.018
+UniRef90_UPI000DF493DB uncharacterized protein LOC100697750 n=1 T...  45.5       0.018
+UniRef90_UPI000874D5EA uncharacterized protein LOC108879369 isofo...  45.9       0.018
+UniRef90_UPI001175FBE6 uncharacterized protein LOC115363371 isofo...  45.5       0.018
+UniRef90_J9LWQ0 Uncharacterized protein n=1 Tax=Acyrthosiphon pis...  45.5       0.018
+UniRef90_UPI00146A8DD6 uncharacterized protein LOC117443307 isofo...  45.5       0.018
+UniRef90_UPI0010FB86FD tight junction protein ZO-1 n=1 Tax=Protob...  45.5       0.019
+UniRef90_A0A672YZ13 Uncharacterized protein n=6 Tax=Sphaeramia or...  45.5       0.020
+UniRef90_A0A3P8XWG3 Uncharacterized protein n=1 Tax=Esox lucius T...  45.5       0.020
+UniRef90_A0A6J8EQ19 DDX58 n=2 Tax=Mytilus coruscus TaxID=42192 Re...  45.5       0.020
+UniRef90_A0A3Q0H9F4 interferon-induced very large GTPase 1-like i...  45.5       0.022
+UniRef90_C3YBN0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  45.1       0.023
+UniRef90_A0A556TVC2 La-related protein 7 n=1 Tax=Bagarius yarrell...  45.5       0.023
+UniRef90_UPI000BA7EF0A disks large homolog 5-like isoform X1 n=3 ...  45.5       0.023
+UniRef90_UPI0014196BC9 interferon-induced very large GTPase 1-lik...  45.5       0.024
+UniRef90_A0A6J0UQK2 interferon-induced very large GTPase 1-like n...  45.1       0.026
+UniRef90_A0A369S529 Apoptotic protease-activating factor 1 n=2 Ta...  45.1       0.026
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0403    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1148955657388
+Results from round 3
+
+
+Query= sp|P42575|CASP2_HUMAN Caspase-2 OS=Homo sapiens OX=9606 GN=CASP2
+PE=1 SV=2
+
+Length=452
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  298        2e-87
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  282        6e-82
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  281        2e-81
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  275        4e-79
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  270        1e-77
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  269        3e-77
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  267        2e-76
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  266        4e-76
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  265        7e-76
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  263        3e-75
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  262        5e-75
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  260        6e-74
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  257        5e-73
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  255        1e-72
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  253        7e-72
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  252        2e-71
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  251        3e-71
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  252        5e-71
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  251        5e-71
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  248        7e-70
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  245        7e-69
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  244        1e-68
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  243        3e-68
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  242        6e-68
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  242        7e-68
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  239        9e-67
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  238        2e-66
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  237        3e-66
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  234        4e-65
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  232        2e-64
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  229        2e-63
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  227        1e-62
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  226        2e-62
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  223        1e-61
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  223        2e-61
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  222        9e-61
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  218        7e-60
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  216        6e-59
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  208        2e-56
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  205        4e-55
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  190        4e-50
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  189        1e-49
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  188        3e-49
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  187        5e-49
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  187        5e-49
+UniRef90_A0A267H0N0 Uncharacterized protein n=1 Tax=Macrostomum l...  185        2e-48
+UniRef90_A0A1X7U9K3 Uncharacterized protein n=1 Tax=Amphimedon qu...  180        2e-46
+UniRef90_A0A1X7TVQ6 Uncharacterized protein n=1 Tax=Amphimedon qu...  176        2e-45
+UniRef90_A0A267E7E3 Uncharacterized protein n=1 Tax=Macrostomum l...  173        2e-44
+UniRef90_A0A267G4L1 Uncharacterized protein n=1 Tax=Macrostomum l...  168        2e-42
+UniRef90_A0A503SRY4 Tetratricopeptide repeat protein n=1 Tax=Meso...  162        2e-40
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  158        3e-39
+UniRef90_K7J007 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  157        6e-39
+UniRef90_A0A1I8GZQ7 Uncharacterized protein n=1 Tax=Macrostomum l...  157        9e-39
+UniRef90_A0A267H6X4 Uncharacterized protein n=1 Tax=Macrostomum l...  156        2e-38
+UniRef90_A0A503XAW9 Tetratricopeptide repeat protein n=5 Tax=Bact...  154        6e-38
+UniRef90_UPI0013AFB447 tetratricopeptide repeat protein n=3 Tax=R...  153        2e-37
+UniRef90_X6JQX0 CASPASE_P20 domain-containing protein n=50 Tax=Me...  152        3e-37
+UniRef90_X5QBI8 Uncharacterized protein n=6 Tax=Mesorhizobium Tax...  152        4e-37
+UniRef90_A0A395KDS0 Putative caspase-like protein n=10 Tax=Mesorh...  151        8e-37
+UniRef90_A0A6H5HC86 COP9 signalosome complex subunit 6 n=2 Tax=Ne...  150        1e-36
+UniRef90_UPI00145A02DF caspase family protein n=1 Tax=Mesorhizobi...  149        5e-36
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  144        2e-34
+UniRef90_A0A1B0C8E7 Exocyst complex component 6 n=1 Tax=Lutzomyia...  143        6e-34
+UniRef90_UPI00155E6532 tight junction protein ZO-1 isoform X1 n=8...  136        1e-31
+UniRef90_A0A5B8L5R9 Uncharacterized protein n=1 Tax=Nitratireduct...  135        2e-31
+UniRef90_A0A1D2MSV5 Caspase-2 (Fragment) n=1 Tax=Orchesella cinct...  133        9e-31
+UniRef90_UPI00125CEFBF tight junction protein ZO-1-like isoform X...  133        1e-30
+UniRef90_UPI0015C55BF3 caspase family protein n=1 Tax=Hyphomicrob...  132        2e-30
+UniRef90_A0A671VRF8 Tight junction protein 1b n=1 Tax=Sparus aura...  132        2e-30
+UniRef90_UPI0013AF1D05 tight junction protein ZO-1-like isoform X...  132        2e-30
+UniRef90_UPI0011C10A60 tight junction protein ZO-1-like isoform X...  131        5e-30
+UniRef90_UPI0011C0FA52 tight junction protein ZO-1-like isoform X...  131        5e-30
+UniRef90_UPI0011C18926 tight junction protein ZO-1-like isoform X...  131        5e-30
+UniRef90_A0A6J3KK41 apoptotic protease-activating factor 1 isofor...  131        5e-30
+UniRef90_UPI0011C18368 tight junction protein ZO-1-like isoform X...  131        6e-30
+UniRef90_UPI0011C10097 tight junction protein ZO-1-like isoform X...  131        6e-30
+UniRef90_A0A671VUH7 Tight junction protein 1b n=20 Tax=Euacanthom...  131        6e-30
+UniRef90_UPI00117CAD55 tight junction protein ZO-1-like isoform X...  130        9e-30
+UniRef90_A0A4W6CZT5 Uncharacterized protein n=1 Tax=Lates calcari...  130        1e-29
+UniRef90_A0A673BGP1 Uncharacterized protein n=11 Tax=Percomorphac...  130        1e-29
+UniRef90_A0A672JDT0 Tight junction protein 1b n=3 Tax=Salarias fa...  128        3e-29
+UniRef90_UPI0009B41F9E tight junction protein ZO-1-like isoform X...  128        5e-29
+UniRef90_UPI0009B2F528 tight junction protein ZO-1-like isoform X...  128        5e-29
+UniRef90_A0A0N0BFS6 Apoptotic protease-activating factor 1 n=1 Ta...  128        7e-29
+UniRef90_UPI0014433869 apoptotic protease-activating factor 1 iso...  127        9e-29
+UniRef90_A0A3P8U921 Tight junction protein 1b n=6 Tax=Amphiprion ...  126        2e-28
+UniRef90_A0A212UHA6 Caspase domain-containing protein n=2 Tax=Hym...  125        4e-28
+UniRef90_UPI0007AD4DBB tight junction protein ZO-1-like n=1 Tax=S...  125        4e-28
+UniRef90_A0A6G1QSI8 Apoptotic protease-activating factor 1 n=1 Ta...  124        6e-28
+UniRef90_A0A673AY87 Apoptotic protease-activating factor 1 n=6 Ta...  124        6e-28
+UniRef90_A0A672SGE9 Uncharacterized protein n=1 Tax=Sinocyclochei...  124        7e-28
+UniRef90_UPI0007AD2A3C tight junction protein ZO-1-like isoform X...  124        7e-28
+UniRef90_UPI0010A3360E tight junction protein ZO-1-like isoform X...  124        9e-28
+UniRef90_UPI0010A47920 tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_UPI0010A36742 tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_UPI0010A4722F tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_UPI0010A3C207 tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_UPI0010A4E974 tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_A0A671MX07 Uncharacterized protein n=10 Tax=Sinocycloche...  124        1e-27
+UniRef90_UPI0010A5573D tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_UPI0010A45931 tight junction protein ZO-1-like isoform X...  124        1e-27
+UniRef90_A0A158NBK9 CARD domain-containing protein n=13 Tax=Attin...  124        1e-27
+UniRef90_A0A671NRL2 Tight junction protein 1b n=2 Tax=Sinocycloch...  124        1e-27
+UniRef90_UPI000E40DB76 tight junction protein ZO-1-like isoform X...  123        2e-27
+UniRef90_A0A3Q3VN16 Apoptotic protease-activating factor 1 n=3 Ta...  123        2e-27
+UniRef90_UPI0014773397 tight junction protein ZO-1 isoform X1 n=7...  123        2e-27
+UniRef90_UPI00083C53FD apoptotic protease-activating factor 1 n=1...  123        2e-27
+UniRef90_A0A1I8JAM8 Uncharacterized protein n=2 Tax=Macrostomum l...  123        3e-27
+UniRef90_UPI000E425B6B tight junction protein ZO-1-like isoform X...  122        4e-27
+UniRef90_A0A0D2X4X5 CASPASE_P20 domain-containing protein n=1 Tax...  122        6e-27
+UniRef90_A0A669DP98 Tight junction protein 1b n=3 Tax=Ovalentaria...  121        7e-27
+UniRef90_A0A2I4AW01 Apoptotic protease-activating factor 1 n=1 Ta...  121        9e-27
+UniRef90_A0A026W6Z6 Apoptotic protease-activating factor n=3 Tax=...  121        9e-27
+UniRef90_UPI0013042F7B apoptotic protease-activating factor 1 iso...  121        1e-26
+UniRef90_UPI000258DE6B apoptotic protease-activating factor 1 iso...  120        2e-26
+UniRef90_A0A154P701 Apoptotic protease-activating factor 1 n=1 Ta...  120        3e-26
+UniRef90_A0A0L7QS16 Apoptotic protease-activating factor 1 n=2 Ta...  119        4e-26
+UniRef90_A0A4W3JJE7 Apoptotic protease-activating factor 1 n=11 T...  119        4e-26
+UniRef90_A0A401REP2 Apoptotic protease-activating factor 1 (Fragm...  119        5e-26
+UniRef90_A0A444UND8 Apoptotic protease-activating factor 1 n=6 Ta...  118        7e-26
+UniRef90_UPI0005F47071 apoptotic protease-activating factor 1 iso...  118        1e-25
+UniRef90_A0A6J2UTI7 LOW QUALITY PROTEIN: tight junction protein Z...  118        1e-25
+UniRef90_A0A151WFA7 Apoptotic protease-activating factor 1 n=2 Ta...  118        1e-25
+UniRef90_UPI0007384FEE apoptotic protease-activating factor 1 n=1...  118        1e-25
+UniRef90_UPI00117605C9 tight junction protein ZO-1-like isoform X...  118        1e-25
+UniRef90_UPI0004A282B0 tight junction protein ZO-1 isoform X5 n=1...  118        1e-25
+UniRef90_A0A3P9PLY7 Uncharacterized protein n=1 Tax=Poecilia reti...  118        1e-25
+UniRef90_A0A3P9PM27 Uncharacterized protein n=16 Tax=Poeciliinae ...  118        2e-25
+UniRef90_A0A401PKP0 Uncharacterized protein n=1 Tax=Scyliorhinus ...  117        2e-25
+UniRef90_A0A4Z2BH75 Apoptotic protease-activating factor 1 n=1 Ta...  117        2e-25
+UniRef90_UPI0011E9CA45 tight junction protein ZO-1-like isoform X...  118        2e-25
+UniRef90_A0A3P8X7H0 Uncharacterized protein n=4 Tax=Esox lucius T...  117        2e-25
+UniRef90_A0A6J0UEB9 apoptotic protease-activating factor 1 n=1 Ta...  117        2e-25
+UniRef90_H2U9E5 Apoptotic protease-activating factor 1 n=4 Tax=Ta...  117        2e-25
+UniRef90_UPI0010F98530 apoptotic protease-activating factor 1 iso...  117        2e-25
+UniRef90_UPI00083FE737 apoptotic protease-activating factor 1 iso...  116        5e-25
+UniRef90_A0A3B1JNQ3 Uncharacterized protein n=17 Tax=Characoidei ...  116        6e-25
+UniRef90_A0A0K8S2D8 Apoptotic protease-activating factor 1 n=23 T...  115        7e-25
+UniRef90_A0A4Z2C7I2 Uncharacterized protein n=10 Tax=Takifugu Tax...  115        9e-25
+UniRef90_UPI000947BD96 uncharacterized protein LOC109475966 n=1 T...  113        3e-24
+UniRef90_UPI0010FAF134 uncharacterized protein LOC114927905 isofo...  113        3e-24
+UniRef90_UPI00109FFEE2 apoptotic protease-activating factor 1 iso...  113        3e-24
+UniRef90_E2B006 Apoptotic protease-activating factor 1 n=4 Tax=Ca...  113        4e-24
+UniRef90_A0A673YUW2 Uncharacterized protein n=4 Tax=Salmoninae Ta...  113        4e-24
+UniRef90_UPI001403C3EB apoptotic protease-activating factor 1 iso...  113        4e-24
+UniRef90_UPI0003F082DA disks large homolog 5-like n=1 Tax=Saccogl...  113        4e-24
+UniRef90_UPI0006256112 apoptotic protease-activating factor 1 iso...  113        4e-24
+UniRef90_F1P1P3 Apoptotic protease-activating factor 1 n=9 Tax=Ga...  113        5e-24
+UniRef90_A0A0U1YWJ4 Apoptotic protease activating factor 1 n=3 Ta...  113        5e-24
+UniRef90_F6R504 Apoptotic protease-activating factor 1 n=10 Tax=P...  113        6e-24
+UniRef90_UPI0008547D8D apoptotic protease-activating factor 1 iso...  113        6e-24
+UniRef90_UPI0005CF4C31 apoptotic protease-activating factor 1-lik...  113        6e-24
+UniRef90_A0A2D0WVQ2 Apoptotic protease-activating factor 1 n=2 Ta...  113        6e-24
+UniRef90_A0A6L2PTV1 Uncharacterized protein n=1 Tax=Coptotermes f...  112        7e-24
+UniRef90_UPI0004D0522F apoptotic protease-activating factor 1 n=1...  112        8e-24
+UniRef90_A0A3Q2ZQ12 Uncharacterized protein n=8 Tax=Aplocheiloide...  112        9e-24
+UniRef90_Q6GNU6 Apoptotic protease-activating factor 1 n=4 Tax=Xe...  112        9e-24
+UniRef90_A0A0C9RL69 Apaf1_1 protein n=5 Tax=Fopius arisanus TaxID...  111        1e-23
+UniRef90_UPI0006C957A5 apoptotic protease-activating factor 1-lik...  111        2e-23
+UniRef90_UPI0012AB2ECC tight junction protein ZO-1-like n=1 Tax=C...  111        2e-23
+UniRef90_UPI00106CF9DA apoptotic protease-activating factor 1-lik...  110        4e-23
+UniRef90_UPI001457EB0D disks large homolog 5-like isoform X1 n=5 ...  110        5e-23
+UniRef90_B3SBJ1 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  110        5e-23
+UniRef90_H2MKX5 Apoptotic protease-activating factor 1 n=4 Tax=Or...  109        6e-23
+UniRef90_UPI0014768C79 tight junction protein ZO-1 isoform X4 n=1...  109        1e-22
+UniRef90_UPI0014770F97 tight junction protein ZO-1 isoform X12 n=...  109        1e-22
+UniRef90_UPI001476A5CB tight junction protein ZO-1 isoform X2 n=1...  109        1e-22
+UniRef90_UPI001476BC07 tight junction protein ZO-1 isoform X14 n=...  109        1e-22
+UniRef90_I6YLS5 Apoptotic protease-activating factor 1 n=1 Tax=Cy...  108        1e-22
+UniRef90_A0A3P8YQC5 Uncharacterized protein n=1 Tax=Esox lucius T...  109        1e-22
+UniRef90_A0A2B4SIV6 E3 ubiquitin-protein ligase HECTD1 n=2 Tax=St...  108        1e-22
+UniRef90_UPI0009E3E016 apoptotic protease-activating factor 1-lik...  108        2e-22
+UniRef90_UPI000441AC2C apoptotic protease-activating factor 1 n=1...  108        2e-22
+UniRef90_UPI0006448397 tight junction protein ZO-1 isoform X6 n=1...  108        2e-22
+UniRef90_UPI000644A6AB tight junction protein ZO-1 isoform X1 n=1...  108        2e-22
+UniRef90_UPI00094E6008 apoptotic protease-activating factor 1 iso...  108        3e-22
+UniRef90_UPI0006D4F19E apoptotic protease-activating factor 1-lik...  108        3e-22
+UniRef90_F7DSK0 Apoptotic protease-activating factor 1 n=4 Tax=Xe...  107        4e-22
+UniRef90_UPI0003F0DD41 apoptotic protease-activating factor 1-lik...  107        4e-22
+UniRef90_A0A0M2GPI1 ATP-binding protein n=1 Tax=Streptomyces vari...  107        4e-22
+UniRef90_A0A2B4SA85 Apoptotic protease-activating factor 1 n=2 Ta...  107        5e-22
+UniRef90_UPI000BA828F3 apoptotic protease-activating factor 1-lik...  107        5e-22
+UniRef90_UPI00063F241E apoptotic protease-activating factor 1 iso...  106        5e-22
+UniRef90_K7JPL4 CARD domain-containing protein n=5 Tax=Pteromalin...  106        8e-22
+UniRef90_A0A3M6V2D9 Uncharacterized protein n=2 Tax=Pocillopora d...  106        9e-22
+UniRef90_UPI0012B55309 apoptotic protease-activating factor 1-lik...  106        1e-21
+UniRef90_UPI00073D9386 apoptotic protease-activating factor 1 iso...  106        1e-21
+UniRef90_C3YZV6 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  105        1e-21
+UniRef90_A0A3B3D666 Apoptotic protease-activating factor 1 n=1 Ta...  105        1e-21
+UniRef90_A7RLM8 Predicted protein n=3 Tax=Nematostella vectensis ...  105        2e-21
+UniRef90_UPI00146A3F60 apoptotic protease-activating factor 1 n=4...  105        2e-21
+UniRef90_A0A1S3SI20 apoptotic protease-activating factor 1-like i...  105        2e-21
+UniRef90_A0A1U7SIV8 Apoptotic protease-activating factor 1 n=6 Ta...  104        3e-21
+UniRef90_A0A673ZI81 Uncharacterized protein n=2 Tax=Salmo trutta ...  104        3e-21
+UniRef90_A0A099ZLV5 Apoptotic protease-activating factor 1 n=7 Ta...  104        4e-21
+UniRef90_A0A6J0BC51 apoptotic protease-activating factor 1 n=1 Ta...  104        5e-21
+UniRef90_A0A673ZIQ0 Apoptotic protease-activating factor 1 n=3 Ta...  103        5e-21
+UniRef90_UPI001238C931 apoptotic protease-activating factor 1 n=1...  103        6e-21
+UniRef90_A0A2I7G3X4 Apaf-1 n=1 Tax=Patiria pectinifera TaxID=7594...  103        7e-21
+UniRef90_A0A674D307 Apoptotic protease-activating factor 1 n=1 Ta...  103        9e-21
+UniRef90_A0A162RRZ9 Apoptotic Protease-activating factor 1 n=3 Ta...  103        1e-20
+UniRef90_UPI000947F2E1 uncharacterized protein LOC109461677 n=1 T...  103        1e-20
+UniRef90_C3YKF2 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  102        2e-20
+UniRef90_UPI0013F2187E apoptotic protease-activating factor 1 iso...  101        2e-20
+UniRef90_C3Z5Q3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  101        3e-20
+UniRef90_UPI000C6F648B apoptotic protease-activating factor 1-lik...  101        4e-20
+UniRef90_UPI000B90C686 apoptotic protease-activating factor 1-lik...  101        5e-20
+UniRef90_A0A4W5RK58 Apoptotic protease-activating factor 1 n=1 Ta...  100        5e-20
+UniRef90_A0A3B5PYU7 Uncharacterized protein n=16 Tax=Xiphophorus ...  101        6e-20
+UniRef90_A0A4Y2QVC8 Disks large 5 (Fragment) n=4 Tax=Araneus vent...  100        7e-20
+UniRef90_UPI0011B58EA6 tight junction protein ZO-1-like isoform X...  100        9e-20
+UniRef90_UPI0011B440F1 tight junction protein ZO-1-like isoform X...  100        9e-20
+UniRef90_C3XSQ3 Uncharacterized protein n=1 Tax=Branchiostoma flo...   99        1e-19
+UniRef90_A0A1S3PTA7 tight junction protein ZO-1-like isoform X1 n...  99.6       2e-19
+UniRef90_A0A1S3PTA8 tight junction protein ZO-1-like isoform X7 n...  99.6       2e-19
+UniRef90_A0A1S3PTA3 tight junction protein ZO-1-like isoform X2 n...  99.6       2e-19
+UniRef90_A0A1S3PTB3 tight junction protein ZO-1-like isoform X12 ...  99.6       2e-19
+UniRef90_A0A1S3PTA0 tight junction protein ZO-1-like isoform X9 n...  99.6       2e-19
+UniRef90_A0A1S3PUN8 tight junction protein ZO-1-like isoform X17 ...  99.6       2e-19
+UniRef90_C3YAL5 CARD domain-containing protein n=1 Tax=Branchiost...  99.6       2e-19
+UniRef90_UPI000947F77E LOW QUALITY PROTEIN: uncharacterized prote...  99.2       2e-19
+UniRef90_UPI000947AAAC contactin-2-like isoform X1 n=6 Tax=Branch...  98.8       3e-19
+UniRef90_UPI000718BC3B apoptotic protease-activating factor 1 iso...  98.0       5e-19
+UniRef90_I3JZT4 Apoptotic protease-activating factor 1 n=20 Tax=P...  97.6       5e-19
+UniRef90_C3ZLI5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  97.6       8e-19
+UniRef90_UPI001455AA89 apoptotic protease-activating factor 1-lik...  96.9       1e-18
+UniRef90_A0A1S3H853 uncharacterized protein LOC106152581 n=1 Tax=...  96.9       1e-18
+UniRef90_C3ZLL0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  96.5       1e-18
+UniRef90_UPI0011771A27 tight junction protein ZO-1 isoform X2 n=1...  96.9       1e-18
+UniRef90_A0A1I8IM38 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  96.5       2e-18
+UniRef90_A0A6C2YJN2 TPR_REGION domain-containing protein n=1 Tax=...  95.7       3e-18
+UniRef90_UPI000FFB3233 tight junction protein ZO-1 isoform X5 n=1...  95.7       3e-18
+UniRef90_UPI000947B60E uncharacterized protein LOC109477248 n=1 T...  94.2       1e-17
+UniRef90_C3XRI5 Uncharacterized protein n=2 Tax=Branchiostoma Tax...  93.0       2e-17
+UniRef90_A0A672I7J1 Apoptotic protease-activating factor 1 n=1 Ta...  92.6       2e-17
+UniRef90_A0A663MNL0 Uncharacterized protein n=155 Tax=Neognathae ...  92.2       4e-17
+UniRef90_A0A2R2MJU7 tight junction protein ZO-1-like isoform X1 n...  92.2       4e-17
+UniRef90_A0A663MM60 Uncharacterized protein n=82 Tax=Neognathae T...  92.2       4e-17
+UniRef90_C3YQ93 Uncharacterized protein n=1 Tax=Branchiostoma flo...  91.8       6e-17
+UniRef90_UPI0010FCB61A tight junction protein ZO-1-like isoform X...  91.5       6e-17
+UniRef90_T1JJ67 Uncharacterized protein n=1 Tax=Strigamia maritim...  91.1       9e-17
+UniRef90_C3ZGJ7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  90.7       1e-16
+UniRef90_A0A654H852 CARD domain-containing protein n=1 Tax=Sparga...  89.5       3e-16
+UniRef90_UPI0012B5ACE6 tight junction protein ZO-1-like isoform X...  89.5       3e-16
+UniRef90_UPI00148AB9C4 tight junction protein ZO-1 n=1 Tax=Crasso...  89.2       3e-16
+UniRef90_A0A210PEA9 Sterile alpha motif domain-containing protein...  88.8       5e-16
+UniRef90_A0A4E0S3W3 Apoptotic protease-activating factor 1 n=1 Ta...  88.8       5e-16
+UniRef90_A0A504YHS0 Apoptotic protease-activating factor 1 n=1 Ta...  88.8       5e-16
+UniRef90_C3YWB2 Uncharacterized protein n=1 Tax=Branchiostoma flo...  88.0       8e-16
+UniRef90_A0A6J8D3G3 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  88.0       8e-16
+UniRef90_A0A1S3IP94 disks large homolog 5 n=1 Tax=Lingula unguis ...  88.0       9e-16
+UniRef90_A0A2B4RRX7 Tight junction protein ZO-1 n=7 Tax=Pocillopo...  88.0       9e-16
+UniRef90_UPI001140A3F1 tight junction protein ZO-1-like isoform X...  88.0       1e-15
+UniRef90_UPI00067DDCDE apoptotic protease-activating factor 1-lik...  87.6       1e-15
+UniRef90_UPI0014581AC2 sterile alpha motif domain-containing prot...  87.6       1e-15
+UniRef90_UPI00094788B7 uncharacterized protein LOC109462411 n=1 T...  87.6       1e-15
+UniRef90_A0A1I8FYK8 CARD domain-containing protein n=2 Tax=Macros...  87.6       1e-15
+UniRef90_UPI00094813DF receptor-type tyrosine-protein phosphatase...  87.2       1e-15
+UniRef90_A0A4Z2DT23 Apoptotic protease-activating factor 1 n=1 Ta...  87.2       2e-15
+UniRef90_UPI0009E42837 tight junction protein ZO-1-like isoform X...  86.8       2e-15
+UniRef90_A0A6J8A9G6 DLG5 n=3 Tax=Mytilus coruscus TaxID=42192 Rep...  86.8       2e-15
+UniRef90_C3XTW5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  86.8       2e-15
+UniRef90_UPI00094811B6 LOW QUALITY PROTEIN: uncharacterized prote...  86.8       2e-15
+UniRef90_A0A5K4EPR2 Uncharacterized protein n=5 Tax=Schistosoma T...  86.8       2e-15
+UniRef90_A0A6J8B640 Uncharacterized protein n=1 Tax=Mytilus corus...  86.5       3e-15
+UniRef90_UPI000BB02CE4 tight junction protein ZO-1-like isoform X...  86.5       3e-15
+UniRef90_C3ZPV0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  86.1       4e-15
+UniRef90_A0A1S3JEX4 uncharacterized protein LOC106172698 n=1 Tax=...  85.7       4e-15
+UniRef90_UPI000BB0841B uncharacterized protein LOC111113163 isofo...  85.7       6e-15
+UniRef90_C3YGB3 Uncharacterized protein n=1 Tax=Branchiostoma flo...  85.3       7e-15
+UniRef90_UPI000947F7E2 proteoglycan 4-like n=1 Tax=Branchiostoma ...  84.9       7e-15
+UniRef90_A0A3G1ZL41 Apoptotic protease-activating factor 1 n=1 Ta...  84.9       7e-15
+UniRef90_A0A210Q601 Tight junction protein ZO-1 n=22 Tax=Pectinid...  84.9       8e-15
+UniRef90_A0A6J8EQX3 SAMD9 n=1 Tax=Mytilus coruscus TaxID=42192 Re...  84.9       9e-15
+UniRef90_A0A210PE80 Sterile alpha motif domain-containing protein...  84.5       1e-14
+UniRef90_A0A1X7U759 Uncharacterized protein n=1 Tax=Amphimedon qu...  84.5       1e-14
+UniRef90_A0A6J8ALP9 Uncharacterized protein n=1 Tax=Mytilus corus...  83.0       3e-14
+UniRef90_UPI000BA80EF9 apoptotic protease-activating factor 1-lik...  82.6       4e-14
+UniRef90_A0A2R2MQF9 malignant fibrous histiocytoma-amplified sequ...  81.8       8e-14
+UniRef90_C3ZPW9 Uncharacterized protein n=1 Tax=Branchiostoma flo...  81.4       1e-13
+UniRef90_UPI000C6CA781 apoptotic protease-activating factor 1-lik...  80.7       2e-13
+UniRef90_C3YEE8 Uncharacterized protein n=1 Tax=Branchiostoma flo...  80.3       3e-13
+UniRef90_A0A369S1S2 Apoptotic protease-activating factor 1 n=2 Ta...  79.9       3e-13
+UniRef90_B7PB18 Apoptotic protease-activating factor, putative n=...  79.5       4e-13
+UniRef90_A0A3S1BN66 Uncharacterized protein n=1 Tax=Elysia chloro...  79.5       4e-13
+UniRef90_A0A0V1BPN0 Apoptotic protease-activating factor 1 (Fragm...  78.4       1e-12
+UniRef90_A0A1S3H0X8 malignant fibrous histiocytoma-amplified sequ...  78.0       1e-12
+UniRef90_UPI000A2A70F0 uncharacterized protein LOC110237846 n=1 T...  76.1       6e-12
+UniRef90_UPI000BB027EF ankyrin-3-like isoform X1 n=2 Tax=Crassost...  75.7       7e-12
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A4W6E7H5 Apoptotic protease-activating factor 1 n=3 Ta...  124        1e-27
+UniRef90_A0A4U5VS23 Apoptotic protease-activating factor 1 n=1 Ta...  123        2e-27
+UniRef90_UPI000F5FC043 apoptotic protease-activating factor 1 iso...  123        2e-27
+UniRef90_UPI0015E1FE48 apoptotic protease-activating factor 1 iso...  123        2e-27
+UniRef90_A0A671VRZ9 Apoptotic protease-activating factor 1 n=2 Ta...  123        2e-27
+UniRef90_A0A3B4T7D7 Uncharacterized protein n=1 Tax=Seriola dumer...  121        6e-27
+UniRef90_A0A667Z0S8 Apoptotic protease-activating factor 1 n=2 Ta...  118        6e-26
+UniRef90_A0A667ZCL7 Apoptotic protease-activating factor 1 n=1 Ta...  118        7e-26
+UniRef90_A0A0P7X6D9 Apoptotic protease-activating factor 1-like n...  118        8e-26
+UniRef90_A0A484C4Y2 Uncharacterized protein n=12 Tax=Eupercaria T...  118        8e-26
+UniRef90_UPI001486506E apoptotic protease-activating factor 1 iso...  118        9e-26
+UniRef90_UPI0012EDAB2F apoptotic protease-activating factor 1 n=1...  117        2e-25
+UniRef90_A0A1A7ZT23 Apoptotic protease-activating factor 1 n=11 T...  117        2e-25
+UniRef90_UPI0015B02112 apoptotic protease-activating factor 1 iso...  116        3e-25
+UniRef90_W5L906 Apoptotic peptidase activating factor 1 n=3 Tax=A...  116        4e-25
+UniRef90_A0A1D5NS76 Tight junction protein 1b n=24 Tax=Cyprinoide...  116        5e-25
+UniRef90_A0A665WFD8 Apoptotic protease-activating factor 1 n=6 Ta...  115        7e-25
+UniRef90_A0A665WFQ2 Apoptotic protease-activating factor 1 n=1 Ta...  115        7e-25
+UniRef90_A0A3B4E615 Uncharacterized protein n=1 Tax=Pygocentrus n...  115        9e-25
+UniRef90_A0A671L2V6 Apoptotic protease-activating factor 1 n=27 T...  114        2e-24
+UniRef90_UPI0010420213 apoptotic protease-activating factor 1 n=1...  114        2e-24
+UniRef90_A0A3P8VCJ3 Apoptotic protease-activating factor 1 n=1 Ta...  114        2e-24
+UniRef90_UPI000E1D6D91 apoptotic protease-activating factor 1 iso...  114        2e-24
+UniRef90_UPI0010A5531E apoptotic protease-activating factor 1 iso...  114        2e-24
+UniRef90_A0A3Q3JHW7 Uncharacterized protein n=3 Tax=Monopterus al...  113        3e-24
+UniRef90_A0A5K1TZD3 Apoptotic protease-activating factor 1 n=27 T...  113        3e-24
+UniRef90_W5NDE7 Apoptotic protease-activating factor 1 n=3 Tax=Le...  113        3e-24
+UniRef90_A0A2A3EA66 Apoptotic protease-activating factor n=9 Tax=...  113        4e-24
+UniRef90_F1MUW4 Apoptotic protease-activating factor 1 n=3 Tax=Pe...  113        4e-24
+UniRef90_A0A3Q1M7I8 Apoptotic protease-activating factor 1 n=18 T...  113        5e-24
+UniRef90_A0A093HQ02 Apoptotic protease-activating factor 1 n=7 Ta...  113        5e-24
+UniRef90_A0A0F6QJN8 Apoptotic protease-activating factor 1 n=22 T...  113        5e-24
+UniRef90_A0A402ETS8 Apoptotic protease-activating factor 1 n=2 Ta...  113        6e-24
+UniRef90_H0ZER9 Apoptotic protease-activating factor 1 n=113 Tax=...  112        1e-23
+UniRef90_I3N6C2 Apoptotic protease-activating factor 1 n=6 Tax=Ro...  112        1e-23
+UniRef90_A0A6J2N7H1 apoptotic protease-activating factor 1 isofor...  111        1e-23
+UniRef90_A0A5A9PGS0 Apoptotic protease-activating factor 1 n=1 Ta...  111        1e-23
+UniRef90_Q9I9H8 Apoptotic protease-activating factor 1 n=2 Tax=Da...  111        2e-23
+UniRef90_A0A3B3ZH08 Apoptotic protease-activating factor 1 n=4 Ta...  111        2e-23
+UniRef90_UPI000332F82C apoptotic protease-activating factor 1 iso...  111        2e-23
+UniRef90_A0A553MXD5 Uncharacterized protein n=2 Tax=Danionella tr...  111        2e-23
+UniRef90_A0A2Y9R7U5 Apoptotic protease-activating factor 1 n=1 Ta...  111        2e-23
+UniRef90_UPI0008523CE4 apoptotic protease-activating factor 1-lik...  111        2e-23
+UniRef90_A0A671FYW8 Apoptotic protease-activating factor 1 n=6 Ta...  110        3e-23
+UniRef90_A0A672NLT6 Apoptotic protease-activating factor 1 n=3 Ta...  110        3e-23
+UniRef90_O88879 Apoptotic protease-activating factor 1 n=23 Tax=M...  110        3e-23
+UniRef90_H3AY47 Uncharacterized protein n=3 Tax=Latimeria chalumn...  110        3e-23
+UniRef90_A0A3Q1JAZ6 Apoptotic protease-activating factor 1 n=2 Ta...  110        4e-23
+UniRef90_UPI000C813750 apoptotic protease-activating factor 1 iso...  109        5e-23
+UniRef90_A0A1U8D2F3 Apoptotic protease-activating factor 1 n=8 Ta...  109        6e-23
+UniRef90_A0A452I5B6 Apoptotic protease-activating factor 1 n=8 Ta...  109        6e-23
+UniRef90_UPI0012AB7BC7 apoptotic protease-activating factor 1 iso...  109        9e-23
+UniRef90_UPI00109F0528 apoptotic protease-activating factor 1 n=2...  109        9e-23
+UniRef90_UPI001125E17A apoptotic protease-activating factor 1 n=1...  109        1e-22
+UniRef90_A0A2K5X3C3 Apoptotic protease-activating factor 1 n=25 T...  109        1e-22
+UniRef90_A0A2Y9T568 Apoptotic protease-activating factor 1 n=48 T...  108        1e-22
+UniRef90_UPI00111BD949 apoptotic protease-activating factor 1 iso...  108        2e-22
+UniRef90_O14727 Apoptotic protease-activating factor 1 n=74 Tax=E...  108        2e-22
+UniRef90_A0A1S3WA02 Apoptotic protease-activating factor 1 n=1 Ta...  108        2e-22
+UniRef90_F7CLB2 Apoptotic protease-activating factor 1 n=15 Tax=P...  108        3e-22
+UniRef90_G1KNE2 Apoptotic protease-activating factor 1 n=1 Tax=An...  108        3e-22
+UniRef90_UPI0003289F50 apoptotic protease-activating factor 1 iso...  107        3e-22
+UniRef90_A0A383YSR8 Apoptotic protease-activating factor 1 n=4 Ta...  107        4e-22
+UniRef90_A0A2K5D0I7 Apoptotic protease-activating factor 1 n=4 Ta...  107        5e-22
+UniRef90_UPI001185A58A apoptotic protease-activating factor 1 iso...  106        6e-22
+UniRef90_A0A3Q0R3B7 Apoptotic protease-activating factor 1 n=4 Ta...  106        6e-22
+UniRef90_A0A673X9C7 Uncharacterized protein n=2 Tax=Salmo trutta ...  106        7e-22
+UniRef90_H0VST0 Apoptotic peptidase activating factor 1 n=7 Tax=H...  106        7e-22
+UniRef90_UPI0007EE4911 apoptotic protease-activating factor 1 n=1...  106        7e-22
+UniRef90_A0A3B3RS58 Apoptotic protease-activating factor 1 n=4 Ta...  106        7e-22
+UniRef90_F6PXT1 Apoptotic protease-activating factor 1 n=3 Tax=Or...  106        8e-22
+UniRef90_A0A670J0J3 Apoptotic protease-activating factor 1 n=9 Ta...  106        1e-21
+UniRef90_G1LWB3 Apoptotic protease-activating factor 1 n=22 Tax=L...  106        1e-21
+UniRef90_M7B456 Apoptotic protease-activating factor 1 n=1 Tax=Ch...  105        1e-21
+UniRef90_A0A6J2VMC2 apoptotic protease-activating factor 1 n=1 Ta...  105        1e-21
+UniRef90_K7FZW5 Apoptotic protease-activating factor 1 n=7 Tax=Cr...  105        2e-21
+UniRef90_A0A4X2MCF0 Apoptotic protease-activating factor 1 n=8 Ta...  105        2e-21
+UniRef90_A0A6I9XKH9 apoptotic protease-activating factor 1 isofor...  105        2e-21
+UniRef90_L9L8Z4 Apoptotic protease-activating factor 1 n=2 Tax=Tu...  104        3e-21
+UniRef90_F7FNF3 Apoptotic protease-activating factor 1 n=8 Tax=Mo...  104        3e-21
+UniRef90_A0A2N9BGQ7 HSP90 family protein n=2 Tax=Streptomyces Tax...  103        7e-21
+UniRef90_UPI0014713BEE LOW QUALITY PROTEIN: apoptotic protease-ac...  103        1e-20
+UniRef90_A0A3Q2FTF0 Apoptotic protease-activating factor 1 n=1 Ta...  103        1e-20
+UniRef90_A0A3Q3MB90 Apoptotic protease-activating factor 1 n=2 Ta...  103        1e-20
+UniRef90_D9X206 Predicted protein n=2 Tax=Streptomyces viridochro...  103        1e-20
+UniRef90_A0A3Q2U2C5 Apoptotic protease-activating factor 1 n=3 Ta...  102        2e-20
+UniRef90_UPI000711F069 apoptotic protease-activating factor 1 iso...  102        2e-20
+UniRef90_S4MTU9 CASPASE_P10 domain-containing protein n=1 Tax=Str...  102        2e-20
+UniRef90_UPI000A3C538D caspase family protein n=1 Tax=Streptomyce...  101        4e-20
+UniRef90_UPI00149019F9 apoptotic protease-activating factor 1 iso...   99        1e-19
+UniRef90_A0A3Q3FPE0 Uncharacterized protein n=3 Tax=Labrus bergyl...  99.2       2e-19
+UniRef90_A0A4S2KSC2 CARD domain-containing protein n=5 Tax=Temnot...  98.0       5e-19
+UniRef90_UPI0005EE603C apoptotic protease-activating factor 1-lik...  97.2       7e-19
+UniRef90_A0A556U487 Tight junction protein ZO-1 n=1 Tax=Bagarius ...  97.2       9e-19
+UniRef90_A0A3B5AEW6 Apoptotic protease-activating factor 1 n=11 T...  96.9       1e-18
+UniRef90_A0A2U9B2S7 Apoptotic protease-activating factor 1 n=15 T...  96.5       2e-18
+UniRef90_UPI0010F6E109 apoptotic protease-activating factor 1 iso...  96.1       2e-18
+UniRef90_A0A059PJ85 Apoptotic protease-activating factor 1 (Fragm...  96.1       2e-18
+UniRef90_UPI0011433A80 uncharacterized protein LOC115242566 isofo...  96.1       2e-18
+UniRef90_UPI00143DC0CD apoptotic protease-activating factor 1-lik...  95.3       3e-18
+UniRef90_UPI000625A1EC apoptotic protease-activating factor 1-lik...  94.5       6e-18
+UniRef90_A0A2D0SCZ5 Apoptotic protease-activating factor 1 n=5 Ta...  94.5       6e-18
+UniRef90_G3Q8K0 Uncharacterized protein n=1 Tax=Gasterosteus acul...  94.5       7e-18
+UniRef90_A0A537NT24 Tetratricopeptide repeat protein n=1 Tax=Alph...  94.2       8e-18
+UniRef90_E9H1Q9 Uncharacterized protein n=1 Tax=Daphnia pulex Tax...  92.2       4e-17
+UniRef90_A0A452TH63 Apoptotic protease-activating factor 1 n=9 Ta...  89.9       2e-16
+UniRef90_A0A1Y1N3Z0 Uncharacterized protein n=3 Tax=Photinus pyra...  89.9       2e-16
+UniRef90_A0A315V9L1 Apoptotic protease-activating factor 1 (Fragm...  89.2       3e-16
+UniRef90_UPI000BB074D7 uncharacterized protein LOC111100064 n=1 T...  88.8       4e-16
+UniRef90_UPI000771C9FD apoptotic protease-activating factor 1 iso...  88.8       5e-16
+UniRef90_A0A3Q3A889 Apoptotic protease-activating factor 1 n=2 Ta...  88.4       6e-16
+UniRef90_UPI0006231DAA apoptotic protease-activating factor 1 iso...  88.4       6e-16
+UniRef90_A0A5K3EVF5 Uncharacterized protein n=3 Tax=Mesocestoides...  86.8       2e-15
+UniRef90_UPI000BAEC9FD uncharacterized protein LOC111101937 n=1 T...  86.5       3e-15
+UniRef90_A0A4W3ICU8 Uncharacterized protein n=8 Tax=Callorhinchus...  85.7       4e-15
+UniRef90_UPI000C144303 uncharacterized protein LOC111357786 n=1 T...  85.3       6e-15
+UniRef90_W5N8F1 Uncharacterized protein n=10 Tax=Lepisosteus ocul...  84.9       1e-14
+UniRef90_UPI00118259E2 uncharacterized protein LOC115441754 n=1 T...  84.5       1e-14
+UniRef90_UPI00073FAA54 tight junction protein ZO-1 isoform X4 n=1...  84.9       1e-14
+UniRef90_UPI0007400C24 tight junction protein ZO-1 isoform X11 n=...  84.5       1e-14
+UniRef90_A0A6J0SVF7 tight junction protein ZO-1 isoform X7 n=1 Ta...  84.5       1e-14
+UniRef90_A0A6J0T2T1 tight junction protein ZO-1 isoform X1 n=12 T...  84.5       1e-14
+UniRef90_A0A6J0T053 tight junction protein ZO-1 isoform X11 n=1 T...  84.5       1e-14
+UniRef90_A0A6J0SZ87 tight junction protein ZO-1 isoform X4 n=2 Ta...  84.5       1e-14
+UniRef90_UPI000B90BA88 disks large homolog 5-like isoform X1 n=4 ...  84.5       1e-14
+UniRef90_UPI0010FCB76A LOW QUALITY PROTEIN: uncharacterized prote...  83.0       3e-14
+UniRef90_UPI000E64A108 hypothetical protein n=1 Tax=Phyllobacteri...  83.0       3e-14
+UniRef90_UPI0015D00C81 LOW QUALITY PROTEIN: apoptotic protease-ac...  83.0       4e-14
+UniRef90_UPI00140227D3 apoptotic protease-activating factor 1 iso...  81.8       7e-14
+UniRef90_UPI000B9272C3 apoptotic protease-activating factor 1 n=1...  81.4       1e-13
+UniRef90_UPI0015888928 uncharacterized protein LOC118070307 n=1 T...  81.1       2e-13
+UniRef90_UPI000995378D apoptotic protease-activating factor 1-lik...  80.7       2e-13
+UniRef90_A0A2A4JWY0 CARD domain-containing protein n=2 Tax=Heliot...  79.9       3e-13
+UniRef90_UPI0014258ABE disks large homolog 5-like isoform X1 n=3 ...  79.5       5e-13
+UniRef90_A0A212EVA7 Apaf-1 protein n=1 Tax=Danaus plexippus plexi...  79.1       5e-13
+UniRef90_A0A087W1P0 Apoptotic protease activating factor 1 n=3 Ta...  78.8       8e-13
+UniRef90_A0A0R3W924 Uncharacterized protein n=1 Tax=Taenia asiati...  78.8       9e-13
+UniRef90_A0A3S2TKT6 CARD domain-containing protein n=1 Tax=Chilo ...  78.4       1e-12
+UniRef90_UPI0015DF1FF5 apoptotic protease-activating factor 1-lik...  78.4       1e-12
+UniRef90_UPI001568B30E apoptotic protease-activating factor 1-lik...  78.0       1e-12
+UniRef90_UPI000BA7EF0A disks large homolog 5-like isoform X1 n=3 ...  78.0       1e-12
+UniRef90_A0A6J1MX01 uncharacterized protein LOC112045448 n=1 Tax=...  78.0       2e-12
+UniRef90_A0A2E4RCT5 CASPASE_P20 domain-containing protein n=1 Tax...  77.2       2e-12
+UniRef90_C3ZLI6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  77.2       3e-12
+UniRef90_C3YNK0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  76.4       4e-12
+UniRef90_UPI000FF8A2AF caspase family protein n=1 Tax=Streptomyce...  76.1       5e-12
+UniRef90_UPI00146FB824 caspase family protein n=1 Tax=Curvibacter...  76.1       6e-12
+UniRef90_UPI000EF7B25F apoptotic protease-activating factor 1-lik...  76.1       6e-12
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.118    0.303    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0361    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1148955657388
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

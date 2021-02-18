@@ -1,0 +1,1608 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q96GD4-2|AURKB_HUMAN Isoform 2 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=312
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_Q08DN4 Aurora 1 n=4 Tax=Bos TaxID=9903 RepID=Q08DN4_BOVIN    550        0.0   
+UniRef90_L9KM72 Aurora 1 (Fragment) n=1 Tax=Tupaia chinensis TaxI...  378        3e-119
+UniRef90_L5MIA6 Zinc finger protein 805 n=2 Tax=Myotis davidii Ta...  367        2e-114
+UniRef90_A0A556TVL0 Transmembrane protein 107 n=1 Tax=Bagarius ya...  362        2e-111
+UniRef90_A0A091DWF2 Zinc finger protein 548 n=2 Tax=Fukomys damar...  361        3e-111
+UniRef90_A0A6J2F189 uncharacterized protein LOC113936256 n=1 Tax=...  310        1e-93 
+UniRef90_UPI000F444945 uncharacterized protein LOC113615147 n=1 T...  309        4e-93 
+UniRef90_D2HQJ1 Uncharacterized protein n=2 Tax=Caniformia TaxID=...  306        6e-92 
+UniRef90_V2YVG6 Vacuolar protein sorting-associated protein 70 n=...  271        6e-80 
+UniRef90_V8NU15 Period circadian protein-like 2 (Fragment) n=1 Ta...  265        5e-78 
+UniRef90_A0A1I8JDG5 Protein kinase domain-containing protein n=6 ...  264        2e-77 
+UniRef90_A0A1Q9F2F9 Non-specific serine/threonine protein kinase ...  247        2e-71 
+UniRef90_A0A3M0W5S2 Protein kinase domain-containing protein (Fra...  241        2e-69 
+UniRef90_L7JL74 Protein kinase domain-containing protein n=2 Tax=...  232        3e-66 
+UniRef90_A0A438NIN3 Protein kinase domain-containing protein n=1 ...  231        4e-66 
+UniRef90_A0A2A2KM83 Non-specific serine/threonine protein kinase ...  230        1e-65 
+UniRef90_A0A0B7N2K9 Uncharacterized protein n=1 Tax=Parasitella p...  229        3e-65 
+UniRef90_UPI001153A2C4 hypothetical protein n=1 Tax=Pyricularia p...  215        2e-60 
+UniRef90_A0A1Q9C1M8 Non-specific serine/threonine protein kinase ...  203        2e-56 
+UniRef90_F0WVZ3 Non-specific serine/threonine protein kinase (Fra...  202        7e-56 
+UniRef90_Q22DW7 Non-specific serine/threonine protein kinase n=1 ...  197        3e-54 
+UniRef90_I7ME14 Non-specific serine/threonine protein kinase n=1 ...  194        4e-53 
+UniRef90_UPI000C878CDE uncharacterized protein LOC105304870 n=1 T...  193        6e-53 
+UniRef90_Q235V0 Non-specific serine/threonine protein kinase n=1 ...  187        1e-50 
+UniRef90_UPI000E45679A uncharacterized protein LOC113147069 n=1 T...  185        7e-50 
+UniRef90_A0A1D3CYL7 Non-specific serine/threonine protein kinase ...  184        1e-49 
+UniRef90_U6K366 Non-specific serine/threonine protein kinase n=1 ...  182        5e-49 
+UniRef90_U6H0Z8 Non-specific serine/threonine protein kinase n=1 ...  181        2e-48 
+UniRef90_U6KU22 Non-specific serine/threonine protein kinase n=2 ...  180        3e-48 
+UniRef90_U6M3U1 Non-specific serine/threonine protein kinase n=1 ...  176        6e-47 
+UniRef90_Q24FU4 Non-specific serine/threonine protein kinase n=1 ...  176        6e-47 
+UniRef90_E4XPK6 Non-specific serine/threonine protein kinase n=1 ...  174        4e-46 
+UniRef90_A0A1Y1HQ23 Non-specific serine/threonine protein kinase ...  172        1e-45 
+UniRef90_A0A0F7UCM5 Non-specific serine/threonine protein kinase ...  172        1e-45 
+UniRef90_A0A1D3TH71 Non-specific serine/threonine protein kinase ...  169        1e-44 
+UniRef90_A0A1Y1JGE0 Non-specific serine/threonine protein kinase ...  169        1e-44 
+UniRef90_A0A151LVK7 Non-specific serine/threonine protein kinase ...  169        2e-44 
+UniRef90_A0A1J1H4J0 Non-specific serine/threonine protein kinase ...  169        2e-44 
+UniRef90_A0A1J1GS63 Non-specific serine/threonine protein kinase ...  169        2e-44 
+UniRef90_A0A2P9GET4 Non-specific serine/threonine protein kinase ...  169        3e-44 
+UniRef90_A0A2P9CYL7 Non-specific serine/threonine protein kinase ...  169        3e-44 
+UniRef90_A0A0L0CTP5 Non-specific serine/threonine protein kinase ...  168        3e-44 
+UniRef90_A0A060RSI4 Non-specific serine/threonine protein kinase ...  168        3e-44 
+UniRef90_V4ZGE2 Non-specific serine/threonine protein kinase n=14...  168        4e-44 
+UniRef90_A0A2C6LFB3 Non-specific serine/threonine protein kinase ...  167        5e-44 
+UniRef90_A0A1D3LBT2 Non-specific serine/threonine protein kinase ...  166        2e-43 
+UniRef90_A0A1C6WS58 Non-specific serine/threonine protein kinase ...  166        2e-43 
+UniRef90_A0A5K1V419 Non-specific serine/threonine protein kinase ...  166        2e-43 
+UniRef90_A0A1B1DYW3 Non-specific serine/threonine protein kinase ...  166        2e-43 
+UniRef90_A0A0G4F096 Non-specific serine/threonine protein kinase ...  164        6e-43 
+UniRef90_A0A1G4GWQ8 Non-specific serine/threonine protein kinase ...  164        9e-43 
+UniRef90_A0A653HIG4 Non-specific serine/threonine protein kinase ...  163        2e-42 
+UniRef90_A0A1D3PAX0 Non-specific serine/threonine protein kinase ...  161        9e-42 
+UniRef90_A0A2A9M9A9 Non-specific serine/threonine protein kinase ...  159        5e-41 
+UniRef90_A0A1D8N6L3 Protein kinase domain-containing protein n=3 ...  159        5e-41 
+UniRef90_I7LTH5 Non-specific serine/threonine protein kinase n=1 ...  158        1e-40 
+UniRef90_A0A1S3H3T3 Polo-like kinase 4 n=2 Tax=Lingula unguis Tax...  157        3e-40 
+UniRef90_A0A0V0QFH0 Non-specific serine/threonine protein kinase ...  156        4e-40 
+UniRef90_A0A5N6KVG0 Protein kinase domain-containing protein n=1 ...  156        6e-40 
+UniRef90_W5JQH6 Polo-like kinase 4 n=1 Tax=Anopheles darlingi Tax...  156        6e-40 
+UniRef90_A0A5E4FYN0 Non-specific serine/threonine protein kinase ...  151        7e-40 
+UniRef90_A0A2U3EAM7 Glucose-6-phosphate isomerase n=2 Tax=Purpure...  155        1e-39 
+UniRef90_A0A1Y1UU02 Non-specific serine/threonine protein kinase ...  154        2e-39 
+UniRef90_A0A0V0R280 Protein kinase-like domain n=1 Tax=Pseudocohn...  154        3e-39 
+UniRef90_A0A2S3GVI3 Non-specific serine/threonine protein kinase ...  149        3e-39 
+UniRef90_A0A1R2ANJ1 Non-specific serine/threonine protein kinase ...  153        5e-39 
+UniRef90_A0A0V0V9U9 Ubiquitin-conjugating enzyme E2 J1 n=6 Tax=Tr...  153        6e-39 
+UniRef90_G0QQZ4 Protein kinase domain protein n=1 Tax=Ichthyophth...  152        7e-39 
+UniRef90_A0A1Y2AZQ6 Serine/threonine-protein kinase n=1 Tax=Neoca...  152        1e-38 
+UniRef90_A0A2P6Q5Q9 Non-specific serine/threonine protein kinase ...  148        2e-38 
+UniRef90_UPI000C04D121 uncharacterized protein LOC111280554 n=1 T...  152        2e-38 
+UniRef90_M7ZYX1 Non-specific serine/threonine protein kinase n=5 ...  152        2e-38 
+UniRef90_W4YKN8 Polo-like kinase 4 n=2 Tax=Strongylocentrotus pur...  151        3e-38 
+UniRef90_A0A2P4ZG78 Glucose-6-phosphate isomerase n=1 Tax=Trichod...  151        3e-38 
+UniRef90_A0A0S4IQX4 Protein kinase, putative n=1 Tax=Bodo saltans...  150        5e-38 
+UniRef90_J3MIL3 Non-specific serine/threonine protein kinase n=9 ...  150        7e-38 
+UniRef90_I7MIX4 Non-specific serine/threonine protein kinase n=1 ...  149        1e-37 
+UniRef90_UPI0003520847 cAMP-dependent protein kinase catalytic su...  148        2e-37 
+UniRef90_A0A6A6LYM7 Non-specific serine/threonine protein kinase ...  148        3e-37 
+UniRef90_A0A094EQ94 Glucose-6-phosphate isomerase n=1 Tax=Pseudog...  148        3e-37 
+UniRef90_A0A4Z1E7Z1 Non-specific serine/threonine protein kinase ...  148        4e-37 
+UniRef90_UPI0013C44535 ribosomal protein S6 kinase beta-2 isoform...  148        4e-37 
+UniRef90_A0A094ARS2 Uncharacterized protein (Fragment) n=4 Tax=un...  148        4e-37 
+UniRef90_A0A094HG36 Uncharacterized protein n=1 Tax=Pseudogymnoas...  147        4e-37 
+UniRef90_A0A545A1Y5 Non-specific serine/threonine protein kinase ...  147        4e-37 
+UniRef90_A0A0G4FY81 Non-specific serine/threonine protein kinase ...  147        5e-37 
+UniRef90_A0A094CLF9 Uncharacterized protein n=1 Tax=Pseudogymnoas...  147        5e-37 
+UniRef90_A0A1W4WV79 cGMP-dependent protein kinase n=1 Tax=Agrilus...  147        5e-37 
+UniRef90_D3BKW3 Protein kinase 3 n=1 Tax=Polysphondylium pallidum...  147        5e-37 
+UniRef90_A0A5J9SV37 Non-specific serine/threonine protein kinase ...  147        5e-37 
+UniRef90_A0A0Q3MEC9 cGMP-dependent protein kinase n=2 Tax=Neognat...  147        7e-37 
+UniRef90_UPI000B5D3CCD uncharacterized protein LOC110602000 n=1 T...  147        8e-37 
+UniRef90_A0A1L7WFL3 Non-specific serine/threonine protein kinase ...  147        8e-37 
+UniRef90_UPI001442F68E ATP-binding cassette sub-family C member 9...  147        1e-36 
+UniRef90_UPI0010FA7CD9 uncharacterized protein LOC105059328 n=1 T...  146        1e-36 
+UniRef90_A0A3Q0HWH2 Non-specific serine/threonine protein kinase ...  146        1e-36 
+UniRef90_A0A3E2GWW9 Non-specific serine/threonine protein kinase ...  146        2e-36 
+UniRef90_B4G9E3 cGMP-dependent protein kinase n=1 Tax=Drosophila ...  146        2e-36 
+UniRef90_A0A2T3B613 Non-specific serine/threonine protein kinase ...  146        2e-36 
+UniRef90_A0A0B1PD63 Non-specific serine/threonine protein kinase ...  145        2e-36 
+UniRef90_J9I089 Protein kinase domain containing protein n=1 Tax=...  145        2e-36 
+UniRef90_G0U334 Protein kinase A catalytic subunit n=1 Tax=Trypan...  145        3e-36 
+UniRef90_UPI0012FEF0B7 uncharacterized protein LOC100113673 isofo...  145        3e-36 
+UniRef90_A0A6J1SF74 serine/threonine-protein kinase SIK3 isoform ...  145        4e-36 
+UniRef90_A0A420IDJ2 Non-specific serine/threonine protein kinase ...  145        4e-36 
+UniRef90_UPI000C71B083 uncharacterized protein LOC111690869 isofo...  144        5e-36 
+UniRef90_A0A058Z2S0 CAMK/CAMKL/AMPK protein kinase n=1 Tax=Fontic...  144        6e-36 
+UniRef90_UPI001140F4B6 titin homolog n=1 Tax=Octopus vulgaris Tax...  144        6e-36 
+UniRef90_A0A0K8TXA8 NUAK family SNF1-like kinase 1 (Fragment) n=6...  142        6e-36 
+UniRef90_A0A3F2RTJ8 Protein kinase domain-containing protein n=1 ...  144        6e-36 
+UniRef90_E2AD78 cGMP-dependent protein kinase n=3 Tax=Formicinae ...  144        6e-36 
+UniRef90_A0A6J3KNR8 LOW QUALITY PROTEIN: ATP-binding cassette sub...  144        6e-36 
+UniRef90_A0A0B0NVJ7 Non-specific serine/threonine protein kinase ...  144        7e-36 
+UniRef90_A0A2A3ER30 cGMP-dependent protein kinase n=2 Tax=Apis ce...  144        7e-36 
+UniRef90_A0A383WE04 Non-specific serine/threonine protein kinase ...  144        7e-36 
+UniRef90_A0A1I8Q486 Protein kinase domain-containing protein n=1 ...  144        8e-36 
+UniRef90_A0A3Q7HN35 Non-specific serine/threonine protein kinase ...  144        9e-36 
+UniRef90_A0A084FW66 Non-specific serine/threonine protein kinase ...  144        1e-35 
+UniRef90_M7C1C2 TPR and ankyrin repeat-containing protein 1 n=11 ...  144        1e-35 
+UniRef90_A0A507BF40 Non-specific serine/threonine protein kinase ...  144        1e-35 
+UniRef90_A0A0L0CEN7 Protein kinase domain-containing protein (Fra...  144        1e-35 
+UniRef90_A0A401SRN5 cGMP-dependent protein kinase n=1 Tax=Chilosc...  143        1e-35 
+UniRef90_A0A3M7MTU1 Protein kinase domain-containing protein (Fra...  143        1e-35 
+UniRef90_A0A366REA7 Uncharacterized protein n=1 Tax=Gibberella mo...  143        1e-35 
+UniRef90_W7MER6 AGC/PKA protein kinase n=1 Tax=Gibberella monilif...  143        1e-35 
+UniRef90_A0A1I8MIQ3 Protein kinase domain-containing protein n=9 ...  143        2e-35 
+UniRef90_A0A6I8V5H4 serine/threonine-protein kinase par-1 isoform...  143        2e-35 
+UniRef90_B5DTI9 Protein kinase domain-containing protein n=6 Tax=...  143        2e-35 
+UniRef90_UPI0006B7C429 uncharacterized protein LOC106622829 isofo...  143        2e-35 
+UniRef90_A0A420I441 Non-specific serine/threonine protein kinase ...  143        2e-35 
+UniRef90_A0A0A1X4W7 NUAK family SNF1-like kinase 1 (Fragment) n=1...  143        2e-35 
+UniRef90_A0A1I8Q495 Protein kinase domain-containing protein n=3 ...  143        2e-35 
+UniRef90_A0A1U8EVK9 Non-specific serine/threonine protein kinase ...  143        2e-35 
+UniRef90_A0A1E1KL08 Non-specific serine/threonine protein kinase ...  143        2e-35 
+UniRef90_A0A1E3QW80 Non-specific serine/threonine protein kinase ...  143        2e-35 
+UniRef90_A0A0D3B9B5 Non-specific serine/threonine protein kinase ...  143        2e-35 
+UniRef90_W9Y8K1 Non-specific serine/threonine protein kinase n=1 ...  143        2e-35 
+UniRef90_W6ZY04 Non-specific serine/threonine protein kinase n=1 ...  143        2e-35 
+UniRef90_A0A507EMP2 Uncharacterized protein n=1 Tax=Chytriomyces ...  142        2e-35 
+UniRef90_A0A2A9MI35 Uncharacterized protein n=1 Tax=Besnoitia bes...  142        2e-35 
+UniRef90_UPI00143D401A ATP-binding cassette sub-family C member S...  143        2e-35 
+UniRef90_A0A6A4SP53 cGMP-dependent protein kinase n=1 Tax=Scophth...  142        2e-35 
+UniRef90_A0A6I8V2B7 serine/threonine-protein kinase par-1 isoform...  142        2e-35 
+UniRef90_A0A026WUP7 cGMP-dependent protein kinase n=2 Tax=Oocerae...  142        2e-35 
+UniRef90_A0A1D9QA41 Non-specific serine/threonine protein kinase ...  142        2e-35 
+UniRef90_J9FKT6 Non-specific serine/threonine protein kinase n=1 ...  142        2e-35 
+UniRef90_A0A6L2MHE6 SNF1-related protein kinase catalytic subunit...  142        2e-35 
+UniRef90_UPI00083F43EB serine/threonine-protein kinase par-1 isof...  142        2e-35 
+UniRef90_A0A6J1MBG9 mucin-5AC isoform X1 n=2 Tax=Drosophila hydei...  142        2e-35 
+UniRef90_A0A250XA40 Non-specific serine/threonine protein kinase ...  142        2e-35 
+UniRef90_A0A0A1WJC8 NUAK family SNF1-like kinase 1 n=11 Tax=Dacin...  142        2e-35 
+UniRef90_A0A094AP80 Non-specific serine/threonine protein kinase ...  142        3e-35 
+UniRef90_B4LWC4 Uncharacterized protein, isoform J n=4 Tax=Drosop...  142        3e-35 
+UniRef90_W9CIK2 Non-specific serine/threonine protein kinase n=4 ...  142        3e-35 
+UniRef90_UPI000A107483 uncharacterized protein LOC101458905 isofo...  142        3e-35 
+UniRef90_A0A3L8DG78 cGMP-dependent protein kinase n=2 Tax=Oocerae...  142        3e-35 
+UniRef90_UPI000BA13574 mucin-5AC isoform X1 n=4 Tax=Drosophila ob...  142        3e-35 
+UniRef90_A0A427YKT3 Serine/threonine protein kinase, AGC n=1 Tax=...  142        3e-35 
+UniRef90_A0A195F8U6 cGMP-dependent protein kinase n=1 Tax=Trachym...  142        3e-35 
+UniRef90_A0A0Q9X5U8 Uncharacterized protein, isoform B n=6 Tax=re...  142        3e-35 
+UniRef90_A0A316Z7B4 Non-specific serine/threonine protein kinase ...  142        3e-35 
+UniRef90_A0A0L0T2I6 Serine/threonine-protein kinase n=2 Tax=Allom...  142        3e-35 
+UniRef90_UPI00155AC0F7 pneumococcal serine-rich repeat protein is...  142        3e-35 
+UniRef90_A0A182JLS2 Uncharacterized protein n=2 Tax=Anopheles Tax...  142        3e-35 
+UniRef90_UPI00155AA5F1 pneumococcal serine-rich repeat protein is...  142        3e-35 
+UniRef90_F0XA46 Non-specific serine/threonine protein kinase n=1 ...  142        3e-35 
+UniRef90_UPI00155A2212 serine/threonine-protein kinase par-1 isof...  142        4e-35 
+UniRef90_J9IUI1 Carbon catabolite derepressing protein kinase, pu...  142        4e-35 
+UniRef90_A0A559MK48 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_A0A507CEC0 Uncharacterized protein n=1 Tax=Synchytrium m...  142        4e-35 
+UniRef90_A0A6I8VD45 mucin-5AC isoform X1 n=5 Tax=Drosophila pseud...  142        4e-35 
+UniRef90_D6X1X2 Protein kinase domain-containing protein n=3 Tax=...  142        4e-35 
+UniRef90_J9HM72 Protein kinase domain containing protein n=1 Tax=...  142        4e-35 
+UniRef90_A0A158QE89 Polo-like kinase 4 n=1 Tax=Hymenolepis diminu...  142        4e-35 
+UniRef90_A0A182HPY6 Uncharacterized protein n=5 Tax=Anopheles Tax...  142        4e-35 
+UniRef90_UPI00143F3095 uncharacterized protein LOC108155744 isofo...  142        4e-35 
+UniRef90_A0A1R3HJC6 Uncharacterized protein n=1 Tax=Corchorus cap...  142        4e-35 
+UniRef90_UPI0013046295 ATP-binding cassette sub-family C member S...  142        4e-35 
+UniRef90_A0A0V0QDT9 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_A0A5N6YTI2 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_A0A6A5MWX7 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_A0A3R7GCY9 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_A0A564YTQ5 Polo-like kinase 4 n=1 Tax=Hymenolepis diminu...  142        4e-35 
+UniRef90_T1HD96 Protein kinase domain-containing protein n=1 Tax=...  142        4e-35 
+UniRef90_A0A5N7AY44 Non-specific serine/threonine protein kinase ...  142        4e-35 
+UniRef90_UPI000F08E2FE mucin-5AC isoform X1 n=3 Tax=Drosophila pe...  142        4e-35 
+UniRef90_UPI0007E62A31 uncharacterized protein LOC108127599 isofo...  142        5e-35 
+UniRef90_UPI0007E6A2B9 uncharacterized protein LOC108127599 isofo...  142        5e-35 
+UniRef90_A0A2M4DRX5 Non-specific serine/threonine protein kinase ...  142        5e-35 
+UniRef90_A0A151JRA0 cGMP-dependent protein kinase n=1 Tax=Trachym...  142        5e-35 
+UniRef90_A0A2M4DRZ5 Non-specific serine/threonine protein kinase ...  142        5e-35 
+UniRef90_A0A444U6E0 Polo-like kinase 4 n=1 Tax=Acipenser ruthenus...  142        5e-35 
+UniRef90_H6BML4 Non-specific serine/threonine protein kinase n=1 ...  141        6e-35 
+UniRef90_UPI00083EECED mucin-5AC isoform X1 n=4 Tax=Drosophila ar...  141        6e-35 
+UniRef90_I7MJB0 Serine/Threonine kinase domain protein n=1 Tax=Te...  141        6e-35 
+UniRef90_A0A0Q9WXQ2 Uncharacterized protein, isoform D n=5 Tax=mo...  141        6e-35 
+UniRef90_W9YFU0 Non-specific serine/threonine protein kinase n=1 ...  141        6e-35 
+UniRef90_A0A0Q9WEW2 Uncharacterized protein, isoform D n=10 Tax=v...  141        6e-35 
+UniRef90_A0A1I8CVK2 Protein kinase domain-containing protein n=1 ...  141        6e-35 
+UniRef90_A0A3D8S1A9 Non-specific serine/threonine protein kinase ...  141        6e-35 
+UniRef90_A0A1Y5I3W7 15-cis-phytoene desaturase, chloroplastic/chr...  141        6e-35 
+UniRef90_UPI00158BFCED ATP-binding cassette sub-family C member S...  141        6e-35 
+UniRef90_UPI0013F260E8 ATP-binding cassette sub-family C member S...  141        6e-35 
+UniRef90_A0A6J2T8A2 serine/threonine-protein kinase par-1 isoform...  141        6e-35 
+UniRef90_A0A3B0KR37 Blast:NUAK family SNF1-like kinase 1 n=12 Tax...  141        7e-35 
+UniRef90_A0A5C3EG61 Related to ser/thr protein kinases n=1 Tax=Us...  141        7e-35 
+UniRef90_A0A0K8WA20 cGMP-dependent protein kinase n=10 Tax=Dacini...  141        7e-35 
+UniRef90_A0A2M4B9X7 Non-specific serine/threonine protein kinase ...  141        7e-35 
+UniRef90_A0A2C6KY74 Histone kinase n=1 Tax=Cystoisospora suis Tax...  141        7e-35 
+UniRef90_A0A6J2M004 serine/threonine-protein kinase SIK3 n=1 Tax=...  141        7e-35 
+UniRef90_A0A3F2YVZ9 Non-specific serine/threonine protein kinase ...  141        7e-35 
+UniRef90_A0A182YCB8 Uncharacterized protein n=1 Tax=Anopheles ste...  141        7e-35 
+UniRef90_Q5TMZ4 AGAP012064-PA n=2 Tax=Cellia TaxID=44534 RepID=Q5...  141        7e-35 
+UniRef90_A0A3Q0J807 probable serine/threonine-protein kinase MARK...  141        7e-35 
+UniRef90_K9IUS7 Non-specific serine/threonine protein kinase (Fra...  141        7e-35 
+UniRef90_A0A453Z021 Non-specific serine/threonine protein kinase ...  141        8e-35 
+UniRef90_W9WM65 Non-specific serine/threonine protein kinase n=2 ...  141        8e-35 
+UniRef90_UPI00073DA21E uncharacterized protein LOC107064455 n=1 T...  141        8e-35 
+UniRef90_A0A1S3JUX7 Non-specific serine/threonine protein kinase ...  141        8e-35 
+UniRef90_UPI00155A40BC serine-rich adhesin for platelets isoform ...  141        8e-35 
+UniRef90_A0A1I8MH66 cGMP-dependent protein kinase n=3 Tax=Musca d...  141        8e-35 
+UniRef90_A0A182NPG1 Protein kinase domain-containing protein n=1 ...  141        8e-35 
+UniRef90_A0A182X092 Protein kinase domain-containing protein n=2 ...  141        8e-35 
+UniRef90_A0A5N6FE03 Non-specific serine/threonine protein kinase ...  141        9e-35 
+UniRef90_A0A158RDC5 Polo-like kinase 4 n=1 Tax=Hydatigena taeniae...  141        9e-35 
+UniRef90_A0A1I8P6X5 cGMP-dependent protein kinase n=2 Tax=Stomoxy...  141        9e-35 
+UniRef90_W5JAH4 Map/microtubule affinity-regulating kinase 2,4 n=...  141        9e-35 
+UniRef90_A0A6A4J0U5 Protein kinase domain-containing protein n=2 ...  141        9e-35 
+UniRef90_A0A553HN81 Protein kinase domain-containing protein n=1 ...  141        9e-35 
+UniRef90_UPI0008DD17FC uncharacterized protein LOC108968098 isofo...  141        9e-35 
+UniRef90_UPI0007E847BD uncharacterized protein LOC108084957 isofo...  141        9e-35 
+UniRef90_A0A507FD81 Uncharacterized protein n=1 Tax=Chytriomyces ...  140        9e-35 
+UniRef90_A0A318ZNA2 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_UPI0007E80872 uncharacterized protein LOC108084957 isofo...  140        1e-34 
+UniRef90_A0A1Y2E6U0 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_UPI00083EEE2C serine/threonine-protein kinase par-1 isof...  140        1e-34 
+UniRef90_UPI0008DD81AD microtubule-associated protein futsch isof...  141        1e-34 
+UniRef90_UPI0008DD1A5F serine-rich adhesin for platelets isoform ...  141        1e-34 
+UniRef90_A0A3F2YVY7 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_A0A146M0I2 NUAK family SNF1-like kinase 1 n=1 Tax=Lygus ...  140        1e-34 
+UniRef90_Q7KSS0 FI03914p n=4 Tax=Sophophora TaxID=32341 RepID=Q7K...  140        1e-34 
+UniRef90_S3DGH7 Non-specific serine/threonine protein kinase n=1 ...  140        1e-34 
+UniRef90_A0A182Q9Q1 Uncharacterized protein n=1 Tax=Anopheles far...  140        1e-34 
+UniRef90_UPI000EAB388D ATP-binding cassette sub-family C member 9...  140        1e-34 
+UniRef90_B4PKN5 Uncharacterized protein, isoform B n=7 Tax=melano...  140        1e-34 
+UniRef90_A0A2U3EJY5 Uncharacterized protein n=1 Tax=Purpureocilli...  140        1e-34 
+UniRef90_A0A0E9NLQ2 Serine/threonine-protein kinase n=1 Tax=Saito...  140        1e-34 
+UniRef90_UPI0007E611AF mucin-19 isoform X1 n=4 Tax=Drosophila bip...  140        1e-34 
+UniRef90_A0A075A767 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_A0A6L2QBV5 Uncharacterized protein (Fragment) n=1 Tax=Co...  140        1e-34 
+UniRef90_Q0KI87 Nuak1 ortholog, isoform A n=5 Tax=Drosophila mela...  140        1e-34 
+UniRef90_A0A068YMJ1 Serine:threonine protein kinase SIK3 n=2 Tax=...  140        1e-34 
+UniRef90_A0A507FEJ5 Uncharacterized protein n=1 Tax=Chytriomyces ...  140        1e-34 
+UniRef90_A0A453YZQ5 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_A0A5K4F4F1 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_UPI00078AE990 uncharacterized protein, isoform B n=1 Tax...  140        1e-34 
+UniRef90_A0A6A5DE80 Serine/threonine kinase n=1 Tax=Schistosoma h...  140        1e-34 
+UniRef90_UPI0007E710A0 uncharacterized protein LOC108140515 isofo...  140        1e-34 
+UniRef90_UPI00078AE595 uncharacterized protein, isoform F n=1 Tax...  140        1e-34 
+UniRef90_UPI0013DDDC3A serine/threonine-protein kinase SIK3 isofo...  140        1e-34 
+UniRef90_UPI0014709438 serine/threonine-protein kinase par-1 isof...  140        1e-34 
+UniRef90_UPI000C26D5EB uncharacterized protein LOC6651099 isoform...  140        1e-34 
+UniRef90_UPI0013DDA130 serine/threonine-protein kinase SIK3 isofo...  140        1e-34 
+UniRef90_A0A4Y0BHG3 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_Q2U6S5 Non-specific serine/threonine protein kinase n=8 ...  140        1e-34 
+UniRef90_A0A2K3DGG4 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_UPI00078AE746 uncharacterized protein, isoform M n=1 Tax...  140        1e-34 
+UniRef90_A0A1J1IK64 cGMP-dependent protein kinase n=2 Tax=Clunio ...  140        1e-34 
+UniRef90_A0A093XM11 Non-specific serine/threonine protein kinase ...  140        1e-34 
+UniRef90_A0A6J2T7A7 mucin-5AC isoform X3 n=1 Tax=Drosophila leban...  140        1e-34 
+UniRef90_UPI0006238E18 LOW QUALITY PROTEIN: ATP-binding cassette ...  140        1e-34 
+UniRef90_V5E7K0 Protein kinase n=1 Tax=Kalmanozyma brasiliensis (...  140        2e-34 
+UniRef90_UPI000B8E9F6A serine/threonine-protein kinase SIK3 homol...  140        2e-34 
+UniRef90_UPI0013DDD2CD serine/threonine-protein kinase SIK3 isofo...  140        2e-34 
+UniRef90_UPI00078AE74B uncharacterized protein, isoform E n=1 Tax...  140        2e-34 
+UniRef90_UPI0007E6D682 uncharacterized protein LOC108140515 isofo...  140        2e-34 
+UniRef90_B3P1P5 GG17493 n=3 Tax=Drosophila erecta TaxID=7220 RepI...  140        2e-34 
+UniRef90_UPI0007E64858 platelet binding protein GspB isoform X6 n...  140        2e-34 
+UniRef90_A0A1W4U8A4 platelet binding protein GspB isoform X7 n=1 ...  140        2e-34 
+UniRef90_B4QV94 GD18682 n=2 Tax=melanogaster subgroup TaxID=32351...  140        2e-34 
+UniRef90_A0A2A9M452 Putative histone kinase SNF1 n=1 Tax=Besnoiti...  140        2e-34 
+UniRef90_UPI0007E6AC52 platelet binding protein GspB isoform X5 n...  140        2e-34 
+UniRef90_UPI000A1D05BE LOW QUALITY PROTEIN: uncharacterized prote...  140        2e-34 
+UniRef90_A0A6I8NYP9 Non-specific serine/threonine protein kinase ...  140        2e-34 
+UniRef90_UPI0010A881AA serine/threonine-protein kinase SIK3 isofo...  140        2e-34 
+UniRef90_UPI0007E6BF61 mucin-12 isoform X1 n=4 Tax=Drosophila kik...  140        2e-34 
+UniRef90_A0A0F0IKH3 Non-specific serine/threonine protein kinase ...  140        2e-34 
+UniRef90_UPI00148BC334 serine/threonine-protein kinase par-1 isof...  140        2e-34 
+UniRef90_A0A4E0RUQ0 Non-specific serine/threonine protein kinase ...  140        2e-34 
+UniRef90_A0A653D9E5 Protein kinase domain-containing protein n=1 ...  140        2e-34 
+UniRef90_A0A316UNT2 Non-specific serine/threonine protein kinase ...  140        2e-34 
+UniRef90_A0A0B4KFP5 Nuak1 ortholog, isoform I n=7 Tax=melanogaste...  140        2e-34 
+UniRef90_A0A0P9C6H6 Uncharacterized protein, isoform F n=3 Tax=Dr...  140        2e-34 
+UniRef90_UPI000811768E cGMP-dependent protein kinase, isozyme 1 n...  139        2e-34 
+UniRef90_A0A2B4S0K6 Protein kintoun n=1 Tax=Stylophora pistillata...  140        2e-34 
+UniRef90_E9IY26 Uncharacterized protein (Fragment) n=4 Tax=Soleno...  134        2e-34 
+UniRef90_UPI0013DE4530 uncharacterized protein LOC6606966 isoform...  140        2e-34 
+UniRef90_A0A0L0BRX8 cGMP-dependent protein kinase n=1 Tax=Lucilia...  139        2e-34 
+UniRef90_UPI001301D8C6 serine/threonine-protein kinase SIK3 isofo...  139        2e-34 
+UniRef90_UPI0013DDC8EF serine-rich adhesin for platelets isoform ...  140        3e-34 
+UniRef90_A0A1A9WLS0 Protein kinase domain-containing protein n=1 ...  139        3e-34 
+UniRef90_F4W7Z3 Non-specific serine/threonine protein kinase n=20...  139        3e-34 
+UniRef90_A0A6H2EG35 Nuak1 ortholog, isoform M n=2 Tax=Drosophila ...  139        3e-34 
+UniRef90_A0A2N3NAR9 Non-specific serine/threonine protein kinase ...  139        3e-34 
+UniRef90_A0A6H2EEU5 Nuak1 ortholog, isoform J n=7 Tax=melanogaste...  139        3e-34 
+UniRef90_A0A1V4J8E5 Serine/threonine-protein kinase SIK3 n=2 Tax=...  139        3e-34 
+UniRef90_A0A4X2M2Q1 Non-specific serine/threonine protein kinase ...  139        3e-34 
+UniRef90_UPI00147255B8 serine-rich adhesin for platelets isoform ...  139        3e-34 
+UniRef90_UPI0013DDF1CE serine-rich adhesin for platelets isoform ...  139        3e-34 
+UniRef90_A0A1B0BGS6 Protein kinase domain-containing protein n=2 ...  139        3e-34 
+UniRef90_A0A0M4F5C6 CG43143 n=6 Tax=Drosophila busckii TaxID=3001...  139        3e-34 
+UniRef90_UPI0007E5F9B0 serine-rich adhesin for platelets isoform ...  139        3e-34 
+UniRef90_UPI0014332F19 mucin-5AC isoform X1 n=4 Tax=Drosophila ma...  139        3e-34 
+UniRef90_UPI00078AE6AA uncharacterized protein, isoform D n=3 Tax...  139        3e-34 
+UniRef90_S7MF16 Serine/threonine-protein kinase SIK3 n=3 Tax=Myot...  139        3e-34 
+UniRef90_A0A094BXT9 Non-specific serine/threonine protein kinase ...  139        3e-34 
+UniRef90_A0A5N5X8Q0 Non-specific serine/threonine protein kinase ...  139        3e-34 
+UniRef90_UPI00051C2282 LOW QUALITY PROTEIN: serine/threonine-prot...  139        3e-34 
+UniRef90_A0A1I7S2Z5 Protein kinase domain-containing protein n=1 ...  139        3e-34 
+UniRef90_UPI000B987A18 titin homolog n=2 Tax=Nilaparvata lugens T...  139        3e-34 
+UniRef90_A0A1W4UL87 serine-rich adhesin for platelets isoform X1 ...  139        3e-34 
+UniRef90_UPI000B902EC5 MAP/microtubule affinity-regulating kinase...  139        3e-34 
+UniRef90_UPI0007E81944 mucin-17 isoform X3 n=1 Tax=Drosophila bia...  139        3e-34 
+UniRef90_UPI0007E82439 uncharacterized protein LOC108066622 isofo...  139        3e-34 
+UniRef90_F6TUU1 Non-specific serine/threonine protein kinase n=6 ...  139        3e-34 
+UniRef90_UPI0013DDDB7D serine-rich adhesin for platelets isoform ...  139        3e-34 
+UniRef90_B4NJP8 Protein kinase domain-containing protein n=2 Tax=...  139        3e-34 
+UniRef90_A0A6F9DST9 Serine/threonine-protein kinase SIK3 homolog ...  139        3e-34 
+UniRef90_UPI000FFC2C23 LOW QUALITY PROTEIN: serine/threonine-prot...  139        3e-34 
+UniRef90_H3F1J9 Major sperm protein n=2 Tax=Pristionchus pacificu...  139        4e-34 
+UniRef90_I7M1Y8 Non-specific serine/threonine protein kinase n=1 ...  139        4e-34 
+UniRef90_A0A099NYA2 Protein kinase domain-containing protein n=3 ...  139        4e-34 
+UniRef90_A0A094HWJ7 Non-specific serine/threonine protein kinase ...  139        4e-34 
+UniRef90_UPI000F05C7F8 uncharacterized protein LOC6552041 isoform...  139        4e-34 
+UniRef90_A0A672V4S1 Non-specific serine/threonine protein kinase ...  139        4e-34 
+UniRef90_A0A093GZJ7 Serine/threonine-protein kinase SIK3 (Fragmen...  139        4e-34 
+UniRef90_A0A672V8G4 Non-specific serine/threonine protein kinase ...  139        4e-34 
+UniRef90_A0A093BH06 Serine/threonine-protein kinase SIK3 (Fragmen...  139        4e-34 
+UniRef90_UPI00074FFFC1 serine/threonine-protein kinase SIK3 n=1 T...  139        4e-34 
+UniRef90_F0VC91 Putative CAM kinase, SNF1 family n=2 Tax=Neospora...  139        4e-34 
+UniRef90_UPI0007E832AC mucin-17 isoform X1 n=5 Tax=Drosophila rho...  139        4e-34 
+UniRef90_A0A0P1AP94 Ulk fused protein kinase n=1 Tax=Plasmopara h...  139        4e-34 
+UniRef90_UPI000939B7D9 serine/threonine-protein kinase SIK3 isofo...  139        4e-34 
+UniRef90_A0A6L2JDV3 CBL-interacting serine/threonine-protein kina...  139        4e-34 
+UniRef90_A0A084GHV1 Protein kinase domain-containing protein n=1 ...  139        4e-34 
+UniRef90_A0A1L9X0R8 Non-specific serine/threonine protein kinase ...  139        4e-34 
+UniRef90_A0A091FK21 Serine/threonine-protein kinase SIK3 (Fragmen...  139        4e-34 
+UniRef90_A0A091J110 Serine/threonine-protein kinase SIK3 (Fragmen...  139        4e-34 
+UniRef90_H0YPG4 Non-specific serine/threonine protein kinase n=7 ...  139        4e-34 
+UniRef90_A0A401PJA0 Uncharacterized protein (Fragment) n=2 Tax=Ga...  139        4e-34 
+UniRef90_A0A158QH33 Polo-like kinase 4 n=1 Tax=Rodentolepis nana ...  139        4e-34 
+UniRef90_UPI00140DEA45 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_UPI00148D5A95 mucin-19 isoform X3 n=1 Tax=Drosophila inn...  139        5e-34 
+UniRef90_A0A0Q9XKW6 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_U1HYY0 Non-specific serine/threonine protein kinase n=1 ...  139        5e-34 
+UniRef90_W8B2Y0 cGMP-dependent protein kinase n=2 Tax=Ceratitis c...  139        5e-34 
+UniRef90_UPI00092F76BF serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_UPI0006B10273 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A6J1TFX1 serine/arginine repetitive matrix protein 2 i...  139        5e-34 
+UniRef90_A0A0Q9X998 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_UPI0007AD95F0 serine/threonine-protein kinase SIK3 n=1 T...  139        5e-34 
+UniRef90_A0A3Q0H6Q1 serine/threonine-protein kinase SIK3 isoform ...  139        5e-34 
+UniRef90_UPI0009072A5A serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A093EXI4 Serine/threonine-protein kinase SIK3 (Fragmen...  139        5e-34 
+UniRef90_A0A218UQ39 Serine/threonine-protein kinase SIK3 n=3 Tax=...  139        5e-34 
+UniRef90_H0VR21 SIK family kinase 3 n=5 Tax=Cavia porcellus TaxID...  139        5e-34 
+UniRef90_A0A2Y9K644 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_A0A093HHD0 Serine/threonine-protein kinase SIK3 (Fragmen...  139        5e-34 
+UniRef90_B4MRR3 Non-specific serine/threonine protein kinase n=16...  139        5e-34 
+UniRef90_UPI000E1BBAFF serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A1U7SEJ6 serine/threonine-protein kinase SIK3 isoform ...  139        5e-34 
+UniRef90_B4JIM3 GH19123 n=2 Tax=Drosophila grimshawi TaxID=7222 R...  139        5e-34 
+UniRef90_A0A5B6WD04 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_UPI0007E79C0A serine/threonine-protein kinase par-1 isof...  139        5e-34 
+UniRef90_UPI00101A7328 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A6J2I6W7 serine/threonine-protein kinase SIK3 isoform ...  139        5e-34 
+UniRef90_A0A6L2Q0U7 Uncharacterized protein n=1 Tax=Coptotermes f...  139        5e-34 
+UniRef90_UPI0006B85D27 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A0P8XWT3 Uncharacterized protein, isoform B n=2 Tax=Dr...  139        5e-34 
+UniRef90_A0A1D5PLF0 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_UPI0008DB4661 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A667H946 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_A0A3M0ISU9 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_A0A1D5P171 Non-specific serine/threonine protein kinase ...  139        5e-34 
+UniRef90_UPI000E1F9486 serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_UPI001237B4BD serine/threonine-protein kinase SIK3 isofo...  139        5e-34 
+UniRef90_A0A485NVD5 Serine threonine-protein kinase n=1 Tax=Lynx ...  139        6e-34 
+UniRef90_A0A485P0X0 Serine threonine-protein kinase n=1 Tax=Lynx ...  139        6e-34 
+UniRef90_A0A663EFD8 Uncharacterized protein n=5 Tax=Accipitrinae ...  139        6e-34 
+UniRef90_UPI0010F96046 ATP-binding cassette sub-family C member 9...  139        6e-34 
+UniRef90_A0A6G0T6P3 Protein kinase domain-containing protein n=1 ...  139        6e-34 
+UniRef90_UPI000393F49F serine/threonine-protein kinase SIK3 isofo...  139        6e-34 
+UniRef90_A0A1W4VGA4 Non-specific serine/threonine protein kinase ...  138        6e-34 
+UniRef90_A0A6G1SQ46 NUAK family SNF1-like kinase 1 n=1 Tax=Aceria...  139        6e-34 
+UniRef90_UPI00073D5FA2 uncharacterized protein LOC107068503 isofo...  139        6e-34 
+UniRef90_A0A087X4E6 Polo-like kinase 4 n=2 Tax=Poecilia formosa T...  138        6e-34 
+UniRef90_A0A195F2E5 NUAK family SNF1-like kinase 1 n=5 Tax=Attini...  139        6e-34 
+UniRef90_A0A670K2B5 Non-specific serine/threonine protein kinase ...  138        6e-34 
+UniRef90_A0A0F7TSQ4 Non-specific serine/threonine protein kinase ...  138        6e-34 
+UniRef90_A0A6J1XIR4 serine/threonine-protein kinase SIK3 isoform ...  138        6e-34 
+UniRef90_UPI0011B08063 serine/threonine-protein kinase SIK3 isofo...  138        6e-34 
+UniRef90_UPI0006233AEF uncharacterized protein LOC105671237 n=1 T...  138        6e-34 
+UniRef90_A0A2B7XI94 Non-specific serine/threonine protein kinase ...  138        7e-34 
+UniRef90_A0A5N6UFJ8 Non-specific serine/threonine protein kinase ...  138        7e-34 
+UniRef90_UPI000771B390 uncharacterized protein LOC107263563 isofo...  138        7e-34 
+UniRef90_A0A6G0HYD3 Protein kinase C n=1 Tax=Larimichthys crocea ...  138        7e-34 
+UniRef90_A0A6G1BDY6 SIK3 kinase (Fragment) n=2 Tax=Carnivora TaxI...  138        7e-34 
+UniRef90_A0A4U7B181 Protein kinase domain-containing protein 24 n...  138        7e-34 
+UniRef90_C3YDA6 Fused serine/threonine kinase-like protein (Fragm...  130        7e-34 
+UniRef90_A0A2K6KC99 Protein kinase domain-containing protein n=2 ...  138        8e-34 
+UniRef90_A0A673UXR7 SIK family kinase 3 n=2 Tax=Suricata suricatt...  138        8e-34 
+UniRef90_A0A4D6LKH1 UMP-CMP kinase n=5 Tax=Vigna TaxID=3913 RepID...  138        8e-34 
+UniRef90_A0A402EZY0 Uncharacterized protein n=1 Tax=Paroedura pic...  138        8e-34 
+UniRef90_UPI000652EDD1 serine/threonine-protein kinase SIK3 isofo...  138        8e-34 
+UniRef90_UPI00112B5988 LOW QUALITY PROTEIN: serine/threonine-prot...  138        8e-34 
+UniRef90_A0A182M754 Protein kinase domain-containing protein n=4 ...  138        8e-34 
+UniRef90_UPI000D6A3FDC serine/threonine-protein kinase SIK3 isofo...  138        8e-34 
+UniRef90_UPI0013CE74D5 LOW QUALITY PROTEIN: serine/threonine-prot...  138        8e-34 
+UniRef90_A0A6J2XF02 uncharacterized protein LOC115877759 isoform ...  138        8e-34 
+UniRef90_M3XH38 Non-specific serine/threonine protein kinase n=2 ...  138        8e-34 
+UniRef90_A0A195EUA9 Sodium/hydrogen exchanger n=2 Tax=Trachymyrme...  138        8e-34 
+UniRef90_A0A0C3HGJ9 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_A0A1J1J6T1 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_A0A151IGE8 NUAK family SNF1-like kinase 1 n=3 Tax=Cyphom...  138        9e-34 
+UniRef90_A0A158NE68 Protein kinase domain-containing protein n=1 ...  138        9e-34 
+UniRef90_F4WM68 NUAK family SNF1-like kinase 1 n=3 Tax=Acromyrmex...  138        9e-34 
+UniRef90_H3GD61 Protein kinase domain-containing protein n=1 Tax=...  138        9e-34 
+UniRef90_A0A0F2MBF8 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_Q231A2 Serine/Threonine kinase domain protein n=1 Tax=Te...  138        9e-34 
+UniRef90_A0A2T7PIK5 Serine/threonine-protein kinase PLK n=1 Tax=P...  138        9e-34 
+UniRef90_A0A096N3W3 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_A0A433Q7X8 Protein kinase domain-containing protein n=1 ...  138        9e-34 
+UniRef90_UPI0007119DFD uncharacterized protein LOC106748851 n=1 T...  138        9e-34 
+UniRef90_A0A6L2PQ18 Uncharacterized protein n=1 Tax=Coptotermes f...  138        9e-34 
+UniRef90_UPI00118719EA serine/threonine-protein kinase SIK3 n=1 T...  138        9e-34 
+UniRef90_UPI0009821E22 serine/threonine-protein kinase SIK3 isofo...  138        9e-34 
+UniRef90_A0A370TP59 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_UPI00045E2083 serine/threonine-protein kinase SIK3 isofo...  138        9e-34 
+UniRef90_UPI000522B86C serine/threonine-protein kinase 36 n=1 Tax...  138        9e-34 
+UniRef90_A0A0L0BQB5 Non-specific serine/threonine protein kinase ...  138        9e-34 
+UniRef90_UPI00084C0518 uncharacterized protein LOC108687852 isofo...  138        9e-34 
+UniRef90_A0A2Y9M1K5 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A0D2J1C1 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_UPI000C2A52F5 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_A0A1I8JKY4 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_T2M5D6 Serine/threonine-protein kinase DCLK3 n=1 Tax=Hyd...  138        1e-33 
+UniRef90_A0A2Y9MBY7 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A5F9DI78 SIK family kinase 3 n=1 Tax=Oryctolagus cunic...  138        1e-33 
+UniRef90_UPI00141AEC70 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_UPI0014583010 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_Q9Y2K2-7 Isoform 3 of Serine/threonine-protein kinase SI...  138        1e-33 
+UniRef90_A0A146IFV0 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A0J9ET01 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_UPI0007A6AABA serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_A0A287D1D7 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_UPI000981CCD4 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_UPI000C2B2AED serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_UPI0004CDB74C ATP-binding cassette sub-family C member 9...  138        1e-33 
+UniRef90_A0A5J4NCT7 Protein kinase domain-containing protein n=3 ...  138        1e-33 
+UniRef90_A0A226PCC0 Protein kinase domain-containing protein (Fra...  138        1e-33 
+UniRef90_Q9Y2K2 Serine/threonine-protein kinase SIK3 n=122 Tax=Bo...  138        1e-33 
+UniRef90_A0A2J6QNH3 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A2K5LT46 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A319DLR2 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A2K5WWA2 Protein kinase domain-containing protein n=9 ...  138        1e-33 
+UniRef90_UPI00141AB8F8 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_UPI00141B9237 serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_A0A1V6UV90 Non-specific serine/threonine protein kinase ...  138        1e-33 
+UniRef90_A0A2K6QXI0 SIK family kinase 3 n=1 Tax=Rhinopithecus rox...  138        1e-33 
+UniRef90_UPI0010F6295D serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_A0A1B0B0N6 cGMP-dependent protein kinase n=5 Tax=Glossin...  138        1e-33 
+UniRef90_UPI00083F010C serine/threonine-protein kinase SIK3 isofo...  138        1e-33 
+UniRef90_UPI0004CCDA0C uncharacterized protein LOC103577913 n=1 T...  138        1e-33 
+UniRef90_A0A2I3MA41 Non-specific serine/threonine protein kinase ...  137        1e-33 
+UniRef90_UPI0013647323 serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_A0A671EIX6 Non-specific serine/threonine protein kinase ...  137        1e-33 
+UniRef90_UPI000980DEA7 serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_A0A2K6QXI6 SIK family kinase 3 n=2 Tax=Rhinopithecus rox...  137        1e-33 
+UniRef90_UPI000C29A406 serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_UPI00141AC4A8 serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_T1PGL4 Non-specific serine/threonine protein kinase n=4 ...  137        1e-33 
+UniRef90_A0A094DDY5 Non-specific serine/threonine protein kinase ...  137        1e-33 
+UniRef90_A0A2K5LT47 Uncharacterized protein n=1 Tax=Cercocebus at...  137        1e-33 
+UniRef90_UPI0005BE26AC serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_UPI000981037B serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_A0A6J2BU31 serine/threonine-protein kinase SIK3 isoform ...  137        1e-33 
+UniRef90_A0A3L8DRA2 Protein kinase domain-containing protein n=5 ...  138        1e-33 
+UniRef90_A0A2R9B949 Protein kinase domain-containing protein n=2 ...  137        1e-33 
+UniRef90_A0A2I3MZC4 Protein kinase domain-containing protein n=1 ...  137        1e-33 
+UniRef90_A0A2V0NXY8 Protein kinase domain-containing protein n=1 ...  137        1e-33 
+UniRef90_G1T0X7 Non-specific serine/threonine protein kinase n=23...  137        1e-33 
+UniRef90_UPI0010F7C8F6 serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_A0A0D9S3A5 Non-specific serine/threonine protein kinase ...  137        1e-33 
+UniRef90_UPI00045E327D serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_UPI0015C340BA serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_A0A6H0XZ09 Protein kinase domain-containing protein n=1 ...  137        1e-33 
+UniRef90_A0A2K5F671 Protein kinase domain-containing protein n=13...  137        1e-33 
+UniRef90_UPI0004ED4E0B serine/threonine-protein kinase SIK3 isofo...  137        1e-33 
+UniRef90_UPI000C86FDF6 serine-rich adhesin for platelets isoform ...  137        1e-33 
+UniRef90_A0A1B0G241 Uncharacterized protein n=1 Tax=Glossina mors...  137        1e-33 
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 643084541092
+Results from round 2
+
+
+Query= sp|Q96GD4-2|AURKB_HUMAN Isoform 2 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=312
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_Q08DN4 Aurora 1 n=4 Tax=Bos TaxID=9903 RepID=Q08DN4_BOVIN    470        1e-165
+UniRef90_A0A1Z5T9S3 Non-specific serine/threonine protein kinase ...  382        8e-121
+UniRef90_A0A3D8RF00 Non-specific serine/threonine protein kinase ...  381        1e-120
+UniRef90_Q5ASN7 Non-specific serine/threonine protein kinase n=1 ...  382        3e-120
+UniRef90_UPI00159767A0 uncharacterized protein n=1 Tax=Talaromyce...  380        4e-120
+UniRef90_A0A6A6CYT0 Non-specific serine/threonine protein kinase ...  380        5e-120
+UniRef90_A0A6A6PHK9 Non-specific serine/threonine protein kinase ...  379        5e-120
+UniRef90_A0A1V6UV90 Non-specific serine/threonine protein kinase ...  379        7e-120
+UniRef90_A0A0F4YIV7 Non-specific serine/threonine protein kinase ...  379        1e-119
+UniRef90_B6HW35 Non-specific serine/threonine protein kinase n=6 ...  378        1e-119
+UniRef90_W6PTY0 Non-specific serine/threonine protein kinase n=1 ...  378        2e-119
+UniRef90_S7ZCS7 Non-specific serine/threonine protein kinase n=1 ...  377        2e-119
+UniRef90_A0A1V6Y9W2 Non-specific serine/threonine protein kinase ...  377        3e-119
+UniRef90_A0A135LZL3 Non-specific serine/threonine protein kinase ...  377        4e-119
+UniRef90_A0A0K8TXA8 NUAK family SNF1-like kinase 1 (Fragment) n=6...  358        4e-119
+UniRef90_A0A117NS92 Non-specific serine/threonine protein kinase ...  377        4e-119
+UniRef90_A0A395GPF7 Non-specific serine/threonine protein kinase ...  377        4e-119
+UniRef90_A0A0F8TXD6 Non-specific serine/threonine protein kinase ...  376        7e-119
+UniRef90_Q4WCS9 Non-specific serine/threonine protein kinase n=9 ...  376        8e-119
+UniRef90_A0A319DLR2 Non-specific serine/threonine protein kinase ...  376        1e-118
+UniRef90_A0A1V6SVX7 Non-specific serine/threonine protein kinase ...  375        1e-118
+UniRef90_A0A2D3USB7 Non-specific serine/threonine protein kinase ...  375        2e-118
+UniRef90_A0A179TYW2 Non-specific serine/threonine protein kinase ...  376        2e-118
+UniRef90_A0A1L9S7H4 Non-specific serine/threonine protein kinase ...  375        3e-118
+UniRef90_A0A2B7Z0L8 Non-specific serine/threonine protein kinase ...  375        3e-118
+UniRef90_A6R0M5 Non-specific serine/threonine protein kinase n=4 ...  373        3e-118
+UniRef90_A0A2B7XI94 Non-specific serine/threonine protein kinase ...  375        3e-118
+UniRef90_K9G068 Non-specific serine/threonine protein kinase n=2 ...  374        4e-118
+UniRef90_A0A1V6RY57 Non-specific serine/threonine protein kinase ...  374        4e-118
+UniRef90_A1CMT8 Non-specific serine/threonine protein kinase n=1 ...  374        4e-118
+UniRef90_A0A094DDY5 Non-specific serine/threonine protein kinase ...  374        5e-118
+UniRef90_A0A318ZNA2 Non-specific serine/threonine protein kinase ...  374        5e-118
+UniRef90_A0A0U1LS45 Non-specific serine/threonine protein kinase ...  377        6e-118
+UniRef90_A0A0F7TSQ4 Non-specific serine/threonine protein kinase ...  373        8e-118
+UniRef90_A0A1V6Q3D6 Non-specific serine/threonine protein kinase ...  373        8e-118
+UniRef90_A0A0D2GBR2 Non-specific serine/threonine protein kinase ...  373        9e-118
+UniRef90_W9WM65 Non-specific serine/threonine protein kinase n=2 ...  373        1e-117
+UniRef90_A0A178ZP55 Non-specific serine/threonine protein kinase ...  373        1e-117
+UniRef90_A0A0J9ET01 Non-specific serine/threonine protein kinase ...  379        2e-117
+UniRef90_A0A0D2J1C1 Non-specific serine/threonine protein kinase ...  372        2e-117
+UniRef90_A0A5N5X8Q0 Non-specific serine/threonine protein kinase ...  372        3e-117
+UniRef90_A0A3E2GWW9 Non-specific serine/threonine protein kinase ...  372        3e-117
+UniRef90_A0A1V6PFD8 Non-specific serine/threonine protein kinase ...  371        4e-117
+UniRef90_A0A485NVD5 Serine threonine-protein kinase n=1 Tax=Lynx ...  372        4e-117
+UniRef90_A0A485P0X0 Serine threonine-protein kinase n=1 Tax=Lynx ...  372        4e-117
+UniRef90_A0A6J1SF74 serine/threonine-protein kinase SIK3 isoform ...  372        5e-117
+UniRef90_A0A2J5HWB5 Non-specific serine/threonine protein kinase ...  371        5e-117
+UniRef90_A0A319EH15 Non-specific serine/threonine protein kinase ...  371        6e-117
+UniRef90_A0A317WVY6 Non-specific serine/threonine protein kinase ...  371        6e-117
+UniRef90_A0A1R3RG43 Non-specific serine/threonine protein kinase ...  372        1e-116
+UniRef90_A0A165IAP7 Pkinase-domain-containing protein n=1 Tax=Exi...  373        1e-116
+UniRef90_G7DY48 Protein kinase domain-containing protein n=1 Tax=...  372        2e-116
+UniRef90_A0A0D2AR96 Non-specific serine/threonine protein kinase ...  370        2e-116
+UniRef90_A0A2K6KC99 Protein kinase domain-containing protein n=2 ...  370        2e-116
+UniRef90_A0A1F5L6S3 Non-specific serine/threonine protein kinase ...  370        2e-116
+UniRef90_A0A5E4FYN0 Non-specific serine/threonine protein kinase ...  349        2e-116
+UniRef90_F4W7Z3 Non-specific serine/threonine protein kinase n=20...  368        2e-116
+UniRef90_A0A2T3B613 Non-specific serine/threonine protein kinase ...  370        2e-116
+UniRef90_W9YFU0 Non-specific serine/threonine protein kinase n=1 ...  369        3e-116
+UniRef90_A0A6A6J591 Non-specific serine/threonine protein kinase ...  370        3e-116
+UniRef90_Q9Y2K2-7 Isoform 3 of Serine/threonine-protein kinase SI...  368        3e-116
+UniRef90_A0A2H3IU84 Non-specific serine/threonine protein kinase ...  369        3e-116
+UniRef90_W9W2T1 Non-specific serine/threonine protein kinase n=4 ...  368        4e-116
+UniRef90_A0A287D1D7 Non-specific serine/threonine protein kinase ...  369        4e-116
+UniRef90_A0A2P6Q5Q9 Non-specific serine/threonine protein kinase ...  349        4e-116
+UniRef90_A0A1E3QW80 Non-specific serine/threonine protein kinase ...  371        4e-116
+UniRef90_C1H670 Non-specific serine/threonine protein kinase n=5 ...  369        4e-116
+UniRef90_A0A1L9X0R8 Non-specific serine/threonine protein kinase ...  368        5e-116
+UniRef90_A0A2R9B949 Protein kinase domain-containing protein n=2 ...  367        5e-116
+UniRef90_A0A5N6FE03 Non-specific serine/threonine protein kinase ...  369        5e-116
+UniRef90_A0A2B7Z9R5 Non-specific serine/threonine protein kinase ...  369        5e-116
+UniRef90_A0A2K5WWA2 Protein kinase domain-containing protein n=9 ...  368        6e-116
+UniRef90_UPI001301D8C6 serine/threonine-protein kinase SIK3 isofo...  370        6e-116
+UniRef90_A0A4X2M2Q1 Non-specific serine/threonine protein kinase ...  369        6e-116
+UniRef90_UPI0009821E22 serine/threonine-protein kinase SIK3 isofo...  368        6e-116
+UniRef90_A0A2K5F671 Protein kinase domain-containing protein n=13...  367        7e-116
+UniRef90_A0A093XM11 Non-specific serine/threonine protein kinase ...  368        7e-116
+UniRef90_UPI0015C340BA serine/threonine-protein kinase SIK3 isofo...  368        8e-116
+UniRef90_UPI00045E08E2 serine/threonine-protein kinase SIK3 isofo...  368        8e-116
+UniRef90_UPI00141B9237 serine/threonine-protein kinase SIK3 isofo...  368        8e-116
+UniRef90_A0A094HWJ7 Non-specific serine/threonine protein kinase ...  368        8e-116
+UniRef90_A0A667H946 Non-specific serine/threonine protein kinase ...  369        8e-116
+UniRef90_A0A094BXT9 Non-specific serine/threonine protein kinase ...  368        8e-116
+UniRef90_UPI000981CCD4 serine/threonine-protein kinase SIK3 isofo...  368        9e-116
+UniRef90_A0A6J3RTV5 serine/threonine-protein kinase SIK3 isoform ...  368        9e-116
+UniRef90_UPI000F4444C0 serine/threonine-protein kinase SIK3 isofo...  368        9e-116
+UniRef90_A0A093GZJ7 Serine/threonine-protein kinase SIK3 (Fragmen...  367        9e-116
+UniRef90_UPI000C2B2AED serine/threonine-protein kinase SIK3 isofo...  368        9e-116
+UniRef90_A0A2K6QXI0 SIK family kinase 3 n=1 Tax=Rhinopithecus rox...  368        1e-115
+UniRef90_UPI000A34230A serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_A0A5F9DI78 SIK family kinase 3 n=1 Tax=Oryctolagus cunic...  368        1e-115
+UniRef90_A0A2I3TH17 SIK family kinase 3 n=2 Tax=Pan troglodytes T...  368        1e-115
+UniRef90_UPI00122EBD1E serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_UPI0013631994 serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_UPI00122D790B serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_UPI00123EA135 serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_Q5TMZ4 AGAP012064-PA n=2 Tax=Cellia TaxID=44534 RepID=Q5...  363        1e-115
+UniRef90_A0A2Y9K644 Non-specific serine/threonine protein kinase ...  368        1e-115
+UniRef90_A0A672V4S1 Non-specific serine/threonine protein kinase ...  367        1e-115
+UniRef90_A0A6L2MHE6 SNF1-related protein kinase catalytic subunit...  370        1e-115
+UniRef90_A0A6A5MWX7 Non-specific serine/threonine protein kinase ...  368        1e-115
+UniRef90_UPI00038C05DB serine/threonine-protein kinase SIK3 isofo...  368        1e-115
+UniRef90_UPI00141AEC70 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI00118719EA serine/threonine-protein kinase SIK3 n=1 T...  368        2e-115
+UniRef90_F1PG01 SIK family kinase 3 n=13 Tax=Caniformia TaxID=379...  367        2e-115
+UniRef90_Q9Y2K2 Serine/threonine-protein kinase SIK3 n=122 Tax=Bo...  368        2e-115
+UniRef90_UPI00109FBBBC serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI0013647323 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI00045E2083 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_A0A443HYJ1 Non-specific serine/threonine protein kinase ...  367        2e-115
+UniRef90_A0A2K5LT47 Uncharacterized protein n=1 Tax=Cercocebus at...  368        2e-115
+UniRef90_A0A096N3W3 Non-specific serine/threonine protein kinase ...  368        2e-115
+UniRef90_F6PH45 Non-specific serine/threonine protein kinase n=1 ...  368        2e-115
+UniRef90_UPI000C2A52F5 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_A0A1U8BMD2 Non-specific serine/threonine protein kinase ...  368        2e-115
+UniRef90_UPI0014420359 serine/threonine-protein kinase SIK3 isofo...  367        2e-115
+UniRef90_G1R6X6 Non-specific serine/threonine protein kinase n=18...  367        2e-115
+UniRef90_UPI000C9E364E serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_A0A2K5LT46 Non-specific serine/threonine protein kinase ...  368        2e-115
+UniRef90_UPI00112B5988 LOW QUALITY PROTEIN: serine/threonine-prot...  368        2e-115
+UniRef90_A0A2Y9MBY7 Non-specific serine/threonine protein kinase ...  367        2e-115
+UniRef90_H0VR21 SIK family kinase 3 n=5 Tax=Cavia porcellus TaxID...  367        2e-115
+UniRef90_F6TUU1 Non-specific serine/threonine protein kinase n=6 ...  369        2e-115
+UniRef90_UPI000F445034 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_A0A2U4BW37 serine/threonine-protein kinase SIK3 isoform ...  368        2e-115
+UniRef90_UPI00141B7F72 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI001363F626 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI00045E327D serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_UPI0014583010 serine/threonine-protein kinase SIK3 isofo...  368        2e-115
+UniRef90_M5FMX3 Non-specific serine/threonine protein kinase n=7 ...  368        2e-115
+UniRef90_A0A2I3MZC4 Protein kinase domain-containing protein n=1 ...  368        2e-115
+UniRef90_A0A0D9S3A5 Non-specific serine/threonine protein kinase ...  368        2e-115
+UniRef90_A0A3Q7QTX7 Non-specific serine/threonine protein kinase ...  367        2e-115
+UniRef90_A0A2K6QXI6 SIK family kinase 3 n=2 Tax=Rhinopithecus rox...  368        2e-115
+UniRef90_A0A3M7P031 Non-specific serine/threonine protein kinase ...  366        3e-115
+UniRef90_UPI00122F2F44 serine/threonine-protein kinase SIK3 isofo...  368        3e-115
+UniRef90_UPI0011B08063 serine/threonine-protein kinase SIK3 isofo...  368        3e-115
+UniRef90_A0A6J2BWG1 serine/threonine-protein kinase SIK3 isoform ...  367        3e-115
+UniRef90_UPI00034F8352 serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_A0A2K5LT29 Non-specific serine/threonine protein kinase ...  367        3e-115
+UniRef90_UPI000F43EBA1 serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_A0A2U4BW92 serine/threonine-protein kinase SIK3 isoform ...  367        3e-115
+UniRef90_A0A672V8G4 Non-specific serine/threonine protein kinase ...  367        3e-115
+UniRef90_A0A6J2BU36 serine/threonine-protein kinase SIK3 isoform ...  367        3e-115
+UniRef90_A0A6J1XIR4 serine/threonine-protein kinase SIK3 isoform ...  368        3e-115
+UniRef90_UPI00141AB8F8 serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_UPI0013A64BBF serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_UPI000C9E64F8 serine/threonine-protein kinase SIK3 isofo...  368        3e-115
+UniRef90_A0A2T7P2X0 Uncharacterized protein n=2 Tax=Pomacea canal...  369        3e-115
+UniRef90_A0A1B8GPD7 Non-specific serine/threonine protein kinase ...  367        3e-115
+UniRef90_K9IUS7 Non-specific serine/threonine protein kinase (Fra...  368        3e-115
+UniRef90_UPI000C29A406 serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_UPI0013F31C09 LOW QUALITY PROTEIN: serine/threonine-prot...  368        3e-115
+UniRef90_UPI00122EB845 serine/threonine-protein kinase SIK3 isofo...  367        3e-115
+UniRef90_A0A096N7S4 Uncharacterized protein n=1 Tax=Papio anubis ...  367        3e-115
+UniRef90_A0A093EXI4 Serine/threonine-protein kinase SIK3 (Fragmen...  367        3e-115
+UniRef90_UPI00098A4F78 LOW QUALITY PROTEIN: serine/threonine-prot...  367        3e-115
+UniRef90_UPI0015C3B2F8 serine/threonine-protein kinase SIK3 isofo...  367        4e-115
+UniRef90_A0A093HHD0 Serine/threonine-protein kinase SIK3 (Fragmen...  367        4e-115
+UniRef90_A0A673UXR7 SIK family kinase 3 n=2 Tax=Suricata suricatt...  366        4e-115
+UniRef90_K1VQL6 Serine/threonine-protein kinase n=1 Tax=Trichospo...  368        4e-115
+UniRef90_M3XH38 Non-specific serine/threonine protein kinase n=2 ...  367        4e-115
+UniRef90_UPI0012634215 LOW QUALITY PROTEIN: serine/threonine-prot...  368        4e-115
+UniRef90_G1LPX7 Non-specific serine/threonine protein kinase n=8 ...  367        4e-115
+UniRef90_A0A091FK21 Serine/threonine-protein kinase SIK3 (Fragmen...  367        4e-115
+UniRef90_A0A091J110 Serine/threonine-protein kinase SIK3 (Fragmen...  367        4e-115
+UniRef90_A0A6J0AP99 serine/threonine-protein kinase SIK3 isoform ...  367        4e-115
+UniRef90_M0RD40 Non-specific serine/threonine protein kinase n=4 ...  367        4e-115
+UniRef90_UPI0014427188 serine/threonine-protein kinase SIK3 isofo...  367        4e-115
+UniRef90_UPI00109F146C serine/threonine-protein kinase SIK3 n=2 T...  368        4e-115
+UniRef90_A0A0D2E977 Non-specific serine/threonine protein kinase ...  366        4e-115
+UniRef90_W5NYW2 Uncharacterized protein n=14 Tax=Pecora TaxID=355...  367        4e-115
+UniRef90_A0A1V4J8E5 Serine/threonine-protein kinase SIK3 n=2 Tax=...  370        4e-115
+UniRef90_A0A4X1T110 Non-specific serine/threonine protein kinase ...  368        4e-115
+UniRef90_UPI0014028063 serine/threonine-protein kinase SIK3-like ...  368        4e-115
+UniRef90_A0A0Q9XKW6 Non-specific serine/threonine protein kinase ...  364        4e-115
+UniRef90_H0XJS9 Non-specific serine/threonine protein kinase n=3 ...  367        4e-115
+UniRef90_A0A1B0FEQ4 Uncharacterized protein n=1 Tax=Glossina mors...  366        4e-115
+UniRef90_F1MXE2 Non-specific serine/threonine protein kinase n=8 ...  367        4e-115
+UniRef90_A0A0Q9X998 Non-specific serine/threonine protein kinase ...  364        5e-115
+UniRef90_Q6P4S6 Serine/threonine-protein kinase SIK3 n=5 Tax=Mus ...  367        5e-115
+UniRef90_A0A2Y9M1K5 Non-specific serine/threonine protein kinase ...  367        5e-115
+UniRef90_A0A401PJA0 Uncharacterized protein (Fragment) n=2 Tax=Ga...  369        5e-115
+UniRef90_C3XRQ1 Non-specific serine/threonine protein kinase n=3 ...  367        5e-115
+UniRef90_UPI000980DEA7 serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_A0A6J2BU31 serine/threonine-protein kinase SIK3 isoform ...  367        5e-115
+UniRef90_UPI00083F010C serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_UPI001261BCC6 serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_A0A6J2BRK6 serine/threonine-protein kinase SIK3 isoform ...  368        5e-115
+UniRef90_UPI00141AC4A8 serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_A0A1D5PLF0 Non-specific serine/threonine protein kinase ...  367        5e-115
+UniRef90_A0A455C8Z9 Non-specific serine/threonine protein kinase ...  366        5e-115
+UniRef90_UPI0014412E49 serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_A0A3Q7X4K2 Non-specific serine/threonine protein kinase ...  367        5e-115
+UniRef90_UPI0013960357 serine/threonine-protein kinase SIK3 isofo...  367        5e-115
+UniRef90_A0A2I3MA41 Non-specific serine/threonine protein kinase ...  367        5e-115
+UniRef90_A0A3Q7WIR7 Non-specific serine/threonine protein kinase ...  367        6e-115
+UniRef90_UPI000F43F286 serine/threonine-protein kinase SIK3 isofo...  367        6e-115
+UniRef90_A0A2U4BW87 serine/threonine-protein kinase SIK3 isoform ...  367        6e-115
+UniRef90_A0A6G1BDY6 SIK3 kinase (Fragment) n=2 Tax=Carnivora TaxI...  366        6e-115
+UniRef90_T1PGL4 Non-specific serine/threonine protein kinase n=4 ...  366        6e-115
+UniRef90_B4MRR3 Non-specific serine/threonine protein kinase n=16...  364        6e-115
+UniRef90_UPI000B4F505A serine/threonine-protein kinase SIK3 isofo...  367        6e-115
+UniRef90_UPI0010F6295D serine/threonine-protein kinase SIK3 isofo...  366        7e-115
+UniRef90_A0A3Q7R3U6 Non-specific serine/threonine protein kinase ...  367        7e-115
+UniRef90_UPI0003332826 serine/threonine-protein kinase SIK3 isofo...  366        7e-115
+UniRef90_UPI00122FA59F serine/threonine-protein kinase SIK3 isofo...  367        7e-115
+UniRef90_H0YPG4 Non-specific serine/threonine protein kinase n=7 ...  367        7e-115
+UniRef90_G1T0X7 Non-specific serine/threonine protein kinase n=23...  368        7e-115
+UniRef90_A0A3Q2LD43 Non-specific serine/threonine protein kinase ...  367        7e-115
+UniRef90_UPI000F73F951 LOW QUALITY PROTEIN: serine/threonine-prot...  367        7e-115
+UniRef90_UPI000981037B serine/threonine-protein kinase SIK3 isofo...  367        7e-115
+UniRef90_A0A177CBH3 Non-specific serine/threonine protein kinase ...  366        7e-115
+UniRef90_A0A2M4DRZ5 Non-specific serine/threonine protein kinase ...  365        8e-115
+UniRef90_A0A2M4DRX5 Non-specific serine/threonine protein kinase ...  365        8e-115
+UniRef90_UPI0013A6848D serine/threonine-protein kinase SIK3 isofo...  367        8e-115
+UniRef90_A0A1D5Q6B4 Non-specific serine/threonine protein kinase ...  367        8e-115
+UniRef90_A0A093BH06 Serine/threonine-protein kinase SIK3 (Fragmen...  365        8e-115
+UniRef90_A0A3M0ISU9 Non-specific serine/threonine protein kinase ...  367        9e-115
+UniRef90_UPI0004ED4E0B serine/threonine-protein kinase SIK3 isofo...  367        1e-114
+UniRef90_A0A5N6YTI2 Non-specific serine/threonine protein kinase ...  365        1e-114
+UniRef90_UPI000B902EC5 MAP/microtubule affinity-regulating kinase...  365        1e-114
+UniRef90_A0A1D2VDG3 Non-specific serine/threonine protein kinase ...  368        1e-114
+UniRef90_UPI0002BCDF90 serine/threonine-protein kinase SIK3 isofo...  367        1e-114
+UniRef90_UPI000A314A0C serine/threonine-protein kinase SIK3 isofo...  367        1e-114
+UniRef90_A0A2Y9TDR2 Non-specific serine/threonine protein kinase ...  366        1e-114
+UniRef90_A0A1W4VGA4 Non-specific serine/threonine protein kinase ...  364        1e-114
+UniRef90_F7D2T0 Non-specific serine/threonine protein kinase n=3 ...  365        1e-114
+UniRef90_A0A182HPY6 Uncharacterized protein n=5 Tax=Anopheles Tax...  365        1e-114
+UniRef90_A0A1D5P171 Non-specific serine/threonine protein kinase ...  366        1e-114
+UniRef90_A0A670K2B5 Non-specific serine/threonine protein kinase ...  365        1e-114
+UniRef90_UPI0010F7C8F6 serine/threonine-protein kinase SIK3 isofo...  366        1e-114
+UniRef90_UPI0013CE74D5 LOW QUALITY PROTEIN: serine/threonine-prot...  366        1e-114
+UniRef90_A0A2Y9T7R3 Non-specific serine/threonine protein kinase ...  365        1e-114
+UniRef90_UPI0014862A3B serine/threonine-protein kinase SIK3 isofo...  366        2e-114
+UniRef90_UPI000B8E9F6A serine/threonine-protein kinase SIK3 homol...  367        2e-114
+UniRef90_A0A671EIX6 Non-specific serine/threonine protein kinase ...  366        2e-114
+UniRef90_UPI00080A51F3 serine/threonine-protein kinase SIK3 isofo...  365        2e-114
+UniRef90_A0A395HUA7 Non-specific serine/threonine protein kinase ...  364        2e-114
+UniRef90_F7BZ47 Non-specific serine/threonine protein kinase n=7 ...  364        2e-114
+UniRef90_A0A2M4B9X7 Non-specific serine/threonine protein kinase ...  365        2e-114
+UniRef90_A0A2K1QGM0 Non-specific serine/threonine protein kinase ...  365        3e-114
+UniRef90_A0A2K5S7R6 Non-specific serine/threonine protein kinase ...  365        3e-114
+UniRef90_W0TYM1 Non-specific serine/threonine protein kinase n=3 ...  363        3e-114
+UniRef90_A0A397GKP3 Non-specific serine/threonine protein kinase ...  365        3e-114
+UniRef90_UPI001552697A serine/threonine-protein kinase SIK3 isofo...  365        3e-114
+UniRef90_A0A2Y9TFM5 Non-specific serine/threonine protein kinase ...  365        3e-114
+UniRef90_U1HYY0 Non-specific serine/threonine protein kinase n=1 ...  364        3e-114
+UniRef90_H9G5C1 Uncharacterized protein n=2 Tax=Anolis carolinens...  365        4e-114
+UniRef90_A0A2V1DM93 Non-specific serine/threonine protein kinase ...  364        4e-114
+UniRef90_A0A1I8JKY4 Non-specific serine/threonine protein kinase ...  369        5e-114
+UniRef90_A0A370TP59 Non-specific serine/threonine protein kinase ...  363        5e-114
+UniRef90_A0A094AP80 Non-specific serine/threonine protein kinase ...  363        5e-114
+UniRef90_A0A6L2Q0U7 Uncharacterized protein n=1 Tax=Coptotermes f...  365        5e-114
+UniRef90_S7MF16 Serine/threonine-protein kinase SIK3 n=3 Tax=Myot...  367        6e-114
+UniRef90_A0A5N6TMG4 Non-specific serine/threonine protein kinase ...  365        6e-114
+UniRef90_M7BHK3 Serine/threonine-protein kinase SIK3 n=1 Tax=Chel...  366        6e-114
+UniRef90_A0A6I8NYP9 Non-specific serine/threonine protein kinase ...  364        6e-114
+UniRef90_UPI00148336A7 serine/threonine-protein kinase SIK1 n=1 T...  363        6e-114
+UniRef90_A0A5N6UFJ8 Non-specific serine/threonine protein kinase ...  363        7e-114
+UniRef90_N1Q2F3 Non-specific serine/threonine protein kinase n=1 ...  362        7e-114
+UniRef90_S3DGH7 Non-specific serine/threonine protein kinase n=1 ...  362        8e-114
+UniRef90_A0A6J1SBE7 serine/threonine-protein kinase par-1-like is...  363        9e-114
+UniRef90_A0A0L0BQB5 Non-specific serine/threonine protein kinase ...  366        9e-114
+UniRef90_A0A402EZY0 Uncharacterized protein n=1 Tax=Paroedura pic...  363        1e-113
+UniRef90_A0A512U7L3 Non-specific serine/threonine protein kinase ...  365        1e-113
+UniRef90_A0A3D8S1A9 Non-specific serine/threonine protein kinase ...  363        1e-113
+UniRef90_A0A3F2YVZ9 Non-specific serine/threonine protein kinase ...  363        1e-113
+UniRef90_A0A094A975 Non-specific serine/threonine protein kinase ...  362        1e-113
+UniRef90_A0A545A1Y5 Non-specific serine/threonine protein kinase ...  362        1e-113
+UniRef90_A0A1L7WFL3 Non-specific serine/threonine protein kinase ...  362        1e-113
+UniRef90_A0A2S3GVI3 Non-specific serine/threonine protein kinase ...  341        2e-113
+UniRef90_A0A0L1IPR2 Non-specific serine/threonine protein kinase ...  361        2e-113
+UniRef90_A0A3F2YVY7 Non-specific serine/threonine protein kinase ...  363        2e-113
+UniRef90_A0A2P7YEV3 Non-specific serine/threonine protein kinase ...  363        2e-113
+UniRef90_X1XTU0 Non-specific serine/threonine protein kinase n=20...  362        2e-113
+UniRef90_A0A453Z021 Non-specific serine/threonine protein kinase ...  363        3e-113
+UniRef90_W9Y8K1 Non-specific serine/threonine protein kinase n=1 ...  361        3e-113
+UniRef90_A0A0D3B9B5 Non-specific serine/threonine protein kinase ...  367        3e-113
+UniRef90_A0A4Y0BHG3 Non-specific serine/threonine protein kinase ...  363        3e-113
+UniRef90_H6BML4 Non-specific serine/threonine protein kinase n=1 ...  361        3e-113
+UniRef90_A0A5N7AY44 Non-specific serine/threonine protein kinase ...  361        4e-113
+UniRef90_A0A420IDJ2 Non-specific serine/threonine protein kinase ...  361        4e-113
+UniRef90_A0A2I0RYS2 Non-specific serine/threonine protein kinase ...  361        4e-113
+UniRef90_A0A1J1J6T1 Non-specific serine/threonine protein kinase ...  367        4e-113
+UniRef90_A0A453YZQ5 Non-specific serine/threonine protein kinase ...  363        4e-113
+UniRef90_A0A182YCB8 Uncharacterized protein n=1 Tax=Anopheles ste...  363        5e-113
+UniRef90_A0A1S3JUX7 Non-specific serine/threonine protein kinase ...  360        5e-113
+UniRef90_A0A4W3HLR1 Uncharacterized protein n=5 Tax=Callorhinchus...  363        5e-113
+UniRef90_A0A0D2BLH9 Protein kinase domain-containing protein n=1 ...  363        5e-113
+UniRef90_A5E3E1 Non-specific serine/threonine protein kinase n=1 ...  364        6e-113
+UniRef90_A0A182JLS2 Uncharacterized protein n=2 Tax=Anopheles Tax...  365        6e-113
+UniRef90_A0A5E4NP94 Non-specific serine/threonine protein kinase ...  362        7e-113
+UniRef90_A0A074YRJ7 Non-specific serine/threonine protein kinase ...  360        7e-113
+UniRef90_UPI0007E805CF serine/threonine-protein kinase par-1 n=2 ...  363        8e-113
+UniRef90_A0A559MK48 Non-specific serine/threonine protein kinase ...  360        8e-113
+UniRef90_G3APT1 Non-specific serine/threonine protein kinase n=1 ...  362        1e-112
+UniRef90_A0A182Q9Q1 Uncharacterized protein n=1 Tax=Anopheles far...  363        1e-112
+UniRef90_A0A0K8W9M0 Serine/threonine-protein kinase SIK2 n=10 Tax...  360        1e-112
+UniRef90_UPI0007E82817 serine/threonine-protein kinase par-1 n=1 ...  362        1e-112
+UniRef90_A0A0D2A728 Non-specific serine/threonine protein kinase ...  359        1e-112
+UniRef90_W5JAH4 Map/microtubule affinity-regulating kinase 2,4 n=...  365        1e-112
+UniRef90_A0A6A6RW30 Non-specific serine/threonine protein kinase ...  359        1e-112
+UniRef90_A0A0C4DQY1 Non-specific serine/threonine protein kinase ...  359        1e-112
+UniRef90_A0A0C3HGJ9 Non-specific serine/threonine protein kinase ...  359        1e-112
+UniRef90_UPI00144AADDA Pkinase-domain-containing protein n=1 Tax=...  360        1e-112
+UniRef90_A0A0A1X4W7 NUAK family SNF1-like kinase 1 (Fragment) n=1...  357        2e-112
+UniRef90_G3J8X6 Non-specific serine/threonine protein kinase n=2 ...  359        2e-112
+UniRef90_A0A0F0IKH3 Non-specific serine/threonine protein kinase ...  359        2e-112
+UniRef90_A0A182X092 Protein kinase domain-containing protein n=2 ...  363        2e-112
+UniRef90_UPI00065B7A86 serine/threonine-protein kinase SIK3 homol...  362        2e-112
+UniRef90_J9FKT6 Non-specific serine/threonine protein kinase n=1 ...  359        2e-112
+UniRef90_A0A421JLT5 Non-specific serine/threonine protein kinase ...  360        2e-112
+UniRef90_A0A420I441 Non-specific serine/threonine protein kinase ...  359        2e-112
+UniRef90_UPI0014828709 serine/threonine-protein kinase SIK3-like ...  360        2e-112
+UniRef90_A0A2J6QNH3 Non-specific serine/threonine protein kinase ...  359        2e-112
+UniRef90_A0A2I2G8K0 Non-specific serine/threonine protein kinase ...  358        3e-112
+UniRef90_A0A2V1A7U0 Non-specific serine/threonine protein kinase ...  361        3e-112
+UniRef90_A0A507BF40 Non-specific serine/threonine protein kinase ...  358        3e-112
+UniRef90_A0A0N8DDU4 Serine/threonine-protein kinase SIK3 n=4 Tax=...  358        3e-112
+UniRef90_A0A1D9QA41 Non-specific serine/threonine protein kinase ...  358        3e-112
+UniRef90_H3F1J9 Major sperm protein n=2 Tax=Pristionchus pacificu...  358        3e-112
+UniRef90_A0A0A1XES8 Serine/threonine-protein kinase SIK2 n=4 Tax=...  358        3e-112
+UniRef90_A0A0A1WJC8 NUAK family SNF1-like kinase 1 n=11 Tax=Dacin...  357        3e-112
+UniRef90_Q2U6S5 Non-specific serine/threonine protein kinase n=8 ...  358        4e-112
+UniRef90_A0A182NPG1 Protein kinase domain-containing protein n=1 ...  363        4e-112
+UniRef90_A0A0B1PD63 Non-specific serine/threonine protein kinase ...  358        4e-112
+UniRef90_UPI0008F9DF20 uncharacterized protein LOC109034582 isofo...  360        5e-112
+UniRef90_A0A484BKN5 Non-specific serine/threonine protein kinase ...  361        6e-112
+UniRef90_A0A058ZC95 Non-specific serine/threonine protein kinase ...  357        6e-112
+UniRef90_A0A6L2QBV5 Uncharacterized protein (Fragment) n=1 Tax=Co...  357        7e-112
+UniRef90_A0A0V1PYV5 Non-specific serine/threonine protein kinase ...  360        7e-112
+UniRef90_J9IUI1 Carbon catabolite derepressing protein kinase, pu...  359        9e-112
+UniRef90_A0A1I8Q486 Protein kinase domain-containing protein n=1 ...  358        9e-112
+UniRef90_A3LVN1 Non-specific serine/threonine protein kinase n=1 ...  360        9e-112
+UniRef90_UPI000C71B083 uncharacterized protein LOC111690869 isofo...  358        1e-111
+UniRef90_L5MIA6 Zinc finger protein 805 n=2 Tax=Myotis davidii Ta...  360        1e-111
+UniRef90_A0A6A4JFP6 Uncharacterized protein n=1 Tax=Apolygus luco...  362        1e-111
+UniRef90_W9CIK2 Non-specific serine/threonine protein kinase n=4 ...  357        1e-111
+UniRef90_A0A154PEE2 Histone-lysine N-methyltransferase eggless n=...  362        1e-111
+UniRef90_Q7KSS0 FI03914p n=4 Tax=Sophophora TaxID=32341 RepID=Q7K...  355        1e-111
+UniRef90_Q5AG71 Serine/threonine-protein kinase HSL1 n=3 Tax=Cand...  359        2e-111
+UniRef90_A0A4Z1E7Z1 Non-specific serine/threonine protein kinase ...  357        2e-111
+UniRef90_B5RUS7 Non-specific serine/threonine protein kinase n=1 ...  360        2e-111
+UniRef90_A0A210PYU4 Non-specific serine/threonine protein kinase ...  357        2e-111
+UniRef90_UPI0006784C2A uncharacterized protein LOC106124547 isofo...  357        2e-111
+UniRef90_A0A075AIG9 Non-specific serine/threonine protein kinase ...  359        3e-111
+UniRef90_UPI00148BC334 serine/threonine-protein kinase par-1 isof...  356        3e-111
+UniRef90_H2AUB8 Protein kinase domain-containing protein n=1 Tax=...  358        3e-111
+UniRef90_C5MIT1 Non-specific serine/threonine protein kinase n=1 ...  358        3e-111
+UniRef90_A0A2V1AVW2 Protein kinase domain-containing protein n=1 ...  360        4e-111
+UniRef90_A0A0P9C6H6 Uncharacterized protein, isoform F n=3 Tax=Dr...  357        5e-111
+UniRef90_A0A218YYR9 Non-specific serine/threonine protein kinase ...  355        5e-111
+UniRef90_A0A182K9G4 Protein kinase domain-containing protein n=1 ...  357        5e-111
+UniRef90_J8Q2S6 Hsl1p n=1 Tax=Saccharomyces arboricola (strain H-...  358        5e-111
+UniRef90_A0A212EZB9 Non-specific serine/threonine protein kinase ...  357        5e-111
+UniRef90_A0A2J6R9I6 Non-specific serine/threonine protein kinase ...  355        6e-111
+UniRef90_A0A559KPT9 Non-specific serine/threonine protein kinase ...  354        6e-111
+UniRef90_UPI0010FAC3EE serine/threonine-protein kinase SIK3 isofo...  355        6e-111
+UniRef90_A0A167VDY2 Non-specific serine/threonine protein kinase ...  355        7e-111
+UniRef90_B4LWC4 Uncharacterized protein, isoform J n=4 Tax=Drosop...  357        8e-111
+UniRef90_UPI000E6E4F22 uncharacterized protein LOC113370108 isofo...  357        8e-111
+UniRef90_H8X903 Non-specific serine/threonine protein kinase n=1 ...  357        9e-111
+UniRef90_A0A653D9E5 Protein kinase domain-containing protein n=1 ...  355        9e-111
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1L9PTT8 Non-specific serine/threonine protein kinase ...  376        7e-119
+UniRef90_D4B0L8 Non-specific serine/threonine protein kinase n=10...  375        2e-118
+UniRef90_E5R0K8 Non-specific serine/threonine protein kinase n=1 ...  374        2e-118
+UniRef90_UPI00144A8ACA BR serine/threonine-protein kinase 2 n=1 T...  372        3e-117
+UniRef90_A0A0I9N4C6 Non-specific serine/threonine protein kinase ...  365        1e-116
+UniRef90_A0A1Q5UMH4 Non-specific serine/threonine protein kinase ...  375        3e-116
+UniRef90_A0A0I9N8C7 Non-specific serine/threonine protein kinase ...  365        3e-116
+UniRef90_A0A4U0V169 Non-specific serine/threonine protein kinase ...  369        4e-116
+UniRef90_E3LIF2 Non-specific serine/threonine protein kinase n=3 ...  367        2e-115
+UniRef90_C5FD05 Non-specific serine/threonine protein kinase n=1 ...  367        2e-115
+UniRef90_G0PHI4 Non-specific serine/threonine protein kinase n=1 ...  368        5e-115
+UniRef90_B6Q2J4 Non-specific serine/threonine protein kinase n=3 ...  366        5e-115
+UniRef90_A0A6G1KU78 Non-specific serine/threonine protein kinase ...  366        5e-115
+UniRef90_F9X867 Non-specific serine/threonine protein kinase n=5 ...  365        6e-115
+UniRef90_A0A1I7YEL1 Non-specific serine/threonine protein kinase ...  367        6e-115
+UniRef90_Q0CGH2 Non-specific serine/threonine protein kinase n=2 ...  365        1e-114
+UniRef90_A0A158RBZ4 Non-specific serine/threonine protein kinase ...  366        1e-114
+UniRef90_A0A1J9Q847 Non-specific serine/threonine protein kinase ...  365        2e-114
+UniRef90_A0A2A6BZY9 Non-specific serine/threonine protein kinase ...  366        2e-114
+UniRef90_A0A158N8J7 Non-specific serine/threonine protein kinase ...  365        2e-114
+UniRef90_A0A4U0TLM2 Non-specific serine/threonine protein kinase ...  364        2e-114
+UniRef90_A0A6A5WYT3 Non-specific serine/threonine protein kinase ...  364        3e-114
+UniRef90_A0A6A6R481 Non-specific serine/threonine protein kinase ...  364        3e-114
+UniRef90_B8M6H2 Non-specific serine/threonine protein kinase n=1 ...  363        3e-114
+UniRef90_A0A0N5A9Z7 Non-specific serine/threonine protein kinase ...  365        4e-114
+UniRef90_A0A0E1S1J9 Non-specific serine/threonine protein kinase ...  363        4e-114
+UniRef90_A0A183UW34 Non-specific serine/threonine protein kinase ...  365        5e-114
+UniRef90_A0A0M3K1X6 Non-specific serine/threonine protein kinase ...  363        5e-114
+UniRef90_A0A1V8U6M9 Non-specific serine/threonine protein kinase ...  365        7e-114
+UniRef90_A0A6A6VW54 Non-specific serine/threonine protein kinase ...  363        9e-114
+UniRef90_A0A1B0BCU1 Protein kinase domain-containing protein n=4 ...  364        9e-114
+UniRef90_A0A183BIJ3 Non-specific serine/threonine protein kinase ...  368        1e-113
+UniRef90_A0A1I7W1I7 Non-specific serine/threonine protein kinase ...  365        1e-113
+UniRef90_M2MT47 Non-specific serine/threonine protein kinase n=1 ...  362        1e-113
+UniRef90_A0A6J2U316 uncharacterized protein LOC115629250 n=1 Tax=...  366        1e-113
+UniRef90_A0A6A5SUZ5 Non-specific serine/threonine protein kinase ...  362        1e-113
+UniRef90_A0A1Q5QAH2 Non-specific serine/threonine protein kinase ...  362        2e-113
+UniRef90_A0A6J0FTN6 serine/threonine-protein kinase par-1 n=4 Tax...  364        2e-113
+UniRef90_C4Y6V8 Non-specific serine/threonine protein kinase n=2 ...  364        2e-113
+UniRef90_Q9W532 FI24002p1 n=8 Tax=melanogaster subgroup TaxID=323...  363        2e-113
+UniRef90_B4NBW7 Protein kinase domain-containing protein n=2 Tax=...  362        3e-113
+UniRef90_G8YLG3 Non-specific serine/threonine protein kinase n=2 ...  365        3e-113
+UniRef90_A0A5E8B910 Non-specific serine/threonine protein kinase ...  365        4e-113
+UniRef90_A0A1E4RH13 Non-specific serine/threonine protein kinase ...  363        4e-113
+UniRef90_Q6FMF3 Protein kinase domain-containing protein n=3 Tax=...  364        4e-113
+UniRef90_N1Q8K2 Non-specific serine/threonine protein kinase (Fra...  361        4e-113
+UniRef90_W6YIB1 Non-specific serine/threonine protein kinase n=3 ...  361        4e-113
+UniRef90_A0A6A5RPP5 Non-specific serine/threonine protein kinase ...  362        5e-113
+UniRef90_A0A6A5KK85 Non-specific serine/threonine protein kinase ...  361        5e-113
+UniRef90_A0A292PS19 Non-specific serine/threonine protein kinase ...  361        5e-113
+UniRef90_A0A6A6AJQ5 Non-specific serine/threonine protein kinase ...  361        6e-113
+UniRef90_W8B381 Serine/threonine-protein kinase SIK2 n=5 Tax=Cera...  360        6e-113
+UniRef90_A0A6G0UVM4 Non-specific serine/threonine protein kinase ...  364        7e-113
+UniRef90_A0A1B7NWI5 Non-specific serine/threonine protein kinase ...  361        7e-113
+UniRef90_A0A6A7BA18 Non-specific serine/threonine protein kinase ...  361        8e-113
+UniRef90_E4ZNE2 Non-specific serine/threonine protein kinase n=1 ...  360        1e-112
+UniRef90_B3MYR1 Protein kinase domain-containing protein n=2 Tax=...  362        1e-112
+UniRef90_F1KPS1 Non-specific serine/threonine protein kinase n=2 ...  365        1e-112
+UniRef90_B4M7T4 Protein kinase domain-containing protein n=2 Tax=...  361        2e-112
+UniRef90_UPI00148D9679 TRAF2 and NCK-interacting protein kinase n...  362        2e-112
+UniRef90_A0A2W1GHK5 Non-specific serine/threonine protein kinase ...  360        2e-112
+UniRef90_M2SPK1 Non-specific serine/threonine protein kinase n=3 ...  359        2e-112
+UniRef90_A0A6A5ZDB1 Non-specific serine/threonine protein kinase ...  360        2e-112
+UniRef90_UPI001472314E serine/threonine-protein kinase KIN2 n=1 T...  361        2e-112
+UniRef90_A0A1B0FNY0 Protein kinase domain-containing protein n=1 ...  364        2e-112
+UniRef90_M3ZL27 Non-specific serine/threonine protein kinase n=5 ...  359        2e-112
+UniRef90_A0A3P8ZSM5 Non-specific serine/threonine protein kinase ...  355        3e-112
+UniRef90_A0A0L0CB31 Protein kinase domain-containing protein n=2 ...  360        3e-112
+UniRef90_A0A1I8MRI6 Protein kinase domain-containing protein n=1 ...  361        3e-112
+UniRef90_UPI0007E6AB79 serine/threonine-protein kinase par-1 n=1 ...  360        6e-112
+UniRef90_UPI0012ABEEE6 serine/threonine-protein kinase SIK3 homol...  358        6e-112
+UniRef90_A0A364NAQ2 Non-specific serine/threonine protein kinase ...  358        6e-112
+UniRef90_R0KE72 Non-specific serine/threonine protein kinase n=1 ...  358        6e-112
+UniRef90_A0A6A6AX34 Non-specific serine/threonine protein kinase ...  358        6e-112
+UniRef90_A0A4P6XQ44 Non-specific serine/threonine protein kinase ...  359        7e-112
+UniRef90_A0A1W4VEP2 serine/threonine-protein kinase par-1 n=1 Tax...  360        7e-112
+UniRef90_A0A2W1BTT5 Protein kinase domain-containing protein n=7 ...  357        7e-112
+UniRef90_A0A672INH6 Non-specific serine/threonine protein kinase ...  357        8e-112
+UniRef90_K0KWK6 Serine/threonine-protein kinase n=1 Tax=Wickerham...  358        8e-112
+UniRef90_A0A5F4CAL3 Non-specific serine/threonine protein kinase ...  359        8e-112
+UniRef90_A0A194RRY1 Serine/threonine-protein kinase SIK2 n=4 Tax=...  357        9e-112
+UniRef90_UPI0015D0433A serine/threonine-protein kinase SIK3 homol...  357        9e-112
+UniRef90_A0A6A5UCY4 Non-specific serine/threonine protein kinase ...  357        1e-111
+UniRef90_A0A437B7Y4 Protein kinase domain-containing protein n=2 ...  357        1e-111
+UniRef90_A0A1E3BJQ3 Non-specific serine/threonine protein kinase ...  356        1e-111
+UniRef90_A0A162VXN2 Non-specific serine/threonine protein kinase ...  357        1e-111
+UniRef90_A0A1E4SYQ4 Protein kinase domain-containing protein n=1 ...  358        2e-111
+UniRef90_A0A1A8GB15 Non-specific serine/threonine protein kinase ...  356        2e-111
+UniRef90_Q4SUX6 Non-specific serine/threonine protein kinase n=1 ...  356        2e-111
+UniRef90_A0A6J2VM88 serine/threonine-protein kinase SIK3 n=1 Tax=...  356        2e-111
+UniRef90_A0A1J1HZ78 CLUMA_CG006874, isoform A n=1 Tax=Clunio mari...  356        2e-111
+UniRef90_G3AFZ0 Non-specific serine/threonine protein kinase n=1 ...  356        2e-111
+UniRef90_B4JM27 GH24405 n=2 Tax=Drosophila grimshawi TaxID=7222 R...  360        2e-111
+UniRef90_A5DM85 Non-specific serine/threonine protein kinase n=3 ...  358        2e-111
+UniRef90_UPI0007403970 serine/threonine-protein kinase SIK3 isofo...  356        2e-111
+UniRef90_Q0ULL3 Non-specific serine/threonine protein kinase n=1 ...  356        2e-111
+UniRef90_A0A6A6J6Z9 Non-specific serine/threonine protein kinase ...  356        2e-111
+UniRef90_A0A177DYY2 Non-specific serine/threonine protein kinase ...  356        3e-111
+UniRef90_A0A669C2A6 Non-specific serine/threonine protein kinase ...  355        3e-111
+UniRef90_A0A2I4AIA2 Non-specific serine/threonine protein kinase ...  356        3e-111
+UniRef90_UPI0010A5A102 serine/threonine-protein kinase SIK3 isofo...  356        3e-111
+UniRef90_UPI0014710B4E serine/threonine-protein kinase SIK3 homol...  356        4e-111
+UniRef90_UPI000E4625EE serine/threonine-protein kinase SIK3 homol...  355        4e-111
+UniRef90_UPI00083F2A23 serine/threonine-protein kinase par-1 isof...  357        4e-111
+UniRef90_A0A6A6XMS0 Non-specific serine/threonine protein kinase ...  356        4e-111
+UniRef90_A0A6A5XXC8 Non-specific serine/threonine protein kinase ...  356        4e-111
+UniRef90_W5M158 Non-specific serine/threonine protein kinase n=3 ...  356        5e-111
+UniRef90_A0A6A6EFQ9 Non-specific serine/threonine protein kinase ...  355        5e-111
+UniRef90_UPI00097CFCB7 serine/threonine-protein kinase SIK3 isofo...  355        5e-111
+UniRef90_UPI0010F6DC49 serine/threonine-protein kinase SIK3 isofo...  355        5e-111
+UniRef90_A0A674CBH1 Non-specific serine/threonine protein kinase ...  355        5e-111
+UniRef90_A0A1S3NRB6 Non-specific serine/threonine protein kinase ...  355        5e-111
+UniRef90_A7TRN0 Protein kinase domain-containing protein n=1 Tax=...  358        6e-111
+UniRef90_A0A6A5VNG8 Non-specific serine/threonine protein kinase ...  355        6e-111
+UniRef90_A0A017SJU0 Non-specific serine/threonine protein kinase ...  354        6e-111
+UniRef90_A0A671XIW3 Non-specific serine/threonine protein kinase ...  356        6e-111
+UniRef90_A0A3Q3BGC5 Non-specific serine/threonine protein kinase ...  355        6e-111
+UniRef90_UPI000E457BB1 serine/threonine-protein kinase SIK3 homol...  355        6e-111
+UniRef90_A0A3Q3FAX0 Non-specific serine/threonine protein kinase ...  355        6e-111
+UniRef90_A0A3Q1JQ25 Non-specific serine/threonine protein kinase ...  355        6e-111
+UniRef90_UPI000B4F100F serine/threonine-protein kinase SIK3 n=2 T...  355        7e-111
+UniRef90_UPI001485EC9D serine/threonine-protein kinase SIK3 homol...  355        7e-111
+UniRef90_A0A1E4TWW0 Protein kinase domain-containing protein n=1 ...  356        7e-111
+UniRef90_A0A4Z2CBH7 Non-specific serine/threonine protein kinase ...  355        8e-111
+UniRef90_UPI00145891FA Hsl1 n=1 Tax=Saccharomyces paradoxus TaxID...  358        8e-111
+UniRef90_M3JYI7 Non-specific serine/threonine protein kinase n=1 ...  357        8e-111
+UniRef90_H2SAW2 Non-specific serine/threonine protein kinase n=5 ...  355        8e-111
+UniRef90_B4L2K1 Protein kinase domain-containing protein n=8 Tax=...  357        8e-111
+UniRef90_A0A1I8NCR9 Non-specific serine/threonine protein kinase ...  357        8e-111
+UniRef90_UPI001131A2B6 serine/threonine-protein kinase SIK3 homol...  354        8e-111
+UniRef90_A0A6A4SID8 Non-specific serine/threonine protein kinase ...  355        8e-111
+UniRef90_F2Z648 KLLA0F13552p n=3 Tax=Kluyveromyces lactis TaxID=2...  355        9e-111
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.179    0.619    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0547    0.140     1.90     42.6     43.6 
+
+Effective search space used: 643084541092
+Results from round 3
+
+
+Query= sp|Q96GD4-2|AURKB_HUMAN Isoform 2 of Aurora kinase B OS=Homo sapiens
+OX=9606 GN=AURKB
+
+Length=312
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI00159767A0 uncharacterized protein n=1 Tax=Talaromyce...  529        4e-177
+UniRef90_S7ZCS7 Non-specific serine/threonine protein kinase n=1 ...  528        7e-177
+UniRef90_A0A1L9S7H4 Non-specific serine/threonine protein kinase ...  528        1e-176
+UniRef90_A0A0F4YIV7 Non-specific serine/threonine protein kinase ...  526        9e-176
+UniRef90_A6R0M5 Non-specific serine/threonine protein kinase n=4 ...  523        3e-175
+UniRef90_A0A3D8RF00 Non-specific serine/threonine protein kinase ...  524        3e-175
+UniRef90_A0A0U1LS45 Non-specific serine/threonine protein kinase ...  529        4e-175
+UniRef90_A0A117NS92 Non-specific serine/threonine protein kinase ...  524        5e-175
+UniRef90_A0A2B7Z0L8 Non-specific serine/threonine protein kinase ...  524        5e-175
+UniRef90_A0A1V6UV90 Non-specific serine/threonine protein kinase ...  524        5e-175
+UniRef90_A0A1V6Y9W2 Non-specific serine/threonine protein kinase ...  523        5e-175
+UniRef90_W6PTY0 Non-specific serine/threonine protein kinase n=1 ...  523        6e-175
+UniRef90_B6HW35 Non-specific serine/threonine protein kinase n=6 ...  523        1e-174
+UniRef90_A0A2B7XI94 Non-specific serine/threonine protein kinase ...  524        1e-174
+UniRef90_A0A135LZL3 Non-specific serine/threonine protein kinase ...  522        1e-174
+UniRef90_A0A179TYW2 Non-specific serine/threonine protein kinase ...  523        3e-174
+UniRef90_A0A1V6SVX7 Non-specific serine/threonine protein kinase ...  521        4e-174
+UniRef90_A0A2J5HWB5 Non-specific serine/threonine protein kinase ...  521        4e-174
+UniRef90_A0A0F7TSQ4 Non-specific serine/threonine protein kinase ...  521        5e-174
+UniRef90_D4B0L8 Non-specific serine/threonine protein kinase n=10...  520        8e-174
+UniRef90_A0A1V6RY57 Non-specific serine/threonine protein kinase ...  520        1e-173
+UniRef90_K9G068 Non-specific serine/threonine protein kinase n=2 ...  520        2e-173
+UniRef90_Q4WCS9 Non-specific serine/threonine protein kinase n=9 ...  520        2e-173
+UniRef90_A1CMT8 Non-specific serine/threonine protein kinase n=1 ...  520        2e-173
+UniRef90_Q5ASN7 Non-specific serine/threonine protein kinase n=1 ...  523        2e-173
+UniRef90_E5R0K8 Non-specific serine/threonine protein kinase n=1 ...  519        2e-173
+UniRef90_A0A1V6Q3D6 Non-specific serine/threonine protein kinase ...  519        5e-173
+UniRef90_A0A2H3IU84 Non-specific serine/threonine protein kinase ...  518        6e-173
+UniRef90_Q0CGH2 Non-specific serine/threonine protein kinase n=2 ...  518        8e-173
+UniRef90_C1H670 Non-specific serine/threonine protein kinase n=5 ...  519        8e-173
+UniRef90_A0A1F5L6S3 Non-specific serine/threonine protein kinase ...  518        1e-172
+UniRef90_A0A2B7Z9R5 Non-specific serine/threonine protein kinase ...  518        2e-172
+UniRef90_A0A1L9PTT8 Non-specific serine/threonine protein kinase ...  515        6e-172
+UniRef90_A0A1V6PFD8 Non-specific serine/threonine protein kinase ...  514        1e-171
+UniRef90_UPI00144A8ACA BR serine/threonine-protein kinase 2 n=1 T...  514        2e-171
+UniRef90_A0A0F8TXD6 Non-specific serine/threonine protein kinase ...  514        2e-171
+UniRef90_A0A443HYJ1 Non-specific serine/threonine protein kinase ...  514        2e-171
+UniRef90_C5FD05 Non-specific serine/threonine protein kinase n=1 ...  513        3e-171
+UniRef90_W9WM65 Non-specific serine/threonine protein kinase n=2 ...  513        5e-171
+UniRef90_B6Q2J4 Non-specific serine/threonine protein kinase n=3 ...  513        7e-171
+UniRef90_A0A0J9ET01 Non-specific serine/threonine protein kinase ...  527        9e-171
+UniRef90_A0A1Q5QAH2 Non-specific serine/threonine protein kinase ...  513        1e-170
+UniRef90_B8M6H2 Non-specific serine/threonine protein kinase n=1 ...  511        2e-170
+UniRef90_A0A0D2GBR2 Non-specific serine/threonine protein kinase ...  511        3e-170
+UniRef90_A0A319DLR2 Non-specific serine/threonine protein kinase ...  510        2e-169
+UniRef90_A0A178ZP55 Non-specific serine/threonine protein kinase ...  509        2e-169
+UniRef90_A0A0D2J1C1 Non-specific serine/threonine protein kinase ...  509        2e-169
+UniRef90_A0A1J9Q847 Non-specific serine/threonine protein kinase ...  510        2e-169
+UniRef90_W9W2T1 Non-specific serine/threonine protein kinase n=4 ...  508        3e-169
+UniRef90_A0A5N5X8Q0 Non-specific serine/threonine protein kinase ...  508        3e-169
+UniRef90_A0A1Q5UMH4 Non-specific serine/threonine protein kinase ...  523        4e-169
+UniRef90_A0A395GPF7 Non-specific serine/threonine protein kinase ...  507        1e-168
+UniRef90_W9YFU0 Non-specific serine/threonine protein kinase n=1 ...  507        1e-168
+UniRef90_A0A0E1S1J9 Non-specific serine/threonine protein kinase ...  506        2e-168
+UniRef90_A0A0D2AR96 Non-specific serine/threonine protein kinase ...  507        2e-168
+UniRef90_A0A1R3RG43 Non-specific serine/threonine protein kinase ...  509        4e-168
+UniRef90_A0A317WVY6 Non-specific serine/threonine protein kinase ...  506        5e-168
+UniRef90_A0A319EH15 Non-specific serine/threonine protein kinase ...  506        5e-168
+UniRef90_A0A318ZNA2 Non-specific serine/threonine protein kinase ...  505        5e-168
+UniRef90_A0A2I2G8K0 Non-specific serine/threonine protein kinase ...  505        9e-168
+UniRef90_A0A1B7NWI5 Non-specific serine/threonine protein kinase ...  506        9e-168
+UniRef90_A0A0D2E977 Non-specific serine/threonine protein kinase ...  503        4e-167
+UniRef90_A0A1L9X0R8 Non-specific serine/threonine protein kinase ...  503        4e-167
+UniRef90_A0A5N6FE03 Non-specific serine/threonine protein kinase ...  502        2e-166
+UniRef90_U1HYY0 Non-specific serine/threonine protein kinase n=1 ...  501        5e-166
+UniRef90_A0A3M7P031 Non-specific serine/threonine protein kinase ...  499        6e-166
+UniRef90_W9Y8K1 Non-specific serine/threonine protein kinase n=1 ...  500        8e-166
+UniRef90_A0A5N6TMG4 Non-specific serine/threonine protein kinase ...  501        2e-165
+UniRef90_H6BML4 Non-specific serine/threonine protein kinase n=1 ...  498        4e-165
+UniRef90_A0A5N6YTI2 Non-specific serine/threonine protein kinase ...  497        6e-165
+UniRef90_A0A0D2A728 Non-specific serine/threonine protein kinase ...  497        8e-165
+UniRef90_A0A395HUA7 Non-specific serine/threonine protein kinase ...  496        2e-164
+UniRef90_A0A5N6UFJ8 Non-specific serine/threonine protein kinase ...  496        2e-164
+UniRef90_A0A0D2BLH9 Protein kinase domain-containing protein n=1 ...  500        5e-164
+UniRef90_A0A017SJU0 Non-specific serine/threonine protein kinase ...  493        1e-163
+UniRef90_A0A094DDY5 Non-specific serine/threonine protein kinase ...  493        4e-163
+UniRef90_A0A1E3BJQ3 Non-specific serine/threonine protein kinase ...  491        2e-162
+UniRef90_A0A094BXT9 Non-specific serine/threonine protein kinase ...  491        2e-162
+UniRef90_A0A094HWJ7 Non-specific serine/threonine protein kinase ...  490        4e-162
+UniRef90_A0A0L1IPR2 Non-specific serine/threonine protein kinase ...  489        4e-162
+UniRef90_A0A1B8GPD7 Non-specific serine/threonine protein kinase ...  490        5e-162
+UniRef90_A0A093XM11 Non-specific serine/threonine protein kinase ...  490        6e-162
+UniRef90_A0A0F0IKH3 Non-specific serine/threonine protein kinase ...  489        2e-161
+UniRef90_A0A5N7AY44 Non-specific serine/threonine protein kinase ...  487        2e-161
+UniRef90_Q2U6S5 Non-specific serine/threonine protein kinase n=8 ...  487        7e-161
+UniRef90_A0A094A975 Non-specific serine/threonine protein kinase ...  487        9e-161
+UniRef90_A0A094AP80 Non-specific serine/threonine protein kinase ...  486        1e-160
+UniRef90_W0TYM1 Non-specific serine/threonine protein kinase n=3 ...  485        2e-160
+UniRef90_A0A6A6J591 Non-specific serine/threonine protein kinase ...  486        4e-160
+UniRef90_A0A1E3QW80 Non-specific serine/threonine protein kinase ...  488        6e-160
+UniRef90_A0A3E2GWW9 Non-specific serine/threonine protein kinase ...  482        7e-159
+UniRef90_A0A5E8B910 Non-specific serine/threonine protein kinase ...  490        7e-159
+UniRef90_K0KWK6 Serine/threonine-protein kinase n=1 Tax=Wickerham...  483        8e-159
+UniRef90_A0A2V1DM93 Non-specific serine/threonine protein kinase ...  482        9e-159
+UniRef90_A0A2T3B613 Non-specific serine/threonine protein kinase ...  481        1e-158
+UniRef90_G0V6N9 Protein kinase domain-containing protein n=1 Tax=...  484        4e-158
+UniRef90_A0A3D8S1A9 Non-specific serine/threonine protein kinase ...  479        9e-158
+UniRef90_A0A370TP59 Non-specific serine/threonine protein kinase ...  479        1e-157
+UniRef90_A0A6A6PHK9 Non-specific serine/threonine protein kinase ...  477        2e-157
+UniRef90_A0A512U7L3 Non-specific serine/threonine protein kinase ...  480        4e-157
+UniRef90_A0A1E4RH13 Non-specific serine/threonine protein kinase ...  480        7e-157
+UniRef90_A0A6A6R481 Non-specific serine/threonine protein kinase ...  476        8e-157
+UniRef90_UPI00144AADDA Pkinase-domain-containing protein n=1 Tax=...  477        9e-157
+UniRef90_A0A1E4TWW0 Protein kinase domain-containing protein n=1 ...  477        1e-156
+UniRef90_J8Q2S6 Hsl1p n=1 Tax=Saccharomyces arboricola (strain H-...  481        1e-156
+UniRef90_A0A6A5SUZ5 Non-specific serine/threonine protein kinase ...  476        1e-156
+UniRef90_A0A364NAQ2 Non-specific serine/threonine protein kinase ...  476        2e-156
+UniRef90_A0A2W1GHK5 Non-specific serine/threonine protein kinase ...  476        2e-156
+UniRef90_A0A0C3HGJ9 Non-specific serine/threonine protein kinase ...  475        2e-156
+UniRef90_A0A6A6AJQ5 Non-specific serine/threonine protein kinase ...  476        2e-156
+UniRef90_Q6FMF3 Protein kinase domain-containing protein n=3 Tax=...  480        3e-156
+UniRef90_R0KE72 Non-specific serine/threonine protein kinase n=1 ...  476        3e-156
+UniRef90_C4Y6V8 Non-specific serine/threonine protein kinase n=2 ...  478        3e-156
+UniRef90_E4ZNE2 Non-specific serine/threonine protein kinase n=1 ...  476        4e-156
+UniRef90_A0A1D2VDG3 Non-specific serine/threonine protein kinase ...  480        4e-156
+UniRef90_UPI00145891FA Hsl1 n=1 Tax=Saccharomyces paradoxus TaxID...  480        5e-156
+UniRef90_A0A4P6XQ44 Non-specific serine/threonine protein kinase ...  477        6e-156
+UniRef90_H2AUB8 Protein kinase domain-containing protein n=1 Tax=...  478        6e-156
+UniRef90_G3APT1 Non-specific serine/threonine protein kinase n=1 ...  478        7e-156
+UniRef90_A0A1E4SYQ4 Protein kinase domain-containing protein n=1 ...  476        7e-156
+UniRef90_A5E3E1 Non-specific serine/threonine protein kinase n=1 ...  481        8e-156
+UniRef90_A3LVN1 Non-specific serine/threonine protein kinase n=1 ...  478        9e-156
+UniRef90_P34244 Probable serine/threonine-protein kinase HSL1 n=1...  479        1e-155
+UniRef90_A0A421JLT5 Non-specific serine/threonine protein kinase ...  476        2e-155
+UniRef90_A0A6A6CYT0 Non-specific serine/threonine protein kinase ...  473        2e-155
+UniRef90_A0A545A1Y5 Non-specific serine/threonine protein kinase ...  473        2e-155
+UniRef90_A0A6A7BA18 Non-specific serine/threonine protein kinase ...  474        2e-155
+UniRef90_A0A0V1PYV5 Non-specific serine/threonine protein kinase ...  478        2e-155
+UniRef90_A0A6A5UCY4 Non-specific serine/threonine protein kinase ...  473        2e-155
+UniRef90_A0A6A5KK85 Non-specific serine/threonine protein kinase ...  473        2e-155
+UniRef90_A0A6A5RPP5 Non-specific serine/threonine protein kinase ...  474        2e-155
+UniRef90_S3DGH7 Non-specific serine/threonine protein kinase n=1 ...  472        2e-155
+UniRef90_Q5AG71 Serine/threonine-protein kinase HSL1 n=3 Tax=Cand...  476        3e-155
+UniRef90_A0A2J6QNH3 Non-specific serine/threonine protein kinase ...  472        3e-155
+UniRef90_A0A420IDJ2 Non-specific serine/threonine protein kinase ...  472        4e-155
+UniRef90_W6YIB1 Non-specific serine/threonine protein kinase n=3 ...  472        4e-155
+UniRef90_A7TRN0 Protein kinase domain-containing protein n=1 Tax=...  477        5e-155
+UniRef90_A0A0L8RFK5 HSL1-like protein n=1 Tax=Saccharomyces eubay...  477        5e-155
+UniRef90_A0A1A0HHN1 Non-specific serine/threonine protein kinase ...  474        5e-155
+UniRef90_B5RUS7 Non-specific serine/threonine protein kinase n=1 ...  477        6e-155
+UniRef90_A0A292PS19 Non-specific serine/threonine protein kinase ...  472        6e-155
+UniRef90_M2SPK1 Non-specific serine/threonine protein kinase n=3 ...  471        7e-155
+UniRef90_A0A2V1A7U0 Non-specific serine/threonine protein kinase ...  475        7e-155
+UniRef90_Q6BPF2 Non-specific serine/threonine protein kinase n=2 ...  472        8e-155
+UniRef90_H8X903 Non-specific serine/threonine protein kinase n=1 ...  474        9e-155
+UniRef90_A0A177DYY2 Non-specific serine/threonine protein kinase ...  471        9e-155
+UniRef90_A5DM85 Non-specific serine/threonine protein kinase n=3 ...  474        9e-155
+UniRef90_G8B6E2 Non-specific serine/threonine protein kinase n=1 ...  475        2e-154
+UniRef90_G3AFZ0 Non-specific serine/threonine protein kinase n=1 ...  470        2e-154
+UniRef90_A0A6A6EFQ9 Non-specific serine/threonine protein kinase ...  470        3e-154
+UniRef90_A5DJ54 Non-specific serine/threonine protein kinase n=3 ...  470        3e-154
+UniRef90_J5PW88 HSL1-like protein n=1 Tax=Saccharomyces kudriavze...  475        3e-154
+UniRef90_C5MIT1 Non-specific serine/threonine protein kinase n=1 ...  473        4e-154
+UniRef90_A0A162VXN2 Non-specific serine/threonine protein kinase ...  470        4e-154
+UniRef90_A0A0P1KLR2 LAQU0S01e11188g1_1 n=1 Tax=Lachancea quebecen...  469        4e-154
+UniRef90_F2Z648 KLLA0F13552p n=3 Tax=Kluyveromyces lactis TaxID=2...  469        5e-154
+UniRef90_M3JYI7 Non-specific serine/threonine protein kinase n=1 ...  473        6e-154
+UniRef90_A3LNK1 Non-specific serine/threonine protein kinase n=1 ...  469        6e-154
+UniRef90_A0A367YII1 Non-specific serine/threonine protein kinase ...  472        6e-154
+UniRef90_A0A1E4SGN8 Non-specific serine/threonine protein kinase ...  474        6e-154
+UniRef90_G8YLG3 Non-specific serine/threonine protein kinase n=2 ...  474        6e-154
+UniRef90_A0A6A6T5W1 Non-specific serine/threonine protein kinase ...  469        6e-154
+UniRef90_A0A6A5WYT3 Non-specific serine/threonine protein kinase ...  469        7e-154
+UniRef90_A0A177CBH3 Non-specific serine/threonine protein kinase ...  469        8e-154
+UniRef90_A0A1E4SH03 Non-specific serine/threonine protein kinase ...  472        1e-153
+UniRef90_W0T5B8 Probable serine/threonine-protein kinase HSL1 n=1...  469        1e-153
+UniRef90_A0A6A6J6Z9 Non-specific serine/threonine protein kinase ...  468        1e-153
+UniRef90_A0A0L0P015 Non-specific serine/threonine protein kinase ...  468        1e-153
+UniRef90_A0A421JN94 Non-specific serine/threonine protein kinase ...  467        1e-153
+UniRef90_A0A6A6VW54 Non-specific serine/threonine protein kinase ...  468        2e-153
+UniRef90_A0A1X7R068 Similar to Saccharomyces cerevisiae YKL101W H...  472        2e-153
+UniRef90_Q0ULL3 Non-specific serine/threonine protein kinase n=1 ...  467        2e-153
+UniRef90_A0A1Q3AIF8 Protein kinase domain-containing protein n=1 ...  474        2e-153
+UniRef90_G8ZLU3 Protein kinase domain-containing protein n=1 Tax=...  469        3e-153
+UniRef90_A0A6A6AX34 Non-specific serine/threonine protein kinase ...  467        3e-153
+UniRef90_A0A2P7YTE9 Non-specific serine/threonine protein kinase ...  467        3e-153
+UniRef90_A0A397GKP3 Non-specific serine/threonine protein kinase ...  467        4e-153
+UniRef90_A0A4C2EBK8 Protein kinase domain-containing protein n=1 ...  473        4e-153
+UniRef90_A0A6A6RW30 Non-specific serine/threonine protein kinase ...  466        5e-153
+UniRef90_A0A2T2NUH4 Non-specific serine/threonine protein kinase ...  466        5e-153
+UniRef90_A0A1Z5T9S3 Non-specific serine/threonine protein kinase ...  466        7e-153
+UniRef90_A0A1A0HG23 Non-specific serine/threonine protein kinase ...  467        7e-153
+UniRef90_A0A0B1PD63 Non-specific serine/threonine protein kinase ...  466        8e-153
+UniRef90_H8WWX2 Non-specific serine/threonine protein kinase n=1 ...  467        9e-153
+UniRef90_A0A2V1AV33 Non-specific serine/threonine protein kinase ...  466        1e-152
+UniRef90_A0A1W5CRF8 Non-specific serine/threonine protein kinase ...  468        1e-152
+UniRef90_A0A1S7HXG0 HSL1 (YKL101W) n=3 Tax=Zygosaccharomyces TaxI...  473        1e-152
+UniRef90_A5DU66 Non-specific serine/threonine protein kinase n=1 ...  468        1e-152
+UniRef90_Q75DQ1 ABL034Wp n=1 Tax=Ashbya gossypii (strain ATCC 108...  469        1e-152
+UniRef90_A0A420I441 Non-specific serine/threonine protein kinase ...  466        1e-152
+UniRef90_G8BD06 Non-specific serine/threonine protein kinase n=1 ...  467        1e-152
+UniRef90_R9XAK1 AaceriABL034Wp n=1 Tax=Ashbya aceri TaxID=566037 ...  469        1e-152
+UniRef90_G8Y2G3 Non-specific serine/threonine protein kinase n=2 ...  465        1e-152
+UniRef90_A0A367XS78 Non-specific serine/threonine protein kinase ...  467        1e-152
+UniRef90_A0A1E5RHB3 Putative serine/threonine-protein kinase HSL1...  473        1e-152
+UniRef90_A0A6A5XXC8 Non-specific serine/threonine protein kinase ...  466        2e-152
+UniRef90_A0A559MK48 Non-specific serine/threonine protein kinase ...  464        2e-152
+UniRef90_A0A120K0Z8 HBL033Wp n=1 Tax=Eremothecium sinecaudum TaxI...  466        2e-152
+UniRef90_A0A178E2K9 Non-specific serine/threonine protein kinase ...  466        2e-152
+UniRef90_Q59W62 Serine/threonine-protein kinase GIN4 n=3 Tax=Cand...  466        2e-152
+UniRef90_I2H8S3 Protein kinase domain-containing protein n=1 Tax=...  473        2e-152
+UniRef90_A0A0A8LD05 WGS project CCBQ000000000 data, contig 00010 ...  465        3e-152
+UniRef90_A0A1Y2M1P1 Non-specific serine/threonine protein kinase ...  465        3e-152
+UniRef90_A0A2J6R9I6 Non-specific serine/threonine protein kinase ...  464        3e-152
+UniRef90_A0A6A5ZDB1 Non-specific serine/threonine protein kinase ...  465        3e-152
+UniRef90_A0A0L0P250 Non-specific serine/threonine protein kinase ...  468        4e-152
+UniRef90_A0A4P9ZAI7 Non-specific serine/threonine protein kinase ...  464        4e-152
+UniRef90_A0A6A5VNG8 Non-specific serine/threonine protein kinase ...  465        4e-152
+UniRef90_A0A1E4RFS9 Non-specific serine/threonine protein kinase ...  468        4e-152
+UniRef90_M3IT24 Non-specific serine/threonine protein kinase n=1 ...  466        5e-152
+UniRef90_G3J8X6 Non-specific serine/threonine protein kinase n=2 ...  463        7e-152
+UniRef90_A0A6A6XMS0 Non-specific serine/threonine protein kinase ...  464        8e-152
+UniRef90_A0A512UKT8 Non-specific serine/threonine protein kinase ...  466        8e-152
+UniRef90_C5DZD1 ZYRO0G03366p n=2 Tax=Zygosaccharomyces rouxii Tax...  470        8e-152
+UniRef90_C5MD03 Non-specific serine/threonine protein kinase n=1 ...  465        9e-152
+UniRef90_K2S6Q7 Non-specific serine/threonine protein kinase n=1 ...  464        2e-151
+UniRef90_A0A178AKC3 Non-specific serine/threonine protein kinase ...  463        2e-151
+UniRef90_A0A2V1AVW2 Protein kinase domain-containing protein n=1 ...  476        2e-151
+UniRef90_A0A1L7WFL3 Non-specific serine/threonine protein kinase ...  462        3e-151
+UniRef90_G2R379 Non-specific serine/threonine protein kinase n=2 ...  461        3e-151
+UniRef90_A0A1L0BST5 Non-specific serine/threonine protein kinase ...  461        5e-151
+UniRef90_G7DY48 Protein kinase domain-containing protein n=1 Tax=...  464        6e-151
+UniRef90_G8BW82 Protein kinase domain-containing protein n=1 Tax=...  466        9e-151
+UniRef90_A0A5N5DDH9 Non-specific serine/threonine protein kinase ...  463        9e-151
+UniRef90_A0A507BF40 Non-specific serine/threonine protein kinase ...  460        9e-151
+UniRef90_J7S405 Protein kinase domain-containing protein n=1 Tax=...  464        9e-151
+UniRef90_A0A6A5QQF2 Non-specific serine/threonine protein kinase ...  462        1e-150
+UniRef90_A0A559KPT9 Non-specific serine/threonine protein kinase ...  459        1e-150
+UniRef90_A0A1Y2A925 Non-specific serine/threonine protein kinase ...  461        1e-150
+UniRef90_A0A1V8U6M9 Non-specific serine/threonine protein kinase ...  464        2e-150
+UniRef90_A0A2K0UQP4 Non-specific serine/threonine protein kinase ...  460        2e-150
+UniRef90_A0A165FFY7 Non-specific serine/threonine protein kinase ...  460        2e-150
+UniRef90_A0A4U0V169 Non-specific serine/threonine protein kinase ...  459        2e-150
+UniRef90_A0A1G4MF45 LAFE_0F07558g1_1 n=1 Tax=Lachancea fermentati...  459        3e-150
+UniRef90_A0A1S8BB51 Non-specific serine/threonine protein kinase ...  460        3e-150
+UniRef90_F9X867 Non-specific serine/threonine protein kinase n=5 ...  457        4e-150
+UniRef90_A0A6G1KU78 Non-specific serine/threonine protein kinase ...  459        4e-150
+UniRef90_A0A1D9QA41 Non-specific serine/threonine protein kinase ...  458        5e-150
+UniRef90_A0A218YYR9 Non-specific serine/threonine protein kinase ...  458        6e-150
+UniRef90_A0A0C4DQY1 Non-specific serine/threonine protein kinase ...  458        6e-150
+UniRef90_W9CIK2 Non-specific serine/threonine protein kinase n=4 ...  458        7e-150
+UniRef90_G8JWK3 Protein kinase domain-containing protein n=1 Tax=...  461        9e-150
+UniRef90_A0A4P9Z9N3 Non-specific serine/threonine protein kinase ...  459        1e-149
+UniRef90_A0A3N2PSQ1 Non-specific serine/threonine protein kinase ...  457        1e-149
+UniRef90_A0A1Y2E6U0 Non-specific serine/threonine protein kinase ...  456        2e-149
+UniRef90_A0A642UTA8 Non-specific serine/threonine protein kinase ...  465        3e-149
+UniRef90_A0A166LX54 Non-specific serine/threonine protein kinase ...  456        6e-149
+UniRef90_G2WVY9 Non-specific serine/threonine protein kinase n=8 ...  455        6e-149
+UniRef90_A0A2J6SVC4 Non-specific serine/threonine protein kinase ...  455        8e-149
+UniRef90_A0A4Z1E7Z1 Non-specific serine/threonine protein kinase ...  457        1e-148
+UniRef90_A0A1B7TJ33 Pkinase-domain-containing protein n=1 Tax=Han...  457        1e-148
+UniRef90_A0A2D3USB7 Non-specific serine/threonine protein kinase ...  455        2e-148
+UniRef90_A0A1L9RT99 Non-specific serine/threonine protein kinase ...  454        2e-148
+UniRef90_A0A4U0TLM2 Non-specific serine/threonine protein kinase ...  454        3e-148
+UniRef90_A0A074YRJ7 Non-specific serine/threonine protein kinase ...  453        3e-148
+UniRef90_A0A4P6XM82 Non-specific serine/threonine protein kinase ...  455        3e-148
+UniRef90_A0A167VDY2 Non-specific serine/threonine protein kinase ...  454        4e-148
+UniRef90_K1VQL6 Serine/threonine-protein kinase n=1 Tax=Trichospo...  456        5e-148
+UniRef90_A0A2K3QD97 Malate synthase n=1 Tax=Tolypocladium capitat...  463        8e-148
+UniRef90_A0A1E3QRE0 Non-specific serine/threonine protein kinase ...  455        8e-148
+UniRef90_A0A2K1QGM0 Non-specific serine/threonine protein kinase ...  454        9e-148
+UniRef90_A0A2P7YEV3 Non-specific serine/threonine protein kinase ...  454        1e-147
+UniRef90_M2MT47 Non-specific serine/threonine protein kinase n=1 ...  452        1e-147
+UniRef90_A0A0F2MBF8 Non-specific serine/threonine protein kinase ...  454        1e-147
+UniRef90_A0A6G1HEN6 Non-specific serine/threonine protein kinase ...  455        2e-147
+UniRef90_A0A1E1KL08 Non-specific serine/threonine protein kinase ...  452        2e-147
+UniRef90_A0A316UYV3 Pkinase-domain-containing protein n=1 Tax=Jam...  451        4e-147
+UniRef90_A0A316UEJ8 Pkinase-domain-containing protein n=1 Tax=Pse...  450        4e-147
+UniRef90_UPI000DD182D8 serine/threonine-protein kinase n=1 Tax=Ma...  457        5e-147
+UniRef90_A0A376B6S3 Protein kinase domain-containing protein n=1 ...  459        6e-147
+UniRef90_R7YX76 Non-specific serine/threonine protein kinase n=1 ...  450        9e-147
+UniRef90_N1Q8K2 Non-specific serine/threonine protein kinase (Fra...  449        2e-146
+UniRef90_A0A6G1JGY1 Non-specific serine/threonine protein kinase ...  448        4e-146
+UniRef90_A0A0M9VPP9 Serine threonine-protein kinase n=1 Tax=Malas...  456        4e-146
+UniRef90_A0A6A6HIX7 Non-specific serine/threonine protein kinase ...  449        9e-146
+UniRef90_A0A6A6NSD8 Non-specific serine/threonine protein kinase ...  447        1e-145
+UniRef90_A0A1Z8JJD0 Non-specific serine/threonine protein kinase ...  448        1e-145
+UniRef90_UPI00109FBBBC serine/threonine-protein kinase SIK3 isofo...  447        1e-145
+UniRef90_A0A2N1J8F5 Protein kinase domain-containing protein n=1 ...  455        4e-145
+UniRef90_A0A553IDY3 Non-specific serine/threonine protein kinase ...  445        5e-145
+UniRef90_A0A3G2S3I7 Putative serine/threonine-protein kinase HSL1...  457        6e-145
+UniRef90_A0A6J2BWG1 serine/threonine-protein kinase SIK3 isoform ...  446        6e-145
+UniRef90_A0A2I0RYS2 Non-specific serine/threonine protein kinase ...  445        1e-144
+UniRef90_Q9Y2K2-7 Isoform 3 of Serine/threonine-protein kinase SI...  443        1e-144
+UniRef90_UPI00045E08E2 serine/threonine-protein kinase SIK3 isofo...  444        1e-144
+UniRef90_A0A1E5RH66 Non-specific serine/threonine protein kinase ...  449        2e-144
+UniRef90_N1Q2F3 Non-specific serine/threonine protein kinase n=1 ...  444        2e-144
+UniRef90_A0A2U3E9P1 Malate synthase n=2 Tax=Purpureocillium lilac...  457        2e-144
+UniRef90_A0A6J2BU31 serine/threonine-protein kinase SIK3 isoform ...  446        2e-144
+UniRef90_A0A6J2BRK6 serine/threonine-protein kinase SIK3 isoform ...  446        2e-144
+UniRef90_A0A287D1D7 Non-specific serine/threonine protein kinase ...  444        2e-144
+UniRef90_A0A376B2U2 Non-specific serine/threonine protein kinase ...  450        2e-144
+UniRef90_A0A6G1K6Q3 Non-specific serine/threonine protein kinase ...  444        3e-144
+UniRef90_A0A517L4J9 Non-specific serine/threonine protein kinase ...  443        3e-144
+UniRef90_A0A2K5WWA2 Protein kinase domain-containing protein n=9 ...  442        4e-144
+UniRef90_K9IUS7 Non-specific serine/threonine protein kinase (Fra...  445        4e-144
+UniRef90_UPI0009821E22 serine/threonine-protein kinase SIK3 isofo...  442        6e-144
+UniRef90_A0A5F9DI78 SIK family kinase 3 n=1 Tax=Oryctolagus cunic...  442        6e-144
+UniRef90_A0A667H946 Non-specific serine/threonine protein kinase ...  444        6e-144
+UniRef90_UPI000981CCD4 serine/threonine-protein kinase SIK3 isofo...  442        7e-144
+UniRef90_A0A485NVD5 Serine threonine-protein kinase n=1 Tax=Lynx ...  442        7e-144
+UniRef90_UPI000F4444C0 serine/threonine-protein kinase SIK3 isofo...  442        7e-144
+UniRef90_UPI0015C340BA serine/threonine-protein kinase SIK3 isofo...  443        7e-144
+UniRef90_A0A485P0X0 Serine threonine-protein kinase n=1 Tax=Lynx ...  442        7e-144
+UniRef90_UPI00141B9237 serine/threonine-protein kinase SIK3 isofo...  442        7e-144
+UniRef90_A0A2I3TH17 SIK family kinase 3 n=2 Tax=Pan troglodytes T...  442        8e-144
+UniRef90_UPI00122EBD1E serine/threonine-protein kinase SIK3 isofo...  442        8e-144
+UniRef90_UPI0013631994 serine/threonine-protein kinase SIK3 isofo...  442        9e-144
+UniRef90_UPI000C9E364E serine/threonine-protein kinase SIK3 isofo...  443        9e-144
+UniRef90_A0A672V4S1 Non-specific serine/threonine protein kinase ...  442        9e-144
+UniRef90_A0A3Q7QTX7 Non-specific serine/threonine protein kinase ...  443        9e-144
+UniRef90_UPI000A34230A serine/threonine-protein kinase SIK3 isofo...  442        9e-144
+UniRef90_UPI00122D790B serine/threonine-protein kinase SIK3 isofo...  442        9e-144
+UniRef90_UPI000C2B2AED serine/threonine-protein kinase SIK3 isofo...  442        1e-143
+UniRef90_A0A0D2BD33 Protein kinase domain-containing protein n=1 ...  444        1e-143
+UniRef90_UPI0014420359 serine/threonine-protein kinase SIK3 isofo...  442        1e-143
+UniRef90_UPI00123EA135 serine/threonine-protein kinase SIK3 isofo...  442        1e-143
+UniRef90_F6PH45 Non-specific serine/threonine protein kinase n=1 ...  443        1e-143
+UniRef90_UPI0013A64BBF serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_A0A6J2BU36 serine/threonine-protein kinase SIK3 isoform ...  443        1e-143
+UniRef90_A0A6J3RTV5 serine/threonine-protein kinase SIK3 isoform ...  442        1e-143
+UniRef90_UPI00141AEC70 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI0013647323 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI00045E2083 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI00038C05DB serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI0014583010 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_Q9Y2K2 Serine/threonine-protein kinase SIK3 n=122 Tax=Bo...  443        1e-143
+UniRef90_A0A096N3W3 Non-specific serine/threonine protein kinase ...  443        1e-143
+UniRef90_UPI00141B7F72 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI00045E327D serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_A0A2Y9K644 Non-specific serine/threonine protein kinase ...  443        1e-143
+UniRef90_A0A4X2M2Q1 Non-specific serine/threonine protein kinase ...  442        1e-143
+UniRef90_UPI001363F626 serine/threonine-protein kinase SIK3 isofo...  443        1e-143
+UniRef90_UPI00118719EA serine/threonine-protein kinase SIK3 n=1 T...  443        2e-143
+UniRef90_A0A2I3MZC4 Protein kinase domain-containing protein n=1 ...  443        2e-143
+UniRef90_G1R6X6 Non-specific serine/threonine protein kinase n=18...  442        2e-143
+UniRef90_A0A6J0AP99 serine/threonine-protein kinase SIK3 isoform ...  442        2e-143
+UniRef90_UPI000C2A52F5 serine/threonine-protein kinase SIK3 isofo...  443        2e-143
+UniRef90_UPI000F445034 serine/threonine-protein kinase SIK3 isofo...  442        2e-143
+UniRef90_M5FMX3 Non-specific serine/threonine protein kinase n=7 ...  442        2e-143
+UniRef90_A0A2K5LT46 Non-specific serine/threonine protein kinase ...  443        2e-143
+UniRef90_A0A2Y9MBY7 Non-specific serine/threonine protein kinase ...  441        2e-143
+UniRef90_A0A0D9S3A5 Non-specific serine/threonine protein kinase ...  442        2e-143
+UniRef90_UPI00112B5988 LOW QUALITY PROTEIN: serine/threonine-prot...  443        2e-143
+UniRef90_UPI000C9E64F8 serine/threonine-protein kinase SIK3 isofo...  443        2e-143
+UniRef90_A0A672V8G4 Non-specific serine/threonine protein kinase ...  442        2e-143
+UniRef90_UPI0014028063 serine/threonine-protein kinase SIK3-like ...  444        2e-143
+UniRef90_UPI00122F2F44 serine/threonine-protein kinase SIK3 isofo...  442        2e-143
+UniRef90_A0A1U8BMD2 Non-specific serine/threonine protein kinase ...  442        2e-143
+UniRef90_G0W9X8 Protein kinase domain-containing protein n=1 Tax=...  446        2e-143
+UniRef90_UPI0012634215 LOW QUALITY PROTEIN: serine/threonine-prot...  443        2e-143
+UniRef90_A0A2K5LT29 Non-specific serine/threonine protein kinase ...  442        2e-143
+UniRef90_M0RD40 Non-specific serine/threonine protein kinase n=4 ...  442        2e-143
+UniRef90_A0A2K6KC99 Protein kinase domain-containing protein n=2 ...  441        2e-143
+UniRef90_UPI0014427188 serine/threonine-protein kinase SIK3 isofo...  442        2e-143
+UniRef90_UPI00034F8352 serine/threonine-protein kinase SIK3 isofo...  442        2e-143
+UniRef90_A8PTT8 Protein kinase domain-containing protein n=1 Tax=...  450        2e-143
+UniRef90_F1MXE2 Non-specific serine/threonine protein kinase n=8 ...  443        2e-143
+UniRef90_I2GWK3 Non-specific serine/threonine protein kinase n=1 ...  444        3e-143
+UniRef90_UPI0011B08063 serine/threonine-protein kinase SIK3 isofo...  443        3e-143
+UniRef90_A0A2U4BW37 serine/threonine-protein kinase SIK3 isoform ...  442        3e-143
+UniRef90_A0A455C8Z9 Non-specific serine/threonine protein kinase ...  440        3e-143
+UniRef90_A0A6J1XIR4 serine/threonine-protein kinase SIK3 isoform ...  443        3e-143
+UniRef90_UPI000F43EBA1 serine/threonine-protein kinase SIK3 isofo...  442        3e-143
+UniRef90_UPI0013960357 serine/threonine-protein kinase SIK3 isofo...  443        3e-143
+UniRef90_A0A4X1T110 Non-specific serine/threonine protein kinase ...  444        3e-143
+UniRef90_UPI00141AB8F8 serine/threonine-protein kinase SIK3 isofo...  442        3e-143
+UniRef90_UPI00122EB845 serine/threonine-protein kinase SIK3 isofo...  441        3e-143
+UniRef90_UPI00109F146C serine/threonine-protein kinase SIK3 n=2 T...  443        4e-143
+UniRef90_A0A3Q7R3U6 Non-specific serine/threonine protein kinase ...  442        4e-143
+UniRef90_A0A401PJA0 Uncharacterized protein (Fragment) n=2 Tax=Ga...  445        4e-143
+UniRef90_M3XH38 Non-specific serine/threonine protein kinase n=2 ...  442        4e-143
+UniRef90_UPI000C29A406 serine/threonine-protein kinase SIK3 isofo...  442        4e-143
+UniRef90_UPI001301D8C6 serine/threonine-protein kinase SIK3 isofo...  443        4e-143
+UniRef90_UPI0014412E49 serine/threonine-protein kinase SIK3 isofo...  441        4e-143
+UniRef90_F7D2T0 Non-specific serine/threonine protein kinase n=3 ...  440        4e-143
+UniRef90_UPI0013A6848D serine/threonine-protein kinase SIK3 isofo...  442        4e-143
+UniRef90_A0A3Q7X4K2 Non-specific serine/threonine protein kinase ...  442        4e-143
+UniRef90_A0A2Y9M1K5 Non-specific serine/threonine protein kinase ...  441        4e-143
+UniRef90_A0A3Q7WIR7 Non-specific serine/threonine protein kinase ...  442        4e-143
+UniRef90_Q6P4S6 Serine/threonine-protein kinase SIK3 n=5 Tax=Mus ...  441        4e-143
+UniRef90_A0A2R9B949 Protein kinase domain-containing protein n=2 ...  438        4e-143
+UniRef90_A0A1D5PLF0 Non-specific serine/threonine protein kinase ...  441        5e-143
+UniRef90_UPI001261BCC6 serine/threonine-protein kinase SIK3 isofo...  442        5e-143
+UniRef90_UPI00098A4F78 LOW QUALITY PROTEIN: serine/threonine-prot...  441        5e-143
+UniRef90_A0A2U4BW92 serine/threonine-protein kinase SIK3 isoform ...  441        5e-143
+UniRef90_UPI0015C3B2F8 serine/threonine-protein kinase SIK3 isofo...  441        5e-143
+UniRef90_UPI000980DEA7 serine/threonine-protein kinase SIK3 isofo...  442        5e-143
+UniRef90_UPI00083F010C serine/threonine-protein kinase SIK3 isofo...  442        5e-143
+UniRef90_UPI00141AC4A8 serine/threonine-protein kinase SIK3 isofo...  442        6e-143
+UniRef90_H0XJS9 Non-specific serine/threonine protein kinase n=3 ...  442        6e-143
+UniRef90_UPI000B4F505A serine/threonine-protein kinase SIK3 isofo...  442        6e-143
+UniRef90_A0A2I3MA41 Non-specific serine/threonine protein kinase ...  442        6e-143
+UniRef90_H0YPG4 Non-specific serine/threonine protein kinase n=7 ...  442        6e-143
+UniRef90_UPI000F73F951 LOW QUALITY PROTEIN: serine/threonine-prot...  442        6e-143
+UniRef90_UPI000F43F286 serine/threonine-protein kinase SIK3 isofo...  442        6e-143
+UniRef90_A0A2Y9TDR2 Non-specific serine/threonine protein kinase ...  441        6e-143
+UniRef90_A0A2K5F671 Protein kinase domain-containing protein n=13...  438        7e-143
+UniRef90_UPI00122FA59F serine/threonine-protein kinase SIK3 isofo...  442        7e-143
+UniRef90_A0A3Q2LD43 Non-specific serine/threonine protein kinase ...  442        8e-143
+UniRef90_A0A1M8A4U3 Similar to S.cerevisiae protein HSL1 (Nim1p-r...  447        8e-143
+UniRef90_UPI0010F6295D serine/threonine-protein kinase SIK3 isofo...  440        8e-143
+UniRef90_UPI0002BCDF90 serine/threonine-protein kinase SIK3 isofo...  442        8e-143
+UniRef90_A0A0K8TXA8 NUAK family SNF1-like kinase 1 (Fragment) n=6...  418        9e-143
+UniRef90_A0A1B7TCF4 Non-specific serine/threonine protein kinase ...  442        9e-143
+UniRef90_A0A1E5S0R8 Non-specific serine/threonine protein kinase ...  440        1e-142
+UniRef90_A0A3M0ISU9 Non-specific serine/threonine protein kinase ...  441        1e-142
+UniRef90_A0A2U4BW87 serine/threonine-protein kinase SIK3 isoform ...  441        1e-142
+UniRef90_F7BZ47 Non-specific serine/threonine protein kinase n=7 ...  439        1e-142
+UniRef90_A0A2Y9T7R3 Non-specific serine/threonine protein kinase ...  440        1e-142
+UniRef90_UPI00080A51F3 serine/threonine-protein kinase SIK3 isofo...  441        1e-142
+UniRef90_UPI0013F31C09 LOW QUALITY PROTEIN: serine/threonine-prot...  441        1e-142
+UniRef90_A0A1E5RX42 Non-specific serine/threonine protein kinase ...  439        1e-142
+UniRef90_A0A670K2B5 Non-specific serine/threonine protein kinase ...  440        1e-142
+UniRef90_G1T0X7 Non-specific serine/threonine protein kinase n=23...  442        1e-142
+UniRef90_A0A1D5Q6B4 Non-specific serine/threonine protein kinase ...  442        1e-142
+UniRef90_UPI0004ED4E0B serine/threonine-protein kinase SIK3 isofo...  442        1e-142
+UniRef90_A0A2K5S7R6 Non-specific serine/threonine protein kinase ...  440        1e-142
+UniRef90_UPI0013CE74D5 LOW QUALITY PROTEIN: serine/threonine-prot...  440        1e-142
+UniRef90_A0A1E4T0P3 Non-specific serine/threonine protein kinase ...  440        2e-142
+UniRef90_F6TUU1 Non-specific serine/threonine protein kinase n=6 ...  442        2e-142
+UniRef90_UPI000A314A0C serine/threonine-protein kinase SIK3 isofo...  441        2e-142
+UniRef90_H0VR21 SIK family kinase 3 n=5 Tax=Cavia porcellus TaxID...  439        2e-142
+UniRef90_UPI0010F7C8F6 serine/threonine-protein kinase SIK3 isofo...  441        2e-142
+UniRef90_A0A1D5P171 Non-specific serine/threonine protein kinase ...  440        2e-142
+UniRef90_UPI000981037B serine/threonine-protein kinase SIK3 isofo...  440        2e-142
+UniRef90_A0A6G1BDY6 SIK3 kinase (Fragment) n=2 Tax=Carnivora TaxI...  439        2e-142
+UniRef90_A0A2K6QXI0 SIK family kinase 3 n=1 Tax=Rhinopithecus rox...  439        2e-142
+UniRef90_A0A671EIX6 Non-specific serine/threonine protein kinase ...  440        2e-142
+UniRef90_A0A2Y9TFM5 Non-specific serine/threonine protein kinase ...  440        2e-142
+UniRef90_A0A2K5LT47 Uncharacterized protein n=1 Tax=Cercocebus at...  439        3e-142
+UniRef90_UPI0014862A3B serine/threonine-protein kinase SIK3 isofo...  440        3e-142
+UniRef90_G1LPX7 Non-specific serine/threonine protein kinase n=8 ...  439        3e-142
+UniRef90_W5NYW2 Uncharacterized protein n=14 Tax=Pecora TaxID=355...  439        4e-142
+UniRef90_UPI0003332826 serine/threonine-protein kinase SIK3 isofo...  439        4e-142
+UniRef90_F1PG01 SIK family kinase 3 n=13 Tax=Caniformia TaxID=379...  438        4e-142
+UniRef90_A0A2K6QXI6 SIK family kinase 3 n=2 Tax=Rhinopithecus rox...  439        4e-142
+UniRef90_A0A4Z1NK80 Non-specific serine/threonine protein kinase ...  439        4e-142
+UniRef90_A0A5C3ECT1 Related to serine/threonine protein kinase n=...  437        4e-142
+UniRef90_A0A096N7S4 Uncharacterized protein n=1 Tax=Papio anubis ...  438        5e-142
+UniRef90_A0A1S7HMA8 Non-specific serine/threonine protein kinase ...  437        8e-142
+UniRef90_UPI0014710B4E serine/threonine-protein kinase SIK3 homol...  437        8e-142
+UniRef90_A0A165IAP7 Pkinase-domain-containing protein n=1 Tax=Exi...  440        8e-142
+UniRef90_A0A672INH6 Non-specific serine/threonine protein kinase ...  437        9e-142
+UniRef90_A0A093EXI4 Serine/threonine-protein kinase SIK3 (Fragmen...  437        1e-141
+UniRef90_UPI001552697A serine/threonine-protein kinase SIK3 isofo...  438        1e-141
+UniRef90_A0A2T7P2X0 Uncharacterized protein n=2 Tax=Pomacea canal...  440        1e-141
+UniRef90_A0A093HHD0 Serine/threonine-protein kinase SIK3 (Fragmen...  437        1e-141
+UniRef90_A0A669C2A6 Non-specific serine/threonine protein kinase ...  435        1e-141
+UniRef90_A0A0D1C217 Protein kinase domain-containing protein n=1 ...  436        1e-141
+UniRef90_A0A091FK21 Serine/threonine-protein kinase SIK3 (Fragmen...  437        1e-141
+UniRef90_A0A3P8ZSM5 Non-specific serine/threonine protein kinase ...  432        2e-141
+UniRef90_A0A091J110 Serine/threonine-protein kinase SIK3 (Fragmen...  436        2e-141
+UniRef90_A0A673UXR7 SIK family kinase 3 n=2 Tax=Suricata suricatt...  435        3e-141
+UniRef90_A0A1V4J8E5 Serine/threonine-protein kinase SIK3 n=2 Tax=...  442        3e-141
+UniRef90_A0A2I4AIA2 Non-specific serine/threonine protein kinase ...  436        4e-141
+UniRef90_A0A4W3HLR1 Uncharacterized protein n=5 Tax=Callorhinchus...  438        4e-141
+UniRef90_A0A093GZJ7 Serine/threonine-protein kinase SIK3 (Fragmen...  434        5e-141
+UniRef90_A0A093BH06 Serine/threonine-protein kinase SIK3 (Fragmen...  435        5e-141
+UniRef90_A0A553MY37 Protein kinase domain-containing protein n=2 ...  436        6e-141
+UniRef90_UPI0007403970 serine/threonine-protein kinase SIK3 isofo...  434        7e-141
+UniRef90_M3ZL27 Non-specific serine/threonine protein kinase n=5 ...  435        9e-141
+UniRef90_UPI0012ABEEE6 serine/threonine-protein kinase SIK3 homol...  435        9e-141
+UniRef90_A0A1S3NRB6 Non-specific serine/threonine protein kinase ...  434        1e-140
+UniRef90_A0A6J2VM88 serine/threonine-protein kinase SIK3 n=1 Tax=...  434        1e-140
+UniRef90_UPI0015D0433A serine/threonine-protein kinase SIK3 homol...  434        1e-140
+UniRef90_UPI0010F6DC49 serine/threonine-protein kinase SIK3 isofo...  434        1e-140
+UniRef90_M7BHK3 Serine/threonine-protein kinase SIK3 n=1 Tax=Chel...  437        2e-140
+UniRef90_A0A3B3IN15 Non-specific serine/threonine protein kinase ...  434        2e-140
+UniRef90_H2SAW2 Non-specific serine/threonine protein kinase n=5 ...  434        2e-140
+UniRef90_UPI0012DEF739 serine/threonine-protein kinase SIK3 homol...  434        2e-140
+UniRef90_UPI001131A2B6 serine/threonine-protein kinase SIK3 homol...  433        2e-140
+UniRef90_A0A6I8NYP9 Non-specific serine/threonine protein kinase ...  435        2e-140
+UniRef90_A0A674CBH1 Non-specific serine/threonine protein kinase ...  433        2e-140
+UniRef90_A0A4Z2CBH7 Non-specific serine/threonine protein kinase ...  434        2e-140
+UniRef90_UPI000B4F100F serine/threonine-protein kinase SIK3 n=2 T...  433        2e-140
+UniRef90_UPI00097CFCB7 serine/threonine-protein kinase SIK3 isofo...  434        3e-140
+UniRef90_A0A671XIW3 Non-specific serine/threonine protein kinase ...  434        3e-140
+UniRef90_W5M158 Non-specific serine/threonine protein kinase n=3 ...  434        3e-140
+UniRef90_A0A182HPY6 Uncharacterized protein n=5 Tax=Anopheles Tax...  433        4e-140
+UniRef90_S7MF16 Serine/threonine-protein kinase SIK3 n=3 Tax=Myot...  438        4e-140
+UniRef90_A0A6J2QUZ9 serine/threonine-protein kinase SIK3 isoform ...  433        4e-140
+UniRef90_A0A1A8GB15 Non-specific serine/threonine protein kinase ...  432        5e-140
+UniRef90_H2MM62 Non-specific serine/threonine protein kinase n=5 ...  434        5e-140
+UniRef90_UPI001130FF4B serine/threonine-protein kinase SIK3 homol...  433        5e-140
+UniRef90_A0A3Q3K341 Non-specific serine/threonine protein kinase ...  433        5e-140
+UniRef90_UPI0010FAC3EE serine/threonine-protein kinase SIK3 isofo...  432        5e-140
+UniRef90_A0A3Q3BGC5 Non-specific serine/threonine protein kinase ...  432        6e-140
+UniRef90_A0A1S3SYQ2 Non-specific serine/threonine protein kinase ...  432        7e-140
+UniRef90_A0A671XGA5 Non-specific serine/threonine protein kinase ...  434        7e-140
+UniRef90_F4W7Z3 Non-specific serine/threonine protein kinase n=20...  430        8e-140
+UniRef90_UPI0010A5A102 serine/threonine-protein kinase SIK3 isofo...  432        9e-140
+UniRef90_UPI000E4625EE serine/threonine-protein kinase SIK3 homol...  431        1e-139
+UniRef90_A0A6A4SID8 Non-specific serine/threonine protein kinase ...  432        1e-139
+UniRef90_A0A1Y2UBH1 Non-specific serine/threonine protein kinase ...  431        1e-139
+UniRef90_H9G5C1 Uncharacterized protein n=2 Tax=Anolis carolinens...  432        2e-139
+UniRef90_W3VTZ9 Uncharacterized protein n=1 Tax=Pseudozyma aphidi...  436        2e-139
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A439CPP5 Non-specific serine/threonine protein kinase ...  442        5e-144
+UniRef90_A0A423XK48 Non-specific serine/threonine protein kinase ...  439        2e-142
+UniRef90_A0A2S7NYX4 Non-specific serine/threonine protein kinase ...  434        2e-140
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.183    0.716    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0560    0.140     1.90     42.6     43.6 
+
+Effective search space used: 643084541092
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

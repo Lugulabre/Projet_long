@@ -1,0 +1,106 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P10747-2|CD28_HUMAN Isoform 2 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=101
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A2B4RXT6 Protocadherin Fat 4 n=2 Tax=Stylophora pistil...  36.6       0.37 
+UniRef90_A0A4Y9Z106 Uncharacterized protein n=1 Tax=Fomitopsis ro...  35.4       0.92 
+UniRef90_A0A1V4R527 ASH domain-containing protein n=1 Tax=Candida...  35.4       0.92 
+UniRef90_A0A496ZVA3 Uncharacterized protein n=2 Tax=Candidatus Cl...  35.4       0.93 
+UniRef90_S8E8Q2 Uncharacterized protein n=1 Tax=Fomitopsis pinico...  34.7       1.4  
+UniRef90_UPI000A39C5E4 SDR family oxidoreductase n=1 Tax=Allokutz...  34.3       2.0  
+UniRef90_A0A165MJ25 Multidrug resistance-associated ABC transport...  34.3       2.2  
+UniRef90_UPI000B90FA78 neurogenic locus notch homolog protein 1-l...  34.3       2.5  
+UniRef90_A0A103XV26 Histidine kinase n=1 Tax=Cynara cardunculus v...  33.9       3.2  
+UniRef90_A0A267EZ33 Uncharacterized protein (Fragment) n=2 Tax=Ma...  33.1       5.2  
+UniRef90_W9XB83 Uncharacterized protein n=1 Tax=Cladophialophora ...  32.7       8.4  
+UniRef90_UPI000DE7F906 papilin isoform X2 n=5 Tax=Athalia rosae T...  32.3       9.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.143    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 100796676136
+Results from round 2
+
+
+Query= sp|P10747-2|CD28_HUMAN Isoform 2 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=101
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A2B4RXT6 Protocadherin Fat 4 n=2 Tax=Stylophora pistil...  34.9       1.2  
+UniRef90_A0A4Y9Z106 Uncharacterized protein n=1 Tax=Fomitopsis ro...  34.6       1.6  
+UniRef90_UPI000A39C5E4 SDR family oxidoreductase n=1 Tax=Allokutz...  34.6       1.9  
+UniRef90_S8E8Q2 Uncharacterized protein n=1 Tax=Fomitopsis pinico...  34.2       2.1  
+UniRef90_A0A165MJ25 Multidrug resistance-associated ABC transport...  33.8       3.2  
+UniRef90_W9XB83 Uncharacterized protein n=1 Tax=Cladophialophora ...  33.0       6.1  
+UniRef90_UPI000B90FA78 neurogenic locus notch homolog protein 1-l...  33.0       6.1  
+UniRef90_A0A3Q4GTH2 Tyrosine-protein kinase receptor n=6 Tax=Pseu...  33.0       6.7  
+UniRef90_A0A103XV26 Histidine kinase n=1 Tax=Cynara cardunculus v...  32.6       8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.144    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0440    0.140     1.90     42.6     43.6 
+
+Effective search space used: 100796676136
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

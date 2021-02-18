@@ -1,0 +1,101 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P10747-7|CD28_HUMAN Isoform 7 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=234
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_UPI0011BEAD3B uncharacterized protein LOC108658492 isofo...  39.7       0.41 
+UniRef90_A0A2R6W1T3 1,3-beta-glucan synthase n=1 Tax=Marchantia p...  37.4       2.1  
+UniRef90_A0A086TG14 Vacuolar protein sorting-associated protein-l...  37.0       3.1  
+UniRef90_D2VYF0 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  37.0       3.2  
+UniRef90_R4YUH6 PEGA domain-containing protein n=1 Tax=Oleispira ...  36.6       4.2  
+UniRef90_A0A2B4RXT6 Protocadherin Fat 4 n=2 Tax=Stylophora pistil...  36.2       4.9  
+UniRef90_A0A4Y9Z106 Uncharacterized protein n=1 Tax=Fomitopsis ro...  36.2       5.8  
+UniRef90_A0A167ZD45 Tetratricopeptide-like helical n=1 Tax=Moelle...  35.8       7.2  
+UniRef90_S8E8Q2 Uncharacterized protein n=1 Tax=Fomitopsis pinico...  35.8       7.6  
+UniRef90_UPI000A39C5E4 SDR family oxidoreductase n=1 Tax=Allokutz...  35.4       8.0  
+UniRef90_A0A1U8BGF2 testis-expressed protein 15 n=1 Tax=Mesocrice...  35.4       8.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 367240467678
+Results from round 2
+
+
+Query= sp|P10747-7|CD28_HUMAN Isoform 7 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=234
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_D2VYF0 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  37.3       2.2  
+UniRef90_A0A086TG14 Vacuolar protein sorting-associated protein-l...  36.1       5.2  
+UniRef90_R4YUH6 PEGA domain-containing protein n=1 Tax=Oleispira ...  36.1       5.8  
+UniRef90_A0A2B4RXT6 Protocadherin Fat 4 n=2 Tax=Stylophora pistil...  35.8       7.8  
+UniRef90_UPI0011BEAD3B uncharacterized protein LOC108658492 isofo...  35.4       8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0428    0.140     1.90     42.6     43.6 
+
+Effective search space used: 367240467678
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

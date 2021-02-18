@@ -11,10 +11,11 @@
 # NOTE: Experimental PSIPRED script with BLAST+ compatability (DTJ May 2010)
 
 # The name of the BLAST+ data bank
-set dbname = /Volumes/Disque_externe_1To/database_reduce/uniref90
+
+set dbname = /media/mael/Disque_externe_1To/database_reduce/uniref90
 
 # Where the NCBI BLAST+ programs have been installed
-set ncbidir = /usr/local/ncbi/blast/bin
+set ncbidir = /usr/bin
 
 # Where the PSIPRED V3 programs have been installed
 set execdir = ../bin

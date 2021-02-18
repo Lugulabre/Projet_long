@@ -1,0 +1,1560 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P17342-2|ANPRC_HUMAN Isoform 2 of Atrial natriuretic peptide
+receptor 3 OS=Homo sapiens OX=9606 GN=NPR3
+
+Length=540
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A6J8A0T2 Uncharacterized protein n=2 Tax=Mytilus corus...  278        2e-79
+UniRef90_UPI000CD7D67F atrial natriuretic peptide receptor 1 isof...  242        6e-67
+UniRef90_UPI00084EF598 atrial natriuretic peptide receptor 1-like...  234        4e-64
+UniRef90_UPI000995A178 atrial natriuretic peptide receptor 1 n=1 ...  232        1e-63
+UniRef90_UPI000948E0FB atrial natriuretic peptide receptor 1 isof...  231        4e-63
+UniRef90_UPI000B929375 atrial natriuretic peptide receptor 1 isof...  231        5e-63
+UniRef90_UPI000B3A255C atrial natriuretic peptide receptor 1 isof...  229        2e-62
+UniRef90_UPI000E6D75A7 atrial natriuretic peptide receptor 1 isof...  229        3e-62
+UniRef90_A0A452FSJ1 Guanylate cyclase n=43 Tax=Boreoeutheria TaxI...  227        6e-62
+UniRef90_UPI0010FAFAE1 LOW QUALITY PROTEIN: atrial natriuretic pe...  227        7e-62
+UniRef90_UPI000EF7E281 atrial natriuretic peptide receptor 1-like...  227        8e-62
+UniRef90_A0A151WKN4 Guanylate cyclase n=6 Tax=Trachymyrmex TaxID=...  226        1e-61
+UniRef90_A0A3L8DRY2 Guanylate cyclase n=1 Tax=Ooceraea biroi TaxI...  226        2e-61
+UniRef90_A0A158P0M1 Guanylate cyclase n=6 Tax=Myrmicinae TaxID=34...  226        2e-61
+UniRef90_P16066 Atrial natriuretic peptide receptor 1 n=102 Tax=E...  225        3e-61
+UniRef90_A0A6J1R2T9 atrial natriuretic peptide receptor 1-like is...  224        6e-61
+UniRef90_UPI00083C7CA3 atrial natriuretic peptide receptor 1-like...  224        1e-60
+UniRef90_A0A6J1NK14 atrial natriuretic peptide receptor 1 isoform...  224        1e-60
+UniRef90_A0A310S7E6 Guanylate cyclase n=1 Tax=Eufriesea mexicana ...  224        1e-60
+UniRef90_A0A6B0S084 Guanylate cyclase n=7 Tax=Boreoeutheria TaxID...  224        2e-60
+UniRef90_UPI00073D93A2 atrial natriuretic peptide receptor 1-like...  223        3e-60
+UniRef90_UPI000619CDC1 atrial natriuretic peptide receptor 1 isof...  221        9e-60
+UniRef90_A0A6I9X274 atrial natriuretic peptide receptor 1 n=1 Tax...  221        1e-59
+UniRef90_UPI000E77468B atrial natriuretic peptide receptor 1 n=1 ...  220        2e-59
+UniRef90_A0A212FC80 Guanylate cyclase n=4 Tax=Danaus plexippus pl...  220        2e-59
+UniRef90_A0A6J0U6T2 atrial natriuretic peptide receptor 2 n=1 Tax...  219        3e-59
+UniRef90_UPI00063F259A atrial natriuretic peptide receptor 1 n=1 ...  219        6e-59
+UniRef90_UPI00118387A5 atrial natriuretic peptide receptor 1 isof...  219        6e-59
+UniRef90_A0A5E4QBY5 Guanylate cyclase n=1 Tax=Leptidea sinapis Ta...  219        6e-59
+UniRef90_A0A0M3VH92 Guanylate cyclase n=2 Tax=Bombyx TaxID=7090 R...  218        2e-58
+UniRef90_UPI0005F50262 atrial natriuretic peptide receptor 1-like...  217        3e-58
+UniRef90_UPI000DC6B2CD atrial natriuretic peptide receptor 1 isof...  216        3e-58
+UniRef90_A0A0L7QKK7 Guanylate cyclase n=2 Tax=Habropoda laboriosa...  216        6e-58
+UniRef90_A0A194PLI8 Guanylate cyclase n=4 Tax=Papilio TaxID=7145 ...  216        8e-58
+UniRef90_UPI00067A9E27 atrial natriuretic peptide receptor 2 n=1 ...  215        1e-57
+UniRef90_UPI0008F984B4 atrial natriuretic peptide receptor 1 isof...  213        5e-57
+UniRef90_UPI0005D0E51B atrial natriuretic peptide receptor 1 n=1 ...  213        6e-57
+UniRef90_A0A154PGU2 Guanylate cyclase n=2 Tax=Dufourea novaeangli...  211        4e-56
+UniRef90_UPI00084CD759 atrial natriuretic peptide receptor 1-like...  211        4e-56
+UniRef90_A0A0F8AHJ0 Guanylate cyclase n=2 Tax=Larimichthys crocea...  210        5e-56
+UniRef90_UPI0014790929 atrial natriuretic peptide receptor 1-like...  209        1e-55
+UniRef90_UPI000E33DDC8 atrial natriuretic peptide receptor 1 n=1 ...  209        1e-55
+UniRef90_Q174S2 Guanylate cyclase n=3 Tax=Stegomyia TaxID=53541 R...  207        7e-55
+UniRef90_UPI0013F1D410 atrial natriuretic peptide receptor 1-like...  207        8e-55
+UniRef90_Q7PTP9 Guanylate cyclase n=5 Tax=gambiae species complex...  206        9e-55
+UniRef90_A0A1V4JZS4 Guanylate cyclase n=3 Tax=Sauria TaxID=32561 ...  206        1e-54
+UniRef90_W4ZFF5 Guanylate cyclase n=1 Tax=Strongylocentrotus purp...  206        2e-54
+UniRef90_UPI0007D89759 atrial natriuretic peptide receptor 1 isof...  206        2e-54
+UniRef90_A0A2A3EEE4 Guanylate cyclase n=5 Tax=Apis TaxID=7459 Rep...  204        6e-54
+UniRef90_UPI0008523D18 atrial natriuretic peptide receptor 1-like...  204        8e-54
+UniRef90_UPI0008405B62 atrial natriuretic peptide receptor 1-like...  203        1e-53
+UniRef90_A0A2M4B9R9 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  203        1e-53
+UniRef90_A0A1Q3G4K8 Guanylate cyclase n=1 Tax=Culex tarsalis TaxI...  203        1e-53
+UniRef90_A0A6J3JUN6 atrial natriuretic peptide receptor 1-like is...  202        4e-53
+UniRef90_A0A2C9KEF9 ANF_receptor domain-containing protein n=1 Ta...  201        5e-53
+UniRef90_UPI0005F3EA03 atrial natriuretic peptide receptor 1-like...  201        5e-53
+UniRef90_A0A2U9CX47 Guanylate cyclase n=2 Tax=Percomorphaceae Tax...  201        7e-53
+UniRef90_A0A4Y0BLL9 Guanylate cyclase n=1 Tax=Anopheles funestus ...  201        8e-53
+UniRef90_A0A6G0UQ17 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  200        2e-52
+UniRef90_UPI0012932550 atrial natriuretic peptide receptor 1-like...  199        2e-52
+UniRef90_A0A2M4CIX2 Guanylate cyclase (Fragment) n=3 Tax=Anophele...  197        1e-51
+UniRef90_Q9VF17 Guanylate cyclase n=19 Tax=melanogaster group Tax...  196        5e-51
+UniRef90_UPI000771CF1D atrial natriuretic peptide receptor 1 isof...  193        3e-50
+UniRef90_UPI001470C7A9 atrial natriuretic peptide receptor 1 n=1 ...  192        6e-50
+UniRef90_UPI001144D0FE atrial natriuretic peptide receptor 1-like...  191        1e-49
+UniRef90_A0A1I7SAG7 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  191        1e-49
+UniRef90_UPI00083E9A6A atrial natriuretic peptide receptor 1 isof...  191        2e-49
+UniRef90_A0A4S2KLG1 Guanylate cyclase n=2 Tax=Temnothorax TaxID=3...  190        3e-49
+UniRef90_A0A0C9QYW7 Guanylate cyclase n=2 Tax=Opiinae TaxID=68883...  189        7e-49
+UniRef90_B4JT47 Guanylate cyclase n=2 Tax=Drosophila grimshawi Ta...  189        8e-49
+UniRef90_Q86GV3-2 Isoform a of Receptor-type guanylate cyclase gc...  189        8e-49
+UniRef90_Q86GV3-4 Isoform d of Receptor-type guanylate cyclase gc...  188        1e-48
+UniRef90_A0A3B0JPZ6 Guanylate cyclase n=6 Tax=obscura group TaxID...  188        2e-48
+UniRef90_A0A6J2TE53 atrial natriuretic peptide receptor 1 n=1 Tax...  188        2e-48
+UniRef90_A0A0P9CAM4 Guanylate cyclase n=6 Tax=melanogaster group ...  188        2e-48
+UniRef90_A0A0Q9XA14 Guanylate cyclase n=3 Tax=mojavensis species ...  187        3e-48
+UniRef90_UPI00084EAE63 atrial natriuretic peptide receptor 1 isof...  187        3e-48
+UniRef90_B4GEV1 Guanylate cyclase n=1 Tax=Drosophila persimilis T...  187        5e-48
+UniRef90_UPI00148D7142 atrial natriuretic peptide receptor 1-like...  187        5e-48
+UniRef90_A0A0Q9WE85 Guanylate cyclase n=1 Tax=Drosophila virilis ...  186        6e-48
+UniRef90_UPI00083BFC22 atrial natriuretic peptide receptor 1-like...  186        6e-48
+UniRef90_A0A1W4VFG5 Guanylate cyclase n=1 Tax=Drosophila ficusphi...  186        6e-48
+UniRef90_B4LX87 Guanylate cyclase n=6 Tax=Drosophila TaxID=32281 ...  186        7e-48
+UniRef90_UPI000614C1AB atrial natriuretic peptide receptor 1-like...  186        8e-48
+UniRef90_UPI001433357F atrial natriuretic peptide receptor 1 isof...  186        1e-47
+UniRef90_B4NBA6 Guanylate cyclase n=1 Tax=Drosophila willistoni T...  185        2e-47
+UniRef90_UPI000718AD2B atrial natriuretic peptide receptor 1-like...  184        3e-47
+UniRef90_UPI0005F3FACC atrial natriuretic peptide receptor 1-like...  184        3e-47
+UniRef90_A0A0L0CC40 Guanylate cyclase n=1 Tax=Lucilia cuprina Tax...  184        3e-47
+UniRef90_Q86GV3 Receptor-type guanylate cyclase gcy-28 n=9 Tax=Ca...  183        6e-47
+UniRef90_A0A158Q3Q2 Guanylate cyclase n=1 Tax=Dracunculus medinen...  183        7e-47
+UniRef90_UPI0012D48687 atrial natriuretic peptide receptor 1-like...  183        8e-47
+UniRef90_UPI00059CF5DF atrial natriuretic peptide receptor 1 isof...  182        1e-46
+UniRef90_UPI0007E2BD96 atrial natriuretic peptide receptor 1 isof...  182        2e-46
+UniRef90_F1KS35 Guanylate cyclase n=2 Tax=Ascaridoidea TaxID=3325...  182        2e-46
+UniRef90_A0A1A9YK51 Guanylate cyclase n=1 Tax=Glossina fuscipes f...  181        3e-46
+UniRef90_A0A0V1AZW3 Guanylate cyclase n=38 Tax=Trichinella TaxID=...  181        4e-46
+UniRef90_A0A1B0G6S3 Guanylate cyclase n=3 Tax=Glossina TaxID=4404...  180        8e-46
+UniRef90_UPI000C26D45F atrial natriuretic peptide receptor 1 isof...  180        1e-45
+UniRef90_A0A4Y0BM48 Guanylate cyclase n=1 Tax=Anopheles funestus ...  179        2e-45
+UniRef90_UPI000618858F atrial natriuretic peptide receptor 1 isof...  179        2e-45
+UniRef90_A0A6J0C5Z9 atrial natriuretic peptide receptor 1 n=2 Tax...  177        6e-45
+UniRef90_A0A6F7NN03 Guanylate cyclase n=2 Tax=Haemonchus TaxID=62...  177        1e-44
+UniRef90_A0A090LDH2 Guanylate cyclase n=5 Tax=Strongyloididae Tax...  176        1e-44
+UniRef90_UPI00022DC1E6 protein kinase n=1 Tax=Schistosoma mansoni...  176        1e-44
+UniRef90_A0A1I8MX63 Guanylate cyclase n=6 Tax=Calyptratae TaxID=4...  176        2e-44
+UniRef90_UPI000E6E4BF6 atrial natriuretic peptide receptor 1-like...  176        2e-44
+UniRef90_A0A2A6BTW5 Guanylate cyclase n=2 Tax=Pristionchus pacifi...  176        2e-44
+UniRef90_UPI00089DAF6A atrial natriuretic peptide receptor 1-like...  176        3e-44
+UniRef90_A0A0A1X5Z0 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  176        3e-44
+UniRef90_F1KQZ1 Guanylate cyclase n=1 Tax=Ascaris suum TaxID=6253...  175        3e-44
+UniRef90_UPI0006EAD2BD atrial natriuretic peptide receptor 1-like...  175        4e-44
+UniRef90_A0A1B0G3T4 Guanylate cyclase n=1 Tax=Glossina morsitans ...  175        5e-44
+UniRef90_K7JAC0 Guanylate cyclase n=1 Tax=Nasonia vitripennis Tax...  174        9e-44
+UniRef90_UPI0008DDA5E1 atrial natriuretic peptide receptor 1 isof...  173        2e-43
+UniRef90_A0A1I8PRN8 Guanylate cyclase n=1 Tax=Stomoxys calcitrans...  173        2e-43
+UniRef90_UPI00156A0359 atrial natriuretic peptide receptor 1 isof...  173        2e-43
+UniRef90_UPI00081123CC atrial natriuretic peptide receptor 1 n=1 ...  172        3e-43
+UniRef90_A0A1J1IEB7 Guanylate cyclase n=2 Tax=Clunio marinus TaxI...  172        4e-43
+UniRef90_W8B2G3 Guanylate cyclase n=1 Tax=Ceratitis capitata TaxI...  169        4e-42
+UniRef90_UPI0013C523D0 atrial natriuretic peptide receptor 1-like...  168        8e-42
+UniRef90_UPI0012D47392 atrial natriuretic peptide receptor 1-like...  167        1e-41
+UniRef90_UPI001183C1F2 atrial natriuretic peptide receptor 1 isof...  167        1e-41
+UniRef90_A0A6J1SZ30 atrial natriuretic peptide receptor 2-like n=...  167        3e-41
+UniRef90_A0A4E0RLC3 Guanylate cyclase n=1 Tax=Fasciola hepatica T...  166        3e-41
+UniRef90_A0A1I8MLJ8 Guanylate cyclase n=1 Tax=Musca domestica Tax...  166        5e-41
+UniRef90_A0A0X3PIT8 Guanylate cyclase n=2 Tax=Diphyllobothriidae ...  164        2e-40
+UniRef90_A0A0A1X716 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  164        3e-40
+UniRef90_A0A6L2PGR8 Uncharacterized protein (Fragment) n=1 Tax=Co...  164        3e-40
+UniRef90_W6UP63 Guanylate cyclase n=1 Tax=Echinococcus granulosus...  162        7e-40
+UniRef90_A0A034VF88 Guanylate cyclase n=5 Tax=Bactrocera TaxID=47...  162        9e-40
+UniRef90_A0A068YBJ0 Guanylate cyclase n=2 Tax=Echinococcus TaxID=...  161        2e-39
+UniRef90_A0A5K3FKC4 Guanylate cyclase n=3 Tax=Mesocestoides corti...  161        2e-39
+UniRef90_UPI000E6E5592 atrial natriuretic peptide receptor 1-like...  161        2e-39
+UniRef90_A0A267FHZ2 Guanylate cyclase n=2 Tax=Macrostomum lignano...  160        3e-39
+UniRef90_A0A0F8BY67 Guanylate cyclase n=1 Tax=Larimichthys crocea...  157        3e-38
+UniRef90_A0A1S0UHA3 Guanylate cyclase n=7 Tax=Onchocercidae TaxID...  155        2e-37
+UniRef90_UPI0015E03FA6 atrial natriuretic peptide receptor 1-like...  154        6e-37
+UniRef90_A0A094ZKT0 Guanylate cyclase n=4 Tax=Schistosoma TaxID=6...  153        8e-37
+UniRef90_A0A1I8JHS3 Guanylate cyclase n=3 Tax=Macrostomum lignano...  149        2e-35
+UniRef90_A0A4S2L598 Guanylate cyclase n=3 Tax=Opisthorchiidae Tax...  145        4e-34
+UniRef90_UPI00123E527A integrator complex subunit 3-like n=1 Tax=...  144        6e-34
+UniRef90_UPI000BE1CCC1 atrial natriuretic peptide receptor 1-like...  143        2e-33
+UniRef90_A0A3N0XJX4 Guanylate cyclase n=1 Tax=Anabarilius grahami...  140        2e-32
+UniRef90_A0A6J8BRC7 ANPRA n=1 Tax=Mytilus coruscus TaxID=42192 Re...  139        3e-32
+UniRef90_UPI00077FE306 atrial natriuretic peptide receptor 2-like...  139        5e-32
+UniRef90_UPI00144857E7 atrial natriuretic peptide receptor 1-like...  138        7e-32
+UniRef90_A0A158QG15 Guanylate cyclase n=1 Tax=Hymenolepis diminut...  136        3e-31
+UniRef90_UPI00148A4A6D atrial natriuretic peptide receptor 2-like...  133        4e-30
+UniRef90_A0A2J7RLU2 Guanylate cyclase n=4 Tax=Cryptotermes secund...  132        5e-30
+UniRef90_A0A0N5ATB9 Guanylate cyclase n=1 Tax=Syphacia muris TaxI...  130        2e-29
+UniRef90_A0A1I8HSN5 Guanylate cyclase n=1 Tax=Macrostomum lignano...  130        5e-29
+UniRef90_A0A498MIS9 Guanylate cyclase n=1 Tax=Labeo rohita TaxID=...  128        2e-28
+UniRef90_A0A6J8BEU9 ANPRA n=2 Tax=Mytilus coruscus TaxID=42192 Re...  127        4e-28
+UniRef90_UPI001458273D atrial natriuretic peptide receptor 1-like...  127        5e-28
+UniRef90_M7AYL4 Guanylate cyclase n=1 Tax=Chelonia mydas TaxID=84...  126        1e-27
+UniRef90_A0A6J8ADD9 ANPRA n=1 Tax=Mytilus coruscus TaxID=42192 Re...  125        2e-27
+UniRef90_UPI00089DA89C atrial natriuretic peptide receptor 1-like...  118        2e-25
+UniRef90_UPI000947E0D0 atrial natriuretic peptide receptor 2-like...  114        6e-24
+UniRef90_A0A1W0WJZ9 Guanylate cyclase n=1 Tax=Hypsibius dujardini...  107        7e-22
+UniRef90_A0A3S1BLF6 Guanylate cyclase n=1 Tax=Elysia chlorotica T...  107        2e-21
+UniRef90_UPI000B45EF0A atrial natriuretic peptide receptor 2-like...  100        2e-19
+UniRef90_UPI001455CC37 atrial natriuretic peptide receptor 1-like...  98.6       8e-19
+UniRef90_UPI000947F5BC atrial natriuretic peptide receptor 1-like...  98.2       9e-19
+UniRef90_UPI0001CB99C0 retinal guanylyl cyclase 2-like n=1 Tax=Sa...  97.4       1e-18
+UniRef90_A0A336KPL4 Guanylate cyclase n=1 Tax=Culicoides sonorens...  94.4       2e-17
+UniRef90_A0A1S0U405 Guanylate cyclase n=10 Tax=Onchocercidae TaxI...  90.9       2e-16
+UniRef90_A0A183JYZ8 Guanylate cyclase n=2 Tax=Schistosoma TaxID=6...  90.9       2e-16
+UniRef90_A0A182H963 Guanylate cyclase n=6 Tax=Aedes albopictus Ta...  89.0       8e-16
+UniRef90_Q7PWU5 Guanylate cyclase (Fragment) n=2 Tax=Anopheles ga...  88.2       1e-15
+UniRef90_A0A2C9GRZ6 Guanylate cyclase n=8 Tax=Cellia TaxID=44534 ...  87.4       2e-15
+UniRef90_A0A6I8TB65 Guanylate cyclase n=4 Tax=Stegomyia TaxID=535...  87.0       3e-15
+UniRef90_UPI00115EA041 integrator complex subunit 3 n=1 Tax=Manac...  86.7       4e-15
+UniRef90_A0A182Q3F5 Guanylate cyclase n=2 Tax=Anopheles TaxID=716...  86.3       5e-15
+UniRef90_A0A0V1M9D0 Guanylate cyclase n=27 Tax=Trichinella TaxID=...  84.3       2e-14
+UniRef90_A0A1D1UL07 Guanylate cyclase n=1 Tax=Ramazzottius varieo...  83.2       5e-14
+UniRef90_A0A484BG96 Guanylate cyclase n=4 Tax=mojavensis species ...  82.8       6e-14
+UniRef90_UPI000B914024 atrial natriuretic peptide receptor 2-like...  82.8       8e-14
+UniRef90_UPI0009E4EC19 speract receptor-like n=1 Tax=Orbicella fa...  81.6       2e-13
+UniRef90_A0A2A6B684 Guanylate cyclase n=2 Tax=Pristionchus pacifi...  80.5       3e-13
+UniRef90_A0A182F1Z3 Guanylate cyclase n=1 Tax=Anopheles albimanus...  80.5       4e-13
+UniRef90_A0A182P9Q0 Guanylate cyclase n=2 Tax=Pyretophorus TaxID=...  80.1       5e-13
+UniRef90_A0A5S6Q8M7 Guanylate cyclase n=1 Tax=Trichuris muris Tax...  79.3       8e-13
+UniRef90_A0A553QEN3 Guanylate cyclase n=1 Tax=Danionella transluc...  79.3       8e-13
+UniRef90_A0A210QCJ9 Guanylate cyclase n=2 Tax=Pectinidae TaxID=65...  79.0       9e-13
+UniRef90_UPI000B90CEF8 guanylate cyclase 32E-like n=1 Tax=Acantha...  79.0       1e-12
+UniRef90_B0WPU2 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  78.2       2e-12
+UniRef90_UPI0010FC8CBB guanylate cyclase 32E-like n=2 Tax=Acropor...  78.2       2e-12
+UniRef90_A0A6G0V1F3 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  77.8       3e-12
+UniRef90_A0A084VYH2 Guanylate cyclase n=1 Tax=Anopheles sinensis ...  77.8       3e-12
+UniRef90_B4LQH0 Guanylate cyclase n=5 Tax=Drosophila TaxID=32281 ...  77.4       3e-12
+UniRef90_UPI0014558AB5 guanylate cyclase 32E-like n=1 Tax=Asteria...  76.6       5e-12
+UniRef90_A0A044RAI2 Guanylate cyclase n=2 Tax=Onchocerca TaxID=62...  76.3       7e-12
+UniRef90_UPI0014254D32 guanylate cyclase 32E-like isoform X1 n=2 ...  75.9       9e-12
+UniRef90_A0A1W0WG25 Guanylate cyclase n=1 Tax=Hypsibius dujardini...  75.9       1e-11
+UniRef90_A0A368GVP0 Guanylate cyclase n=3 Tax=Strongylida TaxID=6...  75.1       2e-11
+UniRef90_A0A0B2V4G1 Guanylate cyclase n=2 Tax=Toxocara canis TaxI...  75.1       2e-11
+UniRef90_A0A0F7VHN3 Guanylate cyclase n=1 Tax=Euperipatoides kana...  75.1       2e-11
+UniRef90_A0A498SKD6 Guanylate cyclase n=1 Tax=Acanthocheilonema v...  73.6       5e-11
+UniRef90_H3E436 Guanylate cyclase n=2 Tax=Pristionchus pacificus ...  72.8       9e-11
+UniRef90_A0A1W0XF67 Guanylate cyclase n=3 Tax=Hypsibius dujardini...  72.8       9e-11
+UniRef90_A0A2B4STI1 Guanylate cyclase n=1 Tax=Stylophora pistilla...  72.4       1e-10
+UniRef90_A0A6J8E7P9 E4.6.1.2 n=1 Tax=Mytilus coruscus TaxID=42192...  71.6       2e-10
+UniRef90_A0A1S3HFZ8 Guanylate cyclase n=1 Tax=Lingula unguis TaxI...  71.6       2e-10
+UniRef90_UPI000B90DDF4 speract receptor-like n=1 Tax=Acanthaster ...  71.6       2e-10
+UniRef90_A0A4D5RH00 Guanylate cyclase (Fragment) n=2 Tax=Ixodes s...  71.6       2e-10
+UniRef90_UPI00065BC0F3 guanylate cyclase 32E-like n=1 Tax=Aplysia...  71.2       3e-10
+UniRef90_A0A164Q4I2 Guanylate cyclase n=3 Tax=Daphnia magna TaxID...  71.2       3e-10
+UniRef90_T1KKV6 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  70.9       4e-10
+UniRef90_A0A0R3RYD5 Guanylate cyclase n=1 Tax=Elaeophora elaphi T...  70.5       4e-10
+UniRef90_A0A1I8CWM6 Guanylate cyclase n=1 Tax=Rhabditophanes sp. ...  70.1       6e-10
+UniRef90_UPI000F6766CE receptor-type guanylate cyclase Gyc76C-lik...  70.1       7e-10
+UniRef90_A0A182FAJ7 G_PROTEIN_RECEP_F3_4 domain-containing protei...  69.7       9e-10
+UniRef90_A0A0Q9XGB6 Guanylate cyclase n=1 Tax=Drosophila mojavens...  69.3       1e-09
+UniRef90_A0A6J2T962 guanylate cyclase 32E isoform X1 n=4 Tax=Dros...  68.9       1e-09
+UniRef90_A0A3P6S5H5 Guanylate cyclase n=1 Tax=Litomosoides sigmod...  68.9       1e-09
+UniRef90_UPI000A2A481A atrial natriuretic peptide receptor 1 n=1 ...  68.9       1e-09
+UniRef90_UPI0015DD9BDF guanylate cyclase 32E-like n=1 Tax=Spodopt...  68.6       2e-09
+UniRef90_A0A0K0FAK8 Guanylate cyclase n=2 Tax=Strongyloides TaxID...  68.2       2e-09
+UniRef90_A0A016TNH6 Guanylate cyclase n=4 Tax=Ancylostoma ceylani...  68.2       2e-09
+UniRef90_A0A162R3A0 Guanylate cyclase n=3 Tax=Daphnia magna TaxID...  68.2       3e-09
+UniRef90_UPI000C26C2C5 speract receptor isoform X2 n=2 Tax=Drosop...  68.2       3e-09
+UniRef90_UPI000DE7F96A LOW QUALITY PROTEIN: guanylate cyclase 32E...  68.2       3e-09
+UniRef90_A0A3M6UZX5 Guanylate cyclase n=2 Tax=Pocillopora damicor...  68.2       3e-09
+UniRef90_C7LAF5 Guanylate cyclase n=57 Tax=Sophophora TaxID=32341...  68.2       3e-09
+UniRef90_B4MNC6 Guanylate cyclase n=20 Tax=Drosophila TaxID=7215 ...  67.8       3e-09
+UniRef90_Q5TRW6 AGAP004595-PA n=15 Tax=Anopheles TaxID=7164 RepID...  67.8       3e-09
+UniRef90_A0A0N5CJC7 Guanylate cyclase n=1 Tax=Thelazia callipaeda...  67.8       4e-09
+UniRef90_A0A0P9C5X5 Guanylate cyclase n=3 Tax=melanogaster group ...  67.8       4e-09
+UniRef90_UPI00065BA0AB guanylate cyclase 32E-like n=1 Tax=Aplysia...  67.4       4e-09
+UniRef90_A0A6F9BZX9 Guanylate cyclase n=1 Tax=Coregonus sp. 'balc...  67.4       5e-09
+UniRef90_A0A0K0E5W3 Guanylate cyclase n=1 Tax=Strongyloides sterc...  67.0       7e-09
+UniRef90_UPI000B911961 LOW QUALITY PROTEIN: retinal guanylyl cycl...  66.6       7e-09
+UniRef90_UPI0009E61E64 uncharacterized protein LOC110046656 n=1 T...  66.6       7e-09
+UniRef90_A0A194QSQ1 Guanylate cyclase n=5 Tax=Papilio TaxID=7145 ...  66.6       7e-09
+UniRef90_L7MDN2 Guanylate cyclase (Fragment) n=1 Tax=Rhipicephalu...  66.6       8e-09
+UniRef90_A0A0M4F7G9 GABA-B-R2 n=8 Tax=Drosophila TaxID=7215 RepID...  66.2       9e-09
+UniRef90_UPI001482D397 receptor-type guanylate cyclase Gyc76C-lik...  66.2       9e-09
+UniRef90_UPI0004CCC96C guanylate cyclase 32E n=1 Tax=Microplitis ...  66.2       1e-08
+UniRef90_A0A0K8UVZ5 Guanylate cyclase n=11 Tax=Dacinae TaxID=1648...  65.9       1e-08
+UniRef90_A0A1I7TT06 Guanylate cyclase n=1 Tax=Caenorhabditis trop...  66.2       1e-08
+UniRef90_UPI000C760E00 guanylate cyclase 32E n=1 Tax=Anoplophora ...  65.9       1e-08
+UniRef90_UPI000BE1E021 gamma-aminobutyric acid type B receptor su...  65.5       2e-08
+UniRef90_A0A1Q9DBM2 Metabotropic glutamate receptor 4 n=1 Tax=Sym...  65.5       2e-08
+UniRef90_A0A0Q9WRX8 Uncharacterized protein, isoform B n=7 Tax=vi...  65.1       2e-08
+UniRef90_UPI000BAF72B8 receptor-type guanylate cyclase Gyc76C-lik...  65.1       2e-08
+UniRef90_UPI000BE1B976 guanylate cyclase 32E-like n=2 Tax=Varroa ...  65.1       2e-08
+UniRef90_UPI001395CAB2 gamma-aminobutyric acid type B receptor su...  65.1       2e-08
+UniRef90_A0A5N4A9X5 Guanylate cyclase n=3 Tax=Photinus pyralis Ta...  64.7       3e-08
+UniRef90_A0A6J2JEG6 guanylate cyclase 32E-like n=1 Tax=Bombyx man...  64.7       3e-08
+UniRef90_H9JBA4 Guanylate cyclase n=3 Tax=Bombyx TaxID=7090 RepID...  64.7       3e-08
+UniRef90_A0A016SRA4 Guanylate cyclase n=1 Tax=Ancylostoma ceylani...  64.7       3e-08
+UniRef90_T1K3I9 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  64.7       3e-08
+UniRef90_B0WNC5 Gamma-aminobutyric acid type B receptor n=3 Tax=C...  64.7       3e-08
+UniRef90_UPI00096B3060 LOW QUALITY PROTEIN: receptor-type guanyla...  64.7       3e-08
+UniRef90_A0A1I8N1B4 Guanylate cyclase n=2 Tax=Musca domestica Tax...  64.3       4e-08
+UniRef90_UPI000BB086C5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  64.3       4e-08
+UniRef90_A0A3Q3JIQ0 Guanylate cyclase n=2 Tax=Monopterus albus Ta...  63.9       5e-08
+UniRef90_UPI0011E5DCBB speract receptor isoform X2 n=1 Tax=Drosop...  63.9       6e-08
+UniRef90_J9JNT2 Guanylate cyclase n=10 Tax=Aphidinae TaxID=133076...  63.5       6e-08
+UniRef90_A0A0K0FCD6 Guanylate cyclase n=1 Tax=Strongyloides venez...  63.5       6e-08
+UniRef90_T1E1N6 Guanylate cyclase n=1 Tax=Cupiennius salei TaxID=...  63.5       6e-08
+UniRef90_A0A1S3KGF6 gamma-aminobutyric acid type B receptor subun...  63.5       7e-08
+UniRef90_Q19187 Receptor-type guanylate cyclase gcy-12 n=1 Tax=Ca...  63.5       7e-08
+UniRef90_A0A646SXK8 Guanylate cyclase n=1 Tax=Penaeus vannamei Ta...  63.5       8e-08
+UniRef90_G0NAX7 Guanylate cyclase n=1 Tax=Caenorhabditis brenneri...  63.5       8e-08
+UniRef90_V3ZP65 Guanylate cyclase n=1 Tax=Lottia gigantea TaxID=2...  63.2       1e-07
+UniRef90_A0A261CCT5 Guanylate cyclase (Fragment) n=1 Tax=Caenorha...  63.2       1e-07
+UniRef90_A0A182HEV4 Guanylate cyclase n=6 Tax=Stegomyia TaxID=535...  62.8       1e-07
+UniRef90_A0A1Y1M6Q5 Guanylate cyclase n=2 Tax=Photinus pyralis Ta...  62.8       1e-07
+UniRef90_A0A1I7SBM1 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  62.8       1e-07
+UniRef90_UPI0012B5F833 speract receptor-like isoform X1 n=2 Tax=A...  62.8       1e-07
+UniRef90_UPI000B905736 guanylate cyclase 32E-like n=1 Tax=Folsomi...  62.4       2e-07
+UniRef90_UPI000E6E460B guanylate cyclase 32E n=1 Tax=Ctenocephali...  62.4       2e-07
+UniRef90_UPI0012B58850 gamma-aminobutyric acid type B receptor su...  62.4       2e-07
+UniRef90_E3LK63 Guanylate cyclase n=4 Tax=Caenorhabditis remanei ...  62.0       2e-07
+UniRef90_W8BGI5 Gamma-aminobutyric acid type B receptor subunit 2...  62.0       2e-07
+UniRef90_T1KEQ4 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  62.0       2e-07
+UniRef90_UPI00148ADBA0 uncharacterized protein LOC105346025 isofo...  62.0       2e-07
+UniRef90_UPI00064137C7 atrial natriuretic peptide receptor 1-like...  62.0       2e-07
+UniRef90_A0A182YCH9 Guanylate cyclase n=1 Tax=Anopheles stephensi...  62.0       2e-07
+UniRef90_UPI000C203584 receptor-type guanylate cyclase Gyc76C-lik...  61.6       3e-07
+UniRef90_A0A0B4LHR4 Metabotropic GABA-B receptor subtype 2, isofo...  61.6       3e-07
+UniRef90_A0A0K0FCE0 Guanylate cyclase n=1 Tax=Strongyloides venez...  61.6       3e-07
+UniRef90_A0A6J2YD42 receptor-type guanylate cyclase Gyc76C-like i...  61.6       3e-07
+UniRef90_A0A0N5A3Y9 Guanylate cyclase n=1 Tax=Parastrongyloides t...  61.6       3e-07
+UniRef90_UPI0006416012 LOW QUALITY PROTEIN: uncharacterized prote...  61.6       3e-07
+UniRef90_A0A0M3QWJ4 Guanylate cyclase n=2 Tax=Drosophila TaxID=72...  61.2       3e-07
+UniRef90_W2SXV2 Guanylate cyclase (Fragment) n=1 Tax=Necator amer...  61.2       3e-07
+UniRef90_A0A182GQJ0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  61.2       4e-07
+UniRef90_A0A0K0FCE8 Guanylate cyclase n=2 Tax=Strongyloides venez...  61.2       4e-07
+UniRef90_A0A0G4IIA4 Uncharacterized protein n=1 Tax=Plasmodiophor...  61.2       4e-07
+UniRef90_A0A5E4N440 Guanylate cyclase n=2 Tax=Cinara cedri TaxID=...  61.2       4e-07
+UniRef90_UPI0010FC7814 gamma-aminobutyric acid type B receptor su...  60.8       4e-07
+UniRef90_A0A2P4VH42 Guanylate cyclase n=1 Tax=Caenorhabditis rema...  60.8       5e-07
+UniRef90_K7J3D4 Guanylate cyclase n=3 Tax=Pteromalinae TaxID=2722...  60.8       5e-07
+UniRef90_E3M3J6 Guanylate cyclase n=2 Tax=Caenorhabditis remanei ...  60.8       5e-07
+UniRef90_UPI000C6DDBCB atrial natriuretic peptide receptor 2-like...  60.5       6e-07
+UniRef90_A0A1B0EWC7 Guanylate cyclase n=1 Tax=Lutzomyia longipalp...  60.5       6e-07
+UniRef90_UPI000640E3B3 atrial natriuretic peptide receptor 1-like...  60.5       6e-07
+UniRef90_A0A1S3HQV5 Guanylate cyclase n=1 Tax=Lingula unguis TaxI...  60.5       6e-07
+UniRef90_A0A336MLZ6 CSON002641 protein n=2 Tax=Culicoides sonoren...  60.5       7e-07
+UniRef90_UPI000771B014 gamma-aminobutyric acid type B receptor su...  60.5       7e-07
+UniRef90_N6UEX4 Guanylate cyclase (Fragment) n=4 Tax=Dendroctonus...  60.5       7e-07
+UniRef90_V5IB68 Guanylate cyclase n=5 Tax=Ixodes TaxID=6944 RepID...  60.1       7e-07
+UniRef90_UPI0006C9C707 guanylate cyclase 32E n=1 Tax=Copidosoma f...  60.1       7e-07
+UniRef90_A0A2M4A5V4 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  60.1       8e-07
+UniRef90_UPI000012266D C. briggsae CBR-GCY-12 protein n=1 Tax=Cae...  60.1       8e-07
+UniRef90_A0A6G0V454 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  60.1       9e-07
+UniRef90_UPI00104050E0 guanylate cyclase 32E n=1 Tax=Ostrinia fur...  60.1       9e-07
+UniRef90_B7Q3N4 Guanylate cyclase n=3 Tax=Ixodes TaxID=6944 RepID...  59.3       1e-06
+UniRef90_A0A1B0CHK4 Guanylate cyclase n=1 Tax=Lutzomyia longipalp...  59.7       1e-06
+UniRef90_UPI001471EEEB speract receptor isoform X3 n=1 Tax=Drosop...  59.3       1e-06
+UniRef90_UPI000C042B77 receptor-type guanylate cyclase gcy-8-like...  58.9       2e-06
+UniRef90_A0A0L8HCE2 Guanylate cyclase n=3 Tax=Octopus bimaculoide...  59.3       2e-06
+UniRef90_A0A0L7RJ80 Guanylate cyclase (Fragment) n=11 Tax=Apoidea...  58.9       2e-06
+UniRef90_E9GF33 Guanylate cyclase n=3 Tax=Daphnia TaxID=6668 RepI...  58.9       2e-06
+UniRef90_UPI00099582D8 receptor-type guanylate cyclase Gyc76C-lik...  58.9       2e-06
+UniRef90_UPI000A0ED68D gamma-aminobutyric acid type B receptor su...  58.9       2e-06
+UniRef90_UPI000A0ED217 gamma-aminobutyric acid type B receptor su...  58.9       2e-06
+UniRef90_A0A433U132 Guanylate cyclase n=1 Tax=Elysia chlorotica T...  58.9       2e-06
+UniRef90_UPI00083DFC8C receptor-type guanylate cyclase Gyc76C-lik...  58.9       2e-06
+UniRef90_A0A6J2TH66 gamma-aminobutyric acid type B receptor subun...  58.9       2e-06
+UniRef90_D6X177 Guanylate cyclase n=1 Tax=Tribolium castaneum Tax...  58.5       2e-06
+UniRef90_UPI000718DC5B guanylate cyclase 32E-like isoform X1 n=4 ...  58.5       3e-06
+UniRef90_UPI00067AF0D6 LOW QUALITY PROTEIN: guanylate cyclase 32E...  58.5       3e-06
+UniRef90_A0A1B6MKA2 Guanylate cyclase n=2 Tax=Cicadellinae TaxID=...  58.5       3e-06
+UniRef90_UPI0005AD16E7 guanylate cyclase 32E-like isoform X1 n=4 ...  58.5       3e-06
+UniRef90_UPI0007D956D8 gamma-aminobutyric acid type B receptor su...  58.2       3e-06
+UniRef90_UPI000E55C95C LOW QUALITY PROTEIN: guanylate cyclase 2G-...  58.2       3e-06
+UniRef90_C5H7S1 Guanylate cyclase n=6 Tax=gambiae species complex...  58.2       3e-06
+UniRef90_UPI00158D3BC3 receptor-type guanylate cyclase Gyc76C-lik...  58.2       3e-06
+UniRef90_A0A090N0R7 Guanylate cyclase n=1 Tax=Strongyloides ratti...  58.2       3e-06
+UniRef90_G0PKB7 Guanylate cyclase n=1 Tax=Caenorhabditis brenneri...  57.8       4e-06
+UniRef90_A0A482VLY3 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  57.8       5e-06
+UniRef90_UPI00143DBBB4 receptor-type guanylate cyclase Gyc76C-lik...  57.8       5e-06
+UniRef90_UPI00059C184A receptor-type guanylate cyclase Gyc76C n=2...  57.8       5e-06
+UniRef90_A0A6J2YCQ3 guanylate cyclase 32E n=1 Tax=Sitophilus oryz...  57.4       5e-06
+UniRef90_UPI00065B61E3 atrial natriuretic peptide receptor 1-like...  57.4       5e-06
+UniRef90_A0A085NM74 Guanylate cyclase n=1 Tax=Trichuris suis TaxI...  57.4       5e-06
+UniRef90_UPI000BA82E63 receptor-type guanylate cyclase gcy-2-like...  57.4       5e-06
+UniRef90_A0A2M4BA44 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  57.4       6e-06
+UniRef90_UPI0007382FBC gamma-aminobutyric acid type B receptor su...  57.4       6e-06
+UniRef90_UPI00065B904F uncharacterized protein LOC101854281 n=1 T...  57.4       6e-06
+UniRef90_A0A3R7LVB8 Guanylate cyclase (Fragment) n=2 Tax=Penaeus ...  57.0       7e-06
+UniRef90_UPI00103F8627 speract receptor isoform X2 n=1 Tax=Ostrin...  57.0       7e-06
+UniRef90_A0A0L7RHU3 Gamma-aminobutyric acid type B receptor subun...  57.0       7e-06
+UniRef90_G0P6D8 Guanylate cyclase n=1 Tax=Caenorhabditis brenneri...  57.0       7e-06
+UniRef90_K7J3D3 Guanylate cyclase n=3 Tax=Chalcidoidea TaxID=7422...  57.0       7e-06
+UniRef90_UPI000EF845A6 guanylate cyclase 32E-like isoform X1 n=7 ...  57.0       7e-06
+UniRef90_A0A1D2MRX5 Guanylate cyclase n=1 Tax=Orchesella cincta T...  57.0       7e-06
+UniRef90_A0A090KZ16 Guanylate cyclase n=1 Tax=Strongyloides ratti...  57.0       8e-06
+UniRef90_A0A182F2H0 Guanylate cyclase n=1 Tax=Anopheles albimanus...  57.0       8e-06
+UniRef90_A0A6J3LD19 gamma-aminobutyric acid type B receptor subun...  57.0       8e-06
+UniRef90_A0A194RGF1 Guanylate cyclase (Fragment) n=4 Tax=Papilio ...  56.6       1e-05
+UniRef90_A0A1B0CVA2 Uncharacterized protein n=1 Tax=Lutzomyia lon...  56.6       1e-05
+UniRef90_A0A6A7G3L5 Guanylate cyclase n=4 Tax=Hirondellea gigas T...  56.6       1e-05
+UniRef90_A0A6J8A564 Uncharacterized protein n=1 Tax=Mytilus corus...  56.2       1e-05
+UniRef90_A0A5N4AXK6 Guanylate cyclase n=4 Tax=Photinus pyralis Ta...  56.2       1e-05
+UniRef90_A0A1B0AQX7 Guanylate cyclase n=3 Tax=Glossina TaxID=7393...  56.2       1e-05
+UniRef90_A0A433TRG2 Guanylate cyclase (Fragment) n=1 Tax=Elysia c...  56.2       1e-05
+UniRef90_A0A6J0BI48 guanylate cyclase 32E n=1 Tax=Neodiprion leco...  56.2       1e-05
+UniRef90_A0A1W7RAI6 Guanylate cyclase n=1 Tax=Hadrurus spadix Tax...  56.2       1e-05
+UniRef90_A0A226E2Q6 Guanylate cyclase n=1 Tax=Folsomia candida Ta...  56.2       1e-05
+UniRef90_A0A0N4Z4T0 Guanylate cyclase n=1 Tax=Parastrongyloides t...  56.2       1e-05
+UniRef90_UPI0005CE80FE guanylate cyclase 32E n=1 Tax=Ceratosolen ...  56.2       1e-05
+UniRef90_A0A1A9WQ30 Guanylate cyclase n=1 Tax=Glossina brevipalpi...  56.2       1e-05
+UniRef90_A0A402FQ00 Guanylate cyclase n=1 Tax=Paroedura picta Tax...  56.2       1e-05
+UniRef90_A0A0C9M3T8 DIL and Ankyrin domain-containing protein n=1...  55.8       2e-05
+UniRef90_UPI0011826219 speract receptor isoform X1 n=2 Tax=Manduc...  55.8       2e-05
+UniRef90_A0A2J7Q248 Guanylate cyclase n=4 Tax=Cryptotermes secund...  55.8       2e-05
+UniRef90_UPI000C6DED08 receptor-type guanylate cyclase Gyc76C-lik...  55.8       2e-05
+UniRef90_UPI0010F5D478 gamma-aminobutyric acid type B receptor su...  55.8       2e-05
+UniRef90_K1Q3E2 Guanylate cyclase n=3 Tax=Crassostrea gigas TaxID...  55.8       2e-05
+UniRef90_UPI0010F747D0 gamma-aminobutyric acid type B receptor su...  55.5       2e-05
+UniRef90_A0A2S2R4A9 Guanylate cyclase n=2 Tax=Sipha flava TaxID=1...  55.5       2e-05
+UniRef90_A8X2I9 Guanylate cyclase n=1 Tax=Caenorhabditis briggsae...  55.5       2e-05
+UniRef90_UPI000A2C065A guanylate cyclase 32E-like n=1 Tax=Paraste...  55.5       2e-05
+UniRef90_UPI000766E7A3 guanylate cyclase 32E-like n=4 Tax=Halicti...  55.5       2e-05
+UniRef90_UPI00065B714F uncharacterized protein LOC106013078 n=1 T...  55.5       3e-05
+UniRef90_A0A0B7N3I3 Uncharacterized protein n=1 Tax=Parasitella p...  55.1       3e-05
+UniRef90_A0A2B4T087 Guanylate cyclase n=1 Tax=Stylophora pistilla...  55.1       3e-05
+UniRef90_A0A1A9ZL53 G_PROTEIN_RECEP_F3_4 domain-containing protei...  55.1       3e-05
+UniRef90_A0A1J1J1I5 CLUMA_CG018829, isoform A n=1 Tax=Clunio mari...  55.1       3e-05
+UniRef90_A0A2H1WKG9 Guanylate cyclase n=6 Tax=Noctuidae TaxID=710...  55.1       3e-05
+UniRef90_UPI000C6CAAAB receptor-type guanylate cyclase Gyc76C-lik...  55.1       3e-05
+UniRef90_A0A182J455 Guanylate cyclase n=2 Tax=Anopheles TaxID=444...  55.1       3e-05
+UniRef90_UPI000771DF38 receptor-type guanylate cyclase Gyc76C iso...  54.7       3e-05
+UniRef90_A0A0C9QHY7 GABBR2 protein n=2 Tax=Fopius arisanus TaxID=...  54.7       4e-05
+UniRef90_A0A6J0BI47 guanylate cyclase 32E-like n=1 Tax=Neodiprion...  54.7       4e-05
+UniRef90_A0A1I7S6R9 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  54.7       4e-05
+UniRef90_UPI0008406AA5 gamma-aminobutyric acid type B receptor su...  54.7       4e-05
+UniRef90_E3M4I8 Guanylate cyclase n=5 Tax=Caenorhabditis TaxID=62...  54.7       4e-05
+UniRef90_A0A088AVQ7 Guanylate cyclase n=1 Tax=Apis mellifera TaxI...  54.3       5e-05
+UniRef90_A0A182PFP9 Guanylate cyclase n=1 Tax=Anopheles epiroticu...  54.3       5e-05
+UniRef90_H3FPJ6 Guanylate cyclase n=2 Tax=Pristionchus pacificus ...  54.3       5e-05
+UniRef90_A0A2H8TID5 Guanylate cyclase n=17 Tax=Aphididae TaxID=27...  54.3       5e-05
+UniRef90_A0A2A2KL42 Guanylate cyclase n=1 Tax=Diploscapter pachys...  54.3       5e-05
+UniRef90_UPI0006261E12 receptor-type guanylate cyclase Gyc76C-lik...  54.3       5e-05
+UniRef90_A0A084WC60 Guanylate cyclase n=1 Tax=Anopheles sinensis ...  54.3       5e-05
+UniRef90_UPI000A2A4B52 uncharacterized protein LOC110249811 n=1 T...  54.3       6e-05
+UniRef90_A0A2P4VQJ8 Guanylate cyclase n=1 Tax=Caenorhabditis rema...  53.9       6e-05
+UniRef90_A0A1W0XEQ2 Multifunctional fusion protein n=1 Tax=Hypsib...  53.9       7e-05
+UniRef90_UPI000E6D98CB receptor-type guanylate cyclase Gyc76C-lik...  53.9       7e-05
+UniRef90_A0A1I8AFE9 Guanylate cyclase n=1 Tax=Steinernema glaseri...  53.9       7e-05
+UniRef90_A0A6A7G4J2 Guanylate cyclase (Fragment) n=1 Tax=Hirondel...  53.9       7e-05
+UniRef90_A0A0V0XQ46 Guanylate cyclase (Fragment) n=2 Tax=Trichine...  53.5       8e-05
+UniRef90_UPI00083BEE44 guanylate cyclase 32E n=1 Tax=Nicrophorus ...  53.5       8e-05
+UniRef90_UPI0006237B96 gamma-aminobutyric acid type B receptor su...  53.5       8e-05
+UniRef90_UPI00083BD258 receptor-type guanylate cyclase Gyc76C-lik...  53.5       8e-05
+UniRef90_A0A0P6IUE5 Guanylate cyclase n=5 Tax=Aedes aegypti TaxID...  53.5       8e-05
+UniRef90_K1PQZ0 Guanylate cyclase n=2 Tax=Crassostrea gigas TaxID...  53.5       9e-05
+UniRef90_A0A2A4JP25 G_PROTEIN_RECEP_F3_4 domain-containing protei...  53.5       9e-05
+UniRef90_A0A067QVM8 Guanylate cyclase n=4 Tax=Termitoidae TaxID=1...  53.5       9e-05
+UniRef90_N6U6H5 Guanylate cyclase (Fragment) n=3 Tax=Dendroctonus...  53.5       9e-05
+UniRef90_UPI000718CB62 gamma-aminobutyric acid type B receptor su...  53.5       9e-05
+UniRef90_H9JV05 G_PROTEIN_RECEP_F3_4 domain-containing protein n=...  53.5       1e-04
+UniRef90_A0A0K0G4N7 Guanylate cyclase n=2 Tax=Strongyloides TaxID...  53.5       1e-04
+UniRef90_A0A2K6BED9 Uncharacterized protein n=14 Tax=Boreoeutheri...  53.1       1e-04
+UniRef90_UPI000C76E9BA receptor-type guanylate cyclase gcy-12-lik...  53.1       1e-04
+UniRef90_A0A1E1X2G3 Guanylate cyclase (Fragment) n=2 Tax=Amblyomm...  53.1       1e-04
+UniRef90_A0A6G0SYQ8 Guanylate cyclase n=1 Tax=Aphis glycines TaxI...  53.1       1e-04
+UniRef90_R7VYK8 Glutamate receptor 3.1 n=3 Tax=Aegilops tauschii ...  53.1       1e-04
+UniRef90_A0A1Q9F392 Metabotropic glutamate receptor 8 n=1 Tax=Sym...  53.1       1e-04
+UniRef90_A0A653BPI5 Guanylate cyclase n=3 Tax=Callosobruchus macu...  53.1       1e-04
+UniRef90_UPI00096B2D4E LOW QUALITY PROTEIN: atrial natriuretic pe...  52.8       1e-04
+UniRef90_A0A067QNJ9 Guanylate cyclase (Fragment) n=3 Tax=Zootermo...  52.8       1e-04
+UniRef90_UPI0006231C33 LOW QUALITY PROTEIN: guanylate cyclase 32E...  52.8       1e-04
+UniRef90_A0A6J2T8H2 uncharacterized protein LOC115621901 n=1 Tax=...  52.8       1e-04
+UniRef90_A0A090MZU1 Guanylate cyclase n=1 Tax=Strongyloides ratti...  52.8       1e-04
+UniRef90_A0A182FW72 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  52.8       1e-04
+UniRef90_F1RER0 Glutamate receptor, metabotropic 5a n=14 Tax=Cypr...  52.4       2e-04
+UniRef90_UPI000D626F89 uncharacterized protein LOC107275141 isofo...  52.4       2e-04
+UniRef90_A0A443R7B3 Guanylate cyclase (Fragment) n=1 Tax=Dinothro...  52.4       2e-04
+UniRef90_UPI0007718A8A gamma-aminobutyric acid type B receptor su...  52.4       2e-04
+UniRef90_A0A556U5Y0 Gamma-aminobutyric acid type B receptor subun...  52.4       2e-04
+UniRef90_UPI000771E1F7 gamma-aminobutyric acid type B receptor su...  52.4       2e-04
+UniRef90_E0VFE4 Class C metabotropic glutamate-like G-protein cou...  52.4       2e-04
+UniRef90_E0VCX6 Guanylate cyclase n=1 Tax=Pediculus humanus subsp...  52.4       2e-04
+UniRef90_A0A3L8DCZ8 Guanylate cyclase n=2 Tax=Ooceraea biroi TaxI...  52.4       2e-04
+UniRef90_Q7PZZ2 Guanylate cyclase (Fragment) n=17 Tax=Anopheles T...  52.4       2e-04
+UniRef90_UPI000C715D31 receptor-type guanylate cyclase Gyc76C iso...  52.4       2e-04
+UniRef90_D6WJG8 Guanylate cyclase n=2 Tax=Tribolium castaneum Tax...  52.0       2e-04
+UniRef90_A0A154PNE0 Gamma-aminobutyric acid type B receptor subun...  52.0       2e-04
+UniRef90_UPI00143D9139 gamma-aminobutyric acid type B receptor su...  52.0       2e-04
+UniRef90_A0A5J6SDN3 Guanylate cyclase n=1 Tax=Sinonovacula constr...  52.0       2e-04
+UniRef90_A0A6A4JF38 Guanylate cyclase n=2 Tax=Apolygus lucorum Ta...  52.0       2e-04
+UniRef90_A0A2B4SZS6 Gamma-aminobutyric acid type B receptor subun...  52.0       3e-04
+UniRef90_A0A162QYA8 Gamma-aminobutyric acid type B receptor subun...  52.0       3e-04
+UniRef90_UPI00073D634F gamma-aminobutyric acid type B receptor su...  52.0       3e-04
+UniRef90_A0A6J2XEI6 uncharacterized protein LOC115877509 isoform ...  51.6       3e-04
+UniRef90_A0A2A6BUN1 Uncharacterized protein n=2 Tax=Pristionchus ...  51.6       3e-04
+UniRef90_A0A2A2LC91 Guanylate cyclase n=1 Tax=Diploscapter pachys...  51.6       3e-04
+UniRef90_UPI0008F9B9A9 receptor-type guanylate cyclase gcy-18-lik...  51.6       3e-04
+UniRef90_A0A0L0BXY0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  51.6       3e-04
+UniRef90_A0A0N4ZDC3 Guanylate cyclase n=1 Tax=Parastrongyloides t...  51.6       3e-04
+UniRef90_A0A1L8DJE6 Guanylate cyclase n=8 Tax=Phlebotominae TaxID...  51.6       4e-04
+UniRef90_A0A1J1I326 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  51.6       4e-04
+UniRef90_UPI001482F730 gamma-aminobutyric acid type B receptor su...  51.6       4e-04
+UniRef90_A0A158NJ88 Guanylate cyclase n=11 Tax=Attini TaxID=14399...  51.6       4e-04
+UniRef90_A0A1I8AV97 Guanylate cyclase n=2 Tax=Steinernema glaseri...  51.6       4e-04
+UniRef90_UPI0004CCAB6F uncharacterized protein LOC103568771 n=1 T...  51.6       4e-04
+UniRef90_A0A1I8CUS2 Guanylate cyclase n=1 Tax=Rhabditophanes sp. ...  51.6       4e-04
+UniRef90_A0A0N5BGH1 Guanylate cyclase n=1 Tax=Strongyloides papil...  51.2       4e-04
+UniRef90_UPI001143895E gamma-aminobutyric acid type B receptor su...  51.2       4e-04
+UniRef90_A0A482VN66 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  51.2       4e-04
+UniRef90_A0A1I8D295 Guanylate cyclase n=1 Tax=Rhabditophanes sp. ...  51.2       4e-04
+UniRef90_UPI000C71B547 guanylate cyclase 32E-like n=1 Tax=Trichog...  51.2       5e-04
+UniRef90_A0A2A2LZL4 Guanylate cyclase n=2 Tax=Diploscapter pachys...  51.2       5e-04
+UniRef90_A0A3L8DZV8 G_PROTEIN_RECEP_F3_4 domain-containing protei...  51.2       5e-04
+UniRef90_A0A195BC28 Gamma-aminobutyric acid type B receptor subun...  50.8       6e-04
+UniRef90_A0A151XA01 Gamma-aminobutyric acid type B receptor subun...  50.8       6e-04
+UniRef90_A0A0M3QTN0 Guanylate cyclase n=2 Tax=Drosophila busckii ...  50.8       6e-04
+UniRef90_UPI0014040894 receptor-type guanylate cyclase gcy-5-like...  50.8       7e-04
+UniRef90_A0A5Q0TWN3 Guanylate cyclase n=1 Tax=Rhynchophorus ferru...  50.4       7e-04
+UniRef90_A0A182NF26 Guanylate cyclase n=1 Tax=Anopheles dirus Tax...  50.4       7e-04
+UniRef90_A0A195FUD1 Gamma-aminobutyric acid type B receptor subun...  50.4       7e-04
+UniRef90_UPI00144301CC gamma-aminobutyric acid type B receptor su...  50.4       7e-04
+UniRef90_A0A1I8N5J4 Guanylate cyclase n=3 Tax=Musca domestica Tax...  50.4       8e-04
+UniRef90_A0A1J1HVH7 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  50.4       8e-04
+UniRef90_A0A182QRN7 Guanylate cyclase n=1 Tax=Anopheles farauti T...  50.4       8e-04
+UniRef90_A0A2A2LS16 Guanylate cyclase n=4 Tax=Diploscapter pachys...  50.4       8e-04
+UniRef90_A0A1B6CLQ3 Guanylate cyclase n=3 Tax=Clastoptera arizona...  50.4       8e-04
+UniRef90_A0A194QTK8 Gamma-aminobutyric acid type B receptor subun...  50.1       0.001
+UniRef90_UPI0006D4EDBB gamma-aminobutyric acid type B receptor su...  50.1       0.001
+UniRef90_A0A6J1TRC2 uncharacterized protein LOC113217524 isoform ...  50.1       0.001
+UniRef90_E2A748 Gamma-aminobutyric acid type B receptor subunit 2...  50.1       0.001
+UniRef90_B0WSE7 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  50.1       0.001
+UniRef90_UPI0006256FA3 guanylate cyclase 32E n=1 Tax=Athalia rosa...  50.1       0.001
+UniRef90_A0A6J1N7Y9 guanylate cyclase 32E-like n=2 Tax=Satyrini T...  50.1       0.001
+UniRef90_UPI00143CD627 uncharacterized protein LOC117167784 isofo...  50.1       0.001
+UniRef90_A0A224XI24 Guanylate cyclase n=1 Tax=Panstrongylus ligna...  50.1       0.001
+UniRef90_UPI0012EE81BA metabotropic glutamate receptor 5 n=2 Tax=...  50.1       0.001
+UniRef90_W4XHH0 Guanylate cyclase n=2 Tax=Strongylocentrotus purp...  50.1       0.001
+UniRef90_UPI0005D08CB8 gamma-aminobutyric acid type B receptor su...  50.1       0.001
+UniRef90_A0A4Y0BJ06 Guanylate cyclase n=11 Tax=Cellia TaxID=44534...  50.1       0.001
+UniRef90_UPI0012B59BFA uncharacterized protein LOC116305707 n=2 T...  49.7       0.001
+UniRef90_A0A232EQQ2 Guanylate cyclase n=4 Tax=Pteromalinae TaxID=...  49.7       0.001
+UniRef90_A0A1B6EEF4 Guanylate cyclase n=2 Tax=Clastoptera arizona...  49.7       0.001
+UniRef90_UPI001471523D uncharacterized protein LOC117564842 n=1 T...  49.7       0.001
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1468095795634
+Results from round 2
+
+
+Query= sp|P17342-2|ANPRC_HUMAN Isoform 2 of Atrial natriuretic peptide
+receptor 3 OS=Homo sapiens OX=9606 GN=NPR3
+
+Length=540
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI000995A178 atrial natriuretic peptide receptor 1 n=1 ...  487        1e-156
+UniRef90_UPI000948E0FB atrial natriuretic peptide receptor 1 isof...  485        4e-156
+UniRef90_A0A3L8DRY2 Guanylate cyclase n=1 Tax=Ooceraea biroi TaxI...  484        2e-155
+UniRef90_UPI00083C7CA3 atrial natriuretic peptide receptor 1-like...  480        6e-154
+UniRef90_A0A310S7E6 Guanylate cyclase n=1 Tax=Eufriesea mexicana ...  481        2e-153
+UniRef90_UPI000619CDC1 atrial natriuretic peptide receptor 1 isof...  476        1e-152
+UniRef90_A0A6J1R2T9 atrial natriuretic peptide receptor 1-like is...  476        2e-152
+UniRef90_UPI000B929375 atrial natriuretic peptide receptor 1 isof...  473        9e-151
+UniRef90_A0A151WKN4 Guanylate cyclase n=6 Tax=Trachymyrmex TaxID=...  464        3e-150
+UniRef90_A0A0M3VH92 Guanylate cyclase n=2 Tax=Bombyx TaxID=7090 R...  471        1e-149
+UniRef90_UPI00084EF598 atrial natriuretic peptide receptor 1-like...  467        2e-149
+UniRef90_UPI000B3A255C atrial natriuretic peptide receptor 1 isof...  469        7e-149
+UniRef90_A0A5E4QBY5 Guanylate cyclase n=1 Tax=Leptidea sinapis Ta...  467        2e-148
+UniRef90_UPI000E77468B atrial natriuretic peptide receptor 1 n=1 ...  466        5e-148
+UniRef90_A0A212FC80 Guanylate cyclase n=4 Tax=Danaus plexippus pl...  465        6e-148
+UniRef90_UPI000EF7E281 atrial natriuretic peptide receptor 1-like...  466        6e-148
+UniRef90_UPI0010FAFAE1 LOW QUALITY PROTEIN: atrial natriuretic pe...  462        2e-147
+UniRef90_UPI00073D93A2 atrial natriuretic peptide receptor 1-like...  463        2e-147
+UniRef90_A0A6J1NK14 atrial natriuretic peptide receptor 1 isoform...  464        6e-147
+UniRef90_A0A158P0M1 Guanylate cyclase n=6 Tax=Myrmicinae TaxID=34...  460        2e-146
+UniRef90_A0A0L7QKK7 Guanylate cyclase n=2 Tax=Habropoda laboriosa...  458        3e-146
+UniRef90_UPI000E6D75A7 atrial natriuretic peptide receptor 1 isof...  460        2e-145
+UniRef90_A0A194PLI8 Guanylate cyclase n=4 Tax=Papilio TaxID=7145 ...  456        2e-144
+UniRef90_UPI0007E2BD96 atrial natriuretic peptide receptor 1 isof...  452        2e-143
+UniRef90_UPI00083BFC22 atrial natriuretic peptide receptor 1-like...  452        3e-143
+UniRef90_UPI00063F259A atrial natriuretic peptide receptor 1 n=1 ...  448        7e-142
+UniRef90_UPI000DC6B2CD atrial natriuretic peptide receptor 1 isof...  447        9e-142
+UniRef90_UPI0005F50262 atrial natriuretic peptide receptor 1-like...  447        2e-141
+UniRef90_UPI000614C1AB atrial natriuretic peptide receptor 1-like...  445        2e-141
+UniRef90_A0A6I9X274 atrial natriuretic peptide receptor 1 n=1 Tax...  447        2e-141
+UniRef90_UPI00118387A5 atrial natriuretic peptide receptor 1 isof...  449        3e-141
+UniRef90_UPI000E33DDC8 atrial natriuretic peptide receptor 1 n=1 ...  445        5e-141
+UniRef90_A0A6J8A0T2 Uncharacterized protein n=2 Tax=Mytilus corus...  444        1e-140
+UniRef90_UPI001144D0FE atrial natriuretic peptide receptor 1-like...  441        1e-139
+UniRef90_UPI000771CF1D atrial natriuretic peptide receptor 1 isof...  440        2e-139
+UniRef90_UPI00067A9E27 atrial natriuretic peptide receptor 2 n=1 ...  444        3e-139
+UniRef90_UPI000CD7D67F atrial natriuretic peptide receptor 1 isof...  441        4e-139
+UniRef90_A0A4S2KLG1 Guanylate cyclase n=2 Tax=Temnothorax TaxID=3...  437        4e-138
+UniRef90_UPI0005D0E51B atrial natriuretic peptide receptor 1 n=1 ...  435        2e-136
+UniRef90_UPI00084EAE63 atrial natriuretic peptide receptor 1 isof...  425        2e-135
+UniRef90_UPI00059CF5DF atrial natriuretic peptide receptor 1 isof...  424        4e-133
+UniRef90_A0A1Q3G4K8 Guanylate cyclase n=1 Tax=Culex tarsalis TaxI...  422        2e-132
+UniRef90_UPI0005F3FACC atrial natriuretic peptide receptor 1-like...  418        8e-131
+UniRef90_Q7PTP9 Guanylate cyclase n=5 Tax=gambiae species complex...  417        3e-130
+UniRef90_A0A4Y0BLL9 Guanylate cyclase n=1 Tax=Anopheles funestus ...  417        4e-130
+UniRef90_Q174S2 Guanylate cyclase n=3 Tax=Stegomyia TaxID=53541 R...  416        4e-130
+UniRef90_A0A0C9QYW7 Guanylate cyclase n=2 Tax=Opiinae TaxID=68883...  413        1e-129
+UniRef90_A0A2A3EEE4 Guanylate cyclase n=5 Tax=Apis TaxID=7459 Rep...  417        4e-129
+UniRef90_UPI0007D89759 atrial natriuretic peptide receptor 1 isof...  416        5e-129
+UniRef90_UPI0014790929 atrial natriuretic peptide receptor 1-like...  415        7e-129
+UniRef90_A0A2M4B9R9 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  412        3e-128
+UniRef90_A0A0Q9XA14 Guanylate cyclase n=3 Tax=mojavensis species ...  414        3e-128
+UniRef90_Q9VF17 Guanylate cyclase n=19 Tax=melanogaster group Tax...  413        5e-128
+UniRef90_UPI0012932550 atrial natriuretic peptide receptor 1-like...  412        2e-127
+UniRef90_UPI000718AD2B atrial natriuretic peptide receptor 1-like...  409        3e-127
+UniRef90_A0A2M4CIX2 Guanylate cyclase (Fragment) n=3 Tax=Anophele...  407        4e-127
+UniRef90_A0A6J3JUN6 atrial natriuretic peptide receptor 1-like is...  410        7e-127
+UniRef90_UPI00148D7142 atrial natriuretic peptide receptor 1-like...  411        7e-127
+UniRef90_A0A1W4VFG5 Guanylate cyclase n=1 Tax=Drosophila ficusphi...  410        1e-126
+UniRef90_A0A0P9CAM4 Guanylate cyclase n=6 Tax=melanogaster group ...  410        2e-126
+UniRef90_A0A3B0JPZ6 Guanylate cyclase n=6 Tax=obscura group TaxID...  409        4e-126
+UniRef90_UPI001470C7A9 atrial natriuretic peptide receptor 1 n=1 ...  407        2e-125
+UniRef90_A0A034VF88 Guanylate cyclase n=5 Tax=Bactrocera TaxID=47...  407        2e-125
+UniRef90_UPI001433357F atrial natriuretic peptide receptor 1 isof...  406        3e-125
+UniRef90_B4NBA6 Guanylate cyclase n=1 Tax=Drosophila willistoni T...  404        7e-125
+UniRef90_UPI0006EAD2BD atrial natriuretic peptide receptor 1-like...  401        1e-124
+UniRef90_A0A0A1X716 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  405        1e-124
+UniRef90_B4JT47 Guanylate cyclase n=2 Tax=Drosophila grimshawi Ta...  404        3e-124
+UniRef90_UPI000618858F atrial natriuretic peptide receptor 1 isof...  408        3e-124
+UniRef90_B4GEV1 Guanylate cyclase n=1 Tax=Drosophila persimilis T...  404        3e-124
+UniRef90_A0A0L0CC40 Guanylate cyclase n=1 Tax=Lucilia cuprina Tax...  403        4e-124
+UniRef90_UPI000C26D45F atrial natriuretic peptide receptor 1 isof...  401        8e-124
+UniRef90_UPI0008F984B4 atrial natriuretic peptide receptor 1 isof...  400        1e-123
+UniRef90_A0A6J2TE53 atrial natriuretic peptide receptor 1 n=1 Tax...  402        1e-123
+UniRef90_B4LX87 Guanylate cyclase n=6 Tax=Drosophila TaxID=32281 ...  402        1e-123
+UniRef90_A0A0Q9WE85 Guanylate cyclase n=1 Tax=Drosophila virilis ...  401        1e-123
+UniRef90_UPI0013C523D0 atrial natriuretic peptide receptor 1-like...  398        2e-123
+UniRef90_UPI00156A0359 atrial natriuretic peptide receptor 1 isof...  397        6e-123
+UniRef90_UPI0013F1D410 atrial natriuretic peptide receptor 1-like...  399        7e-123
+UniRef90_UPI00081123CC atrial natriuretic peptide receptor 1 n=1 ...  400        2e-122
+UniRef90_UPI00083E9A6A atrial natriuretic peptide receptor 1 isof...  398        2e-122
+UniRef90_UPI00084CD759 atrial natriuretic peptide receptor 1-like...  397        4e-122
+UniRef90_UPI0008405B62 atrial natriuretic peptide receptor 1-like...  396        6e-122
+UniRef90_UPI0008DDA5E1 atrial natriuretic peptide receptor 1 isof...  398        9e-122
+UniRef90_W8B2G3 Guanylate cyclase n=1 Tax=Ceratitis capitata TaxI...  397        2e-121
+UniRef90_A0A154PGU2 Guanylate cyclase n=2 Tax=Dufourea novaeangli...  392        2e-121
+UniRef90_A0A0A1X5Z0 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  398        3e-121
+UniRef90_A0A0F8AHJ0 Guanylate cyclase n=2 Tax=Larimichthys crocea...  392        1e-120
+UniRef90_A0A452FSJ1 Guanylate cyclase n=43 Tax=Boreoeutheria TaxI...  385        3e-120
+UniRef90_A0A4Y0BM48 Guanylate cyclase n=1 Tax=Anopheles funestus ...  389        5e-120
+UniRef90_UPI001183C1F2 atrial natriuretic peptide receptor 1 isof...  388        7e-120
+UniRef90_UPI0008523D18 atrial natriuretic peptide receptor 1-like...  389        9e-120
+UniRef90_P16066 Atrial natriuretic peptide receptor 1 n=102 Tax=E...  384        1e-119
+UniRef90_A0A1I8MLJ8 Guanylate cyclase n=1 Tax=Musca domestica Tax...  390        4e-119
+UniRef90_A0A1I8PRN8 Guanylate cyclase n=1 Tax=Stomoxys calcitrans...  392        7e-119
+UniRef90_UPI000E6E5592 atrial natriuretic peptide receptor 1-like...  390        1e-118
+UniRef90_A0A1J1IEB7 Guanylate cyclase n=2 Tax=Clunio marinus TaxI...  385        4e-118
+UniRef90_A0A1A9YK51 Guanylate cyclase n=1 Tax=Glossina fuscipes f...  390        8e-118
+UniRef90_UPI0015E03FA6 atrial natriuretic peptide receptor 1-like...  380        2e-116
+UniRef90_UPI0005F3EA03 atrial natriuretic peptide receptor 1-like...  382        2e-116
+UniRef90_A0A6B0S084 Guanylate cyclase n=7 Tax=Boreoeutheria TaxID...  385        3e-116
+UniRef90_UPI0012D48687 atrial natriuretic peptide receptor 1-like...  375        3e-115
+UniRef90_A0A1B0G6S3 Guanylate cyclase n=3 Tax=Glossina TaxID=4404...  376        2e-114
+UniRef90_UPI0012D47392 atrial natriuretic peptide receptor 1-like...  369        8e-113
+UniRef90_A0A1B0G3T4 Guanylate cyclase n=1 Tax=Glossina morsitans ...  374        1e-112
+UniRef90_A0A1I7SAG7 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  369        1e-110
+UniRef90_Q86GV3-4 Isoform d of Receptor-type guanylate cyclase gc...  363        2e-110
+UniRef90_A0A1I8MX63 Guanylate cyclase n=6 Tax=Calyptratae TaxID=4...  362        4e-110
+UniRef90_A0A6G0UQ17 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  364        6e-110
+UniRef90_Q86GV3-2 Isoform a of Receptor-type guanylate cyclase gc...  357        2e-108
+UniRef90_A0A6L2PGR8 Uncharacterized protein (Fragment) n=1 Tax=Co...  357        3e-106
+UniRef90_A0A158Q3Q2 Guanylate cyclase n=1 Tax=Dracunculus medinen...  350        2e-105
+UniRef90_A0A6J0C5Z9 atrial natriuretic peptide receptor 1 n=2 Tax...  348        2e-105
+UniRef90_A0A6J0U6T2 atrial natriuretic peptide receptor 2 n=1 Tax...  350        2e-105
+UniRef90_Q86GV3 Receptor-type guanylate cyclase gcy-28 n=9 Tax=Ca...  344        2e-103
+UniRef90_A0A1V4JZS4 Guanylate cyclase n=3 Tax=Sauria TaxID=32561 ...  348        3e-103
+UniRef90_A0A0V1AZW3 Guanylate cyclase n=38 Tax=Trichinella TaxID=...  336        2e-101
+UniRef90_F1KQZ1 Guanylate cyclase n=1 Tax=Ascaris suum TaxID=6253...  339        2e-101
+UniRef90_A0A5K3FKC4 Guanylate cyclase n=3 Tax=Mesocestoides corti...  340        2e-101
+UniRef90_A0A2U9CX47 Guanylate cyclase n=2 Tax=Percomorphaceae Tax...  341        5e-101
+UniRef90_K7JAC0 Guanylate cyclase n=1 Tax=Nasonia vitripennis Tax...  337        1e-99 
+UniRef90_UPI00022DC1E6 protein kinase n=1 Tax=Schistosoma mansoni...  336        1e-99 
+UniRef90_A0A2A6BTW5 Guanylate cyclase n=2 Tax=Pristionchus pacifi...  334        4e-99 
+UniRef90_UPI0006261E12 receptor-type guanylate cyclase Gyc76C-lik...  332        2e-98 
+UniRef90_A0A068YBJ0 Guanylate cyclase n=2 Tax=Echinococcus TaxID=...  331        5e-98 
+UniRef90_UPI0005AD16E7 guanylate cyclase 32E-like isoform X1 n=4 ...  331        7e-98 
+UniRef90_F1KS35 Guanylate cyclase n=2 Tax=Ascaridoidea TaxID=3325...  328        1e-97 
+UniRef90_A0A6F7NN03 Guanylate cyclase n=2 Tax=Haemonchus TaxID=62...  328        1e-97 
+UniRef90_A0A088AVQ7 Guanylate cyclase n=1 Tax=Apis mellifera TaxI...  330        2e-97 
+UniRef90_A0A3L8DCZ8 Guanylate cyclase n=2 Tax=Ooceraea biroi TaxI...  330        2e-97 
+UniRef90_A0A0L7RJ80 Guanylate cyclase (Fragment) n=11 Tax=Apoidea...  328        3e-97 
+UniRef90_UPI000766E7A3 guanylate cyclase 32E-like n=4 Tax=Halicti...  328        4e-97 
+UniRef90_W4ZFF5 Guanylate cyclase n=1 Tax=Strongylocentrotus purp...  327        4e-97 
+UniRef90_UPI001482D397 receptor-type guanylate cyclase Gyc76C-lik...  328        5e-97 
+UniRef90_UPI000771DF38 receptor-type guanylate cyclase Gyc76C iso...  328        5e-97 
+UniRef90_UPI000C715D31 receptor-type guanylate cyclase Gyc76C iso...  327        2e-96 
+UniRef90_UPI000718DC5B guanylate cyclase 32E-like isoform X1 n=4 ...  327        2e-96 
+UniRef90_A0A0X3PIT8 Guanylate cyclase n=2 Tax=Diphyllobothriidae ...  326        3e-96 
+UniRef90_UPI00083DFC8C receptor-type guanylate cyclase Gyc76C-lik...  325        4e-96 
+UniRef90_A0A3N0XJX4 Guanylate cyclase n=1 Tax=Anabarilius grahami...  325        5e-96 
+UniRef90_K7J3D3 Guanylate cyclase n=3 Tax=Chalcidoidea TaxID=7422...  326        7e-96 
+UniRef90_A0A1S0UHA3 Guanylate cyclase n=7 Tax=Onchocercidae TaxID...  323        2e-95 
+UniRef90_UPI00158D3BC3 receptor-type guanylate cyclase Gyc76C-lik...  322        7e-95 
+UniRef90_A0A090LDH2 Guanylate cyclase n=5 Tax=Strongyloididae Tax...  323        8e-95 
+UniRef90_UPI00059C184A receptor-type guanylate cyclase Gyc76C n=2...  321        1e-94 
+UniRef90_A0A1S3HFZ8 Guanylate cyclase n=1 Tax=Lingula unguis TaxI...  319        3e-94 
+UniRef90_A0A6J0BI47 guanylate cyclase 32E-like n=1 Tax=Neodiprion...  320        3e-94 
+UniRef90_A0A210QCJ9 Guanylate cyclase n=2 Tax=Pectinidae TaxID=65...  318        5e-94 
+UniRef90_UPI00143DBBB4 receptor-type guanylate cyclase Gyc76C-lik...  319        1e-93 
+UniRef90_UPI000BAF72B8 receptor-type guanylate cyclase Gyc76C-lik...  316        2e-93 
+UniRef90_W6UP63 Guanylate cyclase n=1 Tax=Echinococcus granulosus...  319        4e-93 
+UniRef90_A0A6J2YD42 receptor-type guanylate cyclase Gyc76C-like i...  317        4e-93 
+UniRef90_UPI00089DAF6A atrial natriuretic peptide receptor 1-like...  315        1e-92 
+UniRef90_E0VCX6 Guanylate cyclase n=1 Tax=Pediculus humanus subsp...  314        3e-92 
+UniRef90_D6X177 Guanylate cyclase n=1 Tax=Tribolium castaneum Tax...  313        1e-91 
+UniRef90_A0A4E0RLC3 Guanylate cyclase n=1 Tax=Fasciola hepatica T...  313        2e-91 
+UniRef90_UPI0006231C33 LOW QUALITY PROTEIN: guanylate cyclase 32E...  312        3e-91 
+UniRef90_N6UEX4 Guanylate cyclase (Fragment) n=4 Tax=Dendroctonus...  311        6e-91 
+UniRef90_A0A158NJ88 Guanylate cyclase n=11 Tax=Attini TaxID=14399...  311        6e-91 
+UniRef90_UPI0004CCC96C guanylate cyclase 32E n=1 Tax=Microplitis ...  311        1e-90 
+UniRef90_A0A1L8DJE6 Guanylate cyclase n=8 Tax=Phlebotominae TaxID...  310        1e-90 
+UniRef90_A0A1I8JHS3 Guanylate cyclase n=3 Tax=Macrostomum lignano...  308        2e-90 
+UniRef90_J9JNT2 Guanylate cyclase n=10 Tax=Aphidinae TaxID=133076...  309        2e-90 
+UniRef90_A0A4S2L598 Guanylate cyclase n=3 Tax=Opisthorchiidae Tax...  308        6e-90 
+UniRef90_A0A5S6Q8M7 Guanylate cyclase n=1 Tax=Trichuris muris Tax...  308        8e-90 
+UniRef90_A0A6J1SZ30 atrial natriuretic peptide receptor 2-like n=...  308        9e-90 
+UniRef90_A0A0V1M9D0 Guanylate cyclase n=27 Tax=Trichinella TaxID=...  308        2e-89 
+UniRef90_UPI00096B3060 LOW QUALITY PROTEIN: receptor-type guanyla...  307        2e-89 
+UniRef90_UPI00083BD258 receptor-type guanylate cyclase Gyc76C-lik...  306        4e-89 
+UniRef90_A0A1D1UL07 Guanylate cyclase n=1 Tax=Ramazzottius varieo...  305        6e-89 
+UniRef90_A0A1I8N1B4 Guanylate cyclase n=2 Tax=Musca domestica Tax...  303        1e-88 
+UniRef90_A0A182HEV4 Guanylate cyclase n=6 Tax=Stegomyia TaxID=535...  304        2e-88 
+UniRef90_A0A5E4N440 Guanylate cyclase n=2 Tax=Cinara cedri TaxID=...  303        3e-88 
+UniRef90_A0A1W0WG25 Guanylate cyclase n=1 Tax=Hypsibius dujardini...  302        5e-88 
+UniRef90_A0A085NM74 Guanylate cyclase n=1 Tax=Trichuris suis TaxI...  303        5e-88 
+UniRef90_A0A0B2V4G1 Guanylate cyclase n=2 Tax=Toxocara canis TaxI...  301        1e-87 
+UniRef90_UPI0006256FA3 guanylate cyclase 32E n=1 Tax=Athalia rosa...  300        3e-87 
+UniRef90_UPI00099582D8 receptor-type guanylate cyclase Gyc76C-lik...  300        5e-87 
+UniRef90_A0A0K8UVZ5 Guanylate cyclase n=11 Tax=Dacinae TaxID=1648...  298        8e-87 
+UniRef90_E9GF33 Guanylate cyclase n=3 Tax=Daphnia TaxID=6668 RepI...  297        2e-86 
+UniRef90_C7LAF5 Guanylate cyclase n=57 Tax=Sophophora TaxID=32341...  296        3e-86 
+UniRef90_A0A2H8TID5 Guanylate cyclase n=17 Tax=Aphididae TaxID=27...  296        3e-86 
+UniRef90_UPI0014254D32 guanylate cyclase 32E-like isoform X1 n=2 ...  297        3e-86 
+UniRef90_A0A6J8BRC7 ANPRA n=1 Tax=Mytilus coruscus TaxID=42192 Re...  296        4e-86 
+UniRef90_A0A1B6MKA2 Guanylate cyclase n=2 Tax=Cicadellinae TaxID=...  296        8e-86 
+UniRef90_A0A482VLY3 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  296        1e-85 
+UniRef90_A0A2A6B684 Guanylate cyclase n=2 Tax=Pristionchus pacifi...  296        1e-85 
+UniRef90_A0A182H963 Guanylate cyclase n=6 Tax=Aedes albopictus Ta...  296        1e-85 
+UniRef90_A0A1B0AQX7 Guanylate cyclase n=3 Tax=Glossina TaxID=7393...  295        2e-85 
+UniRef90_A0A067QVM8 Guanylate cyclase n=4 Tax=Termitoidae TaxID=1...  296        2e-85 
+UniRef90_A0A0Q9XGB6 Guanylate cyclase n=1 Tax=Drosophila mojavens...  294        3e-85 
+UniRef90_A0A2S2R4A9 Guanylate cyclase n=2 Tax=Sipha flava TaxID=1...  294        3e-85 
+UniRef90_A0A1A9WQ30 Guanylate cyclase n=1 Tax=Glossina brevipalpi...  294        3e-85 
+UniRef90_A0A067QNJ9 Guanylate cyclase (Fragment) n=3 Tax=Zootermo...  292        6e-85 
+UniRef90_A0A182J455 Guanylate cyclase n=2 Tax=Anopheles TaxID=444...  294        7e-85 
+UniRef90_A0A0P9C5X5 Guanylate cyclase n=3 Tax=melanogaster group ...  292        1e-84 
+UniRef90_A0A182FW72 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  294        1e-84 
+UniRef90_B4MNC6 Guanylate cyclase n=20 Tax=Drosophila TaxID=7215 ...  292        1e-84 
+UniRef90_A0A2C9KEF9 ANF_receptor domain-containing protein n=1 Ta...  293        2e-84 
+UniRef90_UPI000C26C2C5 speract receptor isoform X2 n=2 Tax=Drosop...  291        2e-84 
+UniRef90_A0A6G0V1F3 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  293        2e-84 
+UniRef90_A0A0F7VHN3 Guanylate cyclase n=1 Tax=Euperipatoides kana...  291        3e-84 
+UniRef90_A0A6A4JF38 Guanylate cyclase n=2 Tax=Apolygus lucorum Ta...  290        6e-84 
+UniRef90_A0A158QG15 Guanylate cyclase n=1 Tax=Hymenolepis diminut...  291        7e-84 
+UniRef90_A0A498MIS9 Guanylate cyclase n=1 Tax=Labeo rohita TaxID=...  291        9e-84 
+UniRef90_A0A182FAJ7 G_PROTEIN_RECEP_F3_4 domain-containing protei...  290        1e-83 
+UniRef90_UPI000C760E00 guanylate cyclase 32E n=1 Tax=Anoplophora ...  289        2e-83 
+UniRef90_UPI0009E4EC19 speract receptor-like n=1 Tax=Orbicella fa...  290        2e-83 
+UniRef90_B0WNC5 Gamma-aminobutyric acid type B receptor n=3 Tax=C...  289        2e-83 
+UniRef90_A0A6J0BI48 guanylate cyclase 32E n=1 Tax=Neodiprion leco...  288        4e-83 
+UniRef90_Q5TRW6 AGAP004595-PA n=15 Tax=Anopheles TaxID=7164 RepID...  287        9e-83 
+UniRef90_A0A0R3RYD5 Guanylate cyclase n=1 Tax=Elaeophora elaphi T...  288        1e-82 
+UniRef90_A0A154PNE0 Gamma-aminobutyric acid type B receptor subun...  287        1e-82 
+UniRef90_A0A5N4AXK6 Guanylate cyclase n=4 Tax=Photinus pyralis Ta...  286        1e-82 
+UniRef90_A0A2J7Q248 Guanylate cyclase n=4 Tax=Cryptotermes secund...  286        1e-82 
+UniRef90_A0A1S0U405 Guanylate cyclase n=10 Tax=Onchocercidae TaxI...  287        2e-82 
+UniRef90_A0A6J2YCQ3 guanylate cyclase 32E n=1 Tax=Sitophilus oryz...  286        3e-82 
+UniRef90_UPI000B90CEF8 guanylate cyclase 32E-like n=1 Tax=Acantha...  285        5e-82 
+UniRef90_A0A0Q9WRX8 Uncharacterized protein, isoform B n=7 Tax=vi...  284        6e-82 
+UniRef90_UPI001395CAB2 gamma-aminobutyric acid type B receptor su...  284        6e-82 
+UniRef90_UPI0010F5D478 gamma-aminobutyric acid type B receptor su...  285        7e-82 
+UniRef90_UPI0010F747D0 gamma-aminobutyric acid type B receptor su...  285        7e-82 
+UniRef90_UPI0011E5DCBB speract receptor isoform X2 n=1 Tax=Drosop...  284        7e-82 
+UniRef90_A0A182GQJ0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  284        8e-82 
+UniRef90_UPI000BE1CCC1 atrial natriuretic peptide receptor 1-like...  284        8e-82 
+UniRef90_A0A084VYH2 Guanylate cyclase n=1 Tax=Anopheles sinensis ...  286        9e-82 
+UniRef90_A0A368GVP0 Guanylate cyclase n=3 Tax=Strongylida TaxID=6...  285        9e-82 
+UniRef90_A0A182F1Z3 Guanylate cyclase n=1 Tax=Anopheles albimanus...  286        1e-81 
+UniRef90_UPI000A2C065A guanylate cyclase 32E-like n=1 Tax=Paraste...  283        2e-81 
+UniRef90_A0A0L7RHU3 Gamma-aminobutyric acid type B receptor subun...  284        2e-81 
+UniRef90_A0A6J8E7P9 E4.6.1.2 n=1 Tax=Mytilus coruscus TaxID=42192...  283        2e-81 
+UniRef90_A0A2C9GRZ6 Guanylate cyclase n=8 Tax=Cellia TaxID=44534 ...  283        2e-81 
+UniRef90_A0A0M3QWJ4 Guanylate cyclase n=2 Tax=Drosophila TaxID=72...  283        2e-81 
+UniRef90_W8BGI5 Gamma-aminobutyric acid type B receptor subunit 2...  281        7e-81 
+UniRef90_E0VFE4 Class C metabotropic glutamate-like G-protein cou...  282        8e-81 
+UniRef90_UPI000C71B547 guanylate cyclase 32E-like n=1 Tax=Trichog...  281        9e-81 
+UniRef90_A0A182Q3F5 Guanylate cyclase n=2 Tax=Anopheles TaxID=716...  280        9e-81 
+UniRef90_A0A6J2T962 guanylate cyclase 32E isoform X1 n=4 Tax=Dros...  281        1e-80 
+UniRef90_A0A044RAI2 Guanylate cyclase n=2 Tax=Onchocerca TaxID=62...  281        1e-80 
+UniRef90_A0A0M4F7G9 GABA-B-R2 n=8 Tax=Drosophila TaxID=7215 RepID...  280        2e-80 
+UniRef90_A0A5N4A9X5 Guanylate cyclase n=3 Tax=Photinus pyralis Ta...  279        3e-80 
+UniRef90_B4LQH0 Guanylate cyclase n=5 Tax=Drosophila TaxID=32281 ...  279        5e-80 
+UniRef90_UPI000A0ED68D gamma-aminobutyric acid type B receptor su...  279        8e-80 
+UniRef90_UPI00083BEE44 guanylate cyclase 32E n=1 Tax=Nicrophorus ...  279        8e-80 
+UniRef90_UPI000A0ED217 gamma-aminobutyric acid type B receptor su...  279        8e-80 
+UniRef90_UPI00103F8627 speract receptor isoform X2 n=1 Tax=Ostrin...  279        9e-80 
+UniRef90_A0A0B4LHR4 Metabotropic GABA-B receptor subtype 2, isofo...  278        9e-80 
+UniRef90_B0WSE7 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  278        1e-79 
+UniRef90_A0A6J2TH66 gamma-aminobutyric acid type B receptor subun...  278        1e-79 
+UniRef90_UPI00073D634F gamma-aminobutyric acid type B receptor su...  278        2e-79 
+UniRef90_UPI000E6D98CB receptor-type guanylate cyclase Gyc76C-lik...  278        3e-79 
+UniRef90_UPI0006237B96 gamma-aminobutyric acid type B receptor su...  277        3e-79 
+UniRef90_A0A4D5RH00 Guanylate cyclase (Fragment) n=2 Tax=Ixodes s...  278        4e-79 
+UniRef90_UPI0014558AB5 guanylate cyclase 32E-like n=1 Tax=Asteria...  276        5e-79 
+UniRef90_B0WPU2 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  276        6e-79 
+UniRef90_K7J3D4 Guanylate cyclase n=3 Tax=Pteromalinae TaxID=2722...  277        6e-79 
+UniRef90_UPI000771E1F7 gamma-aminobutyric acid type B receptor su...  277        6e-79 
+UniRef90_A0A3P6S5H5 Guanylate cyclase n=1 Tax=Litomosoides sigmod...  276        7e-79 
+UniRef90_A0A1D2MRX5 Guanylate cyclase n=1 Tax=Orchesella cincta T...  277        8e-79 
+UniRef90_UPI0007718A8A gamma-aminobutyric acid type B receptor su...  276        8e-79 
+UniRef90_UPI000718CB62 gamma-aminobutyric acid type B receptor su...  276        8e-79 
+UniRef90_UPI001482F730 gamma-aminobutyric acid type B receptor su...  276        1e-78 
+UniRef90_UPI000C203584 receptor-type guanylate cyclase Gyc76C-lik...  276        1e-78 
+UniRef90_A0A1I7TT06 Guanylate cyclase n=1 Tax=Caenorhabditis trop...  276        1e-78 
+UniRef90_W2SXV2 Guanylate cyclase (Fragment) n=1 Tax=Necator amer...  276        2e-78 
+UniRef90_T1E1N6 Guanylate cyclase n=1 Tax=Cupiennius salei TaxID=...  275        2e-78 
+UniRef90_UPI0007D956D8 gamma-aminobutyric acid type B receptor su...  275        2e-78 
+UniRef90_A0A1A9ZL53 G_PROTEIN_RECEP_F3_4 domain-containing protei...  274        2e-78 
+UniRef90_A0A1J1J1I5 CLUMA_CG018829, isoform A n=1 Tax=Clunio mari...  274        2e-78 
+UniRef90_UPI001471EEEB speract receptor isoform X3 n=1 Tax=Drosop...  274        3e-78 
+UniRef90_A0A653BPI5 Guanylate cyclase n=3 Tax=Callosobruchus macu...  275        4e-78 
+UniRef90_A0A267FHZ2 Guanylate cyclase n=2 Tax=Macrostomum lignano...  274        4e-78 
+UniRef90_A0A2M4BA44 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  274        5e-78 
+UniRef90_UPI0008406AA5 gamma-aminobutyric acid type B receptor su...  274        6e-78 
+UniRef90_G0NAX7 Guanylate cyclase n=1 Tax=Caenorhabditis brenneri...  274        6e-78 
+UniRef90_A0A6J3LD19 gamma-aminobutyric acid type B receptor subun...  274        7e-78 
+UniRef90_UPI0006C9C707 guanylate cyclase 32E n=1 Tax=Copidosoma f...  273        9e-78 
+UniRef90_UPI001143895E gamma-aminobutyric acid type B receptor su...  273        1e-77 
+UniRef90_UPI000B914024 atrial natriuretic peptide receptor 2-like...  273        1e-77 
+UniRef90_A0A1W7RAI6 Guanylate cyclase n=1 Tax=Hadrurus spadix Tax...  273        1e-77 
+UniRef90_A0A182PFP9 Guanylate cyclase n=1 Tax=Anopheles epiroticu...  273        1e-77 
+UniRef90_A0A3M6UZX5 Guanylate cyclase n=2 Tax=Pocillopora damicor...  273        2e-77 
+UniRef90_A0A498SKD6 Guanylate cyclase n=1 Tax=Acanthocheilonema v...  272        2e-77 
+UniRef90_UPI00143D9139 gamma-aminobutyric acid type B receptor su...  273        2e-77 
+UniRef90_UPI000C6DDBCB atrial natriuretic peptide receptor 2-like...  272        2e-77 
+UniRef90_H9JBA4 Guanylate cyclase n=3 Tax=Bombyx TaxID=7090 RepID...  271        2e-77 
+UniRef90_A0A0L0BXY0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  271        3e-77 
+UniRef90_A0A3L8DZV8 G_PROTEIN_RECEP_F3_4 domain-containing protei...  271        3e-77 
+UniRef90_C5H7S1 Guanylate cyclase n=6 Tax=gambiae species complex...  272        3e-77 
+UniRef90_A0A6I8TB65 Guanylate cyclase n=4 Tax=Stegomyia TaxID=535...  270        5e-77 
+UniRef90_E2A748 Gamma-aminobutyric acid type B receptor subunit 2...  268        6e-77 
+UniRef90_UPI001455CC37 atrial natriuretic peptide receptor 1-like...  271        6e-77 
+UniRef90_UPI000C6DED08 receptor-type guanylate cyclase Gyc76C-lik...  271        7e-77 
+UniRef90_UPI00067AF0D6 LOW QUALITY PROTEIN: guanylate cyclase 32E...  269        1e-76 
+UniRef90_UPI0006D4EDBB gamma-aminobutyric acid type B receptor su...  270        1e-76 
+UniRef90_UPI0012B5F833 speract receptor-like isoform X1 n=2 Tax=A...  271        1e-76 
+UniRef90_A0A0P6IUE5 Guanylate cyclase n=5 Tax=Aedes aegypti TaxID...  269        2e-76 
+UniRef90_A0A182P9Q0 Guanylate cyclase n=2 Tax=Pyretophorus TaxID=...  270        2e-76 
+UniRef90_Q19187 Receptor-type guanylate cyclase gcy-12 n=1 Tax=Ca...  269        3e-76 
+UniRef90_A0A336MLZ6 CSON002641 protein n=2 Tax=Culicoides sonoren...  268        3e-76 
+UniRef90_UPI0010FC8CBB guanylate cyclase 32E-like n=2 Tax=Acropor...  269        5e-76 
+UniRef90_A0A1J1HVH7 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  268        6e-76 
+UniRef90_UPI001458273D atrial natriuretic peptide receptor 1-like...  268        6e-76 
+UniRef90_UPI000F6766CE receptor-type guanylate cyclase Gyc76C-lik...  268        1e-75 
+UniRef90_A0A646SXK8 Guanylate cyclase n=1 Tax=Penaeus vannamei Ta...  267        2e-75 
+UniRef90_A0A094ZKT0 Guanylate cyclase n=4 Tax=Schistosoma TaxID=6...  266        2e-75 
+UniRef90_G0PKB7 Guanylate cyclase n=1 Tax=Caenorhabditis brenneri...  266        2e-75 
+UniRef90_K1Q3E2 Guanylate cyclase n=3 Tax=Crassostrea gigas TaxID...  267        2e-75 
+UniRef90_A0A2B4STI1 Guanylate cyclase n=1 Tax=Stylophora pistilla...  267        2e-75 
+UniRef90_UPI0011826219 speract receptor isoform X1 n=2 Tax=Manduc...  266        2e-75 
+UniRef90_T1KEQ4 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  263        4e-75 
+UniRef90_UPI000E6E4BF6 atrial natriuretic peptide receptor 1-like...  266        4e-75 
+UniRef90_UPI000E6E460B guanylate cyclase 32E n=1 Tax=Ctenocephali...  266        4e-75 
+UniRef90_A0A2M4A5V4 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  264        1e-74 
+UniRef90_A0A0N5CJC7 Guanylate cyclase n=1 Tax=Thelazia callipaeda...  264        1e-74 
+UniRef90_UPI00148A4A6D atrial natriuretic peptide receptor 2-like...  264        2e-74 
+UniRef90_Q7PWU5 Guanylate cyclase (Fragment) n=2 Tax=Anopheles ga...  261        2e-74 
+UniRef90_D6WJG8 Guanylate cyclase n=2 Tax=Tribolium castaneum Tax...  264        2e-74 
+UniRef90_Q7PZZ2 Guanylate cyclase (Fragment) n=17 Tax=Anopheles T...  263        3e-74 
+UniRef90_UPI00065BA0AB guanylate cyclase 32E-like n=1 Tax=Aplysia...  263        4e-74 
+UniRef90_A0A484BG96 Guanylate cyclase n=4 Tax=mojavensis species ...  263        5e-74 
+UniRef90_A0A194RGF1 Guanylate cyclase (Fragment) n=4 Tax=Papilio ...  261        5e-74 
+UniRef90_A0A433TRG2 Guanylate cyclase (Fragment) n=1 Tax=Elysia c...  263        6e-74 
+UniRef90_A0A2H1WKG9 Guanylate cyclase n=6 Tax=Noctuidae TaxID=710...  262        6e-74 
+UniRef90_A0A151XA01 Gamma-aminobutyric acid type B receptor subun...  262        1e-73 
+UniRef90_UPI000A2A481A atrial natriuretic peptide receptor 1 n=1 ...  262        1e-73 
+UniRef90_UPI00065BC0F3 guanylate cyclase 32E-like n=1 Tax=Aplysia...  262        1e-73 
+UniRef90_T1K3I9 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  261        2e-73 
+UniRef90_UPI000012266D C. briggsae CBR-GCY-12 protein n=1 Tax=Cae...  260        3e-73 
+UniRef90_UPI000B905736 guanylate cyclase 32E-like n=1 Tax=Folsomi...  261        3e-73 
+UniRef90_A0A1I8CWM6 Guanylate cyclase n=1 Tax=Rhabditophanes sp. ...  261        3e-73 
+UniRef90_A0A195BC28 Gamma-aminobutyric acid type B receptor subun...  260        3e-73 
+UniRef90_A0A182F2H0 Guanylate cyclase n=1 Tax=Anopheles albimanus...  260        3e-73 
+UniRef90_A0A1I7SBM1 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  260        4e-73 
+UniRef90_A0A443R7B3 Guanylate cyclase (Fragment) n=1 Tax=Dinothro...  259        5e-73 
+UniRef90_L7MDN2 Guanylate cyclase (Fragment) n=1 Tax=Rhipicephalu...  260        5e-73 
+UniRef90_A0A182YCH9 Guanylate cyclase n=1 Tax=Anopheles stephensi...  260        5e-73 
+UniRef90_A0A1I8AV97 Guanylate cyclase n=2 Tax=Steinernema glaseri...  260        5e-73 
+UniRef90_A0A182NF26 Guanylate cyclase n=1 Tax=Anopheles dirus Tax...  259        6e-73 
+UniRef90_A0A0L8HCE2 Guanylate cyclase n=3 Tax=Octopus bimaculoide...  260        7e-73 
+UniRef90_A0A195FUD1 Gamma-aminobutyric acid type B receptor subun...  259        7e-73 
+UniRef90_UPI0005CE80FE guanylate cyclase 32E n=1 Tax=Ceratosolen ...  259        7e-73 
+UniRef90_UPI000BA82E63 receptor-type guanylate cyclase gcy-2-like...  258        2e-72 
+UniRef90_UPI000B90DDF4 speract receptor-like n=1 Tax=Acanthaster ...  257        3e-72 
+UniRef90_UPI0001CB99C0 retinal guanylyl cyclase 2-like n=1 Tax=Sa...  257        6e-72 
+UniRef90_UPI000BE1E021 gamma-aminobutyric acid type B receptor su...  256        7e-72 
+UniRef90_A0A0F8BY67 Guanylate cyclase n=1 Tax=Larimichthys crocea...  256        1e-71 
+UniRef90_UPI000BB086C5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  256        1e-71 
+UniRef90_T1KKV6 Guanylate cyclase n=2 Tax=Tetranychus urticae Tax...  255        2e-71 
+UniRef90_UPI00148ADBA0 uncharacterized protein LOC105346025 isofo...  255        2e-71 
+UniRef90_H9JV05 G_PROTEIN_RECEP_F3_4 domain-containing protein n=...  254        2e-71 
+UniRef90_E3M4I8 Guanylate cyclase n=5 Tax=Caenorhabditis TaxID=62...  255        3e-71 
+UniRef90_A0A1Y1M6Q5 Guanylate cyclase n=2 Tax=Photinus pyralis Ta...  254        4e-71 
+UniRef90_UPI000BE1B976 guanylate cyclase 32E-like n=2 Tax=Varroa ...  254        4e-71 
+UniRef90_A0A2A4JP25 G_PROTEIN_RECEP_F3_4 domain-containing protei...  254        4e-71 
+UniRef90_V5IB68 Guanylate cyclase n=5 Tax=Ixodes TaxID=6944 RepID...  254        5e-71 
+UniRef90_A0A1W0XEQ2 Multifunctional fusion protein n=1 Tax=Hypsib...  254        7e-71 
+UniRef90_A0A482VN66 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  253        1e-70 
+UniRef90_UPI000DE7F96A LOW QUALITY PROTEIN: guanylate cyclase 32E...  253        1e-70 
+UniRef90_A0A1B0EWC7 Guanylate cyclase n=1 Tax=Lutzomyia longipalp...  253        2e-70 
+UniRef90_A0A6J1TRC2 uncharacterized protein LOC113217524 isoform ...  252        2e-70 
+UniRef90_UPI00123E527A integrator complex subunit 3-like n=1 Tax=...  251        9e-70 
+UniRef90_UPI000C76E9BA receptor-type guanylate cyclase gcy-12-lik...  250        9e-70 
+UniRef90_UPI00077FE306 atrial natriuretic peptide receptor 2-like...  250        1e-69 
+UniRef90_N6U6H5 Guanylate cyclase (Fragment) n=3 Tax=Dendroctonus...  249        1e-69 
+UniRef90_A0A336KPL4 Guanylate cyclase n=1 Tax=Culicoides sonorens...  250        1e-69 
+UniRef90_A0A6J2JEG6 guanylate cyclase 32E-like n=1 Tax=Bombyx man...  249        2e-69 
+UniRef90_A0A3R7LVB8 Guanylate cyclase (Fragment) n=2 Tax=Penaeus ...  249        3e-69 
+UniRef90_UPI000D626F89 uncharacterized protein LOC107275141 isofo...  248        6e-69 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6J1SDC5 receptor-type guanylate cyclase Gyc76C-like n...  313        1e-91
+UniRef90_UPI0012D3C3B4 receptor-type guanylate cyclase Gyc76C-lik...  306        6e-89
+UniRef90_A0A139WC82 Guanylate cyclase n=4 Tax=Tribolium castaneum...  301        1e-87
+UniRef90_A0A1W4XT11 Guanylate cyclase n=1 Tax=Agrilus planipennis...  302        1e-87
+UniRef90_UPI0006CF1E7A receptor-type guanylate cyclase Gyc76C-lik...  299        4e-87
+UniRef90_A0A1J1IPW9 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  298        2e-86
+UniRef90_T1PCH4 Guanylate cyclase n=4 Tax=Muscinae TaxID=43910 Re...  297        8e-86
+UniRef90_UPI000E6E29DA receptor-type guanylate cyclase Gyc76C-lik...  296        9e-86
+UniRef90_UPI000875A299 guanylate cyclase 32E n=1 Tax=Anoplophora ...  294        2e-85
+UniRef90_A0A0A1X4C8 Guanylate cyclase n=8 Tax=Dacinae TaxID=16486...  296        2e-85
+UniRef90_A0A3S2LS11 Guanylate cyclase n=4 Tax=Crambidae TaxID=268...  292        2e-84
+UniRef90_UPI0010371A85 receptor-type guanylate cyclase Gyc76C-lik...  293        3e-84
+UniRef90_Q7JQ32 Receptor-type guanylate cyclase Gyc76C n=39 Tax=S...  292        4e-84
+UniRef90_A0A0L0C8M8 Guanylate cyclase n=2 Tax=Lucilia cuprina Tax...  292        5e-84
+UniRef90_A0A194RAY4 Guanylate cyclase n=4 Tax=Papilio TaxID=7145 ...  291        6e-84
+UniRef90_UPI0010FBAA91 LOW QUALITY PROTEIN: guanylate cyclase 32E...  291        7e-84
+UniRef90_A0A0M4EG81 Guanylate cyclase n=3 Tax=Drosophila busckii ...  291        9e-84
+UniRef90_A0A1Y1M579 Guanylate cyclase n=1 Tax=Photinus pyralis Ta...  289        5e-83
+UniRef90_B4N3M7 Guanylate cyclase n=1 Tax=Drosophila willistoni T...  289        5e-83
+UniRef90_A0A6J2T6Q8 receptor-type guanylate cyclase Gyc76C-like i...  288        1e-82
+UniRef90_UPI0005EF6E8D guanylate cyclase 32E isoform X1 n=2 Tax=W...  286        2e-82
+UniRef90_UPI000E77F472 receptor-type guanylate cyclase Gyc76C-lik...  286        2e-82
+UniRef90_UPI0008F9C668 receptor-type guanylate cyclase Gyc76C-lik...  286        2e-82
+UniRef90_UPI000E6E5899 guanylate cyclase 32E-like n=2 Tax=Ctenoce...  286        2e-82
+UniRef90_A0A1A9UKP9 Guanylate cyclase n=6 Tax=Glossina TaxID=7393...  287        2e-82
+UniRef90_A0A6J1WRH6 receptor-type guanylate cyclase Gyc76C-like n...  286        5e-82
+UniRef90_A0A088AVQ5 Guanylate cyclase n=8 Tax=Apinae TaxID=70987 ...  285        6e-82
+UniRef90_B4KY29 Guanylate cyclase n=16 Tax=Drosophila TaxID=7215 ...  286        7e-82
+UniRef90_UPI000711BC68 guanylate cyclase 32E isoform X1 n=1 Tax=D...  284        1e-81
+UniRef90_A0A6J1NWV7 receptor-type guanylate cyclase Gyc76C-like i...  284        2e-81
+UniRef90_A0A1B6EEF4 Guanylate cyclase n=2 Tax=Clastoptera arizona...  283        2e-81
+UniRef90_UPI0012FEDFC5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  284        2e-81
+UniRef90_H9JBJ6 Guanylate cyclase n=3 Tax=Bombyx TaxID=7090 RepID...  283        2e-81
+UniRef90_A0A154PCX0 Guanylate cyclase n=11 Tax=Apoidea TaxID=3473...  283        4e-81
+UniRef90_UPI0005F533A2 guanylate cyclase 32E n=1 Tax=Vollenhovia ...  282        7e-81
+UniRef90_A0A6H5IEY8 Guanylate cyclase n=2 Tax=Trichogramma TaxID=...  282        1e-80
+UniRef90_A0A6J1QLC2 guanylate cyclase 32E n=1 Tax=Temnothorax cur...  281        2e-80
+UniRef90_UPI000D72C67E guanylate cyclase 32E n=1 Tax=Pogonomyrmex...  280        2e-80
+UniRef90_UPI000C20BE68 guanylate cyclase 32E n=1 Tax=Onthophagus ...  280        3e-80
+UniRef90_UPI0014434988 guanylate cyclase 32E isoform X1 n=2 Tax=M...  279        5e-80
+UniRef90_UPI0006D50720 receptor-type guanylate cyclase Gyc76C-lik...  279        6e-80
+UniRef90_A0A151J268 Guanylate cyclase n=8 Tax=Attini TaxID=143999...  279        7e-80
+UniRef90_UPI0006234A80 guanylate cyclase 32E n=1 Tax=Linepithema ...  279        7e-80
+UniRef90_UPI000EAB3A64 guanylate cyclase 32E-like isoform X1 n=2 ...  279        9e-80
+UniRef90_A0A482X3X1 Guanylate cyclase n=1 Tax=Laodelphax striatel...  278        3e-79
+UniRef90_A0A2W1BY57 Guanylate cyclase n=9 Tax=Noctuidae TaxID=710...  276        8e-79
+UniRef90_UPI00096B005E guanylate cyclase 32E n=1 Tax=Aethina tumi...  277        9e-79
+UniRef90_UPI000D627A6D guanylate cyclase 32E n=1 Tax=Cephus cinct...  274        3e-78
+UniRef90_UPI000995D0AC gamma-aminobutyric acid type B receptor su...  274        3e-78
+UniRef90_UPI00077FB773 receptor-type guanylate cyclase Gyc76C n=1...  274        5e-78
+UniRef90_A0A151X603 Guanylate cyclase n=2 Tax=Trachymyrmex zeteki...  273        5e-78
+UniRef90_UPI001183A564 receptor-type guanylate cyclase Gyc76C-lik...  274        5e-78
+UniRef90_A0A2P8YZ06 Guanylate cyclase n=1 Tax=Blattella germanica...  273        6e-78
+UniRef90_E2BUK3 Guanylate cyclase n=2 Tax=Harpegnathos saltator T...  273        1e-77
+UniRef90_UPI00067E4F50 guanylate cyclase 32E-like isoform X1 n=2 ...  272        3e-77
+UniRef90_A0A0N0BCB6 Guanylate cyclase n=2 Tax=Apidae TaxID=7458 R...  271        4e-77
+UniRef90_UPI00084B14E5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  272        5e-77
+UniRef90_A0A3L8DBN8 Guanylate cyclase n=3 Tax=Ooceraea biroi TaxI...  271        7e-77
+UniRef90_UPI00071902B1 guanylate cyclase 32E n=3 Tax=Polistes Tax...  271        8e-77
+UniRef90_UPI000C6F840A gamma-aminobutyric acid type B receptor su...  270        1e-76
+UniRef90_UPI00158913FF LOW QUALITY PROTEIN: guanylate cyclase 32E...  268        7e-76
+UniRef90_UPI0013F1C4E1 guanylate cyclase 32E isoform X1 n=5 Tax=P...  268        7e-76
+UniRef90_UPI000994DB84 guanylate cyclase 32E isoform X1 n=2 Tax=P...  267        1e-75
+UniRef90_E2AA88 Guanylate cyclase n=2 Tax=Camponotus floridanus T...  265        8e-75
+UniRef90_UPI0006D4E061 guanylate cyclase 32E n=1 Tax=Microplitis ...  264        1e-74
+UniRef90_A0A226DJ09 Guanylate cyclase n=1 Tax=Folsomia candida Ta...  265        1e-74
+UniRef90_A0A4Y0BJ06 Guanylate cyclase n=11 Tax=Cellia TaxID=44534...  263        4e-74
+UniRef90_UPI0005D08CB8 gamma-aminobutyric acid type B receptor su...  262        6e-74
+UniRef90_UPI00143DB153 guanylate cyclase 32E n=1 Tax=Belonocnema ...  261        1e-73
+UniRef90_A0A290XZ52 Guanylate cyclase n=1 Tax=Schistocerca gregar...  261        2e-73
+UniRef90_A0A151IK90 Guanylate cyclase n=2 Tax=Cyphomyrmex costatu...  260        3e-73
+UniRef90_A0A336LXX4 Guanylate cyclase n=1 Tax=Culicoides sonorens...  260        4e-73
+UniRef90_W5JGP7 Guanylate cyclase n=6 Tax=Nyssorhynchus TaxID=445...  259        9e-73
+UniRef90_A0A1W4X5H5 Guanylate cyclase n=1 Tax=Agrilus planipennis...  259        1e-72
+UniRef90_A0A182MH90 Guanylate cyclase n=3 Tax=Myzomyia TaxID=5914...  258        3e-72
+UniRef90_UPI00067D078B gamma-aminobutyric acid type B receptor su...  258        4e-72
+UniRef90_A8WUH6 Guanylate cyclase n=4 Tax=Caenorhabditis TaxID=62...  258        4e-72
+UniRef90_B4IIP9 Guanylate cyclase n=9 Tax=melanogaster group TaxI...  256        1e-71
+UniRef90_S6G3A4 Guanylate cyclase n=2 Tax=Linepithema humile TaxI...  256        1e-71
+UniRef90_V6DQH9 Metabotropic GABA-B receptor subtype 2 n=1 Tax=Pe...  254        3e-71
+UniRef90_A0A1D2MZH3 Guanylate cyclase n=1 Tax=Orchesella cincta T...  255        3e-71
+UniRef90_E9J2X0 Guanylate cyclase (Fragment) n=4 Tax=Solenopsidin...  254        3e-71
+UniRef90_A0A0J7KVG2 Guanylate cyclase n=3 Tax=Formicinae TaxID=74...  254        5e-71
+UniRef90_E9J8Y6 Guanylate cyclase (Fragment) n=10 Tax=Formicidae ...  253        6e-71
+UniRef90_UPI000E6DA086 gamma-aminobutyric acid type B receptor su...  254        7e-71
+UniRef90_A0A6L5CG37 Uncharacterized protein n=1 Tax=Ephemera dani...  253        8e-71
+UniRef90_A0A194PVT9 Gamma-aminobutyric acid type B receptor subun...  253        1e-70
+UniRef90_A0A131YG26 Guanylate cyclase n=1 Tax=Rhipicephalus appen...  253        2e-70
+UniRef90_A0A6J1NSQ0 gamma-aminobutyric acid type B receptor subun...  252        2e-70
+UniRef90_UPI000E777298 gamma-aminobutyric acid type B receptor su...  252        2e-70
+UniRef90_UPI000B927EA1 gamma-aminobutyric acid type B receptor su...  252        2e-70
+UniRef90_A0A158NNN0 Guanylate cyclase n=10 Tax=Myrmicinae TaxID=3...  252        3e-70
+UniRef90_A0A6L2Q5A4 Uncharacterized protein n=1 Tax=Coptotermes f...  251        6e-70
+UniRef90_A0A3M6UZZ3 Guanylate cyclase n=4 Tax=Pocilloporidae TaxI...  250        7e-70
+UniRef90_A0A4S2KTU6 Guanylate cyclase n=2 Tax=Temnothorax TaxID=3...  251        8e-70
+UniRef90_A0A212FNG9 Gaba-b receptor (Fragment) n=5 Tax=Danaus ple...  251        8e-70
+UniRef90_UPI0005F4152B uncharacterized protein LOC105569182 n=1 T...  250        9e-70
+UniRef90_A0A182IUY4 Guanylate cyclase n=1 Tax=Anopheles atroparvu...  250        2e-69
+UniRef90_A0A6J3K0D4 uncharacterized protein LOC117231557 isoform ...  249        2e-69
+UniRef90_UPI000B8E533D gamma-aminobutyric acid type B receptor su...  249        2e-69
+UniRef90_A0A212F645 Guanylate cyclase n=2 Tax=Danaus plexippus pl...  249        3e-69
+UniRef90_A0A0L7R3V5 Guanylate cyclase n=1 Tax=Habropoda laboriosa...  248        5e-69
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1468095795634
+Results from round 3
+
+
+Query= sp|P17342-2|ANPRC_HUMAN Isoform 2 of Atrial natriuretic peptide
+receptor 3 OS=Homo sapiens OX=9606 GN=NPR3
+
+Length=540
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI000995A178 atrial natriuretic peptide receptor 1 n=1 ...  464        7e-148
+UniRef90_UPI00083C7CA3 atrial natriuretic peptide receptor 1-like...  460        3e-146
+UniRef90_A0A3L8DRY2 Guanylate cyclase n=1 Tax=Ooceraea biroi TaxI...  459        4e-146
+UniRef90_UPI000948E0FB atrial natriuretic peptide receptor 1 isof...  458        6e-146
+UniRef90_A0A310S7E6 Guanylate cyclase n=1 Tax=Eufriesea mexicana ...  460        1e-145
+UniRef90_UPI000619CDC1 atrial natriuretic peptide receptor 1 isof...  457        2e-145
+UniRef90_A0A151WKN4 Guanylate cyclase n=6 Tax=Trachymyrmex TaxID=...  442        5e-142
+UniRef90_UPI000B3A255C atrial natriuretic peptide receptor 1 isof...  446        2e-140
+UniRef90_A0A5E4QBY5 Guanylate cyclase n=1 Tax=Leptidea sinapis Ta...  446        3e-140
+UniRef90_A0A0M3VH92 Guanylate cyclase n=2 Tax=Bombyx TaxID=7090 R...  445        3e-140
+UniRef90_A0A6J1R2T9 atrial natriuretic peptide receptor 1-like is...  442        1e-139
+UniRef90_UPI0010FAFAE1 LOW QUALITY PROTEIN: atrial natriuretic pe...  441        1e-139
+UniRef90_UPI000EF7E281 atrial natriuretic peptide receptor 1-like...  444        2e-139
+UniRef90_UPI000B929375 atrial natriuretic peptide receptor 1 isof...  443        3e-139
+UniRef90_UPI000E77468B atrial natriuretic peptide receptor 1 n=1 ...  444        3e-139
+UniRef90_UPI00073D93A2 atrial natriuretic peptide receptor 1-like...  440        9e-139
+UniRef90_A0A212FC80 Guanylate cyclase n=4 Tax=Danaus plexippus pl...  440        1e-138
+UniRef90_UPI00084EF598 atrial natriuretic peptide receptor 1-like...  438        3e-138
+UniRef90_A0A6J1NK14 atrial natriuretic peptide receptor 1 isoform...  438        3e-137
+UniRef90_UPI000E6D75A7 atrial natriuretic peptide receptor 1 isof...  435        2e-136
+UniRef90_A0A158P0M1 Guanylate cyclase n=6 Tax=Myrmicinae TaxID=34...  433        3e-136
+UniRef90_A0A194PLI8 Guanylate cyclase n=4 Tax=Papilio TaxID=7145 ...  433        1e-135
+UniRef90_A0A0L7QKK7 Guanylate cyclase n=2 Tax=Habropoda laboriosa...  429        2e-135
+UniRef90_UPI000E33DDC8 atrial natriuretic peptide receptor 1 n=1 ...  428        3e-134
+UniRef90_UPI000DC6B2CD atrial natriuretic peptide receptor 1 isof...  427        4e-134
+UniRef90_UPI00063F259A atrial natriuretic peptide receptor 1 n=1 ...  425        3e-133
+UniRef90_A0A6J8A0T2 Uncharacterized protein n=2 Tax=Mytilus corus...  424        6e-133
+UniRef90_UPI000CD7D67F atrial natriuretic peptide receptor 1 isof...  422        3e-132
+UniRef90_UPI00083BFC22 atrial natriuretic peptide receptor 1-like...  422        8e-132
+UniRef90_UPI00118387A5 atrial natriuretic peptide receptor 1 isof...  422        2e-131
+UniRef90_UPI0007E2BD96 atrial natriuretic peptide receptor 1 isof...  418        6e-131
+UniRef90_A0A6I9X274 atrial natriuretic peptide receptor 1 n=1 Tax...  418        9e-131
+UniRef90_UPI0005AD16E7 guanylate cyclase 32E-like isoform X1 n=4 ...  421        1e-130
+UniRef90_UPI0005F50262 atrial natriuretic peptide receptor 1-like...  416        5e-130
+UniRef90_UPI00067A9E27 atrial natriuretic peptide receptor 2 n=1 ...  415        1e-128
+UniRef90_A0A139WC82 Guanylate cyclase n=4 Tax=Tribolium castaneum...  410        5e-128
+UniRef90_UPI000771CF1D atrial natriuretic peptide receptor 1 isof...  409        7e-128
+UniRef90_UPI000614C1AB atrial natriuretic peptide receptor 1-like...  409        9e-128
+UniRef90_UPI000771DF38 receptor-type guanylate cyclase Gyc76C iso...  412        2e-127
+UniRef90_UPI000766E7A3 guanylate cyclase 32E-like n=4 Tax=Halicti...  411        5e-127
+UniRef90_UPI001144D0FE atrial natriuretic peptide receptor 1-like...  407        1e-126
+UniRef90_K7J3D3 Guanylate cyclase n=3 Tax=Chalcidoidea TaxID=7422...  411        1e-126
+UniRef90_A0A088AVQ7 Guanylate cyclase n=1 Tax=Apis mellifera TaxI...  409        2e-126
+UniRef90_A0A0L7RJ80 Guanylate cyclase (Fragment) n=11 Tax=Apoidea...  406        7e-126
+UniRef90_UPI0006261E12 receptor-type guanylate cyclase Gyc76C-lik...  407        9e-126
+UniRef90_A0A1Q3G4K8 Guanylate cyclase n=1 Tax=Culex tarsalis TaxI...  402        5e-125
+UniRef90_UPI00158D3BC3 receptor-type guanylate cyclase Gyc76C-lik...  405        5e-125
+UniRef90_A0A3L8DCZ8 Guanylate cyclase n=2 Tax=Ooceraea biroi TaxI...  405        6e-125
+UniRef90_UPI000875A299 guanylate cyclase 32E n=1 Tax=Anoplophora ...  402        1e-124
+UniRef90_A0A4S2KLG1 Guanylate cyclase n=2 Tax=Temnothorax TaxID=3...  401        2e-124
+UniRef90_Q174S2 Guanylate cyclase n=3 Tax=Stegomyia TaxID=53541 R...  401        2e-124
+UniRef90_A0A4Y0BLL9 Guanylate cyclase n=1 Tax=Anopheles funestus ...  401        3e-124
+UniRef90_UPI000C715D31 receptor-type guanylate cyclase Gyc76C iso...  403        4e-124
+UniRef90_UPI0006256FA3 guanylate cyclase 32E n=1 Tax=Athalia rosa...  400        5e-124
+UniRef90_UPI001482D397 receptor-type guanylate cyclase Gyc76C-lik...  403        6e-124
+UniRef90_UPI000718DC5B guanylate cyclase 32E-like isoform X1 n=4 ...  403        7e-124
+UniRef90_A0A0L7R3V5 Guanylate cyclase n=1 Tax=Habropoda laboriosa...  400        1e-123
+UniRef90_UPI00084EAE63 atrial natriuretic peptide receptor 1 isof...  393        2e-123
+UniRef90_UPI0005D0E51B atrial natriuretic peptide receptor 1 n=1 ...  401        2e-123
+UniRef90_UPI00143DBBB4 receptor-type guanylate cyclase Gyc76C-lik...  401        2e-123
+UniRef90_Q7PTP9 Guanylate cyclase n=5 Tax=gambiae species complex...  398        3e-123
+UniRef90_UPI0014790929 atrial natriuretic peptide receptor 1-like...  397        2e-122
+UniRef90_A0A2A3EEE4 Guanylate cyclase n=5 Tax=Apis TaxID=7459 Rep...  399        2e-122
+UniRef90_UPI0007D89759 atrial natriuretic peptide receptor 1 isof...  398        3e-122
+UniRef90_UPI00059CF5DF atrial natriuretic peptide receptor 1 isof...  395        4e-122
+UniRef90_UPI0012932550 atrial natriuretic peptide receptor 1-like...  398        4e-122
+UniRef90_S6G1R1 Guanylate cyclase n=5 Tax=Megachile rotundata Tax...  393        8e-122
+UniRef90_UPI0008F984B4 atrial natriuretic peptide receptor 1 isof...  394        2e-121
+UniRef90_E9J2X0 Guanylate cyclase (Fragment) n=4 Tax=Solenopsidin...  392        2e-121
+UniRef90_UPI000711BC68 guanylate cyclase 32E isoform X1 n=1 Tax=D...  393        3e-121
+UniRef90_A0A034VF88 Guanylate cyclase n=5 Tax=Bactrocera TaxID=47...  395        4e-121
+UniRef90_A0A6J1SDC5 receptor-type guanylate cyclase Gyc76C-like n...  395        4e-121
+UniRef90_UPI0005EF6E8D guanylate cyclase 32E isoform X1 n=2 Tax=W...  392        5e-121
+UniRef90_A0A2M4B9R9 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  392        6e-121
+UniRef90_S6G3A4 Guanylate cyclase n=2 Tax=Linepithema humile TaxI...  392        8e-121
+UniRef90_UPI00059C184A receptor-type guanylate cyclase Gyc76C n=2...  394        8e-121
+UniRef90_UPI00083DFC8C receptor-type guanylate cyclase Gyc76C-lik...  392        9e-121
+UniRef90_A0A1L8DJE6 Guanylate cyclase n=8 Tax=Phlebotominae TaxID...  393        9e-121
+UniRef90_A0A4S2KTU6 Guanylate cyclase n=2 Tax=Temnothorax TaxID=3...  392        1e-120
+UniRef90_S6G3B2 Guanylate cyclase n=2 Tax=Pogonomyrmex barbatus T...  392        1e-120
+UniRef90_D6X177 Guanylate cyclase n=1 Tax=Tribolium castaneum Tax...  394        1e-120
+UniRef90_A0A158NNN0 Guanylate cyclase n=10 Tax=Myrmicinae TaxID=3...  391        2e-120
+UniRef90_A0A6J3JUN6 atrial natriuretic peptide receptor 1-like is...  393        2e-120
+UniRef90_A0A0J7KVG2 Guanylate cyclase n=3 Tax=Formicinae TaxID=74...  391        3e-120
+UniRef90_A0A6J2YD42 receptor-type guanylate cyclase Gyc76C-like i...  392        3e-120
+UniRef90_A0A1I8N1B4 Guanylate cyclase n=2 Tax=Musca domestica Tax...  389        4e-120
+UniRef90_UPI0010F72873 receptor-type guanylate cyclase gcy-4-like...  390        6e-120
+UniRef90_UPI0005F4152B uncharacterized protein LOC105569182 n=1 T...  390        6e-120
+UniRef90_A0A0K8UVZ5 Guanylate cyclase n=11 Tax=Dacinae TaxID=1648...  388        7e-120
+UniRef90_A0A6J0BI47 guanylate cyclase 32E-like n=1 Tax=Neodiprion...  391        8e-120
+UniRef90_A0A0C9QYW7 Guanylate cyclase n=2 Tax=Opiinae TaxID=68883...  387        1e-119
+UniRef90_A0A0L0CC40 Guanylate cyclase n=1 Tax=Lucilia cuprina Tax...  391        1e-119
+UniRef90_A0A6J3K0D4 uncharacterized protein LOC117231557 isoform ...  389        2e-119
+UniRef90_E0VCX6 Guanylate cyclase n=1 Tax=Pediculus humanus subsp...  388        3e-119
+UniRef90_UPI0012FEDFC5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  388        3e-119
+UniRef90_A0A232EQQ2 Guanylate cyclase n=4 Tax=Pteromalinae TaxID=...  388        3e-119
+UniRef90_A0A088AVQ5 Guanylate cyclase n=8 Tax=Apinae TaxID=70987 ...  387        3e-119
+UniRef90_A0A6J1QLC2 guanylate cyclase 32E n=1 Tax=Temnothorax cur...  387        4e-119
+UniRef90_A0A2M4CIX2 Guanylate cyclase (Fragment) n=3 Tax=Anophele...  386        4e-119
+UniRef90_UPI000D72C67E guanylate cyclase 32E n=1 Tax=Pogonomyrmex...  386        5e-119
+UniRef90_UPI000625304A uncharacterized protein LOC105696282 isofo...  387        8e-119
+UniRef90_UPI0005F3FACC atrial natriuretic peptide receptor 1-like...  386        9e-119
+UniRef90_N6UEX4 Guanylate cyclase (Fragment) n=4 Tax=Dendroctonus...  388        9e-119
+UniRef90_A0A3L8DIW1 Guanylate cyclase n=2 Tax=Ooceraea biroi TaxI...  387        1e-118
+UniRef90_A0A6J0BI48 guanylate cyclase 32E n=1 Tax=Neodiprion leco...  385        1e-118
+UniRef90_A0A5N4AXK6 Guanylate cyclase n=4 Tax=Photinus pyralis Ta...  384        2e-118
+UniRef90_UPI000EAB3A64 guanylate cyclase 32E-like isoform X1 n=2 ...  385        2e-118
+UniRef90_A0A210QCJ9 Guanylate cyclase n=2 Tax=Pectinidae TaxID=65...  384        3e-118
+UniRef90_A0A6J2YCQ3 guanylate cyclase 32E n=1 Tax=Sitophilus oryz...  384        3e-118
+UniRef90_A0A1A9WQ30 Guanylate cyclase n=1 Tax=Glossina brevipalpi...  384        4e-118
+UniRef90_A0A1B0AQX7 Guanylate cyclase n=3 Tax=Glossina TaxID=7393...  384        4e-118
+UniRef90_A0A0A1X716 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  387        5e-118
+UniRef90_UPI0012D3C3B4 receptor-type guanylate cyclase Gyc76C-lik...  387        5e-118
+UniRef90_UPI0006234A80 guanylate cyclase 32E n=1 Tax=Linepithema ...  383        7e-118
+UniRef90_A0A067QNJ9 Guanylate cyclase (Fragment) n=3 Tax=Zootermo...  381        8e-118
+UniRef90_UPI0010FBAA91 LOW QUALITY PROTEIN: guanylate cyclase 32E...  384        9e-118
+UniRef90_UPI000BAF72B8 receptor-type guanylate cyclase Gyc76C-lik...  382        1e-117
+UniRef90_A0A0A1X4C8 Guanylate cyclase n=8 Tax=Dacinae TaxID=16486...  387        1e-117
+UniRef90_UPI0006231C33 LOW QUALITY PROTEIN: guanylate cyclase 32E...  385        1e-117
+UniRef90_UPI000E6E29DA receptor-type guanylate cyclase Gyc76C-lik...  384        1e-117
+UniRef90_A0A154PCX0 Guanylate cyclase n=11 Tax=Apoidea TaxID=3473...  383        1e-117
+UniRef90_UPI0004CCC96C guanylate cyclase 32E n=1 Tax=Microplitis ...  385        1e-117
+UniRef90_Q7JQ32 Receptor-type guanylate cyclase Gyc76C n=39 Tax=S...  386        1e-117
+UniRef90_C7LAF5 Guanylate cyclase n=57 Tax=Sophophora TaxID=32341...  381        2e-117
+UniRef90_W8B2G3 Guanylate cyclase n=1 Tax=Ceratitis capitata TaxI...  385        2e-117
+UniRef90_UPI00083BD258 receptor-type guanylate cyclase Gyc76C-lik...  386        2e-117
+UniRef90_A0A158NJ88 Guanylate cyclase n=11 Tax=Attini TaxID=14399...  384        2e-117
+UniRef90_Q9VF17 Guanylate cyclase n=19 Tax=melanogaster group Tax...  384        2e-117
+UniRef90_A0A0M4EG81 Guanylate cyclase n=3 Tax=Drosophila busckii ...  385        3e-117
+UniRef90_A0A1W4XT11 Guanylate cyclase n=1 Tax=Agrilus planipennis...  385        3e-117
+UniRef90_A0A3B0JPZ6 Guanylate cyclase n=6 Tax=obscura group TaxID...  384        4e-117
+UniRef90_UPI001470C7A9 atrial natriuretic peptide receptor 1 n=1 ...  384        5e-117
+UniRef90_UPI0006CF1E7A receptor-type guanylate cyclase Gyc76C-lik...  380        5e-117
+UniRef90_UPI0009955A57 receptor-type guanylate cyclase gcy-4-like...  382        5e-117
+UniRef90_A0A0C9RLL4 Guanylate cyclase n=3 Tax=Fopius arisanus Tax...  381        6e-117
+UniRef90_UPI001442EC87 receptor-type guanylate cyclase gcy-5-like...  382        6e-117
+UniRef90_A0A194RAY4 Guanylate cyclase n=4 Tax=Papilio TaxID=7145 ...  383        7e-117
+UniRef90_UPI0005F533A2 guanylate cyclase 32E n=1 Tax=Vollenhovia ...  381        9e-117
+UniRef90_UPI000718AD2B atrial natriuretic peptide receptor 1-like...  381        1e-116
+UniRef90_A0A1J1IEB7 Guanylate cyclase n=2 Tax=Clunio marinus TaxI...  381        1e-116
+UniRef90_UPI000E6E5899 guanylate cyclase 32E-like n=2 Tax=Ctenoce...  380        1e-116
+UniRef90_A0A2H8TID5 Guanylate cyclase n=17 Tax=Aphididae TaxID=27...  379        1e-116
+UniRef90_UPI000618858F atrial natriuretic peptide receptor 1 isof...  386        1e-116
+UniRef90_UPI001142E1E4 receptor-type guanylate cyclase gcy-5-like...  381        2e-116
+UniRef90_UPI00148D7142 atrial natriuretic peptide receptor 1-like...  382        2e-116
+UniRef90_UPI00081123CC atrial natriuretic peptide receptor 1 n=1 ...  382        3e-116
+UniRef90_B4KY29 Guanylate cyclase n=16 Tax=Drosophila TaxID=7215 ...  382        4e-116
+UniRef90_UPI0005CF8AD9 uncharacterized protein LOC105367685 n=1 T...  380        4e-116
+UniRef90_UPI0014434988 guanylate cyclase 32E isoform X1 n=2 Tax=M...  378        4e-116
+UniRef90_B4N3M7 Guanylate cyclase n=1 Tax=Drosophila willistoni T...  382        4e-116
+UniRef90_A0A1S3HFZ8 Guanylate cyclase n=1 Tax=Lingula unguis TaxI...  378        5e-116
+UniRef90_A0A2A3EAS5 Guanylate cyclase n=6 Tax=Apis cerana TaxID=7...  381        5e-116
+UniRef90_B4JT47 Guanylate cyclase n=2 Tax=Drosophila grimshawi Ta...  381        7e-116
+UniRef90_A0A151J268 Guanylate cyclase n=8 Tax=Attini TaxID=143999...  378        7e-116
+UniRef90_A0A1W4VFG5 Guanylate cyclase n=1 Tax=Drosophila ficusphi...  380        8e-116
+UniRef90_A0A0Q9XA14 Guanylate cyclase n=3 Tax=mojavensis species ...  380        8e-116
+UniRef90_UPI00096B3060 LOW QUALITY PROTEIN: receptor-type guanyla...  380        1e-115
+UniRef90_T1PCH4 Guanylate cyclase n=4 Tax=Muscinae TaxID=43910 Re...  381        1e-115
+UniRef90_UPI000D626F89 uncharacterized protein LOC107275141 isofo...  379        1e-115
+UniRef90_B4LX87 Guanylate cyclase n=6 Tax=Drosophila TaxID=32281 ...  380        2e-115
+UniRef90_A0A6J2T6Q8 receptor-type guanylate cyclase Gyc76C-like i...  381        2e-115
+UniRef90_A0A0Q9WE85 Guanylate cyclase n=1 Tax=Drosophila virilis ...  379        2e-115
+UniRef90_A0A482VLY3 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  379        2e-115
+UniRef90_UPI00083C5CF7 uncharacterized protein LOC108545751 n=1 T...  377        3e-115
+UniRef90_B4GEV1 Guanylate cyclase n=1 Tax=Drosophila persimilis T...  379        4e-115
+UniRef90_A0A3L8DBN8 Guanylate cyclase n=3 Tax=Ooceraea biroi TaxI...  376        5e-115
+UniRef90_E2BUK3 Guanylate cyclase n=2 Tax=Harpegnathos saltator T...  376        5e-115
+UniRef90_A0A1I8MLJ8 Guanylate cyclase n=1 Tax=Musca domestica Tax...  379        5e-115
+UniRef90_A0A290XZ52 Guanylate cyclase n=1 Tax=Schistocerca gregar...  375        6e-115
+UniRef90_A0A0L0C8M8 Guanylate cyclase n=2 Tax=Lucilia cuprina Tax...  379        6e-115
+UniRef90_UPI0008405B62 atrial natriuretic peptide receptor 1-like...  377        6e-115
+UniRef90_UPI00083E9A6A atrial natriuretic peptide receptor 1 isof...  378        9e-115
+UniRef90_A0A0Q9XGB6 Guanylate cyclase n=1 Tax=Drosophila mojavens...  374        9e-115
+UniRef90_E9GF33 Guanylate cyclase n=3 Tax=Daphnia TaxID=6668 RepI...  375        9e-115
+UniRef90_UPI0007119998 uncharacterized protein LOC106747328 n=1 T...  376        1e-114
+UniRef90_B4MNC6 Guanylate cyclase n=20 Tax=Drosophila TaxID=7215 ...  374        1e-114
+UniRef90_UPI001433357F atrial natriuretic peptide receptor 1 isof...  377        1e-114
+UniRef90_B4NBA6 Guanylate cyclase n=1 Tax=Drosophila willistoni T...  376        1e-114
+UniRef90_A0A1W0WG25 Guanylate cyclase n=1 Tax=Hypsibius dujardini...  375        1e-114
+UniRef90_UPI000C26C2C5 speract receptor isoform X2 n=2 Tax=Drosop...  374        1e-114
+UniRef90_A0A0P9CAM4 Guanylate cyclase n=6 Tax=melanogaster group ...  377        2e-114
+UniRef90_A0A6J2TE53 atrial natriuretic peptide receptor 1 n=1 Tax...  377        2e-114
+UniRef90_UPI0008DDA5E1 atrial natriuretic peptide receptor 1 isof...  378        2e-114
+UniRef90_UPI0010371A85 receptor-type guanylate cyclase Gyc76C-lik...  376        2e-114
+UniRef90_A0A154PGU2 Guanylate cyclase n=2 Tax=Dufourea novaeangli...  373        3e-114
+UniRef90_A0A3S2LS11 Guanylate cyclase n=4 Tax=Crambidae TaxID=268...  374        3e-114
+UniRef90_A0A6J1TRC2 uncharacterized protein LOC113217524 isoform ...  373        4e-114
+UniRef90_A0A482X3X1 Guanylate cyclase n=1 Tax=Laodelphax striatel...  373        5e-114
+UniRef90_A0A1A9UKP9 Guanylate cyclase n=6 Tax=Glossina TaxID=7393...  376        5e-114
+UniRef90_UPI0013042B37 uncharacterized protein LOC116432118 n=1 T...  373        7e-114
+UniRef90_UPI000E77F472 receptor-type guanylate cyclase Gyc76C-lik...  373        8e-114
+UniRef90_UPI00084031C2 uncharacterized protein LOC108628852 n=1 T...  373        9e-114
+UniRef90_A0A6L2Q5A4 Uncharacterized protein n=1 Tax=Coptotermes f...  372        1e-113
+UniRef90_UPI0006259699 uncharacterized protein LOC105689915 n=1 T...  373        2e-113
+UniRef90_A0A1J1IPW9 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  373        2e-113
+UniRef90_A0A0A1X5Z0 Guanylate cyclase n=2 Tax=Zeugodacus cucurbit...  376        3e-113
+UniRef90_UPI0006EAD2BD atrial natriuretic peptide receptor 1-like...  370        3e-113
+UniRef90_A0A182HEV4 Guanylate cyclase n=6 Tax=Stegomyia TaxID=535...  374        3e-113
+UniRef90_A0A0N0BBM7 Guanylate cyclase (Fragment) n=1 Tax=Melipona...  372        4e-113
+UniRef90_A0A1W4X5H5 Guanylate cyclase n=1 Tax=Agrilus planipennis...  371        4e-113
+UniRef90_A0A182PFP9 Guanylate cyclase n=1 Tax=Anopheles epiroticu...  372        4e-113
+UniRef90_A0A067QVM8 Guanylate cyclase n=4 Tax=Termitoidae TaxID=1...  372        5e-113
+UniRef90_UPI00083BEE44 guanylate cyclase 32E n=1 Tax=Nicrophorus ...  371        6e-113
+UniRef90_UPI000D627A6D guanylate cyclase 32E n=1 Tax=Cephus cinct...  370        6e-113
+UniRef90_UPI000C26D45F atrial natriuretic peptide receptor 1 isof...  371        6e-113
+UniRef90_UPI000C6DDBCB atrial natriuretic peptide receptor 2-like...  370        7e-113
+UniRef90_A0A6J0BF83 uncharacterized protein LOC107219723 n=1 Tax=...  371        8e-113
+UniRef90_A0A6J1WRH6 receptor-type guanylate cyclase Gyc76C-like n...  371        9e-113
+UniRef90_J9JNT2 Guanylate cyclase n=10 Tax=Aphidinae TaxID=133076...  371        9e-113
+UniRef90_A0A067QML7 Guanylate cyclase n=3 Tax=Zootermopsis nevade...  369        1e-112
+UniRef90_UPI0004CCAB6F uncharacterized protein LOC103568771 n=1 T...  370        1e-112
+UniRef90_A0A0P9C5X5 Guanylate cyclase n=3 Tax=melanogaster group ...  368        1e-112
+UniRef90_UPI0006C97097 receptor-type guanylate cyclase gcy-3-like...  370        1e-112
+UniRef90_UPI00073D41CE receptor-type guanylate cyclase gcy-4-like...  370        1e-112
+UniRef90_UPI0012D47392 atrial natriuretic peptide receptor 1-like...  368        2e-112
+UniRef90_UPI00099582D8 receptor-type guanylate cyclase Gyc76C-lik...  371        2e-112
+UniRef90_UPI00158913FF LOW QUALITY PROTEIN: guanylate cyclase 32E...  368        2e-112
+UniRef90_UPI000C71B547 guanylate cyclase 32E-like n=1 Tax=Trichog...  369        2e-112
+UniRef90_UPI0013C523D0 atrial natriuretic peptide receptor 1-like...  368        2e-112
+UniRef90_A0A6J1NWV7 receptor-type guanylate cyclase Gyc76C-like i...  369        2e-112
+UniRef90_A0A1A9YK51 Guanylate cyclase n=1 Tax=Glossina fuscipes f...  374        2e-112
+UniRef90_A0A182FW72 Guanylate cyclase n=8 Tax=Nyssorhynchus TaxID...  372        3e-112
+UniRef90_C5H7S1 Guanylate cyclase n=6 Tax=gambiae species complex...  370        3e-112
+UniRef90_UPI000994DB84 guanylate cyclase 32E isoform X1 n=2 Tax=P...  368        4e-112
+UniRef90_A0A0N0BCB6 Guanylate cyclase n=2 Tax=Apidae TaxID=7458 R...  368        4e-112
+UniRef90_A0A0F8AHJ0 Guanylate cyclase n=2 Tax=Larimichthys crocea...  368        5e-112
+UniRef90_UPI00156A0359 atrial natriuretic peptide receptor 1 isof...  366        1e-111
+UniRef90_UPI0013F1C4E1 guanylate cyclase 32E isoform X1 n=5 Tax=P...  367        1e-111
+UniRef90_A0A4Y0BM48 Guanylate cyclase n=1 Tax=Anopheles funestus ...  366        1e-111
+UniRef90_UPI0013F1D410 atrial natriuretic peptide receptor 1-like...  368        2e-111
+UniRef90_A0A182J455 Guanylate cyclase n=2 Tax=Anopheles TaxID=444...  370        2e-111
+UniRef90_UPI0008F9C668 receptor-type guanylate cyclase Gyc76C-lik...  366        2e-111
+UniRef90_A0A1B6MKA2 Guanylate cyclase n=2 Tax=Cicadellinae TaxID=...  366        2e-111
+UniRef90_UPI00084CD759 atrial natriuretic peptide receptor 1-like...  368        3e-111
+UniRef90_UPI0006D4E061 guanylate cyclase 32E n=1 Tax=Microplitis ...  365        3e-111
+UniRef90_A0A2J7Q6L7 Guanylate cyclase n=15 Tax=Cryptotermes secun...  365        3e-111
+UniRef90_A0A1D2MZH3 Guanylate cyclase n=1 Tax=Orchesella cincta T...  366        4e-111
+UniRef90_UPI00158E5843 uncharacterized protein LOC118066542 isofo...  366        4e-111
+UniRef90_UPI0014254D32 guanylate cyclase 32E-like isoform X1 n=2 ...  365        4e-111
+UniRef90_UPI0011E5DCBB speract receptor isoform X2 n=1 Tax=Drosop...  364        5e-111
+UniRef90_A0A6J2T962 guanylate cyclase 32E isoform X1 n=4 Tax=Dros...  364        6e-111
+UniRef90_E0VFE4 Class C metabotropic glutamate-like G-protein cou...  366        7e-111
+UniRef90_UPI0008523D18 atrial natriuretic peptide receptor 1-like...  365        8e-111
+UniRef90_UPI000A2C065A guanylate cyclase 32E-like n=1 Tax=Paraste...  364        9e-111
+UniRef90_A0A182NF26 Guanylate cyclase n=1 Tax=Anopheles dirus Tax...  366        9e-111
+UniRef90_A0A2J7Q248 Guanylate cyclase n=4 Tax=Cryptotermes secund...  363        1e-110
+UniRef90_UPI000C20BE68 guanylate cyclase 32E n=1 Tax=Onthophagus ...  364        1e-110
+UniRef90_UPI00143CD627 uncharacterized protein LOC117167784 isofo...  365        1e-110
+UniRef90_A0A1D1UL07 Guanylate cyclase n=1 Tax=Ramazzottius varieo...  364        1e-110
+UniRef90_UPI00071902B1 guanylate cyclase 32E n=3 Tax=Polistes Tax...  364        1e-110
+UniRef90_UPI0012D48687 atrial natriuretic peptide receptor 1-like...  363        1e-110
+UniRef90_A0A0V1M9D0 Guanylate cyclase n=27 Tax=Trichinella TaxID=...  366        2e-110
+UniRef90_UPI00096B005E guanylate cyclase 32E n=1 Tax=Aethina tumi...  366        2e-110
+UniRef90_A0A1I8MX63 Guanylate cyclase n=6 Tax=Calyptratae TaxID=4...  362        3e-110
+UniRef90_UPI000E6E5592 atrial natriuretic peptide receptor 1-like...  366        4e-110
+UniRef90_S6G0S0 Guanylate cyclase n=3 Tax=Harpegnathos saltator T...  364        5e-110
+UniRef90_UPI0010F5D478 gamma-aminobutyric acid type B receptor su...  363        5e-110
+UniRef90_A0A6H5IEY8 Guanylate cyclase n=2 Tax=Trichogramma TaxID=...  365        5e-110
+UniRef90_UPI0010F747D0 gamma-aminobutyric acid type B receptor su...  363        5e-110
+UniRef90_A0A0M3QWJ4 Guanylate cyclase n=2 Tax=Drosophila TaxID=72...  361        7e-110
+UniRef90_A0A2M4A5V4 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  363        7e-110
+UniRef90_A0A154PNE0 Gamma-aminobutyric acid type B receptor subun...  362        9e-110
+UniRef90_A0A6A4JF38 Guanylate cyclase n=2 Tax=Apolygus lucorum Ta...  361        1e-109
+UniRef90_A0A088AQE3 Guanylate cyclase n=9 Tax=Apis TaxID=7459 Rep...  362        1e-109
+UniRef90_A0A6J3LD19 gamma-aminobutyric acid type B receptor subun...  362        1e-109
+UniRef90_UPI0006237B96 gamma-aminobutyric acid type B receptor su...  361        1e-109
+UniRef90_A0A182MH90 Guanylate cyclase n=3 Tax=Myzomyia TaxID=5914...  362        1e-109
+UniRef90_A0A1B0G3T4 Guanylate cyclase n=1 Tax=Glossina morsitans ...  365        2e-109
+UniRef90_B0WSE7 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  361        2e-109
+UniRef90_A0A151X603 Guanylate cyclase n=2 Tax=Trachymyrmex zeteki...  360        2e-109
+UniRef90_K7J3D4 Guanylate cyclase n=3 Tax=Pteromalinae TaxID=2722...  361        2e-109
+UniRef90_A0A3L8DZV8 G_PROTEIN_RECEP_F3_4 domain-containing protei...  360        2e-109
+UniRef90_H9JBJ6 Guanylate cyclase n=3 Tax=Bombyx TaxID=7090 RepID...  361        2e-109
+UniRef90_A0A2M4BA44 Guanylate cyclase (Fragment) n=1 Tax=Anophele...  360        2e-109
+UniRef90_A0A1J1HVH7 Guanylate cyclase n=1 Tax=Clunio marinus TaxI...  361        3e-109
+UniRef90_UPI0007679CA4 uncharacterized protein LOC107189564 n=1 T...  361        3e-109
+UniRef90_UPI000995D0AC gamma-aminobutyric acid type B receptor su...  360        3e-109
+UniRef90_UPI00143DB153 guanylate cyclase 32E n=1 Tax=Belonocnema ...  360        5e-109
+UniRef90_A0A5E4N440 Guanylate cyclase n=2 Tax=Cinara cedri TaxID=...  361        7e-109
+UniRef90_A0A1Y1M579 Guanylate cyclase n=1 Tax=Photinus pyralis Ta...  361        1e-108
+UniRef90_UPI0006D4DBFD atrial natriuretic peptide receptor 1 n=1 ...  358        1e-108
+UniRef90_UPI000A0ED68D gamma-aminobutyric acid type B receptor su...  359        1e-108
+UniRef90_A0A0L7RHU3 Gamma-aminobutyric acid type B receptor subun...  359        1e-108
+UniRef90_UPI000A0ED217 gamma-aminobutyric acid type B receptor su...  359        1e-108
+UniRef90_A0A182IUY4 Guanylate cyclase n=1 Tax=Anopheles atroparvu...  361        1e-108
+UniRef90_E2AA88 Guanylate cyclase n=2 Tax=Camponotus floridanus T...  359        2e-108
+UniRef90_A0A653BPI5 Guanylate cyclase n=3 Tax=Callosobruchus macu...  360        3e-108
+UniRef90_B0WNC5 Gamma-aminobutyric acid type B receptor n=3 Tax=C...  358        3e-108
+UniRef90_A0A182FAJ7 G_PROTEIN_RECEP_F3_4 domain-containing protei...  358        3e-108
+UniRef90_UPI0008406AA5 gamma-aminobutyric acid type B receptor su...  358        3e-108
+UniRef90_A0A5S6Q8M7 Guanylate cyclase n=1 Tax=Trichuris muris Tax...  360        4e-108
+UniRef90_UPI001143895E gamma-aminobutyric acid type B receptor su...  356        5e-108
+UniRef90_UPI0005F3EA03 atrial natriuretic peptide receptor 1-like...  358        9e-108
+UniRef90_A0A1Y1M6Q5 Guanylate cyclase n=2 Tax=Photinus pyralis Ta...  356        9e-108
+UniRef90_A0A0Q9WRX8 Uncharacterized protein, isoform B n=7 Tax=vi...  355        1e-107
+UniRef90_UPI001395CAB2 gamma-aminobutyric acid type B receptor su...  355        1e-107
+UniRef90_UPI0006C9C707 guanylate cyclase 32E n=1 Tax=Copidosoma f...  356        1e-107
+UniRef90_A0A1B6EEF4 Guanylate cyclase n=2 Tax=Clastoptera arizona...  355        1e-107
+UniRef90_A0A1B0G6S3 Guanylate cyclase n=3 Tax=Glossina TaxID=4404...  358        1e-107
+UniRef90_UPI0008F9B9A9 receptor-type guanylate cyclase gcy-18-lik...  356        2e-107
+UniRef90_UPI001183C1F2 atrial natriuretic peptide receptor 1 isof...  355        2e-107
+UniRef90_Q5TRW6 AGAP004595-PA n=15 Tax=Anopheles TaxID=7164 RepID...  356        2e-107
+UniRef90_UPI000C76E9BA receptor-type guanylate cyclase gcy-12-lik...  355        2e-107
+UniRef90_A0A1W7RAI6 Guanylate cyclase n=1 Tax=Hadrurus spadix Tax...  355        2e-107
+UniRef90_UPI001482E481 uncharacterized protein LOC117641970 n=1 T...  355        2e-107
+UniRef90_A0A2W1BY57 Guanylate cyclase n=9 Tax=Noctuidae TaxID=710...  355        2e-107
+UniRef90_A0A182QRN7 Guanylate cyclase n=1 Tax=Anopheles farauti T...  356        3e-107
+UniRef90_A0A2S2R4A9 Guanylate cyclase n=2 Tax=Sipha flava TaxID=1...  355        3e-107
+UniRef90_A0A182YCH9 Guanylate cyclase n=1 Tax=Anopheles stephensi...  356        4e-107
+UniRef90_UPI000BA82E63 receptor-type guanylate cyclase gcy-2-like...  354        6e-107
+UniRef90_UPI0007718A8A gamma-aminobutyric acid type B receptor su...  355        8e-107
+UniRef90_UPI000771E1F7 gamma-aminobutyric acid type B receptor su...  355        9e-107
+UniRef90_UPI00073D634F gamma-aminobutyric acid type B receptor su...  354        1e-106
+UniRef90_A0A085NM74 Guanylate cyclase n=1 Tax=Trichuris suis TaxI...  356        1e-106
+UniRef90_W8BGI5 Gamma-aminobutyric acid type B receptor subunit 2...  352        1e-106
+UniRef90_W5JGP7 Guanylate cyclase n=6 Tax=Nyssorhynchus TaxID=445...  355        2e-106
+UniRef90_A0A0M4F7G9 GABA-B-R2 n=8 Tax=Drosophila TaxID=7215 RepID...  352        2e-106
+UniRef90_UPI001471EEEB speract receptor isoform X3 n=1 Tax=Drosop...  352        2e-106
+UniRef90_UPI00067E4F50 guanylate cyclase 32E-like isoform X1 n=2 ...  353        2e-106
+UniRef90_A0A182F2H0 Guanylate cyclase n=1 Tax=Anopheles albimanus...  353        3e-106
+UniRef90_UPI0007D956D8 gamma-aminobutyric acid type B receptor su...  352        4e-106
+UniRef90_UPI000C6F840A gamma-aminobutyric acid type B receptor su...  352        4e-106
+UniRef90_UPI000E6D98CB receptor-type guanylate cyclase Gyc76C-lik...  352        5e-106
+UniRef90_UPI000718CB62 gamma-aminobutyric acid type B receptor su...  352        5e-106
+UniRef90_A0A195BC28 Gamma-aminobutyric acid type B receptor subun...  351        6e-106
+UniRef90_A0A151XA01 Gamma-aminobutyric acid type B receptor subun...  351        7e-106
+UniRef90_A0A6J2TH66 gamma-aminobutyric acid type B receptor subun...  350        1e-105
+UniRef90_A0A212F645 Guanylate cyclase n=2 Tax=Danaus plexippus pl...  351        1e-105
+UniRef90_UPI0006D4EDBB gamma-aminobutyric acid type B receptor su...  351        1e-105
+UniRef90_A0A1I8PRN8 Guanylate cyclase n=1 Tax=Stomoxys calcitrans...  354        1e-105
+UniRef90_UPI0013F250B8 uncharacterized protein LOC116854152 isofo...  351        2e-105
+UniRef90_A0A0B4LHR4 Metabotropic GABA-B receptor subtype 2, isofo...  349        2e-105
+UniRef90_H9JBA4 Guanylate cyclase n=3 Tax=Bombyx TaxID=7090 RepID...  347        2e-105
+UniRef90_A0A0P6IUE5 Guanylate cyclase n=5 Tax=Aedes aegypti TaxID...  349        2e-105
+UniRef90_UPI0006D50720 receptor-type guanylate cyclase Gyc76C-lik...  349        2e-105
+UniRef90_UPI00103F8627 speract receptor isoform X2 n=1 Tax=Ostrin...  349        2e-105
+UniRef90_A0A1B6EJJ0 Guanylate cyclase n=1 Tax=Cuerna arida TaxID=...  349        4e-105
+UniRef90_A0A6J0C5Z9 atrial natriuretic peptide receptor 1 n=2 Tax...  346        5e-105
+UniRef90_A0A195FUD1 Gamma-aminobutyric acid type B receptor subun...  351        5e-105
+UniRef90_A0A1B6C322 Guanylate cyclase n=4 Tax=Clastoptera arizona...  349        5e-105
+UniRef90_UPI0009E4EC19 speract receptor-like n=1 Tax=Orbicella fa...  352        5e-105
+UniRef90_UPI001183A564 receptor-type guanylate cyclase Gyc76C-lik...  349        8e-105
+UniRef90_A0A2P8YZ06 Guanylate cyclase n=1 Tax=Blattella germanica...  348        1e-104
+UniRef90_UPI00143D9139 gamma-aminobutyric acid type B receptor su...  348        1e-104
+UniRef90_UPI000E6E57F0 uncharacterized protein LOC113386444 n=1 T...  347        1e-104
+UniRef90_UPI0006C94CB8 receptor-type guanylate cyclase gcy-3-like...  347        2e-104
+UniRef90_A0A482VN66 Guanylate cyclase n=1 Tax=Asbolus verrucosus ...  347        3e-104
+UniRef90_A0A452FSJ1 Guanylate cyclase n=43 Tax=Boreoeutheria TaxI...  342        5e-104
+UniRef90_UPI00077FB773 receptor-type guanylate cyclase Gyc76C n=1...  346        6e-104
+UniRef90_P16066 Atrial natriuretic peptide receptor 1 n=102 Tax=E...  342        8e-104
+UniRef90_A0A182GQJ0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  345        8e-104
+UniRef90_A0A0F7VHN3 Guanylate cyclase n=1 Tax=Euperipatoides kana...  345        1e-103
+UniRef90_UPI0007383E4E uncharacterized protein LOC107036360 n=1 T...  345        1e-103
+UniRef90_A0A4Y0BJ06 Guanylate cyclase n=11 Tax=Cellia TaxID=44534...  348        1e-103
+UniRef90_UPI000596AACA receptor-type guanylate cyclase gcy-8-like...  345        1e-103
+UniRef90_V6DQH9 Metabotropic GABA-B receptor subtype 2 n=1 Tax=Pe...  343        3e-103
+UniRef90_N6U6H5 Guanylate cyclase (Fragment) n=3 Tax=Dendroctonus...  342        3e-103
+UniRef90_A0A1A9ZL53 G_PROTEIN_RECEP_F3_4 domain-containing protei...  343        3e-103
+UniRef90_A0A1D2MRX5 Guanylate cyclase n=1 Tax=Orchesella cincta T...  347        4e-103
+UniRef90_T1E1N6 Guanylate cyclase n=1 Tax=Cupiennius salei TaxID=...  343        5e-103
+UniRef90_A0A336LXX4 Guanylate cyclase n=1 Tax=Culicoides sonorens...  344        6e-103
+UniRef90_A0A1J1J1I5 CLUMA_CG018829, isoform A n=1 Tax=Clunio mari...  342        8e-103
+UniRef90_A0A1I8NSL6 Guanylate cyclase n=1 Tax=Stomoxys calcitrans...  342        1e-102
+UniRef90_A0A0L0BXY0 G_PROTEIN_RECEP_F3_4 domain-containing protei...  341        1e-102
+UniRef90_A0A1B6CLQ3 Guanylate cyclase n=3 Tax=Clastoptera arizona...  343        1e-102
+UniRef90_C4XV97 Guanylate cyclase (Fragment) n=2 Tax=Aedes aegypt...  342        1e-102
+UniRef90_A0A151IK90 Guanylate cyclase n=2 Tax=Cyphomyrmex costatu...  342        1e-102
+UniRef90_B4IIP9 Guanylate cyclase n=9 Tax=melanogaster group TaxI...  344        2e-102
+UniRef90_V5IB68 Guanylate cyclase n=5 Tax=Ixodes TaxID=6944 RepID...  342        2e-102
+UniRef90_A0A1B0EWC7 Guanylate cyclase n=1 Tax=Lutzomyia longipalp...  343        2e-102
+UniRef90_UPI0015E03FA6 atrial natriuretic peptide receptor 1-like...  341        3e-102
+UniRef90_D6WJG8 Guanylate cyclase n=2 Tax=Tribolium castaneum Tax...  341        3e-102
+UniRef90_A0A2R5L7Q6 Guanylate cyclase (Fragment) n=1 Tax=Ornithod...  341        3e-102
+UniRef90_UPI000B8E533D gamma-aminobutyric acid type B receptor su...  342        4e-102
+UniRef90_UPI000C760E00 guanylate cyclase 32E n=1 Tax=Anoplophora ...  340        4e-102
+UniRef90_Q86GV3-4 Isoform d of Receptor-type guanylate cyclase gc...  340        4e-102
+UniRef90_C4XV98 Guanylate cyclase (Fragment) n=1 Tax=Culex quinqu...  340        5e-102
+UniRef90_UPI00084B14E5 LOW QUALITY PROTEIN: guanylate cyclase 32E...  343        7e-102
+UniRef90_A0A6J8E7P9 E4.6.1.2 n=1 Tax=Mytilus coruscus TaxID=42192...  339        1e-101
+UniRef90_UPI00067AF0D6 LOW QUALITY PROTEIN: guanylate cyclase 32E...  338        2e-101
+UniRef90_W8B6W5 Guanylate cyclase n=3 Tax=Ceratitis capitata TaxI...  339        2e-101
+UniRef90_A0A224XI24 Guanylate cyclase n=1 Tax=Panstrongylus ligna...  339        2e-101
+UniRef90_Q7PZZ2 Guanylate cyclase (Fragment) n=17 Tax=Anopheles T...  338        2e-101
+UniRef90_A0A6L2PGR8 Uncharacterized protein (Fragment) n=1 Tax=Co...  343        3e-101
+UniRef90_A0A5N4A9X5 Guanylate cyclase n=3 Tax=Photinus pyralis Ta...  338        3e-101
+UniRef90_UPI0005D08CB8 gamma-aminobutyric acid type B receptor su...  338        3e-101
+UniRef90_UPI00083C459B uncharacterized protein LOC108560102 isofo...  338        3e-101
+UniRef90_A0A6B0S084 Guanylate cyclase n=7 Tax=Boreoeutheria TaxID...  342        4e-101
+UniRef90_A0A336MLZ6 CSON002641 protein n=2 Tax=Culicoides sonoren...  338        4e-101
+UniRef90_UPI0011447683 uncharacterized protein LOC115238258 isofo...  341        7e-101
+UniRef90_A0A1I7SAG7 Guanylate cyclase n=1 Tax=Bursaphelenchus xyl...  341        8e-101
+UniRef90_A0A226DJ09 Guanylate cyclase n=1 Tax=Folsomia candida Ta...  340        1e-100
+UniRef90_E2A748 Gamma-aminobutyric acid type B receptor subunit 2...  332        1e-100
+UniRef90_UPI0006236766 uncharacterized protein LOC105672169 n=1 T...  340        1e-100
+UniRef90_A0A1E1X2G3 Guanylate cyclase (Fragment) n=2 Tax=Amblyomm...  336        1e-100
+UniRef90_UPI0011826219 speract receptor isoform X1 n=2 Tax=Manduc...  336        2e-100
+UniRef90_UPI000DC69932 uncharacterized protein LOC105248834 isofo...  340        2e-100
+UniRef90_A0A3M6UZX5 Guanylate cyclase n=2 Tax=Pocillopora damicor...  339        2e-100
+UniRef90_A0A6J2XEI6 uncharacterized protein LOC115877509 isoform ...  336        2e-100
+UniRef90_UPI000852200B gamma-aminobutyric acid type B receptor su...  337        2e-100
+UniRef90_K7JAC0 Guanylate cyclase n=1 Tax=Nasonia vitripennis Tax...  338        3e-100
+UniRef90_UPI001482F730 gamma-aminobutyric acid type B receptor su...  335        4e-100
+UniRef90_UPI000C203584 receptor-type guanylate cyclase Gyc76C-lik...  337        5e-100
+UniRef90_UPI000BE1E021 gamma-aminobutyric acid type B receptor su...  334        6e-100
+UniRef90_A0A433TRG2 Guanylate cyclase (Fragment) n=1 Tax=Elysia c...  337        7e-100
+UniRef90_A0A0B2V4G1 Guanylate cyclase n=2 Tax=Toxocara canis TaxI...  335        7e-100
+UniRef90_A0A6J1PMU8 uncharacterized protein LOC112454048 isoform ...  338        7e-100
+UniRef90_B4LQH0 Guanylate cyclase n=5 Tax=Drosophila TaxID=32281 ...  333        7e-100
+UniRef90_UPI000771B014 gamma-aminobutyric acid type B receptor su...  336        8e-100
+UniRef90_T1J486 Centromere protein L n=1 Tax=Strigamia maritima T...  337        8e-100
+UniRef90_UPI0005CE80FE guanylate cyclase 32E n=1 Tax=Ceratosolen ...  334        8e-100
+UniRef90_UPI000B90CEF8 guanylate cyclase 32E-like n=1 Tax=Acantha...  334        9e-100
+UniRef90_A0A195D0T9 Gamma-aminobutyric acid type B receptor subun...  336        1e-99 
+UniRef90_UPI0010F8FE94 gamma-aminobutyric acid type B receptor su...  334        1e-99 
+UniRef90_A0A6G0UQ17 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  336        1e-99 
+UniRef90_UPI0013F1C7FE uncharacterized protein LOC116841788 isofo...  337        1e-99 
+UniRef90_UPI000995A815 uncharacterized protein LOC109856631 isofo...  337        2e-99 
+UniRef90_A0A182H963 Guanylate cyclase n=6 Tax=Aedes albopictus Ta...  334        2e-99 
+UniRef90_A0A084WC60 Guanylate cyclase n=1 Tax=Anopheles sinensis ...  334        3e-99 
+UniRef90_UPI0014558AB5 guanylate cyclase 32E-like n=1 Tax=Asteria...  333        3e-99 
+UniRef90_Q86GV3-2 Isoform a of Receptor-type guanylate cyclase gc...  332        3e-99 
+UniRef90_A0A0L8HCE2 Guanylate cyclase n=3 Tax=Octopus bimaculoide...  336        3e-99 
+UniRef90_UPI00065BA0AB guanylate cyclase 32E-like n=1 Tax=Aplysia...  331        6e-99 
+UniRef90_UPI00096B2D4E LOW QUALITY PROTEIN: atrial natriuretic pe...  332        6e-99 
+UniRef90_A0A5K3FKC4 Guanylate cyclase n=3 Tax=Mesocestoides corti...  333        7e-99 
+UniRef90_UPI000811A9F8 receptor-type guanylate cyclase gcy-8-like...  333        8e-99 
+UniRef90_A0A226E2Q6 Guanylate cyclase n=1 Tax=Folsomia candida Ta...  331        9e-99 
+UniRef90_A0A6G0V1F3 Guanylate cyclase n=1 Tax=Halicephalobus sp. ...  334        1e-98 
+UniRef90_UPI0010F72EAC uncharacterized protein LOC114877446 isofo...  334        1e-98 
+UniRef90_UPI0010F61EA5 uncharacterized protein LOC114877446 isofo...  334        1e-98 
+UniRef90_UPI00067D078B gamma-aminobutyric acid type B receptor su...  332        2e-98 
+UniRef90_H9JV05 G_PROTEIN_RECEP_F3_4 domain-containing protein n=...  330        2e-98 
+UniRef90_UPI00144301CC gamma-aminobutyric acid type B receptor su...  333        3e-98 
+UniRef90_A0A2A4JP25 G_PROTEIN_RECEP_F3_4 domain-containing protei...  331        3e-98 
+UniRef90_A0A182F1Z3 Guanylate cyclase n=1 Tax=Anopheles albimanus...  333        3e-98 
+UniRef90_A0A1I8N5J4 Guanylate cyclase n=3 Tax=Musca domestica Tax...  330        4e-98 
+UniRef90_A0A2B4STI1 Guanylate cyclase n=1 Tax=Stylophora pistilla...  332        4e-98 
+UniRef90_A0A087UMW5 Guanylate cyclase (Fragment) n=1 Tax=Stegodyp...  329        5e-98 
+UniRef90_A0A0L0BQC5 Guanylate cyclase n=1 Tax=Lucilia cuprina Tax...  329        6e-98 
+UniRef90_UPI00065BC0F3 guanylate cyclase 32E-like n=1 Tax=Aplysia...  332        6e-98 
+UniRef90_A0A443R7B3 Guanylate cyclase (Fragment) n=1 Tax=Dinothro...  328        7e-98 
+UniRef90_A0A034VUF4 Guanylate cyclase (Fragment) n=4 Tax=Bactroce...  329        7e-98 
+UniRef90_E0VCP0 Guanylate cyclase n=2 Tax=Pediculus humanus subsp...  329        8e-98 
+UniRef90_A0A2C9GRZ6 Guanylate cyclase n=8 Tax=Cellia TaxID=44534 ...  329        9e-98 
+UniRef90_UPI000E6E4BF6 atrial natriuretic peptide receptor 1-like...  331        9e-98 
+UniRef90_UPI000590DBEE uncharacterized protein LOC105188609 isofo...  332        1e-97 
+UniRef90_A0A6J0U6T2 atrial natriuretic peptide receptor 2 n=1 Tax...  329        1e-97 
+UniRef90_A0A194RGF1 Guanylate cyclase (Fragment) n=4 Tax=Papilio ...  326        1e-97 
+UniRef90_UPI0005EFC400 uncharacterized protein LOC105458495 n=1 T...  331        2e-97 
+UniRef90_A0A6J1NSQ0 gamma-aminobutyric acid type B receptor subun...  329        2e-97 
+UniRef90_UPI0014040894 receptor-type guanylate cyclase gcy-5-like...  328        2e-97 
+UniRef90_UPI000E6DA086 gamma-aminobutyric acid type B receptor su...  328        3e-97 
+UniRef90_UPI000E777298 gamma-aminobutyric acid type B receptor su...  328        3e-97 
+UniRef90_A0A084VYH2 Guanylate cyclase n=1 Tax=Anopheles sinensis ...  329        5e-97 
+UniRef90_B0WPU2 Guanylate cyclase n=1 Tax=Culex quinquefasciatus ...  327        5e-97 
+UniRef90_UPI000C6DED08 receptor-type guanylate cyclase Gyc76C-lik...  329        6e-97 
+UniRef90_A0A158Q3Q2 Guanylate cyclase n=1 Tax=Dracunculus medinen...  326        6e-97 
+UniRef90_UPI00071164A0 uncharacterized protein LOC106741151 n=1 T...  329        7e-97 
+UniRef90_UPI000B927EA1 gamma-aminobutyric acid type B receptor su...  327        8e-97 
+UniRef90_UPI0010FC8CBB guanylate cyclase 32E-like n=2 Tax=Acropor...  328        8e-97 
+UniRef90_UPI0012B5F833 speract receptor-like isoform X1 n=2 Tax=A...  328        9e-97 
+UniRef90_UPI00083C8945 uncharacterized protein LOC108550782 n=1 T...  328        1e-96 
+UniRef90_UPI000A2C0341 receptor-type guanylate cyclase gcy-5-like...  326        1e-96 
+UniRef90_A0A182Q3F5 Guanylate cyclase n=2 Tax=Anopheles TaxID=716...  323        1e-96 
+UniRef90_A0A1S0U405 Guanylate cyclase n=10 Tax=Onchocercidae TaxI...  326        1e-96 
+UniRef90_UPI000B98C70E uncharacterized protein LOC111045716 n=1 T...  326        3e-96 
+UniRef90_A0A212FNG9 Gaba-b receptor (Fragment) n=5 Tax=Danaus ple...  325        5e-96 
+UniRef90_A0A4D5RH00 Guanylate cyclase (Fragment) n=2 Tax=Ixodes s...  326        5e-96 
+UniRef90_A0A2H1WKG9 Guanylate cyclase n=6 Tax=Noctuidae TaxID=710...  323        7e-96 
+UniRef90_UPI0007382FBC gamma-aminobutyric acid type B receptor su...  324        8e-96 
+UniRef90_A0A6A7G4J2 Guanylate cyclase (Fragment) n=1 Tax=Hirondel...  326        9e-96 
+UniRef90_A0A0C9QHY7 GABBR2 protein n=2 Tax=Fopius arisanus TaxID=...  324        9e-96 
+UniRef90_UPI000614B14E uncharacterized protein LOC100877668 n=1 T...  325        1e-95 
+UniRef90_A0A2A6B684 Guanylate cyclase n=2 Tax=Pristionchus pacifi...  325        1e-95 
+UniRef90_A0A154PTY8 Gamma-aminobutyric acid type B receptor subun...  326        1e-95 
+UniRef90_A0A1A9UYS4 Guanylate cyclase n=4 Tax=Glossina TaxID=7393...  323        1e-95 
+UniRef90_A0A3R7LVB8 Guanylate cyclase (Fragment) n=2 Tax=Penaeus ...  323        2e-95 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.145    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0445    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1468095795634
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

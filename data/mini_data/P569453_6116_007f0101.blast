@@ -1,0 +1,311 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P56945-3|BCAR1_HUMAN Isoform 3 of Breast cancer anti-estrogen
+resistance protein 1 OS=Homo sapiens OX=9606 GN=BCAR1
+
+Length=888
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_UPI00094E5DAF breast cancer anti-estrogen resistance pro...  633        0.0  
+UniRef90_M7C5K7 Cleavage stimulation factor subunit 1 n=2 Tax=Arc...  277        1e-75
+UniRef90_UPI00084A3472 breast cancer anti-estrogen resistance pro...  212        5e-54
+UniRef90_UPI00084B4809 breast cancer anti-estrogen resistance pro...  211        7e-54
+UniRef90_UPI00155AB579 serine-rich adhesin for platelets isoform ...  199        7e-50
+UniRef90_L9L235 Myosin-6 n=70 Tax=cellular organisms TaxID=131567...  119        2e-24
+UniRef90_A0A091D8T9 Myosin-6 n=87 Tax=Amniota TaxID=32524 RepID=A...  117        5e-24
+UniRef90_A0A0V1PB77 Breast cancer anti-estrogen resistance protei...  113        1e-22
+UniRef90_UPI00123E7BE9 myosin-6-like n=1 Tax=Leptonychotes weddel...  110        6e-22
+UniRef90_A0A0V0U819 Breast cancer anti-estrogen resistance protei...  110        7e-22
+UniRef90_A0A498MK31 Embryonal Fyn-associated substrate-like isofo...  105        3e-20
+UniRef90_A0A0V1E773 Breast cancer anti-estrogen resistance protei...  104        4e-20
+UniRef90_A0A6F9CRF5 SH3 domain-containing protein n=1 Tax=Coregon...  102        2e-19
+UniRef90_A0A6J3QYF4 solute carrier family 22 member 17 isoform X1...  97.8       4e-18
+UniRef90_A0A1I8CHG3 Histone-lysine N-methyltransferase, H3 lysine...  81.6       5e-13
+UniRef90_A0A401NSU8 Uncharacterized protein n=1 Tax=Scyliorhinus ...  62.8       2e-07
+UniRef90_A0A401T1H4 Uncharacterized protein n=1 Tax=Chiloscyllium...  58.9       4e-06
+UniRef90_A0A1U7LH38 Myosin-1 n=1 Tax=Neolecta irregularis (strain...  54.7       8e-05
+UniRef90_A0A6A4S853 Uncharacterized protein n=1 Tax=Scophthalmus ...  52.0       6e-04
+UniRef90_A0A484G6D1 Autophagy-related protein 13 n=4 Tax=Colletot...  51.6       7e-04
+UniRef90_A0A194W0V4 Autophagy-related protein 13 n=1 Tax=Valsa ma...  51.2       9e-04
+UniRef90_A0A197KED1 Uncharacterized protein n=1 Tax=Mortierella e...  50.8       0.001
+UniRef90_S2K1T9 Myosin I n=3 Tax=Mucor TaxID=4830 RepID=S2K1T9_MUCC1  49.7       0.002
+UniRef90_UPI000947C308 serine/arginine repetitive matrix protein ...  49.7       0.003
+UniRef90_A0A0G4KSY0 Autophagy-related protein 13 n=4 Tax=Verticil...  49.7       0.003
+UniRef90_A0A0B7MSH1 Uncharacterized protein n=1 Tax=Parasitella p...  48.9       0.005
+UniRef90_A0A2K3Q7Q9 Autophagy-related protein 13 n=1 Tax=Tolypocl...  48.5       0.007
+UniRef90_A0A137NXW3 Uncharacterized protein n=1 Tax=Conidiobolus ...  48.1       0.008
+UniRef90_A0A163JWI5 Uncharacterized protein n=1 Tax=Absidia glauc...  47.4       0.015
+UniRef90_I1CRI5 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  47.0       0.019
+UniRef90_A0A1X2I477 p-loop containing nucleoside triphosphate hyd...  46.6       0.021
+UniRef90_A0A6G1PVN0 Titin n=1 Tax=Channa argus TaxID=215402 RepID...  47.0       0.021
+UniRef90_A0A1X2GH75 Uncharacterized protein n=1 Tax=Hesseltinella...  46.6       0.023
+UniRef90_A0A367JZ20 Class II myosin n=4 Tax=Rhizopus TaxID=4842 R...  46.6       0.023
+UniRef90_A0A068SAS0 Myosin class i heavy chain n=2 Tax=Lichtheimi...  46.6       0.024
+UniRef90_A0A0B7MYF0 Uncharacterized protein n=4 Tax=Mucoraceae Ta...  46.6       0.025
+UniRef90_F4PGT3 Class VII unconventional myosin n=1 Tax=Cavenderi...  45.8       0.041
+UniRef90_A0A367KPR9 Class II myosin n=1 Tax=Rhizopus stolonifer T...  43.1       0.28 
+UniRef90_A0A074S4B4 Myosin I heavy chain n=5 Tax=Rhizoctonia sola...  41.6       0.80 
+UniRef90_A0A074YK64 SH3 domain-containing protein n=40 Tax=Aureob...  41.2       1.0  
+UniRef90_A0A5N5QJN1 Myosin-1 n=1 Tax=Ceratobasidium theobromae Ta...  41.2       1.0  
+UniRef90_UPI0007E751F3 uncharacterized protein LOC108040944 isofo...  39.7       3.1  
+UniRef90_A0A1Y1VKD2 Uncharacterized protein n=1 Tax=Piromyces fin...  38.5       7.9  
+UniRef90_UPI0013EEF3AF LOW QUALITY PROTEIN: uncharacterized prote...  38.1       8.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2738339224632
+Results from round 2
+
+
+Query= sp|P56945-3|BCAR1_HUMAN Isoform 3 of Breast cancer anti-estrogen
+resistance protein 1 OS=Homo sapiens OX=9606 GN=BCAR1
+
+Length=888
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI00094E5DAF breast cancer anti-estrogen resistance pro...  769        0.0   
+UniRef90_M7C5K7 Cleavage stimulation factor subunit 1 n=2 Tax=Arc...  697        0.0   
+UniRef90_UPI00084A3472 breast cancer anti-estrogen resistance pro...  580        0.0   
+UniRef90_UPI00084B4809 breast cancer anti-estrogen resistance pro...  577        0.0   
+UniRef90_UPI00155AB579 serine-rich adhesin for platelets isoform ...  446        2e-134
+UniRef90_L9L235 Myosin-6 n=70 Tax=cellular organisms TaxID=131567...  432        8e-128
+UniRef90_A0A091D8T9 Myosin-6 n=87 Tax=Amniota TaxID=32524 RepID=A...  357        6e-102
+UniRef90_UPI00123E7BE9 myosin-6-like n=1 Tax=Leptonychotes weddel...  229        2e-59 
+UniRef90_A0A6J3QYF4 solute carrier family 22 member 17 isoform X1...  228        2e-59 
+UniRef90_A0A0V1PB77 Breast cancer anti-estrogen resistance protei...  219        3e-56 
+UniRef90_A0A0V0U819 Breast cancer anti-estrogen resistance protei...  213        2e-54 
+UniRef90_A0A0V1E773 Breast cancer anti-estrogen resistance protei...  198        9e-50 
+UniRef90_A0A1I8CHG3 Histone-lysine N-methyltransferase, H3 lysine...  176        2e-42 
+UniRef90_A0A6F9CRF5 SH3 domain-containing protein n=1 Tax=Coregon...  150        3e-34 
+UniRef90_A0A498MK31 Embryonal Fyn-associated substrate-like isofo...  135        8e-30 
+UniRef90_A0A401T1H4 Uncharacterized protein n=1 Tax=Chiloscyllium...  133        4e-29 
+UniRef90_A0A401NSU8 Uncharacterized protein n=1 Tax=Scyliorhinus ...  133        5e-29 
+UniRef90_A0A6A4S853 Uncharacterized protein n=1 Tax=Scophthalmus ...  129        1e-27 
+UniRef90_A0A1U7LH38 Myosin-1 n=1 Tax=Neolecta irregularis (strain...  115        2e-23 
+UniRef90_A0A484G6D1 Autophagy-related protein 13 n=4 Tax=Colletot...  78.6       4e-12 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0009A31347 LOW QUALITY PROTEIN: intersectin-1 n=1 Tax...  127        5e-27
+UniRef90_A0A5J5DLV0 Uncharacterized protein n=1 Tax=Etheostoma sp...  125        2e-26
+UniRef90_A0A672HXY7 Intersectin 1 (SH3 domain protein) n=1 Tax=Sa...  109        1e-21
+UniRef90_A0A4W3J6H7 Uncharacterized protein n=3 Tax=Callorhinchus...  107        7e-21
+UniRef90_UPI001402D456 intersectin-1 isoform X2 n=4 Tax=Amblyraja...  103        8e-20
+UniRef90_UPI001403637C intersectin-1 isoform X4 n=1 Tax=Amblyraja...  103        8e-20
+UniRef90_UPI0014039960 intersectin-1 isoform X5 n=2 Tax=Amblyraja...  103        9e-20
+UniRef90_A0A421DBV0 PAN2-PAN3 deadenylation complex catalytic sub...  103        1e-19
+UniRef90_A0A3P8SJE2 Uncharacterized protein n=1 Tax=Amphiprion pe...  102        3e-19
+UniRef90_A0A3P8SKA2 Uncharacterized protein n=3 Tax=Amphiprion Ta...  101        3e-19
+UniRef90_UPI0004572AA9 intersectin-1 n=1 Tax=Callorhinchus milii ...  100        9e-19
+UniRef90_V9K9C8 Intersectin-1-like protein (Fragment) n=1 Tax=Cal...  95.9       2e-17
+UniRef90_UPI0015AB513E histone-lysine N-methyltransferase 2C-like...  95.9       2e-17
+UniRef90_A0A1Q5Q8E5 PAN2-PAN3 deadenylation complex catalytic sub...  95.5       3e-17
+UniRef90_UPI001113358F histone-lysine N-methyltransferase 2C n=1 ...  95.5       3e-17
+UniRef90_A0A068SAS0 Myosin class i heavy chain n=2 Tax=Lichtheimi...  93.2       1e-16
+UniRef90_A0A178EQ50 Class E vacuolar protein-sorting machinery pr...  93.2       1e-16
+UniRef90_A0A364L878 PAN2-PAN3 deadenylation complex catalytic sub...  92.5       3e-16
+UniRef90_A0A1X2GH75 Uncharacterized protein n=1 Tax=Hesseltinella...  90.5       7e-16
+UniRef90_UPI00159C3259 LOW QUALITY PROTEIN: histone-lysine N-meth...  89.8       2e-15
+UniRef90_A0A1V6QFS2 SH3 domain-containing protein n=2 Tax=Penicil...  89.4       2e-15
+UniRef90_UPI000D0A89B2 LOW QUALITY PROTEIN: lysosomal-trafficking...  89.0       3e-15
+UniRef90_A0A2U9CWR1 Mitogen-activated protein kinase kinase kinas...  87.5       7e-15
+UniRef90_A0A364N092 Glutamyl-tRNA synthetase n=1 Tax=Stemphylium ...  86.7       1e-14
+UniRef90_A0A137NXW3 Uncharacterized protein n=1 Tax=Conidiobolus ...  85.5       3e-14
+UniRef90_A0A0E9NRT7 Uncharacterized protein n=2 Tax=Saitoella com...  85.5       3e-14
+UniRef90_UPI0015E15552 LOW QUALITY PROTEIN: histone-lysine N-meth...  85.1       5e-14
+UniRef90_UPI0010FAC28C ubiquitin carboxyl-terminal hydrolase 25-l...  84.4       6e-14
+UniRef90_UPI000C6DF126 histone-lysine N-methyltransferase 2C-like...  84.4       8e-14
+UniRef90_UPI000C6E42C8 histone-lysine N-methyltransferase 2C-like...  84.4       9e-14
+UniRef90_UPI000C6CDEC0 histone-lysine N-methyltransferase 2C-like...  84.0       1e-13
+UniRef90_A0A163JWI5 Uncharacterized protein n=1 Tax=Absidia glauc...  83.6       1e-13
+UniRef90_UPI00125E2EB7 LOW QUALITY PROTEIN: histone-lysine N-meth...  83.6       1e-13
+UniRef90_A0A4Q4NPP7 SH3 domain-containing protein n=7 Tax=Alterna...  82.8       2e-13
+UniRef90_A0A2J5HSA7 SH3 domain-containing protein n=2 Tax=Aspergi...  82.8       2e-13
+UniRef90_UPI0014716740 LOW QUALITY PROTEIN: titin-like n=1 Tax=Th...  82.1       4e-13
+UniRef90_UPI00148C4E07 histone-lysine N-methyltransferase 2C-like...  82.1       4e-13
+UniRef90_A0A504XQ48 Uncharacterized protein n=1 Tax=Leishmania do...  81.7       6e-13
+UniRef90_Q06852 Cell surface glycoprotein 1 n=3 Tax=Hungateiclost...  80.9       9e-13
+UniRef90_UPI0001C14696 S-layer homology domain-containing protein...  80.5       1e-12
+UniRef90_UPI0012BBC4CA eukaryotic translation initiation factor 4...  78.2       5e-12
+UniRef90_A0A0K8LT76 Class E vacuolar protein-sorting machinery pr...  78.2       5e-12
+UniRef90_A0A668UML3 Eukaryotic translation initiation factor 4 ga...  77.8       7e-12
+UniRef90_A0A0G4KSY0 Autophagy-related protein 13 n=4 Tax=Verticil...  75.1       5e-11
+UniRef90_UPI00148FA935 titin-like isoform X1 n=3 Tax=Notolabrus c...  74.7       6e-11
+UniRef90_A0A3B4XNE5 Uncharacterized protein n=1 Tax=Seriola lalan...  74.7       6e-11
+UniRef90_A0A3B4XQK3 Uncharacterized protein n=2 Tax=Seriola lalan...  74.7       6e-11
+UniRef90_UPI00081130E6 microtubule-associated protein futsch n=1 ...  74.0       1e-10
+UniRef90_M2SYI7 SH3 domain-containing protein n=1 Tax=Cochliobolu...  72.8       2e-10
+UniRef90_A0A543F4L1 Autotransporter adhesin n=1 Tax=Nocardia bhag...  72.1       5e-10
+UniRef90_A0A0G4N1P4 SH3 domain-containing protein n=10 Tax=Vertic...  71.3       7e-10
+UniRef90_UPI000D303170 histone-lysine N-methyltransferase 2C n=1 ...  70.5       1e-09
+UniRef90_A0A1X2I477 p-loop containing nucleoside triphosphate hyd...  69.7       2e-09
+UniRef90_UPI000F7D4EB3 LOW QUALITY PROTEIN: proteoglycan 4 n=2 Ta...  69.0       4e-09
+UniRef90_UPI0014556BA3 uncharacterized protein LOC117300286 n=1 T...  67.8       7e-09
+UniRef90_UPI0013EEF3AF LOW QUALITY PROTEIN: uncharacterized prote...  67.8       1e-08
+UniRef90_UPI00144737D7 titin n=1 Tax=Epinephelus lanceolatus TaxI...  67.4       1e-08
+UniRef90_UPI000C764654 titin-like n=1 Tax=Eurytemora affinis TaxI...  66.3       2e-08
+UniRef90_A0A0M9A896 Protein toll n=1 Tax=Melipona quadrifasciata ...  66.3       2e-08
+UniRef90_A0A158P7H2 Uncharacterized protein n=1 Tax=Angiostrongyl...  65.5       4e-08
+UniRef90_F0Z8D9 Uncharacterized protein n=1 Tax=Dictyostelium pur...  64.7       7e-08
+UniRef90_A0A553Q4S7 Uncharacterized protein n=3 Tax=Danionella tr...  64.7       8e-08
+UniRef90_A0A1I6DIP8 Uncharacterized protein n=2 Tax=Lentzea waywa...  64.7       8e-08
+UniRef90_UPI0014874A6B histone-lysine N-methyltransferase 2C-like...  64.3       9e-08
+UniRef90_UPI0014862880 histone-lysine N-methyltransferase 2C-like...  64.3       1e-07
+UniRef90_UPI00148656D4 histone-lysine N-methyltransferase 2C-like...  64.3       1e-07
+UniRef90_UPI0014871830 histone-lysine N-methyltransferase 2C-like...  64.3       1e-07
+UniRef90_UPI00148739F9 histone-lysine N-methyltransferase 2C-like...  64.3       1e-07
+UniRef90_A0A5B0Q9A5 Uncharacterized protein n=2 Tax=Puccinia gram...  64.3       1e-07
+UniRef90_UPI000E40C0C7 histone-lysine N-methyltransferase 2C-like...  63.6       2e-07
+UniRef90_A0A261A2W1 BRO1 domain-containing protein (Fragment) n=1...  63.2       2e-07
+UniRef90_A0A0D2VRZ5 Myosin-1 n=2 Tax=Capsaspora owczarzaki (strai...  63.2       2e-07
+UniRef90_A0A0D6EPA2 SPOSA6832_03167-mRNA-1:cds (Fragment) n=1 Tax...  63.2       2e-07
+UniRef90_A0A2R6NFM1 Uncharacterized protein n=1 Tax=Phlebia centr...  62.4       3e-07
+UniRef90_UPI000569BB3E hypothetical protein n=1 Tax=Lentzea aeroc...  62.4       4e-07
+UniRef90_D3BST1 Class VII unconventional myosin n=1 Tax=Polysphon...  62.4       4e-07
+UniRef90_A0A1Y1VKD2 Uncharacterized protein n=1 Tax=Piromyces fin...  62.4       4e-07
+UniRef90_A0A0P5ELT3 Putative Neurogenic locus notch protein n=1 T...  62.0       5e-07
+UniRef90_A0A4S4KHU6 Uncharacterized protein n=1 Tax=Phlebia centr...  61.7       6e-07
+UniRef90_UPI0010F62455 LOW QUALITY PROTEIN: histone-lysine N-meth...  61.7       6e-07
+UniRef90_A0A0P5TLU7 Putative Neurogenic locus notch protein n=2 T...  61.7       7e-07
+UniRef90_A0A0P5TSL5 Putative Neurogenic locus notch protein n=3 T...  60.9       1e-06
+UniRef90_A0A0N8A3S8 Putative Neurogenic locus notch protein n=2 T...  60.5       1e-06
+UniRef90_UPI0011B376CF histone-lysine N-methyltransferase 2D-like...  60.1       2e-06
+UniRef90_UPI0003C02D77 LOW QUALITY PROTEIN: proteoglycan 4 n=3 Ta...  59.3       3e-06
+UniRef90_A0A0P4X051 Neurogenic locus notch protein n=2 Tax=Daphni...  59.3       3e-06
+UniRef90_UPI00101A5E9E titin n=1 Tax=Eptesicus fuscus TaxID=29078...  59.3       3e-06
+UniRef90_A0A194S6M2 Uncharacterized protein n=1 Tax=Rhodotorula g...  59.0       3e-06
+UniRef90_A0A6A6WTI4 Sec3-PIP2_bind domain-containing protein n=1 ...  59.0       4e-06
+UniRef90_R7QB26 Peptidase_S8 domain-containing protein n=1 Tax=Ch...  59.0       5e-06
+UniRef90_UPI000C812F40 leucine-rich repeat-containing protein 37A...  58.6       5e-06
+UniRef90_A0A2K3CT33 DUF3707 domain-containing protein n=1 Tax=Chl...  58.6       6e-06
+UniRef90_A0A673VHM5 Titin n=1 Tax=Suricata suricatta TaxID=37032 ...  58.6       7e-06
+UniRef90_A0A0N7ZJW0 Putative Neurogenic locus notch protein n=1 T...  58.2       8e-06
+UniRef90_A0A6I9Y859 titin n=1 Tax=Thamnophis sirtalis TaxID=35019...  58.2       8e-06
+UniRef90_A0A6A5E4F5 Uncharacterized protein n=1 Tax=Perca fluviat...  58.2       8e-06
+UniRef90_A0A3R7Q340 Putative mucin-2-like isoform X1 n=1 Tax=Pena...  57.8       9e-06
+UniRef90_A0A4D8ZKD8 USP domain-containing protein n=1 Tax=Salvia ...  57.4       1e-05
+UniRef90_UPI00148620CB titin isoform X1 n=3 Tax=Muridae TaxID=100...  57.4       1e-05
+UniRef90_A0A3Q3GFJ8 TBC1 domain family, member 2 n=3 Tax=Labrus b...  56.6       2e-05
+UniRef90_UPI0004CC97D2 msx2-interacting protein isoform X1 n=2 Ta...  56.6       2e-05
+UniRef90_F7CR78 Titin (Fragment) n=1 Tax=Mus musculus TaxID=10090...  56.3       3e-05
+UniRef90_UPI001261FB6D histone-lysine N-methyltransferase 2D isof...  56.3       3e-05
+UniRef90_UPI001261C05B histone-lysine N-methyltransferase 2D isof...  56.3       3e-05
+UniRef90_UPI0012622984 histone-lysine N-methyltransferase 2D isof...  56.3       3e-05
+UniRef90_UPI0012622F73 histone-lysine N-methyltransferase 2D isof...  56.3       3e-05
+UniRef90_UPI0012623E76 histone-lysine N-methyltransferase 2D isof...  56.3       3e-05
+UniRef90_A0A267FMF7 Sec16_C domain-containing protein n=4 Tax=Mac...  55.9       4e-05
+UniRef90_A0A3Q1LZ67 Proteoglycan 4 n=5 Tax=Pecora TaxID=35500 Rep...  55.5       5e-05
+UniRef90_A0A5B0MNJ5 Uncharacterized protein n=2 Tax=Puccinia gram...  55.5       5e-05
+UniRef90_UPI001409CA97 LOW QUALITY PROTEIN: histone-lysine N-meth...  55.5       5e-05
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.101    0.233    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0309    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2738339224632
+Results from round 3
+
+
+Query= sp|P56945-3|BCAR1_HUMAN Isoform 3 of Breast cancer anti-estrogen
+resistance protein 1 OS=Homo sapiens OX=9606 GN=BCAR1
+
+Length=888
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI00094E5DAF breast cancer anti-estrogen resistance pro...  392        2e-115
+UniRef90_L9L235 Myosin-6 n=70 Tax=cellular organisms TaxID=131567...  365        1e-104
+UniRef90_M7C5K7 Cleavage stimulation factor subunit 1 n=2 Tax=Arc...  350        4e-101
+UniRef90_A0A091D8T9 Myosin-6 n=87 Tax=Amniota TaxID=32524 RepID=A...  352        3e-100
+UniRef90_UPI00084B4809 breast cancer anti-estrogen resistance pro...  335        6e-96 
+UniRef90_UPI00084A3472 breast cancer anti-estrogen resistance pro...  323        5e-92 
+UniRef90_UPI001113358F histone-lysine N-methyltransferase 2C n=1 ...  240        6e-63 
+UniRef90_UPI00159C3259 LOW QUALITY PROTEIN: histone-lysine N-meth...  239        1e-62 
+UniRef90_UPI000D0A89B2 LOW QUALITY PROTEIN: lysosomal-trafficking...  229        3e-59 
+UniRef90_R7QB26 Peptidase_S8 domain-containing protein n=1 Tax=Ch...  226        1e-58 
+UniRef90_UPI0015E15552 LOW QUALITY PROTEIN: histone-lysine N-meth...  226        2e-58 
+UniRef90_A0A2K3CT33 DUF3707 domain-containing protein n=1 Tax=Chl...  223        1e-57 
+UniRef90_UPI00125E2EB7 LOW QUALITY PROTEIN: histone-lysine N-meth...  223        2e-57 
+UniRef90_UPI00148C4E07 histone-lysine N-methyltransferase 2C-like...  222        4e-57 
+UniRef90_Q06852 Cell surface glycoprotein 1 n=3 Tax=Hungateiclost...  217        2e-55 
+UniRef90_A0A6A5E4F5 Uncharacterized protein n=1 Tax=Perca fluviat...  216        4e-55 
+UniRef90_A0A5B0Q9A5 Uncharacterized protein n=2 Tax=Puccinia gram...  211        1e-53 
+UniRef90_UPI00148A783D mucin-19 n=1 Tax=Crassostrea gigas TaxID=2...  211        3e-53 
+UniRef90_A0A5B0MNJ5 Uncharacterized protein n=2 Tax=Puccinia gram...  209        4e-53 
+UniRef90_UPI000C9D689B nascent polypeptide-associated complex sub...  203        5e-51 
+UniRef90_UPI0014716740 LOW QUALITY PROTEIN: titin-like n=1 Tax=Th...  202        2e-50 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_Q4DGT2 Trans-sialidase, putative n=3 Tax=Trypanosoma cru...  221        4e-57
+UniRef90_K9GWP5 Uncharacterized protein n=1 Tax=Penicillium digit...  204        2e-51
+UniRef90_UPI000E414E16 zonadhesin-like n=1 Tax=Carassius auratus ...  201        2e-50
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.101    0.221    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0308    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2738339224632
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
