@@ -1,0 +1,368 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q8N6T3-4|ARFG1_HUMAN Isoform 4 of ADP-ribosylation factor
+GTPase-activating protein 1 OS=Homo sapiens OX=9606 GN=ARFGAP1
+
+Length=293
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A091E4J0 Collagen alpha-1(XX) chain n=7 Tax=Fukomys da...  382        3e-119
+UniRef90_A0A6B0R815 Uncharacterized protein n=2 Tax=Bos mutus Tax...  374        2e-116
+UniRef90_S9XJH3 Collagen alpha-1(XX) chain n=2 Tax=Camelus TaxID=...  244        1e-70 
+UniRef90_A0A6L2PXU4 Uncharacterized protein n=1 Tax=Coptotermes f...  101        3e-21 
+UniRef90_A0A182NJ29 Uncharacterized protein n=1 Tax=Anopheles dir...  64.7       5e-09 
+UniRef90_A0A182FF86 Uncharacterized protein n=1 Tax=Anopheles alb...  61.6       6e-08 
+UniRef90_A0A182WC28 Uncharacterized protein n=1 Tax=Anopheles min...  60.5       1e-07 
+UniRef90_A0A182I446 Uncharacterized protein n=1 Tax=Anopheles ara...  60.5       1e-07 
+UniRef90_UPI0005D31C8A DUF1998 domain-containing protein n=1 Tax=...  41.6       0.18  
+UniRef90_A0A3M7MPQ5 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  39.7       0.67  
+UniRef90_A0A497RLY9 Uncharacterized protein n=1 Tax=Archaeoglobal...  37.4       3.8   
+UniRef90_G1NLB5 Spectrin repeat containing nuclear envelope prote...  36.6       5.8   
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 576111787944
+Results from round 2
+
+
+Query= sp|Q8N6T3-4|ARFG1_HUMAN Isoform 4 of ADP-ribosylation factor
+GTPase-activating protein 1 OS=Homo sapiens OX=9606 GN=ARFGAP1
+
+Length=293
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6B0R815 Uncharacterized protein n=2 Tax=Bos mutus Tax...  450        5e-144
+UniRef90_A0A091E4J0 Collagen alpha-1(XX) chain n=7 Tax=Fukomys da...  433        1e-137
+UniRef90_S9XJH3 Collagen alpha-1(XX) chain n=2 Tax=Camelus TaxID=...  335        1e-102
+UniRef90_A0A6L2PXU4 Uncharacterized protein n=1 Tax=Coptotermes f...  153        3e-39 
+UniRef90_A0A182NJ29 Uncharacterized protein n=1 Tax=Anopheles dir...  114        9e-26 
+UniRef90_A0A182I446 Uncharacterized protein n=1 Tax=Anopheles ara...  103        7e-22 
+UniRef90_A0A182FF86 Uncharacterized protein n=1 Tax=Anopheles alb...  95.8       2e-19 
+UniRef90_A0A182WC28 Uncharacterized protein n=1 Tax=Anopheles min...  95.4       3e-19 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A3M7MPQ5 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  55.3       6e-06
+UniRef90_A0A0G4KNJ5 Uncharacterized protein n=2 Tax=Verticillium ...  55.0       7e-06
+UniRef90_A0A0E0N9Z4 DNA-directed RNA polymerase subunit n=7 Tax=O...  55.0       9e-06
+UniRef90_A0A0E0G1B8 DNA-directed RNA polymerase subunit n=13 Tax=...  52.6       5e-05
+UniRef90_A0A368PK93 DNA-directed RNA polymerase subunit n=3 Tax=S...  52.6       5e-05
+UniRef90_A0A0E0JVN0 DNA-directed RNA polymerase n=2 Tax=Oryza pun...  50.3       2e-04
+UniRef90_A0A2P5BWY1 DNA-directed RNA polymerase subunit n=2 Tax=C...  48.8       9e-04
+UniRef90_A0A6G1FFQ6 DNA-directed RNA polymerase subunit n=1 Tax=O...  48.4       0.001
+UniRef90_W1NVX7 DNA-directed RNA polymerase subunit n=2 Tax=Ambor...  48.0       0.001
+UniRef90_UPI0005D31C8A DUF1998 domain-containing protein n=1 Tax=...  46.5       0.004
+UniRef90_A0A2G4SWH9 CCHC-type domain-containing protein n=5 Tax=R...  46.5       0.004
+UniRef90_C7YJZ8 Predicted protein n=1 Tax=Nectria haematococca (s...  46.5       0.004
+UniRef90_A0A3L6QK89 DNA-directed RNA polymerase subunit n=3 Tax=P...  44.9       0.012
+UniRef90_J3L9M9 DNA-directed RNA polymerase subunit n=2 Tax=Oryza...  43.0       0.056
+UniRef90_A0A287TKZ3 DNA-directed RNA polymerase subunit n=31 Tax=...  42.2       0.095
+UniRef90_A0A3M0W7X6 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  42.2       0.096
+UniRef90_A0A287TLH1 DNA-directed RNA polymerase n=2 Tax=Hordeum v...  41.9       0.14 
+UniRef90_A0A428NS81 Uncharacterized protein (Fragment) n=6 Tax=Fu...  41.5       0.19 
+UniRef90_A0A0D9VCB6 DNA-directed RNA polymerase subunit n=1 Tax=L...  41.1       0.22 
+UniRef90_A0A1Q9EPZ6 CCHC-type domain-containing protein n=1 Tax=S...  40.7       0.29 
+UniRef90_A0A239RD27 Tape measure domain-containing protein n=1 Ta...  40.7       0.30 
+UniRef90_A0A1H9VJ09 Tape measure domain-containing protein n=4 Ta...  40.7       0.31 
+UniRef90_A0A1C6XD91 6-cysteine protein n=4 Tax=Plasmodium chabaud...  40.3       0.36 
+UniRef90_UPI0011A4BEF9 hypothetical protein n=1 Tax=Bacillus mega...  40.3       0.37 
+UniRef90_UPI0015568D2B T9SS type A sorting domain-containing prot...  40.3       0.44 
+UniRef90_UPI0013DEAAC4 CHAP domain-containing protein n=1 Tax=Str...  39.9       0.46 
+UniRef90_A0A0D2AJA3 Uncharacterized protein n=3 Tax=Verruconis ga...  39.9       0.50 
+UniRef90_UPI000B8E8221 LOW QUALITY PROTEIN: rho guanine nucleotid...  39.9       0.51 
+UniRef90_R9PA71 Pre-mRNA splicing factor n=1 Tax=Pseudozyma hubei...  39.9       0.51 
+UniRef90_UPI001040FFDE DNA/RNA non-specific endonuclease n=1 Tax=...  39.5       0.64 
+UniRef90_A0A428UWN5 Uncharacterized protein n=1 Tax=Fusarium ambr...  39.5       0.69 
+UniRef90_A0A4D6LAZ8 DNA-directed RNA polymerase subunit n=2 Tax=V...  38.8       1.3  
+UniRef90_A0A1C1ZJW9 Uncharacterized protein n=3 Tax=Lactobacillus...  38.8       1.3  
+UniRef90_UPI001262785B protein PRRC2B isoform X5 n=1 Tax=Mastomys...  38.8       1.3  
+UniRef90_O64293 Orf1626 gp n=1 Tax=Streptococcus virus Sfi19 TaxI...  38.8       1.4  
+UniRef90_UPI000E45BEC5 centrosomal protein of 192 kDa isoform X1 ...  38.4       1.5  
+UniRef90_UPI00126248D8 protein PRRC2B isoform X6 n=1 Tax=Mastomys...  38.4       1.5  
+UniRef90_A0A1S3FW08 activating transcription factor 7-interacting...  37.2       3.5  
+UniRef90_UPI0012615041 protein PRRC2B isoform X1 n=3 Tax=Mastomys...  37.2       3.8  
+UniRef90_A0A328EBG7 DNA-directed RNA polymerase subunit n=3 Tax=C...  37.2       3.9  
+UniRef90_UPI00146D1787 hypothetical protein n=1 Tax=Hymenobacter ...  37.2       4.0  
+UniRef90_UPI000DCA1B88 splicing factor, arginine/serine-rich 15 n...  36.9       4.6  
+UniRef90_S9XA36 Phosphoinositide 5-phosphatase n=1 Tax=Camelus fe...  36.9       4.9  
+UniRef90_A0A4P9ZQ22 Vacuolar import and degradation protein 21 n=...  36.5       6.5  
+UniRef90_A0A5B7CLY6 Zinc finger protein 106 n=1 Tax=Portunus trit...  36.5       7.0  
+UniRef90_A0A2C9K3V0 Uncharacterized protein n=1 Tax=Biomphalaria ...  36.5       7.3  
+UniRef90_UPI000C9F2D32 armadillo repeat-containing X-linked prote...  36.1       9.0  
+UniRef90_UPI0015DDAB22 uncharacterized protein LOC118262578 isofo...  36.1       9.3  
+UniRef90_A0A0D2Q711 Uncharacterized protein n=1 Tax=Hypholoma sub...  36.1       9.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.110    0.293    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0336    0.140     1.90     42.6     43.6 
+
+Effective search space used: 576111787944
+Results from round 3
+
+
+Query= sp|Q8N6T3-4|ARFG1_HUMAN Isoform 4 of ADP-ribosylation factor
+GTPase-activating protein 1 OS=Homo sapiens OX=9606 GN=ARFGAP1
+
+Length=293
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6B0R815 Uncharacterized protein n=2 Tax=Bos mutus Tax...  331        3e-101
+UniRef90_A0A091E4J0 Collagen alpha-1(XX) chain n=7 Tax=Fukomys da...  320        2e-97 
+UniRef90_S9XJH3 Collagen alpha-1(XX) chain n=2 Tax=Camelus TaxID=...  234        3e-67 
+UniRef90_A0A3M7MPQ5 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  195        8e-54 
+UniRef90_A0A0E0N9Z4 DNA-directed RNA polymerase subunit n=7 Tax=O...  191        3e-52 
+UniRef90_A0A2P5BWY1 DNA-directed RNA polymerase subunit n=2 Tax=C...  184        6e-50 
+UniRef90_A0A0E0G1B8 DNA-directed RNA polymerase subunit n=13 Tax=...  174        1e-46 
+UniRef90_A0A368PK93 DNA-directed RNA polymerase subunit n=3 Tax=S...  169        7e-45 
+UniRef90_A0A6L2PXU4 Uncharacterized protein n=1 Tax=Coptotermes f...  169        1e-44 
+UniRef90_A0A0E0JVN0 DNA-directed RNA polymerase n=2 Tax=Oryza pun...  155        5e-40 
+UniRef90_A0A182I446 Uncharacterized protein n=1 Tax=Anopheles ara...  145        2e-36 
+UniRef90_A0A182NJ29 Uncharacterized protein n=1 Tax=Anopheles dir...  128        1e-30 
+UniRef90_A0A182WC28 Uncharacterized protein n=1 Tax=Anopheles min...  127        3e-30 
+UniRef90_A0A0G4KNJ5 Uncharacterized protein n=2 Tax=Verticillium ...  122        9e-29 
+UniRef90_A0A182FF86 Uncharacterized protein n=1 Tax=Anopheles alb...  119        2e-27 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A3L6QK89 DNA-directed RNA polymerase subunit n=3 Tax=P...  151        2e-38
+UniRef90_A0A3M7MWE2 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  134        9e-33
+UniRef90_A0A3M0W7X6 THO complex subunit 2 (Fragment) n=1 Tax=Chae...  122        2e-28
+UniRef90_A0A1Z5RLY9 DNA-directed RNA polymerase subunit n=2 Tax=S...  114        7e-26
+UniRef90_J3L9M9 DNA-directed RNA polymerase subunit n=2 Tax=Oryza...  110        2e-24
+UniRef90_A0A3L6RT37 DNA-directed RNA polymerase n=1 Tax=Panicum m...  107        1e-23
+UniRef90_A0A1D6QSZ1 DNA-directed RNA polymerase subunit n=16 Tax=...  97.6       5e-20
+UniRef90_A0A6G1FFQ6 DNA-directed RNA polymerase subunit n=1 Tax=O...  91.0       1e-17
+UniRef90_A0A3L6F445 DNA-directed RNA polymerase n=2 Tax=Zea mays ...  85.6       5e-16
+UniRef90_A0A0D9VCB6 DNA-directed RNA polymerase subunit n=1 Tax=L...  85.6       6e-16
+UniRef90_I1IV91 DNA-directed RNA polymerase subunit n=1 Tax=Brach...  85.6       6e-16
+UniRef90_A0A3B6PF75 DNA-directed RNA polymerase n=1 Tax=Triticum ...  82.5       6e-15
+UniRef90_UPI000F7C7D83 DNA-directed RNA polymerase V subunit 1 n=...  78.3       2e-13
+UniRef90_A0A287TKZ3 DNA-directed RNA polymerase subunit n=31 Tax=...  74.8       2e-12
+UniRef90_G7LG09 DNA-directed RNA polymerase subunit n=5 Tax=Medic...  73.7       5e-12
+UniRef90_A0A5J9VDD8 Uncharacterized protein (Fragment) n=1 Tax=Er...  72.9       9e-12
+UniRef90_A0A287TLH1 DNA-directed RNA polymerase n=2 Tax=Hordeum v...  72.9       1e-11
+UniRef90_A0A6A1ULT4 DNA-directed RNA polymerase n=1 Tax=Morella r...  72.5       1e-11
+UniRef90_A0A4Y7KR69 DNA-directed RNA polymerase subunit n=6 Tax=P...  68.3       4e-10
+UniRef90_A0A5N5HVM2 DNA-directed RNA polymerase subunit n=4 Tax=M...  67.5       6e-10
+UniRef90_UPI0010FB10EF LOW QUALITY PROTEIN: DNA-directed RNA poly...  67.5       7e-10
+UniRef90_A0A5C7GWZ6 DNA-directed RNA polymerase subunit n=1 Tax=A...  66.8       1e-09
+UniRef90_A0A1J7H5B8 DNA-directed RNA polymerase n=4 Tax=Lupinus a...  66.8       1e-09
+UniRef90_UPI000B793ECE DNA-directed RNA polymerase V subunit 1 is...  66.4       1e-09
+UniRef90_A0A1S3VXA9 DNA-directed RNA polymerase subunit n=3 Tax=V...  65.6       3e-09
+UniRef90_V4MJC1 DNA-directed RNA polymerase n=1 Tax=Eutrema salsu...  65.2       4e-09
+UniRef90_W1NVX7 DNA-directed RNA polymerase subunit n=2 Tax=Ambor...  65.2       4e-09
+UniRef90_UPI00125E1047 DNA-directed RNA polymerase V subunit 1 n=...  64.8       5e-09
+UniRef90_A0A4D6LAZ8 DNA-directed RNA polymerase subunit n=2 Tax=V...  64.8       6e-09
+UniRef90_V4RIT9 DNA-directed RNA polymerase subunit n=6 Tax=Citru...  64.4       6e-09
+UniRef90_A0A059AE95 DNA-directed RNA polymerase subunit n=4 Tax=M...  64.1       9e-09
+UniRef90_A0A1U8PV74 DNA-directed RNA polymerase subunit n=13 Tax=...  64.1       1e-08
+UniRef90_UPI000B8CAAEB DNA-directed RNA polymerase V subunit 1 n=...  63.7       1e-08
+UniRef90_A0A6A5PM14 DNA-directed RNA polymerase subunit n=5 Tax=L...  63.7       1e-08
+UniRef90_UPI0010A2BFF8 DNA-directed RNA polymerase V subunit 1 n=...  63.7       1e-08
+UniRef90_A0A1R3JZ87 DNA-directed RNA polymerase subunit n=2 Tax=C...  63.7       1e-08
+UniRef90_A0A2J6KHI8 DNA-directed RNA polymerase subunit n=1 Tax=L...  63.7       1e-08
+UniRef90_A0A6A4M330 DNA-directed RNA polymerase (Fragment) n=1 Ta...  63.3       1e-08
+UniRef90_A0A5N5EUX3 DNA-directed RNA polymerase subunit n=1 Tax=P...  63.3       2e-08
+UniRef90_R0FV63 DNA-directed RNA polymerase n=1 Tax=Capsella rube...  62.9       2e-08
+UniRef90_UPI000D623AF2 DNA-directed RNA polymerase V subunit 1 n=...  62.5       3e-08
+UniRef90_UPI00053C07FE DNA-directed RNA polymerase V subunit 1 n=...  62.5       3e-08
+UniRef90_A0A022RDG4 DNA-directed RNA polymerase subunit n=2 Tax=E...  62.5       3e-08
+UniRef90_A0A068VDP0 DNA-directed RNA polymerase n=3 Tax=Coffea Ta...  62.5       3e-08
+UniRef90_A0A1R2CCY0 Uncharacterized protein n=1 Tax=Stentor coeru...  62.5       3e-08
+UniRef90_A0A6A3C6F2 DNA-directed RNA polymerase subunit n=2 Tax=H...  62.1       4e-08
+UniRef90_V7ANH1 DNA-directed RNA polymerase subunit n=1 Tax=Phase...  61.4       6e-08
+UniRef90_UPI000CD9B83E DNA-directed RNA polymerase V subunit 1 n=...  61.4       7e-08
+UniRef90_A0A6J1GP51 DNA-directed RNA polymerase V subunit 1 n=3 T...  61.4       7e-08
+UniRef90_A0A1S2YWH0 DNA-directed RNA polymerase subunit n=3 Tax=C...  61.0       9e-08
+UniRef90_A0A0R0G598 DNA-directed RNA polymerase subunit n=3 Tax=G...  61.0       1e-07
+UniRef90_A0A371II52 DNA-directed RNA polymerase (Fragment) n=1 Ta...  60.6       1e-07
+UniRef90_A0A2R6XBD1 S1 motif domain-containing protein n=2 Tax=Ma...  60.2       1e-07
+UniRef90_A0A0R0GY74 DNA-directed RNA polymerase subunit n=2 Tax=G...  60.2       2e-07
+UniRef90_A0A2I0KDG6 DNA-directed RNA polymerase subunit n=4 Tax=P...  60.2       2e-07
+UniRef90_UPI00053BA96E DNA-directed RNA polymerase V subunit 1-li...  59.8       2e-07
+UniRef90_W9RNW0 DNA-directed RNA polymerase subunit n=2 Tax=Morus...  59.8       2e-07
+UniRef90_A0A0C4W3T9 DNA-directed RNA polymerase subunit n=1 Tax=E...  59.4       3e-07
+UniRef90_A0A0D3B5Z0 DNA-directed RNA polymerase subunit n=13 Tax=...  59.4       3e-07
+UniRef90_A0A067L8U5 DNA-directed RNA polymerase n=2 Tax=Jatropha ...  59.1       4e-07
+UniRef90_UPI0011DF05DC DNA-directed RNA polymerase V subunit 1 n=...  58.7       5e-07
+UniRef90_A0A6N2BGV0 Uncharacterized protein n=2 Tax=Solanum subge...  58.7       6e-07
+UniRef90_Q5D869 DNA-directed RNA polymerase V subunit 1 n=9 Tax=C...  58.3       6e-07
+UniRef90_A0A328EBG7 DNA-directed RNA polymerase subunit n=3 Tax=C...  57.9       8e-07
+UniRef90_UPI000B77D287 LOW QUALITY PROTEIN: DNA-directed RNA poly...  57.1       1e-06
+UniRef90_UPI000D62D96E protein RNA-directed DNA methylation 3 n=1...  56.7       2e-06
+UniRef90_A0A444XZI3 DNA-directed RNA polymerase subunit n=8 Tax=A...  56.4       3e-06
+UniRef90_A0A6D2IR25 DNA-directed RNA polymerase subunit n=1 Tax=M...  56.0       4e-06
+UniRef90_A0A2U1NKC4 DNA-directed RNA polymerase subunit n=3 Tax=A...  55.6       5e-06
+UniRef90_A0A1S3Y6X3 DNA-directed RNA polymerase n=2 Tax=Nicotiana...  55.6       5e-06
+UniRef90_A0A2Z6NM49 DNA-directed RNA polymerase subunit n=1 Tax=T...  55.2       6e-06
+UniRef90_A0A078EZV5 DNA-directed RNA polymerase subunit n=1 Tax=B...  55.2       7e-06
+UniRef90_A0A251S9R6 DNA-directed RNA polymerase subunit n=2 Tax=H...  55.2       7e-06
+UniRef90_A0A1B1E028 SICA antigen n=1 Tax=Plasmodium coatneyi TaxI...  55.2       7e-06
+UniRef90_UPI0009D6F64E DNA-directed RNA polymerase V subunit 1 n=...  55.2       8e-06
+UniRef90_A0A0K9R704 DNA-directed RNA polymerase subunit n=4 Tax=S...  54.4       1e-05
+UniRef90_A0A396IL41 Putative transcription factor interactor and ...  54.4       1e-05
+UniRef90_UPI0014077E9B signal-induced proliferation-associated 1-...  54.0       2e-05
+UniRef90_UPI0010362BAB DNA-directed RNA polymerase V subunit 1 is...  53.7       2e-05
+UniRef90_A0A4S4DPA2 DNA-directed RNA polymerase n=4 Tax=Magnoliop...  53.3       3e-05
+UniRef90_A0A4D8Z2W2 DNA-directed RNA polymerase subunit n=2 Tax=S...  52.9       3e-05
+UniRef90_A0A498JK81 Uncharacterized protein n=1 Tax=Malus domesti...  52.9       4e-05
+UniRef90_A0A1Y1K0F8 Uncharacterized protein (Fragment) n=8 Tax=Ph...  52.9       4e-05
+UniRef90_UPI000901502F DNA-directed RNA polymerase V subunit 1-li...  52.9       4e-05
+UniRef90_UPI00124502D4 transcription elongation factor SPT6 homol...  52.9       4e-05
+UniRef90_UPI0005402FB6 DNA-directed RNA polymerase V subunit 1 n=...  52.5       6e-05
+UniRef90_UPI00148BE9D1 DNA topoisomerase 3-alpha n=1 Tax=Drosophi...  52.1       8e-05
+UniRef90_UPI001055EED6 uncharacterized protein LOC114455923 isofo...  51.7       1e-04
+UniRef90_A0A2G4SWH9 CCHC-type domain-containing protein n=5 Tax=R...  51.3       1e-04
+UniRef90_UPI00158A05C6 transcription elongation factor SPT6-like ...  51.0       1e-04
+UniRef90_E4Y2A3 S1 motif domain-containing protein (Fragment) n=1...  51.0       1e-04
+UniRef90_A0A1J3HPS8 DNA-directed RNA polymerase (Fragment) n=2 Ta...  51.0       2e-04
+UniRef90_A0A6A4LMN8 Uncharacterized protein (Fragment) n=1 Tax=Rh...  50.6       2e-04
+UniRef90_UPI00053F491A transcription elongation factor SPT6-like ...  50.6       2e-04
+UniRef90_A0A251SLK9 Putative zinc finger, CCHC-type, Transcriptio...  50.2       3e-04
+UniRef90_E2AJ81 Putative methyltransferase CXorf34 n=3 Tax=Campon...  50.2       3e-04
+UniRef90_A0A0L9U0M9 Uncharacterized protein n=1 Tax=Phaseolus ang...  49.8       4e-04
+UniRef90_A0A1R2CDF4 Uncharacterized protein n=1 Tax=Stentor coeru...  48.3       0.001
+UniRef90_A0A1Q9D2D7 Protein NRT1/ PTR FAMILY 8.3 n=1 Tax=Symbiodi...  47.5       0.002
+UniRef90_A0A1R3KAS3 Uncharacterized protein n=1 Tax=Corchorus oli...  47.5       0.002
+UniRef90_A0A388KCF5 S1 motif domain-containing protein n=2 Tax=Ch...  46.7       0.004
+UniRef90_D3E3E9 Adhesin-like protein n=2 Tax=Methanobrevibacter r...  46.7       0.004
+UniRef90_A0A068SAT2 CCHC-type domain-containing protein n=1 Tax=L...  46.0       0.006
+UniRef90_A0A379AA36 Ice nucleation protein n=1 Tax=Nocardia brasi...  46.0       0.008
+UniRef90_A0A1S2Y5R5 transcription elongation factor SPT6-like n=1...  45.6       0.010
+UniRef90_A0A4V1XDS8 Tr-type G domain-containing protein n=1 Tax=M...  44.8       0.014
+UniRef90_A0A0E0DTM3 Uncharacterized protein n=2 Tax=Oryza meridio...  44.8       0.014
+UniRef90_A0A4D9BJT9 Serine/threonine-protein phosphatase 2A regul...  44.8       0.014
+UniRef90_A0A6A3CT08 Pectin lyase-like superfamily protein isoform...  44.4       0.017
+UniRef90_A0A161XCC7 DNA-directed RNA polymerase subunit n=2 Tax=D...  44.0       0.024
+UniRef90_A0A077WX80 CCHC-type domain-containing protein n=1 Tax=L...  44.0       0.024
+UniRef90_UPI001244CB59 transcription elongation factor SPT6 homol...  43.6       0.034
+UniRef90_A0A162S1T4 Putative Transcription elongation factor SPT6...  43.6       0.039
+UniRef90_UPI00092F16DD transcription elongation factor SPT6-like ...  43.3       0.045
+UniRef90_Q7JQ89 CnjB protein n=2 Tax=Tetrahymena thermophila TaxI...  42.5       0.085
+UniRef90_A0A0D9XLG8 Uncharacterized protein n=1 Tax=Leersia perri...  42.1       0.12 
+UniRef90_A0A199UKD4 DNA-directed RNA polymerase V subunit 1 (Frag...  41.7       0.13 
+UniRef90_A0A4S4CWF8 Uncharacterized protein n=2 Tax=Camellia sine...  41.7       0.15 
+UniRef90_A0A4W3JXC3 Uncharacterized protein n=4 Tax=Callorhinchus...  41.3       0.18 
+UniRef90_UPI0006D4D0A8 mucin-17-like isoform X1 n=2 Tax=Halyomorp...  40.9       0.23 
+UniRef90_UPI000D091812 protein RNA-directed DNA methylation 3 n=1...  40.9       0.25 
+UniRef90_A0A210Q354 Eukaryotic translation initiation factor 3 su...  40.9       0.25 
+UniRef90_UPI000614BAEB uncharacterized protein LOC100876062 isofo...  40.6       0.33 
+UniRef90_A0A431LI56 Robl_LC7 domain-containing protein n=1 Tax=Ca...  40.6       0.38 
+UniRef90_A8MS85 Transcription elongation factor SPT6 homolog n=14...  40.2       0.46 
+UniRef90_A0A067KF58 Uncharacterized protein n=1 Tax=Jatropha curc...  39.8       0.53 
+UniRef90_A0A0D2AJA3 Uncharacterized protein n=3 Tax=Verruconis ga...  39.8       0.53 
+UniRef90_A0A1L7SB28 Uncharacterized protein n=3 Tax=Fusarium fuji...  39.8       0.56 
+UniRef90_UPI000E0F32F7 MFS transporter n=1 Tax=Dermatophilus cong...  39.8       0.57 
+UniRef90_W9IPR2 Uncharacterized protein n=3 Tax=Fusarium TaxID=55...  39.0       0.95 
+UniRef90_A0A1R0GVV3 Chromatin elongation factor SPT5 n=1 Tax=Smit...  39.0       1.0  
+UniRef90_J3M8P4 Uncharacterized protein n=2 Tax=Oryza brachyantha...  39.0       1.1  
+UniRef90_A0A498KJ88 Uncharacterized protein n=18 Tax=Maleae TaxID...  38.6       1.2  
+UniRef90_A0A3B0JXQ6 Blast:Papilin n=5 Tax=Drosophila guanche TaxI...  38.6       1.4  
+UniRef90_X0C3U7 Uncharacterized protein n=2 Tax=Fusarium oxysporu...  38.6       1.5  
+UniRef90_X0M5I4 Uncharacterized protein n=10 Tax=Fusarium oxyspor...  38.6       1.6  
+UniRef90_A0A5C6DZX9 Uncharacterized protein n=1 Tax=Planctomycete...  38.3       1.6  
+UniRef90_A0A2K0UT38 Uncharacterized protein n=2 Tax=Fusarium TaxI...  38.3       1.6  
+UniRef90_A0A6A5NB71 Uncharacterized protein (Fragment) n=2 Tax=Lu...  38.3       1.6  
+UniRef90_X0CCX6 Uncharacterized protein n=1 Tax=Fusarium oxysporu...  38.3       1.7  
+UniRef90_X0C4I7 Uncharacterized protein n=22 Tax=Fusarium TaxID=5...  38.3       1.7  
+UniRef90_A0A3B0K5N7 Blast:Papilin n=2 Tax=Drosophila guanche TaxI...  38.3       1.9  
+UniRef90_A0A3L6P3L8 Uncharacterized protein n=1 Tax=Fusarium oxys...  38.3       2.0  
+UniRef90_A0A0J9U3Q8 Uncharacterized protein n=5 Tax=Fusarium oxys...  37.9       2.1  
+UniRef90_A0A3B3SQE9 Uncharacterized protein n=4 Tax=Paramormyrops...  37.9       2.3  
+UniRef90_UPI0005CB21B0 transcription elongation factor spt5 isofo...  37.9       2.6  
+UniRef90_X0B2T9 Uncharacterized protein n=5 Tax=Fusarium oxysporu...  37.9       2.6  
+UniRef90_A0A2R6PKX4 Protein RNA-directed DNA methylation like n=1...  37.5       3.1  
+UniRef90_UPI0013563F65 DUF4214 domain-containing protein n=1 Tax=...  37.5       3.1  
+UniRef90_A0A2U1P0F1 Zinc finger, CCHC-type, Transcription elongat...  37.5       3.1  
+UniRef90_A0A565AZ43 Transcription elongation factor spt6 n=1 Tax=...  37.5       3.3  
+UniRef90_UPI00155A556E papilin isoform X1 n=5 Tax=Drosophila subo...  37.1       4.1  
+UniRef90_A0A540M537 Uncharacterized protein n=2 Tax=Malus TaxID=3...  37.1       4.4  
+UniRef90_A0A3S3QAI5 Zinc finger CCCH domain-containing protein 19...  37.1       4.4  
+UniRef90_A0A0E0HGJ9 Uncharacterized protein n=9 Tax=Oryza TaxID=4...  37.1       4.5  
+UniRef90_A0A420SJI9 Uncharacterized protein n=2 Tax=Gibberella in...  37.1       4.8  
+UniRef90_A0A165YIL6 S1 motif domain-containing protein n=1 Tax=Da...  36.7       5.1  
+UniRef90_A0A1I8PZZ2 Uncharacterized protein n=5 Tax=Stomoxys calc...  36.7       5.1  
+UniRef90_B9T6Z6 Suppressor of ty, putative n=2 Tax=Ricinus commun...  36.7       5.2  
+UniRef90_A0A2U9CPW5 Putative trinucleotide repeat-containing 6A p...  36.7       5.6  
+UniRef90_A0A1Y4R8F7 Uncharacterized protein n=1 Tax=Massilimicrob...  36.7       5.8  
+UniRef90_A0A2N9IRJ1 Uncharacterized protein n=1 Tax=Fagus sylvati...  36.7       5.8  
+UniRef90_A0A6A5ZJ76 Uncharacterized protein n=1 Tax=Lophiotrema n...  36.7       6.0  
+UniRef90_UPI0010A30C94 trinucleotide repeat-containing gene 6A pr...  36.7       6.2  
+UniRef90_UPI00159F5CCC mucin-4 isoform X3 n=3 Tax=Callithrix jacc...  36.7       6.4  
+UniRef90_L7U5E0 Response regulator receiver domain/DnaJ domain-co...  36.7       6.4  
+UniRef90_A0A0Q3M8Y8 Trinucleotide repeat-containing protein 6B pr...  36.3       6.6  
+UniRef90_A0A0N8JZJ2 Trinucleotide repeat-containing protein 6A-li...  36.3       6.6  
+UniRef90_A0A671LW76 Uncharacterized protein n=1 Tax=Sinocyclochei...  36.3       6.8  
+UniRef90_A0A1R1Y006 Chromatin elongation factor SPT5 n=2 Tax=Smit...  36.3       7.1  
+UniRef90_A0A4Z2BYU6 UBA domain-containing protein n=2 Tax=Takifug...  35.9       9.3  
+UniRef90_A0A6I9U5M8 protein RNA-directed DNA methylation 3 n=1 Ta...  35.9       9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.317   0.0949    0.208    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0290    0.140     1.90     42.6     43.6 
+
+Effective search space used: 576111787944
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

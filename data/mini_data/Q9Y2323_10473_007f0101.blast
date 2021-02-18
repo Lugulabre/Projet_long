@@ -1,0 +1,1259 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q9Y232-3|CDYL_HUMAN Isoform 3 of Chromodomain Y-like protein
+OS=Homo sapiens OX=9606 GN=CDYL
+
+Length=309
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A444U7I1 ATM interactor (Fragment) n=1 Tax=Acipenser r...  308        1e-93
+UniRef90_UPI000F684C1E LOW QUALITY PROTEIN: uncharacterized prote...  204        2e-56
+UniRef90_A0A5B7CGD2 Chromodomain Y-like protein n=1 Tax=Portunus ...  200        3e-55
+UniRef90_A0A6J1T535 proteoglycan 4-like isoform X1 n=3 Tax=Frankl...  199        8e-55
+UniRef90_A0A6L2PKW2 Uncharacterized protein n=1 Tax=Coptotermes f...  197        2e-54
+UniRef90_UPI0014833DB5 uncharacterized protein LOC117651111 isofo...  195        2e-53
+UniRef90_UPI00084B2994 cell wall protein RBR3-like n=1 Tax=Hyalel...  194        3e-53
+UniRef90_A0A067QMS2 Chromodomain Y-like protein n=1 Tax=Zootermop...  194        4e-53
+UniRef90_UPI00143D081D uncharacterized protein LOC117181418 n=1 T...  179        5e-48
+UniRef90_UPI001442F01C centromere-associated protein E isoform X1...  177        4e-47
+UniRef90_A0A154P6B8 Chromodomain Y-like protein 2 n=2 Tax=Dufoure...  176        9e-47
+UniRef90_A0A195FGK1 Chromodomain Y-like protein n=8 Tax=Attini Ta...  175        1e-46
+UniRef90_A0A158NGU5 Uncharacterized protein n=7 Tax=Attini TaxID=...  175        2e-46
+UniRef90_UPI000995974E claspin-like n=1 Tax=Pseudomyrmex gracilis...  175        2e-46
+UniRef90_A0A556TJK9 HECT-type E3 ubiquitin transferase n=1 Tax=Ba...  174        3e-46
+UniRef90_A0A0L7R473 Chromodomain Y-like protein 2 n=2 Tax=Habropo...  174        3e-46
+UniRef90_UPI0013042FED uncharacterized protein LOC116431902 isofo...  174        3e-46
+UniRef90_UPI0006230767 LOW QUALITY PROTEIN: uncharacterized prote...  174        4e-46
+UniRef90_UPI000DBED544 proteoglycan 4 isoform X1 n=4 Tax=Harpegna...  174        4e-46
+UniRef90_E9IUP9 Uncharacterized protein (Fragment) n=2 Tax=Soleno...  173        5e-46
+UniRef90_A0A3L8D7P8 Uncharacterized protein n=3 Tax=Ooceraea biro...  173        6e-46
+UniRef90_UPI00063F57B4 uncharacterized protein LOC105830532 isofo...  173        7e-46
+UniRef90_A0A4S2JTQ9 Uncharacterized protein n=6 Tax=Temnothorax T...  173        7e-46
+UniRef90_UPI000711D188 proteoglycan 4-like isoform X1 n=2 Tax=Din...  173        7e-46
+UniRef90_UPI0006152DD6 uncharacterized protein LOC100877790 isofo...  172        9e-46
+UniRef90_UPI0010F57FE8 titin homolog n=2 Tax=Osmia TaxID=124287 R...  172        9e-46
+UniRef90_A0A088ARJ9 Uncharacterized protein n=5 Tax=Apis TaxID=74...  172        1e-45
+UniRef90_UPI00083C074C uncharacterized protein LOC108556102 n=1 T...  172        1e-45
+UniRef90_UPI0005F544AE uncharacterized protein LOC105566507 isofo...  172        1e-45
+UniRef90_E2AL24 Chromodomain Y-like protein 2 n=2 Tax=Camponotus ...  172        1e-45
+UniRef90_UPI000625FFB8 titin n=1 Tax=Orussus abietinus TaxID=2228...  172        2e-45
+UniRef90_UPI0008523E80 uncharacterized protein LOC108779275 isofo...  171        2e-45
+UniRef90_K7JC04 Uncharacterized protein n=3 Tax=Pteromalinae TaxI...  171        3e-45
+UniRef90_UPI0005F03351 uncharacterized protein LOC105449665 isofo...  171        3e-45
+UniRef90_UPI0004CD1F37 titin n=1 Tax=Microplitis demolitor TaxID=...  171        3e-45
+UniRef90_UPI0010FB2D1D microtubule-associated protein futsch-like...  171        4e-45
+UniRef90_UPI00158E07B8 uncharacterized protein LOC118067998 n=1 T...  171        4e-45
+UniRef90_A0A6J3LN90 interaptin isoform X1 n=13 Tax=Bombus TaxID=2...  171        5e-45
+UniRef90_A0A6I9WMC2 uncharacterized protein LOC105424416 isoform ...  171        5e-45
+UniRef90_UPI0008407BD7 uncharacterized protein LOC108626137 isofo...  170        7e-45
+UniRef90_UPI0011416F61 uncharacterized protein LOC115235138 n=1 T...  170        9e-45
+UniRef90_UPI00073D4E78 extracellular matrix-binding protein ebh n...  170        9e-45
+UniRef90_UPI000D62D0AA uncharacterized protein LOC107274086 isofo...  169        2e-44
+UniRef90_UPI0013F1D6C2 serine-rich adhesin for platelets-like iso...  169        2e-44
+UniRef90_UPI0005CDDCAA uncharacterized protein LOC105364270 n=1 T...  163        2e-42
+UniRef90_A0A1B6MCK1 Uncharacterized protein n=1 Tax=Graphocephala...  161        9e-42
+UniRef90_A0A654GY15 Chromo domain-containing protein n=1 Tax=Spar...  161        9e-42
+UniRef90_A0A1B6H265 Uncharacterized protein n=2 Tax=Cuerna arida ...  161        9e-42
+UniRef90_UPI0006C98630 uncharacterized protein LOC106644389 isofo...  160        2e-41
+UniRef90_UPI0006C9D235 uncharacterized protein PF11_0213 n=1 Tax=...  158        1e-40
+UniRef90_A0A2P8XM66 Uncharacterized protein n=1 Tax=Blattella ger...  157        1e-40
+UniRef90_A0A6J0CC65 uncharacterized protein LOC107227405 n=1 Tax=...  157        2e-40
+UniRef90_A0A6M2DQG7 Putative enoyl-coa hydratase/isomerase n=1 Ta...  151        3e-38
+UniRef90_A0A0J7L3C3 Leucine-rich repeat-containing protein n=1 Ta...  150        8e-38
+UniRef90_W6U3R7 RNA helicase n=1 Tax=Echinococcus granulosus TaxI...  148        3e-37
+UniRef90_UPI000626BFD7 uncharacterized protein LOC105683161 n=1 T...  147        5e-37
+UniRef90_A0A1V9ZPE8 Enoyl-CoA hydratase/isomerase family (Fragmen...  143        2e-35
+UniRef90_UPI000E6E40E2 uncharacterized protein LOC113367493 n=1 T...  138        8e-34
+UniRef90_UPI000E6E3084 LOW QUALITY PROTEIN: uncharacterized prote...  138        1e-33
+UniRef90_A0A6G0ZE67 Uncharacterized protein n=6 Tax=Aphidini TaxI...  131        2e-31
+UniRef90_UPI000DF68A99 E3 ubiquitin-protein ligase RBBP6 isoform ...  124        5e-29
+UniRef90_UPI000C20412B muscle M-line assembly protein unc-89 n=1 ...  119        2e-27
+UniRef90_A0A1B0GJN9 Uncharacterized protein n=1 Tax=Lutzomyia lon...  117        1e-26
+UniRef90_UPI000C2528F2 titin n=1 Tax=Leptinotarsa decemlineata Ta...  112        4e-25
+UniRef90_UPI0010373F1A uncharacterized protein LOC114335034 isofo...  112        7e-25
+UniRef90_UPI00083C2FE6 golgin subfamily B member 1 n=1 Tax=Nicrop...  106        6e-23
+UniRef90_A0A6J2XRP3 titin isoform X1 n=3 Tax=Sitophilus oryzae Ta...  94.4       7e-19
+UniRef90_A0A1B0G8M7 Uncharacterized protein n=2 Tax=Glossina TaxI...  94.7       8e-19
+UniRef90_A0A158QIJ7 Uncharacterized protein n=1 Tax=Rodentolepis ...  93.6       2e-18
+UniRef90_W6UK57 Enoyl-CoA hydratase n=1 Tax=Echinococcus granulos...  92.8       3e-18
+UniRef90_A0A146KKJ0 Chromodomain Y-like protein n=2 Tax=Lygus hes...  90.9       1e-17
+UniRef90_A0A6A4JT32 Uncharacterized protein n=1 Tax=Apolygus luco...  90.1       2e-17
+UniRef90_A0A0R3SA78 Ion_trans domain-containing protein n=1 Tax=H...  88.6       7e-17
+UniRef90_A0A6A4SD96 Uncharacterized protein n=1 Tax=Scophthalmus ...  86.3       5e-16
+UniRef90_A0A175XZK4 Enoyl-CoA hydratase n=2 Tax=cellular organism...  82.0       1e-15
+UniRef90_A0A556UY52 Heterogeneous nuclear ribonucleoprotein L n=1...  84.3       2e-15
+UniRef90_L7J1F1 RING finger domain-containing protein n=4 Tax=Pyr...  80.5       4e-14
+UniRef90_A0A2U3EJS0 RING-type domain-containing protein n=3 Tax=P...  79.0       1e-13
+UniRef90_A0A1F7Q910 PHYTOCHROME_2 domain-containing protein n=2 T...  77.4       4e-13
+UniRef90_A0A0G4MV95 RING-type domain-containing protein n=1 Tax=V...  75.9       1e-12
+UniRef90_A0A1Q9CG25 3-hydroxybutyryl-CoA dehydratase n=1 Tax=Symb...  74.7       4e-12
+UniRef90_A0A699GMU7 Enoyl-CoA hydratase n=1 Tax=Tanacetum cinerar...  74.3       5e-12
+UniRef90_A0A0B7KGV8 MFS domain-containing protein n=1 Tax=Bionect...  73.9       6e-12
+UniRef90_A0A0K6GID6 3-hydroxypropionyl-coenzyme A dehydratase n=1...  72.0       3e-11
+UniRef90_UPI0003F0B920 mucin-16-like n=1 Tax=Elephantulus edwardi...  71.2       4e-11
+UniRef90_A0A6G0UYC9 Uncharacterized protein n=1 Tax=Halicephalobu...  71.2       4e-11
+UniRef90_A0A4D9DBC8 Uncharacterized protein n=1 Tax=Nannochlorops...  70.9       7e-11
+UniRef90_A0A5M3ZBF0 Aa_trans domain-containing protein n=1 Tax=As...  68.9       2e-10
+UniRef90_M5C3N1 CHAT domain-containing protein n=2 Tax=Thanatepho...  68.9       3e-10
+UniRef90_UPI0006990849 methyltransferase n=1 Tax=Methylocucumis o...  68.2       5e-10
+UniRef90_A0A5N6L1J1 Uncharacterized protein n=1 Tax=Carpinus fang...  67.4       9e-10
+UniRef90_A0A0M7AJS7 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Labre...  67.4       9e-10
+UniRef90_UPI0012EC4E0A SDR family NAD(P)-dependent oxidoreductase...  67.0       1e-09
+UniRef90_UPI00145D1BD2 SDR family NAD(P)-dependent oxidoreductase...  67.0       1e-09
+UniRef90_A0A183BUK2 Uncharacterized protein n=1 Tax=Globodera pal...  66.2       2e-09
+UniRef90_A0A699GG08 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Tanac...  65.9       3e-09
+UniRef90_D4NZD5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Pseudomon...  65.9       3e-09
+UniRef90_A0A5C2D153 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  65.5       4e-09
+UniRef90_A0A2R3ZDN0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Cuspi...  65.1       5e-09
+UniRef90_A0A4S2LB45 Uncharacterized protein n=1 Tax=Temnothorax l...  64.7       5e-09
+UniRef90_A0A2L2N449 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  65.1       6e-09
+UniRef90_UPI0013B47106 SDR family NAD(P)-dependent oxidoreductase...  63.9       1e-08
+UniRef90_UPI000BFFFCAF SDR family NAD(P)-dependent oxidoreductase...  63.5       2e-08
+UniRef90_R1BNS0 3-hydroxyacyl-[acyl-carrier-protein] dehydratase ...  63.5       2e-08
+UniRef90_Q5MP07 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=symbiont ...  62.8       3e-08
+UniRef90_A0A4Q4XGR9 3-hydroxyisobutyrate dehydrogenase n=2 Tax=ce...  62.8       3e-08
+UniRef90_UPI000719A7BA uncharacterized protein LOC106810805 n=1 T...  62.4       3e-08
+UniRef90_UPI00046FFEB1 SDR family NAD(P)-dependent oxidoreductase...  62.0       5e-08
+UniRef90_UPI001266A2FD SDR family NAD(P)-dependent oxidoreductase...  62.0       6e-08
+UniRef90_UPI001324A70D SDR family NAD(P)-dependent oxidoreductase...  62.0       6e-08
+UniRef90_A0A3D9C4J4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Chrys...  61.6       7e-08
+UniRef90_A0A2D4QRL7 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Porti...  61.6       8e-08
+UniRef90_UPI0004CE83E1 SDR family NAD(P)-dependent oxidoreductase...  61.2       8e-08
+UniRef90_A0A2S6GM22 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  61.2       9e-08
+UniRef90_UPI000466726D SDR family NAD(P)-dependent oxidoreductase...  61.2       1e-07
+UniRef90_A0A4R2KIM8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chrom...  60.8       1e-07
+UniRef90_UPI0012E9A3FA AMP-binding protein n=1 Tax=Dasania marina...  60.8       1e-07
+UniRef90_UPI00101C8573 SDR family NAD(P)-dependent oxidoreductase...  60.8       1e-07
+UniRef90_UPI00137A91DE SDR family NAD(P)-dependent oxidoreductase...  60.8       1e-07
+UniRef90_UPI00135B43C4 SDR family NAD(P)-dependent oxidoreductase...  60.8       1e-07
+UniRef90_D2SUD6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=unculture...  60.5       2e-07
+UniRef90_A0A544X7Q2 3-hydroxyacyl-CoA dehydrogenase n=32 Tax=Paen...  60.5       2e-07
+UniRef90_A0A261XVD8 Mediator complex subunit 6 n=1 Tax=Bifiguratu...  60.1       2e-07
+UniRef90_UPI000BED6A64 enoyl-CoA hydratase/isomerase family prote...  60.1       2e-07
+UniRef90_UPI0009E23125 SDR family NAD(P)-dependent oxidoreductase...  60.1       2e-07
+UniRef90_UPI00048729CF SDR family NAD(P)-dependent oxidoreductase...  60.1       2e-07
+UniRef90_UPI000DE2F0F0 SDR family NAD(P)-dependent oxidoreductase...  60.1       2e-07
+UniRef90_A0A4Y6RRG2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Labre...  59.7       3e-07
+UniRef90_UPI000FDC8925 SDR family NAD(P)-dependent oxidoreductase...  59.7       3e-07
+UniRef90_A0A2S2CQ09 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Azosp...  59.3       3e-07
+UniRef90_L8JSV9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  59.7       3e-07
+UniRef90_A0A348AQV2 Polyketide synthase PksR n=1 Tax=Methylomusa ...  59.3       4e-07
+UniRef90_A0A1Q9F3Q5 Putative enoyl-CoA hydratase, mitochondrial n...  58.9       4e-07
+UniRef90_S5RPP0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Candidatu...  58.5       6e-07
+UniRef90_A0A4Y9Z8N1 Cytochrome b5 heme-binding domain-containing ...  58.5       7e-07
+UniRef90_UPI00068B5962 enoyl-CoA hydratase/isomerase family prote...  58.5       7e-07
+UniRef90_A0A6J5EJD6 1,4-dihydroxy-2-naphthoyl-CoA synthase n=2 Ta...  58.5       7e-07
+UniRef90_UPI0006297BBB SDR family NAD(P)-dependent oxidoreductase...  58.5       8e-07
+UniRef90_UPI001571FDA1 SDR family NAD(P)-dependent oxidoreductase...  58.5       8e-07
+UniRef90_UPI0015DC080B SDR family NAD(P)-dependent oxidoreductase...  58.5       8e-07
+UniRef90_A0A375I5K7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Propi...  58.2       8e-07
+UniRef90_A0A158GLA0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  58.2       9e-07
+UniRef90_UPI000471AAA4 SDR family NAD(P)-dependent oxidoreductase...  58.2       9e-07
+UniRef90_A0A2D7P4F5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  58.2       9e-07
+UniRef90_A0A1D9LCW4 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Chrom...  58.2       9e-07
+UniRef90_A0A0B2C6Y6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  58.2       1e-06
+UniRef90_A0A0V1LTZ7 Exostosin-1b n=22 Tax=Trichinella TaxID=6333 ...  57.8       1e-06
+UniRef90_Q6TAB6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=symbiont ...  57.8       1e-06
+UniRef90_W9C6I9 Nonribosomal peptide synthase SidD n=1 Tax=Sclero...  57.8       1e-06
+UniRef90_A0A6I1HS04 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  57.8       1e-06
+UniRef90_A0A1E1VJ64 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=uncla...  57.8       1e-06
+UniRef90_UPI00037A2D65 enoyl-CoA hydratase/isomerase family prote...  57.8       1e-06
+UniRef90_A9EAB1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Kordia al...  57.8       1e-06
+UniRef90_UPI00135688A4 SDR family NAD(P)-dependent oxidoreductase...  57.8       1e-06
+UniRef90_H3NSI6 3-hydroxyacyl-CoA dehydrogenase n=12 Tax=Proteoba...  57.8       1e-06
+UniRef90_A0A0V0WT22 Exostosin-1b n=1 Tax=Trichinella sp. T6 TaxID...  57.8       1e-06
+UniRef90_A0A2U2F0F5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  57.8       1e-06
+UniRef90_UPI0013798F0E polyketide synthase dehydratase domain-con...  57.4       2e-06
+UniRef90_A0A545U953 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  57.4       2e-06
+UniRef90_A0A368CC44 3-hydroxyacyl-CoA dehydrogenase n=14 Tax=Gamm...  57.0       2e-06
+UniRef90_B3QXY6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chloroher...  56.6       3e-06
+UniRef90_A0A1S6GAR6 Type I PKS synthase n=3 Tax=Clostridium beije...  56.6       3e-06
+UniRef90_A0A430HSF1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  56.6       3e-06
+UniRef90_A0A6B3AP08 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  56.6       3e-06
+UniRef90_UPI001261812C SDR family NAD(P)-dependent oxidoreductase...  56.6       3e-06
+UniRef90_A0A6G3QPS5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  56.6       3e-06
+UniRef90_A0A348AQQ7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  56.6       3e-06
+UniRef90_A0A095VPC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  56.2       3e-06
+UniRef90_K9EGV7 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Leptolyng...  56.6       3e-06
+UniRef90_UPI0012BCDE3A SDR family NAD(P)-dependent oxidoreductase...  56.2       3e-06
+UniRef90_UPI000415DAB8 SDR family NAD(P)-dependent oxidoreductase...  56.2       4e-06
+UniRef90_A0A1H6I261 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Phaeo...  56.2       4e-06
+UniRef90_A0A2D2DP95 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  56.2       4e-06
+UniRef90_A0A327JTC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Rhodo...  56.2       4e-06
+UniRef90_A0A699GEE9 Modular polyketide synthase type I n=1 Tax=Ta...  56.2       4e-06
+UniRef90_F8J3F8 TmpE protein n=1 Tax=Pseudoalteromonas sp. SANK 7...  55.8       4e-06
+UniRef90_A0A0D1W9Y9 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Aneur...  55.8       5e-06
+UniRef90_A0A2D4WM54 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Alter...  55.8       5e-06
+UniRef90_A0A6I1HYZ5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  55.8       5e-06
+UniRef90_A0A545U959 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  55.8       5e-06
+UniRef90_A0A1J1E737 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lysob...  55.8       5e-06
+UniRef90_A0A210QTF6 Trifunctional enzyme subunit alpha, mitochond...  55.5       5e-06
+UniRef90_A0A4D6KU48 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Vigna...  55.8       5e-06
+UniRef90_A0A0K2FAR2 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Paen...  55.8       5e-06
+UniRef90_A4A7V6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Congregib...  55.8       5e-06
+UniRef90_UPI000B5CE8D9 enoyl-CoA hydratase/isomerase family prote...  55.8       6e-06
+UniRef90_A0A368FX15 Fatty acid oxidation complex, alpha subunit n...  55.5       6e-06
+UniRef90_K2JKC4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Oceanibac...  55.5       7e-06
+UniRef90_A0A2J9QEG4 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Stre...  55.5       7e-06
+UniRef90_A0A559QLQ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Alter...  55.5       8e-06
+UniRef90_A0A0C5VNW6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  55.1       9e-06
+UniRef90_A0A1J1HKU5 RNA helicase n=1 Tax=Clunio marinus TaxID=568...  55.1       9e-06
+UniRef90_UPI0012BCF61F SDR family NAD(P)-dependent oxidoreductase...  55.1       1e-05
+UniRef90_UPI0002EAFD31 AMP-binding protein n=1 Tax=gamma proteoba...  54.7       1e-05
+UniRef90_A0A1H5HG12 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  54.7       1e-05
+UniRef90_A0A0A2W5D7 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohex...  54.7       1e-05
+UniRef90_UPI000851E703 SDR family NAD(P)-dependent oxidoreductase...  54.7       1e-05
+UniRef90_A0A6L2LRA4 Glyoxysomal fatty acid beta-oxidation multifu...  54.7       1e-05
+UniRef90_G8AEU2 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Rhodospi...  54.7       1e-05
+UniRef90_A0A3N1HYP8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  54.3       2e-05
+UniRef90_A0A2H3L6H1 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Candi...  54.3       2e-05
+UniRef90_R9S523 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Burkhold...  54.3       2e-05
+UniRef90_A0A1I8BEA2 Uncharacterized protein n=2 Tax=Meloidogyne h...  53.9       2e-05
+UniRef90_A0A484M6T1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cuscu...  53.9       2e-05
+UniRef90_E1IDM3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Oscilloch...  53.9       2e-05
+UniRef90_A0A2P6VH32 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Micra...  53.9       2e-05
+UniRef90_A0Z523 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=marine ga...  53.9       2e-05
+UniRef90_U0YPN1 3-hydroxyacyl-CoA dehydrogenase n=5 Tax=Chromobac...  53.9       2e-05
+UniRef90_UPI0006E12D20 SDR family NAD(P)-dependent oxidoreductase...  53.9       2e-05
+UniRef90_A0A158GLS8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  53.9       2e-05
+UniRef90_A0A0Q4NRG1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Dugan...  53.9       2e-05
+UniRef90_A0A1Q5KRT3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  53.9       2e-05
+UniRef90_A0A3R8U7Y4 Polyketide synthase of type I (Fragment) n=1 ...  53.5       2e-05
+UniRef90_A0A2E1IKS1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Synec...  53.9       2e-05
+UniRef90_A0A559QLL4 Acyl transferase domain-containing protein n=...  53.5       3e-05
+UniRef90_A0A348AQV8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  53.5       3e-05
+UniRef90_UPI000BFEC5BD SDR family NAD(P)-dependent oxidoreductase...  53.5       3e-05
+UniRef90_W2TYU2 Fatty acid oxidation complex, alpha subunit (Frag...  53.5       3e-05
+UniRef90_A0A5D0WC59 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Stapp...  53.5       3e-05
+UniRef90_A0A5C7XHM0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  53.1       4e-05
+UniRef90_A0A0U5BH72 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  53.1       4e-05
+UniRef90_A0A354DGG8 Acetyl-CoA synthetase (Fragment) n=1 Tax=Paen...  53.1       4e-05
+UniRef90_UPI0010F8CEFA SDR family NAD(P)-dependent oxidoreductase...  53.1       4e-05
+UniRef90_K0K0L1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Saccharot...  53.1       4e-05
+UniRef90_A0A2E1NPX5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  52.8       4e-05
+UniRef90_UPI000419F3B2 SDR family NAD(P)-dependent oxidoreductase...  53.1       4e-05
+UniRef90_K1QSX8 Enoyl-CoA hydratase n=1 Tax=Crassostrea gigas Tax...  52.8       4e-05
+UniRef90_A0A1I8J8H5 Uncharacterized protein n=1 Tax=Macrostomum l...  52.8       5e-05
+UniRef90_A0A6L2P277 Peroxisomal fatty acid beta-oxidation multifu...  52.8       5e-05
+UniRef90_UPI000D59F445 SDR family NAD(P)-dependent oxidoreductase...  52.8       5e-05
+UniRef90_A0A4S4LFN4 Protein SEY1 n=1 Tax=Phellinidium pouzarii Ta...  52.8       5e-05
+UniRef90_A0A1E5QAS3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  52.8       5e-05
+UniRef90_L8JT98 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  52.8       5e-05
+UniRef90_A0A125SL42 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lepto...  52.8       5e-05
+UniRef90_A0A024G4P1 Glutamine--fructose-6-phosphate transaminase ...  52.8       6e-05
+UniRef90_A0A2E1NMW6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Cellv...  52.8       6e-05
+UniRef90_UPI0012980DE6 SDR family NAD(P)-dependent oxidoreductase...  52.8       6e-05
+UniRef90_UPI0010F6D40F polyketide synthase dehydratase domain-con...  52.4       6e-05
+UniRef90_A0A5S4UEL6 FkbM family methyltransferase n=4 Tax=Dickeya...  52.4       7e-05
+UniRef90_UPI001575CAC0 enoyl-CoA hydratase/isomerase family prote...  52.4       7e-05
+UniRef90_A0A3N1MG79 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  52.4       7e-05
+UniRef90_A0A075E6C1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Prote...  52.4       7e-05
+UniRef90_A0A023BQK7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  52.4       7e-05
+UniRef90_UPI00101D8C57 GNAT family N-acetyltransferase n=2 Tax=St...  52.4       7e-05
+UniRef90_A0A0S7DK20 Nonribosomal peptide synthetase 4 n=2 Tax=Asp...  52.0       8e-05
+UniRef90_UPI0013C4EE30 SDR family NAD(P)-dependent oxidoreductase...  52.0       8e-05
+UniRef90_A0A139I0Z5 Uncharacterized protein n=1 Tax=Pseudocercosp...  52.0       8e-05
+UniRef90_UPI00030AFF79 AMP-binding protein n=1 Tax=Luminiphilus s...  52.0       8e-05
+UniRef90_A0A371K3S4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  52.0       8e-05
+UniRef90_A0A5C7RHW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Xanth...  52.0       9e-05
+UniRef90_UPI0012BC37C6 SDR family NAD(P)-dependent oxidoreductase...  52.0       9e-05
+UniRef90_A0A285GLJ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Actin...  52.0       9e-05
+UniRef90_A0A4R6YHP1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Tahib...  52.0       1e-04
+UniRef90_UPI0005F76B6E SDR family NAD(P)-dependent oxidoreductase...  51.6       1e-04
+UniRef90_F0YKQ1 Carrier domain-containing protein n=1 Tax=Aureoco...  51.6       1e-04
+UniRef90_UPI00106B6EAC uncharacterized protein LOC114537486 n=1 T...  51.6       1e-04
+UniRef90_A0A482VDP3 Enoyl-CoA hydratase (Fragment) n=1 Tax=Asbolu...  51.6       1e-04
+UniRef90_A0A545U9B4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  51.6       1e-04
+UniRef90_A0A0G3UEJ4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  51.6       1e-04
+UniRef90_A0A2N9NNS3 Putative acyl-CoA dehydrogenase FadE10 (Modul...  51.2       1e-04
+UniRef90_A0A2U1VLT8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Azosp...  51.2       1e-04
+UniRef90_A0A081SEQ3 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  51.2       1e-04
+UniRef90_A0A1R1WFB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  51.2       1e-04
+UniRef90_UPI000FD978AC SDR family NAD(P)-dependent oxidoreductase...  51.2       2e-04
+UniRef90_A0A1Q5A3G9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  51.2       2e-04
+UniRef90_A0A2H4T172 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Strep...  51.2       2e-04
+UniRef90_A0A1Q4ZBN8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  51.2       2e-04
+UniRef90_UPI000F3A9542 SDR family NAD(P)-dependent oxidoreductase...  51.2       2e-04
+UniRef90_A0A0V0YDS2 Dual specificity protein kinase CLK2 (Fragmen...  51.2       2e-04
+UniRef90_A9EAB4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Kordia Ta...  51.2       2e-04
+UniRef90_UPI00144A6E70 uncharacterized protein n=1 Tax=Arthroderm...  50.8       2e-04
+UniRef90_UPI000E317C82 GNAT family N-acetyltransferase n=1 Tax=St...  50.8       2e-04
+UniRef90_A0A0C4F5M9 OTU domain-containing protein n=1 Tax=Puccini...  50.8       2e-04
+UniRef90_A0A5D0S6I3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Ocean...  50.8       2e-04
+UniRef90_A0A0C5VK82 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  50.8       2e-04
+UniRef90_UPI000694ED3E SDR family NAD(P)-dependent oxidoreductase...  50.4       3e-04
+UniRef90_UPI000B10C768 SDR family NAD(P)-dependent oxidoreductase...  50.4       3e-04
+UniRef90_A0A1H3BGG8 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Gamma...  50.4       3e-04
+UniRef90_A0A2D2DPC1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  50.4       3e-04
+UniRef90_A0A0M0JTE8 Enoyl-CoA hydratase n=1 Tax=Chrysochromulina ...  50.4       3e-04
+UniRef90_A0A1J1HLL6 3-hydroxyisobutyryl-CoA hydrolase, mitochondr...  50.4       3e-04
+UniRef90_A0A371K3K3 Methyltransferase n=2 Tax=Lysobacter sp. zong...  50.4       3e-04
+UniRef90_A0A562PIE7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  50.4       3e-04
+UniRef90_UPI0013E0C8C6 AMP-binding protein n=1 Tax=Halieaceae bac...  50.1       3e-04
+UniRef90_A0A1C0TKH8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  50.4       3e-04
+UniRef90_UPI001577021B polyketide synthase dehydratase domain-con...  50.4       3e-04
+UniRef90_B8HKZ3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cyanothec...  50.1       3e-04
+UniRef90_A0A562PHT3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  50.4       3e-04
+UniRef90_K7S6E9 3-hydroxyacyl-[acyl-carrier-protein] dehydratase ...  50.1       3e-04
+UniRef90_UPI001420B217 SDR family NAD(P)-dependent oxidoreductase...  50.1       4e-04
+UniRef90_A0A2V8LZN1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  50.1       4e-04
+UniRef90_UPI0012AD1C05 KR domain-containing protein n=1 Tax=Paeni...  50.1       4e-04
+UniRef90_A0A5C7XHL9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  50.1       4e-04
+UniRef90_A0A3N1DUX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  50.1       4e-04
+UniRef90_A0A0A8FHB5 FkbH n=3 Tax=Dickeya TaxID=204037 RepID=A0A0A...  49.7       5e-04
+UniRef90_A0A6N0AV54 Polyketide synthase PksL n=6 Tax=Dickeya sola...  49.7       5e-04
+UniRef90_I4CJP1 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=unclassif...  49.7       5e-04
+UniRef90_A0A1M3LYG1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  49.7       5e-04
+UniRef90_UPI0005A60027 SDR family NAD(P)-dependent oxidoreductase...  49.7       5e-04
+UniRef90_R7MKZ8 Uncharacterized protein n=3 Tax=Ruminococcus TaxI...  49.3       5e-04
+UniRef90_UPI0013036F62 SDR family NAD(P)-dependent oxidoreductase...  49.3       6e-04
+UniRef90_UPI0009444B4B SDR family NAD(P)-dependent oxidoreductase...  49.3       6e-04
+UniRef90_A0A2U3E6T0 BZIP domain-containing protein n=1 Tax=Purpur...  49.3       6e-04
+UniRef90_UPI000562FC7D SDR family NAD(P)-dependent oxidoreductase...  49.3       6e-04
+UniRef90_A0A6N0B6A6 Polyketide synthase PksL n=1 Tax=Dickeya sola...  48.9       7e-04
+UniRef90_A0A0C4YNM4 Enoyl-CoA hydratase n=2 Tax=Cupriavidus basil...  48.9       7e-04
+UniRef90_A0A6J5EHV0 1,4-dihydroxy-2-naphthoyl-CoA synthase n=1 Ta...  48.9       8e-04
+UniRef90_A0A511V5R1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  48.9       9e-04
+UniRef90_A0A3R8U818 Uncharacterized protein n=1 Tax=Pseudoalterom...  48.9       0.001
+UniRef90_UPI00046E600E SDR family NAD(P)-dependent oxidoreductase...  48.5       0.001
+UniRef90_UPI000D6DD817 SDR family NAD(P)-dependent oxidoreductase...  48.5       0.001
+UniRef90_A0A023BPF7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Aquim...  48.5       0.001
+UniRef90_A0A0K8LB55 Enoyl-CoA hydratase domain-containing protein...  48.1       0.001
+UniRef90_A0A3G1J0D9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  48.1       0.001
+UniRef90_A0A6P1YX25 SDR family NAD(P)-dependent oxidoreductase n=...  48.1       0.002
+UniRef90_A0A385XZ30 Polyketide synthase PksL n=9 Tax=Dickeya dian...  48.1       0.002
+UniRef90_V6F0D6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Magnetosp...  48.1       0.002
+UniRef90_A0A430HSC2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  48.1       0.002
+UniRef90_A0A426U035 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Candi...  47.8       0.002
+UniRef90_A0A538N0A4 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  47.8       0.002
+UniRef90_A0A2P6NLB8 WD_REPEATS_REGION domain-containing protein n...  47.8       0.002
+UniRef90_UPI000EF618DA SDR family NAD(P)-dependent oxidoreductase...  47.8       0.002
+UniRef90_V4HHJ8 Beta-ketoacyl synthase n=2 Tax=Pseudoalteromonas ...  47.8       0.002
+UniRef90_A0A504XXG5 Enoyl-CoA hydratase/isomerase family protein ...  47.8       0.002
+UniRef90_A0A365XV05 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chiti...  47.8       0.002
+UniRef90_UPI0002B5086C SDR family NAD(P)-dependent oxidoreductase...  47.8       0.002
+UniRef90_UPI0012EC2660 SDR family NAD(P)-dependent oxidoreductase...  47.8       0.002
+UniRef90_A0A192D599 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Prot...  47.8       0.002
+UniRef90_A0A1J5DRV4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Delta...  47.8       0.002
+UniRef90_A0A183BV89 Uncharacterized protein n=1 Tax=Globodera pal...  47.8       0.002
+UniRef90_A0A4R6YHT0 Enoyl-CoA hydratase/isomerase-like protein (F...  47.4       0.002
+UniRef90_UPI00132FE7E0 SDR family NAD(P)-dependent oxidoreductase...  47.8       0.002
+UniRef90_UPI000411A967 AMP-binding protein n=1 Tax=Porphyrobacter...  47.4       0.002
+UniRef90_A0A2J9QFB0 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Stre...  47.4       0.002
+UniRef90_UPI00145873D9 ATPase family AAA domain-containing protei...  47.4       0.003
+UniRef90_A0A429AFR6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Nonom...  47.4       0.003
+UniRef90_UPI00039FB491 SDR family NAD(P)-dependent oxidoreductase...  47.4       0.003
+UniRef90_A0A1Z5JAD9 Naphthoate synthase n=1 Tax=Fistulifera solar...  47.0       0.003
+UniRef90_A0A6A5KUD2 Uncharacterized protein n=1 Tax=Lupinus albus...  47.0       0.003
+UniRef90_A0A2D4BDQ8 cGMP-dependent protein kinase n=1 Tax=Pythium...  47.0       0.003
+UniRef90_C6C2V8 FkbH like protein n=1 Tax=Dickeya paradisiaca (st...  47.0       0.003
+UniRef90_A0A1F9CDV4 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  47.0       0.004
+UniRef90_A0A023BPU4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  47.0       0.004
+UniRef90_A0A0Y0KAU5 3-hydroxyacyl-[acyl-carrier-protein] dehydrat...  46.6       0.004
+UniRef90_UPI000B2F7CAF polyketide synthase dehydratase domain-con...  46.6       0.004
+UniRef90_A0A0F4YP60 Pyruvate carboxyltransferase domain-containin...  46.6       0.005
+UniRef90_A0A0Q6T6N5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  46.6       0.005
+UniRef90_A0A380P604 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Stre...  46.6       0.005
+UniRef90_A0A0A2J9L8 Crotonase, core n=1 Tax=Penicillium expansum ...  46.2       0.006
+UniRef90_A0A6A0BU60 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  46.2       0.006
+UniRef90_G7DUF6 Uncharacterized protein n=2 Tax=Mixia osmundae (s...  46.2       0.006
+UniRef90_A0A6P0SF92 Acyltransferase domain-containing protein (Fr...  46.2       0.006
+UniRef90_UPI000948D807 SDR family NAD(P)-dependent oxidoreductase...  46.2       0.007
+UniRef90_A0A2L0EWC5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Soran...  46.2       0.007
+UniRef90_K7XCS5 Polyketide synthase n=1 Tax=Serratia marcescens T...  46.2       0.007
+UniRef90_A0A2V8LZT1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  46.2       0.007
+UniRef90_A0A321M3D6 Uncharacterized protein (Fragment) n=1 Tax=Ac...  45.8       0.007
+UniRef90_UPI0015EC5F74 SDR family NAD(P)-dependent oxidoreductase...  45.8       0.007
+UniRef90_A0A6L9MBZ6 SDR family NAD(P)-dependent oxidoreductase n=...  45.8       0.008
+UniRef90_A0A1C4UNU7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Micro...  45.8       0.008
+UniRef90_A0A6G5NVN3 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscil...  45.8       0.008
+UniRef90_A0A1Q9CKU8 Enoyl-CoA hydratase n=1 Tax=Symbiodinium micr...  45.4       0.009
+UniRef90_A0A0F7EWT2 Putative polyketide synthase (Fragment) n=1 T...  45.8       0.010
+UniRef90_L8X647 Aromatic di-alanine and tetratricopeptide repeat-...  45.4       0.010
+UniRef90_UPI0015A26971 SDR family NAD(P)-dependent oxidoreductase...  45.4       0.010
+UniRef90_UPI001374D302 hydroxymethylglutaryl-CoA synthase n=1 Tax...  45.4       0.011
+UniRef90_A0A3D9C5G9 Uncharacterized protein n=2 Tax=Chryseobacter...  45.4       0.012
+UniRef90_A0A068PCG6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  45.4       0.013
+UniRef90_UPI000826867B SDR family NAD(P)-dependent oxidoreductase...  45.1       0.014
+UniRef90_UPI0007C669B5 SDR family NAD(P)-dependent oxidoreductase...  45.1       0.014
+UniRef90_A0A0F7VSB9 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Strep...  45.1       0.014
+UniRef90_UPI00138DFAB4 SDR family NAD(P)-dependent oxidoreductase...  45.1       0.015
+UniRef90_A0A1Q5WBV0 Polyketide synthase n=1 Tax=Serratia marcesce...  45.1       0.016
+UniRef90_A0A1C0TJW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  45.1       0.017
+UniRef90_A0A6A9SJV6 AMP-binding protein n=3 Tax=Natronomonas TaxI...  44.7       0.017
+UniRef90_K1Y338 Enoyl-CoA hydratase/isomerase n=1 Tax=Marssonina ...  44.7       0.018
+UniRef90_A0A5B1BC10 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  44.7       0.018
+UniRef90_L7U6J9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Myxococcu...  44.7       0.018
+UniRef90_UPI001420DB6D KR domain-containing protein n=1 Tax=Brook...  44.7       0.018
+UniRef90_A0A285T8I9 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Stapp...  44.7       0.020
+UniRef90_L9VNK0 AMP-dependent synthetase and ligase n=2 Tax=Natro...  44.7       0.021
+UniRef90_A0A5B8MT46 Polyketide synthase n=1 Tax=Chloropicon primu...  44.7       0.021
+UniRef90_A0A6P1YWE7 SDR family NAD(P)-dependent oxidoreductase n=...  44.3       0.024
+UniRef90_UPI00136C616C SDR family NAD(P)-dependent oxidoreductase...  44.3       0.026
+UniRef90_A0A2M9IH00 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  44.3       0.027
+UniRef90_UPI00145E326F amino acid adenylation domain-containing p...  44.3       0.027
+UniRef90_Q8VRG6 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Chlorofl...  43.9       0.029
+UniRef90_A0A2A4XTQ6 Uncharacterized protein (Fragment) n=1 Tax=Ec...  43.9       0.030
+UniRef90_A0A3M7MQM9 Uncharacterized protein (Fragment) n=1 Tax=Ch...  43.9       0.034
+UniRef90_A0A2N5YE36 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Halio...  43.9       0.037
+UniRef90_A0A2R6JAZ5 Acetyl-CoA synthetase (Fragment) n=1 Tax=Halo...  43.5       0.039
+UniRef90_A0A2M9J585 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  43.5       0.040
+UniRef90_K7WLR7 Polyketide synthase n=8 Tax=Serratia TaxID=613 Re...  43.5       0.041
+UniRef90_A0A2M9L7P1 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  43.5       0.043
+UniRef90_A0A388KZ53 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chara...  43.5       0.043
+UniRef90_A0A1C4TP26 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  43.5       0.044
+UniRef90_A0A0F2RRC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Rhodo...  43.1       0.049
+UniRef90_A0A552UFX2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Sanda...  43.1       0.051
+UniRef90_Q22P47 Enoyl-CoA hydratase/isomerase n=1 Tax=Tetrahymena...  43.1       0.052
+UniRef90_A5UY60 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Roseiflex...  43.1       0.053
+UniRef90_A0A498J3F6 Peptidase A1 domain-containing protein n=1 Ta...  43.1       0.053
+UniRef90_F6G0W5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Ralstonia...  43.1       0.060
+UniRef90_A0A0L6TCE2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  43.1       0.063
+UniRef90_A0A1Y1VA20 Ketoacyl-synt-domain-containing protein n=1 T...  43.1       0.066
+UniRef90_A3WE14 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=unclassif...  42.7       0.080
+UniRef90_A0A525CR28 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gamma...  42.7       0.084
+UniRef90_A0A3G1J0L8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  42.7       0.084
+UniRef90_A0A090AEQ9 FkbH-like protein n=2 Tax=Thioploca ingrica T...  42.7       0.089
+UniRef90_A0A651HQK4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gemma...  42.4       0.096
+UniRef90_D9T192 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Micromono...  42.4       0.097
+UniRef90_A0A559WHF5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Micro...  42.4       0.097
+UniRef90_A0A1C6TQ32 3-hydroxyacyl-CoA dehydrogenase n=8 Tax=Micro...  42.4       0.098
+UniRef90_A0A386WF34 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Micro...  42.4       0.10 
+UniRef90_UPI00101BE3C6 AMP-binding protein n=1 Tax=Chloroflexales...  42.4       0.11 
+UniRef90_A0A1Y5IAM9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Ostre...  42.0       0.12 
+UniRef90_UPI000CDEE8C4 SDR family NAD(P)-dependent oxidoreductase...  42.4       0.12 
+UniRef90_UPI0012AD1AA8 SDR family NAD(P)-dependent oxidoreductase...  42.0       0.15 
+UniRef90_A0A375I124 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Propi...  42.0       0.15 
+UniRef90_A0A0F0HXT7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Sacch...  42.0       0.15 
+UniRef90_UPI001555ACB8 SDR family NAD(P)-dependent oxidoreductase...  42.0       0.16 
+UniRef90_UPI00042325C8 AMP-binding protein n=1 Tax=Novosphingobiu...  41.6       0.17 
+UniRef90_UPI00135CEB9F SDR family NAD(P)-dependent oxidoreductase...  41.6       0.18 
+UniRef90_UPI0015751931 AMP-binding protein n=1 Tax=Sphingomonadac...  41.6       0.19 
+UniRef90_UPI000429AC42 AMP-binding protein n=1 Tax=Azospirillum h...  41.2       0.22 
+UniRef90_Q6E7K0 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscillato...  41.2       0.22 
+UniRef90_A0A1C4VGT8 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Micro...  41.2       0.22 
+UniRef90_A0A1Y2ETK7 Ketoacyl-synt-domain-containing protein n=1 T...  41.2       0.24 
+UniRef90_A0A6L9YGN6 SDR family NAD(P)-dependent oxidoreductase n=...  41.2       0.25 
+UniRef90_A0A5Q4F061 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gamma...  41.2       0.25 
+UniRef90_UPI0011E79F75 AMP-binding protein n=1 Tax=Natronococcus ...  41.2       0.26 
+UniRef90_A0A358R076 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Desul...  41.2       0.27 
+UniRef90_A0A089MQV3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Paeni...  40.8       0.30 
+UniRef90_G0R055 Uncharacterized protein n=1 Tax=Ichthyophthirius ...  40.4       0.35 
+UniRef90_S4XKK3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Sorangium...  40.4       0.47 
+UniRef90_UPI00157AD685 polyketide synthase dehydratase domain-con...  40.0       0.51 
+UniRef90_A0A318ETL4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lachn...  40.0       0.53 
+UniRef90_A0A6P0V258 SDR family NAD(P)-dependent oxidoreductase n=...  40.0       0.58 
+UniRef90_A0A0P7VY07 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Eryth...  39.7       0.62 
+UniRef90_L0K342 Acyl-CoA synthetase/AMP-acid ligase n=3 Tax=Natro...  39.7       0.63 
+UniRef90_A0A315XZN9 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Rumin...  39.7       0.63 
+UniRef90_W9BUA3 3-hydroxyacyl-CoA dehydrogenase n=19 Tax=Proteoba...  39.7       0.77 
+UniRef90_A0A6M0GQR7 Acyltransferase domain-containing protein n=5...  39.7       0.80 
+UniRef90_A0A3R6Y876 PH domain-containing protein n=1 Tax=Aphanomy...  39.3       0.82 
+UniRef90_A0A2G2CJG4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Sphin...  39.3       0.82 
+UniRef90_UPI0012636A20 LOW QUALITY PROTEIN: glyoxysomal fatty aci...  39.3       0.84 
+UniRef90_UPI0015A495AE AMP-binding protein n=1 Tax=Parasphingopyx...  39.3       0.88 
+UniRef90_A0A2J9QF76 3-hydroxyacyl-CoA dehydrogenase n=11 Tax=Stre...  39.3       0.98 
+UniRef90_A0A1R2CJV4 Uncharacterized protein n=1 Tax=Stentor coeru...  39.3       0.98 
+UniRef90_A0A363TM55 Uncharacterized protein (Fragment) n=1 Tax=De...  39.3       1.1  
+UniRef90_UPI001576CBAB AMP-binding protein n=1 Tax=Sphingomonadac...  38.9       1.2  
+UniRef90_A0A089K047 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=uncla...  38.9       1.2  
+UniRef90_A0A4D4LTH9 Carrier domain-containing protein n=1 Tax=Str...  38.9       1.3  
+UniRef90_Q93HJ3 Modular polyketide synthase n=5 Tax=Streptomyces ...  38.9       1.3  
+UniRef90_A0A6M4IN93 AMP-binding protein n=1 Tax=Gemmatimonas sp. ...  38.9       1.3  
+UniRef90_UPI000F549B13 polyketide synthase dehydratase domain-con...  38.9       1.4  
+UniRef90_A0A499VRS1 Polyketide synthase n=1 Tax=Streptomyces aver...  38.5       1.5  
+UniRef90_A0A078AZR9 Enoyl-hydratase isomerase family protein n=1 ...  38.5       1.5  
+UniRef90_A0A1Y2AEG7 Uncharacterized protein n=1 Tax=Neocallimasti...  38.5       1.6  
+UniRef90_A0A089KEB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Paeni...  38.5       1.7  
+UniRef90_UPI0014945A17 amino acid adenylation domain-containing p...  38.5       1.7  
+UniRef90_A0A1I2GR80 Malonyl CoA-acyl carrier protein transacylase...  38.5       1.8  
+UniRef90_UPI000BD8F408 amino acid adenylation domain-containing p...  38.5       1.8  
+UniRef90_UPI0014832A12 SDR family NAD(P)-dependent oxidoreductase...  38.5       1.8  
+UniRef90_F9FIQ7 3-hydroxy-3-methylglutarate-CoA lyase n=3 Tax=Fus...  38.1       1.9  
+UniRef90_UPI00146C1E6E SDR family NAD(P)-dependent oxidoreductase...  38.5       1.9  
+UniRef90_UPI0012D3C56A SDR family NAD(P)-dependent oxidoreductase...  38.1       2.2  
+UniRef90_A0A6P0WQC4 Acyltransferase domain-containing protein (Fr...  38.1       2.4  
+UniRef90_UPI0009B3782D type I polyketide synthase n=2 Tax=Burkhol...  38.1       2.5  
+UniRef90_UPI0015971689 AMP-binding protein n=1 Tax=Sphingomonas s...  37.7       3.2  
+UniRef90_A0A1Q9LS22 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Actin...  37.7       3.4  
+UniRef90_A0A3C1EI80 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  37.4       3.5  
+UniRef90_A0A0N0K5P7 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Novos...  37.4       3.5  
+UniRef90_A0A554NAG6 Acetyl-CoA synthetase n=1 Tax=Natronomonas sp...  37.4       3.6  
+UniRef90_A0A6P0V8Z8 SDR family NAD(P)-dependent oxidoreductase n=...  37.4       3.6  
+UniRef90_C3XRZ6 Non-specific serine/threonine protein kinase n=2 ...  37.4       3.8  
+UniRef90_A0A525CB60 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gamma...  37.4       4.1  
+UniRef90_A0A6B3P4M2 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Okean...  37.4       4.4  
+UniRef90_A0A1F8XC25 Uncharacterized protein n=2 Tax=unclassified ...  37.0       4.6  
+UniRef90_A0A3M7MTI0 Uncharacterized protein (Fragment) n=1 Tax=Ch...  37.0       4.7  
+UniRef90_A0A2T7T8D4 Polyketide synthase (Fragment) n=2 Tax=Strept...  37.0       4.8  
+UniRef90_A0A383RFW7 Uncharacterized protein n=4 Tax=Paenibacillus...  37.0       4.9  
+UniRef90_A0A2P6V4J9 RING-type E3 ubiquitin transferase n=1 Tax=Mi...  37.0       5.5  
+UniRef90_A0A3A4NVR4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Delta...  37.0       5.8  
+UniRef90_A0A6B1P9W6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  36.6       5.8  
+UniRef90_A0A1J5E0V9 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=uncla...  36.6       6.0  
+UniRef90_A0A4R6ZMZ2 Phosphopantetheine binding protein (Fragment)...  36.6       6.3  
+UniRef90_UPI000316661B response regulator n=1 Tax=Calothrix sp. P...  36.6       6.5  
+UniRef90_A0A5N8XXY3 SDR family NAD(P)-dependent oxidoreductase (F...  36.6       7.2  
+UniRef90_A0A3M7MWR4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  36.2       7.9  
+UniRef90_A0A089HLX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Paeni...  36.2       8.5  
+UniRef90_A0A2U3EAL6 Crotonase n=2 Tax=Purpureocillium lilacinum T...  36.2       8.5  
+UniRef90_A0A2M9ISU1 3-ketoacyl-ACP reductase n=1 Tax=Streptomyces...  36.2       8.9  
+UniRef90_A0A497J463 DNA helicase n=2 Tax=Candidatus Korarchaeota ...  36.2       9.1  
+UniRef90_A0A261GGW9 Uncharacterized protein n=1 Tax=Hahella sp. C...  36.2       9.4  
+UniRef90_A0A3Q2D803 Spectrin_like domain-containing protein n=2 T...  36.2       9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 631867950259
+Results from round 2
+
+
+Query= sp|Q9Y232-3|CDYL_HUMAN Isoform 3 of Chromodomain Y-like protein
+OS=Homo sapiens OX=9606 GN=CDYL
+
+Length=309
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A088ARJ9 Uncharacterized protein n=5 Tax=Apis TaxID=74...  321        2e-97
+UniRef90_UPI00083C074C uncharacterized protein LOC108556102 n=1 T...  319        6e-97
+UniRef90_A0A6L2PKW2 Uncharacterized protein n=1 Tax=Coptotermes f...  318        1e-96
+UniRef90_UPI0010F57FE8 titin homolog n=2 Tax=Osmia TaxID=124287 R...  319        1e-96
+UniRef90_A0A6J3LN90 interaptin isoform X1 n=13 Tax=Bombus TaxID=2...  318        2e-96
+UniRef90_UPI0013042FED uncharacterized protein LOC116431902 isofo...  317        3e-96
+UniRef90_E2AL24 Chromodomain Y-like protein 2 n=2 Tax=Camponotus ...  317        5e-96
+UniRef90_A0A067QMS2 Chromodomain Y-like protein n=1 Tax=Zootermop...  315        6e-96
+UniRef90_A0A0L7R473 Chromodomain Y-like protein 2 n=2 Tax=Habropo...  316        9e-96
+UniRef90_UPI0006152DD6 uncharacterized protein LOC100877790 isofo...  316        1e-95
+UniRef90_UPI0008523E80 uncharacterized protein LOC108779275 isofo...  315        2e-95
+UniRef90_A0A6I9WMC2 uncharacterized protein LOC105424416 isoform ...  315        3e-95
+UniRef90_A0A158NGU5 Uncharacterized protein n=7 Tax=Attini TaxID=...  315        3e-95
+UniRef90_UPI0010FB2D1D microtubule-associated protein futsch-like...  314        4e-95
+UniRef90_UPI001442F01C centromere-associated protein E isoform X1...  314        6e-95
+UniRef90_A0A154P6B8 Chromodomain Y-like protein 2 n=2 Tax=Dufoure...  313        6e-95
+UniRef90_A0A195FGK1 Chromodomain Y-like protein n=8 Tax=Attini Ta...  313        6e-95
+UniRef90_UPI00073D4E78 extracellular matrix-binding protein ebh n...  313        9e-95
+UniRef90_A0A4S2JTQ9 Uncharacterized protein n=6 Tax=Temnothorax T...  313        1e-94
+UniRef90_UPI0011416F61 uncharacterized protein LOC115235138 n=1 T...  312        2e-94
+UniRef90_E9IUP9 Uncharacterized protein (Fragment) n=2 Tax=Soleno...  312        3e-94
+UniRef90_UPI00063F57B4 uncharacterized protein LOC105830532 isofo...  312        3e-94
+UniRef90_UPI0004CD1F37 titin n=1 Tax=Microplitis demolitor TaxID=...  310        6e-94
+UniRef90_UPI0006230767 LOW QUALITY PROTEIN: uncharacterized prote...  309        2e-93
+UniRef90_UPI000995974E claspin-like n=1 Tax=Pseudomyrmex gracilis...  309        3e-93
+UniRef90_UPI0005F03351 uncharacterized protein LOC105449665 isofo...  308        6e-93
+UniRef90_UPI0013F1D6C2 serine-rich adhesin for platelets-like iso...  307        1e-92
+UniRef90_A0A6J1T535 proteoglycan 4-like isoform X1 n=3 Tax=Frankl...  306        1e-92
+UniRef90_A0A3L8D7P8 Uncharacterized protein n=3 Tax=Ooceraea biro...  306        3e-92
+UniRef90_UPI000DBED544 proteoglycan 4 isoform X1 n=4 Tax=Harpegna...  304        2e-91
+UniRef90_UPI00158E07B8 uncharacterized protein LOC118067998 n=1 T...  303        2e-91
+UniRef90_UPI0006C98630 uncharacterized protein LOC106644389 isofo...  303        4e-91
+UniRef90_UPI0014833DB5 uncharacterized protein LOC117651111 isofo...  301        4e-91
+UniRef90_UPI0008407BD7 uncharacterized protein LOC108626137 isofo...  302        6e-91
+UniRef90_UPI000711D188 proteoglycan 4-like isoform X1 n=2 Tax=Din...  302        7e-91
+UniRef90_UPI0005F544AE uncharacterized protein LOC105566507 isofo...  301        2e-90
+UniRef90_UPI0005CDDCAA uncharacterized protein LOC105364270 n=1 T...  296        1e-88
+UniRef90_UPI000D62D0AA uncharacterized protein LOC107274086 isofo...  296        1e-88
+UniRef90_UPI00143D081D uncharacterized protein LOC117181418 n=1 T...  292        2e-87
+UniRef90_K7JC04 Uncharacterized protein n=3 Tax=Pteromalinae TaxI...  291        6e-87
+UniRef90_UPI000626BFD7 uncharacterized protein LOC105683161 n=1 T...  288        5e-86
+UniRef90_A0A6J0CC65 uncharacterized protein LOC107227405 n=1 Tax=...  285        7e-85
+UniRef90_UPI000625FFB8 titin n=1 Tax=Orussus abietinus TaxID=2228...  278        3e-82
+UniRef90_UPI000F684C1E LOW QUALITY PROTEIN: uncharacterized prote...  272        3e-80
+UniRef90_UPI00084B2994 cell wall protein RBR3-like n=1 Tax=Hyalel...  271        6e-80
+UniRef90_A0A5B7CGD2 Chromodomain Y-like protein n=1 Tax=Portunus ...  269        3e-79
+UniRef90_UPI000DF68A99 E3 ubiquitin-protein ligase RBBP6 isoform ...  261        8e-77
+UniRef90_UPI0006C9D235 uncharacterized protein PF11_0213 n=1 Tax=...  261        2e-76
+UniRef90_A0A1B6MCK1 Uncharacterized protein n=1 Tax=Graphocephala...  261        2e-76
+UniRef90_A0A1B6H265 Uncharacterized protein n=2 Tax=Cuerna arida ...  260        3e-76
+UniRef90_A0A6M2DQG7 Putative enoyl-coa hydratase/isomerase n=1 Ta...  260        4e-76
+UniRef90_UPI000E6E40E2 uncharacterized protein LOC113367493 n=1 T...  257        5e-75
+UniRef90_UPI000E6E3084 LOW QUALITY PROTEIN: uncharacterized prote...  257        6e-75
+UniRef90_A0A0J7L3C3 Leucine-rich repeat-containing protein n=1 Ta...  250        1e-72
+UniRef90_A0A444U7I1 ATM interactor (Fragment) n=1 Tax=Acipenser r...  244        2e-70
+UniRef90_A0A2U3EJS0 RING-type domain-containing protein n=3 Tax=P...  243        5e-70
+UniRef90_A0A556TJK9 HECT-type E3 ubiquitin transferase n=1 Tax=Ba...  239        1e-68
+UniRef90_UPI000BED6A64 enoyl-CoA hydratase/isomerase family prote...  236        1e-67
+UniRef90_A0A654GY15 Chromo domain-containing protein n=1 Tax=Spar...  235        2e-67
+UniRef90_A0A0G4MV95 RING-type domain-containing protein n=1 Tax=V...  234        6e-67
+UniRef90_UPI000466726D SDR family NAD(P)-dependent oxidoreductase...  233        1e-66
+UniRef90_A0A158QIJ7 Uncharacterized protein n=1 Tax=Rodentolepis ...  232        2e-66
+UniRef90_UPI000C20412B muscle M-line assembly protein unc-89 n=1 ...  232        2e-66
+UniRef90_A0A2P8XM66 Uncharacterized protein n=1 Tax=Blattella ger...  232        2e-66
+UniRef90_L7J1F1 RING finger domain-containing protein n=4 Tax=Pyr...  231        5e-66
+UniRef90_UPI000C2528F2 titin n=1 Tax=Leptinotarsa decemlineata Ta...  230        1e-65
+UniRef90_A0A0K2FAR2 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Paen...  230        1e-65
+UniRef90_W6UK57 Enoyl-CoA hydratase n=1 Tax=Echinococcus granulos...  228        3e-65
+UniRef90_UPI000471AAA4 SDR family NAD(P)-dependent oxidoreductase...  229        3e-65
+UniRef90_A0A2L2N449 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  228        4e-65
+UniRef90_UPI00046FFEB1 SDR family NAD(P)-dependent oxidoreductase...  228        6e-65
+UniRef90_UPI001266A2FD SDR family NAD(P)-dependent oxidoreductase...  228        7e-65
+UniRef90_UPI0012BCF61F SDR family NAD(P)-dependent oxidoreductase...  228        9e-65
+UniRef90_UPI0010373F1A uncharacterized protein LOC114335034 isofo...  227        1e-64
+UniRef90_UPI00101C8573 SDR family NAD(P)-dependent oxidoreductase...  227        1e-64
+UniRef90_UPI001324A70D SDR family NAD(P)-dependent oxidoreductase...  226        3e-64
+UniRef90_A0A348AQV2 Polyketide synthase PksR n=1 Tax=Methylomusa ...  226        4e-64
+UniRef90_UPI000BFFFCAF SDR family NAD(P)-dependent oxidoreductase...  225        6e-64
+UniRef90_L8JT98 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  224        1e-63
+UniRef90_A0A545U953 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  224        2e-63
+UniRef90_UPI0012BC37C6 SDR family NAD(P)-dependent oxidoreductase...  223        2e-63
+UniRef90_UPI00068B5962 enoyl-CoA hydratase/isomerase family prote...  223        2e-63
+UniRef90_L8JSV9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  223        3e-63
+UniRef90_UPI000419F3B2 SDR family NAD(P)-dependent oxidoreductase...  223        5e-63
+UniRef90_A0A545U959 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  223        5e-63
+UniRef90_UPI00037A2D65 enoyl-CoA hydratase/isomerase family prote...  222        6e-63
+UniRef90_UPI00137A91DE SDR family NAD(P)-dependent oxidoreductase...  222        6e-63
+UniRef90_UPI000DE2F0F0 SDR family NAD(P)-dependent oxidoreductase...  222        7e-63
+UniRef90_UPI00048729CF SDR family NAD(P)-dependent oxidoreductase...  222        7e-63
+UniRef90_A0A544X7Q2 3-hydroxyacyl-CoA dehydrogenase n=32 Tax=Paen...  221        1e-62
+UniRef90_UPI000FDC8925 SDR family NAD(P)-dependent oxidoreductase...  221        2e-62
+UniRef90_W6U3R7 RNA helicase n=1 Tax=Echinococcus granulosus TaxI...  220        4e-62
+UniRef90_A0A023BQK7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  219        6e-62
+UniRef90_UPI0012BCDE3A SDR family NAD(P)-dependent oxidoreductase...  219        8e-62
+UniRef90_UPI000B5CE8D9 enoyl-CoA hydratase/isomerase family prote...  219        8e-62
+UniRef90_A0A348AQV8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  218        1e-61
+UniRef90_A0A158GLS8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  218        2e-61
+UniRef90_D4NZD5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Pseudomon...  218        3e-61
+UniRef90_A0A1E1VJ64 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=uncla...  217        3e-61
+UniRef90_A0A1S6GAR6 Type I PKS synthase n=3 Tax=Clostridium beije...  217        5e-61
+UniRef90_A0A348AQQ7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  217        5e-61
+UniRef90_UPI00083C2FE6 golgin subfamily B member 1 n=1 Tax=Nicrop...  216        6e-61
+UniRef90_A0A559QLQ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Alter...  216        7e-61
+UniRef90_K9EGV7 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Leptolyng...  216        9e-61
+UniRef90_A0A158GLA0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  216        1e-60
+UniRef90_UPI0013798F0E polyketide synthase dehydratase domain-con...  216        1e-60
+UniRef90_UPI00135B43C4 SDR family NAD(P)-dependent oxidoreductase...  215        2e-60
+UniRef90_A0A2R3ZDN0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Cuspi...  215        2e-60
+UniRef90_A0A6J5EJD6 1,4-dihydroxy-2-naphthoyl-CoA synthase n=2 Ta...  215        2e-60
+UniRef90_UPI0009E23125 SDR family NAD(P)-dependent oxidoreductase...  215        2e-60
+UniRef90_A0A1C0TKH8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  214        4e-60
+UniRef90_UPI0009444B4B SDR family NAD(P)-dependent oxidoreductase...  214        5e-60
+UniRef90_A0A562PIE7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  214        6e-60
+UniRef90_UPI0005F76B6E SDR family NAD(P)-dependent oxidoreductase...  214        6e-60
+UniRef90_UPI0013C4EE30 SDR family NAD(P)-dependent oxidoreductase...  213        7e-60
+UniRef90_UPI000E317C82 GNAT family N-acetyltransferase n=1 Tax=St...  213        8e-60
+UniRef90_A0A6G0ZE67 Uncharacterized protein n=6 Tax=Aphidini TaxI...  212        9e-60
+UniRef90_B8HKZ3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cyanothec...  213        1e-59
+UniRef90_UPI00101D8C57 GNAT family N-acetyltransferase n=2 Tax=St...  213        1e-59
+UniRef90_A0A2V8LZN1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  213        1e-59
+UniRef90_A0A6G0UYC9 Uncharacterized protein n=1 Tax=Halicephalobu...  213        1e-59
+UniRef90_A0A175XZK4 Enoyl-CoA hydratase n=2 Tax=cellular organism...  197        2e-59
+UniRef90_A0A6I1HS04 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  212        2e-59
+UniRef90_A0A2D2DP95 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  211        4e-59
+UniRef90_A9EAB1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Kordia al...  211        6e-59
+UniRef90_A0A5C2D153 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  211        7e-59
+UniRef90_A0A3R8U7Y4 Polyketide synthase of type I (Fragment) n=1 ...  210        1e-58
+UniRef90_Q5MP07 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=symbiont ...  210        1e-58
+UniRef90_UPI0006297BBB SDR family NAD(P)-dependent oxidoreductase...  210        1e-58
+UniRef90_UPI001577021B polyketide synthase dehydratase domain-con...  209        2e-58
+UniRef90_A0A6I1HYZ5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  209        2e-58
+UniRef90_U0YPN1 3-hydroxyacyl-CoA dehydrogenase n=5 Tax=Chromobac...  209        3e-58
+UniRef90_A0A0R3SA78 Ion_trans domain-containing protein n=1 Tax=H...  208        5e-58
+UniRef90_UPI0010F6D40F polyketide synthase dehydratase domain-con...  208        5e-58
+UniRef90_A0A5C7XHM0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  208        6e-58
+UniRef90_K7S6E9 3-hydroxyacyl-[acyl-carrier-protein] dehydratase ...  207        8e-58
+UniRef90_A0A559QLL4 Acyl transferase domain-containing protein n=...  207        1e-57
+UniRef90_UPI0013B47106 SDR family NAD(P)-dependent oxidoreductase...  207        1e-57
+UniRef90_A0A4R6YHP1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Tahib...  207        1e-57
+UniRef90_A0A545U9B4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  206        2e-57
+UniRef90_A0A3R8U818 Uncharacterized protein n=1 Tax=Pseudoalterom...  206        2e-57
+UniRef90_D2SUD6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=unculture...  206        2e-57
+UniRef90_A9EAB4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Kordia Ta...  206        2e-57
+UniRef90_A0A4Y6RRG2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Labre...  206        3e-57
+UniRef90_A0A2S6GM22 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  206        3e-57
+UniRef90_A0A6J2XRP3 titin isoform X1 n=3 Tax=Sitophilus oryzae Ta...  205        4e-57
+UniRef90_A0A2D2DPC1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  206        4e-57
+UniRef90_A0A0C5VNW6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  206        4e-57
+UniRef90_A0A5D0WC59 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Stapp...  206        4e-57
+UniRef90_UPI00135688A4 SDR family NAD(P)-dependent oxidoreductase...  205        7e-57
+UniRef90_UPI001575CAC0 enoyl-CoA hydratase/isomerase family prote...  204        9e-57
+UniRef90_Q6TAB6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=symbiont ...  204        1e-56
+UniRef90_UPI0006990849 methyltransferase n=1 Tax=Methylocucumis o...  204        1e-56
+UniRef90_A0A5S4UEL6 FkbM family methyltransferase n=4 Tax=Dickeya...  204        2e-56
+UniRef90_A0A125SL42 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lepto...  203        3e-56
+UniRef90_A0A4S2LB45 Uncharacterized protein n=1 Tax=Temnothorax l...  203        3e-56
+UniRef90_A0A6J5EHV0 1,4-dihydroxy-2-naphthoyl-CoA synthase n=1 Ta...  202        4e-56
+UniRef90_A0A1M3LYG1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  201        1e-55
+UniRef90_A0A699GMU7 Enoyl-CoA hydratase n=1 Tax=Tanacetum cinerar...  201        1e-55
+UniRef90_A0A1E5QAS3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  201        1e-55
+UniRef90_A0A0C5VK82 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  200        2e-55
+UniRef90_A0A1J1E737 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lysob...  200        3e-55
+UniRef90_A0A5C7XHL9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  200        3e-55
+UniRef90_A0A3D9C4J4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Chrys...  200        3e-55
+UniRef90_UPI00145D1BD2 SDR family NAD(P)-dependent oxidoreductase...  200        4e-55
+UniRef90_A0A562PHT3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  199        5e-55
+UniRef90_A0A1Q9CG25 3-hydroxybutyryl-CoA dehydratase n=1 Tax=Symb...  199        6e-55
+UniRef90_A0A0A8FHB5 FkbH n=3 Tax=Dickeya TaxID=204037 RepID=A0A0A...  199        8e-55
+UniRef90_A0A371K3S4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  199        1e-54
+UniRef90_A0A430HSF1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  198        1e-54
+UniRef90_A0A0K6GID6 3-hydroxypropionyl-coenzyme A dehydratase n=1...  198        1e-54
+UniRef90_F8J3F8 TmpE protein n=1 Tax=Pseudoalteromonas sp. SANK 7...  197        2e-54
+UniRef90_A0A2U2F0F5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  197        3e-54
+UniRef90_A0A699GEE9 Modular polyketide synthase type I n=1 Tax=Ta...  196        6e-54
+UniRef90_A0A3N1HYP8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  196        8e-54
+UniRef90_UPI0010F8CEFA SDR family NAD(P)-dependent oxidoreductase...  196        1e-53
+UniRef90_A0A1Q5KRT3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  196        1e-53
+UniRef90_A0A0M7AJS7 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Labre...  196        1e-53
+UniRef90_UPI0012EC4E0A SDR family NAD(P)-dependent oxidoreductase...  195        1e-53
+UniRef90_A0A1R1WFB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  195        2e-53
+UniRef90_A0A1B0GJN9 Uncharacterized protein n=1 Tax=Lutzomyia lon...  194        3e-53
+UniRef90_A0A3N1DUX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  194        3e-53
+UniRef90_A0A1H5HG12 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  194        6e-53
+UniRef90_UPI000B10C768 SDR family NAD(P)-dependent oxidoreductase...  193        6e-53
+UniRef90_UPI000FD978AC SDR family NAD(P)-dependent oxidoreductase...  193        9e-53
+UniRef90_A0A6N0AV54 Polyketide synthase PksL n=6 Tax=Dickeya sola...  193        1e-52
+UniRef90_UPI0012AD1C05 KR domain-containing protein n=1 Tax=Paeni...  192        1e-52
+UniRef90_A0A2J9QEG4 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Stre...  192        2e-52
+UniRef90_A0A6B3AP08 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  191        3e-52
+UniRef90_A0A6G3QPS5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  191        3e-52
+UniRef90_A0A6N0B6A6 Polyketide synthase PksL n=1 Tax=Dickeya sola...  191        4e-52
+UniRef90_A0A4R2KIM8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chrom...  191        6e-52
+UniRef90_UPI001420B217 SDR family NAD(P)-dependent oxidoreductase...  191        6e-52
+UniRef90_UPI0006E12D20 SDR family NAD(P)-dependent oxidoreductase...  190        1e-51
+UniRef90_UPI000BFEC5BD SDR family NAD(P)-dependent oxidoreductase...  190        1e-51
+UniRef90_A0A1V9ZPE8 Enoyl-CoA hydratase/isomerase family (Fragmen...  189        2e-51
+UniRef90_A0A327JTC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Rhodo...  189        3e-51
+UniRef90_UPI0012980DE6 SDR family NAD(P)-dependent oxidoreductase...  188        5e-51
+UniRef90_UPI001571FDA1 SDR family NAD(P)-dependent oxidoreductase...  187        6e-51
+UniRef90_H3NSI6 3-hydroxyacyl-CoA dehydrogenase n=12 Tax=Proteoba...  187        6e-51
+UniRef90_A0A095VPC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  187        8e-51
+UniRef90_A0A354DGG8 Acetyl-CoA synthetase (Fragment) n=1 Tax=Paen...  187        8e-51
+UniRef90_UPI000694ED3E SDR family NAD(P)-dependent oxidoreductase...  187        9e-51
+UniRef90_A0A0B7KGV8 MFS domain-containing protein n=1 Tax=Bionect...  187        1e-50
+UniRef90_UPI0015DC080B SDR family NAD(P)-dependent oxidoreductase...  187        1e-50
+UniRef90_A0A371K3K3 Methyltransferase n=2 Tax=Lysobacter sp. zong...  187        1e-50
+UniRef90_S5RPP0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Candidatu...  187        1e-50
+UniRef90_A0A2D7P4F5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  186        2e-50
+UniRef90_A0A556UY52 Heterogeneous nuclear ribonucleoprotein L n=1...  186        2e-50
+UniRef90_A0A0B2C6Y6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  186        2e-50
+UniRef90_A0A285GLJ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Actin...  186        3e-50
+UniRef90_A0A0U5BH72 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  185        4e-50
+UniRef90_A0A183BUK2 Uncharacterized protein n=1 Tax=Globodera pal...  185        5e-50
+UniRef90_A0A1D9LCW4 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Chrom...  184        7e-50
+UniRef90_A0Z523 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=marine ga...  184        8e-50
+UniRef90_A0A1F7Q910 PHYTOCHROME_2 domain-containing protein n=2 T...  184        9e-50
+UniRef90_A0A5D0S6I3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Ocean...  184        1e-49
+UniRef90_G8AEU2 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Rhodospi...  183        2e-49
+UniRef90_A0A2D4WM54 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Alter...  183        2e-49
+UniRef90_R7MKZ8 Uncharacterized protein n=3 Tax=Ruminococcus TaxI...  183        2e-49
+UniRef90_A0A0Q4NRG1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Dugan...  183        3e-49
+UniRef90_A0A6A4JT32 Uncharacterized protein n=1 Tax=Apolygus luco...  182        4e-49
+UniRef90_A0A1Q5A3G9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  182        4e-49
+UniRef90_A0A1H6I261 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Phaeo...  182        4e-49
+UniRef90_UPI0005A60027 SDR family NAD(P)-dependent oxidoreductase...  182        4e-49
+UniRef90_A0A0D1W9Y9 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Aneur...  182        5e-49
+UniRef90_A0A368CC44 3-hydroxyacyl-CoA dehydrogenase n=14 Tax=Gamm...  182        5e-49
+UniRef90_UPI000F3A9542 SDR family NAD(P)-dependent oxidoreductase...  182        7e-49
+UniRef90_A0A1Q4ZBN8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  182        7e-49
+UniRef90_UPI001261812C SDR family NAD(P)-dependent oxidoreductase...  182        7e-49
+UniRef90_A0A2H4T172 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Strep...  182        7e-49
+UniRef90_A0A5C7RHW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Xanth...  182        8e-49
+UniRef90_R9S523 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Burkhold...  181        8e-49
+UniRef90_A0A1B0G8M7 Uncharacterized protein n=2 Tax=Glossina TaxI...  181        9e-49
+UniRef90_A0A2S2CQ09 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Azosp...  181        1e-48
+UniRef90_K2JKC4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Oceanibac...  181        2e-48
+UniRef90_A0A511V5R1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  180        2e-48
+UniRef90_M5C3N1 CHAT domain-containing protein n=2 Tax=Thanatepho...  180        2e-48
+UniRef90_A0A0G3UEJ4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  180        3e-48
+UniRef90_K0K0L1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Saccharot...  179        8e-48
+UniRef90_A0A139I0Z5 Uncharacterized protein n=1 Tax=Pseudocercosp...  178        9e-48
+UniRef90_UPI000851E703 SDR family NAD(P)-dependent oxidoreductase...  178        1e-47
+UniRef90_A0A146KKJ0 Chromodomain Y-like protein n=2 Tax=Lygus hes...  178        1e-47
+UniRef90_A0A1H3BGG8 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Gamma...  178        1e-47
+UniRef90_A0A0A2W5D7 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohex...  178        1e-47
+UniRef90_UPI000D59F445 SDR family NAD(P)-dependent oxidoreductase...  178        2e-47
+UniRef90_A0A2U1VLT8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Azosp...  177        2e-47
+UniRef90_A0A375I5K7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Propi...  177        2e-47
+UniRef90_A0A2E1NPX5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  177        3e-47
+UniRef90_UPI000415DAB8 SDR family NAD(P)-dependent oxidoreductase...  177        3e-47
+UniRef90_A4A7V6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Congregib...  176        4e-47
+UniRef90_UPI0013036F62 SDR family NAD(P)-dependent oxidoreductase...  177        4e-47
+UniRef90_UPI000562FC7D SDR family NAD(P)-dependent oxidoreductase...  177        4e-47
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A2V8LZT1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  217        3e-61
+UniRef90_A0A023BPF7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Aquim...  214        3e-60
+UniRef90_A0A0Y0KAU5 3-hydroxyacyl-[acyl-carrier-protein] dehydrat...  213        1e-59
+UniRef90_A0A068PCG6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  212        2e-59
+UniRef90_A0A023BPU4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  208        4e-58
+UniRef90_A0A1C0TJW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  206        3e-57
+UniRef90_A0A090AEQ9 FkbH-like protein n=2 Tax=Thioploca ingrica T...  205        4e-57
+UniRef90_A0A430HSC2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  204        8e-57
+UniRef90_A0A6G5NVN3 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscil...  204        9e-57
+UniRef90_C6C2V8 FkbH like protein n=1 Tax=Dickeya paradisiaca (st...  204        2e-56
+UniRef90_UPI000D6DD817 SDR family NAD(P)-dependent oxidoreductase...  204        2e-56
+UniRef90_A0A318ETL4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lachn...  203        2e-56
+UniRef90_UPI00135CEB9F SDR family NAD(P)-dependent oxidoreductase...  202        6e-56
+UniRef90_V6F0D6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Magnetosp...  202        6e-56
+UniRef90_A0A6P0SF92 Acyltransferase domain-containing protein (Fr...  202        8e-56
+UniRef90_UPI00039FB491 SDR family NAD(P)-dependent oxidoreductase...  201        1e-55
+UniRef90_A0A2A4XTQ6 Uncharacterized protein (Fragment) n=1 Tax=Ec...  200        2e-55
+UniRef90_UPI000B2F7CAF polyketide synthase dehydratase domain-con...  200        2e-55
+UniRef90_UPI000948D807 SDR family NAD(P)-dependent oxidoreductase...  200        4e-55
+UniRef90_K7XCS5 Polyketide synthase n=1 Tax=Serratia marcescens T...  199        9e-55
+UniRef90_A0A538N0A4 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  197        3e-54
+UniRef90_UPI00132FE7E0 SDR family NAD(P)-dependent oxidoreductase...  197        4e-54
+UniRef90_A0A385XZ30 Polyketide synthase PksL n=9 Tax=Dickeya dian...  197        4e-54
+UniRef90_V4HHJ8 Beta-ketoacyl synthase n=2 Tax=Pseudoalteromonas ...  196        9e-54
+UniRef90_UPI0012EC2660 SDR family NAD(P)-dependent oxidoreductase...  195        1e-53
+UniRef90_A0A0Q6T6N5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  195        2e-53
+UniRef90_A0A6L9YGN6 SDR family NAD(P)-dependent oxidoreductase n=...  194        3e-53
+UniRef90_A0A1Q5WBV0 Polyketide synthase n=1 Tax=Serratia marcesce...  193        6e-53
+UniRef90_UPI000EF618DA SDR family NAD(P)-dependent oxidoreductase...  193        8e-53
+UniRef90_A0A3G1J0D9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  192        2e-52
+UniRef90_A0A6P1YX25 SDR family NAD(P)-dependent oxidoreductase n=...  192        2e-52
+UniRef90_UPI000CDEE8C4 SDR family NAD(P)-dependent oxidoreductase...  191        3e-52
+UniRef90_K7WLR7 Polyketide synthase n=8 Tax=Serratia TaxID=613 Re...  191        3e-52
+UniRef90_A0A6P1YWE7 SDR family NAD(P)-dependent oxidoreductase n=...  191        4e-52
+UniRef90_A0A321M3D6 Uncharacterized protein (Fragment) n=1 Tax=Ac...  190        8e-52
+UniRef90_A0A365XV05 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chiti...  190        8e-52
+UniRef90_A0A2M9IH00 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  190        1e-51
+UniRef90_A0A4R6YHT0 Enoyl-CoA hydratase/isomerase-like protein (F...  190        1e-51
+UniRef90_A0A2M9L7P1 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  189        3e-51
+UniRef90_A0A2L0EWC5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Soran...  188        3e-51
+UniRef90_A0A1C4TP26 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  188        5e-51
+UniRef90_A0A261GGW9 Uncharacterized protein n=1 Tax=Hahella sp. C...  188        5e-51
+UniRef90_UPI0015A26971 SDR family NAD(P)-dependent oxidoreductase...  188        5e-51
+UniRef90_UPI0012AD1AA8 SDR family NAD(P)-dependent oxidoreductase...  188        5e-51
+UniRef90_A0A5B1BC10 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  187        1e-50
+UniRef90_C7PXR3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Catenulis...  187        1e-50
+UniRef90_A0A358R076 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Desul...  187        1e-50
+UniRef90_S4XKK3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Sorangium...  187        1e-50
+UniRef90_A0A089KEB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Paeni...  185        4e-50
+UniRef90_A0A089HLX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Paeni...  185        4e-50
+UniRef90_A0A429AFR6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Nonom...  185        7e-50
+UniRef90_A0A375I124 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Propi...  184        7e-50
+UniRef90_A0A1C4UNU7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Micro...  184        8e-50
+UniRef90_A0A285T8I9 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Stapp...  184        1e-49
+UniRef90_UPI00136C616C SDR family NAD(P)-dependent oxidoreductase...  183        2e-49
+UniRef90_A0A2J9QF76 3-hydroxyacyl-CoA dehydrogenase n=11 Tax=Stre...  183        3e-49
+UniRef90_UPI0015EC5F74 SDR family NAD(P)-dependent oxidoreductase...  182        4e-49
+UniRef90_A0A6L9MBZ6 SDR family NAD(P)-dependent oxidoreductase n=...  181        1e-48
+UniRef90_Q6DNE7 3-hydroxyacyl-CoA dehydrogenase n=5 Tax=Oscillato...  181        1e-48
+UniRef90_UPI0012D3C56A SDR family NAD(P)-dependent oxidoreductase...  181        1e-48
+UniRef90_A0A6B3P4M2 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Okean...  181        1e-48
+UniRef90_UPI000F549B13 polyketide synthase dehydratase domain-con...  181        1e-48
+UniRef90_A0A6B1P9W6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  181        2e-48
+UniRef90_A0A6A0BU60 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  180        3e-48
+UniRef90_A0A380P604 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Stre...  179        4e-48
+UniRef90_UPI001555ACB8 SDR family NAD(P)-dependent oxidoreductase...  179        4e-48
+UniRef90_A0A495TG70 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  179        5e-48
+UniRef90_A0A285QT36 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  179        5e-48
+UniRef90_A0A0F7VSB9 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Strep...  177        2e-47
+UniRef90_UPI00138DFAB4 SDR family NAD(P)-dependent oxidoreductase...  177        2e-47
+UniRef90_UPI0014832A12 SDR family NAD(P)-dependent oxidoreductase...  177        2e-47
+UniRef90_A0A3G1J0L8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  177        2e-47
+UniRef90_UPI000826867B SDR family NAD(P)-dependent oxidoreductase...  177        2e-47
+UniRef90_UPI0007C669B5 SDR family NAD(P)-dependent oxidoreductase...  177        2e-47
+UniRef90_UPI00036E84C1 SDR family NAD(P)-dependent oxidoreductase...  177        3e-47
+UniRef90_Q6E7K0 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscillato...  177        4e-47
+UniRef90_A0A3Q9I719 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Paeni...  177        4e-47
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0407    0.140     1.90     42.6     43.6 
+
+Effective search space used: 631867950259
+Results from round 3
+
+
+Query= sp|Q9Y232-3|CDYL_HUMAN Isoform 3 of Chromodomain Y-like protein
+OS=Homo sapiens OX=9606 GN=CDYL
+
+Length=309
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI0013042FED uncharacterized protein LOC116431902 isofo...  294        4e-88
+UniRef90_UPI00083C074C uncharacterized protein LOC108556102 n=1 T...  293        1e-87
+UniRef90_UPI0008523E80 uncharacterized protein LOC108779275 isofo...  292        2e-87
+UniRef90_E2AL24 Chromodomain Y-like protein 2 n=2 Tax=Camponotus ...  292        2e-87
+UniRef90_A0A195FGK1 Chromodomain Y-like protein n=8 Tax=Attini Ta...  291        5e-87
+UniRef90_A0A158NGU5 Uncharacterized protein n=7 Tax=Attini TaxID=...  291        6e-87
+UniRef90_A0A6J3LN90 interaptin isoform X1 n=13 Tax=Bombus TaxID=2...  291        8e-87
+UniRef90_A0A6I9WMC2 uncharacterized protein LOC105424416 isoform ...  290        1e-86
+UniRef90_A0A4S2JTQ9 Uncharacterized protein n=6 Tax=Temnothorax T...  290        1e-86
+UniRef90_UPI0010FB2D1D microtubule-associated protein futsch-like...  290        1e-86
+UniRef90_A0A0L7R473 Chromodomain Y-like protein 2 n=2 Tax=Habropo...  290        2e-86
+UniRef90_UPI0011416F61 uncharacterized protein LOC115235138 n=1 T...  289        2e-86
+UniRef90_A0A154P6B8 Chromodomain Y-like protein 2 n=2 Tax=Dufoure...  289        2e-86
+UniRef90_UPI001442F01C centromere-associated protein E isoform X1...  289        3e-86
+UniRef90_UPI0006152DD6 uncharacterized protein LOC100877790 isofo...  288        4e-86
+UniRef90_UPI0010F57FE8 titin homolog n=2 Tax=Osmia TaxID=124287 R...  288        5e-86
+UniRef90_E9IUP9 Uncharacterized protein (Fragment) n=2 Tax=Soleno...  288        7e-86
+UniRef90_UPI00063F57B4 uncharacterized protein LOC105830532 isofo...  288        1e-85
+UniRef90_A0A088ARJ9 Uncharacterized protein n=5 Tax=Apis TaxID=74...  286        2e-85
+UniRef90_UPI000466726D SDR family NAD(P)-dependent oxidoreductase...  286        4e-85
+UniRef90_UPI000995974E claspin-like n=1 Tax=Pseudomyrmex gracilis...  285        6e-85
+UniRef90_UPI0006230767 LOW QUALITY PROTEIN: uncharacterized prote...  285        8e-85
+UniRef90_UPI00073D4E78 extracellular matrix-binding protein ebh n...  284        1e-84
+UniRef90_UPI0013F1D6C2 serine-rich adhesin for platelets-like iso...  284        3e-84
+UniRef90_UPI0005F03351 uncharacterized protein LOC105449665 isofo...  283        4e-84
+UniRef90_UPI000BED6A64 enoyl-CoA hydratase/isomerase family prote...  283        6e-84
+UniRef90_UPI0012BCF61F SDR family NAD(P)-dependent oxidoreductase...  281        2e-83
+UniRef90_A0A3L8D7P8 Uncharacterized protein n=3 Tax=Ooceraea biro...  280        3e-83
+UniRef90_A0A348AQV2 Polyketide synthase PksR n=1 Tax=Methylomusa ...  279        4e-83
+UniRef90_A0A6L2PKW2 Uncharacterized protein n=1 Tax=Coptotermes f...  279        7e-83
+UniRef90_UPI0004CD1F37 titin n=1 Tax=Microplitis demolitor TaxID=...  279        7e-83
+UniRef90_A0A067QMS2 Chromodomain Y-like protein n=1 Tax=Zootermop...  279        9e-83
+UniRef90_UPI0012BC37C6 SDR family NAD(P)-dependent oxidoreductase...  279        1e-82
+UniRef90_A0A545U953 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  278        2e-82
+UniRef90_UPI001324A70D SDR family NAD(P)-dependent oxidoreductase...  277        7e-82
+UniRef90_A0A545U959 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  277        8e-82
+UniRef90_UPI000DBED544 proteoglycan 4 isoform X1 n=4 Tax=Harpegna...  276        9e-82
+UniRef90_A0A2V8LZT1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  276        1e-81
+UniRef90_L8JSV9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  276        1e-81
+UniRef90_L8JT98 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Fulvivirg...  276        1e-81
+UniRef90_UPI000419F3B2 SDR family NAD(P)-dependent oxidoreductase...  276        1e-81
+UniRef90_UPI0005F544AE uncharacterized protein LOC105566507 isofo...  275        2e-81
+UniRef90_A0A348AQV8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  274        4e-81
+UniRef90_UPI000711D188 proteoglycan 4-like isoform X1 n=2 Tax=Din...  274        6e-81
+UniRef90_UPI00137A91DE SDR family NAD(P)-dependent oxidoreductase...  274        6e-81
+UniRef90_UPI0012BCDE3A SDR family NAD(P)-dependent oxidoreductase...  273        1e-80
+UniRef90_UPI00101C8573 SDR family NAD(P)-dependent oxidoreductase...  273        1e-80
+UniRef90_UPI00037A2D65 enoyl-CoA hydratase/isomerase family prote...  273        1e-80
+UniRef90_UPI0006C98630 uncharacterized protein LOC106644389 isofo...  273        1e-80
+UniRef90_UPI000DE2F0F0 SDR family NAD(P)-dependent oxidoreductase...  273        1e-80
+UniRef90_A0A023BPF7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Aquim...  273        1e-80
+UniRef90_UPI00158E07B8 uncharacterized protein LOC118067998 n=1 T...  272        2e-80
+UniRef90_A0A348AQQ7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  273        2e-80
+UniRef90_A0A545U9B4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aliik...  272        3e-80
+UniRef90_UPI0008407BD7 uncharacterized protein LOC108626137 isofo...  271        4e-80
+UniRef90_A0A158GLA0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  271        8e-80
+UniRef90_A0A544X7Q2 3-hydroxyacyl-CoA dehydrogenase n=32 Tax=Paen...  270        1e-79
+UniRef90_UPI0013798F0E polyketide synthase dehydratase domain-con...  270        1e-79
+UniRef90_UPI0005CDDCAA uncharacterized protein LOC105364270 n=1 T...  270        1e-79
+UniRef90_A0A0Y0KAU5 3-hydroxyacyl-[acyl-carrier-protein] dehydrat...  270        2e-79
+UniRef90_A0A318ETL4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lachn...  270        2e-79
+UniRef90_A0A0K2FAR2 3-hydroxyacyl-CoA dehydrogenase n=17 Tax=Paen...  270        2e-79
+UniRef90_A0A023BQK7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  269        2e-79
+UniRef90_UPI00046FFEB1 SDR family NAD(P)-dependent oxidoreductase...  269        2e-79
+UniRef90_UPI001266A2FD SDR family NAD(P)-dependent oxidoreductase...  269        3e-79
+UniRef90_UPI000471AAA4 SDR family NAD(P)-dependent oxidoreductase...  269        3e-79
+UniRef90_A0A023BPU4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  269        4e-79
+UniRef90_UPI00135B43C4 SDR family NAD(P)-dependent oxidoreductase...  268        7e-79
+UniRef90_A0A1E1VJ64 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=uncla...  268        1e-78
+UniRef90_A0A2L2N449 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  267        1e-78
+UniRef90_A0A2V8LZN1 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  267        1e-78
+UniRef90_UPI0009E23125 SDR family NAD(P)-dependent oxidoreductase...  267        2e-78
+UniRef90_K9EGV7 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Leptolyng...  267        2e-78
+UniRef90_UPI000D62D0AA uncharacterized protein LOC107274086 isofo...  266        2e-78
+UniRef90_UPI00101D8C57 GNAT family N-acetyltransferase n=2 Tax=St...  267        2e-78
+UniRef90_UPI000FDC8925 SDR family NAD(P)-dependent oxidoreductase...  266        3e-78
+UniRef90_UPI000E317C82 GNAT family N-acetyltransferase n=1 Tax=St...  266        3e-78
+UniRef90_A0A1C0TKH8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  266        3e-78
+UniRef90_A0A2A4XTQ6 Uncharacterized protein (Fragment) n=1 Tax=Ec...  266        3e-78
+UniRef90_UPI000B5CE8D9 enoyl-CoA hydratase/isomerase family prote...  266        3e-78
+UniRef90_A0A562PIE7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  266        3e-78
+UniRef90_UPI0013C4EE30 SDR family NAD(P)-dependent oxidoreductase...  265        7e-78
+UniRef90_A0A3R8U7Y4 Polyketide synthase of type I (Fragment) n=1 ...  265        7e-78
+UniRef90_UPI00048729CF SDR family NAD(P)-dependent oxidoreductase...  265        9e-78
+UniRef90_A9EAB4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Kordia Ta...  265        1e-77
+UniRef90_UPI00068B5962 enoyl-CoA hydratase/isomerase family prote...  264        1e-77
+UniRef90_UPI0012AD1AA8 SDR family NAD(P)-dependent oxidoreductase...  264        1e-77
+UniRef90_D4NZD5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Pseudomon...  264        1e-77
+UniRef90_UPI0005F76B6E SDR family NAD(P)-dependent oxidoreductase...  264        2e-77
+UniRef90_A0A6G5NVN3 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscil...  264        2e-77
+UniRef90_A0A158GLS8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cabal...  264        2e-77
+UniRef90_UPI000BFFFCAF SDR family NAD(P)-dependent oxidoreductase...  263        4e-77
+UniRef90_UPI00143D081D uncharacterized protein LOC117181418 n=1 T...  263        4e-77
+UniRef90_UPI0009444B4B SDR family NAD(P)-dependent oxidoreductase...  263        5e-77
+UniRef90_A0A5S4UEL6 FkbM family methyltransferase n=4 Tax=Dickeya...  262        7e-77
+UniRef90_A0A6P0SF92 Acyltransferase domain-containing protein (Fr...  262        8e-77
+UniRef90_A9EAB1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Kordia al...  262        1e-76
+UniRef90_A0A6I1HS04 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  261        1e-76
+UniRef90_K7S6E9 3-hydroxyacyl-[acyl-carrier-protein] dehydratase ...  261        2e-76
+UniRef90_A0A358R076 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Desul...  261        2e-76
+UniRef90_B8HKZ3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Cyanothec...  261        2e-76
+UniRef90_C6C2V8 FkbH like protein n=1 Tax=Dickeya paradisiaca (st...  261        2e-76
+UniRef90_UPI00135688A4 SDR family NAD(P)-dependent oxidoreductase...  261        2e-76
+UniRef90_UPI001577021B polyketide synthase dehydratase domain-con...  261        2e-76
+UniRef90_A0A6J1T535 proteoglycan 4-like isoform X1 n=3 Tax=Frankl...  260        3e-76
+UniRef90_UPI00135CEB9F SDR family NAD(P)-dependent oxidoreductase...  261        3e-76
+UniRef90_A0A089HLX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Paeni...  260        4e-76
+UniRef90_UPI000D6DD817 SDR family NAD(P)-dependent oxidoreductase...  260        4e-76
+UniRef90_A0A0A8FHB5 FkbH n=3 Tax=Dickeya TaxID=204037 RepID=A0A0A...  260        5e-76
+UniRef90_A0A068PCG6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  260        5e-76
+UniRef90_A0A2R3ZDN0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Cuspi...  260        5e-76
+UniRef90_A0A6J0CC65 uncharacterized protein LOC107227405 n=1 Tax=...  259        6e-76
+UniRef90_UPI0006297BBB SDR family NAD(P)-dependent oxidoreductase...  259        9e-76
+UniRef90_A0A2D2DPC1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  259        1e-75
+UniRef90_UPI000B2F7CAF polyketide synthase dehydratase domain-con...  258        2e-75
+UniRef90_A0A6J5EHV0 1,4-dihydroxy-2-naphthoyl-CoA synthase n=1 Ta...  257        3e-75
+UniRef90_K7JC04 Uncharacterized protein n=3 Tax=Pteromalinae TaxI...  257        3e-75
+UniRef90_A0A1C0TJW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Pseud...  257        4e-75
+UniRef90_A0A2D2DP95 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  257        4e-75
+UniRef90_A0A0C5VNW6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  257        4e-75
+UniRef90_UPI000626BFD7 uncharacterized protein LOC105683161 n=1 T...  257        5e-75
+UniRef90_A0A430HSC2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  257        5e-75
+UniRef90_UPI0014833DB5 uncharacterized protein LOC117651111 isofo...  256        7e-75
+UniRef90_A0A6I1HYZ5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Janth...  256        8e-75
+UniRef90_Q5MP07 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=symbiont ...  256        9e-75
+UniRef90_A0A5C7XHM0 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  256        9e-75
+UniRef90_UPI00039FB491 SDR family NAD(P)-dependent oxidoreductase...  256        1e-74
+UniRef90_A0A1S6GAR6 Type I PKS synthase n=3 Tax=Clostridium beije...  256        1e-74
+UniRef90_A0A2J9QF76 3-hydroxyacyl-CoA dehydrogenase n=11 Tax=Stre...  256        2e-74
+UniRef90_A0A090AEQ9 FkbH-like protein n=2 Tax=Thioploca ingrica T...  255        2e-74
+UniRef90_UPI001575CAC0 enoyl-CoA hydratase/isomerase family prote...  254        3e-74
+UniRef90_A0A5C2D153 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  254        4e-74
+UniRef90_A0A6L9YGN6 SDR family NAD(P)-dependent oxidoreductase n=...  254        4e-74
+UniRef90_UPI000CDEE8C4 SDR family NAD(P)-dependent oxidoreductase...  254        6e-74
+UniRef90_Q6TAB6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=symbiont ...  253        1e-73
+UniRef90_UPI0010F6D40F polyketide synthase dehydratase domain-con...  253        1e-73
+UniRef90_A0A2L0EWC5 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Soran...  253        1e-73
+UniRef90_K7XCS5 Polyketide synthase n=1 Tax=Serratia marcescens T...  253        1e-73
+UniRef90_A0A385XZ30 Polyketide synthase PksL n=9 Tax=Dickeya dian...  253        1e-73
+UniRef90_UPI0013B47106 SDR family NAD(P)-dependent oxidoreductase...  253        1e-73
+UniRef90_A0A4R6YHP1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Tahib...  252        2e-73
+UniRef90_A0A538N0A4 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  252        2e-73
+UniRef90_UPI0006990849 methyltransferase n=1 Tax=Methylocucumis o...  252        2e-73
+UniRef90_A0A5D0WC59 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Stapp...  252        2e-73
+UniRef90_UPI000625FFB8 titin n=1 Tax=Orussus abietinus TaxID=2228...  252        3e-73
+UniRef90_A0A261GGW9 Uncharacterized protein n=1 Tax=Hahella sp. C...  252        3e-73
+UniRef90_A0A089KEB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Paeni...  252        3e-73
+UniRef90_D2SUD6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=unculture...  251        4e-73
+UniRef90_A0A6J5EJD6 1,4-dihydroxy-2-naphthoyl-CoA synthase n=2 Ta...  251        5e-73
+UniRef90_A0A2S6GM22 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Methy...  251        5e-73
+UniRef90_UPI000948D807 SDR family NAD(P)-dependent oxidoreductase...  251        6e-73
+UniRef90_K7WLR7 Polyketide synthase n=8 Tax=Serratia TaxID=613 Re...  251        7e-73
+UniRef90_A0A6N0AV54 Polyketide synthase PksL n=6 Tax=Dickeya sola...  250        1e-72
+UniRef90_A0A5B1BC10 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aquim...  250        1e-72
+UniRef90_V4HHJ8 Beta-ketoacyl synthase n=2 Tax=Pseudoalteromonas ...  250        1e-72
+UniRef90_A0A559QLQ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Alter...  250        1e-72
+UniRef90_A0A3G1J0D9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  250        1e-72
+UniRef90_A0A3R8U818 Uncharacterized protein n=1 Tax=Pseudoalterom...  250        2e-72
+UniRef90_UPI00132FE7E0 SDR family NAD(P)-dependent oxidoreductase...  249        3e-72
+UniRef90_A0A4Y6RRG2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Labre...  249        3e-72
+UniRef90_A0A371K3S4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  249        4e-72
+UniRef90_F8J3F8 TmpE protein n=1 Tax=Pseudoalteromonas sp. SANK 7...  249        4e-72
+UniRef90_S4XKK3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Sorangium...  249        4e-72
+UniRef90_V6F0D6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Magnetosp...  249        4e-72
+UniRef90_A0A1M3LYG1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  249        5e-72
+UniRef90_A0A6P1YX25 SDR family NAD(P)-dependent oxidoreductase n=...  247        1e-71
+UniRef90_A0A6N0B6A6 Polyketide synthase PksL n=1 Tax=Dickeya sola...  247        1e-71
+UniRef90_A0A125SL42 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lepto...  247        1e-71
+UniRef90_A0A559QLL4 Acyl transferase domain-containing protein n=...  246        2e-71
+UniRef90_UPI0010F8CEFA SDR family NAD(P)-dependent oxidoreductase...  246        3e-71
+UniRef90_A0A3D9C4J4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Chrys...  246        3e-71
+UniRef90_A0A2J9QEG4 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Stre...  246        4e-71
+UniRef90_A0A0C5VK82 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Gynue...  246        4e-71
+UniRef90_U0YPN1 3-hydroxyacyl-CoA dehydrogenase n=5 Tax=Chromobac...  246        4e-71
+UniRef90_UPI0015A26971 SDR family NAD(P)-dependent oxidoreductase...  246        4e-71
+UniRef90_UPI00145D1BD2 SDR family NAD(P)-dependent oxidoreductase...  246        5e-71
+UniRef90_A0A3N1DUX4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  245        6e-71
+UniRef90_A0A1R1WFB3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  245        6e-71
+UniRef90_A0A1Q5WBV0 Polyketide synthase n=1 Tax=Serratia marcesce...  245        6e-71
+UniRef90_UPI0012AD1C05 KR domain-containing protein n=1 Tax=Paeni...  244        1e-70
+UniRef90_A0A430HSF1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  244        1e-70
+UniRef90_UPI0012EC4E0A SDR family NAD(P)-dependent oxidoreductase...  244        1e-70
+UniRef90_UPI000694ED3E SDR family NAD(P)-dependent oxidoreductase...  243        3e-70
+UniRef90_A0A0M7AJS7 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Labre...  243        4e-70
+UniRef90_A0A562PHT3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  243        4e-70
+UniRef90_A0A2M9IH00 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  242        5e-70
+UniRef90_A0A1J1E737 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Lysob...  242        5e-70
+UniRef90_UPI000EF618DA SDR family NAD(P)-dependent oxidoreductase...  242        6e-70
+UniRef90_UPI000FD978AC SDR family NAD(P)-dependent oxidoreductase...  242        7e-70
+UniRef90_A0A158QIJ7 Uncharacterized protein n=1 Tax=Rodentolepis ...  241        9e-70
+UniRef90_A0A1C4UNU7 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Micro...  242        9e-70
+UniRef90_A0A3N1HYP8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  242        1e-69
+UniRef90_A0A3Q9I719 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Paeni...  241        1e-69
+UniRef90_A0A1Q5KRT3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  241        1e-69
+UniRef90_A0A2M9L7P1 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  241        2e-69
+UniRef90_A0A5C7XHL9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Lysob...  241        2e-69
+UniRef90_A0A285QT36 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  241        2e-69
+UniRef90_A0A495TG70 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  241        2e-69
+UniRef90_A0A1C4TP26 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  240        2e-69
+UniRef90_A0A089K047 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=uncla...  240        3e-69
+UniRef90_UPI0012EC2660 SDR family NAD(P)-dependent oxidoreductase...  240        4e-69
+UniRef90_A0A089MQV3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Paeni...  240        4e-69
+UniRef90_A0A6B1P9W6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  239        7e-69
+UniRef90_A0A365XV05 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Chiti...  239        8e-69
+UniRef90_A0A0Q6T6N5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Massi...  239        1e-68
+UniRef90_R7MKZ8 Uncharacterized protein n=3 Tax=Ruminococcus TaxI...  238        1e-68
+UniRef90_A0A1H5HG12 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=uncla...  238        2e-68
+UniRef90_UPI00036E84C1 SDR family NAD(P)-dependent oxidoreductase...  238        2e-68
+UniRef90_A0A321M3D6 Uncharacterized protein (Fragment) n=1 Tax=Ac...  238        2e-68
+UniRef90_UPI000F684C1E LOW QUALITY PROTEIN: uncharacterized prote...  238        2e-68
+UniRef90_UPI000B10C768 SDR family NAD(P)-dependent oxidoreductase...  237        3e-68
+UniRef90_A0A699GEE9 Modular polyketide synthase type I n=1 Tax=Ta...  237        4e-68
+UniRef90_A0A5C7RHW9 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Xanth...  237        5e-68
+UniRef90_W6UK57 Enoyl-CoA hydratase n=1 Tax=Echinococcus granulos...  236        6e-68
+UniRef90_A0A1E5QAS3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Magne...  236        8e-68
+UniRef90_A0A375I124 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Propi...  236        8e-68
+UniRef90_UPI0012D3C56A SDR family NAD(P)-dependent oxidoreductase...  236        9e-68
+UniRef90_A0A2U3EJS0 RING-type domain-containing protein n=3 Tax=P...  236        1e-67
+UniRef90_A0A4R6ZMZ2 Phosphopantetheine binding protein (Fragment)...  236        1e-67
+UniRef90_A0A6P1YWE7 SDR family NAD(P)-dependent oxidoreductase n=...  236        1e-67
+UniRef90_UPI001420B217 SDR family NAD(P)-dependent oxidoreductase...  236        1e-67
+UniRef90_UPI0014832A12 SDR family NAD(P)-dependent oxidoreductase...  236        2e-67
+UniRef90_A0A5B7CGD2 Chromodomain Y-like protein n=1 Tax=Portunus ...  235        2e-67
+UniRef90_A0A429AFR6 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Nonom...  235        2e-67
+UniRef90_UPI000F549B13 polyketide synthase dehydratase domain-con...  234        5e-67
+UniRef90_C7PXR3 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Catenulis...  233        8e-67
+UniRef90_A0A285GLJ2 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Actin...  233        9e-67
+UniRef90_A0A0J7L3C3 Leucine-rich repeat-containing protein n=1 Ta...  233        1e-66
+UniRef90_UPI0015DC080B SDR family NAD(P)-dependent oxidoreductase...  233        1e-66
+UniRef90_S5RPP0 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Candidatu...  232        1e-66
+UniRef90_UPI001555ACB8 SDR family NAD(P)-dependent oxidoreductase...  232        2e-66
+UniRef90_UPI0006C9D235 uncharacterized protein PF11_0213 n=1 Tax=...  232        2e-66
+UniRef90_K0K0L1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Saccharot...  232        3e-66
+UniRef90_A0A1B6MCK1 Uncharacterized protein n=1 Tax=Graphocephala...  232        3e-66
+UniRef90_A0A6B3P4M2 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Okean...  232        3e-66
+UniRef90_UPI00136C616C SDR family NAD(P)-dependent oxidoreductase...  231        4e-66
+UniRef90_UPI0015EC5F74 SDR family NAD(P)-dependent oxidoreductase...  231        4e-66
+UniRef90_UPI0012980DE6 SDR family NAD(P)-dependent oxidoreductase...  231        5e-66
+UniRef90_A0A1D9LCW4 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Chrom...  231        5e-66
+UniRef90_R9S523 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Burkhold...  231        6e-66
+UniRef90_UPI00084B2994 cell wall protein RBR3-like n=1 Tax=Hyalel...  231        6e-66
+UniRef90_L7J1F1 RING finger domain-containing protein n=4 Tax=Pyr...  231        7e-66
+UniRef90_A0A4R6YHT0 Enoyl-CoA hydratase/isomerase-like protein (F...  231        8e-66
+UniRef90_A0A2U2F0F5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  230        1e-65
+UniRef90_UPI000BFEC5BD SDR family NAD(P)-dependent oxidoreductase...  229        2e-65
+UniRef90_A0A0G4MV95 RING-type domain-containing protein n=1 Tax=V...  229        2e-65
+UniRef90_A0A6P0WQC4 Acyltransferase domain-containing protein (Fr...  229        2e-65
+UniRef90_UPI00047287B4 SDR family NAD(P)-dependent oxidoreductase...  229        2e-65
+UniRef90_UPI001571FDA1 SDR family NAD(P)-dependent oxidoreductase...  229        2e-65
+UniRef90_UPI0013EEC6F8 SDR family NAD(P)-dependent oxidoreductase...  229        3e-65
+UniRef90_A0A371K3K3 Methyltransferase n=2 Tax=Lysobacter sp. zong...  228        5e-65
+UniRef90_A0A1B6H265 Uncharacterized protein n=2 Tax=Cuerna arida ...  228        7e-65
+UniRef90_A0A6M0GQR7 Acyltransferase domain-containing protein n=5...  227        9e-65
+UniRef90_Q6E7K0 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Oscillato...  227        1e-64
+UniRef90_A0A6P0V258 SDR family NAD(P)-dependent oxidoreductase n=...  227        1e-64
+UniRef90_UPI001261812C SDR family NAD(P)-dependent oxidoreductase...  227        1e-64
+UniRef90_UPI00068A5B66 SDR family NAD(P)-dependent oxidoreductase...  227        1e-64
+UniRef90_A0A3G1J0L8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=uncul...  226        4e-64
+UniRef90_A0A6G0UYC9 Uncharacterized protein n=1 Tax=Halicephalobu...  226        4e-64
+UniRef90_A0A6G3QPS5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  225        5e-64
+UniRef90_A0A0B2C6Y6 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  225        7e-64
+UniRef90_A0A5D0S6I3 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Ocean...  225        8e-64
+UniRef90_UPI0006E12D20 SDR family NAD(P)-dependent oxidoreductase...  224        1e-63
+UniRef90_A0A383RFW7 Uncharacterized protein n=4 Tax=Paenibacillus...  224        1e-63
+UniRef90_A0A6B3AP08 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  224        2e-63
+UniRef90_A0A543ARU5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Stack...  224        2e-63
+UniRef90_A0A2J9QFB0 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Stre...  223        2e-63
+UniRef90_UPI0002B5086C SDR family NAD(P)-dependent oxidoreductase...  223        2e-63
+UniRef90_A0A6A0BU60 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  223        3e-63
+UniRef90_A0A380P604 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Stre...  223        3e-63
+UniRef90_UPI00138DFAB4 SDR family NAD(P)-dependent oxidoreductase...  223        3e-63
+UniRef90_A0A0F7VSB9 3-hydroxyacyl-CoA dehydrogenase n=3 Tax=Strep...  223        3e-63
+UniRef90_UPI000DF68A99 E3 ubiquitin-protein ligase RBBP6 isoform ...  222        4e-63
+UniRef90_UPI000826867B SDR family NAD(P)-dependent oxidoreductase...  222        4e-63
+UniRef90_A0A1H6I261 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Phaeo...  222        5e-63
+UniRef90_UPI0007C669B5 SDR family NAD(P)-dependent oxidoreductase...  222        5e-63
+UniRef90_A0A0F0HXT7 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Sacch...  222        7e-63
+UniRef90_A0A327JTC8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Rhodo...  221        1e-62
+UniRef90_A0A0Q4NRG1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Dugan...  221        2e-62
+UniRef90_UPI000E6E40E2 uncharacterized protein LOC113367493 n=1 T...  220        3e-62
+UniRef90_UPI000E6E3084 LOW QUALITY PROTEIN: uncharacterized prote...  220        3e-62
+UniRef90_UPI000851E703 SDR family NAD(P)-dependent oxidoreductase...  220        3e-62
+UniRef90_A0A6M2DQG7 Putative enoyl-coa hydratase/isomerase n=1 Ta...  220        3e-62
+UniRef90_A0A6L9MBZ6 SDR family NAD(P)-dependent oxidoreductase n=...  220        3e-62
+UniRef90_A0A3N1MG79 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  220        3e-62
+UniRef90_A0A107K2Y9 3-hydroxyacyl-CoA dehydrogenase n=13 Tax=Burk...  220        4e-62
+UniRef90_A0A285T8I9 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Stapp...  220        5e-62
+UniRef90_Q6DNE7 3-hydroxyacyl-CoA dehydrogenase n=5 Tax=Oscillato...  220        5e-62
+UniRef90_UPI00046E600E SDR family NAD(P)-dependent oxidoreductase...  219        8e-62
+UniRef90_UPI000D59F445 SDR family NAD(P)-dependent oxidoreductase...  219        1e-61
+UniRef90_UPI000562FC7D SDR family NAD(P)-dependent oxidoreductase...  219        1e-61
+UniRef90_A0A2U9SVW6 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Burkh...  218        1e-61
+UniRef90_UPI0005A60027 SDR family NAD(P)-dependent oxidoreductase...  218        2e-61
+UniRef90_UPI0013CFE7E6 SDR family NAD(P)-dependent oxidoreductase...  218        2e-61
+UniRef90_A0A3N7P5V1 3-hydroxyacyl-CoA dehydrogenase n=10 Tax=Burk...  218        2e-61
+UniRef90_A0A2G2CJG4 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Sphin...  217        3e-61
+UniRef90_UPI000415DAB8 SDR family NAD(P)-dependent oxidoreductase...  217        4e-61
+UniRef90_K2JKC4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Oceanibac...  217        4e-61
+UniRef90_A0A1Q4ZBN8 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Strep...  217        4e-61
+UniRef90_A0A0R3SA78 Ion_trans domain-containing protein n=1 Tax=H...  216        1e-60
+UniRef90_A0A0G3UEJ4 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  216        1e-60
+UniRef90_A0A315XZN9 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Rumin...  216        1e-60
+UniRef90_A0A175XZK4 Enoyl-CoA hydratase n=2 Tax=cellular organism...  200        1e-60
+UniRef90_A0A1H3BGG8 3-hydroxyacyl-CoA dehydrogenase n=4 Tax=Gamma...  216        1e-60
+UniRef90_A0A1Q5A3G9 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  216        1e-60
+UniRef90_A0A075E6C1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Prote...  214        3e-60
+UniRef90_UPI000F3A9542 SDR family NAD(P)-dependent oxidoreductase...  214        3e-60
+UniRef90_A0A3M5A8I0 KR domain protein n=4 Tax=Pseudomonas TaxID=2...  214        3e-60
+UniRef90_A0A2H4T172 3-hydroxyacyl-CoA dehydrogenase n=7 Tax=Strep...  214        4e-60
+UniRef90_A0A0U5BH72 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  213        8e-60
+UniRef90_A0A2M9J585 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Strep...  212        2e-59
+UniRef90_A0A1M5I5I5 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Jatro...  212        2e-59
+UniRef90_UPI0013036F62 SDR family NAD(P)-dependent oxidoreductase...  211        7e-59
+UniRef90_A0A556TJK9 HECT-type E3 ubiquitin transferase n=1 Tax=Ba...  210        9e-59
+UniRef90_A0A2D7P4F5 3-hydroxyacyl-CoA dehydrogenase (Fragment) n=...  210        1e-58
+UniRef90_A0A511V5R1 3-hydroxyacyl-CoA dehydrogenase n=1 Tax=Aneur...  209        3e-58
+UniRef90_A0A0D1W9Y9 3-hydroxyacyl-CoA dehydrogenase n=6 Tax=Aneur...  209        3e-58
+UniRef90_A0A354DGG8 Acetyl-CoA synthetase (Fragment) n=1 Tax=Paen...  208        4e-58
+UniRef90_A0A346R2U1 3-hydroxyacyl-CoA dehydrogenase n=2 Tax=Breog...  208        4e-58
+UniRef90_A0A4S2LB45 Uncharacterized protein n=1 Tax=Temnothorax l...  208        6e-58
+UniRef90_H3NSI6 3-hydroxyacyl-CoA dehydrogenase n=12 Tax=Proteoba...  208        6e-58
+UniRef90_UPI000C2528F2 titin n=1 Tax=Leptinotarsa decemlineata Ta...  207        6e-58
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.140    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0429    0.140     1.90     42.6     43.6 
+
+Effective search space used: 631867950259
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

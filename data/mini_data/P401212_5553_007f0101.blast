@@ -1,0 +1,1082 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P40121-2|CAPG_HUMAN Isoform 2 of Macrophage-capping protein
+OS=Homo sapiens OX=9606 GN=CAPG
+
+Length=333
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A444U3J4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  322        2e-98
+UniRef90_A0A444TXR4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  319        3e-96
+UniRef90_A0A498M1X6 Coiled-coil domain-containing 18-like isoform...  315        8e-95
+UniRef90_A0A553QC84 PHD-type domain-containing protein n=2 Tax=Da...  279        3e-82
+UniRef90_A0A6A4TXC0 PHD-type domain-containing protein n=4 Tax=Eu...  241        5e-69
+UniRef90_A0A662YJS6 Villin-1 n=1 Tax=Acipenser ruthenus TaxID=790...  240        9e-69
+UniRef90_A0A556TWB8 Villin-1 n=1 Tax=Bagarius yarrelli TaxID=1757...  232        5e-66
+UniRef90_D6W686 Uncharacterized protein n=2 Tax=Tribolium castane...  228        1e-64
+UniRef90_A0A498N8P2 Villin-1 n=1 Tax=Labeo rohita TaxID=84645 Rep...  224        4e-63
+UniRef90_UPI0009E20730 gelsolin, cytoplasmic-like n=1 Tax=Orbicel...  207        3e-57
+UniRef90_A0A4U5UXM5 Gelsolin Actin-depolymerizing factor n=1 Tax=...  206        5e-57
+UniRef90_A0A2Z7DD87 Villin-2 n=1 Tax=Dorcoceras hygrometricum Tax...  197        5e-54
+UniRef90_A0A2R6Q4J9 Villin-3 like n=1 Tax=Actinidia chinensis var...  187        2e-50
+UniRef90_A0A2D4C7Z0 CCT-eta n=1 Tax=Pythium insidiosum TaxID=1147...  186        4e-50
+UniRef90_A0A6D2L945 Glucose-6-phosphate 1-epimerase n=1 Tax=Micro...  183        5e-49
+UniRef90_A0A1I8JB25 HP domain-containing protein n=1 Tax=Macrosto...  180        6e-48
+UniRef90_A0A2A6C9T5 F-box domain-containing protein n=2 Tax=Prist...  180        6e-48
+UniRef90_A0A2P5WBL7 HP domain-containing protein n=1 Tax=Gossypiu...  179        1e-47
+UniRef90_A0A1R3HM93 Reverse transcriptase n=1 Tax=Corchorus capsu...  177        5e-47
+UniRef90_A0A5N6M2N0 Glucose-6-phosphate 1-epimerase n=2 Tax=Magno...  167        2e-43
+UniRef90_A0A314Z403 Glucose-6-phosphate 1-epimerase n=1 Tax=Prunu...  160        3e-41
+UniRef90_A0A1I7ZCT2 G_PROTEIN_RECEP_F1_2 domain-containing protei...  159        1e-40
+UniRef90_UPI00123966A4 protein flightless-1 homolog isoform X1 n=...  155        2e-39
+UniRef90_UPI0015DE389B LOW QUALITY PROTEIN: protein flightless-1-...  152        3e-38
+UniRef90_A0A6A3B338 Villin-2 n=1 Tax=Hibiscus syriacus TaxID=1063...  151        4e-38
+UniRef90_A0A2P6MXB9 Uncharacterized protein n=1 Tax=Planoprotoste...  151        4e-38
+UniRef90_A0A6J2YY05 advillin-like isoform X1 n=2 Tax=Sitophilus o...  151        5e-38
+UniRef90_UPI00067C34E9 protein flightless-1 isoform X1 n=1 Tax=Am...  150        8e-38
+UniRef90_U3IGL9 FLII actin remodeling protein n=3 Tax=Neognathae ...  148        5e-37
+UniRef90_A0A091QLA7 Protein flightless-1 (Fragment) n=3 Tax=Aves ...  147        9e-37
+UniRef90_A0A0L0DCY3 STE/STE7/MEK1 protein kinase (Fragment) n=1 T...  147        1e-36
+UniRef90_A0A212ENC8 Flightless-1 n=5 Tax=Nymphalidae TaxID=33415 ...  146        2e-36
+UniRef90_A0A663NEA6 Uncharacterized protein n=1 Tax=Athene cunicu...  146        3e-36
+UniRef90_A0A1D5PBF6 Uncharacterized protein n=63 Tax=Aves TaxID=8...  145        3e-36
+UniRef90_A0A3M7SXH7 Flightless-1-like protein n=1 Tax=Brachionus ...  145        4e-36
+UniRef90_V8PEN0 Protein flightless-1-like protein n=8 Tax=Colubro...  143        2e-35
+UniRef90_A0A667YR66 Uncharacterized protein n=4 Tax=Myripristis m...  143        3e-35
+UniRef90_H2XKB1 Uncharacterized protein n=2 Tax=Ciona intestinali...  143        3e-35
+UniRef90_U3KH29 FLII actin remodeling protein n=13 Tax=Neognathae...  143        3e-35
+UniRef90_A0A3S2P2T9 Uncharacterized protein n=6 Tax=Obtectomera T...  142        4e-35
+UniRef90_T2MD87 Protein flightless-1 homolog (Fragment) n=2 Tax=H...  142        5e-35
+UniRef90_UPI0005763B3A protein flightless-1 homolog n=1 Tax=Esox ...  142        6e-35
+UniRef90_A0A4W6CGK1 FLII actin remodeling protein n=6 Tax=Lates c...  142        7e-35
+UniRef90_A0A484CL87 Uncharacterized protein n=5 Tax=Percidae TaxI...  141        9e-35
+UniRef90_UPI0011280762 protein flightless-1 homolog isoform X1 n=...  141        1e-34
+UniRef90_UPI0006D526A2 protein flightless-1 n=1 Tax=Halyomorpha h...  141        1e-34
+UniRef90_A0A3Q3K7A4 Uncharacterized protein n=2 Tax=Monopterus al...  141        1e-34
+UniRef90_K7IVH7 Uncharacterized protein n=1 Tax=Nasonia vitripenn...  141        1e-34
+UniRef90_UPI00097CF782 protein flightless-1 homolog n=1 Tax=Paral...  141        1e-34
+UniRef90_Q6DKA2 MGC84783 protein n=4 Tax=Xenopus laevis TaxID=835...  141        1e-34
+UniRef90_A0A3Q0GQH6 protein flightless-1 homolog n=3 Tax=Crocodyl...  141        1e-34
+UniRef90_UPI0003F06976 protein flightless-1 homolog n=1 Tax=Sacco...  140        2e-34
+UniRef90_UPI001186E80E protein flightless-1 homolog n=2 Tax=Gymno...  140        2e-34
+UniRef90_A0A4Q2DZB7 CDP-diacylglycerol synthase n=1 Tax=Psathyrel...  140        2e-34
+UniRef90_UPI0011B4D100 protein flightless-1 homolog n=1 Tax=Gadus...  140        2e-34
+UniRef90_A0A3P8WVE8 Uncharacterized protein n=1 Tax=Cynoglossus s...  140        2e-34
+UniRef90_A0A3P8WMG5 Uncharacterized protein n=1 Tax=Cynoglossus s...  140        2e-34
+UniRef90_A0A154P3I5 Protein flightless-1 n=70 Tax=Hymenoptera Tax...  140        2e-34
+UniRef90_H9J7M7 Mitochondrial import receptor subunit TOM22 homol...  140        3e-34
+UniRef90_H9GF97 Uncharacterized protein n=4 Tax=Sauria TaxID=3256...  140        3e-34
+UniRef90_A0A671T166 Uncharacterized protein n=2 Tax=Sinocyclochei...  139        4e-34
+UniRef90_A0A665WTP5 FLII actin remodeling protein n=4 Tax=Echenei...  139        4e-34
+UniRef90_A0A3Q2XJU2 Uncharacterized protein n=2 Tax=Hippocampus c...  139        5e-34
+UniRef90_UPI00159C9A6A protein flightless-1 homolog n=2 Tax=Hippo...  139        5e-34
+UniRef90_A0A452H4I8 FLII actin remodeling protein n=10 Tax=Durocr...  139        5e-34
+UniRef90_A0A6F9DD43 Protein flightless-1 homolog n=1 Tax=Phallusi...  139        6e-34
+UniRef90_A0A3B5A7G4 Uncharacterized protein n=2 Tax=Percomorphace...  139        6e-34
+UniRef90_A0A673IMX9 Uncharacterized protein n=3 Tax=Sinocyclochei...  139        7e-34
+UniRef90_UPI00109F1BD3 protein flightless-1 homolog n=1 Tax=Erpet...  139        7e-34
+UniRef90_A0A3B4YB95 Uncharacterized protein n=1 Tax=Seriola lalan...  139        8e-34
+UniRef90_UPI001483C918 protein flightless-1 homolog n=2 Tax=Serpe...  139        8e-34
+UniRef90_A0A3Q1AM00 Uncharacterized protein n=1 Tax=Amphiprion oc...  139        9e-34
+UniRef90_K9IQ34 Putative actin regulatory gelsolin/villin family ...  139        9e-34
+UniRef90_A0A3Q1H7M2 Uncharacterized protein n=7 Tax=Percomorphace...  139        9e-34
+UniRef90_A0A3Q3LDA7 Uncharacterized protein n=2 Tax=Mastacembelus...  138        1e-33
+UniRef90_H3D1R5 FLII actin remodeling protein n=1 Tax=Tetraodon n...  138        1e-33
+UniRef90_A0A6G1SPN0 Protein flightless-1 n=1 Tax=Aceria tosichell...  138        2e-33
+UniRef90_UPI001446975F protein flightless-1 homolog n=1 Tax=Epine...  138        2e-33
+UniRef90_A0A671RZ28 Uncharacterized protein n=4 Tax=Sinocyclochei...  138        2e-33
+UniRef90_UPI0008FABEBC LOW QUALITY PROTEIN: protein flightless-1 ...  138        2e-33
+UniRef90_H3AFH0 FLII actin remodeling protein n=3 Tax=Latimeria c...  137        2e-33
+UniRef90_A0A3P8RPU6 FLII actin remodeling protein n=1 Tax=Amphipr...  137        2e-33
+UniRef90_A0A3P8RPS4 FLII actin remodeling protein n=1 Tax=Amphipr...  137        2e-33
+UniRef90_UPI000854AE58 protein flightless-1 homolog isoform X1 n=...  137        2e-33
+UniRef90_A0A067QEP2 Protein flightless-1 n=2 Tax=Zootermopsis nev...  137        2e-33
+UniRef90_UPI00148F469C protein flightless-1 homolog isoform X3 n=...  137        3e-33
+UniRef90_A0A6J2WQQ1 protein flightless-1 homolog isoform X1 n=4 T...  137        3e-33
+UniRef90_A0A5A9N850 Protein flightless-1-like protein n=1 Tax=Tri...  137        3e-33
+UniRef90_H0X7W7 Uncharacterized protein n=14 Tax=Euarchontoglires...  137        4e-33
+UniRef90_UPI0006CF1FDE protein flightless-1 n=1 Tax=Cimex lectula...  137        4e-33
+UniRef90_A0A4W3HVW8 Uncharacterized protein n=3 Tax=Callorhinchus...  137        4e-33
+UniRef90_A0A146KS58 Protein flightless-1 n=4 Tax=Mirini TaxID=236...  137        5e-33
+UniRef90_UPI00145BF721 protein flightless-1 homolog isoform X1 n=...  136        6e-33
+UniRef90_A0A2D0PW60 protein flightless-1 homolog n=2 Tax=Ictaluru...  136        7e-33
+UniRef90_G3P0L6 FLII actin remodeling protein n=4 Tax=Clupeocepha...  136        7e-33
+UniRef90_A0A224XI49 Putative actin regulatory gelsolin/villin fam...  136        8e-33
+UniRef90_A0A3Q3L428 Uncharacterized protein n=16 Tax=Osteoglossoc...  136        8e-33
+UniRef90_A0A3Q3E983 Uncharacterized protein n=3 Tax=Percomorphace...  136        8e-33
+UniRef90_A0A3B3SXZ2 Uncharacterized protein n=3 Tax=Teleostei Tax...  135        9e-33
+UniRef90_A0A3B3HLE2 Uncharacterized protein n=32 Tax=Percomorphac...  135        9e-33
+UniRef90_A0A402FB45 Uncharacterized protein n=6 Tax=Bifurcata Tax...  135        1e-32
+UniRef90_Q7QHP7 AGAP011292-PA n=18 Tax=Anopheles TaxID=7164 RepID...  135        1e-32
+UniRef90_A0A3B4CXM2 Uncharacterized protein n=1 Tax=Pygocentrus n...  135        2e-32
+UniRef90_UPI0008F9DAC9 protein flightless-1 n=1 Tax=Bemisia tabac...  135        2e-32
+UniRef90_A0A367L9A5 Uncharacterized protein n=1 Tax=Ophiocordycep...  135        2e-32
+UniRef90_X1WE86 FLII actin-remodeling protein n=24 Tax=Clupeoceph...  135        2e-32
+UniRef90_A0A1X7V6M4 Uncharacterized protein n=1 Tax=Amphimedon qu...  135        2e-32
+UniRef90_A0A2P8YNB5 Protein flightless-1 n=4 Tax=Blattodea TaxID=...  134        2e-32
+UniRef90_Q13045 Protein flightless-1 homolog n=231 Tax=cellular o...  134        3e-32
+UniRef90_M3ZGI8 Uncharacterized protein n=4 Tax=Cyprinodontiforme...  134        3e-32
+UniRef90_UPI00109F31C8 protein flightless-1 homolog isoform X1 n=...  134        3e-32
+UniRef90_G3TVB2 FLII actin remodeling protein n=4 Tax=Afrotheria ...  134        3e-32
+UniRef90_Q13045-2 Isoform 2 of Protein flightless-1 homolog n=99 ...  134        3e-32
+UniRef90_F6Z0Q6 FLII actin remodeling protein n=4 Tax=Ornithorhyn...  134        3e-32
+UniRef90_A0A2U9CQ09 Uncharacterized protein n=2 Tax=Scophthalmus ...  134        4e-32
+UniRef90_A0A662YTI5 Villin-1 n=1 Tax=Acipenser ruthenus TaxID=790...  134        4e-32
+UniRef90_F1N365 FLII actin remodeling protein n=11 Tax=Bovidae Ta...  134        4e-32
+UniRef90_A0A6A4SBC8 Uncharacterized protein n=1 Tax=Scophthalmus ...  134        4e-32
+UniRef90_A0A2A9PDG8 Uncharacterized protein n=1 Tax=Ophiocordycep...  134        4e-32
+UniRef90_A0A6L2PUE8 Uncharacterized protein n=1 Tax=Coptotermes f...  134        4e-32
+UniRef90_UPI00143DC445 protein flightless-1 isoform X1 n=2 Tax=Be...  134        5e-32
+UniRef90_UPI00093FCA94 protein flightless-1 homolog isoform X1 n=...  134        5e-32
+UniRef90_UPI0008709F45 protein flightless-1 n=1 Tax=Galendromus o...  134        5e-32
+UniRef90_A0A5N5KL23 Uncharacterized protein n=1 Tax=Pangasianodon...  134        5e-32
+UniRef90_W5JSG5 Flightless-1 n=4 Tax=Nyssorhynchus TaxID=44543 Re...  133        6e-32
+UniRef90_H0V1E4 FLII actin remodeling protein n=1 Tax=Cavia porce...  133        8e-32
+UniRef90_UPI00122D8031 protein flightless-1 homolog isoform X1 n=...  133        9e-32
+UniRef90_UPI0003339727 protein flightless-1 homolog isoform X1 n=...  133        9e-32
+UniRef90_A0A4X2KW60 FLII actin remodeling protein n=4 Tax=Metathe...  132        1e-31
+UniRef90_UPI0010F6D138 LOW QUALITY PROTEIN: protein flightless-1 ...  132        1e-31
+UniRef90_G1NVH6 FLII actin remodeling protein n=12 Tax=Vespertili...  132        1e-31
+UniRef90_A0A2K5S8H9 Uncharacterized protein n=14 Tax=Boreoeutheri...  132        1e-31
+UniRef90_A0A4W4EF97 Uncharacterized protein n=2 Tax=Electrophorus...  132        1e-31
+UniRef90_T1G9A6 Uncharacterized protein n=1 Tax=Helobdella robust...  132        1e-31
+UniRef90_A0A1U7QK32 protein flightless-1 homolog isoform X1 n=3 T...  132        1e-31
+UniRef90_A0A087XLU2 FLII actin remodeling protein n=1 Tax=Poecili...  132        2e-31
+UniRef90_UPI001454FE5E protein flightless-1 homolog n=1 Tax=Aster...  132        2e-31
+UniRef90_A0A1J1J942 CLUMA_CG020486, isoform A n=1 Tax=Clunio mari...  132        2e-31
+UniRef90_A0A5N4D5Y0 Protein flightless-1-like protein n=5 Tax=Bor...  132        2e-31
+UniRef90_UPI0012D43FD6 protein flightless-1 n=1 Tax=Contarinia na...  132        2e-31
+UniRef90_A0A287AT54 Uncharacterized protein n=8 Tax=Boreoeutheria...  132        2e-31
+UniRef90_UPI0010FCB44B protein flightless-1 homolog isoform X1 n=...  131        4e-31
+UniRef90_A0A3Q4A9X2 FLII actin remodeling protein n=1 Tax=Mola mo...  131        4e-31
+UniRef90_A0A369GHZ5 Uncharacterized protein n=1 Tax=Ophiocordycep...  131        4e-31
+UniRef90_UPI00158C6F39 protein flightless-1 n=1 Tax=Chelonus insu...  130        5e-31
+UniRef90_A0A0C9RME3 FliI_0 protein n=2 Tax=Opiinae TaxID=68883 Re...  130        6e-31
+UniRef90_A0A1A9W9U5 Uncharacterized protein n=5 Tax=Glossina TaxI...  130        7e-31
+UniRef90_A0A482X3T8 Uncharacterized protein n=2 Tax=Delphacidae T...  130        8e-31
+UniRef90_A0A671E7E8 FLII actin remodeling protein n=4 Tax=Microch...  130        9e-31
+UniRef90_A0A1S3JPD7 protein flightless-1 homolog isoform X1 n=2 T...  130        9e-31
+UniRef90_A0A336MYS3 CSON003193 protein n=1 Tax=Culicoides sonoren...  129        1e-30
+UniRef90_UPI0012B57F8D protein flightless-1 homolog n=1 Tax=Actin...  129        1e-30
+UniRef90_R7VD90 Uncharacterized protein n=1 Tax=Capitella teleta ...  129        2e-30
+UniRef90_UPI000B90B45C protein flightless-1 homolog isoform X1 n=...  129        2e-30
+UniRef90_A0A6H5J1G9 Uncharacterized protein n=5 Tax=Chalcidoidea ...  129        2e-30
+UniRef90_UPI001069299F protein flightless-1 homolog n=1 Tax=Dendr...  129        2e-30
+UniRef90_A0A6A2WXP7 Villin-4 n=1 Tax=Hibiscus syriacus TaxID=1063...  128        3e-30
+UniRef90_A0A443SFP6 Uncharacterized protein n=1 Tax=Leptotrombidi...  128        3e-30
+UniRef90_A0A194QSY4 Protein flightless-1 n=6 Tax=Papilio TaxID=71...  128        4e-30
+UniRef90_UPI000D7329B6 LOW QUALITY PROTEIN: protein flightless-1 ...  128        4e-30
+UniRef90_UPI00035936E4 protein flightless-1 homolog isoform X1 n=...  127        5e-30
+UniRef90_A0A3B0KM23 Blast:Protein flightless-1 n=7 Tax=Drosophila...  127        5e-30
+UniRef90_A0A3S3PKQ5 Protein flightless-1-like protein n=1 Tax=Din...  127        5e-30
+UniRef90_B0W2M9 Flightless-1 n=8 Tax=Culicinae TaxID=43817 RepID=...  127        8e-30
+UniRef90_A0A287D4Q3 Uncharacterized protein n=3 Tax=Boreoeutheria...  126        2e-29
+UniRef90_A0A210QV79 Protein flightless-1-like n=4 Tax=Pectinidae ...  125        3e-29
+UniRef90_A0A401SA75 Uncharacterized protein n=2 Tax=Elasmobranchi...  125        3e-29
+UniRef90_A0A401PKT2 Uncharacterized protein n=1 Tax=Scyliorhinus ...  125        3e-29
+UniRef90_A0A183IFZ7 Uncharacterized protein n=1 Tax=Soboliphyme b...  125        4e-29
+UniRef90_A0A131ZY28 Flightless-1-like protein n=1 Tax=Sarcoptes s...  125        5e-29
+UniRef90_A0A6A0HAX0 Uncharacterized protein n=2 Tax=Hyalella azte...  125        5e-29
+UniRef90_UPI000C20D1E2 protein flightless-1 isoform X1 n=2 Tax=On...  125        5e-29
+UniRef90_A0A0D2UCY7 Flightless-1 n=1 Tax=Capsaspora owczarzaki (s...  125        6e-29
+UniRef90_A0A6A4X596 Protein flightless-1 n=1 Tax=Amphibalanus amp...  125        6e-29
+UniRef90_B4MSC1 Uncharacterized protein n=1 Tax=Drosophila willis...  124        7e-29
+UniRef90_A0A1V9XWN0 Protein flightless-1 isoform 1 n=2 Tax=Derman...  124        7e-29
+UniRef90_A0A6J2TZA8 protein flightless-1 n=1 Tax=Drosophila leban...  124        7e-29
+UniRef90_A0A2C9JG55 Uncharacterized protein n=1 Tax=Biomphalaria ...  124        8e-29
+UniRef90_Q24020 Protein flightless-1 n=28 Tax=Sophophora TaxID=32...  124        9e-29
+UniRef90_I3KEY8 Uncharacterized protein n=15 Tax=Pseudocrenilabri...  124        1e-28
+UniRef90_A0A1I8NPL1 Uncharacterized protein n=5 Tax=Calyptratae T...  124        1e-28
+UniRef90_T1JRB6 Uncharacterized protein n=1 Tax=Tetranychus urtic...  123        2e-28
+UniRef90_UPI00148A22D1 protein flightless-1 homolog isoform X1 n=...  123        2e-28
+UniRef90_A0A2P5XWP7 HP domain-containing protein n=1 Tax=Gossypiu...  123        2e-28
+UniRef90_A0A226EEV5 Protein flightless-1 n=2 Tax=Folsomia candida...  123        2e-28
+UniRef90_B3S8E5 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  122        4e-28
+UniRef90_B4JIY5 GH12365 n=6 Tax=Drosophila TaxID=7215 RepID=B4JIY...  122        4e-28
+UniRef90_UPI0014030AE7 protein flightless-1 homolog n=1 Tax=Petro...  122        6e-28
+UniRef90_A0A2Y9HLZ8 protein flightless-1 homolog n=2 Tax=Laurasia...  122        6e-28
+UniRef90_UPI00096B3CD1 LOW QUALITY PROTEIN: protein flightless-1-...  121        6e-28
+UniRef90_E0V9L7 Flightless-I, putative n=1 Tax=Pediculus humanus ...  121        8e-28
+UniRef90_E9FRY0 Uncharacterized protein n=10 Tax=Daphnia TaxID=66...  121        9e-28
+UniRef90_A0A1L8DJ38 Uncharacterized protein (Fragment) n=2 Tax=Ph...  121        1e-27
+UniRef90_A0A2Y9MGM8 protein flightless-1 homolog isoform X2 n=17 ...  120        2e-27
+UniRef90_A0A0K8TVK2 Protein flightless-1 n=9 Tax=Holometabola Tax...  120        2e-27
+UniRef90_UPI000C252175 protein flightless-1 n=1 Tax=Leptinotarsa ...  120        3e-27
+UniRef90_C3YF92 Uncharacterized protein n=1 Tax=Branchiostoma flo...  120        3e-27
+UniRef90_A0A1Y3BTD3 Flightless-1-like protein n=2 Tax=Pyroglyphid...  120        3e-27
+UniRef90_A0A1I9GC95 BMA-FLI-1 n=12 Tax=Onchocercidae TaxID=6296 R...  119        4e-27
+UniRef90_A0A653C8B5 Uncharacterized protein n=1 Tax=Callosobruchu...  119        5e-27
+UniRef90_A0A2K6QML9 Uncharacterized protein n=1 Tax=Rhinopithecus...  119        6e-27
+UniRef90_UPI000A2C0C0A protein flightless-1 homolog n=1 Tax=Paras...  118        8e-27
+UniRef90_A0A087SWN5 Protein flightless-1 (Fragment) n=2 Tax=Stego...  118        9e-27
+UniRef90_A0A1W0WVP0 Protein flightless-1 n=1 Tax=Hypsibius dujard...  118        1e-26
+UniRef90_P34268 Protein flightless-1 homolog n=7 Tax=Caenorhabdit...  118        1e-26
+UniRef90_A0A6M2DKF3 Putative serine/threonine phosphatase 2c n=2 ...  118        1e-26
+UniRef90_A0A2P2I1Y5 Protein flightless-1-like n=1 Tax=Hirondellea...  118        1e-26
+UniRef90_D6X267 Protein flightless-1-like Protein n=2 Tax=Tenebri...  117        2e-26
+UniRef90_A0A0N5DB46 Uncharacterized protein n=1 Tax=Thelazia call...  116        4e-26
+UniRef90_A0A0B2UWH0 Protein flightless-1-like protein n=4 Tax=Asc...  116        5e-26
+UniRef90_A0A6J1T567 protein flightless-1 isoform X1 n=3 Tax=Thrip...  115        1e-25
+UniRef90_L7LSL8 Putative actin regulatory gelsolin/villin family ...  115        1e-25
+UniRef90_D3AY44 Gelsolin-related protein n=1 Tax=Polysphondylium ...  114        2e-25
+UniRef90_UPI00064516FD hypothetical protein n=1 Tax=Acytostelium ...  114        2e-25
+UniRef90_H2ZPM4 Uncharacterized protein n=2 Tax=Ciona savignyi Ta...  114        2e-25
+UniRef90_F6XRP6 Uncharacterized protein n=2 Tax=Monodelphis domes...  114        3e-25
+UniRef90_A0A6J2Y7R9 protein flightless-1 n=1 Tax=Sitophilus oryza...  113        5e-25
+UniRef90_A0A1Y1MHK3 Uncharacterized protein n=4 Tax=Photinus pyra...  112        8e-25
+UniRef90_F4Q144 Gelsolin-related protein n=1 Tax=Cavenderia fasci...  112        9e-25
+UniRef90_B7QFA2 Flightless-I, putative (Fragment) n=5 Tax=Ixodes ...  112        1e-24
+UniRef90_A0A1I7RZH6 Uncharacterized protein n=1 Tax=Bursaphelench...  111        3e-24
+UniRef90_F7BDJ1 FLII actin-remodeling protein n=3 Tax=Xenopus tro...  110        4e-24
+UniRef90_UPI00098B4B55 protein flightless-1 homolog n=1 Tax=Micro...  110        5e-24
+UniRef90_UPI000811609E protein flightless-1-like n=1 Tax=Rhagolet...  109        8e-24
+UniRef90_A0A671SZD9 Uncharacterized protein n=1 Tax=Sinocyclochei...  108        1e-23
+UniRef90_A0A1Y3NTW2 Uncharacterized protein n=1 Tax=Piromyces sp....  108        2e-23
+UniRef90_A0A0N5AJZ6 Uncharacterized protein n=1 Tax=Syphacia muri...  108        2e-23
+UniRef90_J9JY79 Uncharacterized protein n=14 Tax=Aphidoidea TaxID...  108        2e-23
+UniRef90_A0A6G0UWV1 Uncharacterized protein n=1 Tax=Halicephalobu...  108        3e-23
+UniRef90_A0A1I8BQV6 Uncharacterized protein n=1 Tax=Meloidogyne h...  108        3e-23
+UniRef90_A0A0N4Z6K5 Uncharacterized protein n=1 Tax=Parastrongylo...  108        3e-23
+UniRef90_A0A0L8GZ50 Uncharacterized protein n=4 Tax=Octopus TaxID...  107        4e-23
+UniRef90_A0A267GIM6 Uncharacterized protein (Fragment) n=4 Tax=Ma...  107        4e-23
+UniRef90_A0A507CPH6 Uncharacterized protein n=2 Tax=Synchytrium e...  107        5e-23
+UniRef90_A0A4D6KMY5 Alpha-1,4 glucan phosphorylase n=1 Tax=Vigna ...  107        7e-23
+UniRef90_A0A553NC99 Uncharacterized protein n=1 Tax=Tigriopus cal...  106        9e-23
+UniRef90_A0A1I7XVK3 Uncharacterized protein n=2 Tax=Steinernema g...  106        1e-22
+UniRef90_E4X9W1 Uncharacterized protein n=1 Tax=Oikopleura dioica...  105        2e-22
+UniRef90_A9V2A9 Predicted protein n=1 Tax=Monosiga brevicollis Ta...  105        2e-22
+UniRef90_A0A016V7C9 Uncharacterized protein n=9 Tax=Strongylida T...  105        3e-22
+UniRef90_A0A151ZRY3 Villin n=1 Tax=Tieghemostelium lacteum TaxID=...  105        3e-22
+UniRef90_H2KRI9 Protein flightless-1 n=3 Tax=Opisthorchiidae TaxI...  104        4e-22
+UniRef90_Q54S11 HP domain-containing protein n=1 Tax=Dictyosteliu...  104        4e-22
+UniRef90_A0A090L481 Protein flightless-1 homolog n=3 Tax=Strongyl...  104        6e-22
+UniRef90_F1A1R9 HP domain-containing protein n=1 Tax=Dictyosteliu...  103        7e-22
+UniRef90_A0A507F3Y2 Uncharacterized protein n=2 Tax=Spizellomyces...  103        1e-21
+UniRef90_A0A074ZZM9 Uncharacterized protein n=1 Tax=Opisthorchis ...  103        1e-21
+UniRef90_A0A0V0RWT1 Protein flightless-1-like protein n=28 Tax=Tr...  102        3e-21
+UniRef90_UPI000703F0A7 LOW QUALITY PROTEIN: protein flightless-1 ...  102        3e-21
+UniRef90_L8YHN8 Protein flightless-1 like protein n=1 Tax=Tupaia ...  102        3e-21
+UniRef90_D3BH98 Villin n=1 Tax=Polysphondylium pallidum (strain A...  101        5e-21
+UniRef90_A0A2A6C966 Fli-1 n=2 Tax=Pristionchus pacificus TaxID=54...  101        5e-21
+UniRef90_A0A177WQ47 Uncharacterized protein n=2 Tax=Batrachochytr...  101        5e-21
+UniRef90_F1A3D7 Uncharacterized protein n=1 Tax=Dictyostelium pur...  100        2e-20
+UniRef90_A0A507FIJ7 Uncharacterized protein n=1 Tax=Chytriomyces ...  100        2e-20
+UniRef90_F2U6K8 Uncharacterized protein n=1 Tax=Salpingoeca roset...  100        2e-20
+UniRef90_A0A077YZ14 Protein flightless 1 n=4 Tax=Trichuris TaxID=...  99.8       2e-20
+UniRef90_A0A3P4M6F9 Uncharacterized protein n=1 Tax=Gulo gulo Tax...  99.0       3e-20
+UniRef90_A0A1S8W053 Uncharacterized protein n=1 Tax=Batrachochytr...  99.0       4e-20
+UniRef90_A0A0K2U430 Uncharacterized protein n=1 Tax=Lepeophtheiru...  98.6       4e-20
+UniRef90_A0A1I8CK47 Uncharacterized protein n=1 Tax=Rhabditophane...  98.6       5e-20
+UniRef90_Q8WQ85 Villidin n=1 Tax=Dictyostelium discoideum TaxID=4...  98.2       6e-20
+UniRef90_S4VUL7 Flightless-I n=1 Tax=Penaeus vannamei TaxID=6689 ...  98.2       7e-20
+UniRef90_F0ZE89 Uncharacterized protein n=1 Tax=Dictyostelium pur...  95.9       4e-19
+UniRef90_F4PH66 Villin n=1 Tax=Cavenderia fasciculata (strain SH3...  95.5       5e-19
+UniRef90_Q54EF8 Gelsolin-like domain-containing protein n=1 Tax=D...  95.5       6e-19
+UniRef90_A0A183SK02 Uncharacterized protein n=1 Tax=Schistocephal...  95.1       6e-19
+UniRef90_A0A4Z2DTC0 Protein flightless-1 isoform 1 n=3 Tax=Schist...  94.7       1e-18
+UniRef90_A5BX87 HP domain-containing protein n=1 Tax=Vitis vinife...  94.4       1e-18
+UniRef90_A0A654GVU4 Uncharacterized protein n=1 Tax=Sparganum pro...  93.6       2e-18
+UniRef90_A0A5J4P2Y1 PH domain-containing protein n=1 Tax=Paragoni...  93.6       3e-18
+UniRef90_A0A507C344 Gelsolin-like domain-containing protein n=1 T...  93.2       3e-18
+UniRef90_A0A2A2JBM5 Uncharacterized protein n=2 Tax=Diploscapter ...  92.0       7e-18
+UniRef90_A0A2A4J2P6 Uncharacterized protein n=2 Tax=Noctuidae Tax...  92.0       8e-18
+UniRef90_A0A2P6NTZ4 Uncharacterized protein n=1 Tax=Planoprotoste...  90.5       2e-17
+UniRef90_A0A0X3PZU9 Uncharacterized protein n=1 Tax=Schistocephal...  89.4       7e-17
+UniRef90_D3BHH2 Villin n=1 Tax=Polysphondylium pallidum (strain A...  87.8       2e-16
+UniRef90_F4Q384 Villin n=1 Tax=Cavenderia fasciculata (strain SH3...  87.0       4e-16
+UniRef90_A0A152A2P3 Gelsolin-related protein n=1 Tax=Tieghemostel...  86.7       5e-16
+UniRef90_D2V9D6 Villin n=1 Tax=Naegleria gruberi TaxID=5762 RepID...  84.7       2e-15
+UniRef90_A0A6A2YJ91 Villin-4 n=1 Tax=Hibiscus syriacus TaxID=1063...  83.2       8e-15
+UniRef90_A0A183N2C9 Uncharacterized protein n=8 Tax=Schistosoma T...  82.8       8e-15
+UniRef90_UPI0006449D9F hypothetical protein n=1 Tax=Acytostelium ...  82.8       9e-15
+UniRef90_A0A2H2ILP6 Reverse transcriptase domain-containing prote...  82.8       1e-14
+UniRef90_A0A158QIG7 Uncharacterized protein n=2 Tax=Hymenolepidid...  82.8       1e-14
+UniRef90_A0A151ZAW8 Villidin n=1 Tax=Tieghemostelium lacteum TaxI...  82.4       1e-14
+UniRef90_B0ETV1 Villin, putative n=8 Tax=Entamoeba TaxID=5758 Rep...  82.4       1e-14
+UniRef90_A0A1Y2E653 Uncharacterized protein n=1 Tax=Neocallimasti...  81.3       3e-14
+UniRef90_UPI0006450212 hypothetical protein n=1 Tax=Acytostelium ...  80.9       4e-14
+UniRef90_A0A3L6FV92 Villin-5 n=1 Tax=Zea mays TaxID=4577 RepID=A0...  79.3       1e-13
+UniRef90_A0A1Y1WPA4 Uncharacterized protein n=1 Tax=Anaeromyces r...  78.6       2e-13
+UniRef90_Q4S9X7 Chromosome undetermined SCAF14693, whole genome s...  78.2       3e-13
+UniRef90_W6UNX4 Uncharacterized protein n=1 Tax=Echinococcus gran...  78.2       4e-13
+UniRef90_A0A2P6P0L1 Membrane associated protein n=1 Tax=Planoprot...  77.8       5e-13
+UniRef90_A0A0M0JTV2 Villin-like protein n=1 Tax=Chrysochromulina ...  76.3       2e-12
+UniRef90_A0A0G4LD14 Xanthine dehydrogenase n=3 Tax=Verticillium l...  75.9       2e-12
+UniRef90_S4RUG5 FLII actin remodeling protein n=3 Tax=Petromyzon ...  75.1       3e-12
+UniRef90_A0A2P6NRW1 Uncharacterized protein n=1 Tax=Planoprotoste...  75.5       3e-12
+UniRef90_A0A504WV47 Protein flightless-1 n=1 Tax=Fasciola giganti...  75.5       3e-12
+UniRef90_A0A0R3W7Y2 Uncharacterized protein n=3 Tax=Taeniidae Tax...  73.6       1e-11
+UniRef90_A0A2P6NHB4 HP domain-containing protein n=1 Tax=Planopro...  73.2       1e-11
+UniRef90_A0A5K3ERA7 Uncharacterized protein n=2 Tax=Mesocestoides...  71.6       5e-11
+UniRef90_A0A507E2G2 Uncharacterized protein n=1 Tax=Powellomyces ...  70.9       8e-11
+UniRef90_A0A0L0DDX1 Uncharacterized protein n=1 Tax=Thecamonas tr...  70.5       1e-10
+UniRef90_A0A3N0YBS5 Supervillin (Fragment) n=1 Tax=Anabarilius gr...  70.5       1e-10
+UniRef90_UPI00109F51D1 supervillin-like isoform X1 n=3 Tax=Erpeto...  70.5       1e-10
+UniRef90_A0A507F4D2 HP domain-containing protein n=1 Tax=Spizello...  70.5       1e-10
+UniRef90_A0A158REP0 Uncharacterized protein n=1 Tax=Hydatigena ta...  70.5       1e-10
+UniRef90_A0A3B3SHN3 Supervillin a n=1 Tax=Paramormyrops kingsleya...  70.1       1e-10
+UniRef90_UPI000CD5D43C supervillin-like isoform X1 n=2 Tax=Paramo...  70.5       1e-10
+UniRef90_A0A3B3SH84 Supervillin a n=1 Tax=Paramormyrops kingsleya...  70.1       1e-10
+UniRef90_A0A3B3SHA8 Supervillin a n=1 Tax=Paramormyrops kingsleya...  70.1       1e-10
+UniRef90_UPI0014722B90 supervillin-like isoform X9 n=1 Tax=Thalas...  70.1       1e-10
+UniRef90_A0A3Q2Y1Q3 Gelsolin-like domain-containing protein n=1 T...  70.1       2e-10
+UniRef90_A0A0L0HI88 HP domain-containing protein n=1 Tax=Spizello...  70.1       2e-10
+UniRef90_A0A3B3SFS7 Supervillin a n=1 Tax=Paramormyrops kingsleya...  70.1       2e-10
+UniRef90_A0A3B3SGG6 Supervillin a n=1 Tax=Paramormyrops kingsleya...  70.1       2e-10
+UniRef90_UPI00094E81F6 supervillin-like isoform X1 n=6 Tax=Hippoc...  70.1       2e-10
+UniRef90_UPI00094E5C07 supervillin-like isoform X5 n=1 Tax=Hippoc...  69.7       2e-10
+UniRef90_UPI0012BCEFB2 supervillin-like isoform X2 n=1 Tax=Oreoch...  69.3       2e-10
+UniRef90_A0A668VZP8 HP domain-containing protein n=1 Tax=Oreochro...  69.3       3e-10
+UniRef90_U4U0V8 Uncharacterized protein n=3 Tax=Dendroctonus pond...  69.3       3e-10
+UniRef90_UPI000A1C1EC0 supervillin-like n=1 Tax=Boleophthalmus pe...  69.3       3e-10
+UniRef90_A0A669BRZ0 HP domain-containing protein n=25 Tax=Oreochr...  68.9       4e-10
+UniRef90_A0A151ZG76 Villin n=1 Tax=Tieghemostelium lacteum TaxID=...  68.9       4e-10
+UniRef90_A0A668VZE4 HP domain-containing protein n=2 Tax=Oreochro...  68.9       4e-10
+UniRef90_A0A669CMD7 HP domain-containing protein n=1 Tax=Oreochro...  68.6       4e-10
+UniRef90_A0A669F258 HP domain-containing protein n=2 Tax=Pseudocr...  68.6       4e-10
+UniRef90_UPI000905B8F7 supervillin isoform X5 n=1 Tax=Oreochromis...  68.6       4e-10
+UniRef90_A0A669BPS8 HP domain-containing protein n=1 Tax=Oreochro...  68.6       5e-10
+UniRef90_A0A669C9H2 HP domain-containing protein n=1 Tax=Oreochro...  68.6       5e-10
+UniRef90_I3KCY3 HP domain-containing protein n=1 Tax=Oreochromis ...  68.6       5e-10
+UniRef90_A0A3P8VEQ3 HP domain-containing protein n=1 Tax=Cynoglos...  68.6       5e-10
+UniRef90_UPI000D62BB4D supervillin-like isoform X1 n=8 Tax=Cynogl...  68.6       5e-10
+UniRef90_UPI0003EC37FC supervillin-like isoform X4 n=1 Tax=Neolam...  68.6       6e-10
+UniRef90_UPI0007DCB585 supervillin-like isoform X6 n=1 Tax=Cynogl...  68.6       6e-10
+UniRef90_Q1ZXP5 HP domain-containing protein n=1 Tax=Dictyosteliu...  68.2       6e-10
+UniRef90_A0A3Q3R242 HP domain-containing protein n=1 Tax=Monopter...  68.2       7e-10
+UniRef90_UPI000D62A808 supervillin-like isoform X5 n=1 Tax=Cynogl...  68.2       7e-10
+UniRef90_UPI00146D6BC1 supervillin-like isoform X6 n=1 Tax=Pseudo...  68.2       7e-10
+UniRef90_UPI0011EA276F supervillin-like n=1 Tax=Archocentrus cent...  67.8       8e-10
+UniRef90_UPI00146C52B1 supervillin-like isoform X1 n=5 Tax=Pseudo...  67.8       8e-10
+UniRef90_A0A3Q1CG00 HP domain-containing protein n=4 Tax=Amphipri...  67.8       8e-10
+UniRef90_UPI0012DC44B0 supervillin isoform X1 n=2 Tax=Oncorhynchu...  67.8       9e-10
+UniRef90_A0A0D2WSP5 Uncharacterized protein n=1 Tax=Capsaspora ow...  67.8       9e-10
+UniRef90_UPI0014718B1F LOW QUALITY PROTEIN: supervillin-like n=2 ...  67.8       9e-10
+UniRef90_UPI0009B388C8 LOW QUALITY PROTEIN: supervillin-like n=1 ...  67.8       1e-09
+UniRef90_A0A3Q1D0L7 HP domain-containing protein n=1 Tax=Amphipri...  67.4       1e-09
+UniRef90_A0A671RDI3 HP domain-containing protein n=1 Tax=Sinocycl...  67.4       1e-09
+UniRef90_A0A3P8TUD5 Supervillin n=13 Tax=Amphiprion TaxID=80969 R...  67.4       1e-09
+UniRef90_A0A3P8Y4K2 HP domain-containing protein n=1 Tax=Esox luc...  67.4       1e-09
+UniRef90_A0A3P8TNZ1 Supervillin n=1 Tax=Amphiprion percula TaxID=...  67.4       1e-09
+UniRef90_A0A665XE07 Supervillin n=1 Tax=Echeneis naucrates TaxID=...  67.4       1e-09
+UniRef90_A0A673IBD0 Gelsolin-like domain-containing protein n=1 T...  67.4       1e-09
+UniRef90_A0A665XDU8 Supervillin n=1 Tax=Echeneis naucrates TaxID=...  67.4       1e-09
+UniRef90_A0A3P8TQ17 Supervillin n=1 Tax=Amphiprion percula TaxID=...  67.4       1e-09
+UniRef90_UPI0014770D92 supervillin isoform X1 n=4 Tax=Esox lucius...  67.4       1e-09
+UniRef90_A0A3P8TTZ6 Supervillin n=1 Tax=Amphiprion percula TaxID=...  67.4       1e-09
+UniRef90_A0A3P8TUB3 Supervillin n=1 Tax=Amphiprion percula TaxID=...  67.4       1e-09
+UniRef90_A0A673YFU4 HP domain-containing protein n=2 Tax=Salmonin...  67.4       1e-09
+UniRef90_A0A3P8TL04 Supervillin n=1 Tax=Amphiprion percula TaxID=...  67.4       1e-09
+UniRef90_A0A673YFV3 HP domain-containing protein n=3 Tax=Salmonin...  67.4       1e-09
+UniRef90_UPI0006C9D53E supervillin-like n=1 Tax=Haplochromis burt...  67.0       1e-09
+UniRef90_A0A673YFB5 HP domain-containing protein n=1 Tax=Salmo tr...  67.0       1e-09
+UniRef90_A0A673YB65 HP domain-containing protein n=4 Tax=Salmo Ta...  67.0       1e-09
+UniRef90_A0A665XE02 Supervillin n=1 Tax=Echeneis naucrates TaxID=...  67.0       1e-09
+UniRef90_A0A665XET8 Supervillin n=2 Tax=Echeneis naucrates TaxID=...  67.0       1e-09
+UniRef90_A0A665XEU3 Supervillin n=2 Tax=Echeneis naucrates TaxID=...  67.0       1e-09
+UniRef90_L8GQP3 Villin headpiece domain containing protein n=1 Ta...  67.0       2e-09
+UniRef90_A0A673YCG3 HP domain-containing protein n=1 Tax=Salmo tr...  67.0       2e-09
+UniRef90_A0A665XFG3 Supervillin n=2 Tax=Echeneis naucrates TaxID=...  67.0       2e-09
+UniRef90_A0A1S3R4L7 supervillin-like isoform X1 n=15 Tax=Salmo sa...  67.0       2e-09
+UniRef90_A0A665XFV5 Supervillin n=1 Tax=Echeneis naucrates TaxID=...  67.0       2e-09
+UniRef90_UPI0012AB9B3F supervillin-like n=1 Tax=Clupea harengus T...  67.0       2e-09
+UniRef90_A0A673YG66 HP domain-containing protein n=1 Tax=Salmo tr...  67.0       2e-09
+UniRef90_A0A673YHV9 HP domain-containing protein n=1 Tax=Salmo tr...  67.0       2e-09
+UniRef90_A0A673YHI4 HP domain-containing protein n=1 Tax=Salmo tr...  67.0       2e-09
+UniRef90_A0A672JQM9 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.6       2e-09
+UniRef90_UPI00159C18AA supervillin-like isoform X5 n=1 Tax=Hippog...  66.6       2e-09
+UniRef90_UPI000C300E77 supervillin-like isoform X13 n=1 Tax=Amphi...  66.6       2e-09
+UniRef90_A0A665XFG9 Supervillin n=1 Tax=Echeneis naucrates TaxID=...  66.6       2e-09
+UniRef90_A0A6G1Q7X3 Supervillin n=1 Tax=Channa argus TaxID=215402...  66.6       2e-09
+UniRef90_A0A3B4EXV0 HP domain-containing protein n=3 Tax=Haplochr...  66.6       2e-09
+UniRef90_A0A3B4EUW1 HP domain-containing protein n=20 Tax=Pseudoc...  66.6       2e-09
+UniRef90_UPI000D3099C5 supervillin isoform X10 n=1 Tax=Maylandia ...  66.6       2e-09
+UniRef90_A0A2I4C2Q8 supervillin n=1 Tax=Austrofundulus limnaeus T...  66.6       2e-09
+UniRef90_UPI000E411EA2 supervillin-like isoform X6 n=1 Tax=Astato...  66.6       2e-09
+UniRef90_UPI000E402376 supervillin-like isoform X9 n=1 Tax=Astato...  66.6       2e-09
+UniRef90_UPI00084DBEC3 supervillin-like isoform X3 n=1 Tax=Xenopu...  66.6       2e-09
+UniRef90_UPI000D30BF8B supervillin isoform X7 n=1 Tax=Maylandia z...  66.6       2e-09
+UniRef90_UPI00148E55EC supervillin-like isoform X3 n=1 Tax=Hippog...  66.6       2e-09
+UniRef90_UPI000E41617E supervillin-like isoform X4 n=1 Tax=Astato...  66.6       2e-09
+UniRef90_UPI000D32084D supervillin isoform X4 n=1 Tax=Maylandia z...  66.6       2e-09
+UniRef90_UPI000B90D326 uncharacterized protein LOC110991023 isofo...  66.6       2e-09
+UniRef90_A0A1L8FVF0 HP domain-containing protein n=4 Tax=Xenopus ...  66.6       2e-09
+UniRef90_UPI00148CBAFC supervillin-like isoform X1 n=17 Tax=Hippo...  66.6       2e-09
+UniRef90_UPI00084D9A82 supervillin-like isoform X1 n=1 Tax=Xenopu...  66.6       2e-09
+UniRef90_UPI00084D1155 supervillin-like isoform X4 n=1 Tax=Xenopu...  66.2       2e-09
+UniRef90_A0A672JU57 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.2       3e-09
+UniRef90_A0A672JU00 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.2       3e-09
+UniRef90_UPI000B8EEF1E supervillin-like n=1 Tax=Acanthochromis po...  66.2       3e-09
+UniRef90_A0A672JUP6 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.2       3e-09
+UniRef90_F4QBZ5 HP domain-containing protein n=1 Tax=Cavenderia f...  66.2       3e-09
+UniRef90_A0A3B4VET2 HP domain-containing protein n=2 Tax=Seriola ...  66.2       3e-09
+UniRef90_A0A672JU38 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.2       3e-09
+UniRef90_A0A671RDE3 HP domain-containing protein n=1 Tax=Sinocycl...  66.2       3e-09
+UniRef90_A0A672JU12 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  66.2       3e-09
+UniRef90_A0A672LB68 HP domain-containing protein n=1 Tax=Sinocycl...  66.2       3e-09
+UniRef90_A0A3Q2GGZ7 HP domain-containing protein n=3 Tax=Cyprinod...  65.9       3e-09
+UniRef90_UPI000E402D3C supervillin-like isoform X1 n=20 Tax=Caras...  66.2       3e-09
+UniRef90_A0A6J2VCF3 supervillin-like n=1 Tax=Chanos chanos TaxID=...  66.2       3e-09
+UniRef90_A0A673KWR6 HP domain-containing protein n=1 Tax=Sinocycl...  65.9       3e-09
+UniRef90_A0A673KS50 HP domain-containing protein n=1 Tax=Sinocycl...  65.9       3e-09
+UniRef90_UPI00084D65C7 supervillin-like isoform X2 n=1 Tax=Xenopu...  65.9       3e-09
+UniRef90_A0A3B4YYC2 HP domain-containing protein n=8 Tax=Stegaste...  66.2       3e-09
+UniRef90_A0A672JU08 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  65.9       3e-09
+UniRef90_A0A672JQK8 Supervillin n=1 Tax=Salarias fasciatus TaxID=...  65.9       3e-09
+UniRef90_A0A672LB87 HP domain-containing protein n=1 Tax=Sinocycl...  65.9       3e-09
+UniRef90_V9K7B5 Supervillin-like protein n=1 Tax=Callorhinchus mi...  65.9       3e-09
+UniRef90_UPI00097DF8DC supervillin-like n=1 Tax=Paralichthys oliv...  65.9       4e-09
+UniRef90_A0A673KSL3 HP domain-containing protein n=1 Tax=Sinocycl...  65.9       4e-09
+UniRef90_UPI001176A019 supervillin-like isoform X1 n=3 Tax=Salari...  65.9       4e-09
+UniRef90_A0A3Q2E0B3 HP domain-containing protein n=1 Tax=Cyprinod...  65.9       4e-09
+UniRef90_A0A3Q2USI1 HP domain-containing protein n=1 Tax=Haplochr...  65.9       4e-09
+UniRef90_A0A3Q1ITT2 HP domain-containing protein n=8 Tax=Anabas t...  65.9       4e-09
+UniRef90_A0A674MYB5 HP domain-containing protein n=1 Tax=Takifugu...  65.9       4e-09
+UniRef90_UPI0015E0D45E supervillin a isoform X1 n=4 Tax=Scophthal...  65.9       4e-09
+UniRef90_UPI000E461CD0 supervillin-like isoform X6 n=1 Tax=Mastac...  65.9       4e-09
+UniRef90_A0A673KVJ5 HP domain-containing protein n=1 Tax=Sinocycl...  65.5       4e-09
+UniRef90_UPI000E458430 supervillin-like isoform X1 n=8 Tax=Mastac...  65.9       4e-09
+UniRef90_UPI000E45E4E4 supervillin-like isoform X2 n=1 Tax=Mastac...  65.9       4e-09
+UniRef90_A0A4W3HJY2 HP domain-containing protein n=1 Tax=Callorhi...  65.5       4e-09
+UniRef90_A0A401PJV4 HP domain-containing protein (Fragment) n=1 T...  65.5       4e-09
+UniRef90_A0A4W3H272 HP domain-containing protein n=1 Tax=Callorhi...  65.5       5e-09
+UniRef90_A0A674NP97 HP domain-containing protein n=1 Tax=Takifugu...  65.5       5e-09
+UniRef90_UPI0015E105D9 supervillin a isoform X3 n=1 Tax=Scophthal...  65.5       5e-09
+UniRef90_UPI001471A3F3 supervillin-like isoform X6 n=1 Tax=Thalas...  65.5       5e-09
+UniRef90_A0A674NLD2 HP domain-containing protein n=1 Tax=Takifugu...  65.5       5e-09
+UniRef90_A0A3Q3RYT0 Supervillin n=3 Tax=Mastacembelus armatus Tax...  65.5       5e-09
+UniRef90_UPI0015E155B7 supervillin a isoform X5 n=1 Tax=Scophthal...  65.5       5e-09
+UniRef90_UPI001471A748 supervillin-like isoform X1 n=7 Tax=Thalas...  65.5       5e-09
+UniRef90_UPI000E454E77 supervillin-like isoform X9 n=1 Tax=Mastac...  65.5       5e-09
+UniRef90_A0A2U9BHX1 Putative supervillin-like n=2 Tax=Scophthalmu...  65.5       5e-09
+UniRef90_A0A401S8H9 HP domain-containing protein n=1 Tax=Chiloscy...  65.5       5e-09
+UniRef90_UPI000E466178 supervillin-like isoform X10 n=1 Tax=Masta...  65.5       5e-09
+UniRef90_A0A2U9CW77 Putative supervillin n=1 Tax=Scophthalmus max...  65.5       5e-09
+UniRef90_A0A3Q1IUH5 HP domain-containing protein n=1 Tax=Anabas t...  65.5       5e-09
+UniRef90_A0A6J2RKZ5 supervillin-like isoform X1 n=10 Tax=Cottoper...  65.5       5e-09
+UniRef90_A0A3B4B3F6 Supervillin n=1 Tax=Periophthalmus magnuspinn...  65.5       5e-09
+UniRef90_A0A6F9BXH6 HP domain-containing protein (Fragment) n=1 T...  65.5       5e-09
+UniRef90_A0A3Q1IUA7 HP domain-containing protein n=1 Tax=Anabas t...  65.5       5e-09
+UniRef90_A0A3Q1IM12 HP domain-containing protein n=1 Tax=Anabas t...  65.5       5e-09
+UniRef90_A0A4W3H2D1 HP domain-containing protein n=1 Tax=Callorhi...  65.5       5e-09
+UniRef90_UPI00125DB305 supervillin isoform X6 n=1 Tax=Sander luci...  65.5       5e-09
+UniRef90_H2V5Y0 HP domain-containing protein n=1 Tax=Takifugu rub...  65.5       6e-09
+UniRef90_A0A4W6C5K2 HP domain-containing protein n=1 Tax=Lates ca...  65.1       6e-09
+UniRef90_A0A4W5R4N7 HP domain-containing protein n=1 Tax=Hucho hu...  65.1       6e-09
+UniRef90_UPI0010426825 supervillin-like isoform X1 n=8 Tax=Paramb...  65.5       6e-09
+UniRef90_A0A3Q1ILP9 HP domain-containing protein n=1 Tax=Anabas t...  65.5       6e-09
+UniRef90_A0A674PNQ1 HP domain-containing protein n=1 Tax=Takifugu...  65.1       6e-09
+UniRef90_A0A3P8RZR5 Supervillin a n=1 Tax=Amphiprion percula TaxI...  65.1       6e-09
+UniRef90_A0A4W6BXH9 HP domain-containing protein n=2 Tax=Lates ca...  65.1       6e-09
+UniRef90_A0A673KSA1 HP domain-containing protein n=1 Tax=Sinocycl...  65.1       6e-09
+UniRef90_A0A4W6C5F1 HP domain-containing protein n=2 Tax=Lates ca...  65.1       6e-09
+UniRef90_A0A673KLM5 HP domain-containing protein n=5 Tax=Cyprinin...  65.1       6e-09
+UniRef90_UPI0011455860 supervillin-like isoform X12 n=1 Tax=Takif...  65.1       6e-09
+UniRef90_A0A4W5RB23 HP domain-containing protein n=5 Tax=Hucho hu...  65.1       6e-09
+UniRef90_UPI00125DF5B3 supervillin isoform X1 n=13 Tax=Sander luc...  65.1       6e-09
+UniRef90_A0A674NHD9 HP domain-containing protein n=1 Tax=Takifugu...  65.1       6e-09
+UniRef90_UPI00145B579E supervillin-like n=1 Tax=Periophthalmus ma...  65.1       6e-09
+UniRef90_A0A671RDC5 HP domain-containing protein n=16 Tax=Sinocyc...  65.1       6e-09
+UniRef90_H2V5Y1 HP domain-containing protein n=2 Tax=Takifugu rub...  65.1       6e-09
+UniRef90_UPI0006C9E4AF supervillin isoform X1 n=17 Tax=Pseudocren...  65.1       6e-09
+UniRef90_UPI000E45F294 supervillin-like isoform X3 n=1 Tax=Anabas...  65.1       6e-09
+UniRef90_UPI000C6E7DFF uncharacterized protein LOC111634006 n=1 T...  65.1       7e-09
+UniRef90_A0A4W6BXT0 HP domain-containing protein n=1 Tax=Lates ca...  65.1       7e-09
+UniRef90_A0A671RCY8 HP domain-containing protein n=1 Tax=Sinocycl...  65.1       7e-09
+UniRef90_UPI000E464694 supervillin-like isoform X10 n=1 Tax=Anaba...  65.1       7e-09
+UniRef90_UPI000D0992CD supervillin-like n=1 Tax=Oncorhynchus tsha...  65.1       7e-09
+UniRef90_A0A674NVD1 HP domain-containing protein n=1 Tax=Takifugu...  65.1       7e-09
+UniRef90_UPI001146024B supervillin-like isoform X6 n=1 Tax=Takifu...  65.1       7e-09
+UniRef90_A0A674PPL9 HP domain-containing protein n=1 Tax=Takifugu...  65.1       7e-09
+UniRef90_UPI000F5D4F3F supervillin-like isoform X5 n=1 Tax=Larimi...  65.1       7e-09
+UniRef90_UPI000F5F424B supervillin-like isoform X3 n=1 Tax=Larimi...  65.1       7e-09
+UniRef90_A0A674MA20 HP domain-containing protein n=9 Tax=Takifugu...  65.1       7e-09
+UniRef90_UPI00125CE6E0 supervillin isoform X15 n=1 Tax=Sander luc...  65.1       8e-09
+UniRef90_A0A4U5UVZ2 Supervillin n=1 Tax=Collichthys lucidus TaxID...  64.7       8e-09
+UniRef90_UPI000E3FB603 supervillin-like isoform X1 n=3 Tax=Carass...  64.7       8e-09
+UniRef90_A0A672Z1I2 Supervillin n=2 Tax=Sphaeramia orbicularis Ta...  64.7       8e-09
+UniRef90_UPI00114588EC supervillin-like isoform X5 n=1 Tax=Takifu...  64.7       8e-09
+UniRef90_A0A4W6C226 HP domain-containing protein n=1 Tax=Lates ca...  64.7       8e-09
+UniRef90_A0A3B3E379 HP domain-containing protein n=1 Tax=Oryzias ...  64.7       8e-09
+UniRef90_V9K788 Supervillin-like protein (Fragment) n=2 Tax=Callo...  64.7       8e-09
+UniRef90_A0A672LE76 HP domain-containing protein n=1 Tax=Sinocycl...  64.7       8e-09
+UniRef90_UPI00155E2366 supervillin a isoform X5 n=1 Tax=Etheostom...  64.7       8e-09
+UniRef90_A0A672LJ92 HP domain-containing protein n=10 Tax=Cyprini...  64.7       8e-09
+UniRef90_A0A4W6C2J9 HP domain-containing protein n=1 Tax=Lates ca...  64.7       8e-09
+UniRef90_A0A4W3GZ90 HP domain-containing protein n=3 Tax=Callorhi...  64.7       9e-09
+UniRef90_A0A3Q1BC33 HP domain-containing protein n=1 Tax=Amphipri...  64.7       9e-09
+UniRef90_A0A667ZF49 HP domain-containing protein n=1 Tax=Myripris...  64.7       9e-09
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 717454384512
+Results from round 2
+
+
+Query= sp|P40121-2|CAPG_HUMAN Isoform 2 of Macrophage-capping protein
+OS=Homo sapiens OX=9606 GN=CAPG
+
+Length=333
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_U3IGL9 FLII actin remodeling protein n=3 Tax=Neognathae ...  466        8e-155
+UniRef90_A0A2P8YNB5 Protein flightless-1 n=4 Tax=Blattodea TaxID=...  464        4e-154
+UniRef90_A0A665WTP5 FLII actin remodeling protein n=4 Tax=Echenei...  466        2e-152
+UniRef90_A0A1D5PBF6 Uncharacterized protein n=63 Tax=Aves TaxID=8...  465        3e-152
+UniRef90_A0A6J2WQQ1 protein flightless-1 homolog isoform X1 n=4 T...  465        3e-152
+UniRef90_A0A091QLA7 Protein flightless-1 (Fragment) n=3 Tax=Aves ...  463        4e-152
+UniRef90_A0A667YR66 Uncharacterized protein n=4 Tax=Myripristis m...  465        4e-152
+UniRef90_H3AFH0 FLII actin remodeling protein n=3 Tax=Latimeria c...  465        4e-152
+UniRef90_A0A4X2KW60 FLII actin remodeling protein n=4 Tax=Metathe...  464        1e-151
+UniRef90_V8PEN0 Protein flightless-1-like protein n=8 Tax=Colubro...  459        1e-151
+UniRef90_UPI001446975F protein flightless-1 homolog n=1 Tax=Epine...  464        1e-151
+UniRef90_A0A484CL87 Uncharacterized protein n=5 Tax=Percidae TaxI...  463        2e-151
+UniRef90_A0A3B4YB95 Uncharacterized protein n=1 Tax=Seriola lalan...  463        2e-151
+UniRef90_A0A3Q1AM00 Uncharacterized protein n=1 Tax=Amphiprion oc...  463        2e-151
+UniRef90_A0A3B5A7G4 Uncharacterized protein n=2 Tax=Percomorphace...  463        2e-151
+UniRef90_A0A6L2PUE8 Uncharacterized protein n=1 Tax=Coptotermes f...  464        2e-151
+UniRef90_A0A3Q1H7M2 Uncharacterized protein n=7 Tax=Percomorphace...  463        3e-151
+UniRef90_A0A3B4CXM2 Uncharacterized protein n=1 Tax=Pygocentrus n...  463        3e-151
+UniRef90_A0A663NEA6 Uncharacterized protein n=1 Tax=Athene cunicu...  463        4e-151
+UniRef90_A0A3Q3LDA7 Uncharacterized protein n=2 Tax=Mastacembelus...  462        5e-151
+UniRef90_UPI0008F9DAC9 protein flightless-1 n=1 Tax=Bemisia tabac...  461        7e-151
+UniRef90_A0A673IMX9 Uncharacterized protein n=3 Tax=Sinocyclochei...  461        7e-151
+UniRef90_A0A4W6CGK1 FLII actin remodeling protein n=6 Tax=Lates c...  462        8e-151
+UniRef90_UPI0008FABEBC LOW QUALITY PROTEIN: protein flightless-1 ...  461        1e-150
+UniRef90_X1WE86 FLII actin-remodeling protein n=24 Tax=Clupeoceph...  461        1e-150
+UniRef90_A0A671T166 Uncharacterized protein n=2 Tax=Sinocyclochei...  460        2e-150
+UniRef90_A0A067QEP2 Protein flightless-1 n=2 Tax=Zootermopsis nev...  460        2e-150
+UniRef90_A0A3Q3K7A4 Uncharacterized protein n=2 Tax=Monopterus al...  460        2e-150
+UniRef90_UPI0011280762 protein flightless-1 homolog isoform X1 n=...  460        3e-150
+UniRef90_H0X7W7 Uncharacterized protein n=14 Tax=Euarchontoglires...  460        3e-150
+UniRef90_A0A3P8RPU6 FLII actin remodeling protein n=1 Tax=Amphipr...  460        3e-150
+UniRef90_A0A4W4EF97 Uncharacterized protein n=2 Tax=Electrophorus...  460        4e-150
+UniRef90_A0A3P8RPS4 FLII actin remodeling protein n=1 Tax=Amphipr...  460        4e-150
+UniRef90_F1N365 FLII actin remodeling protein n=11 Tax=Bovidae Ta...  460        5e-150
+UniRef90_A0A482X3T8 Uncharacterized protein n=2 Tax=Delphacidae T...  459        5e-150
+UniRef90_UPI0005763B3A protein flightless-1 homolog n=1 Tax=Esox ...  460        5e-150
+UniRef90_UPI00097CF782 protein flightless-1 homolog n=1 Tax=Paral...  460        6e-150
+UniRef90_A0A671RZ28 Uncharacterized protein n=4 Tax=Sinocyclochei...  459        6e-150
+UniRef90_H3D1R5 FLII actin remodeling protein n=1 Tax=Tetraodon n...  459        6e-150
+UniRef90_F6Z0Q6 FLII actin remodeling protein n=4 Tax=Ornithorhyn...  460        6e-150
+UniRef90_UPI00148F469C protein flightless-1 homolog isoform X3 n=...  459        7e-150
+UniRef90_A0A3B3SXZ2 Uncharacterized protein n=3 Tax=Teleostei Tax...  457        8e-150
+UniRef90_UPI000854AE58 protein flightless-1 homolog isoform X1 n=...  459        9e-150
+UniRef90_U3KH29 FLII actin remodeling protein n=13 Tax=Neognathae...  459        9e-150
+UniRef90_Q13045 Protein flightless-1 homolog n=231 Tax=cellular o...  459        9e-150
+UniRef90_H0V1E4 FLII actin remodeling protein n=1 Tax=Cavia porce...  458        2e-149
+UniRef90_Q13045-2 Isoform 2 of Protein flightless-1 homolog n=99 ...  457        2e-149
+UniRef90_A0A1U7QK32 protein flightless-1 homolog isoform X1 n=3 T...  458        2e-149
+UniRef90_UPI00093FCA94 protein flightless-1 homolog isoform X1 n=...  458        2e-149
+UniRef90_A0A2D0PW60 protein flightless-1 homolog n=2 Tax=Ictaluru...  458        2e-149
+UniRef90_A0A2K5S8H9 Uncharacterized protein n=14 Tax=Boreoeutheri...  458        2e-149
+UniRef90_A0A087XLU2 FLII actin remodeling protein n=1 Tax=Poecili...  457        3e-149
+UniRef90_A0A402FB45 Uncharacterized protein n=6 Tax=Bifurcata Tax...  457        4e-149
+UniRef90_A0A3Q3L428 Uncharacterized protein n=16 Tax=Osteoglossoc...  456        5e-149
+UniRef90_UPI00122D8031 protein flightless-1 homolog isoform X1 n=...  458        5e-149
+UniRef90_A0A671E7E8 FLII actin remodeling protein n=4 Tax=Microch...  458        5e-149
+UniRef90_A0A6A4SBC8 Uncharacterized protein n=1 Tax=Scophthalmus ...  456        6e-149
+UniRef90_A0A3Q3E983 Uncharacterized protein n=3 Tax=Percomorphace...  456        6e-149
+UniRef90_UPI00109F31C8 protein flightless-1 homolog isoform X1 n=...  457        7e-149
+UniRef90_A0A5N4D5Y0 Protein flightless-1-like protein n=5 Tax=Bor...  458        7e-149
+UniRef90_K9IQ34 Putative actin regulatory gelsolin/villin family ...  457        7e-149
+UniRef90_G3TVB2 FLII actin remodeling protein n=4 Tax=Afrotheria ...  456        8e-149
+UniRef90_A0A2U9CQ09 Uncharacterized protein n=2 Tax=Scophthalmus ...  456        8e-149
+UniRef90_UPI0010F6D138 LOW QUALITY PROTEIN: protein flightless-1 ...  456        9e-149
+UniRef90_UPI00109F1BD3 protein flightless-1 homolog n=1 Tax=Erpet...  456        1e-148
+UniRef90_UPI001186E80E protein flightless-1 homolog n=2 Tax=Gymno...  456        1e-148
+UniRef90_UPI0003339727 protein flightless-1 homolog isoform X1 n=...  456        2e-148
+UniRef90_UPI001483C918 protein flightless-1 homolog n=2 Tax=Serpe...  455        3e-148
+UniRef90_UPI00145BF721 protein flightless-1 homolog isoform X1 n=...  454        5e-148
+UniRef90_UPI0011B4D100 protein flightless-1 homolog n=1 Tax=Gadus...  454        5e-148
+UniRef90_A0A3P8WVE8 Uncharacterized protein n=1 Tax=Cynoglossus s...  454        7e-148
+UniRef90_M3ZGI8 Uncharacterized protein n=4 Tax=Cyprinodontiforme...  454        7e-148
+UniRef90_A0A3P8WMG5 Uncharacterized protein n=1 Tax=Cynoglossus s...  454        8e-148
+UniRef90_G1NVH6 FLII actin remodeling protein n=12 Tax=Vespertili...  454        9e-148
+UniRef90_K7IVH7 Uncharacterized protein n=1 Tax=Nasonia vitripenn...  453        1e-147
+UniRef90_UPI0006CF1FDE protein flightless-1 n=1 Tax=Cimex lectula...  453        1e-147
+UniRef90_A0A3Q2XJU2 Uncharacterized protein n=2 Tax=Hippocampus c...  453        1e-147
+UniRef90_A0A4W3HVW8 Uncharacterized protein n=3 Tax=Callorhinchus...  453        2e-147
+UniRef90_A0A146KS58 Protein flightless-1 n=4 Tax=Mirini TaxID=236...  452        2e-147
+UniRef90_A0A287AT54 Uncharacterized protein n=8 Tax=Boreoeutheria...  453        5e-147
+UniRef90_A0A5A9N850 Protein flightless-1-like protein n=1 Tax=Tri...  451        5e-147
+UniRef90_Q6DKA2 MGC84783 protein n=4 Tax=Xenopus laevis TaxID=835...  451        6e-147
+UniRef90_H9GF97 Uncharacterized protein n=4 Tax=Sauria TaxID=3256...  451        1e-146
+UniRef90_UPI0006D526A2 protein flightless-1 n=1 Tax=Halyomorpha h...  450        2e-146
+UniRef90_UPI00143DC445 protein flightless-1 isoform X1 n=2 Tax=Be...  450        2e-146
+UniRef90_A0A6H5J1G9 Uncharacterized protein n=5 Tax=Chalcidoidea ...  450        2e-146
+UniRef90_A0A3Q0GQH6 protein flightless-1 homolog n=3 Tax=Crocodyl...  451        2e-146
+UniRef90_G3P0L6 FLII actin remodeling protein n=4 Tax=Clupeocepha...  450        3e-146
+UniRef90_UPI00159C9A6A protein flightless-1 homolog n=2 Tax=Hippo...  450        4e-146
+UniRef90_E0V9L7 Flightless-I, putative n=1 Tax=Pediculus humanus ...  448        7e-146
+UniRef90_Q7QHP7 AGAP011292-PA n=18 Tax=Anopheles TaxID=7164 RepID...  449        8e-146
+UniRef90_A0A287D4Q3 Uncharacterized protein n=3 Tax=Boreoeutheria...  449        1e-145
+UniRef90_UPI0003F06976 protein flightless-1 homolog n=1 Tax=Sacco...  447        2e-145
+UniRef90_B0W2M9 Flightless-1 n=8 Tax=Culicinae TaxID=43817 RepID=...  447        2e-145
+UniRef90_UPI000C20D1E2 protein flightless-1 isoform X1 n=2 Tax=On...  447        2e-145
+UniRef90_A0A154P3I5 Protein flightless-1 n=70 Tax=Hymenoptera Tax...  446        3e-145
+UniRef90_A0A452H4I8 FLII actin remodeling protein n=10 Tax=Durocr...  447        3e-145
+UniRef90_UPI00096B3CD1 LOW QUALITY PROTEIN: protein flightless-1-...  447        3e-145
+UniRef90_A0A1S3JPD7 protein flightless-1 homolog isoform X1 n=2 T...  446        5e-145
+UniRef90_A0A401SA75 Uncharacterized protein n=2 Tax=Elasmobranchi...  443        1e-144
+UniRef90_C3YF92 Uncharacterized protein n=1 Tax=Branchiostoma flo...  445        1e-144
+UniRef90_A0A336MYS3 CSON003193 protein n=1 Tax=Culicoides sonoren...  444        2e-144
+UniRef90_UPI00158C6F39 protein flightless-1 n=1 Tax=Chelonus insu...  444        3e-144
+UniRef90_A0A2K6QML9 Uncharacterized protein n=1 Tax=Rhinopithecus...  445        3e-144
+UniRef90_A0A3Q4A9X2 FLII actin remodeling protein n=1 Tax=Mola mo...  444        3e-144
+UniRef90_A0A5N5KL23 Uncharacterized protein n=1 Tax=Pangasianodon...  444        5e-144
+UniRef90_UPI000C252175 protein flightless-1 n=1 Tax=Leptinotarsa ...  441        3e-143
+UniRef90_D6X267 Protein flightless-1-like Protein n=2 Tax=Tenebri...  440        8e-143
+UniRef90_A0A401PKT2 Uncharacterized protein n=1 Tax=Scyliorhinus ...  439        2e-142
+UniRef90_I3KEY8 Uncharacterized protein n=15 Tax=Pseudocrenilabri...  439        2e-142
+UniRef90_A0A1Y1MHK3 Uncharacterized protein n=4 Tax=Photinus pyra...  439        2e-142
+UniRef90_A0A6J2Y7R9 protein flightless-1 n=1 Tax=Sitophilus oryza...  439        3e-142
+UniRef90_A0A3B3HLE2 Uncharacterized protein n=32 Tax=Percomorphac...  439        3e-142
+UniRef90_A0A653C8B5 Uncharacterized protein n=1 Tax=Callosobruchu...  438        4e-142
+UniRef90_A0A087SWN5 Protein flightless-1 (Fragment) n=2 Tax=Stego...  434        8e-142
+UniRef90_L7LSL8 Putative actin regulatory gelsolin/villin family ...  437        1e-141
+UniRef90_A0A212ENC8 Flightless-1 n=5 Tax=Nymphalidae TaxID=33415 ...  437        1e-141
+UniRef90_W5JSG5 Flightless-1 n=4 Tax=Nyssorhynchus TaxID=44543 Re...  438        2e-141
+UniRef90_UPI0015DE389B LOW QUALITY PROTEIN: protein flightless-1-...  436        2e-141
+UniRef90_A0A1I8NPL1 Uncharacterized protein n=5 Tax=Calyptratae T...  436        6e-141
+UniRef90_A0A224XI49 Putative actin regulatory gelsolin/villin fam...  435        7e-141
+UniRef90_Q24020 Protein flightless-1 n=28 Tax=Sophophora TaxID=32...  435        9e-141
+UniRef90_A0A6A4X596 Protein flightless-1 n=1 Tax=Amphibalanus amp...  435        1e-140
+UniRef90_A0A3B0KM23 Blast:Protein flightless-1 n=7 Tax=Drosophila...  434        2e-140
+UniRef90_UPI00067C34E9 protein flightless-1 isoform X1 n=1 Tax=Am...  434        2e-140
+UniRef90_A0A2Y9HLZ8 protein flightless-1 homolog n=2 Tax=Laurasia...  434        3e-140
+UniRef90_UPI000A2C0C0A protein flightless-1 homolog n=1 Tax=Paras...  433        6e-140
+UniRef90_A0A0C9RME3 FliI_0 protein n=2 Tax=Opiinae TaxID=68883 Re...  432        9e-140
+UniRef90_UPI00123966A4 protein flightless-1 homolog isoform X1 n=...  431        3e-139
+UniRef90_UPI0014030AE7 protein flightless-1 homolog n=1 Tax=Petro...  432        4e-139
+UniRef90_UPI0012D43FD6 protein flightless-1 n=1 Tax=Contarinia na...  430        5e-139
+UniRef90_A0A6J1T567 protein flightless-1 isoform X1 n=3 Tax=Thrip...  430        8e-139
+UniRef90_A0A2Y9MGM8 protein flightless-1 homolog isoform X2 n=17 ...  430        9e-139
+UniRef90_A0A3S2P2T9 Uncharacterized protein n=6 Tax=Obtectomera T...  429        1e-138
+UniRef90_A0A6M2DKF3 Putative serine/threonine phosphatase 2c n=2 ...  429        2e-138
+UniRef90_A0A226EEV5 Protein flightless-1 n=2 Tax=Folsomia candida...  426        2e-138
+UniRef90_B4JIY5 GH12365 n=6 Tax=Drosophila TaxID=7215 RepID=B4JIY...  429        2e-138
+UniRef90_A0A1L8DJ38 Uncharacterized protein (Fragment) n=2 Tax=Ph...  428        3e-138
+UniRef90_A0A2C9JG55 Uncharacterized protein n=1 Tax=Biomphalaria ...  427        8e-138
+UniRef90_A0A1A9W9U5 Uncharacterized protein n=5 Tax=Glossina TaxI...  427        9e-138
+UniRef90_A0A3S3PKQ5 Protein flightless-1-like protein n=1 Tax=Din...  426        3e-137
+UniRef90_T1JRB6 Uncharacterized protein n=1 Tax=Tetranychus urtic...  426        4e-137
+UniRef90_A0A6J2TZA8 protein flightless-1 n=1 Tax=Drosophila leban...  425        4e-137
+UniRef90_A0A0K8TVK2 Protein flightless-1 n=9 Tax=Holometabola Tax...  424        1e-136
+UniRef90_UPI00035936E4 protein flightless-1 homolog isoform X1 n=...  423        3e-136
+UniRef90_UPI001454FE5E protein flightless-1 homolog n=1 Tax=Aster...  423        5e-136
+UniRef90_A0A1J1J942 CLUMA_CG020486, isoform A n=1 Tax=Clunio mari...  422        7e-136
+UniRef90_UPI000B90B45C protein flightless-1 homolog isoform X1 n=...  423        7e-136
+UniRef90_R7VD90 Uncharacterized protein n=1 Tax=Capitella teleta ...  422        9e-136
+UniRef90_B4MSC1 Uncharacterized protein n=1 Tax=Drosophila willis...  421        1e-135
+UniRef90_A0A443SFP6 Uncharacterized protein n=1 Tax=Leptotrombidi...  420        4e-135
+UniRef90_F7BDJ1 FLII actin-remodeling protein n=3 Tax=Xenopus tro...  420        6e-135
+UniRef90_T2MD87 Protein flightless-1 homolog (Fragment) n=2 Tax=H...  412        4e-134
+UniRef90_UPI00148A22D1 protein flightless-1 homolog isoform X1 n=...  418        4e-134
+UniRef90_F6XRP6 Uncharacterized protein n=2 Tax=Monodelphis domes...  418        5e-134
+UniRef90_A0A194QSY4 Protein flightless-1 n=6 Tax=Papilio TaxID=71...  416        8e-134
+UniRef90_UPI0010FCB44B protein flightless-1 homolog isoform X1 n=...  416        9e-134
+UniRef90_UPI000D7329B6 LOW QUALITY PROTEIN: protein flightless-1 ...  416        1e-133
+UniRef90_H2XKB1 Uncharacterized protein n=2 Tax=Ciona intestinali...  416        1e-133
+UniRef90_H9J7M7 Mitochondrial import receptor subunit TOM22 homol...  417        3e-133
+UniRef90_A0A210QV79 Protein flightless-1-like n=4 Tax=Pectinidae ...  414        6e-133
+UniRef90_A0A6A0HAX0 Uncharacterized protein n=2 Tax=Hyalella azte...  411        9e-133
+UniRef90_A0A553NC99 Uncharacterized protein n=1 Tax=Tigriopus cal...  413        1e-132
+UniRef90_A0A671SZD9 Uncharacterized protein n=1 Tax=Sinocyclochei...  413        2e-132
+UniRef90_UPI00098B4B55 protein flightless-1 homolog n=1 Tax=Micro...  413        2e-132
+UniRef90_A0A0L8GZ50 Uncharacterized protein n=4 Tax=Octopus TaxID...  410        3e-131
+UniRef90_UPI001069299F protein flightless-1 homolog n=1 Tax=Dendr...  407        3e-130
+UniRef90_E9FRY0 Uncharacterized protein n=10 Tax=Daphnia TaxID=66...  406        8e-130
+UniRef90_A0A0N5DB46 Uncharacterized protein n=1 Tax=Thelazia call...  403        1e-128
+UniRef90_UPI0012B57F8D protein flightless-1 homolog n=1 Tax=Actin...  403        2e-128
+UniRef90_A0A6F9DD43 Protein flightless-1 homolog n=1 Tax=Phallusi...  401        6e-128
+UniRef90_A0A1I9GC95 BMA-FLI-1 n=12 Tax=Onchocercidae TaxID=6296 R...  399        3e-127
+UniRef90_L8YHN8 Protein flightless-1 like protein n=1 Tax=Tupaia ...  399        4e-127
+UniRef90_T1G9A6 Uncharacterized protein n=1 Tax=Helobdella robust...  399        4e-127
+UniRef90_A0A1Y3BTD3 Flightless-1-like protein n=2 Tax=Pyroglyphid...  399        5e-127
+UniRef90_UPI000703F0A7 LOW QUALITY PROTEIN: protein flightless-1 ...  398        9e-127
+UniRef90_A0A0K2U430 Uncharacterized protein n=1 Tax=Lepeophtheiru...  398        1e-126
+UniRef90_A0A2P2I1Y5 Protein flightless-1-like n=1 Tax=Hirondellea...  399        2e-126
+UniRef90_UPI0008709F45 protein flightless-1 n=1 Tax=Galendromus o...  397        3e-126
+UniRef90_A0A183IFZ7 Uncharacterized protein n=1 Tax=Soboliphyme b...  398        3e-126
+UniRef90_A0A0V0RWT1 Protein flightless-1-like protein n=28 Tax=Tr...  397        4e-126
+UniRef90_A0A3M7SXH7 Flightless-1-like protein n=1 Tax=Brachionus ...  395        2e-125
+UniRef90_A0A1V9XWN0 Protein flightless-1 isoform 1 n=2 Tax=Derman...  393        1e-124
+UniRef90_A0A1W0WVP0 Protein flightless-1 n=1 Tax=Hypsibius dujard...  391        3e-124
+UniRef90_A0A131ZY28 Flightless-1-like protein n=1 Tax=Sarcoptes s...  392        4e-124
+UniRef90_B7QFA2 Flightless-I, putative (Fragment) n=5 Tax=Ixodes ...  391        4e-124
+UniRef90_P34268 Protein flightless-1 homolog n=7 Tax=Caenorhabdit...  390        8e-124
+UniRef90_A0A0B2UWH0 Protein flightless-1-like protein n=4 Tax=Asc...  389        2e-123
+UniRef90_A0A016V7C9 Uncharacterized protein n=9 Tax=Strongylida T...  388        6e-123
+UniRef90_J9JY79 Uncharacterized protein n=14 Tax=Aphidoidea TaxID...  387        8e-123
+UniRef90_A0A498M1X6 Coiled-coil domain-containing 18-like isoform...  394        1e-122
+UniRef90_A0A0N5AJZ6 Uncharacterized protein n=1 Tax=Syphacia muri...  388        1e-122
+UniRef90_A0A444U3J4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  386        6e-122
+UniRef90_A0A6G1SPN0 Protein flightless-1 n=1 Tax=Aceria tosichell...  385        2e-121
+UniRef90_A0A2A6C966 Fli-1 n=2 Tax=Pristionchus pacificus TaxID=54...  385        1e-120
+UniRef90_A0A1I7XVK3 Uncharacterized protein n=2 Tax=Steinernema g...  386        3e-120
+UniRef90_A0A1I8BQV6 Uncharacterized protein n=1 Tax=Meloidogyne h...  379        2e-119
+UniRef90_A0A077YZ14 Protein flightless 1 n=4 Tax=Trichuris TaxID=...  378        4e-119
+UniRef90_S4VUL7 Flightless-I n=1 Tax=Penaeus vannamei TaxID=6689 ...  378        4e-119
+UniRef90_A0A444TXR4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  382        2e-118
+UniRef90_A0A6G0UWV1 Uncharacterized protein n=1 Tax=Halicephalobu...  372        6e-117
+UniRef90_A0A0N4Z6K5 Uncharacterized protein n=1 Tax=Parastrongylo...  372        7e-117
+UniRef90_A0A090L481 Protein flightless-1 homolog n=3 Tax=Strongyl...  371        2e-116
+UniRef90_A0A2A2JBM5 Uncharacterized protein n=2 Tax=Diploscapter ...  369        2e-116
+UniRef90_A0A0D2UCY7 Flightless-1 n=1 Tax=Capsaspora owczarzaki (s...  371        5e-116
+UniRef90_UPI000811609E protein flightless-1-like n=1 Tax=Rhagolet...  371        9e-116
+UniRef90_A0A1X7V6M4 Uncharacterized protein n=1 Tax=Amphimedon qu...  367        3e-115
+UniRef90_B3S8E5 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  366        1e-114
+UniRef90_A0A553QC84 PHD-type domain-containing protein n=2 Tax=Da...  366        1e-112
+UniRef90_D6W686 Uncharacterized protein n=2 Tax=Tribolium castane...  359        5e-111
+UniRef90_A0A2R6Q4J9 Villin-3 like n=1 Tax=Actinidia chinensis var...  356        1e-110
+UniRef90_A0A2Z7DD87 Villin-2 n=1 Tax=Dorcoceras hygrometricum Tax...  359        3e-110
+UniRef90_Q4S9X7 Chromosome undetermined SCAF14693, whole genome s...  355        2e-109
+UniRef90_A0A1I7RZH6 Uncharacterized protein n=1 Tax=Bursaphelench...  349        2e-108
+UniRef90_A0A1I8CK47 Uncharacterized protein n=1 Tax=Rhabditophane...  349        3e-108
+UniRef90_A0A662YJS6 Villin-1 n=1 Tax=Acipenser ruthenus TaxID=790...  347        1e-106
+UniRef90_E4X9W1 Uncharacterized protein n=1 Tax=Oikopleura dioica...  344        2e-106
+UniRef90_A0A314Z403 Glucose-6-phosphate 1-epimerase n=1 Tax=Prunu...  340        2e-105
+UniRef90_A0A2P5WBL7 HP domain-containing protein n=1 Tax=Gossypiu...  340        7e-105
+UniRef90_A0A5N6M2N0 Glucose-6-phosphate 1-epimerase n=2 Tax=Magno...  338        6e-104
+UniRef90_A0A1R3HM93 Reverse transcriptase n=1 Tax=Corchorus capsu...  339        3e-103
+UniRef90_A0A6D2L945 Glucose-6-phosphate 1-epimerase n=1 Tax=Micro...  334        6e-103
+UniRef90_A0A267GIM6 Uncharacterized protein (Fragment) n=4 Tax=Ma...  333        2e-102
+UniRef90_A0A3P4M6F9 Uncharacterized protein n=1 Tax=Gulo gulo Tax...  328        2e-100
+UniRef90_A0A498N8P2 Villin-1 n=1 Tax=Labeo rohita TaxID=84645 Rep...  325        6e-99 
+UniRef90_A0A2D4C7Z0 CCT-eta n=1 Tax=Pythium insidiosum TaxID=1147...  325        2e-98 
+UniRef90_A0A556TWB8 Villin-1 n=1 Tax=Bagarius yarrelli TaxID=1757...  318        3e-96 
+UniRef90_H2KRI9 Protein flightless-1 n=3 Tax=Opisthorchiidae TaxI...  313        8e-95 
+UniRef90_A0A074ZZM9 Uncharacterized protein n=1 Tax=Opisthorchis ...  312        6e-94 
+UniRef90_A0A4Z2DTC0 Protein flightless-1 isoform 1 n=3 Tax=Schist...  309        7e-93 
+UniRef90_A0A6A3B338 Villin-2 n=1 Tax=Hibiscus syriacus TaxID=1063...  307        3e-92 
+UniRef90_A0A183N2C9 Uncharacterized protein n=8 Tax=Schistosoma T...  303        2e-91 
+UniRef90_A0A2A6C9T5 F-box domain-containing protein n=2 Tax=Prist...  305        2e-91 
+UniRef90_A0A5J4P2Y1 PH domain-containing protein n=1 Tax=Paragoni...  300        1e-89 
+UniRef90_UPI0009E20730 gelsolin, cytoplasmic-like n=1 Tax=Orbicel...  297        5e-89 
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.163    0.523    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0498    0.140     1.90     42.6     43.6 
+
+Effective search space used: 717454384512
+Results from round 3
+
+
+Query= sp|P40121-2|CAPG_HUMAN Isoform 2 of Macrophage-capping protein
+OS=Homo sapiens OX=9606 GN=CAPG
+
+Length=333
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6L2PUE8 Uncharacterized protein n=1 Tax=Coptotermes f...  548        0.0   
+UniRef90_A0A665WTP5 FLII actin remodeling protein n=4 Tax=Echenei...  548        0.0   
+UniRef90_A0A3Q1AM00 Uncharacterized protein n=1 Tax=Amphiprion oc...  547        0.0   
+UniRef90_A0A4X2KW60 FLII actin remodeling protein n=4 Tax=Metathe...  547        0.0   
+UniRef90_A0A667YR66 Uncharacterized protein n=4 Tax=Myripristis m...  546        0.0   
+UniRef90_A0A3Q1H7M2 Uncharacterized protein n=7 Tax=Percomorphace...  546        0.0   
+UniRef90_A0A6J2WQQ1 protein flightless-1 homolog isoform X1 n=4 T...  545        0.0   
+UniRef90_A0A3P8RPU6 FLII actin remodeling protein n=1 Tax=Amphipr...  545        0.0   
+UniRef90_A0A3P8RPS4 FLII actin remodeling protein n=1 Tax=Amphipr...  545        0.0   
+UniRef90_UPI0005763B3A protein flightless-1 homolog n=1 Tax=Esox ...  544        0.0   
+UniRef90_A0A2P8YNB5 Protein flightless-1 n=4 Tax=Blattodea TaxID=...  544        0.0   
+UniRef90_A0A3B4YB95 Uncharacterized protein n=1 Tax=Seriola lalan...  544        0.0   
+UniRef90_A0A3B5A7G4 Uncharacterized protein n=2 Tax=Percomorphace...  544        0.0   
+UniRef90_A0A4W6CGK1 FLII actin remodeling protein n=6 Tax=Lates c...  544        0.0   
+UniRef90_A0A673IMX9 Uncharacterized protein n=3 Tax=Sinocyclochei...  543        0.0   
+UniRef90_UPI001446975F protein flightless-1 homolog n=1 Tax=Epine...  543        0.0   
+UniRef90_A0A484CL87 Uncharacterized protein n=5 Tax=Percidae TaxI...  543        0.0   
+UniRef90_U3IGL9 FLII actin remodeling protein n=3 Tax=Neognathae ...  542        0.0   
+UniRef90_A0A671T166 Uncharacterized protein n=2 Tax=Sinocyclochei...  542        0.0   
+UniRef90_A0A4W4EF97 Uncharacterized protein n=2 Tax=Electrophorus...  542        0.0   
+UniRef90_A0A3B4CXM2 Uncharacterized protein n=1 Tax=Pygocentrus n...  542        0.0   
+UniRef90_A0A3Q3LDA7 Uncharacterized protein n=2 Tax=Mastacembelus...  542        0.0   
+UniRef90_A0A1D5PBF6 Uncharacterized protein n=63 Tax=Aves TaxID=8...  542        0.0   
+UniRef90_X1WE86 FLII actin-remodeling protein n=24 Tax=Clupeoceph...  542        0.0   
+UniRef90_H3AFH0 FLII actin remodeling protein n=3 Tax=Latimeria c...  541        0.0   
+UniRef90_A0A671RZ28 Uncharacterized protein n=4 Tax=Sinocyclochei...  541        0.0   
+UniRef90_UPI00148F469C protein flightless-1 homolog isoform X3 n=...  541        0.0   
+UniRef90_H0X7W7 Uncharacterized protein n=14 Tax=Euarchontoglires...  541        0.0   
+UniRef90_A0A671E7E8 FLII actin remodeling protein n=4 Tax=Microch...  541        0.0   
+UniRef90_UPI0008FABEBC LOW QUALITY PROTEIN: protein flightless-1 ...  541        0.0   
+UniRef90_A0A3Q3K7A4 Uncharacterized protein n=2 Tax=Monopterus al...  541        0.0   
+UniRef90_A0A091QLA7 Protein flightless-1 (Fragment) n=3 Tax=Aves ...  539        0.0   
+UniRef90_A0A663NEA6 Uncharacterized protein n=1 Tax=Athene cunicu...  540        1e-180
+UniRef90_F1N365 FLII actin remodeling protein n=11 Tax=Bovidae Ta...  539        1e-180
+UniRef90_A0A067QEP2 Protein flightless-1 n=2 Tax=Zootermopsis nev...  539        1e-180
+UniRef90_A0A2D0PW60 protein flightless-1 homolog n=2 Tax=Ictaluru...  539        2e-180
+UniRef90_UPI00097CF782 protein flightless-1 homolog n=1 Tax=Paral...  539        2e-180
+UniRef90_A0A5N4D5Y0 Protein flightless-1-like protein n=5 Tax=Bor...  541        2e-180
+UniRef90_V8PEN0 Protein flightless-1-like protein n=8 Tax=Colubro...  533        2e-180
+UniRef90_UPI00093FCA94 protein flightless-1 homolog isoform X1 n=...  539        2e-180
+UniRef90_G3TVB2 FLII actin remodeling protein n=4 Tax=Afrotheria ...  538        3e-180
+UniRef90_H3D1R5 FLII actin remodeling protein n=1 Tax=Tetraodon n...  538        3e-180
+UniRef90_A0A482X3T8 Uncharacterized protein n=2 Tax=Delphacidae T...  538        3e-180
+UniRef90_UPI0008F9DAC9 protein flightless-1 n=1 Tax=Bemisia tabac...  537        4e-180
+UniRef90_Q13045 Protein flightless-1 homolog n=231 Tax=cellular o...  538        5e-180
+UniRef90_A0A1U7QK32 protein flightless-1 homolog isoform X1 n=3 T...  538        5e-180
+UniRef90_K7IVH7 Uncharacterized protein n=1 Tax=Nasonia vitripenn...  537        5e-180
+UniRef90_Q13045-2 Isoform 2 of Protein flightless-1 homolog n=99 ...  536        8e-180
+UniRef90_H0V1E4 FLII actin remodeling protein n=1 Tax=Cavia porce...  537        8e-180
+UniRef90_UPI0010F6D138 LOW QUALITY PROTEIN: protein flightless-1 ...  537        9e-180
+UniRef90_A0A3B3SXZ2 Uncharacterized protein n=3 Tax=Teleostei Tax...  534        9e-180
+UniRef90_A0A087XLU2 FLII actin remodeling protein n=1 Tax=Poecili...  537        1e-179
+UniRef90_A0A6A4SBC8 Uncharacterized protein n=1 Tax=Scophthalmus ...  536        1e-179
+UniRef90_A0A3Q3L428 Uncharacterized protein n=16 Tax=Osteoglossoc...  536        1e-179
+UniRef90_A0A3Q3E983 Uncharacterized protein n=3 Tax=Percomorphace...  536        1e-179
+UniRef90_F6Z0Q6 FLII actin remodeling protein n=4 Tax=Ornithorhyn...  537        1e-179
+UniRef90_A0A2U9CQ09 Uncharacterized protein n=2 Tax=Scophthalmus ...  536        2e-179
+UniRef90_UPI0003339727 protein flightless-1 homolog isoform X1 n=...  536        2e-179
+UniRef90_UPI000C20D1E2 protein flightless-1 isoform X1 n=2 Tax=On...  536        2e-179
+UniRef90_UPI00109F31C8 protein flightless-1 homolog isoform X1 n=...  536        2e-179
+UniRef90_UPI0011B4D100 protein flightless-1 homolog n=1 Tax=Gadus...  536        2e-179
+UniRef90_A0A2K5S8H9 Uncharacterized protein n=14 Tax=Boreoeutheri...  536        2e-179
+UniRef90_U3KH29 FLII actin remodeling protein n=13 Tax=Neognathae...  536        2e-179
+UniRef90_UPI00122D8031 protein flightless-1 homolog isoform X1 n=...  537        2e-179
+UniRef90_A0A3Q2XJU2 Uncharacterized protein n=2 Tax=Hippocampus c...  535        5e-179
+UniRef90_A0A6H5J1G9 Uncharacterized protein n=5 Tax=Chalcidoidea ...  534        6e-179
+UniRef90_UPI0011280762 protein flightless-1 homolog isoform X1 n=...  534        9e-179
+UniRef90_M3ZGI8 Uncharacterized protein n=4 Tax=Cyprinodontiforme...  534        1e-178
+UniRef90_A0A402FB45 Uncharacterized protein n=6 Tax=Bifurcata Tax...  534        2e-178
+UniRef90_G1NVH6 FLII actin remodeling protein n=12 Tax=Vespertili...  533        2e-178
+UniRef90_A0A3P8WVE8 Uncharacterized protein n=1 Tax=Cynoglossus s...  533        3e-178
+UniRef90_A0A3P8WMG5 Uncharacterized protein n=1 Tax=Cynoglossus s...  533        3e-178
+UniRef90_UPI000854AE58 protein flightless-1 homolog isoform X1 n=...  533        4e-178
+UniRef90_UPI00145BF721 protein flightless-1 homolog isoform X1 n=...  532        5e-178
+UniRef90_K9IQ34 Putative actin regulatory gelsolin/villin family ...  533        8e-178
+UniRef90_UPI00109F1BD3 protein flightless-1 homolog n=1 Tax=Erpet...  531        1e-177
+UniRef90_UPI001186E80E protein flightless-1 homolog n=2 Tax=Gymno...  531        2e-177
+UniRef90_E0V9L7 Flightless-I, putative n=1 Tax=Pediculus humanus ...  530        2e-177
+UniRef90_A0A287AT54 Uncharacterized protein n=8 Tax=Boreoeutheria...  532        3e-177
+UniRef90_Q6DKA2 MGC84783 protein n=4 Tax=Xenopus laevis TaxID=835...  531        3e-177
+UniRef90_G3P0L6 FLII actin remodeling protein n=4 Tax=Clupeocepha...  530        3e-177
+UniRef90_A0A5A9N850 Protein flightless-1-like protein n=1 Tax=Tri...  530        4e-177
+UniRef90_D6X267 Protein flightless-1-like Protein n=2 Tax=Tenebri...  529        6e-177
+UniRef90_UPI00096B3CD1 LOW QUALITY PROTEIN: protein flightless-1-...  529        9e-177
+UniRef90_UPI001483C918 protein flightless-1 homolog n=2 Tax=Serpe...  529        1e-176
+UniRef90_UPI00143DC445 protein flightless-1 isoform X1 n=2 Tax=Be...  528        3e-176
+UniRef90_A0A3Q4A9X2 FLII actin remodeling protein n=1 Tax=Mola mo...  528        5e-176
+UniRef90_A0A6J2Y7R9 protein flightless-1 n=1 Tax=Sitophilus oryza...  526        5e-176
+UniRef90_A0A336MYS3 CSON003193 protein n=1 Tax=Culicoides sonoren...  526        6e-176
+UniRef90_A0A4W3HVW8 Uncharacterized protein n=3 Tax=Callorhinchus...  527        7e-176
+UniRef90_A0A154P3I5 Protein flightless-1 n=70 Tax=Hymenoptera Tax...  526        7e-176
+UniRef90_A0A146KS58 Protein flightless-1 n=4 Tax=Mirini TaxID=236...  526        9e-176
+UniRef90_A0A3Q0GQH6 protein flightless-1 homolog n=3 Tax=Crocodyl...  528        1e-175
+UniRef90_UPI00159C9A6A protein flightless-1 homolog n=2 Tax=Hippo...  527        1e-175
+UniRef90_A0A287D4Q3 Uncharacterized protein n=3 Tax=Boreoeutheria...  528        1e-175
+UniRef90_B0W2M9 Flightless-1 n=8 Tax=Culicinae TaxID=43817 RepID=...  526        1e-175
+UniRef90_Q7QHP7 AGAP011292-PA n=18 Tax=Anopheles TaxID=7164 RepID...  527        1e-175
+UniRef90_A0A653C8B5 Uncharacterized protein n=1 Tax=Callosobruchu...  525        2e-175
+UniRef90_UPI000C252175 protein flightless-1 n=1 Tax=Leptinotarsa ...  524        3e-175
+UniRef90_A0A401SA75 Uncharacterized protein n=2 Tax=Elasmobranchi...  523        3e-175
+UniRef90_UPI0006D526A2 protein flightless-1 n=1 Tax=Halyomorpha h...  524        4e-175
+UniRef90_A0A1S3JPD7 protein flightless-1 homolog isoform X1 n=2 T...  524        4e-175
+UniRef90_A0A1Y1MHK3 Uncharacterized protein n=4 Tax=Photinus pyra...  523        8e-175
+UniRef90_UPI00158C6F39 protein flightless-1 n=1 Tax=Chelonus insu...  523        1e-174
+UniRef90_UPI0006CF1FDE protein flightless-1 n=1 Tax=Cimex lectula...  523        2e-174
+UniRef90_A0A2K6QML9 Uncharacterized protein n=1 Tax=Rhinopithecus...  524        2e-174
+UniRef90_A0A452H4I8 FLII actin remodeling protein n=10 Tax=Durocr...  523        4e-174
+UniRef90_A0A5N5KL23 Uncharacterized protein n=1 Tax=Pangasianodon...  521        2e-173
+UniRef90_H9GF97 Uncharacterized protein n=4 Tax=Sauria TaxID=3256...  521        2e-173
+UniRef90_C3YF92 Uncharacterized protein n=1 Tax=Branchiostoma flo...  520        3e-173
+UniRef90_A0A087SWN5 Protein flightless-1 (Fragment) n=2 Tax=Stego...  514        4e-173
+UniRef90_UPI0003F06976 protein flightless-1 homolog n=1 Tax=Sacco...  519        4e-173
+UniRef90_A0A401PKT2 Uncharacterized protein n=1 Tax=Scyliorhinus ...  518        2e-172
+UniRef90_Q24020 Protein flightless-1 n=28 Tax=Sophophora TaxID=32...  517        5e-172
+UniRef90_L7LSL8 Putative actin regulatory gelsolin/villin family ...  515        1e-171
+UniRef90_A0A3B3HLE2 Uncharacterized protein n=32 Tax=Percomorphac...  515        3e-171
+UniRef90_W5JSG5 Flightless-1 n=4 Tax=Nyssorhynchus TaxID=44543 Re...  516        3e-171
+UniRef90_A0A3B0KM23 Blast:Protein flightless-1 n=7 Tax=Drosophila...  515        4e-171
+UniRef90_A0A6M2DKF3 Putative serine/threonine phosphatase 2c n=2 ...  514        5e-171
+UniRef90_A0A1I8NPL1 Uncharacterized protein n=5 Tax=Calyptratae T...  513        1e-170
+UniRef90_UPI0012D43FD6 protein flightless-1 n=1 Tax=Contarinia na...  511        5e-170
+UniRef90_A0A6A4X596 Protein flightless-1 n=1 Tax=Amphibalanus amp...  511        1e-169
+UniRef90_UPI000A2C0C0A protein flightless-1 homolog n=1 Tax=Paras...  509        2e-169
+UniRef90_A0A2Y9HLZ8 protein flightless-1 homolog n=2 Tax=Laurasia...  510        2e-169
+UniRef90_A0A212ENC8 Flightless-1 n=5 Tax=Nymphalidae TaxID=33415 ...  509        3e-169
+UniRef90_B4JIY5 GH12365 n=6 Tax=Drosophila TaxID=7215 RepID=B4JIY...  509        5e-169
+UniRef90_A0A1L8DJ38 Uncharacterized protein (Fragment) n=2 Tax=Ph...  508        1e-168
+UniRef90_A0A0C9RME3 FliI_0 protein n=2 Tax=Opiinae TaxID=68883 Re...  506        3e-168
+UniRef90_UPI0015DE389B LOW QUALITY PROTEIN: protein flightless-1-...  506        3e-168
+UniRef90_A0A226EEV5 Protein flightless-1 n=2 Tax=Folsomia candida...  504        3e-168
+UniRef90_A0A2C9JG55 Uncharacterized protein n=1 Tax=Biomphalaria ...  506        4e-168
+UniRef90_A0A6J1T567 protein flightless-1 isoform X1 n=3 Tax=Thrip...  507        4e-168
+UniRef90_A0A224XI49 Putative actin regulatory gelsolin/villin fam...  506        4e-168
+UniRef90_A0A2Y9MGM8 protein flightless-1 homolog isoform X2 n=17 ...  506        8e-168
+UniRef90_A0A6J2TZA8 protein flightless-1 n=1 Tax=Drosophila leban...  506        1e-167
+UniRef90_I3KEY8 Uncharacterized protein n=15 Tax=Pseudocrenilabri...  506        1e-167
+UniRef90_UPI00148A22D1 protein flightless-1 homolog isoform X1 n=...  505        2e-167
+UniRef90_A0A1A9W9U5 Uncharacterized protein n=5 Tax=Glossina TaxI...  505        2e-167
+UniRef90_UPI00067C34E9 protein flightless-1 isoform X1 n=1 Tax=Am...  504        4e-167
+UniRef90_A0A3S3PKQ5 Protein flightless-1-like protein n=1 Tax=Din...  503        8e-167
+UniRef90_A0A0K8TVK2 Protein flightless-1 n=9 Tax=Holometabola Tax...  502        2e-166
+UniRef90_A0A3S2P2T9 Uncharacterized protein n=6 Tax=Obtectomera T...  501        3e-166
+UniRef90_B4MSC1 Uncharacterized protein n=1 Tax=Drosophila willis...  501        5e-166
+UniRef90_UPI00123966A4 protein flightless-1 homolog isoform X1 n=...  501        6e-166
+UniRef90_T1JRB6 Uncharacterized protein n=1 Tax=Tetranychus urtic...  501        1e-165
+UniRef90_UPI00035936E4 protein flightless-1 homolog isoform X1 n=...  500        1e-165
+UniRef90_R7VD90 Uncharacterized protein n=1 Tax=Capitella teleta ...  499        2e-165
+UniRef90_F6XRP6 Uncharacterized protein n=2 Tax=Monodelphis domes...  499        8e-165
+UniRef90_A0A553NC99 Uncharacterized protein n=1 Tax=Tigriopus cal...  497        1e-164
+UniRef90_A0A1J1J942 CLUMA_CG020486, isoform A n=1 Tax=Clunio mari...  496        6e-164
+UniRef90_A0A210QV79 Protein flightless-1-like n=4 Tax=Pectinidae ...  494        1e-163
+UniRef90_UPI0014030AE7 protein flightless-1 homolog n=1 Tax=Petro...  495        3e-163
+UniRef90_UPI001454FE5E protein flightless-1 homolog n=1 Tax=Aster...  494        4e-163
+UniRef90_A0A443SFP6 Uncharacterized protein n=1 Tax=Leptotrombidi...  492        2e-162
+UniRef90_UPI000B90B45C protein flightless-1 homolog isoform X1 n=...  492        5e-162
+UniRef90_UPI000D7329B6 LOW QUALITY PROTEIN: protein flightless-1 ...  490        7e-162
+UniRef90_A0A194QSY4 Protein flightless-1 n=6 Tax=Papilio TaxID=71...  489        2e-161
+UniRef90_A0A0L8GZ50 Uncharacterized protein n=4 Tax=Octopus TaxID...  489        2e-161
+UniRef90_F7BDJ1 FLII actin-remodeling protein n=3 Tax=Xenopus tro...  489        3e-161
+UniRef90_A0A671SZD9 Uncharacterized protein n=1 Tax=Sinocyclochei...  487        7e-161
+UniRef90_UPI00098B4B55 protein flightless-1 homolog n=1 Tax=Micro...  486        4e-160
+UniRef90_A0A6A0HAX0 Uncharacterized protein n=2 Tax=Hyalella azte...  477        2e-158
+UniRef90_H2XKB1 Uncharacterized protein n=2 Tax=Ciona intestinali...  481        2e-158
+UniRef90_E9FRY0 Uncharacterized protein n=10 Tax=Daphnia TaxID=66...  481        3e-158
+UniRef90_UPI0010FCB44B protein flightless-1 homolog isoform X1 n=...  480        4e-158
+UniRef90_T2MD87 Protein flightless-1 homolog (Fragment) n=2 Tax=H...  473        7e-158
+UniRef90_H9J7M7 Mitochondrial import receptor subunit TOM22 homol...  481        2e-157
+UniRef90_A0A0K2U430 Uncharacterized protein n=1 Tax=Lepeophtheiru...  478        4e-157
+UniRef90_L8YHN8 Protein flightless-1 like protein n=1 Tax=Tupaia ...  477        6e-157
+UniRef90_UPI000703F0A7 LOW QUALITY PROTEIN: protein flightless-1 ...  476        2e-156
+UniRef90_A0A0N5DB46 Uncharacterized protein n=1 Tax=Thelazia call...  475        6e-156
+UniRef90_A0A1I9GC95 BMA-FLI-1 n=12 Tax=Onchocercidae TaxID=6296 R...  473        4e-155
+UniRef90_A0A1Y3BTD3 Flightless-1-like protein n=2 Tax=Pyroglyphid...  473        6e-155
+UniRef90_T1G9A6 Uncharacterized protein n=1 Tax=Helobdella robust...  469        8e-154
+UniRef90_UPI0012B57F8D protein flightless-1 homolog n=1 Tax=Actin...  469        1e-153
+UniRef90_A0A0V0RWT1 Protein flightless-1-like protein n=28 Tax=Tr...  467        9e-153
+UniRef90_UPI0008709F45 protein flightless-1 n=1 Tax=Galendromus o...  466        1e-152
+UniRef90_A0A016V7C9 Uncharacterized protein n=9 Tax=Strongylida T...  466        1e-152
+UniRef90_A0A1V9XWN0 Protein flightless-1 isoform 1 n=2 Tax=Derman...  466        2e-152
+UniRef90_UPI001069299F protein flightless-1 homolog n=1 Tax=Dendr...  465        5e-152
+UniRef90_B7QFA2 Flightless-I, putative (Fragment) n=5 Tax=Ixodes ...  463        2e-151
+UniRef90_A0A131ZY28 Flightless-1-like protein n=1 Tax=Sarcoptes s...  463        5e-151
+UniRef90_A0A3M7SXH7 Flightless-1-like protein n=1 Tax=Brachionus ...  462        1e-150
+UniRef90_A0A2P2I1Y5 Protein flightless-1-like n=1 Tax=Hirondellea...  462        2e-150
+UniRef90_P34268 Protein flightless-1 homolog n=7 Tax=Caenorhabdit...  460        2e-150
+UniRef90_A0A0B2UWH0 Protein flightless-1-like protein n=4 Tax=Asc...  459        3e-150
+UniRef90_A0A6F9DD43 Protein flightless-1 homolog n=1 Tax=Phallusi...  459        4e-150
+UniRef90_A0A1W0WVP0 Protein flightless-1 n=1 Tax=Hypsibius dujard...  458        9e-150
+UniRef90_A0A0N5AJZ6 Uncharacterized protein n=1 Tax=Syphacia muri...  458        4e-149
+UniRef90_J9JY79 Uncharacterized protein n=14 Tax=Aphidoidea TaxID...  452        2e-147
+UniRef90_S4VUL7 Flightless-I n=1 Tax=Penaeus vannamei TaxID=6689 ...  453        3e-147
+UniRef90_A0A2A2JBM5 Uncharacterized protein n=2 Tax=Diploscapter ...  448        2e-146
+UniRef90_A0A1I7XVK3 Uncharacterized protein n=2 Tax=Steinernema g...  457        6e-146
+UniRef90_A0A6G1SPN0 Protein flightless-1 n=1 Tax=Aceria tosichell...  449        9e-146
+UniRef90_A0A2A6C966 Fli-1 n=2 Tax=Pristionchus pacificus TaxID=54...  452        2e-145
+UniRef90_A0A077YZ14 Protein flightless 1 n=4 Tax=Trichuris TaxID=...  447        3e-145
+UniRef90_A0A183IFZ7 Uncharacterized protein n=1 Tax=Soboliphyme b...  447        9e-145
+UniRef90_A0A1I8BQV6 Uncharacterized protein n=1 Tax=Meloidogyne h...  445        1e-144
+UniRef90_A0A6G0UWV1 Uncharacterized protein n=1 Tax=Halicephalobu...  441        4e-143
+UniRef90_A0A0N4Z6K5 Uncharacterized protein n=1 Tax=Parastrongylo...  439        2e-142
+UniRef90_A0A090L481 Protein flightless-1 homolog n=3 Tax=Strongyl...  435        5e-141
+UniRef90_Q4S9X7 Chromosome undetermined SCAF14693, whole genome s...  440        9e-141
+UniRef90_UPI000811609E protein flightless-1-like n=1 Tax=Rhagolet...  437        2e-140
+UniRef90_A0A0D2UCY7 Flightless-1 n=1 Tax=Capsaspora owczarzaki (s...  425        4e-136
+UniRef90_A0A1X7V6M4 Uncharacterized protein n=1 Tax=Amphimedon qu...  422        1e-135
+UniRef90_B3S8E5 Uncharacterized protein n=2 Tax=Trichoplax TaxID=...  421        1e-135
+UniRef90_A0A1I8CK47 Uncharacterized protein n=1 Tax=Rhabditophane...  413        2e-132
+UniRef90_A0A1I7RZH6 Uncharacterized protein n=1 Tax=Bursaphelench...  406        1e-129
+UniRef90_A0A267GIM6 Uncharacterized protein (Fragment) n=4 Tax=Ma...  398        1e-126
+UniRef90_E4X9W1 Uncharacterized protein n=1 Tax=Oikopleura dioica...  392        3e-124
+UniRef90_A0A3P4M6F9 Uncharacterized protein n=1 Tax=Gulo gulo Tax...  386        3e-122
+UniRef90_A0A2R6Q4J9 Villin-3 like n=1 Tax=Actinidia chinensis var...  383        1e-120
+UniRef90_A0A444U3J4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  380        9e-120
+UniRef90_H2KRI9 Protein flightless-1 n=3 Tax=Opisthorchiidae TaxI...  381        1e-119
+UniRef90_A0A498M1X6 Coiled-coil domain-containing 18-like isoform...  385        1e-119
+UniRef90_A0A074ZZM9 Uncharacterized protein n=1 Tax=Opisthorchis ...  382        4e-118
+UniRef90_D6W686 Uncharacterized protein n=2 Tax=Tribolium castane...  373        3e-116
+UniRef90_A0A314Z403 Glucose-6-phosphate 1-epimerase n=1 Tax=Prunu...  370        4e-116
+UniRef90_A0A444TXR4 Gelsolin n=1 Tax=Acipenser ruthenus TaxID=790...  376        4e-116
+UniRef90_A0A2Z7DD87 Villin-2 n=1 Tax=Dorcoceras hygrometricum Tax...  374        1e-115
+UniRef90_A0A5N6M2N0 Glucose-6-phosphate 1-epimerase n=2 Tax=Magno...  365        5e-114
+UniRef90_A0A553QC84 PHD-type domain-containing protein n=2 Tax=Da...  369        9e-114
+UniRef90_A0A5J4P2Y1 PH domain-containing protein n=1 Tax=Paragoni...  368        3e-113
+UniRef90_A0A6D2L945 Glucose-6-phosphate 1-epimerase n=1 Tax=Micro...  362        5e-113
+UniRef90_A0A2P5WBL7 HP domain-containing protein n=1 Tax=Gossypiu...  362        1e-112
+UniRef90_A0A4Z2DTC0 Protein flightless-1 isoform 1 n=3 Tax=Schist...  364        7e-112
+UniRef90_A0A1R3HM93 Reverse transcriptase n=1 Tax=Corchorus capsu...  359        3e-110
+UniRef90_A0A183N2C9 Uncharacterized protein n=8 Tax=Schistosoma T...  350        1e-108
+UniRef90_A0A2A4J2P6 Uncharacterized protein n=2 Tax=Noctuidae Tax...  351        2e-108
+UniRef90_A0A662YJS6 Villin-1 n=1 Tax=Acipenser ruthenus TaxID=790...  350        1e-107
+UniRef90_A0A2D4C7Z0 CCT-eta n=1 Tax=Pythium insidiosum TaxID=1147...  344        6e-105
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A158QIG7 Uncharacterized protein n=2 Tax=Hymenolepidid...  350        4e-108
+UniRef90_A0A5K3ERA7 Uncharacterized protein n=2 Tax=Mesocestoides...  350        6e-108
+UniRef90_W6UNX4 Uncharacterized protein n=1 Tax=Echinococcus gran...  352        1e-107
+UniRef90_A0A0R3W7Y2 Uncharacterized protein n=3 Tax=Taeniidae Tax...  347        6e-107
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.181    0.622    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0555    0.140     1.90     42.6     43.6 
+
+Effective search space used: 717454384512
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

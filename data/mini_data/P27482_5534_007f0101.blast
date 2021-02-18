@@ -1,0 +1,988 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P27482|CALL3_HUMAN Calmodulin-like protein 3 OS=Homo sapiens
+OX=9606 GN=CALML3 PE=1 SV=2
+
+Length=149
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_P0DP23 Calmodulin-1 n=383 Tax=Bilateria TaxID=33213 RepI...  264        5e-90
+UniRef90_P62150 Calmodulin-A (Fragment) n=16 Tax=Deuterostomia Ta...  246        5e-83
+UniRef90_A0A3N0XPR0 Fibrillin-3 n=240 Tax=Eukaryota TaxID=2759 Re...  271        2e-82
+UniRef90_A0A2D4CFD4 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  256        1e-77
+UniRef90_A0A0W0GCD8 Phospholipid-transporting ATPase n=1 Tax=Moni...  252        6e-76
+UniRef90_A0A0D9NN25 AP-1 complex subunit gamma-1 n=789 Tax=Opisth...  248        1e-74
+UniRef90_A0A2N1JCW1 Calmodulin n=1 Tax=Malassezia vespertilionis ...  245        1e-73
+UniRef90_A0A179FRN9 AP-1 complex subunit gamma-1 n=1 Tax=Pochonia...  236        2e-70
+UniRef90_A0A369GUD6 Uncharacterized protein n=5074 Tax=Eukaryota ...  234        2e-69
+UniRef90_A0A0D9XWL7 Uncharacterized protein n=3 Tax=Leersia perri...  229        5e-68
+UniRef90_A0A0E0BNI3 Uncharacterized protein n=8 Tax=Oryza glumipa...  217        1e-63
+UniRef90_A0A395NXZ3 Ap-1 complex subunit gamma-1 n=82 Tax=Trichod...  213        3e-62
+UniRef90_A0A1I8GMI7 Calmodulin n=2 Tax=Macrostomum lignano TaxID=...  199        2e-57
+UniRef90_A0A3Q7WYI3 putative tetratricopeptide repeat protein 41 ...  198        5e-57
+UniRef90_UPI000B45B515 hornerin-like n=2 Tax=Mizuhopecten yessoen...  179        1e-50
+UniRef90_A0A177BAB1 Splicing factor Prp8 n=1 Tax=Intoshia linei T...  171        9e-48
+UniRef90_A0A367XTG7 Vacuolar protein sorting-associated protein 1...  171        1e-47
+UniRef90_UPI001457FE0D uncharacterized transmembrane protein DDB_...  163        7e-45
+UniRef90_UPI000333965E protein MMS22-like n=1 Tax=Echinops telfai...  152        6e-41
+UniRef90_A0A5N5QE03 Glutathione transferase omega-1 n=1 Tax=Cerat...  149        9e-40
+UniRef90_A0A1I8ICN0 Uncharacterized protein n=2 Tax=Macrostomum l...  147        3e-39
+UniRef90_A0A1I8GGL5 Uncharacterized protein n=5 Tax=Macrostomum l...  142        2e-37
+UniRef90_A0A1I8HM24 Uncharacterized protein n=3 Tax=Macrostomum l...  138        4e-36
+UniRef90_A0A1I8GRR9 Uncharacterized protein n=1 Tax=Macrostomum l...  129        8e-33
+UniRef90_A0A261Y0C2 DNA-directed RNA polymerase n=1 Tax=Bifigurat...  127        2e-32
+UniRef90_A0A4V3SBT0 alpha-1,2-Mannosidase n=3 Tax=Holometabola Ta...  127        2e-32
+UniRef90_A0A2K0TQ83 Calmodulin n=2 Tax=Trichoderma gamsii TaxID=3...  126        5e-32
+UniRef90_A0A4Z0YJQ5 Calmodulin n=1 Tax=Xylaria hypoxylon TaxID=37...  125        2e-31
+UniRef90_A0A484B2B5 Membrane dipeptidase n=2 Tax=Drosophila navoj...  122        1e-30
+UniRef90_U1HIF3 Uncharacterized protein n=1 Tax=Endocarpon pusill...  121        3e-30
+UniRef90_A0A6L2LUW0 Probable calcium-binding protein CML25 n=1 Ta...  118        4e-29
+UniRef90_A0A443NZ88 Uncharacterized protein n=1 Tax=Cinnamomum mi...  117        7e-29
+UniRef90_A0A078AXJ4 Calmodulin-like protein 3 n=1 Tax=Stylonychia...  114        1e-27
+UniRef90_A0A091CZA5 Integrin alpha-11 n=1 Tax=Fukomys damarensis ...  114        1e-27
+UniRef90_A0A2U3E1J6 Uncharacterized protein n=1 Tax=Purpureocilli...  113        3e-27
+UniRef90_A0A0G4L272 Uncharacterized protein n=4 Tax=Verticillium ...  111        9e-27
+UniRef90_A0A0G4KS00 Uncharacterized protein n=1 Tax=Verticillium ...  111        1e-26
+UniRef90_A0A498HW04 Uncharacterized protein n=1 Tax=Malus domesti...  110        2e-26
+UniRef90_A0A1B0CZ92 Uncharacterized protein n=1 Tax=Phlebotomus p...  110        2e-26
+UniRef90_A0A6D2ITT6 Uncharacterized protein n=1 Tax=Microthlaspi ...  110        2e-26
+UniRef90_A0A6D2JLT3 Potassium transporter n=2 Tax=Brassicaceae Ta...  108        1e-25
+UniRef90_A0A3L7I5A5 Uncharacterized protein (Fragment) n=1 Tax=Cr...  106        5e-25
+UniRef90_A0A6A3BLW5 Guanine nucleotide-binding protein subunit ga...  106        5e-25
+UniRef90_A0A507FTV8 Uncharacterized protein n=1 Tax=Chytriomyces ...  106        5e-25
+UniRef90_A0A1R3KG92 Uncharacterized protein n=1 Tax=Corchorus oli...  106        5e-25
+UniRef90_UPI0012AC2624 formin-binding protein 4 n=1 Tax=Meleagris...  106        6e-25
+UniRef90_A0A6J5UU13 Uncharacterized protein n=2 Tax=Prunus armeni...  105        9e-25
+UniRef90_A0A0K0E510 Uncharacterized protein n=2 Tax=Strongyloides...  105        1e-24
+UniRef90_C4WRX9 ACYPI004964 protein n=3 Tax=Aphidinae TaxID=13307...  99.4       1e-24
+UniRef90_A0A090LCH9 EF-hand domain and Zinc finger, C2H2 domain a...  105        2e-24
+UniRef90_A0A085MZ62 Uncharacterized protein n=5 Tax=Trichuris sui...  104        2e-24
+UniRef90_A0A1I8HFV2 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  103        7e-24
+UniRef90_UPI0008116CE1 UHRF1-binding protein 1-like isoform X1 n=...  103        7e-24
+UniRef90_A0A2D4C2M1 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  102        1e-23
+UniRef90_A0A388MBV9 Uncharacterized protein n=1 Tax=Chara braunii...  102        1e-23
+UniRef90_A0A6A4SFR9 Uncharacterized protein n=1 Tax=Scophthalmus ...  102        1e-23
+UniRef90_A0A1I8JIV6 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  102        2e-23
+UniRef90_A0A4D9AH03 Calcium-binding protein CML n=1 Tax=Salvia sp...  102        2e-23
+UniRef90_A0A1I8JHV5 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  102        2e-23
+UniRef90_A0A1E5UVL2 Calcium-dependent protein kinase 13 n=3 Tax=P...  101        3e-23
+UniRef90_UPI000D0D614E LOW QUALITY PROTEIN: nuclear pore complex ...  101        3e-23
+UniRef90_A0A6A5K1T2 P-loop containing nucleoside triphosphate hyd...  100        5e-23
+UniRef90_A0A364NCC9 P-loop containing nucleoside triphosphate hyd...  100        6e-23
+UniRef90_M2SR47 Uncharacterized protein n=7 Tax=Pleosporaceae Tax...  100        7e-23
+UniRef90_A0A6A4K8T5 Structural maintenance of chromosomes protein...  100        7e-23
+UniRef90_A0A1D6M674 Calcium-dependent protein kinase 13 n=6 Tax=M...  100        1e-22
+UniRef90_A0A0E0F2C1 Uncharacterized protein n=6 Tax=Oryza TaxID=4...  100        1e-22
+UniRef90_A0A4Z2I8Q0 Calcium-binding protein 1 n=1 Tax=Liparis tan...  99.8       1e-22
+UniRef90_J3LTJ3 Uncharacterized protein n=2 Tax=Oryza brachyantha...  98.6       3e-22
+UniRef90_A0A5N5MTH9 Eukaryotic translation initiation factor 3 su...  98.6       3e-22
+UniRef90_UPI000C77EB5E uncharacterized protein LOC111712996 isofo...  97.8       6e-22
+UniRef90_A0A2P5WQ53 Uncharacterized protein n=5 Tax=Gossypium Tax...  97.8       7e-22
+UniRef90_UPI0010AA828D TMV resistance protein N-like n=1 Tax=Malu...  97.1       1e-21
+UniRef90_A0A498JLC7 Uncharacterized protein n=1 Tax=Malus domesti...  96.7       2e-21
+UniRef90_A0A5J9TV41 Uncharacterized protein (Fragment) n=1 Tax=Er...  95.9       3e-21
+UniRef90_A0A1Q9DJR5 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  95.1       6e-21
+UniRef90_UPI000D62A025 ABC transporter G family member 22 isoform...  94.7       7e-21
+UniRef90_A0A3R7KCS8 Calmodulin n=1 Tax=Phytophthora kernoviae Tax...  94.4       1e-20
+UniRef90_A0A1I8GXC8 Uncharacterized protein n=1 Tax=Macrostomum l...  94.0       1e-20
+UniRef90_A0A3S3MF84 Pentatricopeptide repeat-containing-like prot...  94.0       1e-20
+UniRef90_A0A1I8HE31 Uncharacterized protein n=1 Tax=Macrostomum l...  94.0       2e-20
+UniRef90_A0A438DBJ3 Calcium-dependent protein kinase 8 n=1 Tax=Vi...  94.0       2e-20
+UniRef90_A0A5E4Q3I9 Uncharacterized protein n=1 Tax=Leptidea sina...  93.6       2e-20
+UniRef90_A0A2P6TSD1 Signal peptide peptidase n=1 Tax=Chlorella so...  93.6       2e-20
+UniRef90_M7ZG37 Calcium-dependent protein kinase 5 n=1 Tax=Tritic...  92.8       3e-20
+UniRef90_A0A482WGD0 Anion exchange protein n=2 Tax=Bilateria TaxI...  91.7       9e-20
+UniRef90_A0A0L0DT19 Uncharacterized protein n=1 Tax=Thecamonas tr...  90.9       2e-19
+UniRef90_A0A371G162 Calcium-dependent protein kinase 29 (Fragment...  90.5       2e-19
+UniRef90_A0A498LV45 Multifunctional fusion protein n=1 Tax=Labeo ...  90.5       2e-19
+UniRef90_A0A4Z2HKS6 Fibrillin-1 n=1 Tax=Liparis tanakae TaxID=230...  89.7       4e-19
+UniRef90_A0A485L522 Calmodulin n=1 Tax=Aphanomyces stellatus TaxI...  89.4       6e-19
+UniRef90_M4BN88 Calmodulin n=1 Tax=Hyaloperonospora arabidopsidis...  89.0       9e-19
+UniRef90_A0A6B0QRS7 Hexokinase n=5 Tax=Boreoeutheria TaxID=143701...  88.6       1e-18
+UniRef90_A0A024UCA8 Calmodulin n=2 Tax=Aphanomyces invadans TaxID...  88.2       1e-18
+UniRef90_A0A1Q9D9V6 Ins(1,3,4,5,6)P5 2-kinase n=1 Tax=Symbiodiniu...  87.8       2e-18
+UniRef90_A0A662YI60 Uncharacterized protein n=1 Tax=Nothophytopht...  86.3       6e-18
+UniRef90_C1MRX4 Ankyrin repeat protein n=1 Tax=Micromonas pusilla...  86.3       6e-18
+UniRef90_UPI0015DE90EA LOW QUALITY PROTEIN: uncharacterized prote...  85.9       9e-18
+UniRef90_A0A078AJI3 Ef hand family protein n=1 Tax=Stylonychia le...  85.9       9e-18
+UniRef90_A0A1Q9ECX7 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  85.5       1e-17
+UniRef90_R1FKT9 Voltage-gated Ca2+ channel, alpha subunit n=2 Tax...  85.5       1e-17
+UniRef90_A0A2K3DQC1 Uncharacterized protein n=1 Tax=Chlamydomonas...  85.1       2e-17
+UniRef90_A0A1Q9CVF4 Calmodulin-like protein 12 n=1 Tax=Symbiodini...  84.7       2e-17
+UniRef90_A0A195BLJ1 Cleavage and polyadenylation specificity fact...  83.6       6e-17
+UniRef90_A0A6A5IQ92 Peptidylprolyl isomerase n=1 Tax=Phytophthora...  83.2       7e-17
+UniRef90_A0A6G0XD89 Calmodulin n=1 Tax=Aphanomyces euteiches TaxI...  83.2       8e-17
+UniRef90_A0A0J7L9D9 Cleavage and polyadenylation specificity fact...  82.4       1e-16
+UniRef90_A0A151X3V9 Cleavage and polyadenylation specificity fact...  82.4       2e-16
+UniRef90_A0A2K3D395 Uncharacterized protein n=1 Tax=Chlamydomonas...  82.4       2e-16
+UniRef90_J9JCN4 Calmodulin n=1 Tax=Oxytricha trifallax TaxID=1172...  82.0       2e-16
+UniRef90_A0A1Q9DYU9 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  82.0       2e-16
+UniRef90_A0A6G1PH56 Non-specific serine/threonine protein kinase ...  82.0       2e-16
+UniRef90_A0A1V9ZYY3 Calmodulin n=1 Tax=Thraustotheca clavata TaxI...  81.6       3e-16
+UniRef90_A0A026VXU8 Cleavage and polyadenylation specificity fact...  81.6       3e-16
+UniRef90_A0A4U5U915 Citron Rho-interacting kinase n=7 Tax=Percomo...  81.3       4e-16
+UniRef90_A0A078B7J9 Ef hand family protein n=1 Tax=Stylonychia le...  80.9       6e-16
+UniRef90_K7ITG7 Uncharacterized protein n=5 Tax=Chalcidoidea TaxI...  80.5       7e-16
+UniRef90_A0A2D4BKB2 Calmodulin (Fragment) n=1 Tax=Pythium insidio...  80.5       8e-16
+UniRef90_A0A2P5YBD9 Uncharacterized protein n=1 Tax=Gossypium bar...  80.1       8e-16
+UniRef90_E2A6Q3 Myosin regulatory light chain 2 n=2 Tax=Formicina...  79.7       1e-15
+UniRef90_E9ISL3 Uncharacterized protein (Fragment) n=10 Tax=Formi...  79.3       2e-15
+UniRef90_A0A6A5IGQ4 Calmodulin n=1 Tax=Phytophthora cactorum TaxI...  79.3       2e-15
+UniRef90_A0A6G0WSS9 Calmodulin (Fragment) n=1 Tax=Aphanomyces eut...  79.3       2e-15
+UniRef90_J9IQD2 EF hand family protein n=2 Tax=Oxytricha trifalla...  79.3       2e-15
+UniRef90_H3HB88 Calmodulin n=1 Tax=Phytophthora ramorum TaxID=164...  79.3       2e-15
+UniRef90_A0A485LR20 Calmodulin n=1 Tax=Aphanomyces stellatus TaxI...  79.0       2e-15
+UniRef90_A0A1Y1Y8B8 Uncharacterized protein n=1 Tax=Basidiobolus ...  79.0       3e-15
+UniRef90_I7LXB1 EF hand protein n=1 Tax=Tetrahymena thermophila (...  78.6       3e-15
+UniRef90_A0A0W8C831 Calmodulin n=1 Tax=Phytophthora nicotianae Ta...  78.6       3e-15
+UniRef90_A0A1R2B5P4 Uncharacterized protein n=1 Tax=Stentor coeru...  78.6       3e-15
+UniRef90_A0A1I8HSH9 Uncharacterized protein n=1 Tax=Macrostomum l...  78.6       4e-15
+UniRef90_A0A4S2KUU8 Uncharacterized protein n=3 Tax=Myrmicinae Ta...  78.2       4e-15
+UniRef90_A0A6A5IXP3 Calmodulin n=1 Tax=Phytophthora cactorum TaxI...  78.2       5e-15
+UniRef90_W4FK68 Calmodulin n=6 Tax=Aphanomyces astaci TaxID=11209...  78.2       5e-15
+UniRef90_K3WZ00 Calmodulin n=1 Tax=Globisporangium ultimum (strai...  77.8       6e-15
+UniRef90_UPI0006237999 uncharacterized protein LOC105679844 isofo...  77.4       9e-15
+UniRef90_A0A078ABY6 Calmodulin n=1 Tax=Stylonychia lemnae TaxID=5...  77.4       1e-14
+UniRef90_A0A6A2ZYJ2 RNA pseudouridine synthase 2 n=1 Tax=Hibiscus...  77.0       1e-14
+UniRef90_A0A662WD52 Uncharacterized protein n=1 Tax=Nothophytopht...  77.0       1e-14
+UniRef90_A0A662X2Q4 Uncharacterized protein n=1 Tax=Nothophytopht...  77.0       1e-14
+UniRef90_A0A0E0DH17 Alpha-L-fucosidase n=5 Tax=Oryza meridionalis...  77.0       1e-14
+UniRef90_A0A2R5GE65 Calmodulin n=1 Tax=Hondaea fermentalgiana Tax...  76.6       1e-14
+UniRef90_A0A067C7D8 Calmodulin n=1 Tax=Saprolegnia parasitica (st...  76.6       2e-14
+UniRef90_A0A1Q9DWV3 Caltractin n=1 Tax=Symbiodinium microadriatic...  76.6       2e-14
+UniRef90_A0A5A8C340 Calmodulin n=2 Tax=Cafeteria roenbergensis Ta...  76.6       2e-14
+UniRef90_A0A0L0DDK8 Fimbrin n=1 Tax=Thecamonas trahens ATCC 50062...  76.3       2e-14
+UniRef90_H3GQS6 Calmodulin n=1 Tax=Phytophthora ramorum TaxID=164...  76.3       2e-14
+UniRef90_A0A0M0J463 Tetratricopeptide repeat domain containing pr...  76.3       2e-14
+UniRef90_A0A1R2CIJ0 Uncharacterized protein n=1 Tax=Stentor coeru...  75.9       3e-14
+UniRef90_J9EFU4 EF hand family protein n=1 Tax=Oxytricha trifalla...  75.9       3e-14
+UniRef90_A0A1V9ZJ45 Calmodulin n=1 Tax=Achlya hypogyna TaxID=1202...  75.9       3e-14
+UniRef90_A0A0N7L762 Calmodulin n=1 Tax=Plasmopara halstedii TaxID...  75.9       3e-14
+UniRef90_K0SQ80 Calmodulin n=1 Tax=Thalassiosira oceanica TaxID=1...  75.9       3e-14
+UniRef90_A0A1V9YTS8 Calmodulin n=1 Tax=Thraustotheca clavata TaxI...  75.9       3e-14
+UniRef90_A0A3L8DJR6 Uncharacterized protein n=3 Tax=Ooceraea biro...  75.5       4e-14
+UniRef90_A0A0S4IWK3 Calmodulin, putative n=4 Tax=Metakinetoplasti...  68.2       6e-14
+UniRef90_A0A421G4V3 Calmodulin n=2 Tax=Phytophthora kernoviae Tax...  75.1       6e-14
+UniRef90_A0A485L781 Calmodulin n=1 Tax=Aphanomyces stellatus TaxI...  74.7       7e-14
+UniRef90_A0A1Q9EYF9 Diacylglycerol kinase (ATP) n=1 Tax=Symbiodin...  74.7       7e-14
+UniRef90_A0A0G4E9Y4 Uncharacterized protein n=1 Tax=Vitrella bras...  74.7       8e-14
+UniRef90_A0A482S9S1 Uncharacterized protein (Fragment) n=1 Tax=ar...  74.3       1e-13
+UniRef90_W2R0F9 Calmodulin n=9 Tax=Phytophthora parasitica TaxID=...  73.9       1e-13
+UniRef90_A0A0S4JIP4 Poly [ADP-ribose] polymerase (Fragment) n=1 T...  73.9       2e-13
+UniRef90_A0A0S4IKG7 Transmembrane protein, putative n=1 Tax=Bodo ...  73.6       2e-13
+UniRef90_A0A6A3EW67 Calmodulin n=4 Tax=Phytophthora TaxID=4783 Re...  73.2       2e-13
+UniRef90_A0A1Q9EBV6 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  73.2       3e-13
+UniRef90_A0A1Q9CHE0 Calcium-dependent protein kinase 1 n=1 Tax=Sy...  72.8       3e-13
+UniRef90_A0BVG6 Uncharacterized protein n=1 Tax=Paramecium tetrau...  72.8       4e-13
+UniRef90_A0A1Q9C360 Calmodulin-like protein n=1 Tax=Symbiodinium ...  72.4       5e-13
+UniRef90_A0A0E0F2C2 EF-hand domain-containing protein n=3 Tax=Ory...  72.4       5e-13
+UniRef90_H3GLG1 Calmodulin n=1 Tax=Phytophthora ramorum TaxID=164...  72.0       7e-13
+UniRef90_S8EQY1 Calcium-dependent protein kinase CDPK6 n=25 Tax=T...  71.6       8e-13
+UniRef90_G4Z3C0 Calmodulin n=12 Tax=Phytophthora TaxID=4783 RepID...  71.6       8e-13
+UniRef90_A0A1Q9D7K8 Beta-adaptin-like protein C n=1 Tax=Symbiodin...  71.6       9e-13
+UniRef90_A0A1Q9D0U6 Calmodulin-1 n=1 Tax=Symbiodinium microadriat...  71.6       1e-12
+UniRef90_W4FZG5 Calmodulin n=2 Tax=Aphanomyces astaci TaxID=11209...  71.2       1e-12
+UniRef90_W2Q8K5 Calmodulin n=11 Tax=Phytophthora TaxID=4783 RepID...  71.2       1e-12
+UniRef90_A0A152A3U3 Alpha actinin n=1 Tax=Tieghemostelium lacteum...  70.9       1e-12
+UniRef90_A0A067CRA1 Calmodulin n=1 Tax=Saprolegnia parasitica (st...  70.9       2e-12
+UniRef90_T0RXT4 Calmodulin n=1 Tax=Saprolegnia diclina (strain VS...  70.9       2e-12
+UniRef90_A0A1Q9DAT0 Calmodulin-like protein n=1 Tax=Symbiodinium ...  70.9       2e-12
+UniRef90_A0A2P6U456 Calcium-dependent kinase 1-like n=1 Tax=Chlor...  70.9       2e-12
+UniRef90_A0A1Q9EC20 Uncharacterized protein YbeQ n=1 Tax=Symbiodi...  70.9       2e-12
+UniRef90_T0RSH2 Calmodulin n=1 Tax=Saprolegnia diclina (strain VS...  70.5       2e-12
+UniRef90_F0W0F4 Calmodulin n=1 Tax=Albugo laibachii Nc14 TaxID=89...  70.5       2e-12
+UniRef90_A0A024G811 Calmodulin n=1 Tax=Albugo candida TaxID=65357...  70.5       3e-12
+UniRef90_C1FGB5 Ankyrin repeat protein n=1 Tax=Micromonas commoda...  70.5       3e-12
+UniRef90_A0A6G0XXV1 Calmodulin n=2 Tax=Aphanomyces euteiches TaxI...  70.1       3e-12
+UniRef90_A0A0V0R280 Protein kinase-like domain n=1 Tax=Pseudocohn...  70.1       3e-12
+UniRef90_A0A1Q9D1I4 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  70.1       3e-12
+UniRef90_A0A1A9VPW5 Uncharacterized protein n=1 Tax=Glossina aust...  70.1       3e-12
+UniRef90_UPI00140288D8 VPS35 endosomal protein sorting factor-lik...  69.7       4e-12
+UniRef90_W4H6W9 Calmodulin n=11 Tax=Aphanomyces astaci TaxID=1120...  69.7       4e-12
+UniRef90_A0A397CE83 Calmodulin n=2 Tax=Aphanomyces astaci TaxID=1...  69.7       4e-12
+UniRef90_A0A3L6VUA5 Calmodulin (Fragment) n=1 Tax=Aphanomyces ast...  69.7       5e-12
+UniRef90_A0A1Q9E1X2 Calcium-binding protein CML24 n=1 Tax=Symbiod...  69.3       5e-12
+UniRef90_T0QSZ3 Calmodulin n=1 Tax=Saprolegnia diclina (strain VS...  69.3       6e-12
+UniRef90_A0A3R7E6L0 Calmodulin (Fragment) n=1 Tax=Aphanomyces ast...  68.9       7e-12
+UniRef90_UPI001069415E EF-hand calcium-binding domain-containing ...  68.9       7e-12
+UniRef90_A0A0E0BEZ5 Uncharacterized protein n=1 Tax=Oryza glumipa...  68.9       8e-12
+UniRef90_A0A0E0BEZ2 Uncharacterized protein n=3 Tax=Oryza glumipa...  68.9       8e-12
+UniRef90_D0NBC0 Calmodulin n=1 Tax=Phytophthora infestans (strain...  68.9       9e-12
+UniRef90_F2U5C1 Voltage-dependent calcium channel T type alpha 1G...  68.9       9e-12
+UniRef90_A0A6A5JNK5 Calmodulin n=2 Tax=Phytophthora cactorum TaxI...  68.6       1e-11
+UniRef90_A0A6A4T6E9 Uncharacterized protein n=1 Tax=Scophthalmus ...  68.2       1e-11
+UniRef90_A0A2R5G008 Calmodulin n=1 Tax=Hondaea fermentalgiana Tax...  68.2       1e-11
+UniRef90_A0A2B4S9F1 Alpha-actinin-1 n=1 Tax=Stylophora pistillata...  68.2       1e-11
+UniRef90_A0A674HJ26 Uncharacterized protein n=11 Tax=cellular org...  68.2       2e-11
+UniRef90_A0A024TU08 Calmodulin n=3 Tax=Aphanomyces invadans TaxID...  67.8       2e-11
+UniRef90_A0A1V9YYR8 Calmodulin n=1 Tax=Achlya hypogyna TaxID=1202...  67.8       2e-11
+UniRef90_A0A1Q9C1F6 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  67.4       3e-11
+UniRef90_G5A7A4 Calmodulin n=1 Tax=Phytophthora sojae (strain P64...  67.0       3e-11
+UniRef90_A0A0L0DU34 Guanylate cyclase activator 1A n=1 Tax=Thecam...  67.0       3e-11
+UniRef90_A0A1W0ABZ1 Calmodulin (Fragment) n=1 Tax=Thraustotheca c...  66.6       5e-11
+UniRef90_A0A1Q9CA64 Calcium-binding protein 1 n=1 Tax=Symbiodiniu...  66.6       5e-11
+UniRef90_G7YUF6 Anosmin-1 n=1 Tax=Clonorchis sinensis TaxID=79923...  66.2       6e-11
+UniRef90_A0A1V9YT98 Calmodulin n=1 Tax=Achlya hypogyna TaxID=1202...  66.2       6e-11
+UniRef90_A0A1Q9D5M9 Calcium-dependent protein kinase 3 n=1 Tax=Sy...  66.2       7e-11
+UniRef90_A0A6G0UUK6 Uncharacterized protein n=1 Tax=Halicephalobu...  65.9       8e-11
+UniRef90_A0A0M0JD34 Pyrazinamidase nicotinamidase n=1 Tax=Chrysoc...  65.9       9e-11
+UniRef90_H3G0S6 Agr-1 n=2 Tax=Pristionchus pacificus TaxID=54126 ...  65.9       9e-11
+UniRef90_A9UZJ7 Protein MCM10 homolog n=1 Tax=Monosiga brevicolli...  65.9       9e-11
+UniRef90_A0A0M0JXJ5 Calmodulin-like 5 n=1 Tax=Chrysochromulina to...  65.9       1e-10
+UniRef90_A0A1R2CUZ4 Uncharacterized protein n=1 Tax=Stentor coeru...  65.5       1e-10
+UniRef90_K3WWY2 Calmodulin n=1 Tax=Globisporangium ultimum (strai...  65.1       2e-10
+UniRef90_A0A1I8GPT3 Phospholipid-transporting ATPase n=3 Tax=Macr...  65.1       2e-10
+UniRef90_A0A383WDT1 Uncharacterized protein n=2 Tax=Tetradesmus o...  65.1       2e-10
+UniRef90_A0A0M0K647 Uncharacterized protein (Fragment) n=1 Tax=Ch...  65.1       2e-10
+UniRef90_H3GSU4 Eukaryotic translation initiation factor 3 subuni...  65.1       2e-10
+UniRef90_D8LB75 Calmodulin n=1 Tax=Ectocarpus siliculosus TaxID=2...  64.7       2e-10
+UniRef90_A0A1I8IK39 Uncharacterized protein n=1 Tax=Macrostomum l...  64.7       2e-10
+UniRef90_A0A2A9M163 Calcium-dependent protein kinase CDPK4 n=1 Ta...  64.7       2e-10
+UniRef90_A0A3Q0GMV8 GLE1-like protein n=1 Tax=Alligator sinensis ...  64.7       2e-10
+UniRef90_A0A1Q9CE48 Calcium-dependent protein kinase 3 n=1 Tax=Sy...  64.7       2e-10
+UniRef90_A0A1Q9CV28 Calmodulin n=1 Tax=Symbiodinium microadriatic...  64.7       2e-10
+UniRef90_A0A151MFE0 GLE1-like protein n=15 Tax=cellular organisms...  64.7       2e-10
+UniRef90_A0A3Q0GLZ8 GLE1-like protein n=4 Tax=Alligator sinensis ...  64.7       2e-10
+UniRef90_D8TNH6 Uncharacterized protein n=1 Tax=Volvox carteri f....  64.7       3e-10
+UniRef90_W5NV97 Uncharacterized protein n=9 Tax=Boreoeutheria Tax...  63.2       3e-10
+UniRef90_A0A1Q9CKW7 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  64.3       3e-10
+UniRef90_A0A6A4S691 Procollagen-proline 4-dioxygenase n=5 Tax=Sco...  64.3       3e-10
+UniRef90_A0A2D4BPE2 Calmodulin n=2 Tax=Pythium insidiosum TaxID=1...  64.3       3e-10
+UniRef90_F6UPN4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Equus ...  64.3       3e-10
+UniRef90_A0A3Q2I5G7 Spectrin alpha, non-erythrocytic 1 n=6 Tax=Te...  64.3       3e-10
+UniRef90_F6UQC4 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Equus ...  64.3       3e-10
+UniRef90_D3B7E5 Alpha actinin n=1 Tax=Polysphondylium pallidum (s...  64.3       3e-10
+UniRef90_A0A1W0A4D9 Serine/threonine-protein phosphatase (Fragmen...  64.3       3e-10
+UniRef90_UPI0014584CCD spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_A0A401PL46 Uncharacterized protein n=1 Tax=Scyliorhinus ...  63.9       4e-10
+UniRef90_UPI00145856C2 spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_UPI001458BBBB spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_UPI00118550B6 spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_A0A2Y9HDI3 spectrin alpha chain, non-erythrocytic 1 isof...  63.9       4e-10
+UniRef90_UPI0011861A3D spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_A0A2Y9H6U0 spectrin alpha chain, non-erythrocytic 1 isof...  63.9       4e-10
+UniRef90_UPI000C9FD5D4 spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_A0A2K6N533 Uncharacterized protein n=1 Tax=Rhinopithecus...  63.9       4e-10
+UniRef90_UPI000C9E4EBE spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_UPI001403E928 spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_UPI001403CCCF spectrin alpha chain, non-erythrocytic 1 i...  63.9       4e-10
+UniRef90_F6UPM7 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Equus ...  63.9       5e-10
+UniRef90_UPI00071A762E spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A1Q9F217 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  63.9       5e-10
+UniRef90_A0A6A3WSG6 Calmodulin n=4 Tax=Phytophthora TaxID=4783 Re...  63.9       5e-10
+UniRef90_UPI0002C679A0 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI00071971D9 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A2Y9H6T5 spectrin alpha chain, non-erythrocytic 1 isof...  63.9       5e-10
+UniRef90_UPI00071A5CBE spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI00122F9879 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI000C9FC6D1 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI00122F0475 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A2K6N528 Uncharacterized protein n=1 Tax=Rhinopithecus...  63.9       5e-10
+UniRef90_UPI000719567B spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI00108B0590 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A226NMZ6 GLE1-like protein n=4 Tax=Neognathae TaxID=88...  63.9       5e-10
+UniRef90_UPI0005219236 spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_UPI000C9F23AC spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A024UX31 Calmodulin n=3 Tax=Aphanomyces invadans TaxID...  63.9       5e-10
+UniRef90_UPI00071A8CDC spectrin alpha chain, non-erythrocytic 1 i...  63.9       5e-10
+UniRef90_A0A6G1ATN3 SPTN1 protein (Fragment) n=1 Tax=Crocuta croc...  63.5       5e-10
+UniRef90_A0A418B6N8 Succinate--CoA ligase [ADP-forming] subunit a...  63.5       5e-10
+UniRef90_UPI000529DC4C spectrin alpha chain, non-erythrocytic 1 n...  63.5       5e-10
+UniRef90_UPI0013F1850F spectrin alpha chain, non-erythrocytic 1 i...  63.5       5e-10
+UniRef90_UPI0005217DCF spectrin alpha chain, non-erythrocytic 1 i...  63.5       5e-10
+UniRef90_A0A1R2BTQ6 Uncharacterized protein n=1 Tax=Stentor coeru...  63.5       5e-10
+UniRef90_UPI0012B58677 EF-hand calcium-binding domain-containing ...  63.5       5e-10
+UniRef90_A0A6J0TKT9 spectrin alpha chain, non-erythrocytic 1 isof...  63.5       6e-10
+UniRef90_A0A6J0TLM6 spectrin alpha chain, non-erythrocytic 1 isof...  63.5       6e-10
+UniRef90_UPI0013F26B0C spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A3L8SE72 Uncharacterized protein n=1 Tax=Chloebia goul...  63.5       6e-10
+UniRef90_A0A1V9ZJG4 Calmodulin n=1 Tax=Thraustotheca clavata TaxI...  63.5       6e-10
+UniRef90_A0A669Q8S5 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ph...  63.5       6e-10
+UniRef90_A0A2I0M3V0 Spectrin, alpha, non-erythrocytic 1, transcri...  63.5       6e-10
+UniRef90_A0A2B4SPX6 Plastin-3 n=1 Tax=Stylophora pistillata TaxID...  63.5       6e-10
+UniRef90_A0A2K3CV39 Uncharacterized protein n=1 Tax=Chlamydomonas...  63.5       6e-10
+UniRef90_A0A669QPL8 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ph...  63.5       6e-10
+UniRef90_A0A669Q8T0 Spectrin alpha, non-erythrocytic 1 n=3 Tax=Ph...  63.5       6e-10
+UniRef90_A0A674G8K2 Uncharacterized protein n=1 Tax=Taeniopygia g...  63.5       6e-10
+UniRef90_UPI001176DEB3 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_H0Z0R3 Uncharacterized protein n=1 Tax=Taeniopygia gutta...  63.5       6e-10
+UniRef90_UPI0014447FB7 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI001128987A spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A2I0M3V5 Spectrin, alpha, non-erythrocytic 1, transcri...  63.5       6e-10
+UniRef90_UPI00129ED2C7 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A6J0TLM0 spectrin alpha chain, non-erythrocytic 1 isof...  63.5       6e-10
+UniRef90_UPI000549DCB0 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI00112E255E spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A663NAD6 Spectrin alpha, non-erythrocytic 1 n=1 Tax=At...  63.5       6e-10
+UniRef90_A0A452IVM4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Go...  63.5       6e-10
+UniRef90_U3J5Y3 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Anas p...  63.5       6e-10
+UniRef90_A0A3Q2U342 Spectrin alpha chain, non-erythrocytic 1 n=2 ...  63.5       6e-10
+UniRef90_A0A2I0M3X5 Spectrin, alpha, non-erythrocytic 1, transcri...  63.5       6e-10
+UniRef90_A0A1D5PQC3 Spectrin alpha chain, non-erythrocytic 1 n=1 ...  63.5       6e-10
+UniRef90_UPI001444239A spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A452IVK6 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Go...  63.5       6e-10
+UniRef90_UPI000CEF8307 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0006B7CDCA spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI001444740C spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A674G7G4 Uncharacterized protein n=1 Tax=Taeniopygia g...  63.5       6e-10
+UniRef90_UPI000B3E1A47 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI000771526B spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0006B6D17F spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A2I0M3V7 Spectrin, alpha, non-erythrocytic 1, transcri...  63.5       6e-10
+UniRef90_A0A669QD02 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ph...  63.5       6e-10
+UniRef90_A0A674KAG4 Uncharacterized protein n=2 Tax=Terrapene car...  63.5       6e-10
+UniRef90_A0A674HBB1 Uncharacterized protein n=1 Tax=Taeniopygia g...  63.5       6e-10
+UniRef90_UPI001556FA83 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0006B8786D spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A669QCZ8 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ph...  63.5       6e-10
+UniRef90_UPI000777869C spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0006B79D9E spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A669Q5C9 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ph...  63.5       6e-10
+UniRef90_UPI0013F1A38F spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI00144498DF spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A1V4J6Z9 Spectrin alpha chain, non-erythrocytic 1 isof...  63.5       6e-10
+UniRef90_A0A663NAV5 Spectrin alpha, non-erythrocytic 1 n=1 Tax=At...  63.5       6e-10
+UniRef90_UPI00046C1824 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI001292D207 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0006B81023 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A674GJE0 Uncharacterized protein n=1 Tax=Taeniopygia g...  63.5       6e-10
+UniRef90_A0A218V1Y8 Spectrin alpha chain, non-erythrocytic 1 n=2 ...  63.5       6e-10
+UniRef90_G3UPL5 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Meleag...  63.5       6e-10
+UniRef90_UPI000549C467 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0011CF84E5 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_UPI0013F28916 spectrin alpha chain, non-erythrocytic 1 i...  63.5       6e-10
+UniRef90_A0A250XPH4 Uncharacterized protein n=1 Tax=Chlamydomonas...  63.5       6e-10
+UniRef90_A0A452IVK1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Go...  63.5       7e-10
+UniRef90_UPI000CEF7A26 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0006B784B1 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0007771DD0 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0015520088 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI00046C0339 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0013F1B341 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_A0A663NB00 Spectrin alpha, non-erythrocytic 1 n=5 Tax=At...  63.5       7e-10
+UniRef90_UPI0014446426 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_A0A2I0M3U7 Spectrin, alpha, non-erythrocytic 1, transcri...  63.5       7e-10
+UniRef90_A0A452IVP3 Spectrin alpha, non-erythrocytic 1 n=28 Tax=D...  63.5       7e-10
+UniRef90_UPI001553C4AC spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0013F2427A spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0006B6CFDD spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI001444236A spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0014442310 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0011CF8276 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0013F22968 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI0006B70CB6 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI001125D460 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_F1NHT3 Spectrin alpha chain, non-erythrocytic 1 n=2 Tax=...  63.5       7e-10
+UniRef90_UPI0013F230A7 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_UPI000388EB38 spectrin alpha chain, non-erythrocytic 1 i...  63.5       7e-10
+UniRef90_A0A3F2RRZ0 Calmodulin n=1 Tax=Phytophthora kernoviae Tax...  63.2       7e-10
+UniRef90_UPI000739B0C4 spectrin alpha chain, non-erythrocytic 1 i...  63.2       7e-10
+UniRef90_UPI0013F2AC35 spectrin alpha chain, non-erythrocytic 1 i...  63.2       7e-10
+UniRef90_A0C6P4 Uncharacterized protein n=1 Tax=Paramecium tetrau...  63.2       7e-10
+UniRef90_UPI0011CF66B9 spectrin alpha chain, non-erythrocytic 1 i...  63.2       7e-10
+UniRef90_UPI0007770675 spectrin alpha chain, non-erythrocytic 1 i...  63.2       7e-10
+UniRef90_A0A151MAD9 NAD(P)H oxidase (H(2)O(2)-forming) n=4 Tax=Cr...  63.2       7e-10
+UniRef90_A0A480MX02 Spectrin alpha chain, non-erythrocytic 1 n=2 ...  63.2       7e-10
+UniRef90_A0A2P2I0U3 NAD(P)H oxidase (H(2)O(2)-forming) n=1 Tax=Hi...  63.2       7e-10
+UniRef90_A0A401SVW9 Uncharacterized protein n=4 Tax=Elasmobranchi...  63.2       8e-10
+UniRef90_UPI0010A81E6B spectrin alpha chain, non-erythrocytic 1 i...  63.2       8e-10
+UniRef90_UPI00140227D5 spectrin alpha chain, non-erythrocytic 1 i...  63.2       8e-10
+UniRef90_A0A3P7LE97 Uncharacterized protein n=1 Tax=Dibothrioceph...  63.2       8e-10
+UniRef90_UPI00052F23D4 spectrin alpha chain, non-erythrocytic 1 i...  63.2       8e-10
+UniRef90_A0A0V0R8R5 Protein kinase-like domain n=1 Tax=Pseudocohn...  63.2       8e-10
+UniRef90_A9UST9 Predicted protein n=1 Tax=Monosiga brevicollis Ta...  63.2       8e-10
+UniRef90_UPI00052E73C3 spectrin alpha chain, non-erythrocytic 1 i...  63.2       8e-10
+UniRef90_A0A2Y9J6E2 spectrin alpha chain, non-erythrocytic 1 isof...  63.2       8e-10
+UniRef90_A0A2E3ZWH7 Uncharacterized protein n=1 Tax=Candidatus Ma...  63.2       8e-10
+UniRef90_A0A2Y9JA18 spectrin alpha chain, non-erythrocytic 1 isof...  63.2       8e-10
+UniRef90_UPI00020F58F2 spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI000E1BE1FF spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI0000D93AD2 spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI000E1B6F7D spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI001402C28E spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI0014041028 spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_UPI001403DDB9 spectrin alpha chain, non-erythrocytic 1 i...  63.2       9e-10
+UniRef90_H0WUB1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Otolem...  63.2       9e-10
+UniRef90_A0A329T505 Calmodulin n=1 Tax=Phytophthora cactorum TaxI...  62.8       9e-10
+UniRef90_UPI001419FD70 spectrin alpha chain, non-erythrocytic 1 i...  62.8       9e-10
+UniRef90_UPI00141961B7 spectrin alpha chain, non-erythrocytic 1 i...  62.8       9e-10
+UniRef90_UPI00051E25B2 uncharacterized protein LOC104144840 n=1 T...  62.8       9e-10
+UniRef90_UPI000A34E858 spectrin alpha chain, non-erythrocytic 1 i...  62.8       9e-10
+UniRef90_UPI000952A214 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_G5ASE4 Spectrin alpha chain, brain n=1 Tax=Heterocephalu...  62.8       1e-09
+UniRef90_UPI000953190B spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A4X2L387 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Vo...  62.8       1e-09
+UniRef90_A0A183SLS7 Uncharacterized protein n=3 Tax=Diphyllobothr...  62.8       1e-09
+UniRef90_A0A212CWA2 SPTAN1 n=1 Tax=Cervus elaphus hippelaphus Tax...  62.8       1e-09
+UniRef90_UPI000DF6F918 putative leucine-rich repeat-containing pr...  62.8       1e-09
+UniRef90_UPI000A28B6FB spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI000A33DA4B spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI001301BBBD spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI001301D0E0 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI000A283F19 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A4X2LAN3 Spectrin alpha, non-erythrocytic 1 n=13 Tax=A...  62.8       1e-09
+UniRef90_UPI000A2828E6 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI00146DDA22 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A672UUW4 Uncharacterized protein n=1 Tax=Strigops habr...  62.8       1e-09
+UniRef90_UPI0012AB31A5 dual oxidase 2-like n=1 Tax=Clupea harengu...  62.8       1e-09
+UniRef90_UPI0011CFA151 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI000C7EDD36 LOW QUALITY PROTEIN: spectrin alpha chain,...  62.8       1e-09
+UniRef90_UPI00146D46DF spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI0011CF7F01 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI0013020A9B spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A5F8GY64 Uncharacterized protein n=2 Tax=Monodelphis d...  62.8       1e-09
+UniRef90_A0A670YZN1 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  62.8       1e-09
+UniRef90_UPI0011CF72ED spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A6J1W0G1 spectrin alpha chain, non-erythrocytic 1 n=4 ...  62.8       1e-09
+UniRef90_UPI0011CEF5AD spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI00146C89FE spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI00146AC979 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI0011CF1391 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_UPI0011CF92AD spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A6A1QK59 GLE1-like protein (Fragment) n=1 Tax=Balaenop...  62.8       1e-09
+UniRef90_A0A396ZYL4 Calmodulin n=5 Tax=Aphanomyces astaci TaxID=1...  62.8       1e-09
+UniRef90_UPI0011CF8723 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A2K5HSS8 Uncharacterized protein n=1 Tax=Colobus angol...  62.8       1e-09
+UniRef90_A0A670YZM8 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  62.8       1e-09
+UniRef90_A0A670YXE3 Calglandulin n=2 Tax=Pseudonaja textilis TaxI...  62.8       1e-09
+UniRef90_A0A2K5HT55 Uncharacterized protein n=1 Tax=Colobus angol...  62.8       1e-09
+UniRef90_A0A2K5HT63 Uncharacterized protein n=1 Tax=Colobus angol...  62.8       1e-09
+UniRef90_A0A2K5VLP8 Uncharacterized protein n=1 Tax=Macaca fascic...  62.8       1e-09
+UniRef90_A0A667IE60 Uncharacterized protein n=2 Tax=Lynx canadens...  62.8       1e-09
+UniRef90_UPI0013962513 spectrin alpha chain, non-erythrocytic 1 i...  62.8       1e-09
+UniRef90_A0A2D4BE48 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  62.4       1e-09
+UniRef90_A0A2I3GFJ8 Spectrin alpha, non-erythrocytic 1 n=1 Tax=No...  62.4       1e-09
+UniRef90_A0A2K6A9I2 Uncharacterized protein n=2 Tax=Mandrillus le...  62.4       1e-09
+UniRef90_UPI0013C4279D spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A484GMW8 Uncharacterized protein n=1 Tax=Sousa chinens...  62.4       1e-09
+UniRef90_A0A452RY35 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ur...  62.4       1e-09
+UniRef90_UPI0013960F2A spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A2K5MZR6 Uncharacterized protein n=1 Tax=Cercocebus at...  62.4       1e-09
+UniRef90_A0A2K6A9N1 Uncharacterized protein n=1 Tax=Mandrillus le...  62.4       1e-09
+UniRef90_P16546-2 Isoform 2 of Spectrin alpha chain, non-erythroc...  62.4       1e-09
+UniRef90_A0A670Z5W0 Calglandulin n=3 Tax=Amniota TaxID=32524 RepI...  62.4       1e-09
+UniRef90_UPI000D537386 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI001261E1AE spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_I3MFN4 Uncharacterized protein n=1 Tax=Ictidomys tridece...  62.4       1e-09
+UniRef90_A0A670Z3T4 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  62.4       1e-09
+UniRef90_A0A4X1TS01 Uncharacterized protein n=10 Tax=Sus scrofa T...  62.4       1e-09
+UniRef90_L5LK49 Spectrin alpha chain, brain n=3 Tax=Myotis TaxID=...  62.4       1e-09
+UniRef90_A0A2K5HU47 Uncharacterized protein n=1 Tax=Colobus angol...  62.4       1e-09
+UniRef90_UPI0005F3DAD6 spectrin alpha chain, non-erythrocytic 1 n...  62.4       1e-09
+UniRef90_A0A2I3GDF9 Spectrin alpha, non-erythrocytic 1 n=1 Tax=No...  62.4       1e-09
+UniRef90_A0A2K6A9G1 Uncharacterized protein n=1 Tax=Mandrillus le...  62.4       1e-09
+UniRef90_UPI00038BC8CC spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_M3W4T6 Spectrin alpha, non-erythrocytic 1 n=5 Tax=Felifo...  62.4       1e-09
+UniRef90_UPI000703C833 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A5F4BYG4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Ca...  62.4       1e-09
+UniRef90_A0A2K5MZS2 Uncharacterized protein n=1 Tax=Cercocebus at...  62.4       1e-09
+UniRef90_A0A6J1XF50 spectrin alpha chain, non-erythrocytic 1 isof...  62.4       1e-09
+UniRef90_A0A452RY70 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ur...  62.4       1e-09
+UniRef90_UPI0005FC1980 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0011148D2E spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A2K5MZW7 Uncharacterized protein n=1 Tax=Cercocebus at...  62.4       1e-09
+UniRef90_A0A286XLL1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ca...  62.4       1e-09
+UniRef90_A0A2K5VLF2 Uncharacterized protein n=1 Tax=Macaca fascic...  62.4       1e-09
+UniRef90_UPI0012622C45 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_B7ZWK3 Spna2 protein n=1 Tax=Mus musculus TaxID=10090 Re...  62.4       1e-09
+UniRef90_A3KGU5 Spectrin alpha chain, non-erythrocytic 1 n=2 Tax=...  62.4       1e-09
+UniRef90_UPI001114AA73 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0010A1AB17 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0010A1014A spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0005FC2C89 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A6J1XF45 spectrin alpha chain, non-erythrocytic 1 isof...  62.4       1e-09
+UniRef90_A0A091DLC8 Spectrin alpha chain, brain n=8 Tax=Boreoeuth...  62.4       1e-09
+UniRef90_UPI000332FFCE spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0010A0A176 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI000B4F8AE5 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI001454EF39 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0003332430 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0006D8ED4F spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A150G7H6 Uncharacterized protein n=1 Tax=Gonium pector...  62.4       1e-09
+UniRef90_A0A2I3NIB1 Uncharacterized protein n=1 Tax=Papio anubis ...  62.4       1e-09
+UniRef90_A0A2K5MZS7 Uncharacterized protein n=1 Tax=Cercocebus at...  62.4       1e-09
+UniRef90_UPI00046BA988 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_UPI0003F144C8 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+UniRef90_A0A1U8CL70 spectrin alpha chain, non-erythrocytic 1 isof...  62.4       1e-09
+UniRef90_U3DQL8 Spectrin alpha chain, non-erythrocytic 1 isoform ...  62.4       1e-09
+UniRef90_UPI0006537641 spectrin alpha chain, non-erythrocytic 1 i...  62.4       1e-09
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 101980621647
+Results from round 2
+
+
+Query= sp|P27482|CALL3_HUMAN Calmodulin-like protein 3 OS=Homo sapiens
+OX=9606 GN=CALML3 PE=1 SV=2
+
+Length=149
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A3N0XPR0 Fibrillin-3 n=240 Tax=Eukaryota TaxID=2759 Re...  228        2e-67
+UniRef90_A0A2D4CFD4 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  226        1e-66
+UniRef90_A0A2N1JCW1 Calmodulin n=1 Tax=Malassezia vespertilionis ...  223        8e-66
+UniRef90_A0A0D9NN25 AP-1 complex subunit gamma-1 n=789 Tax=Opisth...  222        1e-65
+UniRef90_A0A0D9XWL7 Uncharacterized protein n=3 Tax=Leersia perri...  215        4e-63
+UniRef90_A0A0W0GCD8 Phospholipid-transporting ATPase n=1 Tax=Moni...  210        3e-61
+UniRef90_A0A0E0BNI3 Uncharacterized protein n=8 Tax=Oryza glumipa...  209        6e-61
+UniRef90_A0A179FRN9 AP-1 complex subunit gamma-1 n=1 Tax=Pochonia...  203        6e-59
+UniRef90_A0A369GUD6 Uncharacterized protein n=5074 Tax=Eukaryota ...  203        8e-59
+UniRef90_A0A1I8GMI7 Calmodulin n=2 Tax=Macrostomum lignano TaxID=...  203        9e-59
+UniRef90_P0DP23 Calmodulin-1 n=383 Tax=Bilateria TaxID=33213 RepI...  183        9e-58
+UniRef90_P62150 Calmodulin-A (Fragment) n=16 Tax=Deuterostomia Ta...  167        8e-52
+UniRef90_A0A395NXZ3 Ap-1 complex subunit gamma-1 n=82 Tax=Trichod...  183        1e-51
+UniRef90_UPI000B45B515 hornerin-like n=2 Tax=Mizuhopecten yessoen...  176        3e-49
+UniRef90_A0A177BAB1 Splicing factor Prp8 n=1 Tax=Intoshia linei T...  169        7e-47
+UniRef90_A0A1I8GGL5 Uncharacterized protein n=5 Tax=Macrostomum l...  165        2e-45
+UniRef90_UPI001457FE0D uncharacterized transmembrane protein DDB_...  164        2e-45
+UniRef90_UPI000D0D614E LOW QUALITY PROTEIN: nuclear pore complex ...  164        4e-45
+UniRef90_A0A1I8HM24 Uncharacterized protein n=3 Tax=Macrostomum l...  163        7e-45
+UniRef90_A0A5N5QE03 Glutathione transferase omega-1 n=1 Tax=Cerat...  163        1e-44
+UniRef90_A0A6D2ITT6 Uncharacterized protein n=1 Tax=Microthlaspi ...  163        1e-44
+UniRef90_A0A5J9TV41 Uncharacterized protein (Fragment) n=1 Tax=Er...  161        5e-44
+UniRef90_A0A3Q7WYI3 putative tetratricopeptide repeat protein 41 ...  161        5e-44
+UniRef90_A0A6J5UU13 Uncharacterized protein n=2 Tax=Prunus armeni...  160        9e-44
+UniRef90_A0A1R3KG92 Uncharacterized protein n=1 Tax=Corchorus oli...  159        2e-43
+UniRef90_A0A1I8ICN0 Uncharacterized protein n=2 Tax=Macrostomum l...  159        2e-43
+UniRef90_UPI000D62A025 ABC transporter G family member 22 isoform...  158        6e-43
+UniRef90_J3LTJ3 Uncharacterized protein n=2 Tax=Oryza brachyantha...  155        8e-43
+UniRef90_A0A367XTG7 Vacuolar protein sorting-associated protein 1...  157        1e-42
+UniRef90_A0A6D2JLT3 Potassium transporter n=2 Tax=Brassicaceae Ta...  156        2e-42
+UniRef90_A0A2P6TSD1 Signal peptide peptidase n=1 Tax=Chlorella so...  154        6e-42
+UniRef90_A0A1I8GRR9 Uncharacterized protein n=1 Tax=Macrostomum l...  153        3e-41
+UniRef90_A0A4V3SBT0 alpha-1,2-Mannosidase n=3 Tax=Holometabola Ta...  151        7e-41
+UniRef90_A0A498HW04 Uncharacterized protein n=1 Tax=Malus domesti...  151        9e-41
+UniRef90_UPI0010AA828D TMV resistance protein N-like n=1 Tax=Malu...  151        1e-40
+UniRef90_A0A498JLC7 Uncharacterized protein n=1 Tax=Malus domesti...  151        1e-40
+UniRef90_A0A443NZ88 Uncharacterized protein n=1 Tax=Cinnamomum mi...  149        5e-40
+UniRef90_A0A2D4C2M1 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  149        6e-40
+UniRef90_A0A484B2B5 Membrane dipeptidase n=2 Tax=Drosophila navoj...  148        1e-39
+UniRef90_A0A438DBJ3 Calcium-dependent protein kinase 8 n=1 Tax=Vi...  148        1e-39
+UniRef90_M7ZG37 Calcium-dependent protein kinase 5 n=1 Tax=Tritic...  148        2e-39
+UniRef90_A0A1D6M674 Calcium-dependent protein kinase 13 n=6 Tax=M...  148        2e-39
+UniRef90_A0A2K0TQ83 Calmodulin n=2 Tax=Trichoderma gamsii TaxID=3...  146        4e-39
+UniRef90_A0A1E5UVL2 Calcium-dependent protein kinase 13 n=3 Tax=P...  146        1e-38
+UniRef90_A0A5N5MTH9 Eukaryotic translation initiation factor 3 su...  144        3e-38
+UniRef90_A0A6L2LUW0 Probable calcium-binding protein CML25 n=1 Ta...  143        5e-38
+UniRef90_A0A4Z0YJQ5 Calmodulin n=1 Tax=Xylaria hypoxylon TaxID=37...  140        6e-37
+UniRef90_A0A3S3MF84 Pentatricopeptide repeat-containing-like prot...  140        7e-37
+UniRef90_A0A371G162 Calcium-dependent protein kinase 29 (Fragment...  139        2e-36
+UniRef90_A0A1B0CZ92 Uncharacterized protein n=1 Tax=Phlebotomus p...  138        4e-36
+UniRef90_A0A1Q9DJR5 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  138        4e-36
+UniRef90_A0A3R7KCS8 Calmodulin n=1 Tax=Phytophthora kernoviae Tax...  138        4e-36
+UniRef90_A0A1Q9ECX7 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  136        1e-35
+UniRef90_A0A091CZA5 Integrin alpha-11 n=1 Tax=Fukomys damarensis ...  136        1e-35
+UniRef90_A0A085MZ62 Uncharacterized protein n=5 Tax=Trichuris sui...  135        4e-35
+UniRef90_A0A0E0DH17 Alpha-L-fucosidase n=5 Tax=Oryza meridionalis...  135        4e-35
+UniRef90_UPI0008116CE1 UHRF1-binding protein 1-like isoform X1 n=...  135        6e-35
+UniRef90_A0A507FTV8 Uncharacterized protein n=1 Tax=Chytriomyces ...  134        6e-35
+UniRef90_A0A2P5YBD9 Uncharacterized protein n=1 Tax=Gossypium bar...  134        7e-35
+UniRef90_A0A6A4SFR9 Uncharacterized protein n=1 Tax=Scophthalmus ...  134        1e-34
+UniRef90_UPI0012AC2624 formin-binding protein 4 n=1 Tax=Meleagris...  134        1e-34
+UniRef90_A0A1Q9EBV6 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  134        1e-34
+UniRef90_M4BN88 Calmodulin n=1 Tax=Hyaloperonospora arabidopsidis...  132        3e-34
+UniRef90_A0A0K0E510 Uncharacterized protein n=2 Tax=Strongyloides...  132        6e-34
+UniRef90_C1MRX4 Ankyrin repeat protein n=1 Tax=Micromonas pusilla...  131        2e-33
+UniRef90_A0A388MBV9 Uncharacterized protein n=1 Tax=Chara braunii...  130        3e-33
+UniRef90_A0A090LCH9 EF-hand domain and Zinc finger, C2H2 domain a...  129        3e-33
+UniRef90_A0A261Y0C2 DNA-directed RNA polymerase n=1 Tax=Bifigurat...  129        4e-33
+UniRef90_A0A2P6U456 Calcium-dependent kinase 1-like n=1 Tax=Chlor...  128        9e-33
+UniRef90_S8EQY1 Calcium-dependent protein kinase CDPK6 n=25 Tax=T...  128        1e-32
+UniRef90_A0A0L0DT19 Uncharacterized protein n=1 Tax=Thecamonas tr...  127        2e-32
+UniRef90_A0A1I8HFV2 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  127        3e-32
+UniRef90_A0A1I8JIV6 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  127        3e-32
+UniRef90_W4FZG5 Calmodulin n=2 Tax=Aphanomyces astaci TaxID=11209...  126        6e-32
+UniRef90_A0A662YI60 Uncharacterized protein n=1 Tax=Nothophytopht...  126        7e-32
+UniRef90_A0A6A4K8T5 Structural maintenance of chromosomes protein...  126        7e-32
+UniRef90_A0A485L522 Calmodulin n=1 Tax=Aphanomyces stellatus TaxI...  126        7e-32
+UniRef90_A0A067C7D8 Calmodulin n=1 Tax=Saprolegnia parasitica (st...  124        2e-31
+UniRef90_A0A1I8JHV5 Innexin n=1 Tax=Macrostomum lignano TaxID=282...  124        3e-31
+UniRef90_A0A1Q9CKW7 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  124        3e-31
+UniRef90_H3GSU4 Eukaryotic translation initiation factor 3 subuni...  124        3e-31
+UniRef90_A0A6G0XD89 Calmodulin n=1 Tax=Aphanomyces euteiches TaxI...  124        3e-31
+UniRef90_A0A5D6XWN2 Calmodulin n=1 Tax=Pythium brassicum TaxID=14...  123        6e-31
+UniRef90_A0A078B7J9 Ef hand family protein n=1 Tax=Stylonychia le...  123        6e-31
+UniRef90_K3X146 Calmodulin n=1 Tax=Globisporangium ultimum (strai...  123        6e-31
+UniRef90_A0A4Z2I8Q0 Calcium-binding protein 1 n=1 Tax=Liparis tan...  122        1e-30
+UniRef90_A0A2A9MNZ8 Calcium-dependent protein kinase CDPK6 n=1 Ta...  122        1e-30
+UniRef90_A0A329T505 Calmodulin n=1 Tax=Phytophthora cactorum TaxI...  122        1e-30
+UniRef90_A0A6G0WSS9 Calmodulin (Fragment) n=1 Tax=Aphanomyces eut...  122        2e-30
+UniRef90_W4FK68 Calmodulin n=6 Tax=Aphanomyces astaci TaxID=11209...  121        3e-30
+UniRef90_A0A1V9ZJ45 Calmodulin n=1 Tax=Achlya hypogyna TaxID=1202...  121        3e-30
+UniRef90_A0A078AJI3 Ef hand family protein n=1 Tax=Stylonychia le...  121        4e-30
+UniRef90_J9IQD2 EF hand family protein n=2 Tax=Oxytricha trifalla...  121        4e-30
+UniRef90_A0A5E4Q3I9 Uncharacterized protein n=1 Tax=Leptidea sina...  121        5e-30
+UniRef90_A0A1Q9D1I4 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  121        5e-30
+UniRef90_A0A2D4C6Y3 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  121        5e-30
+UniRef90_A0A024UCA8 Calmodulin n=2 Tax=Aphanomyces invadans TaxID...  120        7e-30
+UniRef90_A0A1V9ZYY3 Calmodulin n=1 Tax=Thraustotheca clavata TaxI...  120        8e-30
+UniRef90_A0A485LR20 Calmodulin n=1 Tax=Aphanomyces stellatus TaxI...  120        8e-30
+UniRef90_C1FGB5 Ankyrin repeat protein n=1 Tax=Micromonas commoda...  120        9e-30
+UniRef90_A0A024UUX4 Calmodulin n=1 Tax=Aphanomyces invadans TaxID...  120        9e-30
+UniRef90_W4H9F4 Calmodulin n=1 Tax=Aphanomyces astaci TaxID=11209...  120        1e-29
+UniRef90_A0A1V9YYR8 Calmodulin n=1 Tax=Achlya hypogyna TaxID=1202...  119        1e-29
+UniRef90_T0QSZ3 Calmodulin n=1 Tax=Saprolegnia diclina (strain VS...  119        1e-29
+UniRef90_UPI000333965E protein MMS22-like n=1 Tax=Echinops telfai...  119        1e-29
+UniRef90_A0A2R5GE65 Calmodulin n=1 Tax=Hondaea fermentalgiana Tax...  119        1e-29
+UniRef90_W2NER5 Calmodulin n=50 Tax=Phytophthora TaxID=4783 RepID...  119        2e-29
+UniRef90_A0A0G4E9Y4 Uncharacterized protein n=1 Tax=Vitrella bras...  119        2e-29
+UniRef90_A0A662X2Q4 Uncharacterized protein n=1 Tax=Nothophytopht...  119        2e-29
+UniRef90_A0A078AXJ4 Calmodulin-like protein 3 n=1 Tax=Stylonychia...  119        2e-29
+UniRef90_A0A662WD52 Uncharacterized protein n=1 Tax=Nothophytopht...  118        3e-29
+UniRef90_A0A6G0XXD3 Calmodulin n=1 Tax=Aphanomyces euteiches TaxI...  118        3e-29
+UniRef90_A0A2P5WQ53 Uncharacterized protein n=5 Tax=Gossypium Tax...  118        3e-29
+UniRef90_U1HIF3 Uncharacterized protein n=1 Tax=Endocarpon pusill...  118        3e-29
+UniRef90_A0A1Q9DYU9 Calcium-dependent protein kinase 2 n=1 Tax=Sy...  118        4e-29
+UniRef90_A0A3F2RRZ0 Calmodulin n=1 Tax=Phytophthora kernoviae Tax...  118        4e-29
+UniRef90_A0A1Q9D9V6 Ins(1,3,4,5,6)P5 2-kinase n=1 Tax=Symbiodiniu...  118        4e-29
+UniRef90_A0A1V9YTS8 Calmodulin n=1 Tax=Thraustotheca clavata TaxI...  118        5e-29
+UniRef90_A0A6A5IQ92 Peptidylprolyl isomerase n=1 Tax=Phytophthora...  117        5e-29
+UniRef90_T0RXT4 Calmodulin n=1 Tax=Saprolegnia diclina (strain VS...  117        6e-29
+UniRef90_A0A1Q9D7K8 Beta-adaptin-like protein C n=1 Tax=Symbiodin...  117        6e-29
+UniRef90_A0A1Q9C360 Calmodulin-like protein n=1 Tax=Symbiodinium ...  117        7e-29
+UniRef90_A0A1Q9D5M9 Calcium-dependent protein kinase 3 n=1 Tax=Sy...  117        7e-29
+UniRef90_UPI000C77EB5E uncharacterized protein LOC111712996 isofo...  117        9e-29
+UniRef90_A0A421G4V3 Calmodulin n=2 Tax=Phytophthora kernoviae Tax...  117        1e-28
+UniRef90_A0A1Q9CE48 Calcium-dependent protein kinase 3 n=1 Tax=Sy...  117        1e-28
+UniRef90_C4WRX9 ACYPI004964 protein n=3 Tax=Aphidinae TaxID=13307...  109        2e-28
+UniRef90_H3GQS6 Calmodulin n=1 Tax=Phytophthora ramorum TaxID=164...  116        2e-28
+UniRef90_A0A1Q9CHE0 Calcium-dependent protein kinase 1 n=1 Tax=Sy...  116        3e-28
+UniRef90_I7LXB1 EF hand protein n=1 Tax=Tetrahymena thermophila (...  115        4e-28
+UniRef90_J9EFU4 EF hand family protein n=1 Tax=Oxytricha trifalla...  115        6e-28
+UniRef90_A0A421GTG6 Calmodulin n=2 Tax=Phytophthora kernoviae Tax...  114        8e-28
+UniRef90_W2R0F9 Calmodulin n=9 Tax=Phytophthora parasitica TaxID=...  114        9e-28
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_T0PXN9 Calmodulin n=2 Tax=Saprolegnia diclina (strain VS...  116        3e-28
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.162    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0496    0.140     1.90     42.6     43.6 
+
+Effective search space used: 101980621647
+Results from round 3
+
+
+Query= sp|P27482|CALL3_HUMAN Calmodulin-like protein 3 OS=Homo sapiens
+OX=9606 GN=CALML3 PE=1 SV=2
+
+Length=149
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A3N0XPR0 Fibrillin-3 n=240 Tax=Eukaryota TaxID=2759 Re...  247        2e-74
+UniRef90_A0A2D4CFD4 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  247        3e-74
+UniRef90_A0A0D9NN25 AP-1 complex subunit gamma-1 n=789 Tax=Opisth...  244        3e-73
+UniRef90_A0A2N1JCW1 Calmodulin n=1 Tax=Malassezia vespertilionis ...  244        4e-73
+UniRef90_A0A0W0GCD8 Phospholipid-transporting ATPase n=1 Tax=Moni...  232        4e-69
+UniRef90_A0A0D9XWL7 Uncharacterized protein n=3 Tax=Leersia perri...  232        5e-69
+UniRef90_A0A179FRN9 AP-1 complex subunit gamma-1 n=1 Tax=Pochonia...  225        1e-66
+UniRef90_A0A369GUD6 Uncharacterized protein n=5074 Tax=Eukaryota ...  224        2e-66
+UniRef90_A0A1I8GMI7 Calmodulin n=2 Tax=Macrostomum lignano TaxID=...  224        4e-66
+UniRef90_P0DP23 Calmodulin-1 n=383 Tax=Bilateria TaxID=33213 RepI...  203        7e-66
+UniRef90_A0A0E0BNI3 Uncharacterized protein n=8 Tax=Oryza glumipa...  221        3e-65
+UniRef90_P62150 Calmodulin-A (Fragment) n=16 Tax=Deuterostomia Ta...  187        1e-59
+UniRef90_A0A395NXZ3 Ap-1 complex subunit gamma-1 n=82 Tax=Trichod...  202        2e-58
+UniRef90_UPI000D0D614E LOW QUALITY PROTEIN: nuclear pore complex ...  197        9e-57
+UniRef90_A0A6D2ITT6 Uncharacterized protein n=1 Tax=Microthlaspi ...  195        4e-56
+UniRef90_A0A1R3KG92 Uncharacterized protein n=1 Tax=Corchorus oli...  194        7e-56
+UniRef90_A0A177BAB1 Splicing factor Prp8 n=1 Tax=Intoshia linei T...  193        2e-55
+UniRef90_J3LTJ3 Uncharacterized protein n=2 Tax=Oryza brachyantha...  189        3e-55
+UniRef90_A0A6J5UU13 Uncharacterized protein n=2 Tax=Prunus armeni...  192        4e-55
+UniRef90_UPI000B45B515 hornerin-like n=2 Tax=Mizuhopecten yessoen...  190        2e-54
+UniRef90_A0A5J9TV41 Uncharacterized protein (Fragment) n=1 Tax=Er...  188        1e-53
+UniRef90_UPI000D62A025 ABC transporter G family member 22 isoform...  188        2e-53
+UniRef90_A0A6D2JLT3 Potassium transporter n=2 Tax=Brassicaceae Ta...  187        4e-53
+UniRef90_A0A1I8GGL5 Uncharacterized protein n=5 Tax=Macrostomum l...  186        7e-53
+UniRef90_A0A5N5QE03 Glutathione transferase omega-1 n=1 Tax=Cerat...  185        9e-53
+UniRef90_A0A1I8HM24 Uncharacterized protein n=3 Tax=Macrostomum l...  184        2e-52
+UniRef90_A0A498JLC7 Uncharacterized protein n=1 Tax=Malus domesti...  182        1e-51
+UniRef90_UPI0010AA828D TMV resistance protein N-like n=1 Tax=Malu...  180        6e-51
+UniRef90_UPI001457FE0D uncharacterized transmembrane protein DDB_...  180        8e-51
+UniRef90_A0A498HW04 Uncharacterized protein n=1 Tax=Malus domesti...  179        1e-50
+UniRef90_M7ZG37 Calcium-dependent protein kinase 5 n=1 Tax=Tritic...  178        3e-50
+UniRef90_W5NV97 Uncharacterized protein n=9 Tax=Boreoeutheria Tax...  166        4e-50
+UniRef90_A0A2D4C2M1 Calmodulin n=1 Tax=Pythium insidiosum TaxID=1...  177        8e-50
+UniRef90_A0A3Q7WYI3 putative tetratricopeptide repeat protein 41 ...  177        9e-50
+UniRef90_A0A2P6TSD1 Signal peptide peptidase n=1 Tax=Chlorella so...  177        1e-49
+UniRef90_A0A5N5MTH9 Eukaryotic translation initiation factor 3 su...  176        2e-49
+UniRef90_A0A367XTG7 Vacuolar protein sorting-associated protein 1...  176        3e-49
+UniRef90_A0A480MX02 Spectrin alpha chain, non-erythrocytic 1 n=2 ...  174        8e-49
+UniRef90_A0A1I8ICN0 Uncharacterized protein n=2 Tax=Macrostomum l...  174        2e-48
+UniRef90_A0A1I8GRR9 Uncharacterized protein n=1 Tax=Macrostomum l...  173        2e-48
+UniRef90_H0WUB1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Otolem...  173        3e-48
+UniRef90_A0A3Q2I5G7 Spectrin alpha, non-erythrocytic 1 n=6 Tax=Te...  172        5e-48
+UniRef90_A0A151MFE0 GLE1-like protein n=15 Tax=cellular organisms...  172        6e-48
+UniRef90_A0A212CWA2 SPTAN1 n=1 Tax=Cervus elaphus hippelaphus Tax...  172        7e-48
+UniRef90_F6UPN4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Equus ...  172        7e-48
+UniRef90_F6UQC4 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Equus ...  172        8e-48
+UniRef90_A0A438DBJ3 Calcium-dependent protein kinase 8 n=1 Tax=Vi...  170        2e-47
+UniRef90_A0A3Q0GLZ8 GLE1-like protein n=4 Tax=Alligator sinensis ...  170        2e-47
+UniRef90_A0A3Q0GMV8 GLE1-like protein n=1 Tax=Alligator sinensis ...  170        2e-47
+UniRef90_A0A226NMZ6 GLE1-like protein n=4 Tax=Neognathae TaxID=88...  170        3e-47
+UniRef90_A0A1D6M674 Calcium-dependent protein kinase 13 n=6 Tax=M...  170        3e-47
+UniRef90_A0A6A1QK59 GLE1-like protein (Fragment) n=1 Tax=Balaenop...  170        4e-47
+UniRef90_A0A023FP85 Putative ca2+-binding actin-bundling protein ...  169        4e-47
+UniRef90_A0A6J1W0G1 spectrin alpha chain, non-erythrocytic 1 n=4 ...  169        4e-47
+UniRef90_UPI000C7EDD36 LOW QUALITY PROTEIN: spectrin alpha chain,...  169        5e-47
+UniRef90_A0A6M2CRD9 Putative spectrin alpha chain (Fragment) n=2 ...  168        8e-47
+UniRef90_A0A670YZN1 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  168        9e-47
+UniRef90_A0A2K5HT63 Uncharacterized protein n=1 Tax=Colobus angol...  168        1e-46
+UniRef90_A0A2K5HT55 Uncharacterized protein n=1 Tax=Colobus angol...  168        1e-46
+UniRef90_A0A310SLH2 Spectrin alpha chain n=1 Tax=Eufriesea mexica...  168        1e-46
+UniRef90_A0A2P5YBD9 Uncharacterized protein n=1 Tax=Gossypium bar...  168        1e-46
+UniRef90_L5LK49 Spectrin alpha chain, brain n=3 Tax=Myotis TaxID=...  168        1e-46
+UniRef90_A0A2K5HSS8 Uncharacterized protein n=1 Tax=Colobus angol...  168        1e-46
+UniRef90_A0A4V3SBT0 alpha-1,2-Mannosidase n=3 Tax=Holometabola Ta...  168        1e-46
+UniRef90_A0A452RY70 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ur...  168        2e-46
+UniRef90_A0A6J0TLM0 spectrin alpha chain, non-erythrocytic 1 isof...  168        2e-46
+UniRef90_A0A1B6D7S6 Uncharacterized protein (Fragment) n=2 Tax=Cl...  168        2e-46
+UniRef90_A0A2K6N528 Uncharacterized protein n=1 Tax=Rhinopithecus...  168        2e-46
+UniRef90_A0A2K5MZR6 Uncharacterized protein n=1 Tax=Cercocebus at...  168        2e-46
+UniRef90_R4WDP9 Spectrin n=1 Tax=Riptortus pedestris TaxID=329032...  168        2e-46
+UniRef90_A0A3L8SE72 Uncharacterized protein n=1 Tax=Chloebia goul...  168        2e-46
+UniRef90_A0A2K5R8M7 Uncharacterized protein n=2 Tax=Cebus capucin...  168        2e-46
+UniRef90_A0A6I8SVI1 Spectrin, alpha, non-erythrocytic 1 n=1 Tax=X...  168        2e-46
+UniRef90_A0A6J0TKT9 spectrin alpha chain, non-erythrocytic 1 isof...  167        2e-46
+UniRef90_A0A6I8QCM6 Spectrin, alpha, non-erythrocytic 1 n=1 Tax=X...  167        2e-46
+UniRef90_A0A6I8STF6 Spectrin, alpha, non-erythrocytic 1 n=1 Tax=X...  167        2e-46
+UniRef90_A0A3L7HDU5 SPTAN1 (Fragment) n=1 Tax=Cricetulus griseus ...  167        2e-46
+UniRef90_A0A6J0TLM6 spectrin alpha chain, non-erythrocytic 1 isof...  167        2e-46
+UniRef90_UPI0012F67898 spectrin alpha chain, non-erythrocytic 1 i...  167        2e-46
+UniRef90_A0A2K6A9G1 Uncharacterized protein n=1 Tax=Mandrillus le...  167        2e-46
+UniRef90_A0A2K6A9I2 Uncharacterized protein n=2 Tax=Mandrillus le...  167        2e-46
+UniRef90_UPI000529DC4C spectrin alpha chain, non-erythrocytic 1 n...  167        2e-46
+UniRef90_A0A2K6A9N1 Uncharacterized protein n=1 Tax=Mandrillus le...  167        2e-46
+UniRef90_A0A2K6TRD9 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Sa...  167        2e-46
+UniRef90_A0A670YZM8 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  167        2e-46
+UniRef90_A0A1E1X7S0 Putative beta-spectrin n=2 Tax=Amblyomma TaxI...  167        2e-46
+UniRef90_L7M942 Putative beta-spectrin n=6 Tax=Ixodidae TaxID=693...  167        2e-46
+UniRef90_A0A6G1ATN3 SPTN1 protein (Fragment) n=1 Tax=Crocuta croc...  167        2e-46
+UniRef90_A0A2I3GDF9 Spectrin alpha, non-erythrocytic 1 n=1 Tax=No...  167        2e-46
+UniRef90_A0A131XHW1 Putative beta-spectrin (Fragment) n=1 Tax=Hya...  167        2e-46
+UniRef90_A0A452RXS4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Ur...  167        2e-46
+UniRef90_A0A2K5MZW7 Uncharacterized protein n=1 Tax=Cercocebus at...  167        2e-46
+UniRef90_A0A2K5MZS2 Uncharacterized protein n=1 Tax=Cercocebus at...  167        2e-46
+UniRef90_UPI0003C14BD4 spectrin alpha chain, non-erythrocytic 1 i...  167        2e-46
+UniRef90_UPI0003F144C8 spectrin alpha chain, non-erythrocytic 1 i...  167        2e-46
+UniRef90_UPI00064D1EF5 spectrin alpha chain, non-erythrocytic 1 i...  167        2e-46
+UniRef90_H3B1C7 Uncharacterized protein n=1 Tax=Latimeria chalumn...  167        2e-46
+UniRef90_A0A2K6N533 Uncharacterized protein n=1 Tax=Rhinopithecus...  167        2e-46
+UniRef90_A0JPA2 LOC100036647 protein n=10 Tax=Xenopus TaxID=8353 ...  167        2e-46
+UniRef90_A0A2Y9H6U0 spectrin alpha chain, non-erythrocytic 1 isof...  167        2e-46
+UniRef90_A0A2Y9H6T5 spectrin alpha chain, non-erythrocytic 1 isof...  167        2e-46
+UniRef90_A0A5N4EA79 Spectrin alpha chain n=1 Tax=Camelus dromedar...  167        2e-46
+UniRef90_A0A670Z3T4 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  167        2e-46
+UniRef90_A0A670Z5W0 Calglandulin n=3 Tax=Amniota TaxID=32524 RepI...  167        2e-46
+UniRef90_A0A452IVM4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Go...  167        2e-46
+UniRef90_UPI00064D1A10 spectrin alpha chain, non-erythrocytic 1 i...  167        2e-46
+UniRef90_A0A2Y9HDI3 spectrin alpha chain, non-erythrocytic 1 isof...  167        2e-46
+UniRef90_A0A452V9T0 Uncharacterized protein n=1 Tax=Ursus maritim...  167        2e-46
+UniRef90_A0A0P7VEP4 Spectrin alpha chain, non-erythrocytic 1-like...  167        2e-46
+UniRef90_A0A6I8QBU0 Spectrin, alpha, non-erythrocytic 1 n=1 Tax=X...  167        2e-46
+UniRef90_A0A452RY35 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ur...  167        2e-46
+UniRef90_M3W4T6 Spectrin alpha, non-erythrocytic 1 n=5 Tax=Felifo...  167        2e-46
+UniRef90_A0A2I3NIB1 Uncharacterized protein n=1 Tax=Papio anubis ...  167        2e-46
+UniRef90_A0A131YUU0 Spectrin alpha n=3 Tax=Rhipicephalus TaxID=42...  167        2e-46
+UniRef90_A0A2I3GFJ8 Spectrin alpha, non-erythrocytic 1 n=1 Tax=No...  167        3e-46
+UniRef90_A0A286XLL1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ca...  167        3e-46
+UniRef90_A0A452EHD5 Spectrin alpha chain, non-erythrocytic 1 n=1 ...  167        3e-46
+UniRef90_UPI000C9FD5D4 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI00071971D9 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A452RY29 Spectrin alpha, non-erythrocytic 1 n=8 Tax=Ur...  167        3e-46
+UniRef90_A0A2K5VLP8 Uncharacterized protein n=1 Tax=Macaca fascic...  167        3e-46
+UniRef90_G1T346 Spectrin alpha, non-erythrocytic 1 n=12 Tax=Glire...  167        3e-46
+UniRef90_A0A2K5MZS7 Uncharacterized protein n=1 Tax=Cercocebus at...  167        3e-46
+UniRef90_UPI0006D91C6A spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A371G162 Calcium-dependent protein kinase 29 (Fragment...  167        3e-46
+UniRef90_A0A452IVK6 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Go...  167        3e-46
+UniRef90_UPI0002C679A0 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A2K5R8T0 Uncharacterized protein n=1 Tax=Cebus capucin...  167        3e-46
+UniRef90_UPI0008F9AC82 spectrin alpha chain isoform X1 n=2 Tax=Be...  167        3e-46
+UniRef90_A0A2K5R8N0 Uncharacterized protein n=1 Tax=Cebus capucin...  167        3e-46
+UniRef90_UPI000533FD29 spectrin alpha chain, non-erythrocytic 1 n...  167        3e-46
+UniRef90_M3XK81 Uncharacterized protein n=2 Tax=Latimeria chalumn...  167        3e-46
+UniRef90_L5K6U6 Spectrin alpha chain, brain n=1 Tax=Pteropus alec...  167        3e-46
+UniRef90_UPI0011CF66B9 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A452IVK1 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Go...  167        3e-46
+UniRef90_UPI000388EB38 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_H0VEL7 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Cavia ...  167        3e-46
+UniRef90_UPI00071A762E spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A2K5R8Q8 Uncharacterized protein n=1 Tax=Cebus capucin...  167        3e-46
+UniRef90_A0A286XEG8 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Ca...  167        3e-46
+UniRef90_F6UPM7 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Equus ...  167        3e-46
+UniRef90_UPI000C9F23AC spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI0008F9DE8D spectrin alpha chain isoform X3 n=1 Tax=Be...  167        3e-46
+UniRef90_UPI00141961B7 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A091DLC8 Spectrin alpha chain, brain n=8 Tax=Boreoeuth...  167        3e-46
+UniRef90_A0A452V9C3 Uncharacterized protein n=2 Tax=Ursus maritim...  167        3e-46
+UniRef90_G7NFS0 Uncharacterized protein n=2 Tax=Macaca TaxID=9539...  167        3e-46
+UniRef90_UPI001553C4AC spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI000CEF7A26 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A2I0M3V0 Spectrin, alpha, non-erythrocytic 1, transcri...  167        3e-46
+UniRef90_A0A2K6C7C0 Uncharacterized protein n=1 Tax=Macaca nemest...  167        3e-46
+UniRef90_UPI000719567B spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A484GMW8 Uncharacterized protein n=1 Tax=Sousa chinens...  167        3e-46
+UniRef90_UPI000C9FC6D1 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI001419FD70 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A0N0U7D8 Spectrin alpha chain n=1 Tax=Melipona quadrif...  167        3e-46
+UniRef90_UPI000953190B spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI0011CF1391 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI0010FA7DAB spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_UPI0013F2B973 spectrin alpha chain, non-erythrocytic 1 i...  167        3e-46
+UniRef90_A0A2I0M3V7 Spectrin, alpha, non-erythrocytic 1, transcri...  167        4e-46
+UniRef90_F1RR78 Uncharacterized protein n=1 Tax=Sus scrofa TaxID=...  167        4e-46
+UniRef90_A0A670Z5X7 Calglandulin n=1 Tax=Pseudonaja textilis TaxI...  167        4e-46
+UniRef90_UPI000C9E4EBE spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00122F0475 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0011CF8276 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000952A214 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0011CF72ED spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A670YXE3 Calglandulin n=2 Tax=Pseudonaja textilis TaxI...  167        4e-46
+UniRef90_A0A452IVP3 Spectrin alpha, non-erythrocytic 1 n=28 Tax=D...  167        4e-46
+UniRef90_UPI00046C1824 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0011CF8723 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00071A5CBE spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0011CF84E5 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00122F9879 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A452V9V2 Uncharacterized protein n=1 Tax=Ursus maritim...  167        4e-46
+UniRef90_UPI0008F9A65F spectrin alpha chain isoform X4 n=1 Tax=Be...  167        4e-46
+UniRef90_UPI00071A8CDC spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A4X1TS01 Uncharacterized protein n=10 Tax=Sus scrofa T...  167        4e-46
+UniRef90_UPI0013F37450 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00144498DF spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A674KAG4 Uncharacterized protein n=2 Tax=Terrapene car...  167        4e-46
+UniRef90_UPI0015520088 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000CEF8307 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00046C0339 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI001556FA83 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0013F367D5 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0013F380C7 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A452RQ67 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Ur...  167        4e-46
+UniRef90_A0A1V4J6Z9 Spectrin alpha chain, non-erythrocytic 1 isof...  167        4e-46
+UniRef90_UPI0005F3DAD6 spectrin alpha chain, non-erythrocytic 1 n...  167        4e-46
+UniRef90_A0A2K5R847 Uncharacterized protein n=1 Tax=Cebus capucin...  167        4e-46
+UniRef90_UPI0008780D33 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI001114C917 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00093C2797 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00146DDA22 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A672UUW4 Uncharacterized protein n=1 Tax=Strigops habr...  167        4e-46
+UniRef90_A0A6J2EUW3 spectrin alpha chain, non-erythrocytic 1 isof...  167        4e-46
+UniRef90_UPI0013F35A54 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A2K5HTZ6 Uncharacterized protein n=1 Tax=Colobus angol...  167        4e-46
+UniRef90_A0A2K6TR97 Spectrin alpha, non-erythrocytic 1 n=1 Tax=Sa...  167        4e-46
+UniRef90_A0A2K5VLF2 Uncharacterized protein n=1 Tax=Macaca fascic...  167        4e-46
+UniRef90_UPI0011CEF5AD spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A6J1XF45 spectrin alpha chain, non-erythrocytic 1 isof...  167        4e-46
+UniRef90_UPI0013F2F4B1 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0006549F1F spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A1A6HRE5 Uncharacterized protein (Fragment) n=1 Tax=Ne...  167        4e-46
+UniRef90_UPI00146C89FE spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI0011CF92AD spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000878FF47 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI001455991A spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000CD66120 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A5F4BYG4 Spectrin alpha, non-erythrocytic 1 n=2 Tax=Ca...  167        4e-46
+UniRef90_UPI0013F2E544 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000344682D spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI000652C2B9 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A2I3MUN3 Uncharacterized protein n=34 Tax=Cercopitheci...  167        4e-46
+UniRef90_UPI00146D46DF spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A1S3FLH1 spectrin alpha chain, non-erythrocytic 1 n=1 ...  167        4e-46
+UniRef90_UPI0011CFA151 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_I3MFN4 Uncharacterized protein n=1 Tax=Ictidomys tridece...  167        4e-46
+UniRef90_UPI0013F3278D spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_E9Q447 Spectrin alpha chain, non-erythrocytic 1 n=2 Tax=...  167        4e-46
+UniRef90_UPI00038EE1FA spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_UPI00140F9294 spectrin alpha chain, non-erythrocytic 1 i...  167        4e-46
+UniRef90_A0A6J2LQJ1 spectrin alpha chain, non-erythrocytic 1 isof...  167        4e-46
+UniRef90_A0A6J1X576 spectrin alpha chain-like n=1 Tax=Galleria me...  167        5e-46
+UniRef90_UPI00146AC979 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_UPI0011CF7F01 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_UPI00032B03E5 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_UPI0005BD0A0D spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_A0A4X1TS39 Uncharacterized protein n=1 Tax=Sus scrofa Ta...  167        5e-46
+UniRef90_UPI0013F34F75 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_UPI000846E0A7 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_UPI0001CE1590 spectrin alpha chain, non-erythrocytic 1 i...  167        5e-46
+UniRef90_A0A384B5Q9 spectrin alpha chain, non-erythrocytic 1 isof...  167        5e-46
+UniRef90_A0A6J1XF31 spectrin alpha chain, non-erythrocytic 1 isof...  166        5e-46
+UniRef90_UPI00093B53AE spectrin alpha chain, non-erythrocytic 1 i...  166        5e-46
+UniRef90_UPI0006549719 spectrin alpha chain, non-erythrocytic 1 i...  166        5e-46
+UniRef90_A0A4X1TX95 Uncharacterized protein n=1 Tax=Sus scrofa Ta...  166        5e-46
+UniRef90_UPI000572E18F spectrin alpha chain, non-erythrocytic 1 i...  166        5e-46
+UniRef90_UPI0010A81E6B spectrin alpha chain, non-erythrocytic 1 i...  166        5e-46
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.187    0.587    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0572    0.140     1.90     42.6     43.6 
+
+Effective search space used: 101980621647
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

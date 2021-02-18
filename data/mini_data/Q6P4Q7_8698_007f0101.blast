@@ -1,0 +1,532 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q6P4Q7|CNNM4_HUMAN Metal transporter CNNM4 OS=Homo sapiens
+OX=9606 GN=CNNM4 PE=1 SV=3
+
+Length=775
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  570        0.0   
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  570        0.0   
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  565        0.0   
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  563        0.0   
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  557        5e-180
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  529        3e-169
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  510        4e-162
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  406        1e-123
+UniRef90_A0A6H5ILD8 Uncharacterized protein n=1 Tax=Trichogramma ...  402        6e-119
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  379        5e-113
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  338        4e-98 
+UniRef90_A0A4X3PEB2 Ankyrin repeat-containing protein n=2 Tax=Pri...  264        7e-72 
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  258        6e-70 
+UniRef90_F0VAK7 Uncharacterized protein n=2 Tax=Neospora caninum ...  239        2e-63 
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  237        5e-63 
+UniRef90_V4Z6N8 CBS domain-containing protein n=16 Tax=Toxoplasma...  237        6e-63 
+UniRef90_A0A0W8CCB1 Metal transporter CNNM4 n=4 Tax=Phytophthora ...  235        2e-62 
+UniRef90_D8M6S5 Uncharacterized protein n=1 Tax=Blastocystis homi...  234        4e-62 
+UniRef90_A0A3M7MKH8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  233        9e-62 
+UniRef90_M2N7R1 Uncharacterized protein n=1 Tax=Baudoinia panamer...  233        1e-61 
+UniRef90_A0A2C6L7P3 Cbs domain-containing protein n=1 Tax=Cystois...  233        1e-61 
+UniRef90_A0A3M7MMQ4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  228        6e-60 
+UniRef90_A0A3F2Y9X9 Uncharacterized protein n=1 Tax=Dekkera bruxe...  228        9e-60 
+UniRef90_A0A4U0VKW8 Uncharacterized protein n=1 Tax=Friedmanniomy...  226        2e-59 
+UniRef90_A0A4R0RKP0 CNNM transmembrane domain-containing protein ...  222        4e-58 
+UniRef90_E9DYH8 D-3-phosphoglycerate dehydrogenase n=1 Tax=Metarh...  218        1e-56 
+UniRef90_A0A418D3D3 RNA cytidine acetyltransferase n=7 Tax=Aphano...  216        5e-56 
+UniRef90_A0A4U0TJ07 Uncharacterized protein n=1 Tax=Hortaea thail...  216        9e-56 
+UniRef90_A0A511KKK8 Transcription factor n=1 Tax=Rhodosporidium t...  213        5e-55 
+UniRef90_A0A1X0R184 DUF21-domain-containing protein n=1 Tax=Rhizo...  212        9e-55 
+UniRef90_I1CGQ4 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  211        2e-54 
+UniRef90_A0A200Q9A2 CBS domain n=1 Tax=Macleaya cordata TaxID=568...  210        4e-54 
+UniRef90_A0A3R7H8G0 RNA cytidine acetyltransferase n=2 Tax=Phytop...  208        2e-53 
+UniRef90_F0X993 Duf21 and cbs domain containing protein n=1 Tax=G...  206        8e-53 
+UniRef90_A0A1S3YAC2 DUF21 domain-containing protein At1g47330-lik...  195        2e-52 
+UniRef90_A0A1V6RW98 Uncharacterized protein n=1 Tax=Penicillium v...  202        2e-51 
+UniRef90_A0A507AXH9 Uncharacterized protein (Fragment) n=1 Tax=Ph...  202        2e-51 
+UniRef90_A0A0A2JQZ7 Uncharacterized protein n=1 Tax=Penicillium e...  201        4e-51 
+UniRef90_A0A194V546 D-3-phosphoglycerate dehydrogenase n=1 Tax=Va...  200        1e-50 
+UniRef90_A0A0K3CGH3 FGENESH: predicted gene_6.475 protein (Fragme...  200        1e-50 
+UniRef90_A0A1V6TRP3 Uncharacterized protein n=1 Tax=Penicillium f...  199        1e-50 
+UniRef90_A0A0G4PD67 Gliding motility-associated protein GldE n=2 ...  199        2e-50 
+UniRef90_A0A1V6P3K8 Uncharacterized protein n=1 Tax=Penicillium p...  199        2e-50 
+UniRef90_W9QKK0 Putative DUF21 domain-containing protein n=2 Tax=...  195        3e-49 
+UniRef90_A0A261XUS2 Uncharacterized protein n=1 Tax=Bifiguratus a...  192        7e-48 
+UniRef90_A0A3M7KXX0 9,9'-di-cis-zeta-carotene desaturase (Fragmen...  191        1e-47 
+UniRef90_A0A484FJD2 D-3-phosphoglycerate dehydrogenase n=3 Tax=Co...  190        1e-47 
+UniRef90_A0A0G4MHY5 D-3-phosphoglycerate dehydrogenase n=3 Tax=Ve...  190        2e-47 
+UniRef90_R9P5Z1 Potential ADP-ribosylation factor n=1 Tax=Pseudoz...  189        2e-47 
+UniRef90_A0A317XV90 DUF21-domain-containing protein n=1 Tax=Testi...  189        4e-47 
+UniRef90_A0A1Q9DLV2 ADP,ATP carrier protein n=1 Tax=Symbiodinium ...  186        3e-46 
+UniRef90_A5AHU2 tRNA 4-demethylwyosine synthase (AdoMet-dependent...  186        3e-46 
+UniRef90_A0A061FBR3 S-adenosyl-L-methionine-dependent methyltrans...  186        4e-46 
+UniRef90_A0A2S4W710 Uncharacterized protein (Fragment) n=1 Tax=Pu...  185        9e-46 
+UniRef90_A0A6A5JDB0 RNA cytidine acetyltransferase n=1 Tax=Phytop...  181        2e-44 
+UniRef90_A0A1Q3EMW7 DUF21-domain-containing protein n=1 Tax=Lenti...  175        1e-42 
+UniRef90_A0A0W8C791 RNA cytidine acetyltransferase n=6 Tax=Phytop...  174        3e-42 
+UniRef90_D8SBR4 Uncharacterized protein n=1 Tax=Selaginella moell...  166        1e-39 
+UniRef90_A0A6A5I6A1 Hedgehog/Intein (Hint) domain n=1 Tax=Phytoph...  164        5e-39 
+UniRef90_A0A4D9BCS7 tRNA 4-demethylwyosine synthase (AdoMet-depen...  160        4e-38 
+UniRef90_A0A3P6TYV1 Uncharacterized protein n=1 Tax=Litomosoides ...  158        4e-37 
+UniRef90_D8TJ77 CNNM transmembrane domain-containing protein n=1 ...  153        1e-35 
+UniRef90_A0A498S809 ER lumen protein-retaining receptor n=1 Tax=A...  150        2e-34 
+UniRef90_A0A2P9GK97 Protein MAM3, putative n=1 Tax=Plasmodium sp....  134        1e-29 
+UniRef90_A0A2P9D6I5 Protein MAM3, putative n=1 Tax=Plasmodium sp....  133        3e-29 
+UniRef90_A0A151LI90 Protein MAM3, putative (Fragment) n=3 Tax=Pla...  132        4e-29 
+UniRef90_A0A2P9BDR3 Protein MAM3, putative n=2 Tax=Plasmodium (La...  130        2e-28 
+UniRef90_A0A151LMH3 Uncharacterized protein n=4 Tax=Plasmodium (L...  130        2e-28 
+UniRef90_A0A0L7M1F1 Uncharacterized protein n=11 Tax=Plasmodium f...  124        2e-26 
+UniRef90_A0A2D4BXV5 RNA cytidine acetyltransferase n=1 Tax=Pythiu...  98.2       2e-18 
+UniRef90_A0A093X7K5 CNNM transmembrane domain-containing protein ...  97.8       3e-18 
+UniRef90_A0A093YXB8 CNNM transmembrane domain-containing protein ...  97.8       3e-18 
+UniRef90_A0A4Y7IEJ0 Uncharacterized protein n=1 Tax=Papaver somni...  95.1       2e-17 
+UniRef90_A0A1A9VK79 Uncharacterized protein n=1 Tax=Glossina aust...  80.1       1e-12 
+UniRef90_A0A388LY10 CNNM transmembrane domain-containing protein ...  72.4       2e-10 
+UniRef90_A0A699GDN9 Putative DUF21 domain-containing protein At3g...  69.7       2e-09 
+UniRef90_A0A6A2YHN9 ADP-ribosyl cyclase/cyclic ADP-ribose hydrola...  63.2       2e-07 
+UniRef90_A0A1Q9C536 Putative DUF21 domain-containing protein n=1 ...  49.3       0.003 
+UniRef90_A0A388K9D1 CNNM transmembrane domain-containing protein ...  47.0       0.016 
+UniRef90_A0A118K6C4 AAA+ ATPase domain-containing protein n=3 Tax...  42.7       0.30  
+UniRef90_A0A1I7N9C6 Cobalt-zinc-cadmium resistance protein CzcA n...  41.6       0.64  
+UniRef90_A0A388JQ06 Uncharacterized protein n=1 Tax=Chara braunii...  40.8       1.2   
+UniRef90_U6JZM2 Uncharacterized protein n=1 Tax=Eimeria mitis Tax...  40.0       1.9   
+UniRef90_A0A6A5JC94 RNA cytidine acetyltransferase n=1 Tax=Phytop...  39.7       2.9   
+UniRef90_UPI00062316B5 uncharacterized protein LOC105670970 n=1 T...  38.1       7.4   
+UniRef90_A0A3N0ZR07 Uncharacterized protein n=1 Tax=Bacteroidetes...  38.1       9.3   
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2328573131636
+Results from round 2
+
+
+Query= sp|Q6P4Q7|CNNM4_HUMAN Metal transporter CNNM4 OS=Homo sapiens
+OX=9606 GN=CNNM4 PE=1 SV=3
+
+Length=775
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  780        0.0   
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  765        0.0   
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  762        0.0   
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  756        0.0   
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  705        0.0   
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  700        0.0   
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  685        0.0   
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  633        0.0   
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  611        0.0   
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  520        8e-166
+UniRef90_E9DYH8 D-3-phosphoglycerate dehydrogenase n=1 Tax=Metarh...  457        1e-142
+UniRef90_A0A3M7MMQ4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  455        5e-141
+UniRef90_A0A3M7MKH8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  453        2e-140
+UniRef90_M2N7R1 Uncharacterized protein n=1 Tax=Baudoinia panamer...  445        1e-135
+UniRef90_D8M6S5 Uncharacterized protein n=1 Tax=Blastocystis homi...  436        2e-134
+UniRef90_A0A3F2Y9X9 Uncharacterized protein n=1 Tax=Dekkera bruxe...  434        2e-131
+UniRef90_A0A4U0VKW8 Uncharacterized protein n=1 Tax=Friedmanniomy...  430        1e-130
+UniRef90_A0A1Q9DLV2 ADP,ATP carrier protein n=1 Tax=Symbiodinium ...  426        2e-130
+UniRef90_A0A418D3D3 RNA cytidine acetyltransferase n=7 Tax=Aphano...  428        3e-129
+UniRef90_A0A6H5ILD8 Uncharacterized protein n=1 Tax=Trichogramma ...  429        2e-128
+UniRef90_A0A0A2JQZ7 Uncharacterized protein n=1 Tax=Penicillium e...  414        3e-126
+UniRef90_A0A4U0TJ07 Uncharacterized protein n=1 Tax=Hortaea thail...  421        5e-126
+UniRef90_A0A507AXH9 Uncharacterized protein (Fragment) n=1 Tax=Ph...  415        1e-125
+UniRef90_A0A1V6RW98 Uncharacterized protein n=1 Tax=Penicillium v...  412        2e-125
+UniRef90_A0A0G4PD67 Gliding motility-associated protein GldE n=2 ...  411        5e-125
+UniRef90_A0A1V6TRP3 Uncharacterized protein n=1 Tax=Penicillium f...  411        7e-125
+UniRef90_A0A1V6P3K8 Uncharacterized protein n=1 Tax=Penicillium p...  409        8e-125
+UniRef90_A0A194V546 D-3-phosphoglycerate dehydrogenase n=1 Tax=Va...  408        8e-124
+UniRef90_F0X993 Duf21 and cbs domain containing protein n=1 Tax=G...  406        1e-122
+UniRef90_V4Z6N8 CBS domain-containing protein n=16 Tax=Toxoplasma...  409        3e-122
+UniRef90_F0VAK7 Uncharacterized protein n=2 Tax=Neospora caninum ...  408        3e-122
+UniRef90_A0A484FJD2 D-3-phosphoglycerate dehydrogenase n=3 Tax=Co...  403        2e-121
+UniRef90_A0A2C6L7P3 Cbs domain-containing protein n=1 Tax=Cystois...  406        3e-120
+UniRef90_A0A1X0R184 DUF21-domain-containing protein n=1 Tax=Rhizo...  401        3e-120
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  401        5e-120
+UniRef90_A0A1S3YAC2 DUF21 domain-containing protein At1g47330-lik...  374        6e-120
+UniRef90_I1CGQ4 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  398        6e-119
+UniRef90_A0A0G4MHY5 D-3-phosphoglycerate dehydrogenase n=3 Tax=Ve...  396        1e-118
+UniRef90_A0A200Q9A2 CBS domain n=1 Tax=Macleaya cordata TaxID=568...  389        4e-117
+UniRef90_A0A0W8CCB1 Metal transporter CNNM4 n=4 Tax=Phytophthora ...  389        9e-116
+UniRef90_A0A511KKK8 Transcription factor n=1 Tax=Rhodosporidium t...  387        5e-114
+UniRef90_A0A3R7H8G0 RNA cytidine acetyltransferase n=2 Tax=Phytop...  379        5e-112
+UniRef90_A0A061FBR3 S-adenosyl-L-methionine-dependent methyltrans...  373        2e-111
+UniRef90_A0A3P6TYV1 Uncharacterized protein n=1 Tax=Litomosoides ...  376        1e-110
+UniRef90_A5AHU2 tRNA 4-demethylwyosine synthase (AdoMet-dependent...  374        9e-110
+UniRef90_A0A2S4W710 Uncharacterized protein (Fragment) n=1 Tax=Pu...  374        3e-109
+UniRef90_A0A0K3CGH3 FGENESH: predicted gene_6.475 protein (Fragme...  368        9e-108
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  367        8e-107
+UniRef90_W9QKK0 Putative DUF21 domain-containing protein n=2 Tax=...  357        2e-105
+UniRef90_A0A4R0RKP0 CNNM transmembrane domain-containing protein ...  352        7e-103
+UniRef90_A0A498S809 ER lumen protein-retaining receptor n=1 Tax=A...  351        1e-101
+UniRef90_A0A4X3PEB2 Ankyrin repeat-containing protein n=2 Tax=Pri...  346        8e-100
+UniRef90_A0A4D9BCS7 tRNA 4-demethylwyosine synthase (AdoMet-depen...  341        3e-99 
+UniRef90_A0A6A5JDB0 RNA cytidine acetyltransferase n=1 Tax=Phytop...  339        6e-98 
+UniRef90_D8SBR4 Uncharacterized protein n=1 Tax=Selaginella moell...  339        4e-97 
+UniRef90_A0A3M7KXX0 9,9'-di-cis-zeta-carotene desaturase (Fragmen...  329        1e-94 
+UniRef90_A0A1Q3EMW7 DUF21-domain-containing protein n=1 Tax=Lenti...  314        1e-89 
+UniRef90_A0A261XUS2 Uncharacterized protein n=1 Tax=Bifiguratus a...  309        5e-87 
+UniRef90_A0A0W8C791 RNA cytidine acetyltransferase n=6 Tax=Phytop...  305        4e-86 
+UniRef90_R9P5Z1 Potential ADP-ribosylation factor n=1 Tax=Pseudoz...  300        1e-84 
+UniRef90_A0A317XV90 DUF21-domain-containing protein n=1 Tax=Testi...  301        1e-84 
+UniRef90_A0A6A5I6A1 Hedgehog/Intein (Hint) domain n=1 Tax=Phytoph...  289        2e-80 
+UniRef90_A0A2P9GK97 Protein MAM3, putative n=1 Tax=Plasmodium sp....  270        2e-74 
+UniRef90_A0A2P9D6I5 Protein MAM3, putative n=1 Tax=Plasmodium sp....  269        6e-74 
+UniRef90_A0A151LMH3 Uncharacterized protein n=4 Tax=Plasmodium (L...  269        7e-74 
+UniRef90_A0A151LI90 Protein MAM3, putative (Fragment) n=3 Tax=Pla...  268        2e-73 
+UniRef90_D8TJ77 CNNM transmembrane domain-containing protein n=1 ...  268        2e-73 
+UniRef90_A0A2P9BDR3 Protein MAM3, putative n=2 Tax=Plasmodium (La...  267        5e-73 
+UniRef90_A0A093X7K5 CNNM transmembrane domain-containing protein ...  261        3e-71 
+UniRef90_A0A0L7M1F1 Uncharacterized protein n=11 Tax=Plasmodium f...  256        1e-69 
+UniRef90_A0A093YXB8 CNNM transmembrane domain-containing protein ...  230        1e-60 
+UniRef90_A0A4Y7IEJ0 Uncharacterized protein n=1 Tax=Papaver somni...  204        3e-52 
+UniRef90_A0A1A9VK79 Uncharacterized protein n=1 Tax=Glossina aust...  176        5e-43 
+UniRef90_A0A2D4BXV5 RNA cytidine acetyltransferase n=1 Tax=Pythiu...  159        1e-37 
+UniRef90_A0A699GDN9 Putative DUF21 domain-containing protein At3g...  144        9e-33 
+UniRef90_A0A388LY10 CNNM transmembrane domain-containing protein ...  125        1e-26 
+UniRef90_A0A6A2YHN9 ADP-ribosyl cyclase/cyclic ADP-ribose hydrola...  121        1e-25 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6A5JC94 RNA cytidine acetyltransferase n=1 Tax=Phytop...  91.0       5e-16
+UniRef90_A0A388K4U2 Integrase catalytic domain-containing protein...  84.1       7e-14
+UniRef90_A0A1Q9C536 Putative DUF21 domain-containing protein n=1 ...  81.4       4e-13
+UniRef90_A0A118K6C4 AAA+ ATPase domain-containing protein n=3 Tax...  80.3       1e-12
+UniRef90_A0A388K9D1 CNNM transmembrane domain-containing protein ...  69.9       1e-09
+UniRef90_UPI000C1D3998 ABC transporter C family member 3-like iso...  62.5       2e-07
+UniRef90_A0A1Q9E9M7 CBS domain-containing protein n=1 Tax=Symbiod...  59.1       3e-06
+UniRef90_A0A0G4IBX1 Uncharacterized protein n=1 Tax=Chromera veli...  57.1       1e-05
+UniRef90_U6JZM2 Uncharacterized protein n=1 Tax=Eimeria mitis Tax...  52.9       3e-04
+UniRef90_UPI00146C6F17 PAS domain-containing protein n=1 Tax=Pseu...  51.4       6e-04
+UniRef90_A0A6D2HIV6 Uncharacterized protein n=2 Tax=Magnoliopsida...  50.2       0.002
+UniRef90_A0A4V3XCA2 Uncharacterized protein n=1 Tax=Phellinidium ...  49.8       0.002
+UniRef90_UPI0014487CEC PAS domain S-box protein n=1 Tax=Anabaena ...  49.0       0.003
+UniRef90_A0A6P2AUU2 PAS domain S-box protein (Fragment) n=1 Tax=S...  47.9       0.007
+UniRef90_A0A367L2I3 Uncharacterized protein n=1 Tax=Ophiocordycep...  46.0       0.029
+UniRef90_UPI000A03775D PAS domain S-box protein n=1 Tax=Kamptonem...  46.0       0.035
+UniRef90_A0A024GC57 Uncharacterized protein n=1 Tax=Albugo candid...  44.8       0.087
+UniRef90_A0A0P1AV11 Myosin 29 n=1 Tax=Plasmopara halstedii TaxID=...  44.4       0.098
+UniRef90_A0A3C1ZAU9 DNA-directed RNA polymerase subunit beta n=1 ...  44.4       0.10 
+UniRef90_UPI000771BC18 uncharacterized protein LOC107267762 n=1 T...  44.0       0.13 
+UniRef90_K9TNJ7 PAS domain S-box n=1 Tax=Oscillatoria acuminata P...  44.0       0.14 
+UniRef90_A0A6C2E1S1 CBS domain-containing protein n=3 Tax=Pseudan...  43.3       0.18 
+UniRef90_A0A0V0V577 Chloride channel protein n=3 Tax=Trichinella ...  43.3       0.22 
+UniRef90_A0A2Z6LVM6 Reverse transcriptase domain-containing prote...  42.9       0.26 
+UniRef90_B3S1Q2 Nipped-B protein n=2 Tax=Trichoplax TaxID=10227 R...  42.9       0.29 
+UniRef90_A0A5P1R6F6 EAL domain-containing protein n=1 Tax=Neptuno...  42.5       0.34 
+UniRef90_A0A1V5IWK0 DNA-directed RNA polymerase subunit beta n=1 ...  42.5       0.35 
+UniRef90_A0A3P3YNY2 Uncharacterized protein n=2 Tax=Plasmodiophor...  42.1       0.43 
+UniRef90_A0A6N2JRH3 PAS domain S-box protein n=1 Tax=Pseudanabaen...  42.1       0.54 
+UniRef90_A0A1J1LMP7 Uncharacterized protein n=2 Tax=Planktothrix ...  41.7       0.63 
+UniRef90_UPI0014450327 PAS domain S-box protein n=2 Tax=unclassif...  41.7       0.68 
+UniRef90_H1WLN2 Putative two-component hybrid sensor and regulato...  41.7       0.68 
+UniRef90_A0A1Z4HNJ2 Multi-sensor hybrid histidine kinase n=2 Tax=...  41.3       0.74 
+UniRef90_A0A1A9UKK9 LysM domain-containing protein n=1 Tax=Glossi...  41.3       0.85 
+UniRef90_A0A1Q8ZCC9 Uncharacterized protein n=1 Tax=Leptolyngbya ...  41.0       1.00 
+UniRef90_A0A1G5BH15 Phosphopantetheine attachment site n=2 Tax=Ru...  41.0       1.0  
+UniRef90_UPI0015C1C09A hypothetical protein n=1 Tax=Clostridia ba...  41.0       1.1  
+UniRef90_K9WKM9 PAS domain S-box n=1 Tax=Microcoleus sp. PCC 7113...  41.0       1.1  
+UniRef90_A0A073CAN1 Sensory transduction histidine kinase n=8 Tax...  41.0       1.1  
+UniRef90_H3GUG5 Uncharacterized protein n=25 Tax=Phytophthora Tax...  41.0       1.2  
+UniRef90_A0A0E1VNH9 Helicase C-terminal domain protein n=6 Tax=ce...  40.6       1.4  
+UniRef90_A0A522XCV7 PAS domain S-box protein n=2 Tax=Oscillatoria...  40.6       1.5  
+UniRef90_A0A557RY48 EAL domain-containing protein n=1 Tax=Sedimen...  40.6       1.6  
+UniRef90_A0A1J5GHS2 Uncharacterized protein n=1 Tax=Oscillatorial...  40.2       1.7  
+UniRef90_A0A6B3MA60 PAS domain S-box protein n=1 Tax=Symploca sp....  39.8       2.2  
+UniRef90_A0A329RQT8 Uncharacterized protein n=1 Tax=Phytophthora ...  39.8       2.4  
+UniRef90_A0A2W7BAG1 Uncharacterized protein n=1 Tax=Snowella sp. ...  39.8       2.4  
+UniRef90_K3WV91 Uncharacterized protein n=1 Tax=Globisporangium u...  39.8       2.6  
+UniRef90_A0A484EB97 Uncharacterized protein n=1 Tax=Bremia lactuc...  39.8       2.7  
+UniRef90_UPI000854E3B8 myosin-IIIa n=1 Tax=Nanorana parkeri TaxID...  39.4       2.8  
+UniRef90_A0A351LGJ8 Uncharacterized protein n=1 Tax=Cyanobacteria...  39.4       2.9  
+UniRef90_A0A6J2L0E1 histone-lysine N-methyltransferase ASH1L isof...  39.4       3.0  
+UniRef90_A0A1I1YG00 Cobalt-zinc-cadmium resistance protein CzcA n...  39.4       3.5  
+UniRef90_A0A024U0L7 Uncharacterized protein n=2 Tax=Aphanomyces i...  39.0       3.8  
+UniRef90_K9IQP9 Putative histone-lysine n-methyltransferase ash1l...  39.0       4.3  
+UniRef90_A0A495VDL4 Histidine kinase n=1 Tax=Thiocapsa rosea TaxI...  39.0       4.3  
+UniRef90_A0A1W0A5N3 Myosin n=1 Tax=Thraustotheca clavata TaxID=74...  39.0       4.5  
+UniRef90_A0A0W8D2Q4 Uncharacterized protein n=1 Tax=Phytophthora ...  38.6       4.8  
+UniRef90_A0A662XPT1 Uncharacterized protein n=2 Tax=Nothophytopht...  38.6       5.6  
+UniRef90_UPI00090EDB92 response regulator n=1 Tax=Planktothrix se...  38.3       6.4  
+UniRef90_A0A218XZF5 Uncharacterized protein n=1 Tax=Punica granat...  38.3       6.4  
+UniRef90_UPI0004B32CD0 hypothetical protein n=1 Tax=Bacteroides t...  38.3       7.7  
+UniRef90_A0A2H9T4B2 Uncharacterized protein n=1 Tax=invertebrate ...  37.9       8.6  
+UniRef90_UPI00068FCBB2 non-ribosomal peptide synthetase n=1 Tax=R...  37.9       9.9  
+UniRef90_UPI000368930F non-ribosomal peptide synthase n=1 Tax=Rho...  37.9       9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.122    0.305    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0374    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2328573131636
+Results from round 3
+
+
+Query= sp|Q6P4Q7|CNNM4_HUMAN Metal transporter CNNM4 OS=Homo sapiens
+OX=9606 GN=CNNM4 PE=1 SV=3
+
+Length=775
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  731        0.0   
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  720        0.0   
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  714        0.0   
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  707        0.0   
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  661        0.0   
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  656        0.0   
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  610        0.0   
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  607        0.0   
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  575        0.0   
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  526        5e-168
+UniRef90_E9DYH8 D-3-phosphoglycerate dehydrogenase n=1 Tax=Metarh...  447        1e-138
+UniRef90_A0A3M7MMQ4 Uncharacterized protein (Fragment) n=1 Tax=Ch...  447        6e-138
+UniRef90_A0A3M7MKH8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  440        3e-135
+UniRef90_A0A0A2JQZ7 Uncharacterized protein n=1 Tax=Penicillium e...  430        2e-132
+UniRef90_A0A0G4PD67 Gliding motility-associated protein GldE n=2 ...  428        1e-131
+UniRef90_A0A1V6RW98 Uncharacterized protein n=1 Tax=Penicillium v...  426        1e-130
+UniRef90_M2N7R1 Uncharacterized protein n=1 Tax=Baudoinia panamer...  430        2e-130
+UniRef90_A0A1V6TRP3 Uncharacterized protein n=1 Tax=Penicillium f...  425        3e-130
+UniRef90_A0A1V6P3K8 Uncharacterized protein n=1 Tax=Penicillium p...  423        7e-130
+UniRef90_A0A6H5ILD8 Uncharacterized protein n=1 Tax=Trichogramma ...  431        3e-129
+UniRef90_A0A484FJD2 D-3-phosphoglycerate dehydrogenase n=3 Tax=Co...  423        9e-129
+UniRef90_D8M6S5 Uncharacterized protein n=1 Tax=Blastocystis homi...  417        5e-127
+UniRef90_A0A1X0R184 DUF21-domain-containing protein n=1 Tax=Rhizo...  416        9e-126
+UniRef90_A0A3F2Y9X9 Uncharacterized protein n=1 Tax=Dekkera bruxe...  418        1e-125
+UniRef90_A0A4U0TJ07 Uncharacterized protein n=1 Tax=Hortaea thail...  420        1e-125
+UniRef90_A0A4U0VKW8 Uncharacterized protein n=1 Tax=Friedmanniomy...  416        2e-125
+UniRef90_F0X993 Duf21 and cbs domain containing protein n=1 Tax=G...  412        3e-125
+UniRef90_A0A507AXH9 Uncharacterized protein (Fragment) n=1 Tax=Ph...  409        1e-123
+UniRef90_A0A1S3YAC2 DUF21 domain-containing protein At1g47330-lik...  377        4e-121
+UniRef90_A0A194V546 D-3-phosphoglycerate dehydrogenase n=1 Tax=Va...  400        4e-121
+UniRef90_A0A1Q9DLV2 ADP,ATP carrier protein n=1 Tax=Symbiodinium ...  400        1e-120
+UniRef90_W9QKK0 Putative DUF21 domain-containing protein n=2 Tax=...  396        1e-119
+UniRef90_A0A0G4MHY5 D-3-phosphoglycerate dehydrogenase n=3 Tax=Ve...  398        3e-119
+UniRef90_I1CGQ4 Uncharacterized protein n=1 Tax=Rhizopus delemar ...  397        7e-119
+UniRef90_A0A4X3PEB2 Ankyrin repeat-containing protein n=2 Tax=Pri...  398        9e-118
+UniRef90_A0A200Q9A2 CBS domain n=1 Tax=Macleaya cordata TaxID=568...  390        2e-117
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  397        5e-117
+UniRef90_A0A511KKK8 Transcription factor n=1 Tax=Rhodosporidium t...  386        1e-113
+UniRef90_A0A061FBR3 S-adenosyl-L-methionine-dependent methyltrans...  378        4e-113
+UniRef90_A0A2C6L7P3 Cbs domain-containing protein n=1 Tax=Cystois...  385        6e-113
+UniRef90_V4Z6N8 CBS domain-containing protein n=16 Tax=Toxoplasma...  383        8e-113
+UniRef90_F0VAK7 Uncharacterized protein n=2 Tax=Neospora caninum ...  380        2e-112
+UniRef90_A0A418D3D3 RNA cytidine acetyltransferase n=7 Tax=Aphano...  380        7e-112
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  376        5e-111
+UniRef90_A5AHU2 tRNA 4-demethylwyosine synthase (AdoMet-dependent...  377        1e-110
+UniRef90_A0A3R7H8G0 RNA cytidine acetyltransferase n=2 Tax=Phytop...  370        7e-109
+UniRef90_A0A0K3CGH3 FGENESH: predicted gene_6.475 protein (Fragme...  370        2e-108
+UniRef90_A0A3P6TYV1 Uncharacterized protein n=1 Tax=Litomosoides ...  368        8e-108
+UniRef90_A0A0W8CCB1 Metal transporter CNNM4 n=4 Tax=Phytophthora ...  362        6e-106
+UniRef90_A0A2S4W710 Uncharacterized protein (Fragment) n=1 Tax=Pu...  363        2e-105
+UniRef90_A0A498S809 ER lumen protein-retaining receptor n=1 Tax=A...  357        1e-103
+UniRef90_A0A4R0RKP0 CNNM transmembrane domain-containing protein ...  346        1e-100
+UniRef90_D8SBR4 Uncharacterized protein n=1 Tax=Selaginella moell...  344        7e-99 
+UniRef90_A0A6A5JDB0 RNA cytidine acetyltransferase n=1 Tax=Phytop...  342        7e-99 
+UniRef90_A0A4D9BCS7 tRNA 4-demethylwyosine synthase (AdoMet-depen...  338        2e-98 
+UniRef90_A0A3M7KXX0 9,9'-di-cis-zeta-carotene desaturase (Fragmen...  338        6e-98 
+UniRef90_A0A261XUS2 Uncharacterized protein n=1 Tax=Bifiguratus a...  313        2e-88 
+UniRef90_A0A1Q3EMW7 DUF21-domain-containing protein n=1 Tax=Lenti...  304        2e-86 
+UniRef90_A0A0W8C791 RNA cytidine acetyltransferase n=6 Tax=Phytop...  297        4e-83 
+UniRef90_R9P5Z1 Potential ADP-ribosylation factor n=1 Tax=Pseudoz...  295        8e-83 
+UniRef90_A0A2P9GK97 Protein MAM3, putative n=1 Tax=Plasmodium sp....  290        3e-81 
+UniRef90_A0A317XV90 DUF21-domain-containing protein n=1 Tax=Testi...  291        4e-81 
+UniRef90_A0A151LI90 Protein MAM3, putative (Fragment) n=3 Tax=Pla...  279        2e-77 
+UniRef90_A0A151LMH3 Uncharacterized protein n=4 Tax=Plasmodium (L...  275        4e-76 
+UniRef90_A0A2P9BDR3 Protein MAM3, putative n=2 Tax=Plasmodium (La...  275        5e-76 
+UniRef90_A0A2P9D6I5 Protein MAM3, putative n=1 Tax=Plasmodium sp....  274        1e-75 
+UniRef90_A0A093X7K5 CNNM transmembrane domain-containing protein ...  267        2e-73 
+UniRef90_A0A0L7M1F1 Uncharacterized protein n=11 Tax=Plasmodium f...  264        2e-72 
+UniRef90_D8TJ77 CNNM transmembrane domain-containing protein n=1 ...  262        2e-71 
+UniRef90_A0A6A5I6A1 Hedgehog/Intein (Hint) domain n=1 Tax=Phytoph...  262        2e-71 
+UniRef90_A0A093YXB8 CNNM transmembrane domain-containing protein ...  236        1e-62 
+UniRef90_A0A4Y7IEJ0 Uncharacterized protein n=1 Tax=Papaver somni...  212        1e-54 
+UniRef90_A0A2D4BXV5 RNA cytidine acetyltransferase n=1 Tax=Pythiu...  170        6e-41 
+UniRef90_A0A1A9VK79 Uncharacterized protein n=1 Tax=Glossina aust...  160        9e-38 
+UniRef90_A0A118K6C4 AAA+ ATPase domain-containing protein n=3 Tax...  147        1e-33 
+UniRef90_A0A6A5JC94 RNA cytidine acetyltransferase n=1 Tax=Phytop...  135        5e-30 
+UniRef90_A0A699GDN9 Putative DUF21 domain-containing protein At3g...  136        5e-30 
+UniRef90_A0A388LY10 CNNM transmembrane domain-containing protein ...  131        1e-28 
+UniRef90_A0A6A2YHN9 ADP-ribosyl cyclase/cyclic ADP-ribose hydrola...  114        3e-23 
+UniRef90_A0A1Q9E9M7 CBS domain-containing protein n=1 Tax=Symbiod...  105        1e-20 
+UniRef90_UPI00146C6F17 PAS domain-containing protein n=1 Tax=Pseu...  95.4       2e-17 
+UniRef90_A0A1Q9C536 Putative DUF21 domain-containing protein n=1 ...  92.3       2e-16 
+UniRef90_A0A388K4U2 Integrase catalytic domain-containing protein...  88.8       2e-15 
+UniRef90_A0A0G4IBX1 Uncharacterized protein n=1 Tax=Chromera veli...  83.8       7e-14 
+UniRef90_A0A388K9D1 CNNM transmembrane domain-containing protein ...  69.2       2e-09 
+UniRef90_U6JZM2 Uncharacterized protein n=1 Tax=Eimeria mitis Tax...  63.4       1e-07 
+UniRef90_UPI000C1D3998 ABC transporter C family member 3-like iso...  63.0       2e-07 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6N2JRH3 PAS domain S-box protein n=1 Tax=Pseudanabaen...  70.3       1e-09
+UniRef90_UPI0009FE9ECC PAS domain S-box protein n=1 Tax=Spirulina...  65.0       5e-08
+UniRef90_UPI00146A6F27 PAS domain S-box protein n=1 Tax=Pseudanab...  62.3       3e-07
+UniRef90_A0A1J5GHS2 Uncharacterized protein n=1 Tax=Oscillatorial...  61.9       4e-07
+UniRef90_UPI000A03775D PAS domain S-box protein n=1 Tax=Kamptonem...  61.9       5e-07
+UniRef90_K9V5C1 Multi-sensor hybrid histidine kinase n=1 Tax=Calo...  61.5       6e-07
+UniRef90_A0A1Z4K474 Multi-sensor hybrid histidine kinase n=1 Tax=...  61.5       6e-07
+UniRef90_UPI0014487CEC PAS domain S-box protein n=1 Tax=Anabaena ...  61.1       7e-07
+UniRef90_A0A0M3V4P5 Histidine kinase n=2 Tax=Nostoc TaxID=1177 Re...  59.9       2e-06
+UniRef90_A0A6C2E1S1 CBS domain-containing protein n=3 Tax=Pseudan...  59.6       2e-06
+UniRef90_UPI0014472DEA GAF domain-containing protein n=1 Tax=Anab...  59.6       2e-06
+UniRef90_H1WLZ1 Putative signal transduction diguanylate kinase n...  58.8       4e-06
+UniRef90_A0A2Z5X4N1 Multi-sensor hybrid histidine kinase n=1 Tax=...  58.8       4e-06
+UniRef90_K9VSC5 Multi-sensor hybrid histidine kinase n=2 Tax=Osci...  58.8       4e-06
+UniRef90_A0A2Z5WSX3 Multi-sensor hybrid histidine kinase n=1 Tax=...  58.4       4e-06
+UniRef90_UPI00144796DA GAF domain-containing protein n=1 Tax=Doli...  58.4       5e-06
+UniRef90_UPI000688C93C PAS domain S-box protein n=1 Tax=Leptolyng...  58.0       6e-06
+UniRef90_A0A1T4ZFZ5 Putative Histidine kinase n=1 Tax=Planktothri...  57.6       7e-06
+UniRef90_A0A1Z4HNJ2 Multi-sensor hybrid histidine kinase n=2 Tax=...  57.6       9e-06
+UniRef90_A0A2G4F399 Histidine kinase n=1 Tax=Tychonema bourrellyi...  57.3       1e-05
+UniRef90_H1WLN2 Putative two-component hybrid sensor and regulato...  57.3       1e-05
+UniRef90_A0A0D6KSH1 Sensor histidine kinase n=5 Tax=Cyanobacteria...  56.5       2e-05
+UniRef90_A0A5P8W7A9 CBS domain-containing protein n=3 Tax=Nostoc ...  55.7       3e-05
+UniRef90_A0A2T1G0V8 Histidine kinase n=1 Tax=filamentous cyanobac...  55.7       4e-05
+UniRef90_A0A6P0HV72 PAS domain S-box protein n=2 Tax=unclassified...  55.7       4e-05
+UniRef90_A0A1L9QNZ6 Uncharacterized protein n=2 Tax=Cyanobacteria...  55.3       4e-05
+UniRef90_A0A0D6AAQ1 Circadian input kinase A n=1 Tax=Geminocystis...  54.9       6e-05
+UniRef90_A0A1Q8ZCC9 Uncharacterized protein n=1 Tax=Leptolyngbya ...  54.6       7e-05
+UniRef90_A0A522XFR6 PAS domain S-box protein n=3 Tax=Phormidium T...  54.6       7e-05
+UniRef90_UPI000344E2E6 CBS domain-containing protein n=1 Tax=Proc...  53.8       1e-04
+UniRef90_A0A351LGJ8 Uncharacterized protein n=1 Tax=Cyanobacteria...  53.4       1e-04
+UniRef90_A0A479ZTS9 Multi-sensor Hybrid Histidine Kinase n=4 Tax=...  53.4       2e-04
+UniRef90_A0A2Z5WST4 Multi-sensor hybrid histidine kinase n=2 Tax=...  53.0       2e-04
+UniRef90_UPI0013A59163 PAS domain S-box protein n=1 Tax=Jacksonvi...  53.0       2e-04
+UniRef90_A0A6N2DBR3 CBS domain-containing protein n=1 Tax=Phormid...  53.0       2e-04
+UniRef90_K9V922 Multi-sensor hybrid histidine kinase n=1 Tax=Calo...  52.6       3e-04
+UniRef90_A0A1Z4H038 Multi-sensor hybrid histidine kinase n=2 Tax=...  51.9       5e-04
+UniRef90_UPI0014472319 PAS domain S-box protein n=2 Tax=unclassif...  51.9       5e-04
+UniRef90_A0A0T7BM00 Uncharacterized protein n=1 Tax=Calothrix sp....  51.9       5e-04
+UniRef90_A0A0D6ASY8 Circadian input kinase A n=1 Tax=Geminocystis...  51.9       5e-04
+UniRef90_A0A1U7II64 Uncharacterized protein n=1 Tax=Phormidium am...  51.5       6e-04
+UniRef90_A0A6P0RMW7 PAS domain S-box protein n=1 Tax=Okeania sp. ...  51.1       8e-04
+UniRef90_UPI000910ABFB PAS domain S-box protein n=1 Tax=Planktoth...  51.1       0.001
+UniRef90_K9ZI18 Multi-sensor signal transduction histidine kinase...  49.9       0.002
+UniRef90_UPI00146A1E30 LOW QUALITY PROTEIN: microtubule-actin cro...  49.9       0.002
+UniRef90_UPI001446290B PAS domain S-box protein n=1 Tax=Anabaena ...  49.5       0.002
+UniRef90_UPI00146B8E1B PAS domain S-box protein n=1 Tax=Pseudanab...  49.5       0.003
+UniRef90_A0A1T4ZL24 Putative signal transduction histidine kinase...  49.2       0.003
+UniRef90_A0A6I5NJI1 PAS domain S-box protein n=1 Tax=Leptolyngbya...  48.4       0.006
+UniRef90_W4XPS7 Reverse transcriptase n=1 Tax=Strongylocentrotus ...  48.0       0.007
+UniRef90_A0A6I5PHR2 PAS domain S-box protein n=1 Tax=Leptolyngbya...  48.0       0.007
+UniRef90_UPI00030A9F69 PAS domain S-box protein n=1 Tax=Spirulina...  47.6       0.009
+UniRef90_UPI0014450327 PAS domain S-box protein n=2 Tax=unclassif...  47.6       0.010
+UniRef90_A0A6D2HIV6 Uncharacterized protein n=2 Tax=Magnoliopsida...  46.9       0.015
+UniRef90_A0A4V3XCA2 Uncharacterized protein n=1 Tax=Phellinidium ...  46.9       0.015
+UniRef90_A0A0P1AV11 Myosin 29 n=1 Tax=Plasmopara halstedii TaxID=...  46.9       0.017
+UniRef90_A0A1J1LMP7 Uncharacterized protein n=2 Tax=Planktothrix ...  46.5       0.021
+UniRef90_A0A6B3MA60 PAS domain S-box protein n=1 Tax=Symploca sp....  46.1       0.025
+UniRef90_K9YFB2 Multi-sensor hybrid histidine kinase n=1 Tax=Halo...  46.1       0.027
+UniRef90_A0A1B1TSF0 Uncharacterized protein n=1 Tax=Synechococcus...  46.1       0.032
+UniRef90_A0A1J5GTG9 Uncharacterized protein n=2 Tax=Oscillatorial...  45.3       0.051
+UniRef90_K9WKM9 PAS domain S-box n=1 Tax=Microcoleus sp. PCC 7113...  45.3       0.052
+UniRef90_A0A086Q7F8 Trimethylguanosine synthase (Fragment) n=4 Ta...  44.9       0.067
+UniRef90_A0A5P1R6F6 EAL domain-containing protein n=1 Tax=Neptuno...  44.5       0.078
+UniRef90_A0A485K6V0 Aste57867_150 protein n=1 Tax=Aphanomyces ste...  43.8       0.15 
+UniRef90_A0A0K1PKC4 DNA-directed RNA polymerase subunit beta' n=2...  43.8       0.16 
+UniRef90_K3WV91 Uncharacterized protein n=1 Tax=Globisporangium u...  43.4       0.19 
+UniRef90_A0A0W8D2Q4 Uncharacterized protein n=1 Tax=Phytophthora ...  43.4       0.19 
+UniRef90_A0A662XPT1 Uncharacterized protein n=2 Tax=Nothophytopht...  43.0       0.28 
+UniRef90_H3GUG5 Uncharacterized protein n=25 Tax=Phytophthora Tax...  43.0       0.30 
+UniRef90_A0A1Z4GHV2 Multi-sensor hybrid histidine kinase n=3 Tax=...  42.6       0.33 
+UniRef90_B4VWW1 PAS fold family n=1 Tax=Coleofasciculus chthonopl...  42.6       0.33 
+UniRef90_UPI000B3AD39C microtubule-actin cross-linking factor 1, ...  42.6       0.34 
+UniRef90_A0A0E2HW68 Uncharacterized protein n=13 Tax=Enterococcus...  42.2       0.42 
+UniRef90_A0A1U7IS71 Histidine kinase n=1 Tax=Nostoc calcicola FAC...  42.2       0.44 
+UniRef90_A0A4R3N1Y1 Histidine kinase n=1 Tax=Thiobaca trueperi Ta...  42.2       0.45 
+UniRef90_UPI0003138D95 PAS domain S-box protein n=1 Tax=Fischerel...  42.2       0.46 
+UniRef90_UPI000DD58E03 DNA-directed RNA polymerase subunit beta n...  41.8       0.55 
+UniRef90_UPI000915A481 PAS domain S-box protein n=1 Tax=Planktoth...  41.8       0.56 
+UniRef90_UPI00069E23F2 PAS domain S-box protein n=1 Tax=Limnoraph...  41.5       0.66 
+UniRef90_A0A4W3IEV7 Uncharacterized protein n=1 Tax=Callorhinchus...  41.5       0.71 
+UniRef90_UPI0014868C15 integrator complex subunit 1 isoform X1 n=...  41.5       0.73 
+UniRef90_UPI000D6A5668 tight junction protein ZO-1 isoform X1 n=2...  41.5       0.81 
+UniRef90_A0A0T1WZN3 DNA-directed RNA polymerase subunit beta n=1 ...  41.1       0.88 
+UniRef90_A0A2Z6LVM6 Reverse transcriptase domain-containing prote...  41.1       0.91 
+UniRef90_A0A1L9QNX0 Uncharacterized protein n=2 Tax=Cyanobacteria...  40.7       1.2  
+UniRef90_A0A3M2GRG2 PAS domain S-box protein n=2 Tax=Cyanobacteri...  40.7       1.2  
+UniRef90_A0A024GC57 Uncharacterized protein n=1 Tax=Albugo candid...  40.7       1.4  
+UniRef90_A0A6L2LRI9 Reverse transcriptase domain-containing prote...  40.7       1.4  
+UniRef90_M0SKC9 Uncharacterized protein n=1 Tax=Musa acuminata su...  40.3       1.6  
+UniRef90_UPI000771BC18 uncharacterized protein LOC107267762 n=1 T...  39.9       2.0  
+UniRef90_A0A1G4MJM9 LAFE_0H05534g1_1 n=1 Tax=Lachancea fermentati...  39.9       2.1  
+UniRef90_UPI00146EAF17 PAS domain S-box protein n=1 Tax=Pseudanab...  39.9       2.4  
+UniRef90_A0A484EB97 Uncharacterized protein n=1 Tax=Bremia lactuc...  39.9       2.5  
+UniRef90_A0A5C9BYK7 Diguanylate cyclase/phosphodiesterase with PA...  39.5       2.6  
+UniRef90_A0A1X6PHQ5 Uncharacterized protein n=1 Tax=Porphyra umbi...  39.5       2.8  
+UniRef90_UPI00090EDB92 response regulator n=1 Tax=Planktothrix se...  39.5       3.1  
+UniRef90_A0A6L2N0N4 Reverse transcriptase domain-containing prote...  39.5       3.2  
+UniRef90_D8TZ55 Cyclic nucleotide-binding domain-containing prote...  39.5       3.4  
+UniRef90_A0A429ZS46 Site-specific DNA-methyltransferase (adenine-...  39.1       3.4  
+UniRef90_B4WT27 PAS fold family n=1 Tax=Synechococcus sp. (strain...  39.1       3.4  
+UniRef90_A0A2U3KT49 DNA-directed RNA polymerase subunit beta n=1 ...  38.8       5.0  
+UniRef90_A0A2E6BZI7 Uncharacterized protein n=1 Tax=Euryarchaeota...  38.8       5.4  
+UniRef90_A0A0Q9E176 DNA-directed RNA polymerase subunit beta n=8 ...  38.0       7.5  
+UniRef90_UPI0012F9C09A EAL domain-containing protein n=1 Tax=Azon...  38.0       9.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.113    0.263    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0346    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2328573131636
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

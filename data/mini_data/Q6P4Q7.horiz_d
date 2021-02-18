@@ -1,0 +1,71 @@
+DISOPRED predictions for a false positive rate threshold of: 5%
+
+conf: 999899976554300000000000000000000000000010011100123234555665
+pred: ***********...........................................******
+  AA: MAPVGGGGRPVGGPARGRLLLAAPVLLVLLWALGARGQGSPQQGTIVGMRLASCNKSCGT
+              10        20        30        40        50        60
+
+conf: 455432100000000000000000000000000000000000000000000000000222
+pred: .**.........................................................
+  AA: NPDGIIFVSEGSTVNLRLYGYSLGNISSNLISFTEVDDAETLHKSTSCLELTKDLVVQQL
+              70        80        90       100       110       120
+
+conf: 233332000000000000001210000000000000134455555566555544333100
+pred: ........................................************........
+  AA: VNVSRGNTSGVLVVLTKFLRRSESMKLYALCTRAQPDGPWLKWTDKDSLLFMVEEPGRFL
+             130       140       150       160       170       180
+
+conf: 000000000000000000000000000000000000145667777776653200000000
+pred: ......................................************..........
+  AA: PLWLHILLITVLLVLSGIFSGLNLGLMALDPMELRIVQNCGTEKERRYARKIEPIRRKGN
+             190       200       210       220       230       240
+
+conf: 000000000000000000000000000000000000000000000000000000000000
+pred: ............................................................
+  AA: YLLCSLLLGNVLVNTSLTILLDNLIGSGLMAVASSTIGIVIFGEILPQALCSRHGLAVGA
+             250       260       270       280       290       300
+
+conf: 000000000000000000000000000000000000000000000000001331220000
+pred: ............................................................
+  AA: NTILLTKFFMLLTFPLSFPISKLLDFFLGQEIRTVYNREKLMEMLKVTEPYNDLVKEELN
+             310       320       330       340       350       360
+
+conf: 000000000000000000000000000000000000000000000000000000000000
+pred: ............................................................
+  AA: MIQGALELRTKTVEDIMTQLQDCFMIRSDAILDFNTMSEIMESGYTRIPVFEDEQSNIVD
+             370       380       390       400       410       420
+
+conf: 000000000000000000000000000000000000000000000000000000000001
+pred: ............................................................
+  AA: ILYVKDLAFVDPDDCTPLKTITRFYNHPVHFVFHDTKLDAMLEEFKKGKSHLAIVQKVNN
+             430       440       450       460       470       480
+
+conf: 234443111000000000000000000003467889999999999999999999999999
+pred: ...............................*****************************
+  AA: EGEGDPFYEVLGLVTLEDVIEEIIKSEILDESDMYTDNRSRKRVSEKNKRDFSAFKDADN
+             490       500       510       520       530       540
+
+conf: 999999898877544420023213455565456654444444455667777788776666
+pred: *************............*****.****........*****************
+  AA: ELKVKISPQLLLAAHRFLATEVSQFSPSLISEKILLRLLKYPDVIQELKFDEHNKYYARH
+             550       560       570       580       590       600
+
+conf: 541000000000000000000000000000000000000000000000002455677888
+pred: *...................................................********
+  AA: YLYTRNKPADYFILILQGKVEVEAGKENMKFETGAFSYYGTMALTSVPSDRSPAHPTPLS
+             610       620       630       640       650       660
+
+conf: 888888888887788888888777664420000000000000000000000000000000
+pred: **************************..................................
+  AA: RSASLSYPDRTDVSTAATLAGSSNQFGSSVLGQYISDFSVRALVDLQYIKITRQQYQNGL
+             670       680       690       700       710       720
+
+conf: 0002456777788888877777765543432100000000025667889999999
+  AA: LASRMENSPQFPIDGCTTHMENLAEKSELPVVDETTTLLNERNSLLHKASHENAI
+pred: .....*********************................*************
+             730       740       750       760       770
+
+Asterisks (*) represent disorder predictions and dots (.) 
+prediction of order. The confidence estimates give a rough
+indication of the probability that each residue is disordered.
+

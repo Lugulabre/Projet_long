@@ -1,0 +1,98 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q9UH17-2|ABC3B_HUMAN Isoform 2 of DNA dC->dU-editing enzyme
+APOBEC-3B OS=Homo sapiens OX=9606 GN=APOBEC3B
+
+Length=251
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A6G1PGR0 Pleckstrin-like proteiny domain-containing fa...  94.7       2e-19
+UniRef90_D4AU97 WD_REPEATS_REGION domain-containing protein n=9 T...  38.5       1.1  
+UniRef90_A0A2K1ILW4 Uncharacterized protein n=4 Tax=Physcomitrium...  38.1       1.5  
+UniRef90_UPI0015B3F703 hypothetical protein n=1 Tax=Clostridia ba...  37.0       3.2  
+UniRef90_A0A2E0W5X2 Uncharacterized protein n=1 Tax=Ignavibacteri...  36.2       5.5  
+UniRef90_A0A0G4GGH5 Uncharacterized protein n=1 Tax=Chromera veli...  36.2       6.1  
+UniRef90_A0A2N5TEE2 Uncharacterized protein n=2 Tax=Puccinia coro...  36.2       6.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.138    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 426956184204
+Results from round 2
+
+
+Query= sp|Q9UH17-2|ABC3B_HUMAN Isoform 2 of DNA dC->dU-editing enzyme
+APOBEC-3B OS=Homo sapiens OX=9606 GN=APOBEC3B
+
+Length=251
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6G1PGR0 Pleckstrin-like proteiny domain-containing fa...  275        2e-82
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1Q9DR97 Protein transport protein Sec61 subunit alpha...  37.8       1.6  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 426956184204
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

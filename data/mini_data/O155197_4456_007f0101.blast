@@ -1,0 +1,485 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|O15519-7|CFLAR_HUMAN Isoform 7 of CASP8 and FADD-like apoptosis
+regulator OS=Homo sapiens OX=9606 GN=CFLAR
+
+Length=348
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  299        2e-89
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  266        6e-78
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  77.4       7e-13
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  77.4       7e-13
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  73.9       1e-11
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  72.4       3e-11
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  70.5       2e-10
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  68.9       4e-10
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  67.8       9e-10
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  64.7       9e-09
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  61.6       8e-08
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  61.6       9e-08
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  58.5       1e-06
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  58.2       1e-06
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  58.2       1e-06
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  57.0       3e-06
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  56.6       4e-06
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  56.6       4e-06
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  56.2       5e-06
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  55.1       1e-05
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  55.1       1e-05
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  54.7       1e-05
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  54.3       2e-05
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  53.5       4e-05
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  53.1       4e-05
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  53.1       6e-05
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  52.8       7e-05
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  50.8       3e-04
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  50.8       3e-04
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  50.4       3e-04
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  50.4       3e-04
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  50.4       4e-04
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  49.3       0.001
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  48.9       0.001
+UniRef90_UPI0009E5E9D4 uncharacterized protein LOC110043627 n=1 T...  48.9       0.001
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  48.9       0.001
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  48.9       0.001
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  48.1       0.002
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  48.1       0.002
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  47.0       0.004
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  46.2       0.008
+UniRef90_UPI00077AC2C8 uncharacterized protein LOC107331536 isofo...  45.4       0.013
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  45.4       0.014
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  45.1       0.015
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  44.7       0.026
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  43.9       0.045
+UniRef90_A0A3M6TQC5 Uncharacterized protein (Fragment) n=2 Tax=Po...  42.7       0.082
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  42.0       0.18 
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  41.6       0.22 
+UniRef90_A0A0J7L490 Tetratricopeptide repeat protein 28 n=73 Tax=...  39.7       0.85 
+UniRef90_A0A2R7KY14 Toxin CdiA (Fragment) n=3 Tax=unclassified Ps...  38.9       1.4  
+UniRef90_A0A1R3H032 ADP-ribosyl cyclase/cyclic ADP-ribose hydrola...  37.7       3.3  
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  37.7       3.7  
+UniRef90_B4MD16 TPR_REGION domain-containing protein n=11 Tax=Dro...  37.4       4.1  
+UniRef90_A0A2P9GI63 Uncharacterized protein n=1 Tax=Plasmodium sp...  37.4       4.1  
+UniRef90_A0A1J1IHA9 CLUMA_CG012958, isoform A n=1 Tax=Clunio mari...  37.4       4.4  
+UniRef90_A0A067MZ13 Uncharacterized protein n=1 Tax=Botryobasidiu...  37.4       5.1  
+UniRef90_UPI0007D09D8F hemagglutinin repeat-containing protein n=...  37.4       5.2  
+UniRef90_UPI000F0376A1 hemagglutinin repeat-containing protein n=...  37.4       5.2  
+UniRef90_A0A2B4R4U7 Retrovirus-related Pol polyprotein from trans...  37.0       5.9  
+UniRef90_UPI000C768140 tetratricopeptide repeat protein 28 n=1 Ta...  37.0       6.3  
+UniRef90_A0A232EUB6 TPR_REGION domain-containing protein (Fragmen...  37.0       6.3  
+UniRef90_UPI0005CF25E6 LOW QUALITY PROTEIN: tetratricopeptide rep...  37.0       6.7  
+UniRef90_UPI0004CD31E9 tetratricopeptide repeat protein 28 n=2 Ta...  37.0       6.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 769331629566
+Results from round 2
+
+
+Query= sp|O15519-7|CFLAR_HUMAN Isoform 7 of CASP8 and FADD-like apoptosis
+regulator OS=Homo sapiens OX=9606 GN=CFLAR
+
+Length=348
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  388        1e-121
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  333        9e-102
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  305        2e-91 
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  266        9e-78 
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  219        2e-61 
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  215        5e-60 
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  215        5e-60 
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  206        1e-56 
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  205        1e-56 
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  198        4e-54 
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  195        6e-53 
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  194        1e-52 
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  190        3e-51 
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  189        5e-51 
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  184        3e-49 
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  183        8e-49 
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  182        2e-48 
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  181        6e-48 
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  180        1e-47 
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  178        3e-47 
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  177        5e-47 
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  169        4e-44 
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  160        7e-41 
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  153        1e-38 
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  149        5e-37 
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  147        1e-36 
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  142        7e-35 
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  142        1e-34 
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  141        2e-34 
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  138        2e-33 
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  126        2e-29 
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  126        3e-29 
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  124        1e-28 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  194        2e-52
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  181        4e-48
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  173        2e-45
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  159        9e-41
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  144        1e-35
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  141        2e-34
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  135        2e-32
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  134        5e-32
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  134        5e-32
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  132        2e-31
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  131        6e-31
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  130        1e-30
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  125        6e-29
+UniRef90_A0A1X7U9K3 Uncharacterized protein n=1 Tax=Amphimedon qu...  119        7e-27
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  110        9e-24
+UniRef90_A0A267H0N0 Uncharacterized protein n=1 Tax=Macrostomum l...  104        7e-22
+UniRef90_A0A1X7TVQ6 Uncharacterized protein n=1 Tax=Amphimedon qu...  100        1e-20
+UniRef90_A0A267H6X4 Uncharacterized protein n=1 Tax=Macrostomum l...  80.9       5e-14
+UniRef90_K7J007 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  73.6       1e-11
+UniRef90_A0A6H5HC86 COP9 signalosome complex subunit 6 n=2 Tax=Ne...  70.5       1e-10
+UniRef90_A0A1I8GZQ7 Uncharacterized protein n=1 Tax=Macrostomum l...  69.4       4e-10
+UniRef90_A0A267E7E3 Uncharacterized protein n=1 Tax=Macrostomum l...  67.8       9e-10
+UniRef90_A0A267G4L1 Uncharacterized protein n=1 Tax=Macrostomum l...  66.3       3e-09
+UniRef90_A0A1B0C8E7 Exocyst complex component 6 n=1 Tax=Lutzomyia...  62.4       6e-08
+UniRef90_A0A1I8JAM8 Uncharacterized protein n=2 Tax=Macrostomum l...  62.4       6e-08
+UniRef90_A0A1X7U112 Uncharacterized protein n=1 Tax=Amphimedon qu...  61.3       1e-07
+UniRef90_A0A1D2MSV5 Caspase-2 (Fragment) n=1 Tax=Orchesella cinct...  60.5       2e-07
+UniRef90_C3ZU21 Uncharacterized protein n=1 Tax=Branchiostoma flo...  59.0       6e-07
+UniRef90_UPI0009E5E9D4 uncharacterized protein LOC110043627 n=1 T...  56.3       5e-06
+UniRef90_A0A1X7TGQ1 CASPASE_P20 domain-containing protein n=2 Tax...  55.5       8e-06
+UniRef90_UPI00077AC2C8 uncharacterized protein LOC107331536 isofo...  54.7       2e-05
+UniRef90_C3ZU33 Uncharacterized protein n=1 Tax=Branchiostoma flo...  54.3       2e-05
+UniRef90_A0A2B4SR07 Uncharacterized protein n=1 Tax=Stylophora pi...  51.6       1e-04
+UniRef90_C3ZU30 Uncharacterized protein n=1 Tax=Branchiostoma flo...  50.9       2e-04
+UniRef90_A0A1I8HMF7 Uncharacterized protein n=1 Tax=Macrostomum l...  50.9       3e-04
+UniRef90_C3ZU47 Uncharacterized protein n=1 Tax=Branchiostoma flo...  50.1       4e-04
+UniRef90_C3ZU27 Uncharacterized protein n=1 Tax=Branchiostoma flo...  49.3       7e-04
+UniRef90_UPI000947A4CB uncharacterized protein LOC109472938 n=1 T...  47.8       0.003
+UniRef90_UPI0009480D46 uncharacterized protein LOC109465787 n=1 T...  47.0       0.004
+UniRef90_A0A2B4RUC7 Protein NSP-INTERACTING KINASE 3 n=4 Tax=Styl...  47.0       0.004
+UniRef90_A0A3M6TQC5 Uncharacterized protein (Fragment) n=2 Tax=Po...  46.6       0.005
+UniRef90_A0A2B4R4U7 Retrovirus-related Pol polyprotein from trans...  46.6       0.005
+UniRef90_UPI00146FB824 caspase family protein n=1 Tax=Curvibacter...  45.9       0.009
+UniRef90_A0A6H5ICX6 CASPASE_P20 domain-containing protein n=1 Tax...  45.5       0.014
+UniRef90_UPI0012B60DF2 uncharacterized protein LOC116302408 n=1 T...  44.7       0.020
+UniRef90_UPI0012B533E2 uncharacterized protein LOC116288602 n=1 T...  44.7       0.020
+UniRef90_A0A2I0G1G4 ATP-dependent RNA helicase HrpA n=1 Tax=Enter...  44.7       0.024
+UniRef90_UPI000C719516 mucin-5AC-like isoform X1 n=4 Tax=Trichogr...  44.3       0.032
+UniRef90_A0A6M8UHN8 ATP-dependent RNA helicase HrpA n=1 Tax=Erwin...  43.9       0.043
+UniRef90_UPI0015C40786 serine/threonine-protein kinase ATR n=1 Ta...  43.9       0.044
+UniRef90_A0A1I8ILA0 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  42.8       0.091
+UniRef90_A0A073JQN6 PhageMin_Tail domain-containing protein n=23 ...  42.4       0.13 
+UniRef90_UPI000F8D7ED7 ATP-binding protein n=1 Tax=Pseudoflavital...  42.0       0.14 
+UniRef90_A0A1I5CN89 Filamentous hemagglutinin family N-terminal d...  41.6       0.19 
+UniRef90_A0A1I4V6K3 ATP-dependent helicase HrpA n=2 Tax=Izhakiell...  41.6       0.20 
+UniRef90_UPI00109BB35B uncharacterized protein LOC110248816 n=1 T...  41.6       0.22 
+UniRef90_A0A518XCU3 ATP-dependent RNA helicase HrpA n=72 Tax=cell...  40.9       0.40 
+UniRef90_A0A2J5HEP0 Uncharacterized protein n=2 Tax=Aspergillus T...  40.5       0.41 
+UniRef90_A0A2B4SFH7 Uncharacterized protein n=1 Tax=Stylophora pi...  40.5       0.42 
+UniRef90_A0A0L7T4G0 ATP-dependent helicase HrpA n=2 Tax=Erwinia T...  40.5       0.51 
+UniRef90_C3ZPU9 Uncharacterized protein n=1 Tax=Branchiostoma flo...  40.5       0.54 
+UniRef90_A0A0A3YTM3 ATP-dependent helicase HrpA n=1 Tax=Erwinia t...  40.1       0.57 
+UniRef90_A0A0Q5HT55 CASPASE_P20 domain-containing protein n=2 Tax...  40.1       0.60 
+UniRef90_A0A6J2YK65 leucine-rich PPR motif-containing protein, mi...  40.1       0.63 
+UniRef90_UPI00094785F3 uncharacterized protein LOC109472937 n=1 T...  40.1       0.64 
+UniRef90_UPI000AB90AD6 caspase family protein n=1 Tax=Streptomyce...  40.1       0.64 
+UniRef90_D9X206 Predicted protein n=2 Tax=Streptomyces viridochro...  39.7       0.81 
+UniRef90_A0A5C7CQB0 Filamentous hemagglutinin N-terminal domain-c...  39.7       0.92 
+UniRef90_A0A2B4SDI7 DED domain-containing protein n=1 Tax=Styloph...  39.3       0.97 
+UniRef90_A0A503XAW9 Tetratricopeptide repeat protein n=5 Tax=Bact...  39.3       1.1  
+UniRef90_R7VIM3 Uncharacterized protein n=1 Tax=Capitella teleta ...  39.3       1.2  
+UniRef90_UPI00145A02DF caspase family protein n=1 Tax=Mesorhizobi...  38.9       1.3  
+UniRef90_I0QV66 ATP-dependent RNA helicase HrpA n=8 Tax=Yersiniac...  38.6       2.0  
+UniRef90_A0A087X3Z5 RING-type domain-containing protein n=1 Tax=P...  38.2       2.4  
+UniRef90_UPI0007BA3BA9 E3 ubiquitin-protein ligase rnf213-alpha-l...  38.2       2.8  
+UniRef90_Q2TYZ1 Uncharacterized protein n=16 Tax=Aspergillus TaxI...  38.2       2.9  
+UniRef90_UPI0013AFB447 tetratricopeptide repeat protein n=3 Tax=R...  37.8       3.3  
+UniRef90_UPI000E6E5018 LOW QUALITY PROTEIN: transient receptor po...  37.8       3.3  
+UniRef90_A0A4S4EPN4 NAB domain-containing protein n=2 Tax=Camelli...  37.4       4.2  
+UniRef90_A0A2E4RCT5 CASPASE_P20 domain-containing protein n=1 Tax...  37.0       5.1  
+UniRef90_A0A4P6L6Y6 Filamentous hemagglutinin N-terminal domain-c...  37.0       5.3  
+UniRef90_A0A2B4SHW6 Mitochondrial import receptor subunit TOM70 n...  37.0       5.5  
+UniRef90_A0A5N7C9A1 Uncharacterized protein n=1 Tax=Petromyces al...  37.0       6.5  
+UniRef90_A0A5N7E5B1 Uncharacterized protein n=1 Tax=Aspergillus p...  36.6       7.5  
+UniRef90_UPI0014258BEB A-kinase anchor protein 9-like isoform X1 ...  36.6       7.7  
+UniRef90_A0A653HJA9 mRNA-binding protein PUF2, putative n=1 Tax=H...  36.6       8.5  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.334    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0398    0.140     1.90     42.6     43.6 
+
+Effective search space used: 769331629566
+Results from round 3
+
+
+Query= sp|O15519-7|CFLAR_HUMAN Isoform 7 of CASP8 and FADD-like apoptosis
+regulator OS=Homo sapiens OX=9606 GN=CFLAR
+
+Length=348
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A498LFS6 Disintegrin and metallo ase domain-containing...  283        9e-84
+UniRef90_A0A1S3J9Z2 uncharacterized protein LOC106171421 n=1 Tax=...  280        9e-83
+UniRef90_A0A3M0KYR5 Uncharacterized protein n=1 Tax=Hirundo rusti...  278        5e-82
+UniRef90_UPI000947F528 uncharacterized protein LOC109465244 n=1 T...  261        5e-76
+UniRef90_A0A226MZB8 Uncharacterized protein n=1 Tax=Callipepla sq...  245        2e-70
+UniRef90_A0A553QG29 Uncharacterized protein (Fragment) n=2 Tax=Da...  245        3e-70
+UniRef90_UPI0009B34E90 LOW QUALITY PROTEIN: uncharacterized prote...  243        7e-70
+UniRef90_UPI000947C8BB malignant fibrous histiocytoma-amplified s...  230        4e-65
+UniRef90_C3YRK1 Uncharacterized protein n=1 Tax=Branchiostoma flo...  228        2e-64
+UniRef90_A0A2U9C9T3 Centromere protein U n=2 Tax=Scophthalmus max...  227        4e-64
+UniRef90_A0A6A4T6W1 Centromere protein U n=2 Tax=Scophthalmus max...  226        7e-64
+UniRef90_C3ZI91 Uncharacterized protein n=1 Tax=Branchiostoma flo...  223        1e-62
+UniRef90_UPI0009479EE2 malignant fibrous histiocytoma-amplified s...  223        2e-62
+UniRef90_A0A1I8HLS6 Uncharacterized protein n=1 Tax=Macrostomum l...  217        1e-60
+UniRef90_UPI00109BEB6E uncharacterized protein LOC110250831 n=1 T...  215        8e-60
+UniRef90_UPI000A2A5C5A uncharacterized protein LOC110233106 isofo...  215        9e-60
+UniRef90_UPI0009479623 uncharacterized protein LOC109471708 n=1 T...  213        4e-59
+UniRef90_UPI00158BD7B8 uncharacterized protein LOC118074092 n=1 T...  211        1e-58
+UniRef90_A0A182FB92 Uncharacterized protein n=1 Tax=Anopheles alb...  211        2e-58
+UniRef90_A0A2B4SLD3 Caspase-3 n=4 Tax=Stylophora pistillata TaxID...  210        5e-58
+UniRef90_C3XQ16 Uncharacterized protein n=1 Tax=Branchiostoma flo...  208        1e-57
+UniRef90_A0A553P9Y0 Uncharacterized protein (Fragment) n=1 Tax=Ti...  205        2e-56
+UniRef90_A0A232F0Z2 Alanine--tRNA ligase n=1 Tax=Trichomalopsis s...  204        3e-56
+UniRef90_A0A498N5D6 Polynucleotide 5-hydroxyl-kinase NOL9-like pr...  203        8e-56
+UniRef90_UPI000A2A8F20 uncharacterized protein LOC110240272 n=1 T...  199        1e-54
+UniRef90_UPI0014556B39 death-associated protein kinase 1-like iso...  196        2e-53
+UniRef90_A0A1I8I0Q1 Uncharacterized protein n=1 Tax=Macrostomum l...  194        9e-53
+UniRef90_C3Y4H7 Ubiquitinyl hydrolase 1 n=1 Tax=Branchiostoma flo...  193        3e-52
+UniRef90_A0A182N2Q9 Uncharacterized protein n=1 Tax=Anopheles dir...  192        7e-52
+UniRef90_A0A1S3JQH4 uncharacterized protein LOC106175244 n=1 Tax=...  189        8e-51
+UniRef90_UPI0009E588EC uncharacterized protein LOC110055858 isofo...  188        1e-50
+UniRef90_UPI0012B54D5D uncharacterized protein LOC116294289 n=1 T...  187        3e-50
+UniRef90_UPI000A2A9B41 uncharacterized protein LOC110240863 n=1 T...  183        7e-49
+UniRef90_UPI000A2A76FF uncharacterized protein LOC110250828 n=1 T...  180        9e-48
+UniRef90_A0A1I8H965 Uncharacterized protein n=1 Tax=Macrostomum l...  179        1e-47
+UniRef90_A0A1J1IL28 CLUMA_CG013533, isoform A n=1 Tax=Clunio mari...  178        5e-47
+UniRef90_H3EET3 Ced-3 n=3 Tax=Pristionchus pacificus TaxID=54126 ...  174        5e-46
+UniRef90_UPI00147B4EDE LOW QUALITY PROTEIN: uncharacterized prote...  170        3e-44
+UniRef90_A0A1X7U9K3 Uncharacterized protein n=1 Tax=Amphimedon qu...  170        3e-44
+UniRef90_A0A1I8J018 Uncharacterized protein n=1 Tax=Macrostomum l...  167        2e-43
+UniRef90_A0A6J8C5J9 Uncharacterized protein n=1 Tax=Mytilus corus...  160        5e-41
+UniRef90_A0A267F9J2 Uncharacterized protein (Fragment) n=1 Tax=Ma...  157        5e-40
+UniRef90_A0A1I8G9H9 Uncharacterized protein n=1 Tax=Macrostomum l...  156        1e-39
+UniRef90_A0A1I8IWA4 Uncharacterized protein n=1 Tax=Macrostomum l...  154        6e-39
+UniRef90_A0A6H5HC86 COP9 signalosome complex subunit 6 n=2 Tax=Ne...  147        1e-36
+UniRef90_A0A267H0N0 Uncharacterized protein n=1 Tax=Macrostomum l...  147        2e-36
+UniRef90_A0A1I8HM10 Uncharacterized protein n=1 Tax=Macrostomum l...  144        2e-35
+UniRef90_A0A1X7TVQ6 Uncharacterized protein n=1 Tax=Amphimedon qu...  143        5e-35
+UniRef90_A0A3R7MQI8 Putative corepressor interacting with RBPJ 1 ...  139        8e-34
+UniRef90_A0A267H6X4 Uncharacterized protein n=1 Tax=Macrostomum l...  139        1e-33
+UniRef90_A0A267E7E3 Uncharacterized protein n=1 Tax=Macrostomum l...  134        4e-32
+UniRef90_A0A4S2L5K2 Dynein heavy chain, cytoplasmic n=9 Tax=Bilat...  128        6e-30
+UniRef90_A0A267G4L1 Uncharacterized protein n=1 Tax=Macrostomum l...  128        6e-30
+UniRef90_C3ZU27 Uncharacterized protein n=1 Tax=Branchiostoma flo...  123        2e-28
+UniRef90_A0A1I8GZQ7 Uncharacterized protein n=1 Tax=Macrostomum l...  121        2e-27
+UniRef90_A0A267HAA3 Uncharacterized protein n=3 Tax=Macrostomum l...  120        2e-27
+UniRef90_A0A1D2MSV5 Caspase-2 (Fragment) n=1 Tax=Orchesella cinct...  106        2e-22
+UniRef90_C3ZU21 Uncharacterized protein n=1 Tax=Branchiostoma flo...  101        8e-21
+UniRef90_C3ZU33 Uncharacterized protein n=1 Tax=Branchiostoma flo...  99.8       3e-20
+UniRef90_A0A1B0C8E7 Exocyst complex component 6 n=1 Tax=Lutzomyia...  99.8       3e-20
+UniRef90_K7J007 Uncharacterized protein n=2 Tax=Nasonia vitripenn...  98.3       7e-20
+UniRef90_A0A1I8JAM8 Uncharacterized protein n=2 Tax=Macrostomum l...  95.6       7e-19
+UniRef90_C3ZU30 Uncharacterized protein n=1 Tax=Branchiostoma flo...  93.3       4e-18
+UniRef90_C3ZU47 Uncharacterized protein n=1 Tax=Branchiostoma flo...  91.0       2e-17
+UniRef90_A0A1X7U112 Uncharacterized protein n=1 Tax=Amphimedon qu...  84.8       3e-15
+UniRef90_UPI00077AC2C8 uncharacterized protein LOC107331536 isofo...  80.2       1e-13
+UniRef90_A0A2B4SR07 Uncharacterized protein n=1 Tax=Stylophora pi...  78.7       3e-13
+UniRef90_A0A1X7TGQ1 CASPASE_P20 domain-containing protein n=2 Tax...  77.1       9e-13
+UniRef90_UPI0009E5E9D4 uncharacterized protein LOC110043627 n=1 T...  74.8       5e-12
+UniRef90_A0A1I8HMF7 Uncharacterized protein n=1 Tax=Macrostomum l...  58.6       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0009480D46 uncharacterized protein LOC109465787 n=1 T...  87.9       3e-16
+UniRef90_UPI000947A4CB uncharacterized protein LOC109472938 n=1 T...  79.8       1e-13
+UniRef90_UPI00094785F3 uncharacterized protein LOC109472937 n=1 T...  74.0       1e-11
+UniRef90_A0A2B4R4U7 Retrovirus-related Pol polyprotein from trans...  64.0       2e-08
+UniRef90_A0A3M6TQC5 Uncharacterized protein (Fragment) n=2 Tax=Po...  59.0       7e-07
+UniRef90_A0A2B4RUC7 Protein NSP-INTERACTING KINASE 3 n=4 Tax=Styl...  59.0       7e-07
+UniRef90_UPI0012B533E2 uncharacterized protein LOC116288602 n=1 T...  55.5       8e-06
+UniRef90_UPI0012B60DF2 uncharacterized protein LOC116302408 n=1 T...  54.8       1e-05
+UniRef90_A0A1I8ILA0 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  54.8       1e-05
+UniRef90_A0A503SRY4 Tetratricopeptide repeat protein n=1 Tax=Meso...  49.4       8e-04
+UniRef90_A7SLF8 Predicted protein n=2 Tax=Nematostella vectensis ...  48.6       0.001
+UniRef90_A0A1I8IM38 DNA helicase n=1 Tax=Macrostomum lignano TaxI...  48.6       0.001
+UniRef90_A0A2N9BGQ7 HSP90 family protein n=2 Tax=Streptomyces Tax...  47.8       0.002
+UniRef90_A0A6H5ICX6 CASPASE_P20 domain-containing protein n=1 Tax...  47.8       0.002
+UniRef90_D9X206 Predicted protein n=2 Tax=Streptomyces viridochro...  47.1       0.004
+UniRef90_A0A2G9DJ37 ATP-binding protein n=1 Tax=Streptomyces sp. ...  47.1       0.004
+UniRef90_UPI0015C55BF3 caspase family protein n=1 Tax=Hyphomicrob...  46.7       0.006
+UniRef90_UPI00109BB35B uncharacterized protein LOC110248816 n=1 T...  46.7       0.006
+UniRef90_A0A0M2GPI1 ATP-binding protein n=1 Tax=Streptomyces vari...  46.3       0.008
+UniRef90_UPI00068E9547 caspase family protein n=1 Tax=Streptomyce...  45.9       0.008
+UniRef90_A0A2B4SHW6 Mitochondrial import receptor subunit TOM70 n...  45.9       0.010
+UniRef90_A0A0Q5HT55 CASPASE_P20 domain-containing protein n=2 Tax...  45.5       0.013
+UniRef90_A0A2B4SFH7 Uncharacterized protein n=1 Tax=Stylophora pi...  45.5       0.014
+UniRef90_A0A1I5CN89 Filamentous hemagglutinin family N-terminal d...  45.5       0.014
+UniRef90_UPI0013B6A4E2 caspase family protein n=1 Tax=Streptomyce...  45.1       0.017
+UniRef90_UPI000AB90AD6 caspase family protein n=1 Tax=Streptomyce...  45.1       0.018
+UniRef90_A0A2B4S7U3 RING finger and CHY zinc finger domain-contai...  44.8       0.023
+UniRef90_A0A4Y7BFC1 Filamentous hemagglutinin N-terminal domain-c...  44.4       0.026
+UniRef90_UPI000C04DB80 uncharacterized protein LOC111330733 n=1 T...  44.4       0.029
+UniRef90_UPI0014487F3F caspase family protein n=1 Tax=Streptomyce...  44.4       0.030
+UniRef90_UPI00146FB824 caspase family protein n=1 Tax=Curvibacter...  44.4       0.031
+UniRef90_UPI0013AFB447 tetratricopeptide repeat protein n=3 Tax=R...  44.0       0.038
+UniRef90_A0A0D2X4X5 CASPASE_P20 domain-containing protein n=1 Tax...  44.0       0.042
+UniRef90_X6MCI4 TPR_REGION domain-containing protein n=1 Tax=Reti...  43.6       0.053
+UniRef90_A0A503XAW9 Tetratricopeptide repeat protein n=5 Tax=Bact...  43.2       0.066
+UniRef90_S4MTU9 CASPASE_P10 domain-containing protein n=1 Tax=Str...  43.2       0.069
+UniRef90_UPI00145A02DF caspase family protein n=1 Tax=Mesorhizobi...  43.2       0.071
+UniRef90_A0A5B8L5R9 Uncharacterized protein n=1 Tax=Nitratireduct...  43.2       0.073
+UniRef90_A0A537K9K4 Uncharacterized protein n=1 Tax=Bacteroidetes...  42.8       0.089
+UniRef90_A0A395KDS0 Putative caspase-like protein n=10 Tax=Mesorh...  42.8       0.096
+UniRef90_UPI0012B61651 uncharacterized protein LOC116292547 isofo...  42.8       0.099
+UniRef90_X6JQX0 CASPASE_P20 domain-containing protein n=50 Tax=Me...  42.4       0.10 
+UniRef90_X5QBI8 Uncharacterized protein n=6 Tax=Mesorhizobium Tax...  42.4       0.10 
+UniRef90_A0A5C7CQB0 Filamentous hemagglutinin N-terminal domain-c...  42.4       0.11 
+UniRef90_A0A2B4SDI7 DED domain-containing protein n=1 Tax=Styloph...  42.1       0.13 
+UniRef90_A0A135LF08 Uncharacterized protein n=1 Tax=Penicillium p...  42.1       0.15 
+UniRef90_UPI0011842E9D NACHT domain-containing protein n=1 Tax=Ca...  42.1       0.17 
+UniRef90_A0A2B4R4V7 DED domain-containing protein n=2 Tax=Styloph...  42.1       0.17 
+UniRef90_A0A1H0F3S5 Caspase domain-containing protein n=1 Tax=Str...  41.7       0.18 
+UniRef90_R4LW28 Peptidase C14 caspase catalytic subunit p20 n=1 T...  41.7       0.18 
+UniRef90_A0A3N1LGS5 WD40 repeat protein n=1 Tax=Streptomyces sp. ...  41.7       0.18 
+UniRef90_UPI00131A79DE PD40 domain-containing protein n=1 Tax=Str...  41.7       0.18 
+UniRef90_A0A433CWI2 VWFA domain-containing protein n=2 Tax=Jimger...  41.7       0.20 
+UniRef90_A0A5N8X1J0 NACHT domain-containing protein n=1 Tax=Strep...  41.3       0.25 
+UniRef90_A0A4P6L6Y6 Filamentous hemagglutinin N-terminal domain-c...  41.3       0.26 
+UniRef90_UPI000997653B caspase family protein n=1 Tax=Streptomyce...  41.3       0.28 
+UniRef90_W6QMQ0 Genomic scaffold, ProqFM164S02 n=1 Tax=Penicilliu...  41.3       0.29 
+UniRef90_F4PW46 Uncharacterized protein n=1 Tax=Cavenderia fascic...  40.9       0.34 
+UniRef90_K1Q831 Poly [ADP-ribose] polymerase n=2 Tax=Crassostrea ...  40.9       0.35 
+UniRef90_A0A1Q9SPM9 Uncharacterized protein n=1 Tax=Actinomadura ...  40.9       0.35 
+UniRef90_A0A561TSA8 Caspase domain-containing protein n=1 Tax=Kit...  40.9       0.36 
+UniRef90_A0A2B4RAB9 Putative ankyrin repeat protein n=1 Tax=Stylo...  40.9       0.39 
+UniRef90_K9G3B0 Uncharacterized protein n=2 Tax=Penicillium digit...  40.5       0.42 
+UniRef90_A0A0A2JTV9 Uncharacterized protein n=4 Tax=Penicillium T...  40.5       0.43 
+UniRef90_A0A2V3VLF9 Filamentous hemagglutinin family protein n=1 ...  40.5       0.48 
+UniRef90_UPI000C719516 mucin-5AC-like isoform X1 n=4 Tax=Trichogr...  40.5       0.49 
+UniRef90_UPI0012B0B985 caspase family protein n=1 Tax=Duganella s...  40.5       0.53 
+UniRef90_A0A193C0A7 WD_REPEATS_REGION domain-containing protein n...  40.1       0.54 
+UniRef90_A0A1V4ADG7 CASPASE_P20 domain-containing protein n=5 Tax...  40.1       0.56 
+UniRef90_B5HQP2 WD repeat-containing protein n=2 Tax=Streptomyces...  40.1       0.59 
+UniRef90_UPI000670BE3B caspase family protein n=1 Tax=Kitasatospo...  40.1       0.61 
+UniRef90_A0A0G4PS80 Str. FM013 n=1 Tax=Penicillium camemberti FM ...  39.7       0.76 
+UniRef90_UPI0012307A29 caspase family protein n=1 Tax=Microcystis...  39.7       0.77 
+UniRef90_A0A542U1R3 Caspase domain-containing protein n=1 Tax=Str...  39.7       0.81 
+UniRef90_A0A2I0G1G4 ATP-dependent RNA helicase HrpA n=1 Tax=Enter...  39.7       0.81 
+UniRef90_UPI001462F418 caspase family protein n=3 Tax=Brasilonema...  39.7       0.82 
+UniRef90_UPI00068A0D35 caspase family protein n=1 Tax=Streptomyce...  39.7       0.86 
+UniRef90_A0A4Y2CKU9 Endonuclease n=9 Tax=Araneus ventricosus TaxI...  39.7       0.88 
+UniRef90_A2R8Y2 Aspergillus niger contig An16c0280, genomic conti...  39.4       1.1  
+UniRef90_A0A1J4J5T0 Protein kinase domain-containing protein n=1 ...  39.4       1.1  
+UniRef90_UPI00145778ED caspase family protein n=1 Tax=Flammeovirg...  39.4       1.2  
+UniRef90_A0A353K8M3 Peptidase C14 caspase catalytic subunit p20 (...  39.4       1.2  
+UniRef90_A0A3L8KQC7 CASPASE_P20 domain-containing protein n=1 Tax...  39.0       1.3  
+UniRef90_A0A1Q8JG60 DNA helicase n=4 Tax=Pseudonocardia TaxID=184...  39.0       1.4  
+UniRef90_UPI00145721CA caspase family protein n=1 Tax=Flammeovirg...  39.0       1.5  
+UniRef90_A0A1U8LH21 probable phosphoinositide phosphatase SAC9 n=...  39.0       1.6  
+UniRef90_W7J554 High-affnity carbon uptake protein Hat/HatR n=2 T...  38.6       1.7  
+UniRef90_UPI0009E48F52 protein argonaute-2-like n=1 Tax=Orbicella...  38.6       1.7  
+UniRef90_A0A1V6V2A0 Uncharacterized protein n=1 Tax=Penicillium c...  38.6       2.0  
+UniRef90_A0A537NT24 Tetratricopeptide repeat protein n=1 Tax=Alph...  38.6       2.0  
+UniRef90_UPI000A3AF67A caspase family protein n=1 Tax=Streptomyce...  38.2       2.3  
+UniRef90_UPI00099F20CB caspase family protein n=1 Tax=Streptomyce...  38.2       2.5  
+UniRef90_B6HHJ2 Pc21g05460 protein n=4 Tax=Penicillium TaxID=5073...  38.2       2.8  
+UniRef90_A0A2B4S985 RING finger and CHY zinc finger domain-contai...  37.8       2.9  
+UniRef90_G2NQ65 Peptidase C14 caspase catalytic subunit p20 n=6 T...  37.8       2.9  
+UniRef90_A0A4Z2H1M6 Mucosa-associated lymphoid tissue lymphoma tr...  37.8       3.3  
+UniRef90_UPI0011B4D280 uncharacterized protein LOC115560655 n=1 T...  37.8       3.3  
+UniRef90_UPI000C1D7E9B formin-like protein 13 n=1 Tax=Olea europa...  37.8       3.3  
+UniRef90_A0A1M7B5Z6 DUF4132 domain-containing protein n=6 Tax=Chr...  37.8       3.7  
+UniRef90_UPI001457846B caspase family protein n=1 Tax=Flammeovirg...  37.4       3.9  
+UniRef90_A0A2B4SXD1 Serine/threonine-protein phosphatase 6 regula...  37.4       4.1  
+UniRef90_UPI0005D0C93A uncharacterized protein LOC105386545 isofo...  37.4       4.1  
+UniRef90_A0A5R8Y733 PG_binding_1 domain-containing protein n=2 Ta...  37.4       4.2  
+UniRef90_Q2TYZ1 Uncharacterized protein n=16 Tax=Aspergillus TaxI...  37.4       4.2  
+UniRef90_A0A328CWC7 Formin-like protein n=3 Tax=Cuscuta sect. Cle...  37.4       4.4  
+UniRef90_E1CG66 Putative WD repeat-containing protein n=1 Tax=Str...  37.4       4.7  
+UniRef90_A0A2B4R942 Serine/threonine-protein phosphatase 6 regula...  37.4       4.7  
+UniRef90_A0A2B4R773 Uncharacterized protein n=1 Tax=Stylophora pi...  37.4       4.8  
+UniRef90_UPI0004C92796 caspase family protein n=2 Tax=Streptomyce...  37.1       5.0  
+UniRef90_A0A6I9TGB5 formin-like protein 13 isoform X2 n=5 Tax=Ses...  37.1       5.4  
+UniRef90_A0A2G9G1N9 Formin-like protein n=1 Tax=Handroanthus impe...  37.1       5.5  
+UniRef90_B5I316 WD_REPEATS_REGION domain-containing protein n=1 T...  37.1       5.7  
+UniRef90_UPI0012D4A0EB NACHT domain-containing protein n=1 Tax=Ca...  37.1       6.1  
+UniRef90_UPI001041A833 hypothetical protein n=1 Tax=Actinomadura ...  37.1       6.3  
+UniRef90_A0A0H3W869 Hypothetical chloroplast RF1 n=1 Tax=Trillium...  36.7       6.6  
+UniRef90_A0A6G7SSA9 CASPASE_P20 domain-containing protein n=10 Ta...  36.7       6.9  
+UniRef90_A0A2H6KJS9 Uncharacterized protein n=1 Tax=Babesia ovata...  36.7       8.3  
+UniRef90_UPI00146E3010 caspase family protein n=1 Tax=Flammeovirg...  36.3       8.5  
+UniRef90_A0A087X3Z5 RING-type domain-containing protein n=1 Tax=P...  36.7       8.5  
+UniRef90_A0A4R4YX80 Uncharacterized protein n=1 Tax=Nonomuraea sp...  36.3       9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.125    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0384    0.140     1.90     42.6     43.6 
+
+Effective search space used: 769331629566
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

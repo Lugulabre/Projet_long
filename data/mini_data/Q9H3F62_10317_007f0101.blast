@@ -1,0 +1,1064 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q9H3F6-2|BACD3_HUMAN Isoform 2 of BTB/POZ domain-containing
+adapter for CUL3-mediated RhoA degradation protein 3 OS=Homo sapiens
+OX=9606 GN=KCTD10
+
+Length=290
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A6A4SEI6 Uncharacterized protein n=1 Tax=Scophthalmus ...  325        7e-99
+UniRef90_W6UFN6 Adenosylhomocysteinase n=1 Tax=Echinococcus granu...  207        4e-58
+UniRef90_A0A2P4WDU0 Uncharacterized protein (Fragment) n=4 Tax=Ca...  102        1e-21
+UniRef90_A0A3M6TEQ1 Uncharacterized protein n=1 Tax=Pocillopora d...  95.9       2e-19
+UniRef90_UPI0012B67839 uncharacterized protein LOC116288713 n=1 T...  93.2       2e-18
+UniRef90_A0A6J8AGL9 SLK n=1 Tax=Mytilus coruscus TaxID=42192 RepI...  87.0       2e-16
+UniRef90_D3B6R4 Alpha-mannosidase n=1 Tax=Polysphondylium pallidu...  70.5       7e-11
+UniRef90_A0A1Q9CFI2 BTB/POZ domain-containing protein KCTD8 n=1 T...  69.7       1e-10
+UniRef90_T0M3P5 Arf-GAP with coiled-coil, ANK repeat and PH domai...  68.6       2e-10
+UniRef90_T1K6G1 Uncharacterized protein n=2 Tax=Tetranychus urtic...  67.4       7e-10
+UniRef90_A9VE46 Predicted protein n=1 Tax=Monosiga brevicollis Ta...  66.6       1e-09
+UniRef90_A0A367JXM3 Isoleucyl-tRNA synthetase n=2 Tax=Rhizopus Ta...  65.9       2e-09
+UniRef90_M0QSU3 K+ channel tetramerisation domain containing prot...  63.5       1e-08
+UniRef90_E0VR22 Uncharacterized protein n=1 Tax=Pediculus humanus...  61.6       5e-08
+UniRef90_A0A0V1JKU8 Ubiquitinyl hydrolase 1 n=2 Tax=Trichinella p...  60.5       1e-07
+UniRef90_L5M5X4 Latent-transforming growth factor beta-binding pr...  60.1       2e-07
+UniRef90_A0A0V1HTQ1 Ubiquitinyl hydrolase 1 n=1 Tax=Trichinella z...  59.7       2e-07
+UniRef90_UPI000D63E545 uncharacterized protein LOC107050762 n=1 T...  59.7       2e-07
+UniRef90_A0A1Q9CZE9 Amine oxidase n=1 Tax=Symbiodinium microadria...  58.5       5e-07
+UniRef90_A0A060WGM2 Uncharacterized protein n=2 Tax=Oncorhynchus ...  55.8       4e-06
+UniRef90_A0A556TJ88 ATP-binding cassette sub-family B member 9 n=...  55.5       5e-06
+UniRef90_D2VEV9 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  54.7       1e-05
+UniRef90_M7BFQ4 Monocarboxylate transporter 6 n=2 Tax=Chelonia my...  53.5       2e-05
+UniRef90_A0A3Q0KUL7 BTB domain-containing protein n=4 Tax=Schisto...  53.1       3e-05
+UniRef90_A0A1B0FRH0 Uncharacterized protein n=2 Tax=Glossina TaxI...  52.0       8e-05
+UniRef90_A0A6A4TC56 Uncharacterized protein n=1 Tax=Scophthalmus ...  49.3       5e-04
+UniRef90_UPI000C204037 uncharacterized protein LOC111420813 n=1 T...  46.2       0.005
+UniRef90_A0A4U1EK58 PH domain-containing protein (Fragment) n=1 T...  46.2       0.005
+UniRef90_A0A485P3T1 Low quality protein: spectrin beta n=1 Tax=Ly...  45.8       0.006
+UniRef90_L9LEW5 Latent-transforming growth factor beta-binding pr...  45.8       0.007
+UniRef90_T1J654 1-acyl-sn-glycerol-3-phosphate acyltransferase n=...  43.5       0.032
+UniRef90_D2V3W9 Subtiliase family serine protease n=1 Tax=Naegler...  42.7       0.063
+UniRef90_H3F6Z4 Structural maintenance of chromosomes protein n=2...  42.4       0.073
+UniRef90_A0A445CIU0 Calcium-transporting ATPase n=2 Tax=Arachis h...  42.0       0.13 
+UniRef90_A0A1Q9CV29 Chaperone protein dnaK2 n=1 Tax=Symbiodinium ...  41.2       0.23 
+UniRef90_A0A3N0Z3L1 SH3KBP1-binding protein 1 n=2 Tax=Clupeocepha...  40.8       0.26 
+UniRef90_A0A444UB38 BAI1-associated protein 3 n=1 Tax=Acipenser r...  40.4       0.36 
+UniRef90_D2V1F0 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  40.0       0.44 
+UniRef90_A0A2A6C9N8 Doublecortin-like and CAM kinase-like protein...  39.7       0.62 
+UniRef90_A0A182NCX4 Zinc finger CCCH domain-containing protein 14...  39.3       0.76 
+UniRef90_A0A2P6TKL5 Nitrate reductase n=1 Tax=Chlorella sorokinia...  39.3       0.95 
+UniRef90_F0YGZ1 BTB_2 domain-containing protein n=1 Tax=Aureococc...  38.9       0.98 
+UniRef90_K0TCV1 Uncharacterized protein (Fragment) n=1 Tax=Thalas...  38.9       1.1  
+UniRef90_A0A0V1JKE2 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  38.9       1.2  
+UniRef90_A0A0V0XKD0 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  38.5       1.4  
+UniRef90_A4H8W7 BTB domain-containing protein n=3 Tax=Viannia Tax...  38.1       1.6  
+UniRef90_Q9DPQ3 UL36 large tegument protein n=3 Tax=root TaxID=1 ...  38.1       1.7  
+UniRef90_A0A1I8CCP4 Uncharacterized protein n=1 Tax=Rhabditophane...  38.1       1.9  
+UniRef90_A0A087UBD7 Uncharacterized protein (Fragment) n=2 Tax=St...  37.0       2.2  
+UniRef90_A0A0N0P4W2 BTB domain-containing protein n=1 Tax=Leptomo...  37.7       2.3  
+UniRef90_A0A504Y383 Guanine nucleotide-binding protein subunit be...  37.7       2.3  
+UniRef90_A0A504XT71 Pyridoxal-phosphate dependent enzyme family p...  37.7       2.4  
+UniRef90_A0A353CQ62 DNA-directed RNA polymerase subunit beta n=2 ...  37.0       4.6  
+UniRef90_A0A2J7PQE1 BTB domain-containing protein (Fragment) n=2 ...  36.2       5.0  
+UniRef90_A0A1V9Z874 Nuclear pore glycoprotein n=1 Tax=Thraustothe...  36.6       6.1  
+UniRef90_A0A067RJ56 Ankyrin repeat and BTB/POZ domain-containing ...  36.6       6.1  
+UniRef90_A0A2P8Z5T2 Uncharacterized protein n=1 Tax=Blattella ger...  36.2       7.2  
+UniRef90_A0A4Y2CCL8 Uncharacterized protein n=1 Tax=Araneus ventr...  36.2       7.4  
+UniRef90_UPI0011A3DBA8 SH3 domain-containing protein n=1 Tax=Baci...  36.2       7.6  
+UniRef90_UPI00077FBD5B uncharacterized protein LOC107443837 n=1 T...  36.2       8.0  
+UniRef90_Q6XQH4 RNA-directed RNA polymerase L n=2 Tax=Amapari mam...  35.8       9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 564888831036
+Results from round 2
+
+
+Query= sp|Q9H3F6-2|BACD3_HUMAN Isoform 2 of BTB/POZ domain-containing
+adapter for CUL3-mediated RhoA degradation protein 3 OS=Homo sapiens
+OX=9606 GN=KCTD10
+
+Length=290
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6A4SEI6 Uncharacterized protein n=1 Tax=Scophthalmus ...  375        2e-116
+UniRef90_W6UFN6 Adenosylhomocysteinase n=1 Tax=Echinococcus granu...  308        5e-94 
+UniRef90_UPI0012B67839 uncharacterized protein LOC116288713 n=1 T...  194        2e-53 
+UniRef90_D3B6R4 Alpha-mannosidase n=1 Tax=Polysphondylium pallidu...  167        3e-44 
+UniRef90_A0A556TJ88 ATP-binding cassette sub-family B member 9 n=...  160        9e-42 
+UniRef90_A0A3M6TEQ1 Uncharacterized protein n=1 Tax=Pocillopora d...  155        6e-40 
+UniRef90_M7BFQ4 Monocarboxylate transporter 6 n=2 Tax=Chelonia my...  155        8e-40 
+UniRef90_L5M5X4 Latent-transforming growth factor beta-binding pr...  153        3e-39 
+UniRef90_UPI000D63E545 uncharacterized protein LOC107050762 n=1 T...  148        1e-37 
+UniRef90_E0VR22 Uncharacterized protein n=1 Tax=Pediculus humanus...  148        2e-37 
+UniRef90_A0A060WGM2 Uncharacterized protein n=2 Tax=Oncorhynchus ...  147        3e-37 
+UniRef90_A0A2P4WDU0 Uncharacterized protein (Fragment) n=4 Tax=Ca...  147        5e-37 
+UniRef90_A0A1Q9CFI2 BTB/POZ domain-containing protein KCTD8 n=1 T...  144        3e-36 
+UniRef90_T0M3P5 Arf-GAP with coiled-coil, ANK repeat and PH domai...  140        1e-34 
+UniRef90_T1K6G1 Uncharacterized protein n=2 Tax=Tetranychus urtic...  140        1e-34 
+UniRef90_A0A0V1HTQ1 Ubiquitinyl hydrolase 1 n=1 Tax=Trichinella z...  134        1e-32 
+UniRef90_A0A3Q0KUL7 BTB domain-containing protein n=4 Tax=Schisto...  132        3e-32 
+UniRef90_A0A0V1JKU8 Ubiquitinyl hydrolase 1 n=2 Tax=Trichinella p...  132        5e-32 
+UniRef90_A0A6J8AGL9 SLK n=1 Tax=Mytilus coruscus TaxID=42192 RepI...  128        1e-30 
+UniRef90_A0A1B0FRH0 Uncharacterized protein n=2 Tax=Glossina TaxI...  126        7e-30 
+UniRef90_A9VE46 Predicted protein n=1 Tax=Monosiga brevicollis Ta...  125        1e-29 
+UniRef90_A0A6A4TC56 Uncharacterized protein n=1 Tax=Scophthalmus ...  125        1e-29 
+UniRef90_A0A367JXM3 Isoleucyl-tRNA synthetase n=2 Tax=Rhizopus Ta...  123        4e-29 
+UniRef90_A0A1Q9CZE9 Amine oxidase n=1 Tax=Symbiodinium microadria...  122        1e-28 
+UniRef90_M0QSU3 K+ channel tetramerisation domain containing prot...  120        5e-28 
+UniRef90_D2VEV9 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  108        6e-24 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A485P3T1 Low quality protein: spectrin beta n=1 Tax=Ly...  128        1e-30
+UniRef90_A0A4U1EK58 PH domain-containing protein (Fragment) n=1 T...  126        5e-30
+UniRef90_A0A402FKA9 Spectrin beta chain n=1 Tax=Paroedura picta T...  117        1e-26
+UniRef90_L9LEW5 Latent-transforming growth factor beta-binding pr...  116        2e-26
+UniRef90_A0A444UB38 BAI1-associated protein 3 n=1 Tax=Acipenser r...  104        3e-22
+UniRef90_A0A3N0Z3L1 SH3KBP1-binding protein 1 n=2 Tax=Clupeocepha...  100        4e-21
+UniRef90_UPI000C204037 uncharacterized protein LOC111420813 n=1 T...  100        4e-21
+UniRef90_T1J654 1-acyl-sn-glycerol-3-phosphate acyltransferase n=...  97.0       8e-20
+UniRef90_A0A1Q9CV29 Chaperone protein dnaK2 n=1 Tax=Symbiodinium ...  84.7       1e-15
+UniRef90_A0A0V0XKD0 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  81.6       1e-14
+UniRef90_A0A0V1JKE2 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  80.8       2e-14
+UniRef90_F0YGZ1 BTB_2 domain-containing protein n=1 Tax=Aureococc...  79.3       7e-14
+UniRef90_D2V1F0 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  78.9       1e-13
+UniRef90_UPI000DF1D491 spectrin beta chain, non-erythrocytic 4 n=...  77.4       3e-13
+UniRef90_A0A445CIU0 Calcium-transporting ATPase n=2 Tax=Arachis h...  76.6       5e-13
+UniRef90_A0A1V9Z874 Nuclear pore glycoprotein n=1 Tax=Thraustothe...  76.6       5e-13
+UniRef90_A0A1Q9DIT6 BTB/POZ domain-containing protein KCTD12 n=1 ...  73.1       7e-12
+UniRef90_G3HNC5 Ubiquitinyl hydrolase 1 n=5 Tax=Euarchontoglires ...  72.8       9e-12
+UniRef90_A0A2P6TKL5 Nitrate reductase n=1 Tax=Chlorella sorokinia...  70.4       7e-11
+UniRef90_A0A1W0AAZ6 Non-specific serine/threonine protein kinase ...  70.1       8e-11
+UniRef90_A0A3P3YA69 BTB_2 domain-containing protein n=2 Tax=Plasm...  69.7       1e-10
+UniRef90_H3F6Z4 Structural maintenance of chromosomes protein n=2...  69.3       2e-10
+UniRef90_A0A1J1I6J4 CLUMA_CG009380, isoform A n=1 Tax=Clunio mari...  68.5       3e-10
+UniRef90_A0A315VZ87 BTB domain-containing protein n=2 Tax=Percomo...  67.0       9e-10
+UniRef90_D2W281 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  66.6       1e-09
+UniRef90_D2W2B6 BTB domain-containing protein n=1 Tax=Naegleria g...  65.8       2e-09
+UniRef90_A0A067BXD7 Uncharacterized protein n=1 Tax=Saprolegnia p...  65.0       4e-09
+UniRef90_A0A3M0JGE5 Transporter n=3 Tax=Neognathae TaxID=8825 Rep...  63.9       9e-09
+UniRef90_D2V3W9 Subtiliase family serine protease n=1 Tax=Naegler...  63.9       9e-09
+UniRef90_A0A6A5BZY2 BTB domain-containing protein n=1 Tax=Naegler...  63.5       1e-08
+UniRef90_A0A1V4KYC1 Potassium voltage-gated channel subfamily C m...  63.1       2e-08
+UniRef90_D2VW70 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  62.7       2e-08
+UniRef90_A0A3M6UXH3 Uncharacterized protein n=1 Tax=Pocillopora d...  61.6       5e-08
+UniRef90_A0A504XT71 Pyridoxal-phosphate dependent enzyme family p...  61.2       6e-08
+UniRef90_A0A504Y383 Guanine nucleotide-binding protein subunit be...  61.2       6e-08
+UniRef90_A0A4S2KKC5 Uncharacterized protein n=1 Tax=Temnothorax l...  61.2       8e-08
+UniRef90_A0A2A6C9N8 Doublecortin-like and CAM kinase-like protein...  60.8       8e-08
+UniRef90_UPI00109BE9EF LOW QUALITY PROTEIN: uncharacterized prote...  60.8       9e-08
+UniRef90_UPI0009E5979E uncharacterized protein LOC110067746 n=1 T...  60.0       2e-07
+UniRef90_UPI00106DAF08 uncharacterized protein LOC114532174 n=1 T...  60.0       2e-07
+UniRef90_UPI00077B1627 uncharacterized protein LOC107349510 isofo...  59.7       2e-07
+UniRef90_A0A5A7RF55 Major facilitator superfamily protein n=1 Tax...  59.7       2e-07
+UniRef90_A0A0N0P4W2 BTB domain-containing protein n=1 Tax=Leptomo...  59.7       2e-07
+UniRef90_A4H8W7 BTB domain-containing protein n=3 Tax=Viannia Tax...  58.9       4e-07
+UniRef90_A0A2B4SR90 Potassium voltage-gated channel subfamily C m...  58.9       4e-07
+UniRef90_UPI0012B58BD1 uncharacterized protein LOC116295848 n=1 T...  58.5       6e-07
+UniRef90_A0A3M6TXN7 BTB domain-containing protein n=1 Tax=Pocillo...  58.5       6e-07
+UniRef90_UPI001140C855 uncharacterized protein LOC115214995 n=1 T...  57.3       1e-06
+UniRef90_A0A1I8IIB0 IMD domain-containing protein n=1 Tax=Macrost...  57.3       1e-06
+UniRef90_K0TCV1 Uncharacterized protein (Fragment) n=1 Tax=Thalas...  57.3       1e-06
+UniRef90_UPI000A2A47CC uncharacterized protein LOC110238203 n=1 T...  57.0       2e-06
+UniRef90_A0A2C6L2F4 Zinc finger (Ccch type) motif-containing prot...  56.2       3e-06
+UniRef90_A0A2T3ZQA8 Uncharacterized protein n=1 Tax=Trichoderma a...  55.8       4e-06
+UniRef90_UPI000C78DAEA ankyrin repeat and BTB/POZ domain-containi...  55.8       4e-06
+UniRef90_G0N404 Uncharacterized protein n=1 Tax=Caenorhabditis br...  55.4       5e-06
+UniRef90_A0A5N4B281 Uncharacterized protein n=4 Tax=Photinus pyra...  55.0       6e-06
+UniRef90_H3H2U8 Uncharacterized protein n=1 Tax=Phytophthora ramo...  55.0       8e-06
+UniRef90_A0A0Q3X2L2 O-GlcNAc transferase subunit p110 n=3 Tax=Tet...  55.0       8e-06
+UniRef90_UPI00096B5899 ankyrin repeat and BTB/POZ domain-containi...  54.6       1e-05
+UniRef90_A7S8W8 Predicted protein (Fragment) n=3 Tax=Nematostella...  53.5       1e-05
+UniRef90_A0A3M0W8D0 Zn(2)-C6 fungal-type domain-containing protei...  53.9       2e-05
+UniRef90_UPI000C6FAED4 LOW QUALITY PROTEIN: uncharacterized prote...  53.5       2e-05
+UniRef90_UPI00073D5189 uncharacterized protein LOC107066550 isofo...  53.5       3e-05
+UniRef90_UPI00083C0568 ankyrin repeat and BTB/POZ domain-containi...  53.1       3e-05
+UniRef90_UPI00073D5997 uncharacterized protein LOC107066550 isofo...  53.1       3e-05
+UniRef90_A0A1B0G3B5 BTB domain-containing protein n=1 Tax=Glossin...  53.1       3e-05
+UniRef90_UPI000C71C812 potassium voltage-gated channel protein Sh...  52.7       4e-05
+UniRef90_A0A154PHG5 Potassium voltage-gated channel protein Shab ...  52.7       4e-05
+UniRef90_A0A1Q9ES07 BTB_2 domain-containing protein n=1 Tax=Symbi...  52.7       4e-05
+UniRef90_A0A1W4X320 ankyrin repeat and BTB/POZ domain-containing ...  52.7       4e-05
+UniRef90_UPI0007E6998E potassium voltage-gated channel protein Sh...  52.7       4e-05
+UniRef90_UPI000C719C03 potassium voltage-gated channel protein Sh...  52.7       4e-05
+UniRef90_UPI000E6E17A4 LOW QUALITY PROTEIN: ankyrin repeat and BT...  52.7       4e-05
+UniRef90_S9YAQ8 BHLH domain-containing protein n=2 Tax=Boreoeuthe...  52.7       4e-05
+UniRef90_UPI0007121B7C potassium voltage-gated channel protein Sh...  52.3       5e-05
+UniRef90_UPI001442FD49 potassium voltage-gated channel protein Sh...  52.3       5e-05
+UniRef90_F4WTR5 Ankyrin repeat and BTB/POZ domain-containing prot...  52.3       5e-05
+UniRef90_A0A6G0UQV9 Tryptophanyl-tRNA synthetase n=1 Tax=Haliceph...  52.3       5e-05
+UniRef90_UPI0013F20906 potassium voltage-gated channel protein Sh...  52.3       6e-05
+UniRef90_UPI0008409279 potassium voltage-gated channel protein Sh...  52.3       6e-05
+UniRef90_A0A6J3KDN9 potassium voltage-gated channel protein Shab ...  52.0       6e-05
+UniRef90_UPI000C718B52 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_A0A4V6AQH0 Potassium voltage-gated channel subfamily B m...  52.0       7e-05
+UniRef90_UPI000C20E3B8 ankyrin repeat and BTB/POZ domain-containi...  52.0       7e-05
+UniRef90_UPI00148C35B7 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_UPI0014708CAC potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_UPI0014726057 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_UPI00155AFB02 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_A0A3B0J5W5 Blast:Potassium voltage-gated channel protein...  52.0       7e-05
+UniRef90_UPI000BA088A1 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_UPI00155A96C6 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_UPI000BA0E952 potassium voltage-gated channel protein Sh...  52.0       7e-05
+UniRef90_A0A0Q5UDB5 Uncharacterized protein, isoform L n=1 Tax=Dr...  52.0       7e-05
+UniRef90_UPI000F04F38F potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0007E85F62 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0N8P0W5 Uncharacterized protein, isoform J n=1 Tax=Dr...  52.0       8e-05
+UniRef90_A0A6J2TE98 potassium voltage-gated channel protein Shab ...  52.0       8e-05
+UniRef90_UPI0007E76262 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0Q5U273 Uncharacterized protein, isoform J n=1 Tax=Dr...  52.0       8e-05
+UniRef90_UPI0007E73A91 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A6J0F664 LOW QUALITY PROTEIN: potassium voltage-gated ...  52.0       8e-05
+UniRef90_A0A0Q5U649 Uncharacterized protein, isoform O n=1 Tax=Dr...  52.0       8e-05
+UniRef90_UPI0007E671C4 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0007E7B967 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0013DE548C potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_M9MRZ7 Shaker cognate b, isoform M n=3 Tax=Drosophila me...  52.0       8e-05
+UniRef90_UPI000DF6D37B uncharacterized protein LOC108736239 n=1 T...  52.0       8e-05
+UniRef90_A0A1W4VNR1 potassium voltage-gated channel protein Shab ...  52.0       8e-05
+UniRef90_A0A0P8ZUK9 Uncharacterized protein, isoform C n=2 Tax=Dr...  52.0       8e-05
+UniRef90_UPI0007E7DA78 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0N8P0W4 Uncharacterized protein, isoform B n=6 Tax=Dr...  52.0       8e-05
+UniRef90_UPI001432BABA potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0Q5U2C5 Uncharacterized protein, isoform B n=1 Tax=Dr...  52.0       8e-05
+UniRef90_A0A0R1DWP7 Uncharacterized protein, isoform E n=7 Tax=Dr...  52.0       8e-05
+UniRef90_UPI0007E5F83B potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0007E7AE10 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A498M9X2 Laminin subunit alpha-4 n=1 Tax=Labeo rohita ...  52.0       8e-05
+UniRef90_UPI000F05FDFE potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A1I8MTL1 BTB domain-containing protein n=1 Tax=Musca d...  52.0       8e-05
+UniRef90_A0A0Q9XEJ5 Uncharacterized protein, isoform C n=1 Tax=Dr...  52.0       8e-05
+UniRef90_UPI00097233F6 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0008463EB2 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0Q9WPB4 Uncharacterized protein, isoform B n=3 Tax=Dr...  52.0       8e-05
+UniRef90_A0A1I8MTK9 BTB domain-containing protein n=1 Tax=Musca d...  52.0       8e-05
+UniRef90_UPI0013EED3E8 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A1I8MTL7 BTB domain-containing protein n=1 Tax=Musca d...  52.0       8e-05
+UniRef90_UPI00084643DF potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A1I8MTL0 BTB domain-containing protein n=3 Tax=Musca d...  52.0       8e-05
+UniRef90_A0A1I8NTP8 BTB domain-containing protein n=5 Tax=Stomoxy...  52.0       8e-05
+UniRef90_UPI0008476B2C potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0006188BA4 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0008117703 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0013EE9418 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI001114CDD1 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0010A73F0D potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0006B7D6FD potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0008473216 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0008465127 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_UPI0010A73CF6 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A6I9V0G2 potassium voltage-gated channel protein Shab ...  52.0       8e-05
+UniRef90_UPI0012D3A0E2 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0Q5UEN1 Uncharacterized protein, isoform N n=1 Tax=Dr...  52.0       8e-05
+UniRef90_UPI0013DDA9E6 potassium voltage-gated channel protein Sh...  52.0       8e-05
+UniRef90_A0A0Q5U2J7 Uncharacterized protein, isoform I n=12 Tax=m...  52.0       8e-05
+UniRef90_A0A0Q9XRI3 Uncharacterized protein, isoform F n=2 Tax=Dr...  51.6       8e-05
+UniRef90_B4LE37 Uncharacterized protein, isoform B n=3 Tax=Drosop...  51.6       8e-05
+UniRef90_UPI001432F6AF potassium voltage-gated channel protein Sh...  51.6       8e-05
+UniRef90_A0A0Q9XDR1 Uncharacterized protein, isoform D n=2 Tax=Dr...  51.6       9e-05
+UniRef90_A0A0Q5U3B5 Uncharacterized protein, isoform C n=1 Tax=Dr...  51.6       9e-05
+UniRef90_A0A0Q5U932 Uncharacterized protein, isoform H n=1 Tax=Dr...  51.6       9e-05
+UniRef90_A0A0Q9WKZ1 Uncharacterized protein, isoform C n=3 Tax=Dr...  51.6       9e-05
+UniRef90_UPI0008F9AA25 ankyrin repeat and BTB/POZ domain-containi...  51.6       9e-05
+UniRef90_UPI0007E85799 potassium voltage-gated channel protein Sh...  51.6       9e-05
+UniRef90_UPI0007E7BCA8 potassium voltage-gated channel protein Sh...  51.6       9e-05
+UniRef90_A0A6I8W3Z1 potassium voltage-gated channel protein Shab ...  51.6       9e-05
+UniRef90_UPI00143F36D7 potassium voltage-gated channel protein Sh...  51.6       9e-05
+UniRef90_A0A6H5GGW1 BTB domain-containing protein n=1 Tax=Nesidio...  51.6       9e-05
+UniRef90_A0A0Q9XQI8 Uncharacterized protein, isoform E n=14 Tax=r...  51.6       9e-05
+UniRef90_UPI000A1D39F9 potassium voltage-gated channel protein Sh...  51.6       1e-04
+UniRef90_A0A162Z554 Uncharacterized protein n=1 Tax=Didymella rab...  51.6       1e-04
+UniRef90_A0A453Z072 BTB domain-containing protein n=7 Tax=Cellia ...  51.6       1e-04
+UniRef90_A0A0T6AUA9 Ankyrin repeat-containing protein (Fragment) ...  51.6       1e-04
+UniRef90_A0A6J2T0C7 potassium voltage-gated channel protein Shab ...  51.6       1e-04
+UniRef90_A0A6J2T0H5 potassium voltage-gated channel protein Shab ...  51.6       1e-04
+UniRef90_A0A0M3QWX0 Shab n=9 Tax=Drosophila busckii TaxID=30019 R...  51.6       1e-04
+UniRef90_A0A6J2SVT7 potassium voltage-gated channel protein Shab ...  51.6       1e-04
+UniRef90_A0A6J1LVK1 potassium voltage-gated channel protein Shab ...  51.6       1e-04
+UniRef90_UPI000C86FC99 potassium voltage-gated channel protein Sh...  51.6       1e-04
+UniRef90_F0VFB9 Zinc finger (CCCH type) protein, related n=1 Tax=...  51.2       1e-04
+UniRef90_B5DRF9 BTB domain-containing protein n=1 Tax=Drosophila ...  51.2       1e-04
+UniRef90_UPI0012FF17DE potassium voltage-gated channel protein Sh...  51.2       1e-04
+UniRef90_A0A6J2YWQ8 ankyrin repeat and BTB/POZ domain-containing ...  51.2       1e-04
+UniRef90_U4UTB4 Uncharacterized protein (Fragment) n=1 Tax=Dendro...  51.2       1e-04
+UniRef90_UPI000BE1A4FD uncharacterized protein LOC111248825 n=1 T...  51.2       1e-04
+UniRef90_A0A3S1BVE6 BTB domain-containing protein (Fragment) n=1 ...  51.2       1e-04
+UniRef90_A0A553QRJ8 Very low-density lipoprotein receptor n=1 Tax...  51.2       1e-04
+UniRef90_A0A6I8TXK4 BTB domain-containing protein n=21 Tax=Stegom...  51.2       1e-04
+UniRef90_A0A2A9MBJ8 Zinc finger (CCCH type) motif-containing prot...  51.2       1e-04
+UniRef90_A0A0K8VUF1 Ankyrin repeat and BTB/POZ domain-containing ...  51.2       1e-04
+UniRef90_A0A158NTV8 BTB domain-containing protein n=1 Tax=Atta ce...  50.8       2e-04
+UniRef90_A0A4Z2BC30 Uncharacterized protein n=9 Tax=Percomorphace...  50.8       2e-04
+UniRef90_UPI000F0927CF potassium voltage-gated channel protein Sh...  50.8       2e-04
+UniRef90_UPI00158E738B ankyrin repeat and BTB/POZ domain-containi...  50.4       2e-04
+UniRef90_UPI0006238DE8 LOW QUALITY PROTEIN: potassium voltage-gat...  50.4       2e-04
+UniRef90_A0A3L8DBX3 BTB domain-containing protein n=4 Tax=Oocerae...  50.4       2e-04
+UniRef90_A0A6J0BAK8 ankyrin repeat and BTB/POZ domain-containing ...  50.4       2e-04
+UniRef90_UPI0010FB0926 potassium voltage-gated channel protein Sh...  50.4       2e-04
+UniRef90_UPI0004400135 ankyrin repeat and BTB/POZ domain-containi...  50.0       3e-04
+UniRef90_W8BGW0 Ankyrin repeat and BTB/POZ domain-containing prot...  50.0       3e-04
+UniRef90_W8AJV7 Ankyrin repeat and BTB/POZ domain-containing prot...  50.0       3e-04
+UniRef90_E2C0V9 Ankyrin repeat and BTB/POZ domain-containing prot...  50.0       3e-04
+UniRef90_A0A6B0S3F3 Very low-density lipoprotein receptor n=8 Tax...  49.6       3e-04
+UniRef90_UPI0006266579 ankyrin repeat and BTB/POZ domain-containi...  49.6       4e-04
+UniRef90_A0A0A1XNZ7 Ankyrin repeat and BTB/POZ domain-containing ...  49.6       4e-04
+UniRef90_UPI00084F6F9A LOW QUALITY PROTEIN: potassium voltage-gat...  49.6       4e-04
+UniRef90_UPI0007117A99 ankyrin repeat and BTB/POZ domain-containi...  49.6       4e-04
+UniRef90_UPI00138FBB72 uncharacterized protein LOC5519772 n=1 Tax...  49.6       4e-04
+UniRef90_A0A154NW20 Ankyrin repeat and BTB/POZ domain-containing ...  49.6       4e-04
+UniRef90_UPI001161A924 ankyrin repeat and BTB/POZ domain-containi...  49.6       4e-04
+UniRef90_UPI00076777CD ankyrin repeat and BTB/POZ domain-containi...  49.6       4e-04
+UniRef90_A0A5A9PTL3 Cadherin EGF LAG seven-pass G-type receptor 1...  49.3       6e-04
+UniRef90_UPI00073DB573 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_A0A158N9M5 Uncharacterized protein n=21 Tax=Formicidae T...  49.3       6e-04
+UniRef90_UPI0005EF5AEF ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI0013043AD7 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_A0A151ISP2 Ankyrin repeat and BTB/POZ domain-containing ...  49.3       6e-04
+UniRef90_A0A195BQ40 Ankyrin repeat and BTB/POZ domain-containing ...  49.3       6e-04
+UniRef90_A0A151XGI0 Ankyrin repeat and BTB/POZ domain-containing ...  49.3       6e-04
+UniRef90_UPI0010FB0D9C ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_A0A151ID13 Ankyrin repeat and BTB/POZ domain-containing ...  49.3       6e-04
+UniRef90_UPI000258E361 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_A0A087ZVU7 Uncharacterized protein n=32 Tax=Apoidea TaxI...  49.3       6e-04
+UniRef90_UPI00144301A7 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI00143AE4B6 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI000623E575 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_E2AKD9 Ankyrin repeat and BTB/POZ domain-containing prot...  49.3       6e-04
+UniRef90_A0A6J1PD02 ankyrin repeat and BTB/POZ domain-containing ...  49.3       6e-04
+UniRef90_UPI0009953CDC ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI000580CE18 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI0006239F47 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI000BA7E781 ankyrin repeat and BTB/POZ domain-containi...  49.3       6e-04
+UniRef90_UPI00063F5636 ankyrin repeat and BTB/POZ domain-containi...  48.9       7e-04
+UniRef90_UPI0005CE2984 ankyrin repeat and BTB/POZ domain-containi...  48.9       7e-04
+UniRef90_A0A0L0C8I4 Uncharacterized protein (Fragment) n=3 Tax=Lu...  48.9       8e-04
+UniRef90_UPI000BA7F000 LOW QUALITY PROTEIN: ankyrin repeat and BT...  48.5       9e-04
+UniRef90_UPI001433271F ankyrin repeat and BTB/POZ domain-containi...  48.5       0.001
+UniRef90_A0A1I8IEI9 BTB domain-containing protein n=1 Tax=Macrost...  48.5       0.001
+UniRef90_A0A0M3QX44 CG43980 n=1 Tax=Drosophila busckii TaxID=3001...  48.5       0.001
+UniRef90_A0A0M9A490 Ankyrin repeat and BTB/POZ domain-containing ...  48.5       0.001
+UniRef90_S8F973 Zinc finger (CCCH type) motif-containing protein ...  48.5       0.001
+UniRef90_A0A094ZL95 Potassium voltage-gated channel protein Shal ...  48.5       0.001
+UniRef90_A0A1I8HH64 BTB domain-containing protein n=1 Tax=Macrost...  48.5       0.001
+UniRef90_A0A6G1PJG9 Potassium voltage-gated channel subfamily S m...  48.1       0.001
+UniRef90_UPI0007383CB9 ankyrin repeat and BTB/POZ domain-containi...  48.1       0.001
+UniRef90_A0A232ETC6 Uncharacterized protein n=4 Tax=Pteromalinae ...  48.1       0.001
+UniRef90_E4YA38 VWFA domain-containing protein n=2 Tax=Oikopleura...  47.7       0.002
+UniRef90_UPI0015ACC6AB uncharacterized protein LOC118197667 n=2 T...  47.7       0.002
+UniRef90_UPI0014828378 ankyrin repeat and BTB/POZ domain-containi...  47.7       0.002
+UniRef90_A0A067RJ56 Ankyrin repeat and BTB/POZ domain-containing ...  47.3       0.002
+UniRef90_A0A6J1SLM2 ankyrin repeat and BTB/POZ domain-containing ...  47.3       0.002
+UniRef90_A0A3B0JS07 Blast:Ankyrin repeat and BTB/POZ domain-conta...  47.3       0.002
+UniRef90_A0A0N8CQ10 Ankyrin repeat and BTB/POZ domain-containing ...  47.3       0.002
+UniRef90_A0A6A4TFS6 Uncharacterized protein n=1 Tax=Scophthalmus ...  47.3       0.002
+UniRef90_A0A654GS57 BTB domain-containing protein n=1 Tax=Spargan...  47.3       0.002
+UniRef90_A0A1B6DL13 Uncharacterized protein n=5 Tax=Cicadomorpha ...  47.3       0.002
+UniRef90_B4MKG8 Uncharacterized protein n=2 Tax=Drosophila willis...  46.9       0.003
+UniRef90_A0A1I8Q825 Uncharacterized protein n=1 Tax=Stomoxys calc...  46.9       0.003
+UniRef90_A0A1I8Q831 Uncharacterized protein n=2 Tax=Stomoxys calc...  46.9       0.003
+UniRef90_A0A1I8NA80 Uncharacterized protein n=1 Tax=Musca domesti...  46.9       0.003
+UniRef90_A0A1I8NA82 Uncharacterized protein n=2 Tax=Musca domesti...  46.9       0.003
+UniRef90_A0A6J2UDC2 ankyrin repeat and BTB/POZ domain-containing ...  46.9       0.003
+UniRef90_Q7KTV4 Uncharacterized protein, isoform B n=10 Tax=melan...  46.9       0.003
+UniRef90_B4PDI8 Uncharacterized protein, isoform B n=2 Tax=Drosop...  46.9       0.003
+UniRef90_A0A1B0GF69 Uncharacterized protein n=7 Tax=Glossina TaxI...  46.9       0.003
+UniRef90_UPI00077F87E1 ankyrin repeat and BTB/POZ domain-containi...  46.9       0.003
+UniRef90_A0A2P8Z5T2 Uncharacterized protein n=1 Tax=Blattella ger...  46.9       0.003
+UniRef90_UPI000771D301 ankyrin repeat and BTB/POZ domain-containi...  46.9       0.003
+UniRef90_A0A0K2T3F0 Uncharacterized protein n=1 Tax=Lepeophtheiru...  46.9       0.003
+UniRef90_A0A0J9RMR1 BTB domain-containing protein n=2 Tax=Drosoph...  46.6       0.004
+UniRef90_A0A0P8XT64 Uncharacterized protein, isoform C n=20 Tax=m...  46.6       0.004
+UniRef90_A0A2J7PQE1 BTB domain-containing protein (Fragment) n=2 ...  45.4       0.004
+UniRef90_A0A6L2PCT7 Uncharacterized protein n=1 Tax=Coptotermes f...  46.6       0.004
+UniRef90_UPI000B998AFE uncharacterized protein LOC111043785 n=1 T...  46.2       0.005
+UniRef90_A0A423U1J2 Uncharacterized protein n=2 Tax=Penaeus vanna...  46.2       0.005
+UniRef90_C3YCU0 Uncharacterized protein n=1 Tax=Branchiostoma flo...  46.2       0.006
+UniRef90_UPI0012D3BD22 ankyrin repeat and BTB/POZ domain-containi...  46.2       0.006
+UniRef90_A0A553NF41 Uncharacterized protein (Fragment) n=1 Tax=Ti...  45.8       0.006
+UniRef90_UPI000BA00545 ankyrin repeat and BTB/POZ domain-containi...  45.8       0.006
+UniRef90_B5DPI7 Uncharacterized protein n=12 Tax=obscura group Ta...  45.8       0.006
+UniRef90_A0A182P6Y3 Uncharacterized protein n=1 Tax=Anopheles epi...  45.8       0.007
+UniRef90_B4LD94 Uncharacterized protein n=6 Tax=Drosophila TaxID=...  45.8       0.007
+UniRef90_UPI001471CAD4 ankyrin repeat and BTB/POZ domain-containi...  45.4       0.008
+UniRef90_A0A182V6E6 Uncharacterized protein n=2 Tax=gambiae speci...  45.4       0.009
+UniRef90_A0A182HH38 Uncharacterized protein n=1 Tax=Anopheles ara...  45.4       0.009
+UniRef90_A0A453Z0D7 Uncharacterized protein n=6 Tax=Cellia TaxID=...  45.4       0.009
+UniRef90_A0A4Y0BFL6 Uncharacterized protein n=1 Tax=Anopheles fun...  45.4       0.009
+UniRef90_A0A182NPP6 Uncharacterized protein n=1 Tax=Anopheles dir...  45.4       0.010
+UniRef90_A0A182QI38 Uncharacterized protein n=1 Tax=Anopheles far...  45.4       0.010
+UniRef90_A0A182LZN9 Uncharacterized protein n=3 Tax=Cellia TaxID=...  45.4       0.010
+UniRef90_A0A182IWM6 Uncharacterized protein n=1 Tax=Anopheles atr...  45.4       0.010
+UniRef90_A0A084VHP7 AGAP011728-PA-like protein n=1 Tax=Anopheles ...  45.4       0.010
+UniRef90_UPI00156945EC ankyrin repeat and BTB/POZ domain-containi...  45.4       0.010
+UniRef90_W5JBF9 Ankyrin repeat and BTB/POZ domain-containing prot...  45.4       0.010
+UniRef90_A0A1S4FWR9 Uncharacterized protein n=7 Tax=Stegomyia Tax...  45.0       0.012
+UniRef90_B0W2T0 Ankyrin repeat and BTB/POZ domain-containing prot...  45.0       0.012
+UniRef90_A0A6G0UL81 LITAF domain-containing protein n=1 Tax=Halic...  44.6       0.015
+UniRef90_M2RAR4 BTB domain-containing protein (Fragment) n=1 Tax=...  44.6       0.019
+UniRef90_E0VXZ1 Uncharacterized protein n=2 Tax=Pediculus humanus...  44.2       0.022
+UniRef90_A0A5N5SLA5 Serine--pyruvate aminotransferase, mitochondr...  44.2       0.022
+UniRef90_A0A1B0GL95 Uncharacterized protein n=1 Tax=Lutzomyia lon...  44.2       0.023
+UniRef90_UPI00148AA5C6 uncharacterized protein LOC109617094 n=1 T...  43.9       0.026
+UniRef90_UPI0008166D20 zinc finger and BTB domain-containing prot...  43.5       0.031
+UniRef90_A0A0K6G3G4 Putative WD repeat-containing protein all2124...  43.5       0.035
+UniRef90_B4KV39 Uncharacterized protein, isoform A n=9 Tax=replet...  43.5       0.039
+UniRef90_A0A2C5Z932 Carboxypeptidase n=1 Tax=Ophiocordyceps campo...  43.5       0.040
+UniRef90_A0A1Q9E2E1 Uncharacterized protein n=1 Tax=Symbiodinium ...  43.5       0.043
+UniRef90_A0A1V9X090 Ankyrin repeat and BTB/POZ domain-containing ...  43.1       0.050
+UniRef90_UPI000C756D18 ankyrin repeat and BTB/POZ domain-containi...  43.1       0.056
+UniRef90_UPI000E6D9269 ankyrin repeat and BTB/POZ domain-containi...  43.1       0.056
+UniRef90_UPI000E6D8F01 ankyrin repeat and BTB/POZ domain-containi...  43.1       0.058
+UniRef90_A0A482W321 Ankyrin repeat and BTB/POZ domain-containing ...  42.7       0.059
+UniRef90_A0A166MQR1 BTB domain-containing protein n=1 Tax=Fibular...  42.3       0.084
+UniRef90_A0A0G4G5A8 Uncharacterized protein n=1 Tax=Vitrella bras...  42.3       0.097
+UniRef90_A0A2H1X2F2 SFRICE_012779 n=10 Tax=Noctuidae TaxID=7100 R...  42.3       0.100
+UniRef90_UPI0015DEB48D ankyrin repeat and BTB/POZ domain-containi...  42.3       0.100
+UniRef90_UPI000C1444DC ankyrin repeat and BTB/POZ domain-containi...  42.3       0.10 
+UniRef90_A0A2U3EI67 AAA domain-containing protein n=1 Tax=Purpure...  41.9       0.11 
+UniRef90_A0A166MQV2 BTB domain-containing protein n=1 Tax=Fibular...  41.9       0.11 
+UniRef90_A0A094JC37 Uncharacterized protein n=3 Tax=unclassified ...  41.9       0.11 
+UniRef90_UPI00094830B7 uncharacterized protein LOC109477949 n=1 T...  41.9       0.12 
+UniRef90_A0A336LUF4 CSON000986 protein n=1 Tax=Culicoides sonoren...  41.9       0.13 
+UniRef90_A0A6A4VV26 Ankyrin repeat and BTB/POZ domain-containing ...  41.6       0.15 
+UniRef90_A0A2W1BXL1 Uncharacterized protein n=5 Tax=Noctuidae Tax...  41.2       0.18 
+UniRef90_A0A1I8F8E7 BTB_2 domain-containing protein n=1 Tax=Macro...  41.2       0.19 
+UniRef90_A0A6A0HHC6 Uncharacterized protein n=1 Tax=Hyalella azte...  41.2       0.20 
+UniRef90_UPI00084B9335 uncharacterized protein LOC108676527 isofo...  41.2       0.21 
+UniRef90_UPI000E1BBFE3 zinc finger and BTB domain-containing prot...  40.8       0.24 
+UniRef90_A0A2J8A9B3 Kelch-like protein 29 n=1 Tax=Tetrabaena soci...  41.2       0.24 
+UniRef90_UPI000947AE6A LOW QUALITY PROTEIN: uncharacterized prote...  40.8       0.25 
+UniRef90_A0A194Q697 Ankyrin repeat and BTB/POZ domain-containing ...  40.8       0.25 
+UniRef90_UPI000679A560 ankyrin repeat and BTB/POZ domain-containi...  40.8       0.26 
+UniRef90_A0A3M6TVE3 Uncharacterized protein n=1 Tax=Pocillopora d...  40.8       0.28 
+UniRef90_A0A6A4TAS1 Complex I-B14.5a n=1 Tax=Scophthalmus maximus...  40.8       0.29 
+UniRef90_A0A1J1IZF9 CLUMA_CG018053, isoform A n=1 Tax=Clunio mari...  40.8       0.29 
+UniRef90_UPI0013C477D5 ankyrin repeat and BTB/POZ domain-containi...  40.8       0.30 
+UniRef90_A0A6J2JUB6 ankyrin repeat and BTB/POZ domain-containing ...  40.8       0.30 
+UniRef90_UPI0011836E84 ankyrin repeat and BTB/POZ domain-containi...  40.8       0.30 
+UniRef90_A0A5D6YCQ3 Uncharacterized protein n=1 Tax=Pythium brass...  40.8       0.30 
+UniRef90_A0A212EVK5 Uncharacterized protein n=1 Tax=Danaus plexip...  40.8       0.31 
+UniRef90_A0A5B7DHQ2 Mitochondrial genome maintenance exonuclease ...  40.4       0.31 
+UniRef90_H9IUZ2 Uncharacterized protein n=2 Tax=Bombyx mori TaxID...  40.4       0.33 
+UniRef90_L8HAB9 BTB/POZ domain containing protein n=1 Tax=Acantha...  40.4       0.33 
+UniRef90_A0A232ET80 Uncharacterized protein n=1 Tax=Trichomalopsi...  40.4       0.35 
+UniRef90_UPI000E77835F ankyrin repeat and BTB/POZ domain-containi...  40.4       0.36 
+UniRef90_A0A1A8UC08 Potassium voltage-gated channel subfamily A m...  40.4       0.36 
+UniRef90_UPI000E773893 ankyrin repeat and BTB/POZ domain-containi...  40.4       0.36 
+UniRef90_A0A6H5J5W5 UNC80 domain-containing protein n=1 Tax=Trich...  40.4       0.37 
+UniRef90_A0A433PXA3 BTB domain-containing protein n=1 Tax=Endogon...  40.4       0.40 
+UniRef90_A0A0E0EY50 Uncharacterized protein n=1 Tax=Oryza meridio...  40.0       0.44 
+UniRef90_A0A0D9XJW6 Uncharacterized protein n=1 Tax=Leersia perri...  40.0       0.46 
+UniRef90_S3CR44 POZ n=1 Tax=Glarea lozoyensis (strain ATCC 20868 ...  40.0       0.46 
+UniRef90_A0A0D9XJW5 Uncharacterized protein n=1 Tax=Leersia perri...  40.0       0.47 
+UniRef90_UPI0011C37EEE AP2-interacting clathrin-endocytosis prote...  40.0       0.48 
+UniRef90_UPI000B928666 ankyrin repeat and BTB/POZ domain-containi...  40.0       0.48 
+UniRef90_UPI000B927EBA ankyrin repeat and BTB/POZ domain-containi...  40.0       0.49 
+UniRef90_F5RYD0 Uncharacterized protein n=29 Tax=Enterobacteriace...  40.0       0.55 
+UniRef90_UPI00103AC836 ankyrin repeat and BTB/POZ domain-containi...  39.6       0.57 
+UniRef90_A0A4W3I5A0 BTB domain-containing protein n=6 Tax=Callorh...  39.6       0.58 
+UniRef90_UPI0007E84E7B uncharacterized protein LOC108121180 isofo...  39.6       0.69 
+UniRef90_UPI0007E8916A uncharacterized protein LOC108121180 isofo...  39.6       0.69 
+UniRef90_UPI0009481455 LOW QUALITY PROTEIN: uncharacterized prote...  39.6       0.69 
+UniRef90_UPI0009478F13 uncharacterized protein LOC109484262 n=1 T...  39.6       0.70 
+UniRef90_UPI0013A5CBB0 uncharacterized protein LOC6504085 isoform...  39.6       0.71 
+UniRef90_UPI0013A5DB82 uncharacterized protein LOC6504085 isoform...  39.6       0.71 
+UniRef90_A5C2B5 BTB domain-containing protein n=1 Tax=Vitis vinif...  39.2       0.75 
+UniRef90_A0A672KWR1 Uncharacterized protein n=2 Tax=Sinocyclochei...  39.2       0.81 
+UniRef90_A0A2B4R9W4 Protein NLRC3 (Fragment) n=3 Tax=Stylophora p...  39.2       0.90 
+UniRef90_UPI0005295D0D uncharacterized protein KIAA1107 homolog n...  39.2       0.91 
+UniRef90_A0A6J1NWP9 ankyrin repeat and BTB/POZ domain-containing ...  39.2       0.92 
+UniRef90_A0A3N0YAN7 Kelch repeat and BTB domain-containing protei...  39.2       0.94 
+UniRef90_L9KRW8 Putative RNA-binding protein 15 (Fragment) n=1 Ta...  38.9       1.1  
+UniRef90_A0A0D3EE29 BTB domain-containing protein n=5 Tax=Brassic...  38.9       1.1  
+UniRef90_UPI0015B2D282 uncharacterized protein LOC118184981 n=1 T...  38.9       1.1  
+UniRef90_UPI000E1B5E50 AP2-interacting clathrin-endocytosis prote...  38.9       1.2  
+UniRef90_A0A672KRG1 Uncharacterized protein n=1 Tax=Sinocyclochei...  38.5       1.4  
+UniRef90_A0A6C0B8U5 DNA-directed RNA polymerase n=1 Tax=viral met...  38.5       1.4  
+UniRef90_A0A151M516 BTB domain-containing protein n=10 Tax=Crocod...  38.5       1.4  
+UniRef90_UPI0012B5E4D7 uncharacterized protein LOC116307756 n=1 T...  38.5       1.5  
+UniRef90_UPI000C71AEEB protein unc-80 homolog isoform X1 n=5 Tax=...  38.5       1.5  
+UniRef90_A0A6A4TDU6 Uncharacterized protein n=2 Tax=Scophthalmus ...  38.5       1.5  
+UniRef90_A0A1W0WDQ0 Ankyrin repeat and BTB/POZ domain-containing ...  38.5       1.6  
+UniRef90_UPI001403E775 BTB/POZ domain-containing protein 8 isofor...  38.5       1.6  
+UniRef90_F9F537 Uncharacterized protein n=1 Tax=Fusarium oxysporu...  38.5       1.7  
+UniRef90_A0A672KUJ3 Uncharacterized protein n=1 Tax=Sinocyclochei...  38.5       1.7  
+UniRef90_UPI00083E4A1D uncharacterized protein LOC108575579 n=1 T...  38.1       1.7  
+UniRef90_UPI0005CFCABA Ig-like domain-containing protein n=2 Tax=...  38.1       1.8  
+UniRef90_UPI000642E1EC Ig-like domain-containing protein n=1 Tax=...  38.1       1.9  
+UniRef90_UPI000F8426A0 Ig-like domain-containing protein n=2 Tax=...  38.1       1.9  
+UniRef90_UPI0005202D3D uncharacterized protein KIAA1107 homolog n...  38.1       1.9  
+UniRef90_UPI000EAB1E02 uncharacterized protein LOC108624396 isofo...  38.1       1.9  
+UniRef90_UPI00064A6A75 Ig-like domain-containing protein n=1 Tax=...  38.1       1.9  
+UniRef90_UPI00124C5918 Ig-like domain-containing protein n=2 Tax=...  38.1       1.9  
+UniRef90_UPI000CEC8634 Ig-like domain-containing protein n=2 Tax=...  38.1       1.9  
+UniRef90_UPI0015E94F2F Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI00159C09AA Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI00137079F7 Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI000D0B8136 Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI000797C632 Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI000797BA81 Ig-like domain-containing protein n=1 Tax=...  38.1       2.0  
+UniRef90_UPI0006832B73 Ig-like domain-containing protein n=4 Tax=...  38.1       2.0  
+UniRef90_G8LNT2 Uncharacterized protein n=25 Tax=Enterobacteriace...  38.1       2.0  
+UniRef90_A0A6G8LMF0 Ig-like domain-containing protein n=7 Tax=Ent...  38.1       2.0  
+UniRef90_UPI00110ACDFE Ig-like domain-containing protein n=3 Tax=...  38.1       2.0  
+UniRef90_A0A5F8A6B3 BTB domain-containing protein n=18 Tax=Cercop...  38.1       2.0  
+UniRef90_A0A2I0UQ16 BTB domain-containing protein n=2 Tax=Scolopa...  37.7       2.5  
+UniRef90_A0A165P7A9 Uncharacterized protein n=1 Tax=Daedalea quer...  37.7       2.8  
+UniRef90_UPI000947BC13 uncharacterized protein LOC109474632 n=1 T...  37.7       2.8  
+UniRef90_B5DNU4 Uncharacterized protein, isoform A n=25 Tax=obscu...  37.3       2.8  
+UniRef90_UPI00098135C2 uncharacterized protein KIAA1107-like isof...  37.3       3.2  
+UniRef90_V9K8P2 BTB (POZ) domain-containing 8 (Fragment) n=1 Tax=...  37.3       3.2  
+UniRef90_UPI00123EB604 AP2-interacting clathrin-endocytosis prote...  37.3       3.2  
+UniRef90_A0A4S2KFT6 Alpha-amylase n=1 Tax=Temnothorax longispinos...  37.3       3.3  
+UniRef90_UPI000698169F hypothetical protein n=1 Tax=Aureispira sp...  37.3       3.4  
+UniRef90_A0A1A9YUK3 Coactosin-like protein n=5 Tax=Glossina TaxID...  37.3       3.6  
+UniRef90_A0A2T4APE4 Uncharacterized protein n=1 Tax=Trichoderma h...  37.3       3.8  
+UniRef90_UPI000386F64D AP2-interacting clathrin-endocytosis prote...  37.3       3.9  
+UniRef90_A0A6J0EDK5 uncharacterized protein LOC108005135 n=1 Tax=...  36.9       3.9  
+UniRef90_UPI000E1EB6FF AP2-interacting clathrin-endocytosis prote...  36.9       4.0  
+UniRef90_UPI001396199A BTB/POZ domain-containing protein 8 isofor...  36.9       4.0  
+UniRef90_J9IHM0 BTB domain-containing protein n=1 Tax=Oxytricha t...  36.9       4.2  
+UniRef90_A0A6J1X9P8 protein lava lamp-like isoform X1 n=2 Tax=Gal...  36.9       4.3  
+UniRef90_A0A0S4XRT3 PKD domain-containing protein n=1 Tax=Sulfuro...  36.9       4.5  
+UniRef90_UPI0007E85CA4 uncharacterized protein LOC108103870 isofo...  36.9       4.6  
+UniRef90_UPI0013EF295C uncharacterized protein LOC6566366 n=1 Tax...  36.9       4.6  
+UniRef90_A0A6J0RKF6 uncharacterized protein LOC105232229 isoform ...  36.9       4.6  
+UniRef90_UPI000A1D1B66 LOW QUALITY PROTEIN: uncharacterized prote...  36.9       4.7  
+UniRef90_W8B614 Rap1 GTPase-activating protein 1 n=1 Tax=Ceratiti...  36.9       4.7  
+UniRef90_UPI0006189522 uncharacterized protein LOC101462930 n=1 T...  36.9       4.8  
+UniRef90_A0A6G1SI35 Serine-enriched protein (Fragment) n=1 Tax=Ac...  36.9       4.9  
+UniRef90_A0A2Z6RXF1 BTB domain-containing protein n=1 Tax=Rhizoph...  36.9       4.9  
+UniRef90_A0A0R3P791 Uncharacterized protein, isoform D n=1 Tax=Dr...  36.9       4.9  
+UniRef90_A0A1I8NAS5 Rap-GAP domain-containing protein n=2 Tax=Mus...  36.9       4.9  
+UniRef90_UPI00148B5AAF LOW QUALITY PROTEIN: uncharacterized prote...  36.9       4.9  
+UniRef90_X2JJU0 Radish, isoform J n=7 Tax=melanogaster group TaxI...  36.9       5.0  
+UniRef90_UPI000E1DBBE8 AP2-interacting clathrin-endocytosis prote...  36.9       5.1  
+UniRef90_X2JDH0 Radish, isoform I n=5 Tax=melanogaster group TaxI...  36.9       5.1  
+UniRef90_UPI0007E7C237 uncharacterized protein LOC108149984 isofo...  36.9       5.1  
+UniRef90_UPI0007E7570A uncharacterized protein LOC108049020 isofo...  36.9       5.1  
+UniRef90_A0A6J2U342 LOW QUALITY PROTEIN: uncharacterized protein ...  36.9       5.1  
+UniRef90_A0A0L0BVQ3 Rap-GAP domain-containing protein n=2 Tax=Luc...  36.9       5.2  
+UniRef90_B3NX74 Rap-GAP domain-containing protein n=1 Tax=Drosoph...  36.9       5.2  
+UniRef90_A0A1S3FC48 uncharacterized protein KIAA1107 homolog n=1 ...  36.5       5.3  
+UniRef90_B4Q201 Uncharacterized protein, isoform C n=1 Tax=Drosop...  36.5       5.3  
+UniRef90_A0A6J2SQT3 uncharacterized protein LOC111593508 isoform ...  36.5       5.4  
+UniRef90_X2JBI1 Radish, isoform M n=53 Tax=Acalyptratae TaxID=437...  36.5       5.5  
+UniRef90_UPI0007117A16 uncharacterized protein LOC106745974 n=1 T...  36.5       5.8  
+UniRef90_UPI000523E4B6 uncharacterized protein KIAA1107 homolog n...  36.2       7.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0423    0.140     1.90     42.6     43.6 
+
+Effective search space used: 564888831036
+Results from round 3
+
+
+Query= sp|Q9H3F6-2|BACD3_HUMAN Isoform 2 of BTB/POZ domain-containing
+adapter for CUL3-mediated RhoA degradation protein 3 OS=Homo sapiens
+OX=9606 GN=KCTD10
+
+Length=290
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6A4SEI6 Uncharacterized protein n=1 Tax=Scophthalmus ...  292        2e-87
+UniRef90_W6UFN6 Adenosylhomocysteinase n=1 Tax=Echinococcus granu...  242        2e-70
+UniRef90_A0A556TJ88 ATP-binding cassette sub-family B member 9 n=...  225        4e-64
+UniRef90_G3HNC5 Ubiquitinyl hydrolase 1 n=5 Tax=Euarchontoglires ...  169        6e-45
+UniRef90_M7BFQ4 Monocarboxylate transporter 6 n=2 Tax=Chelonia my...  169        9e-45
+UniRef90_A0A6J0BAK8 ankyrin repeat and BTB/POZ domain-containing ...  169        9e-45
+UniRef90_UPI0010FB0D9C ankyrin repeat and BTB/POZ domain-containi...  166        8e-44
+UniRef90_E2AKD9 Ankyrin repeat and BTB/POZ domain-containing prot...  166        1e-43
+UniRef90_UPI0006266579 ankyrin repeat and BTB/POZ domain-containi...  166        1e-43
+UniRef90_UPI00073DB573 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_A0A158N9M5 Uncharacterized protein n=21 Tax=Formicidae T...  165        2e-43
+UniRef90_UPI0005EF5AEF ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI000580CE18 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_A0A151ISP2 Ankyrin repeat and BTB/POZ domain-containing ...  165        2e-43
+UniRef90_A0A151ID13 Ankyrin repeat and BTB/POZ domain-containing ...  165        2e-43
+UniRef90_UPI0009953CDC ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI0006239F47 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI000258E361 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI00144301A7 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI00143AE4B6 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI000623E575 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_UPI0007117A99 ankyrin repeat and BTB/POZ domain-containi...  165        2e-43
+UniRef90_E2C0V9 Ankyrin repeat and BTB/POZ domain-containing prot...  165        2e-43
+UniRef90_A0A6J1PD02 ankyrin repeat and BTB/POZ domain-containing ...  165        2e-43
+UniRef90_UPI0013043AD7 ankyrin repeat and BTB/POZ domain-containi...  164        3e-43
+UniRef90_A0A087ZVU7 Uncharacterized protein n=32 Tax=Apoidea TaxI...  164        3e-43
+UniRef90_A0A195BQ40 Ankyrin repeat and BTB/POZ domain-containing ...  164        3e-43
+UniRef90_UPI00063F5636 ankyrin repeat and BTB/POZ domain-containi...  164        3e-43
+UniRef90_A0A151XGI0 Ankyrin repeat and BTB/POZ domain-containing ...  164        3e-43
+UniRef90_A0A154NW20 Ankyrin repeat and BTB/POZ domain-containing ...  164        4e-43
+UniRef90_UPI00076777CD ankyrin repeat and BTB/POZ domain-containi...  164        5e-43
+UniRef90_A0A0M9A490 Ankyrin repeat and BTB/POZ domain-containing ...  164        5e-43
+UniRef90_UPI0005CE2984 ankyrin repeat and BTB/POZ domain-containi...  163        7e-43
+UniRef90_UPI00158E738B ankyrin repeat and BTB/POZ domain-containi...  163        8e-43
+UniRef90_UPI0012B67839 uncharacterized protein LOC116288713 n=1 T...  163        9e-43
+UniRef90_UPI000C78DAEA ankyrin repeat and BTB/POZ domain-containi...  161        6e-42
+UniRef90_UPI0004400135 ankyrin repeat and BTB/POZ domain-containi...  160        1e-41
+UniRef90_UPI00096B5899 ankyrin repeat and BTB/POZ domain-containi...  159        2e-41
+UniRef90_A0A6J2YWQ8 ankyrin repeat and BTB/POZ domain-containing ...  159        3e-41
+UniRef90_UPI000C20E3B8 ankyrin repeat and BTB/POZ domain-containi...  158        4e-41
+UniRef90_A0A4S2KKC5 Uncharacterized protein n=1 Tax=Temnothorax l...  158        5e-41
+UniRef90_UPI00083C0568 ankyrin repeat and BTB/POZ domain-containi...  158        7e-41
+UniRef90_A0A1W4X320 ankyrin repeat and BTB/POZ domain-containing ...  157        1e-40
+UniRef90_A0A5N4B281 Uncharacterized protein n=4 Tax=Photinus pyra...  157        1e-40
+UniRef90_U4UTB4 Uncharacterized protein (Fragment) n=1 Tax=Dendro...  156        3e-40
+UniRef90_W8BGW0 Ankyrin repeat and BTB/POZ domain-containing prot...  155        5e-40
+UniRef90_W8AJV7 Ankyrin repeat and BTB/POZ domain-containing prot...  155        5e-40
+UniRef90_A0A0K8VUF1 Ankyrin repeat and BTB/POZ domain-containing ...  155        6e-40
+UniRef90_UPI0008F9AA25 ankyrin repeat and BTB/POZ domain-containi...  155        7e-40
+UniRef90_A0A0A1XNZ7 Ankyrin repeat and BTB/POZ domain-containing ...  154        9e-40
+UniRef90_A0A0L0C8I4 Uncharacterized protein (Fragment) n=3 Tax=Lu...  154        1e-39
+UniRef90_UPI000E6E17A4 LOW QUALITY PROTEIN: ankyrin repeat and BT...  151        1e-38
+UniRef90_A0A0T6AUA9 Ankyrin repeat-containing protein (Fragment) ...  151        1e-38
+UniRef90_UPI001433271F ankyrin repeat and BTB/POZ domain-containi...  150        3e-38
+UniRef90_A0A0M3QX44 CG43980 n=1 Tax=Drosophila busckii TaxID=3001...  150        3e-38
+UniRef90_F4WTR5 Ankyrin repeat and BTB/POZ domain-containing prot...  148        2e-37
+UniRef90_UPI000BA7E781 ankyrin repeat and BTB/POZ domain-containi...  143        8e-36
+UniRef90_A0A0V1HTQ1 Ubiquitinyl hydrolase 1 n=1 Tax=Trichinella z...  142        2e-35
+UniRef90_E0VR22 Uncharacterized protein n=1 Tax=Pediculus humanus...  142        2e-35
+UniRef90_D3B6R4 Alpha-mannosidase n=1 Tax=Polysphondylium pallidu...  142        2e-35
+UniRef90_UPI001161A924 ankyrin repeat and BTB/POZ domain-containi...  141        4e-35
+UniRef90_A0A0V1JKU8 Ubiquitinyl hydrolase 1 n=2 Tax=Trichinella p...  141        4e-35
+UniRef90_L5M5X4 Latent-transforming growth factor beta-binding pr...  141        7e-35
+UniRef90_A0A315VZ87 BTB domain-containing protein n=2 Tax=Percomo...  140        9e-35
+UniRef90_A7S8W8 Predicted protein (Fragment) n=3 Tax=Nematostella...  133        1e-33
+UniRef90_UPI000D63E545 uncharacterized protein LOC107050762 n=1 T...  135        4e-33
+UniRef90_A0A060WGM2 Uncharacterized protein n=2 Tax=Oncorhynchus ...  135        5e-33
+UniRef90_A0A3M6TEQ1 Uncharacterized protein n=1 Tax=Pocillopora d...  134        7e-33
+UniRef90_A0A1J1I6J4 CLUMA_CG009380, isoform A n=1 Tax=Clunio mari...  131        1e-31
+UniRef90_T1K6G1 Uncharacterized protein n=2 Tax=Tetranychus urtic...  130        3e-31
+UniRef90_UPI0012B58BD1 uncharacterized protein LOC116295848 n=1 T...  129        6e-31
+UniRef90_S9YAQ8 BHLH domain-containing protein n=2 Tax=Boreoeuthe...  128        1e-30
+UniRef90_UPI00109BE9EF LOW QUALITY PROTEIN: uncharacterized prote...  128        1e-30
+UniRef90_A0A2P4WDU0 Uncharacterized protein (Fragment) n=4 Tax=Ca...  126        6e-30
+UniRef90_A0A2B4SR90 Potassium voltage-gated channel subfamily C m...  126        8e-30
+UniRef90_A0A3M6TXN7 BTB domain-containing protein n=1 Tax=Pocillo...  126        9e-30
+UniRef90_G0N404 Uncharacterized protein n=1 Tax=Caenorhabditis br...  125        1e-29
+UniRef90_A0A1Q9CFI2 BTB/POZ domain-containing protein KCTD8 n=1 T...  125        2e-29
+UniRef90_UPI0009E5979E uncharacterized protein LOC110067746 n=1 T...  124        2e-29
+UniRef90_UPI001140C855 uncharacterized protein LOC115214995 n=1 T...  124        3e-29
+UniRef90_A0A3Q0KUL7 BTB domain-containing protein n=4 Tax=Schisto...  124        4e-29
+UniRef90_UPI000C6FAED4 LOW QUALITY PROTEIN: uncharacterized prote...  123        6e-29
+UniRef90_UPI00073D5189 uncharacterized protein LOC107066550 isofo...  122        1e-28
+UniRef90_UPI00073D5997 uncharacterized protein LOC107066550 isofo...  122        1e-28
+UniRef90_UPI0007E6998E potassium voltage-gated channel protein Sh...  121        3e-28
+UniRef90_A0A3M0JGE5 Transporter n=3 Tax=Neognathae TaxID=8825 Rep...  121        3e-28
+UniRef90_T0M3P5 Arf-GAP with coiled-coil, ANK repeat and PH domai...  121        3e-28
+UniRef90_UPI00077B1627 uncharacterized protein LOC107349510 isofo...  121        4e-28
+UniRef90_A0A158NTV8 BTB domain-containing protein n=1 Tax=Atta ce...  121        4e-28
+UniRef90_UPI0007121B7C potassium voltage-gated channel protein Sh...  121        5e-28
+UniRef90_UPI000A2A47CC uncharacterized protein LOC110238203 n=1 T...  121        5e-28
+UniRef90_UPI0013F20906 potassium voltage-gated channel protein Sh...  120        6e-28
+UniRef90_A0A154PHG5 Potassium voltage-gated channel protein Shab ...  120        6e-28
+UniRef90_UPI001442FD49 potassium voltage-gated channel protein Sh...  120        7e-28
+UniRef90_UPI0008409279 potassium voltage-gated channel protein Sh...  120        8e-28
+UniRef90_A0A6J8AGL9 SLK n=1 Tax=Mytilus coruscus TaxID=42192 RepI...  120        8e-28
+UniRef90_A0A3S1BVE6 BTB domain-containing protein (Fragment) n=1 ...  120        8e-28
+UniRef90_UPI0012D3A0E2 potassium voltage-gated channel protein Sh...  120        9e-28
+UniRef90_A0A6I8TXK4 BTB domain-containing protein n=21 Tax=Stegom...  119        1e-27
+UniRef90_UPI0006238DE8 LOW QUALITY PROTEIN: potassium voltage-gat...  119        1e-27
+UniRef90_UPI00084F6F9A LOW QUALITY PROTEIN: potassium voltage-gat...  119        1e-27
+UniRef90_A0A1V4KYC1 Potassium voltage-gated channel subfamily C m...  119        1e-27
+UniRef90_UPI0010FB0926 potassium voltage-gated channel protein Sh...  119        1e-27
+UniRef90_A0A453Z072 BTB domain-containing protein n=7 Tax=Cellia ...  119        1e-27
+UniRef90_UPI000F0927CF potassium voltage-gated channel protein Sh...  119        1e-27
+UniRef90_A0A3L8DBX3 BTB domain-containing protein n=4 Tax=Oocerae...  119        2e-27
+UniRef90_UPI000DF6D37B uncharacterized protein LOC108736239 n=1 T...  119        2e-27
+UniRef90_UPI000C71C812 potassium voltage-gated channel protein Sh...  119        2e-27
+UniRef90_UPI0008117703 potassium voltage-gated channel protein Sh...  119        2e-27
+UniRef90_UPI0006B7D6FD potassium voltage-gated channel protein Sh...  119        2e-27
+UniRef90_A0A6H5GGW1 BTB domain-containing protein n=1 Tax=Nesidio...  119        2e-27
+UniRef90_A0A3M6UXH3 Uncharacterized protein n=1 Tax=Pocillopora d...  118        3e-27
+UniRef90_T1J654 1-acyl-sn-glycerol-3-phosphate acyltransferase n=...  118        3e-27
+UniRef90_UPI000C719C03 potassium voltage-gated channel protein Sh...  118        3e-27
+UniRef90_A0A6J3KDN9 potassium voltage-gated channel protein Shab ...  118        3e-27
+UniRef90_A0A6J2TE98 potassium voltage-gated channel protein Shab ...  118        3e-27
+UniRef90_UPI0006188BA4 potassium voltage-gated channel protein Sh...  118        3e-27
+UniRef90_UPI001114CDD1 potassium voltage-gated channel protein Sh...  118        3e-27
+UniRef90_UPI0010A73F0D potassium voltage-gated channel protein Sh...  118        3e-27
+UniRef90_UPI0010A73CF6 potassium voltage-gated channel protein Sh...  118        3e-27
+UniRef90_A0A6I9V0G2 potassium voltage-gated channel protein Shab ...  118        3e-27
+UniRef90_A0A1B0G3B5 BTB domain-containing protein n=1 Tax=Glossin...  118        3e-27
+UniRef90_A0A0Q9XRI3 Uncharacterized protein, isoform F n=2 Tax=Dr...  118        4e-27
+UniRef90_UPI0012FF17DE potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A1I8MTL1 BTB domain-containing protein n=1 Tax=Musca d...  118        4e-27
+UniRef90_A0A0Q9XEJ5 Uncharacterized protein, isoform C n=1 Tax=Dr...  118        4e-27
+UniRef90_UPI00097233F6 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_UPI0008463EB2 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A0Q9WPB4 Uncharacterized protein, isoform B n=3 Tax=Dr...  118        4e-27
+UniRef90_A0A1I8MTK9 BTB domain-containing protein n=1 Tax=Musca d...  118        4e-27
+UniRef90_UPI0013EED3E8 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A1I8MTL7 BTB domain-containing protein n=1 Tax=Musca d...  118        4e-27
+UniRef90_UPI00084643DF potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A1I8MTL0 BTB domain-containing protein n=3 Tax=Musca d...  118        4e-27
+UniRef90_UPI0008476B2C potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_UPI0013EE9418 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_UPI0008473216 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_UPI0008465127 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A0Q9XDR1 Uncharacterized protein, isoform D n=2 Tax=Dr...  118        4e-27
+UniRef90_A0A0M3QWX0 Shab n=9 Tax=Drosophila busckii TaxID=30019 R...  118        4e-27
+UniRef90_A0A6J2T0C7 potassium voltage-gated channel protein Shab ...  118        4e-27
+UniRef90_A0A6J2T0H5 potassium voltage-gated channel protein Shab ...  118        4e-27
+UniRef90_A0A6J2SVT7 potassium voltage-gated channel protein Shab ...  118        4e-27
+UniRef90_A0A6J1LVK1 potassium voltage-gated channel protein Shab ...  118        4e-27
+UniRef90_UPI000C86FC99 potassium voltage-gated channel protein Sh...  118        4e-27
+UniRef90_A0A0Q9XQI8 Uncharacterized protein, isoform E n=14 Tax=r...  117        4e-27
+UniRef90_UPI000F04F38F potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_UPI0007E85F62 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_UPI0007E76262 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_A0A0Q5UDB5 Uncharacterized protein, isoform L n=1 Tax=Dr...  117        4e-27
+UniRef90_A0A0Q5U273 Uncharacterized protein, isoform J n=1 Tax=Dr...  117        4e-27
+UniRef90_UPI0007E73A91 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_A0A6J0F664 LOW QUALITY PROTEIN: potassium voltage-gated ...  117        4e-27
+UniRef90_A0A0Q5U649 Uncharacterized protein, isoform O n=1 Tax=Dr...  117        4e-27
+UniRef90_UPI0007E671C4 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_M9MRZ7 Shaker cognate b, isoform M n=3 Tax=Drosophila me...  117        4e-27
+UniRef90_A0A1W4VNR1 potassium voltage-gated channel protein Shab ...  117        4e-27
+UniRef90_UPI0007E7DA78 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_UPI001432BABA potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_A0A0Q5U2C5 Uncharacterized protein, isoform B n=1 Tax=Dr...  117        4e-27
+UniRef90_A0A0R1DWP7 Uncharacterized protein, isoform E n=7 Tax=Dr...  117        4e-27
+UniRef90_UPI0007E5F83B potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_UPI0007E7AE10 potassium voltage-gated channel protein Sh...  117        4e-27
+UniRef90_UPI0013DE548C potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_A0A0Q5UEN1 Uncharacterized protein, isoform N n=1 Tax=Dr...  117        5e-27
+UniRef90_UPI0014726057 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_UPI00155AFB02 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_A0A3B0J5W5 Blast:Potassium voltage-gated channel protein...  117        5e-27
+UniRef90_UPI000BA088A1 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_UPI00155A96C6 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_UPI000BA0E952 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_UPI000F05FDFE potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_A0A485P3T1 Low quality protein: spectrin beta n=1 Tax=Ly...  117        5e-27
+UniRef90_A0A1Q9DIT6 BTB/POZ domain-containing protein KCTD12 n=1 ...  117        5e-27
+UniRef90_UPI000A1D39F9 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_A0A0Q5U2J7 Uncharacterized protein, isoform I n=12 Tax=m...  117        5e-27
+UniRef90_UPI00148C35B7 potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_UPI0014708CAC potassium voltage-gated channel protein Sh...  117        5e-27
+UniRef90_A0A1I8NTP8 BTB domain-containing protein n=5 Tax=Stomoxy...  117        5e-27
+UniRef90_A0A0N8P0W5 Uncharacterized protein, isoform J n=1 Tax=Dr...  117        6e-27
+UniRef90_UPI0007E7B967 potassium voltage-gated channel protein Sh...  117        6e-27
+UniRef90_A0A0P8ZUK9 Uncharacterized protein, isoform C n=2 Tax=Dr...  117        6e-27
+UniRef90_A0A0N8P0W4 Uncharacterized protein, isoform B n=6 Tax=Dr...  117        6e-27
+UniRef90_A0A1B0FRH0 Uncharacterized protein n=2 Tax=Glossina TaxI...  117        6e-27
+UniRef90_UPI001432F6AF potassium voltage-gated channel protein Sh...  117        6e-27
+UniRef90_UPI0013DDA9E6 potassium voltage-gated channel protein Sh...  117        6e-27
+UniRef90_A0A0Q5U3B5 Uncharacterized protein, isoform C n=1 Tax=Dr...  117        6e-27
+UniRef90_A0A0Q5U932 Uncharacterized protein, isoform H n=1 Tax=Dr...  117        6e-27
+UniRef90_UPI000C718B52 potassium voltage-gated channel protein Sh...  117        7e-27
+UniRef90_B4LE37 Uncharacterized protein, isoform B n=3 Tax=Drosop...  117        8e-27
+UniRef90_A0A0Q9WKZ1 Uncharacterized protein, isoform C n=3 Tax=Dr...  117        8e-27
+UniRef90_A0A367JXM3 Isoleucyl-tRNA synthetase n=2 Tax=Rhizopus Ta...  117        8e-27
+UniRef90_A0A1I8IIB0 IMD domain-containing protein n=1 Tax=Macrost...  117        9e-27
+UniRef90_UPI0007E85799 potassium voltage-gated channel protein Sh...  117        9e-27
+UniRef90_UPI0007E7BCA8 potassium voltage-gated channel protein Sh...  117        9e-27
+UniRef90_A0A6I8W3Z1 potassium voltage-gated channel protein Shab ...  117        9e-27
+UniRef90_UPI00143F36D7 potassium voltage-gated channel protein Sh...  117        9e-27
+UniRef90_B5DRF9 BTB domain-containing protein n=1 Tax=Drosophila ...  117        1e-26
+UniRef90_UPI000BE1A4FD uncharacterized protein LOC111248825 n=1 T...  116        1e-26
+UniRef90_A0A4U1EK58 PH domain-containing protein (Fragment) n=1 T...  115        3e-26
+UniRef90_A0A444UB38 BAI1-associated protein 3 n=1 Tax=Acipenser r...  115        5e-26
+UniRef90_A0A4V6AQH0 Potassium voltage-gated channel subfamily B m...  115        5e-26
+UniRef90_A0A6G0UQV9 Tryptophanyl-tRNA synthetase n=1 Tax=Haliceph...  115        5e-26
+UniRef90_A9VE46 Predicted protein n=1 Tax=Monosiga brevicollis Ta...  114        6e-26
+UniRef90_A0A6A4TC56 Uncharacterized protein n=1 Tax=Scophthalmus ...  114        7e-26
+UniRef90_A0A1Q9CZE9 Amine oxidase n=1 Tax=Symbiodinium microadria...  113        2e-25
+UniRef90_UPI000BA7F000 LOW QUALITY PROTEIN: ankyrin repeat and BT...  111        1e-24
+UniRef90_A0A0Q3X2L2 O-GlcNAc transferase subunit p110 n=3 Tax=Tet...  110        2e-24
+UniRef90_A0A0V0XKD0 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  109        3e-24
+UniRef90_UPI00106DAF08 uncharacterized protein LOC114532174 n=1 T...  109        3e-24
+UniRef90_L9LEW5 Latent-transforming growth factor beta-binding pr...  108        1e-23
+UniRef90_M0QSU3 K+ channel tetramerisation domain containing prot...  108        1e-23
+UniRef90_A0A0V1JKE2 Tyrosine-protein kinase BAZ1B (Fragment) n=4 ...  106        4e-23
+UniRef90_A0A402FKA9 Spectrin beta chain n=1 Tax=Paroedura picta T...  106        6e-23
+UniRef90_F0YGZ1 BTB_2 domain-containing protein n=1 Tax=Aureococc...  105        1e-22
+UniRef90_UPI00138FBB72 uncharacterized protein LOC5519772 n=1 Tax...  104        3e-22
+UniRef90_D2V3W9 Subtiliase family serine protease n=1 Tax=Naegler...  101        2e-21
+UniRef90_UPI000C204037 uncharacterized protein LOC111420813 n=1 T...  100        4e-21
+UniRef90_A0A498M9X2 Laminin subunit alpha-4 n=1 Tax=Labeo rohita ...  99.5       1e-20
+UniRef90_A0A1Q9CV29 Chaperone protein dnaK2 n=1 Tax=Symbiodinium ...  99.1       2e-20
+UniRef90_D2W281 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  97.2       7e-20
+UniRef90_D2W2B6 BTB domain-containing protein n=1 Tax=Naegleria g...  96.8       7e-20
+UniRef90_D2VEV9 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  96.4       1e-19
+UniRef90_A0A5A9PTL3 Cadherin EGF LAG seven-pass G-type receptor 1...  96.0       2e-19
+UniRef90_A0A3N0Z3L1 SH3KBP1-binding protein 1 n=2 Tax=Clupeocepha...  94.9       3e-19
+UniRef90_A0A1V9Z874 Nuclear pore glycoprotein n=1 Tax=Thraustothe...  94.9       3e-19
+UniRef90_D2VW70 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  91.0       8e-18
+UniRef90_A0A1I8IEI9 BTB domain-containing protein n=1 Tax=Macrost...  89.9       2e-17
+UniRef90_D2V1F0 Predicted protein n=1 Tax=Naegleria gruberi TaxID...  89.5       2e-17
+UniRef90_A0A445CIU0 Calcium-transporting ATPase n=2 Tax=Arachis h...  88.7       4e-17
+UniRef90_A0A067BXD7 Uncharacterized protein n=1 Tax=Saprolegnia p...  88.3       5e-17
+UniRef90_A0A2T3ZQA8 Uncharacterized protein n=1 Tax=Trichoderma a...  87.2       2e-16
+UniRef90_H3H2U8 Uncharacterized protein n=1 Tax=Phytophthora ramo...  86.8       2e-16
+UniRef90_A0A6A5BZY2 BTB domain-containing protein n=1 Tax=Naegler...  86.8       2e-16
+UniRef90_A0A6B0S3F3 Very low-density lipoprotein receptor n=8 Tax...  84.5       1e-15
+UniRef90_A0A1W0AAZ6 Non-specific serine/threonine protein kinase ...  84.1       2e-15
+UniRef90_A0A553QRJ8 Very low-density lipoprotein receptor n=1 Tax...  83.3       3e-15
+UniRef90_A0A3M0W8D0 Zn(2)-C6 fungal-type domain-containing protei...  83.3       4e-15
+UniRef90_A0A162Z554 Uncharacterized protein n=1 Tax=Didymella rab...  82.2       7e-15
+UniRef90_A0A4Z2BC30 Uncharacterized protein n=9 Tax=Percomorphace...  82.2       8e-15
+UniRef90_K0TCV1 Uncharacterized protein (Fragment) n=1 Tax=Thalas...  80.6       3e-14
+UniRef90_A0A2P6TKL5 Nitrate reductase n=1 Tax=Chlorella sorokinia...  80.2       4e-14
+UniRef90_A0A2A6C9N8 Doublecortin-like and CAM kinase-like protein...  79.1       9e-14
+UniRef90_A0A3P3YA69 BTB_2 domain-containing protein n=2 Tax=Plasm...  78.3       2e-13
+UniRef90_H3F6Z4 Structural maintenance of chromosomes protein n=2...  77.9       2e-13
+UniRef90_UPI000DF1D491 spectrin beta chain, non-erythrocytic 4 n=...  77.2       4e-13
+UniRef90_A0A1Q9ES07 BTB_2 domain-containing protein n=1 Tax=Symbi...  73.3       7e-12
+UniRef90_A0A5A7RF55 Major facilitator superfamily protein n=1 Tax...  72.2       2e-11
+UniRef90_A0A504XT71 Pyridoxal-phosphate dependent enzyme family p...  64.8       4e-09
+UniRef90_A0A504Y383 Guanine nucleotide-binding protein subunit be...  64.8       4e-09
+UniRef90_A4H8W7 BTB domain-containing protein n=3 Tax=Viannia Tax...  63.7       1e-08
+UniRef90_A0A0N0P4W2 BTB domain-containing protein n=1 Tax=Leptomo...  63.3       1e-08
+UniRef90_A0A2C6L2F4 Zinc finger (Ccch type) motif-containing prot...  61.0       8e-08
+UniRef90_S8F973 Zinc finger (CCCH type) motif-containing protein ...  60.6       1e-07
+UniRef90_F0VFB9 Zinc finger (CCCH type) protein, related n=1 Tax=...  57.1       1e-06
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0007383CB9 ankyrin repeat and BTB/POZ domain-containi...  164        5e-43
+UniRef90_UPI000771D301 ankyrin repeat and BTB/POZ domain-containi...  160        1e-41
+UniRef90_A0A232ETC6 Uncharacterized protein n=4 Tax=Pteromalinae ...  158        8e-41
+UniRef90_A0A2J7PQE1 BTB domain-containing protein (Fragment) n=2 ...  146        4e-40
+UniRef90_UPI000B998AFE uncharacterized protein LOC111043785 n=1 T...  155        6e-40
+UniRef90_A0A1B6DL13 Uncharacterized protein n=5 Tax=Cicadomorpha ...  154        8e-40
+UniRef90_A0A1I8Q825 Uncharacterized protein n=1 Tax=Stomoxys calc...  153        2e-39
+UniRef90_A0A1I8Q831 Uncharacterized protein n=2 Tax=Stomoxys calc...  153        2e-39
+UniRef90_UPI0014828378 ankyrin repeat and BTB/POZ domain-containi...  153        3e-39
+UniRef90_A0A6J2UDC2 ankyrin repeat and BTB/POZ domain-containing ...  153        4e-39
+UniRef90_A0A1I8NA80 Uncharacterized protein n=1 Tax=Musca domesti...  151        9e-39
+UniRef90_A0A1I8NA82 Uncharacterized protein n=2 Tax=Musca domesti...  151        9e-39
+UniRef90_A0A6J1SLM2 ankyrin repeat and BTB/POZ domain-containing ...  151        1e-38
+UniRef90_A0A0P8XT64 Uncharacterized protein, isoform C n=20 Tax=m...  151        2e-38
+UniRef90_Q7KTV4 Uncharacterized protein, isoform B n=10 Tax=melan...  150        3e-38
+UniRef90_B4PDI8 Uncharacterized protein, isoform B n=2 Tax=Drosop...  150        3e-38
+UniRef90_A0A067RJ56 Ankyrin repeat and BTB/POZ domain-containing ...  150        4e-38
+UniRef90_A0A1B0GF69 Uncharacterized protein n=7 Tax=Glossina TaxI...  150        4e-38
+UniRef90_A0A1B0GL95 Uncharacterized protein n=1 Tax=Lutzomyia lon...  149        5e-38
+UniRef90_UPI001471CAD4 ankyrin repeat and BTB/POZ domain-containi...  149        6e-38
+UniRef90_UPI000BA00545 ankyrin repeat and BTB/POZ domain-containi...  149        6e-38
+UniRef90_B5DPI7 Uncharacterized protein n=12 Tax=obscura group Ta...  149        6e-38
+UniRef90_A0A6L2PCT7 Uncharacterized protein n=1 Tax=Coptotermes f...  149        1e-37
+UniRef90_B4MKG8 Uncharacterized protein n=2 Tax=Drosophila willis...  148        1e-37
+UniRef90_W5JBF9 Ankyrin repeat and BTB/POZ domain-containing prot...  148        1e-37
+UniRef90_B4LD94 Uncharacterized protein n=6 Tax=Drosophila TaxID=...  148        2e-37
+UniRef90_A0A182P6Y3 Uncharacterized protein n=1 Tax=Anopheles epi...  147        3e-37
+UniRef90_A0A182V6E6 Uncharacterized protein n=2 Tax=gambiae speci...  147        4e-37
+UniRef90_A0A4Y0BFL6 Uncharacterized protein n=1 Tax=Anopheles fun...  147        5e-37
+UniRef90_A0A182HH38 Uncharacterized protein n=1 Tax=Anopheles ara...  147        5e-37
+UniRef90_A0A182LZN9 Uncharacterized protein n=3 Tax=Cellia TaxID=...  147        5e-37
+UniRef90_A0A182IWM6 Uncharacterized protein n=1 Tax=Anopheles atr...  147        5e-37
+UniRef90_A0A453Z0D7 Uncharacterized protein n=6 Tax=Cellia TaxID=...  147        5e-37
+UniRef90_A0A0N8CQ10 Ankyrin repeat and BTB/POZ domain-containing ...  147        5e-37
+UniRef90_A0A084VHP7 AGAP011728-PA-like protein n=1 Tax=Anopheles ...  147        5e-37
+UniRef90_B0W2T0 Ankyrin repeat and BTB/POZ domain-containing prot...  147        5e-37
+UniRef90_A0A1S4FWR9 Uncharacterized protein n=7 Tax=Stegomyia Tax...  147        5e-37
+UniRef90_A0A182NPP6 Uncharacterized protein n=1 Tax=Anopheles dir...  146        9e-37
+UniRef90_A0A182QI38 Uncharacterized protein n=1 Tax=Anopheles far...  146        9e-37
+UniRef90_A0A423U1J2 Uncharacterized protein n=2 Tax=Penaeus vanna...  144        2e-36
+UniRef90_A0A336LUF4 CSON000986 protein n=1 Tax=Culicoides sonoren...  144        3e-36
+UniRef90_B4KV39 Uncharacterized protein, isoform A n=9 Tax=replet...  144        5e-36
+UniRef90_UPI0012D3BD22 ankyrin repeat and BTB/POZ domain-containi...  143        1e-35
+UniRef90_A0A5N5SLA5 Serine--pyruvate aminotransferase, mitochondr...  143        1e-35
+UniRef90_A0A1J1IZF9 CLUMA_CG018053, isoform A n=1 Tax=Clunio mari...  142        1e-35
+UniRef90_A0A482W321 Ankyrin repeat and BTB/POZ domain-containing ...  139        2e-34
+UniRef90_E0VXZ1 Uncharacterized protein n=2 Tax=Pediculus humanus...  137        1e-33
+UniRef90_UPI00084B9335 uncharacterized protein LOC108676527 isofo...  136        2e-33
+UniRef90_UPI00077F87E1 ankyrin repeat and BTB/POZ domain-containi...  135        5e-33
+UniRef90_A0A2P8Z5T2 Uncharacterized protein n=1 Tax=Blattella ger...  130        3e-31
+UniRef90_A0A553NF41 Uncharacterized protein (Fragment) n=1 Tax=Ti...  129        6e-31
+UniRef90_A0A6A4VV26 Ankyrin repeat and BTB/POZ domain-containing ...  126        4e-30
+UniRef90_A0A3B0JS07 Blast:Ankyrin repeat and BTB/POZ domain-conta...  125        1e-29
+UniRef90_UPI000E6D9269 ankyrin repeat and BTB/POZ domain-containi...  125        1e-29
+UniRef90_A0A0K2T3F0 Uncharacterized protein n=1 Tax=Lepeophtheiru...  124        2e-29
+UniRef90_UPI00156945EC ankyrin repeat and BTB/POZ domain-containi...  124        3e-29
+UniRef90_UPI000E6D8F01 ankyrin repeat and BTB/POZ domain-containi...  124        4e-29
+UniRef90_A0A2W1BXL1 Uncharacterized protein n=5 Tax=Noctuidae Tax...  122        2e-28
+UniRef90_A0A2H1X2F2 SFRICE_012779 n=10 Tax=Noctuidae TaxID=7100 R...  122        2e-28
+UniRef90_UPI000E77835F ankyrin repeat and BTB/POZ domain-containi...  121        2e-28
+UniRef90_H9IUZ2 Uncharacterized protein n=2 Tax=Bombyx mori TaxID...  121        2e-28
+UniRef90_UPI0015DEB48D ankyrin repeat and BTB/POZ domain-containi...  121        2e-28
+UniRef90_UPI000C1444DC ankyrin repeat and BTB/POZ domain-containi...  121        3e-28
+UniRef90_UPI000C756D18 ankyrin repeat and BTB/POZ domain-containi...  121        3e-28
+UniRef90_UPI0011836E84 ankyrin repeat and BTB/POZ domain-containi...  121        4e-28
+UniRef90_UPI000E773893 ankyrin repeat and BTB/POZ domain-containi...  121        4e-28
+UniRef90_A0A6J2JUB6 ankyrin repeat and BTB/POZ domain-containing ...  121        5e-28
+UniRef90_A0A194Q697 Ankyrin repeat and BTB/POZ domain-containing ...  120        7e-28
+UniRef90_UPI000679A560 ankyrin repeat and BTB/POZ domain-containi...  120        9e-28
+UniRef90_UPI000B928666 ankyrin repeat and BTB/POZ domain-containi...  119        2e-27
+UniRef90_UPI000B927EBA ankyrin repeat and BTB/POZ domain-containi...  119        2e-27
+UniRef90_UPI0013C477D5 ankyrin repeat and BTB/POZ domain-containi...  119        2e-27
+UniRef90_A0A212EVK5 Uncharacterized protein n=1 Tax=Danaus plexip...  118        3e-27
+UniRef90_A0A6J1NWP9 ankyrin repeat and BTB/POZ domain-containing ...  117        1e-26
+UniRef90_A0A6A0HHC6 Uncharacterized protein n=1 Tax=Hyalella azte...  115        4e-26
+UniRef90_UPI00103AC836 ankyrin repeat and BTB/POZ domain-containi...  114        9e-26
+UniRef90_A0A094ZL95 Potassium voltage-gated channel protein Shal ...  108        1e-23
+UniRef90_A0A6H5IS94 Uncharacterized protein n=2 Tax=Trichogramma ...  107        2e-23
+UniRef90_A0A443SMG3 Ankyrin repeat and BTB/POZ domain-containing ...  106        6e-23
+UniRef90_A0A0J9RMR1 BTB domain-containing protein n=2 Tax=Drosoph...  101        3e-21
+UniRef90_UPI000BE16986 ankyrin repeat and BTB/POZ domain-containi...  99.1       1e-20
+UniRef90_A0A1V9X090 Ankyrin repeat and BTB/POZ domain-containing ...  95.6       2e-19
+UniRef90_A0A654GS57 BTB domain-containing protein n=1 Tax=Spargan...  93.7       1e-18
+UniRef90_A0A1I8HH64 BTB domain-containing protein n=1 Tax=Macrost...  93.0       2e-18
+UniRef90_A0A662YM01 Ankyrin repeat and BTB/POZ domain-containing ...  92.2       3e-18
+UniRef90_A0A226D2L0 Ankyrin repeat and BTB/POZ domain-containing ...  84.5       9e-18
+UniRef90_A6QL63 Ankyrin repeat and BTB/POZ domain-containing prot...  88.7       5e-17
+UniRef90_A0A6G1PJG9 Potassium voltage-gated channel subfamily S m...  87.2       1e-16
+UniRef90_A0A430QA21 BTB domain-containing protein n=1 Tax=Schisto...  86.8       2e-16
+UniRef90_A0A183JX70 BTB domain-containing protein n=1 Tax=Schisto...  86.0       4e-16
+UniRef90_A0A183MFE7 BTB domain-containing protein n=1 Tax=Schisto...  84.9       1e-15
+UniRef90_A0A6G0UL81 LITAF domain-containing protein n=1 Tax=Halic...  78.7       1e-13
+UniRef90_A5C2B5 BTB domain-containing protein n=1 Tax=Vitis vinif...  78.3       2e-13
+UniRef90_UPI000F4F2301 N-acetyl-beta-glucosaminyl-glycoprotein 4-...  76.8       5e-13
+UniRef90_A0A0D3EE29 BTB domain-containing protein n=5 Tax=Brassic...  76.0       8e-13
+UniRef90_A0A3S2NLH9 ANK_REP_REGION domain-containing protein n=1 ...  74.8       2e-12
+UniRef90_A0A0C9R2N5 Abtb2 protein (Fragment) n=5 Tax=Fopius arisa...  74.5       3e-12
+UniRef90_A0A498MX18 N-acetyl-beta-glucosaminyl-glyco 4-beta-N-ace...  73.7       6e-12
+UniRef90_A0A2U3EI67 AAA domain-containing protein n=1 Tax=Purpure...  72.9       9e-12
+UniRef90_L9KRW8 Putative RNA-binding protein 15 (Fragment) n=1 Ta...  71.8       2e-11
+UniRef90_E2AZM0 RCC1 and BTB domain-containing protein 1 n=1 Tax=...  71.8       3e-11
+UniRef90_A0A6A4TAS1 Complex I-B14.5a n=1 Tax=Scophthalmus maximus...  69.1       2e-10
+UniRef90_A0A1A8UC08 Potassium voltage-gated channel subfamily A m...  68.3       4e-10
+UniRef90_A0A6J0FQH3 uncharacterized protein LOC108017603 n=1 Tax=...  66.4       1e-09
+UniRef90_A0A6A4TFS6 Uncharacterized protein n=1 Tax=Scophthalmus ...  66.0       2e-09
+UniRef90_A0A6L5D038 Uncharacterized protein n=1 Tax=Ephemera dani...  65.2       3e-09
+UniRef90_L8HAB9 BTB/POZ domain containing protein n=1 Tax=Acantha...  64.8       5e-09
+UniRef90_E4YA38 VWFA domain-containing protein n=2 Tax=Oikopleura...  64.4       5e-09
+UniRef90_A0A1W0WDQ0 Ankyrin repeat and BTB/POZ domain-containing ...  64.1       8e-09
+UniRef90_A0A1I8F8E7 BTB_2 domain-containing protein n=1 Tax=Macro...  64.1       9e-09
+UniRef90_A0A166MQR1 BTB domain-containing protein n=1 Tax=Fibular...  62.9       2e-08
+UniRef90_A0A166MQV2 BTB domain-containing protein n=1 Tax=Fibular...  62.9       2e-08
+UniRef90_UPI00094830B7 uncharacterized protein LOC109477949 n=1 T...  62.5       2e-08
+UniRef90_A0A5J5CHE2 Uncharacterized protein n=1 Tax=Etheostoma sp...  62.5       3e-08
+UniRef90_A0A2C5Z932 Carboxypeptidase n=1 Tax=Ophiocordyceps campo...  62.1       4e-08
+UniRef90_A0A2T4APE4 Uncharacterized protein n=1 Tax=Trichoderma h...  61.8       5e-08
+UniRef90_A0A3N0YAN7 Kelch repeat and BTB domain-containing protei...  61.4       7e-08
+UniRef90_A0A1Q9EML2 Leucine-zipper-like transcriptional regulator...  61.0       8e-08
+UniRef90_A0A556TNL8 FYVE, RhoGEF and PH domain-containing protein...  61.0       8e-08
+UniRef90_UPI000947BC13 uncharacterized protein LOC109474632 n=1 T...  61.0       9e-08
+UniRef90_A0A0E0PEC1 Uncharacterized protein n=7 Tax=Oryza TaxID=4...  60.6       1e-07
+UniRef90_UPI000947AE6A LOW QUALITY PROTEIN: uncharacterized prote...  60.6       1e-07
+UniRef90_UPI00148AA5C6 uncharacterized protein LOC109617094 n=1 T...  60.6       1e-07
+UniRef90_F9F537 Uncharacterized protein n=1 Tax=Fusarium oxysporu...  60.6       1e-07
+UniRef90_UPI0015ACC6AB uncharacterized protein LOC118197667 n=2 T...  60.6       1e-07
+UniRef90_UPI0005214BF4 LOW QUALITY PROTEIN: uncharacterized prote...  59.8       2e-07
+UniRef90_UPI0009478F13 uncharacterized protein LOC109484262 n=1 T...  59.4       3e-07
+UniRef90_UPI0008166D20 zinc finger and BTB domain-containing prot...  59.1       3e-07
+UniRef90_A0A5J4Z7W0 ARM repeat protein interacting with ABF2 n=1 ...  59.1       4e-07
+UniRef90_A0A2I0UQ16 BTB domain-containing protein n=2 Tax=Scolopa...  58.7       5e-07
+UniRef90_A0A2R5GPF9 Kelch domain-containing protein 3 n=1 Tax=Hon...  58.3       5e-07
+UniRef90_L5LH79 Tyrosine-protein phosphatase non-receptor type 23...  58.3       7e-07
+UniRef90_UPI000E1BBFE3 zinc finger and BTB domain-containing prot...  57.9       9e-07
+UniRef90_UPI000DC67300 uncharacterized protein LOC105248375 n=1 T...  57.5       1e-06
+UniRef90_A0A183K0A8 BTB domain-containing protein n=3 Tax=Schisto...  57.5       1e-06
+UniRef90_A0A0E0FI38 Uncharacterized protein n=3 Tax=Oryza TaxID=4...  57.5       1e-06
+UniRef90_UPI000947956B uncharacterized protein LOC109482312 n=1 T...  57.1       1e-06
+UniRef90_UPI000E1B5E50 AP2-interacting clathrin-endocytosis prote...  57.1       1e-06
+UniRef90_A0A1I7ZBP9 Uncharacterized protein n=2 Tax=Steinernema g...  56.7       2e-06
+UniRef90_A0A151WPE3 RCC1 and BTB domain-containing protein 1 n=1 ...  56.7       2e-06
+UniRef90_A0A183QH73 BTB domain-containing protein n=3 Tax=Schisto...  56.7       2e-06
+UniRef90_A0A0D9X9Y2 Uncharacterized protein n=1 Tax=Leersia perri...  56.7       2e-06
+UniRef90_A0A0D3HDW6 Uncharacterized protein n=1 Tax=Oryza barthii...  56.4       3e-06
+UniRef90_A0A0K6G3G4 Putative WD repeat-containing protein all2124...  56.4       3e-06
+UniRef90_A0A0E0ISC3 Uncharacterized protein n=1 Tax=Oryza nivara ...  56.4       3e-06
+UniRef90_A0A0D3H2B0 Uncharacterized protein n=4 Tax=Oryza TaxID=4...  56.4       3e-06
+UniRef90_A0A4Z2D594 Kelch-like protein n=1 Tax=Schistosoma japoni...  56.4       3e-06
+UniRef90_UPI0011C37EEE AP2-interacting clathrin-endocytosis prote...  56.0       3e-06
+UniRef90_A0A074ZSP8 BTB/POZ domain-containing protein 9 n=1 Tax=O...  56.0       3e-06
+UniRef90_UPI000B76DBE3 uncharacterized protein LOC110638420 n=1 T...  56.0       4e-06
+UniRef90_M2RAR4 BTB domain-containing protein (Fragment) n=1 Tax=...  56.0       4e-06
+UniRef90_C3ZFV7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  55.6       5e-06
+UniRef90_A0A0D3GW01 Uncharacterized protein n=2 Tax=Oryza TaxID=4...  55.6       5e-06
+UniRef90_UPI000A36C80A LOW QUALITY PROTEIN: uncharacterized prote...  55.2       6e-06
+UniRef90_A0A6A4TDU6 Uncharacterized protein n=2 Tax=Scophthalmus ...  55.2       6e-06
+UniRef90_UPI000E1EB6FF AP2-interacting clathrin-endocytosis prote...  55.2       6e-06
+UniRef90_A0A232ET80 Uncharacterized protein n=1 Tax=Trichomalopsi...  55.2       6e-06
+UniRef90_C3ZFT7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  55.2       7e-06
+UniRef90_UPI000523E4B6 uncharacterized protein KIAA1107 homolog n...  55.2       7e-06
+UniRef90_A0A5D6YCQ3 Uncharacterized protein n=1 Tax=Pythium brass...  55.2       7e-06
+UniRef90_K7GTN3 Uncharacterized protein n=3 Tax=Caenorhabditis ja...  54.8       9e-06
+UniRef90_A0A182DZU5 Uncharacterized protein n=1 Tax=Onchocerca oc...  54.8       9e-06
+UniRef90_A0A075AJ31 BTB domain-containing protein n=4 Tax=Opistho...  54.8       9e-06
+UniRef90_UPI000E1DBBE8 AP2-interacting clathrin-endocytosis prote...  54.8       9e-06
+UniRef90_A0A6I9JNV6 ankyrin repeat and FYVE domain-containing pro...  54.8       9e-06
+UniRef90_L8YDJ0 Calmodulin-regulated spectrin-associated protein ...  54.8       9e-06
+UniRef90_A0A1Q9E6R7 Leucine-zipper-like transcriptional regulator...  54.4       1e-05
+UniRef90_A0A1I8JMB5 Uncharacterized protein n=1 Tax=Macrostomum l...  54.4       1e-05
+UniRef90_A0A3R7H131 Kelch-like protein 5 (Fragment) n=1 Tax=Clono...  54.0       1e-05
+UniRef90_A0A151M516 BTB domain-containing protein n=10 Tax=Crocod...  54.0       1e-05
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.124    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0378    0.140     1.90     42.6     43.6 
+
+Effective search space used: 564888831036
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

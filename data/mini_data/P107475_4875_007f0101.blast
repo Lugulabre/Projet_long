@@ -1,0 +1,90 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|P10747-5|CD28_HUMAN Isoform 5 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=55
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A4R6SY40 Gliding motility-associated-like protein n=1 ...  31.6       4.3  
+UniRef90_A0A1M6I3V2 Iron Transport-associated domain-containing p...  30.8       6.4  
+UniRef90_A0A432T8R0 DUF4150 domain-containing protein (Fragment) ...  30.8       6.7  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 99307159025
+Results from round 2
+
+
+Query= sp|P10747-5|CD28_HUMAN Isoform 5 of T-cell-specific surface
+glycoprotein CD28 OS=Homo sapiens OX=9606 GN=CD28
+
+Length=55
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A4R6SY40 Gliding motility-associated-like protein n=1 ...  32.3       1.8  
+UniRef90_UPI000288D40A T9SS type A sorting domain-containing prot...  31.2       6.0  
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 99307159025
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

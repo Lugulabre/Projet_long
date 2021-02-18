@@ -1,0 +1,203 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q6P4Q7-2|CNNM4_HUMAN Isoform 2 of Metal transporter CNNM4 OS=Homo
+sapiens OX=9606 GN=CNNM4
+
+Length=263
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  160        3e-42
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  119        9e-28
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  119        1e-27
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  118        1e-27
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  105        4e-23
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  105        4e-23
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  70.1       4e-11
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  57.8       6e-07
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  52.4       3e-05
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  50.1       2e-04
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  38.9       0.83 
+UniRef90_UPI00062316B5 uncharacterized protein LOC105670970 n=1 T...  38.5       1.2  
+UniRef90_UPI000816A55F filamentous hemagglutinin N-terminal domai...  37.7       2.0  
+UniRef90_UPI001586757C hypothetical protein n=1 Tax=Pseudomonas s...  37.0       3.3  
+UniRef90_A0A2T5RI10 Uncharacterized protein n=10 Tax=Halanaerobiu...  36.6       5.3  
+UniRef90_Q23JB3 Uncharacterized protein n=1 Tax=Tetrahymena therm...  36.2       6.7  
+UniRef90_A0A452DX13 Uncharacterized protein n=1 Tax=Capra hircus ...  36.2       7.4  
+UniRef90_A0A4W2GXA4 Uncharacterized protein n=1 Tax=Bos indicus x...  35.8       8.3  
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  35.8       8.4  
+UniRef90_A0A4W2ERM7 Latent transforming growth factor beta bindin...  35.8       8.5  
+UniRef90_A0A158NZG9 Nicotinamide-nucleotide adenylyltransferase n...  35.4       9.9  
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 467888457625
+Results from round 2
+
+
+Query= sp|Q6P4Q7-2|CNNM4_HUMAN Isoform 2 of Metal transporter CNNM4 OS=Homo
+sapiens OX=9606 GN=CNNM4
+
+Length=263
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  237        9e-69
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  235        2e-68
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  232        4e-67
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  228        2e-65
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  212        4e-60
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  208        1e-58
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  201        2e-56
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  178        3e-48
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  171        8e-46
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  133        1e-32
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A4X3PEB2 Ankyrin repeat-containing protein n=2 Tax=Pri...  59.4       2e-07
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  46.7       0.003
+UniRef90_V4Z6N8 CBS domain-containing protein n=16 Tax=Toxoplasma...  46.7       0.003
+UniRef90_A0A6H5ILD8 Uncharacterized protein n=1 Tax=Trichogramma ...  46.7       0.003
+UniRef90_A0A1Q9DLV2 ADP,ATP carrier protein n=1 Tax=Symbiodinium ...  45.1       0.009
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  43.6       0.029
+UniRef90_A0A3P3YNY2 Uncharacterized protein n=2 Tax=Plasmodiophor...  43.2       0.039
+UniRef90_F0VAK7 Uncharacterized protein n=2 Tax=Neospora caninum ...  41.3       0.16 
+UniRef90_D8M6S5 Uncharacterized protein n=1 Tax=Blastocystis homi...  41.3       0.17 
+UniRef90_G3TYZ6 Tensin 1 n=1 Tax=Loxodonta africana TaxID=9785 Re...  41.3       0.17 
+UniRef90_A0A1D3LDT7 Uncharacterized protein n=6 Tax=Plasmodium (V...  40.5       0.26 
+UniRef90_A0A286USA8 Pkinase-domain-containing n=1 Tax=Pyrrhoderma...  40.5       0.26 
+UniRef90_A0A2C6L7P3 Cbs domain-containing protein n=1 Tax=Cystois...  39.8       0.49 
+UniRef90_UPI0005406978 tensin-1 n=1 Tax=Loxodonta africana TaxID=...  38.6       1.00 
+UniRef90_A0A6B2KWD2 Uncharacterized protein n=1 Tax=Arcella inter...  38.6       1.0  
+UniRef90_A0A522LQB2 4-alpha-glucanotransferase (Fragment) n=1 Tax...  38.6       1.1  
+UniRef90_A0A0X3P444 Mitogen-activated protein kinase kinase kinas...  38.6       1.2  
+UniRef90_A0A3Q1B933 Uncharacterized protein n=1 Tax=Amphiprion oc...  38.6       1.3  
+UniRef90_G3SLZ9 Tensin 1 n=1 Tax=Loxodonta africana TaxID=9785 Re...  38.2       1.3  
+UniRef90_A0A2Y9G078 tensin-1 isoform X2 n=3 Tax=Trichechus manatu...  38.2       1.6  
+UniRef90_A0A2I4BKA4 protocadherin-16-like n=2 Tax=Rivulidae TaxID...  38.2       1.7  
+UniRef90_UPI0010A4D44E E3 ubiquitin-protein ligase HECW2 n=1 Tax=...  37.8       1.7  
+UniRef90_G3WJ05 Protein kinase domain-containing protein n=4 Tax=...  37.8       1.8  
+UniRef90_R9A9S5 Chromatin elongation factor SPT6 n=3 Tax=Wallemia...  37.4       2.4  
+UniRef90_A0A0X3NH77 CRIB domain-containing protein n=1 Tax=Schist...  37.4       2.4  
+UniRef90_K6UT92 Uncharacterized protein n=1 Tax=Plasmodium cynomo...  37.1       3.6  
+UniRef90_A0A6I9K0A8 tensin-1 n=1 Tax=Chrysochloris asiatica TaxID...  36.7       4.1  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.128    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0391    0.140     1.90     42.6     43.6 
+
+Effective search space used: 467888457625
+Results from round 3
+
+
+Query= sp|Q6P4Q7-2|CNNM4_HUMAN Isoform 2 of Metal transporter CNNM4 OS=Homo
+sapiens OX=9606 GN=CNNM4
+
+Length=263
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A2A4K7S3 Uncharacterized protein n=1 Tax=Heliothis vir...  241        4e-70
+UniRef90_UPI000B3C5A89 metal transporter CNNM4 n=1 Tax=Bombyx mor...  236        2e-68
+UniRef90_UPI0012675C9C uncharacterized protein LOC116170194 n=1 T...  234        9e-68
+UniRef90_A0A1J1IK57 CLUMA_CG012140, isoform A n=1 Tax=Clunio mari...  227        4e-65
+UniRef90_A0A6A7G0V6 Metal transporter CNNM4-like (Fragment) n=1 T...  208        8e-59
+UniRef90_UPI000BE19C60 metal transporter CNNM4-like isoform X1 n=...  197        6e-55
+UniRef90_A0A556U353 Interleukin-1 n=1 Tax=Bagarius yarrelli TaxID...  195        4e-54
+UniRef90_H3F3T1 Glucosylceramidase n=2 Tax=Pristionchus pacificus...  188        7e-52
+UniRef90_A0A0N4Z0S2 Flavin-containing monooxygenase n=1 Tax=Paras...  177        5e-48
+UniRef90_A0A1I8GF82 Uncharacterized protein n=1 Tax=Macrostomum l...  160        4e-42
+UniRef90_A0A4X3PEB2 Ankyrin repeat-containing protein n=2 Tax=Pri...  149        2e-38
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_V4Z6N8 CBS domain-containing protein n=16 Tax=Toxoplasma...  46.7       0.003
+UniRef90_A0A6H5ILD8 Uncharacterized protein n=1 Tax=Trichogramma ...  46.3       0.003
+UniRef90_A0A2A9M7R4 CBS domain-containing protein n=1 Tax=Besnoit...  46.3       0.004
+UniRef90_A0A1Q9DLV2 ADP,ATP carrier protein n=1 Tax=Symbiodinium ...  45.2       0.008
+UniRef90_F0VAK7 Uncharacterized protein n=2 Tax=Neospora caninum ...  44.8       0.012
+UniRef90_A0A2C6L7P3 Cbs domain-containing protein n=1 Tax=Cystois...  42.5       0.060
+UniRef90_A0A1Q9EJD6 Metal transporter CNNM4 n=1 Tax=Symbiodinium ...  42.1       0.081
+UniRef90_A0A3P3YNY2 Uncharacterized protein n=2 Tax=Plasmodiophor...  41.3       0.15 
+UniRef90_D8M6S5 Uncharacterized protein n=1 Tax=Blastocystis homi...  41.0       0.21 
+UniRef90_A0A286USA8 Pkinase-domain-containing n=1 Tax=Pyrrhoderma...  39.4       0.59 
+UniRef90_A0A1Y5SKT0 WD domain, G-beta repeat n=1 Tax=Ruegeria lit...  39.0       0.70 
+UniRef90_A0A0X3P444 Mitogen-activated protein kinase kinase kinas...  39.4       0.71 
+UniRef90_A0A1D3LDT7 Uncharacterized protein n=6 Tax=Plasmodium (V...  39.4       0.73 
+UniRef90_A0A3Q1B933 Uncharacterized protein n=1 Tax=Amphiprion oc...  38.3       1.3  
+UniRef90_G3WJ05 Protein kinase domain-containing protein n=4 Tax=...  38.3       1.3  
+UniRef90_A0A0X3NH77 CRIB domain-containing protein n=1 Tax=Schist...  38.3       1.4  
+UniRef90_A0A4X3P1J2 E3 ubiquitin-protein ligase n=2 Tax=Pristionc...  38.3       1.5  
+UniRef90_UPI0006C9A5ED zinc finger SWIM domain-containing protein...  37.1       3.5  
+UniRef90_K6UT92 Uncharacterized protein n=1 Tax=Plasmodium cynomo...  37.1       3.6  
+UniRef90_H6C0Q9 RanBD1 domain-containing protein n=1 Tax=Exophial...  36.7       4.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.124    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0379    0.140     1.90     42.6     43.6 
+
+Effective search space used: 467888457625
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -16,12 +16,12 @@ use Cwd qw(abs_path);
 ## IMPORTANT: Set the paths to folder with the NCBI executables and to the
 ## sequence database
 
-my $NCBI_DIR = "/usr/local/ncbi/blast/bin/";
-my $SEQ_DB = "/home/uniref/uniref90";
+my $NCBI_DIR = "/usr/bin/";
+my $SEQ_DB = "/media/mael/Disque_externe_1To/database_reduce/uniref90";
 
 ## IMPORTANT: Changing these flags will alter the behaviour of blastpgp
 ## You may want to use -a n to speed-up the search using n processors, if available
-my $PSIBLAST_PAR = "-num_threads 2 -evalue 0.001";
+my $PSIBLAST_PAR = "-num_threads 6 -evalue 0.001";
 
 ## IMPORTANT: Moving the bin/, data, or dso_lib directories to a different location will cause the programs
 ## to crash, unless you change the variables below accordingly
@@ -52,7 +52,7 @@ my ($hits_file, $chk_file) = map {my $name = join '.', $tmp_base, $_; join '/', 
 
 print "Running PSI-BLAST search ...\n\n";
 # run psiblast
-my $args = join ' ', $NCBI_DIR."psiblast", "-import_search_strategy", $fasta_fn, "-db", $SEQ_DB, $PSIBLAST_PAR, "-out_pssm", $chk_file, "-out", $hits_file, "\n";
+my $args = join ' ', $NCBI_DIR."psiblast", "-query", $fasta_fn, "-db", $SEQ_DB, $PSIBLAST_PAR, "-out_pssm", $chk_file, "-out", $hits_file, "\n";
 system($args) == 0 or die "[$0] ERROR: $args failed: $?\n";
 
 print "Generating PSSM ...\n\n";
@@ -63,7 +63,7 @@ system($args) == 0 or die "[$0] ERROR: $args failed: $?\n";
 $args = join ' ', "echo", $fasta_fn, ">", $tmp_base.".sn", "\n";
 system($args) == 0 or die "[$0] ERROR: $args failed: $?\n";
 
-$args = join ' ', $NCBI_DIR."makemat", "-P", $tmp_base, "\n";
+$args = join ' ', "./makemat", "-P", $tmp_base, "\n";
 system($args) == 0 or die "[$0] ERROR: $args failed: $?\n";
 
 my $mtx_fn = join '/', $out_dir, $tmp_base.".mtx";

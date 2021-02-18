@@ -1,0 +1,345 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|Q13362-3|2A5G_HUMAN Isoform Gamma-2 of Serine/threonine-protein
+phosphatase 2A 56 kDa regulatory subunit gamma isoform OS=Homo
+sapiens OX=9606 GN=PPP2R5C
+
+Length=485
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A556TR75 Serine/threonine-protein phosphatase 2A 56 kD...  797        0.0   
+UniRef90_A0A6A4RSJ9 HATPase_c domain-containing protein n=1 Tax=S...  722        0.0   
+UniRef90_A0A662YN55 Serine/threonine-protein phosphatase 2A 56 kD...  718        0.0   
+UniRef90_A0A182NEQ2 Uncharacterized protein n=1 Tax=Anopheles dir...  703        0.0   
+UniRef90_A0A182F653 Uncharacterized protein n=1 Tax=Anopheles alb...  702        0.0   
+UniRef90_A0A182JUI9 Uncharacterized protein n=1 Tax=Anopheles chr...  701        0.0   
+UniRef90_A0A182YNE9 Uncharacterized protein n=1 Tax=Anopheles ste...  694        0.0   
+UniRef90_A0A182LXE0 Uncharacterized protein n=1 Tax=Anopheles cul...  693        0.0   
+UniRef90_A0A182TQW5 Uncharacterized protein n=2 Tax=gambiae speci...  692        0.0   
+UniRef90_T1IPX7 Uncharacterized protein n=1 Tax=Strigamia maritim...  689        0.0   
+UniRef90_A0A182QX05 Uncharacterized protein n=1 Tax=Anopheles far...  675        0.0   
+UniRef90_A0A194PME8 Serine/threonine-protein phosphatase 2A 56 kD...  660        0.0   
+UniRef90_A0A4Y9XQ98 Uncharacterized protein n=1 Tax=Dentipellis f...  628        0.0   
+UniRef90_A0A1W0XB98 Serine/threonine-protein phosphatase 2A 56 kD...  623        0.0   
+UniRef90_A0A2S4WEG4 Uncharacterized protein n=1 Tax=Puccinia stri...  607        0.0   
+UniRef90_A0A3M0W2W8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  600        0.0   
+UniRef90_A0A261Y113 snRNP core protein D2 n=1 Tax=Bifiguratus ade...  599        0.0   
+UniRef90_A0A1F5LXB0 Non-specific serine/threonine protein kinase ...  597        0.0   
+UniRef90_A0A2I1D1Q5 Non-specific serine/threonine protein kinase ...  596        0.0   
+UniRef90_A0A2I0RML3 Formylglycinamide ribonucleotide amidotransfe...  595        0.0   
+UniRef90_A0A498LQ39 Potassium voltage-gated channel subfamily H m...  595        0.0   
+UniRef90_A0A443HJQ2 Transcription-associated protein n=2 Tax=Byss...  595        0.0   
+UniRef90_A0A401KGA1 Transcription-associated protein 1 n=17 Tax=A...  594        0.0   
+UniRef90_A0A139HD11 Formylglycinamide ribonucleotide amidotransfe...  593        0.0   
+UniRef90_A0A177FPR3 Uncharacterized protein n=9 Tax=Herpotrichiel...  592        0.0   
+UniRef90_A0A5N6Z970 Transcription-associated protein n=1 Tax=Aspe...  591        0.0   
+UniRef90_A0A5N6G0X2 Transcription-associated protein n=1 Tax=Petr...  591        0.0   
+UniRef90_K1Y4X4 Protein phosphatase 2A regulatory B subunit n=1 T...  590        0.0   
+UniRef90_A0A2U3E627 Uncharacterized protein n=2 Tax=Purpureocilli...  590        0.0   
+UniRef90_A0A6A6PTE5 Formylglycinamide ribonucleotide amidotransfe...  590        0.0   
+UniRef90_A0A168MPY9 Uncharacterized protein n=1 Tax=Absidia glauc...  544        4e-176
+UniRef90_A0A4S4ECQ4 HAUS6_N domain-containing protein n=1 Tax=Cam...  491        1e-159
+UniRef90_A0A183BJV3 Transket_pyr domain-containing protein n=1 Ta...  484        4e-156
+UniRef90_A0A3Q7FE45 Uncharacterized protein n=2 Tax=Solanum subge...  486        1e-153
+UniRef90_A0A498HQL1 Peptidase_M3 domain-containing protein n=2 Ta...  483        5e-153
+UniRef90_A0A6A5P5A9 Peptidase_M3 domain-containing protein n=2 Ta...  471        5e-152
+UniRef90_A0A4D9BJT9 Serine/threonine-protein phosphatase 2A regul...  471        2e-147
+UniRef90_A0A5N6LNB6 Peptidase_M3 domain-containing protein n=1 Ta...  459        4e-147
+UniRef90_A0A498JK81 Uncharacterized protein n=1 Tax=Malus domesti...  468        2e-146
+UniRef90_UPI000779FB1D uncharacterized protein LOC107331131 isofo...  414        4e-129
+UniRef90_A0A1W0A9J9 Uncharacterized protein n=1 Tax=Thraustotheca...  419        2e-128
+UniRef90_U6LNR4 DNA ligase (NAD(+)) n=1 Tax=Eimeria brunetti TaxI...  387        2e-117
+UniRef90_UPI001470CF21 uncharacterized protein LOC117509026 n=1 T...  351        1e-106
+UniRef90_A0A1B0AP78 Uncharacterized protein n=2 Tax=Nemorhina Tax...  339        2e-102
+UniRef90_A0A1B0GA63 Uncharacterized protein n=3 Tax=Glossina TaxI...  336        6e-102
+UniRef90_A0A1A9WPI9 Uncharacterized protein n=1 Tax=Glossina brev...  334        1e-100
+UniRef90_A0A6H5GQY3 Uncharacterized protein n=1 Tax=Nesidiocoris ...  327        2e-97 
+UniRef90_A0A1B0AP79 Uncharacterized protein n=1 Tax=Glossina palp...  256        1e-72 
+UniRef90_D8M5L3 Uncharacterized protein n=1 Tax=Blastocystis homi...  255        7e-72 
+UniRef90_A0A1Q9CVU1 Serine/threonine-protein phosphatase 2A 56 kD...  247        3e-69 
+UniRef90_A0A183C9H8 BHLH domain-containing protein n=1 Tax=Globod...  233        2e-64 
+UniRef90_A0A1Q9C382 Serine/threonine protein phosphatase 2A 59 kD...  226        7e-62 
+UniRef90_A0A1V9ZYL8 Neutral alpha-glucosidase n=1 Tax=Thraustothe...  210        2e-56 
+UniRef90_A0A1Q9CVN7 Serine/threonine protein phosphatase 2A 59 kD...  154        2e-37 
+UniRef90_X6NCA5 CAP-Gly domain-containing protein n=1 Tax=Reticul...  149        1e-35 
+UniRef90_A0A1Q9DAM5 Arylsulfatase B n=1 Tax=Symbiodinium microadr...  115        2e-24 
+UniRef90_A0A2N9FS44 Reverse transcriptase domain-containing prote...  97.8       7e-19 
+UniRef90_A0A5A8E6W5 Protein kinase domain-containing protein n=2 ...  77.4       3e-12 
+UniRef90_A0A3R7X7F1 ENTH domain-containing protein n=1 Tax=Aphano...  48.1       0.003 
+UniRef90_D8LEM5 Uncharacterized protein n=2 Tax=Ectocarpus TaxID=...  43.5       0.086 
+UniRef90_A0A2P6V5K8 200 kDa antigen isoform B n=2 Tax=Micractiniu...  41.2       0.46  
+UniRef90_A0A0M0K1P6 Uncharacterized protein n=1 Tax=Chrysochromul...  40.8       0.60  
+UniRef90_A0A3N4KMY5 Uncharacterized protein n=1 Tax=Morchella con...  38.5       3.1   
+UniRef90_A0A2U3DQR8 Uncharacterized protein n=1 Tax=Purpureocilli...  38.1       3.9   
+UniRef90_A0A2C9K4Z2 Uncharacterized protein n=1 Tax=Biomphalaria ...  38.1       5.1   
+UniRef90_A0A0N5D8A0 Uncharacterized protein n=1 Tax=Thelazia call...  37.7       5.3   
+UniRef90_A0A1M5R3L5 Peptidase family M23 n=1 Tax=Flavobacterium f...  37.7       5.8   
+UniRef90_UPI000B0804EF hypothetical protein n=2 Tax=unclassified ...  37.4       8.3   
+UniRef90_A0A1T2KXV5 LamGL domain-containing protein n=1 Tax=Solem...  37.0       9.7   
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1267606185240
+Results from round 2
+
+
+Query= sp|Q13362-3|2A5G_HUMAN Isoform Gamma-2 of Serine/threonine-protein
+phosphatase 2A 56 kDa regulatory subunit gamma isoform OS=Homo
+sapiens OX=9606 GN=PPP2R5C
+
+Length=485
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A182F653 Uncharacterized protein n=1 Tax=Anopheles alb...  710        0.0   
+UniRef90_A0A182NEQ2 Uncharacterized protein n=1 Tax=Anopheles dir...  709        0.0   
+UniRef90_A0A556TR75 Serine/threonine-protein phosphatase 2A 56 kD...  707        0.0   
+UniRef90_A0A2U3E627 Uncharacterized protein n=2 Tax=Purpureocilli...  707        0.0   
+UniRef90_A0A182LXE0 Uncharacterized protein n=1 Tax=Anopheles cul...  702        0.0   
+UniRef90_A0A2I0RML3 Formylglycinamide ribonucleotide amidotransfe...  701        0.0   
+UniRef90_A0A182JUI9 Uncharacterized protein n=1 Tax=Anopheles chr...  699        0.0   
+UniRef90_A0A139HD11 Formylglycinamide ribonucleotide amidotransfe...  697        0.0   
+UniRef90_A0A182YNE9 Uncharacterized protein n=1 Tax=Anopheles ste...  694        0.0   
+UniRef90_A0A6A6PTE5 Formylglycinamide ribonucleotide amidotransfe...  693        0.0   
+UniRef90_A0A182TQW5 Uncharacterized protein n=2 Tax=gambiae speci...  675        0.0   
+UniRef90_A0A443HJQ2 Transcription-associated protein n=2 Tax=Byss...  675        0.0   
+UniRef90_A0A4Y9XQ98 Uncharacterized protein n=1 Tax=Dentipellis f...  674        0.0   
+UniRef90_A0A177FPR3 Uncharacterized protein n=9 Tax=Herpotrichiel...  673        0.0   
+UniRef90_K1Y4X4 Protein phosphatase 2A regulatory B subunit n=1 T...  672        0.0   
+UniRef90_A0A3M0W2W8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  669        0.0   
+UniRef90_A0A401KGA1 Transcription-associated protein 1 n=17 Tax=A...  669        0.0   
+UniRef90_A0A2I1D1Q5 Non-specific serine/threonine protein kinase ...  667        0.0   
+UniRef90_A0A5N6G0X2 Transcription-associated protein n=1 Tax=Petr...  667        0.0   
+UniRef90_A0A1F5LXB0 Non-specific serine/threonine protein kinase ...  664        0.0   
+UniRef90_A0A194PME8 Serine/threonine-protein phosphatase 2A 56 kD...  663        0.0   
+UniRef90_A0A5N6Z970 Transcription-associated protein n=1 Tax=Aspe...  662        0.0   
+UniRef90_A0A182QX05 Uncharacterized protein n=1 Tax=Anopheles far...  657        0.0   
+UniRef90_A0A261Y113 snRNP core protein D2 n=1 Tax=Bifiguratus ade...  656        0.0   
+UniRef90_A0A1W0XB98 Serine/threonine-protein phosphatase 2A 56 kD...  653        0.0   
+UniRef90_A0A2S4WEG4 Uncharacterized protein n=1 Tax=Puccinia stri...  647        0.0   
+UniRef90_A0A662YN55 Serine/threonine-protein phosphatase 2A 56 kD...  640        0.0   
+UniRef90_A0A498LQ39 Potassium voltage-gated channel subfamily H m...  635        0.0   
+UniRef90_A0A3Q7FE45 Uncharacterized protein n=2 Tax=Solanum subge...  635        0.0   
+UniRef90_A0A4S4ECQ4 HAUS6_N domain-containing protein n=1 Tax=Cam...  633        0.0   
+UniRef90_A0A498HQL1 Peptidase_M3 domain-containing protein n=2 Ta...  631        0.0   
+UniRef90_A0A6A4RSJ9 HATPase_c domain-containing protein n=1 Tax=S...  628        0.0   
+UniRef90_T1IPX7 Uncharacterized protein n=1 Tax=Strigamia maritim...  625        0.0   
+UniRef90_A0A498JK81 Uncharacterized protein n=1 Tax=Malus domesti...  625        0.0   
+UniRef90_A0A168MPY9 Uncharacterized protein n=1 Tax=Absidia glauc...  625        0.0   
+UniRef90_A0A4D9BJT9 Serine/threonine-protein phosphatase 2A regul...  623        0.0   
+UniRef90_A0A6A5P5A9 Peptidase_M3 domain-containing protein n=2 Ta...  615        0.0   
+UniRef90_A0A5N6LNB6 Peptidase_M3 domain-containing protein n=1 Ta...  603        0.0   
+UniRef90_A0A183BJV3 Transket_pyr domain-containing protein n=1 Ta...  521        4e-170
+UniRef90_A0A1W0A9J9 Uncharacterized protein n=1 Tax=Thraustotheca...  531        7e-168
+UniRef90_UPI001470CF21 uncharacterized protein LOC117509026 n=1 T...  500        1e-162
+UniRef90_U6LNR4 DNA ligase (NAD(+)) n=1 Tax=Eimeria brunetti TaxI...  511        3e-161
+UniRef90_A0A1B0GA63 Uncharacterized protein n=3 Tax=Glossina TaxI...  479        5e-156
+UniRef90_A0A1A9WPI9 Uncharacterized protein n=1 Tax=Glossina brev...  466        4e-150
+UniRef90_A0A1B0AP78 Uncharacterized protein n=2 Tax=Nemorhina Tax...  466        7e-150
+UniRef90_A0A1Q9C382 Serine/threonine protein phosphatase 2A 59 kD...  450        4e-140
+UniRef90_A0A6H5GQY3 Uncharacterized protein n=1 Tax=Nesidiocoris ...  440        2e-139
+UniRef90_UPI000779FB1D uncharacterized protein LOC107331131 isofo...  435        7e-137
+UniRef90_A0A1B0AP79 Uncharacterized protein n=1 Tax=Glossina palp...  407        1e-127
+UniRef90_A0A1V9ZYL8 Neutral alpha-glucosidase n=1 Tax=Thraustothe...  389        3e-119
+UniRef90_D8M5L3 Uncharacterized protein n=1 Tax=Blastocystis homi...  367        2e-111
+UniRef90_A0A183C9H8 BHLH domain-containing protein n=1 Tax=Globod...  359        6e-108
+UniRef90_A0A1Q9CVU1 Serine/threonine-protein phosphatase 2A 56 kD...  339        8e-101
+UniRef90_X6NCA5 CAP-Gly domain-containing protein n=1 Tax=Reticul...  302        4e-89 
+UniRef90_A0A1Q9CVN7 Serine/threonine protein phosphatase 2A 59 kD...  241        3e-67 
+UniRef90_A0A5A8E6W5 Protein kinase domain-containing protein n=2 ...  224        3e-61 
+UniRef90_A0A1Q9DAM5 Arylsulfatase B n=1 Tax=Symbiodinium microadr...  197        6e-52 
+UniRef90_A0A2N9FS44 Reverse transcriptase domain-containing prote...  147        3e-35 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A3R7X7F1 ENTH domain-containing protein n=1 Tax=Aphano...  72.7       7e-11
+UniRef90_A0A2P6V5K8 200 kDa antigen isoform B n=2 Tax=Micractiniu...  71.6       2e-10
+UniRef90_D8LEM5 Uncharacterized protein n=2 Tax=Ectocarpus TaxID=...  51.9       2e-04
+UniRef90_A0A4U0WQ00 Uncharacterized protein n=2 Tax=Friedmanniomy...  40.4       0.82 
+UniRef90_A0A0M0K1P6 Uncharacterized protein n=1 Tax=Chrysochromul...  40.0       1.1  
+UniRef90_A0A5S6QE24 Non-specific serine/threonine protein kinase ...  40.0       1.3  
+UniRef90_B8BKR6 Uncharacterized protein n=2 Tax=Oryza sativa TaxI...  39.6       1.7  
+UniRef90_A0A0E0R8Y6 Uncharacterized protein n=6 Tax=Oryza rufipog...  38.5       2.9  
+UniRef90_A0A4U0VHG8 Uncharacterized protein n=1 Tax=Friedmanniomy...  38.1       4.3  
+UniRef90_A0A1V6BC58 CRISPR-associated endonuclease Cas9 n=1 Tax=B...  38.1       4.3  
+UniRef90_A0A177BC15 C-protein, skeletal muscle slow isoform n=1 T...  38.1       4.6  
+UniRef90_A0A5B7UPX0 Chromosome partition protein Smc n=1 Tax=Stre...  37.7       5.8  
+UniRef90_UPI0012AB30F8 kinesin-like protein KIF16B isoform X1 n=8...  37.7       5.8  
+UniRef90_B2JBL8 Uncharacterized protein n=1 Tax=Nostoc punctiform...  37.7       6.6  
+UniRef90_A5K8C1 Uncharacterized protein n=7 Tax=Plasmodium vivax ...  37.3       7.1  
+UniRef90_A0A0J9TR91 Uncharacterized protein n=1 Tax=Plasmodium vi...  37.3       7.2  
+UniRef90_B5FVH1 Phospholipid-transporting ATPase n=3 Tax=Yarrowia...  37.3       8.1  
+UniRef90_UPI00083B06A5 NAD-glutamate dehydrogenase n=1 Tax=Planob...  37.3       8.1  
+UniRef90_A0A4Q4Z5U4 FkbM family methyltransferase n=2 Tax=Nocardi...  37.3       8.1  
+UniRef90_A0A2P9C324 Uncharacterized protein n=4 Tax=Plasmodium (L...  37.3       8.7  
+UniRef90_A0A485KAD7 Aste57867_1332 protein n=1 Tax=Aphanomyces st...  37.3       9.3  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1267606185240
+Results from round 3
+
+
+Query= sp|Q13362-3|2A5G_HUMAN Isoform Gamma-2 of Serine/threonine-protein
+phosphatase 2A 56 kDa regulatory subunit gamma isoform OS=Homo
+sapiens OX=9606 GN=PPP2R5C
+
+Length=485
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6A6PTE5 Formylglycinamide ribonucleotide amidotransfe...  728        0.0   
+UniRef90_A0A2U3E627 Uncharacterized protein n=2 Tax=Purpureocilli...  726        0.0   
+UniRef90_A0A2I0RML3 Formylglycinamide ribonucleotide amidotransfe...  722        0.0   
+UniRef90_A0A139HD11 Formylglycinamide ribonucleotide amidotransfe...  715        0.0   
+UniRef90_A0A443HJQ2 Transcription-associated protein n=2 Tax=Byss...  707        0.0   
+UniRef90_A0A556TR75 Serine/threonine-protein phosphatase 2A 56 kD...  704        0.0   
+UniRef90_A0A5N6G0X2 Transcription-associated protein n=1 Tax=Petr...  703        0.0   
+UniRef90_A0A2I1D1Q5 Non-specific serine/threonine protein kinase ...  702        0.0   
+UniRef90_A0A182NEQ2 Uncharacterized protein n=1 Tax=Anopheles dir...  701        0.0   
+UniRef90_A0A401KGA1 Transcription-associated protein 1 n=17 Tax=A...  701        0.0   
+UniRef90_A0A182F653 Uncharacterized protein n=1 Tax=Anopheles alb...  699        0.0   
+UniRef90_A0A177FPR3 Uncharacterized protein n=9 Tax=Herpotrichiel...  699        0.0   
+UniRef90_K1Y4X4 Protein phosphatase 2A regulatory B subunit n=1 T...  697        0.0   
+UniRef90_A0A182LXE0 Uncharacterized protein n=1 Tax=Anopheles cul...  697        0.0   
+UniRef90_A0A5N6Z970 Transcription-associated protein n=1 Tax=Aspe...  697        0.0   
+UniRef90_A0A3M0W2W8 Uncharacterized protein (Fragment) n=1 Tax=Ch...  697        0.0   
+UniRef90_A0A182JUI9 Uncharacterized protein n=1 Tax=Anopheles chr...  692        0.0   
+UniRef90_A0A1F5LXB0 Non-specific serine/threonine protein kinase ...  692        0.0   
+UniRef90_A0A182YNE9 Uncharacterized protein n=1 Tax=Anopheles ste...  689        0.0   
+UniRef90_A0A4Y9XQ98 Uncharacterized protein n=1 Tax=Dentipellis f...  683        0.0   
+UniRef90_A0A182TQW5 Uncharacterized protein n=2 Tax=gambiae speci...  667        0.0   
+UniRef90_A0A194PME8 Serine/threonine-protein phosphatase 2A 56 kD...  663        0.0   
+UniRef90_A0A498HQL1 Peptidase_M3 domain-containing protein n=2 Ta...  663        0.0   
+UniRef90_A0A261Y113 snRNP core protein D2 n=1 Tax=Bifiguratus ade...  662        0.0   
+UniRef90_A0A2S4WEG4 Uncharacterized protein n=1 Tax=Puccinia stri...  657        0.0   
+UniRef90_A0A182QX05 Uncharacterized protein n=1 Tax=Anopheles far...  650        0.0   
+UniRef90_A0A168MPY9 Uncharacterized protein n=1 Tax=Absidia glauc...  649        0.0   
+UniRef90_A0A1W0XB98 Serine/threonine-protein phosphatase 2A 56 kD...  649        0.0   
+UniRef90_A0A3Q7FE45 Uncharacterized protein n=2 Tax=Solanum subge...  649        0.0   
+UniRef90_A0A4S4ECQ4 HAUS6_N domain-containing protein n=1 Tax=Cam...  645        0.0   
+UniRef90_A0A6A5P5A9 Peptidase_M3 domain-containing protein n=2 Ta...  636        0.0   
+UniRef90_A0A498LQ39 Potassium voltage-gated channel subfamily H m...  635        0.0   
+UniRef90_A0A4D9BJT9 Serine/threonine-protein phosphatase 2A regul...  632        0.0   
+UniRef90_A0A662YN55 Serine/threonine-protein phosphatase 2A 56 kD...  629        0.0   
+UniRef90_A0A498JK81 Uncharacterized protein n=1 Tax=Malus domesti...  628        0.0   
+UniRef90_T1IPX7 Uncharacterized protein n=1 Tax=Strigamia maritim...  627        0.0   
+UniRef90_A0A6A4RSJ9 HATPase_c domain-containing protein n=1 Tax=S...  616        0.0   
+UniRef90_A0A5N6LNB6 Peptidase_M3 domain-containing protein n=1 Ta...  615        0.0   
+UniRef90_A0A183BJV3 Transket_pyr domain-containing protein n=1 Ta...  529        2e-173
+UniRef90_A0A1W0A9J9 Uncharacterized protein n=1 Tax=Thraustotheca...  541        3e-171
+UniRef90_U6LNR4 DNA ligase (NAD(+)) n=1 Tax=Eimeria brunetti TaxI...  512        9e-162
+UniRef90_A0A1B0GA63 Uncharacterized protein n=3 Tax=Glossina TaxI...  491        2e-160
+UniRef90_UPI001470CF21 uncharacterized protein LOC117509026 n=1 T...  491        3e-159
+UniRef90_A0A1B0AP78 Uncharacterized protein n=2 Tax=Nemorhina Tax...  482        3e-156
+UniRef90_A0A1A9WPI9 Uncharacterized protein n=1 Tax=Glossina brev...  474        5e-153
+UniRef90_A0A1Q9C382 Serine/threonine protein phosphatase 2A 59 kD...  464        5e-145
+UniRef90_UPI000779FB1D uncharacterized protein LOC107331131 isofo...  438        3e-138
+UniRef90_A0A6H5GQY3 Uncharacterized protein n=1 Tax=Nesidiocoris ...  435        1e-137
+UniRef90_A0A1B0AP79 Uncharacterized protein n=1 Tax=Glossina palp...  429        1e-135
+UniRef90_A0A1V9ZYL8 Neutral alpha-glucosidase n=1 Tax=Thraustothe...  420        1e-130
+UniRef90_D8M5L3 Uncharacterized protein n=1 Tax=Blastocystis homi...  368        1e-111
+UniRef90_A0A1Q9CVU1 Serine/threonine-protein phosphatase 2A 56 kD...  354        3e-106
+UniRef90_A0A183C9H8 BHLH domain-containing protein n=1 Tax=Globod...  353        7e-106
+UniRef90_X6NCA5 CAP-Gly domain-containing protein n=1 Tax=Reticul...  340        6e-103
+UniRef90_A0A5A8E6W5 Protein kinase domain-containing protein n=2 ...  236        2e-65 
+UniRef90_A0A1Q9CVN7 Serine/threonine protein phosphatase 2A 59 kD...  236        2e-65 
+UniRef90_A0A1Q9DAM5 Arylsulfatase B n=1 Tax=Symbiodinium microadr...  204        2e-54 
+UniRef90_A0A2N9FS44 Reverse transcriptase domain-containing prote...  164        9e-41 
+UniRef90_A0A3R7X7F1 ENTH domain-containing protein n=1 Tax=Aphano...  109        1e-22 
+UniRef90_D8LEM5 Uncharacterized protein n=2 Tax=Ectocarpus TaxID=...  89.7       3e-16 
+UniRef90_A0A2P6V5K8 200 kDa antigen isoform B n=2 Tax=Micractiniu...  83.9       2e-14 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A4Y7LF72 Calpain catalytic domain-containing protein n...  40.4       0.93 
+UniRef90_B8BKR6 Uncharacterized protein n=2 Tax=Oryza sativa TaxI...  39.2       2.0  
+UniRef90_A0A0M0K1P6 Uncharacterized protein n=1 Tax=Chrysochromul...  38.8       2.5  
+UniRef90_A0A0E0R8Y6 Uncharacterized protein n=6 Tax=Oryza rufipog...  38.5       3.5  
+UniRef90_A0A177BC15 C-protein, skeletal muscle slow isoform n=1 T...  38.5       3.6  
+UniRef90_M7T332 Putative histone acetylase complex subunit protei...  38.5       3.8  
+UniRef90_UPI000E1F2DA1 cullin-9-like n=1 Tax=Dromaius novaehollan...  38.1       4.2  
+UniRef90_B5FVH1 Phospholipid-transporting ATPase n=3 Tax=Yarrowia...  38.1       4.3  
+UniRef90_A0A4U0WQ00 Uncharacterized protein n=2 Tax=Friedmanniomy...  38.1       4.4  
+UniRef90_UPI00125D2B63 brefeldin A-inhibited guanine nucleotide-e...  38.1       4.5  
+UniRef90_UPI00083B06A5 NAD-glutamate dehydrogenase n=1 Tax=Planob...  38.1       4.8  
+UniRef90_UPI0011869FD2 lysosomal-trafficking regulator n=1 Tax=Mi...  38.1       4.9  
+UniRef90_A0A328EBX8 SEC7 domain-containing protein n=3 Tax=Cuscut...  37.7       5.2  
+UniRef90_A0A316UBE3 Uncharacterized protein n=1 Tax=Pseudomicrost...  37.7       6.5  
+UniRef90_T2MIH6 Kalirin (Fragment) n=1 Tax=Hydra vulgaris TaxID=6...  37.7       6.5  
+UniRef90_T2MII8 Triple functional domain protein n=3 Tax=Hydra vu...  37.7       6.6  
+UniRef90_A0A6A6BLM4 Serine/threonine-protein kinase TOR n=1 Tax=A...  37.3       7.0  
+UniRef90_A0A316VJS1 NUC173-domain-containing protein n=1 Tax=Meir...  36.9       9.1  
+UniRef90_A0A2E7E3B4 Uncharacterized protein n=1 Tax=Legionellales...  36.9       9.4  
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1267606185240
+
+Search has CONVERGED!
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

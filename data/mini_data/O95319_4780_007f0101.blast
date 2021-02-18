@@ -1,0 +1,743 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|O95319|CELF2_HUMAN CUGBP Elav-like family member 2 OS=Homo
+sapiens OX=9606 GN=CELF2 PE=1 SV=1
+
+Length=508
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_A0A5C6NK67 CUGBP Elav-like family member 1 n=1 Tax=Takif...  506        3e-162
+UniRef90_A0A6A4TJS8 Pre-mRNA-splicing factor 3 n=5 Tax=Euteleosto...  380        6e-115
+UniRef90_A0A6A1QIW3 Uncharacterized protein (Fragment) n=1 Tax=Ba...  268        3e-76 
+UniRef90_UPI000F689E31 uncharacterized protein LOC113792064 n=1 T...  242        4e-67 
+UniRef90_A0A2D4C1H5 Uncharacterized protein n=1 Tax=Pythium insid...  230        4e-63 
+UniRef90_A0A085MGK7 Uncharacterized protein n=1 Tax=Trichuris sui...  216        4e-58 
+UniRef90_A0A0K8WF31 CUGBP Elav-like family member 2 n=2 Tax=Bactr...  172        2e-46 
+UniRef90_UPI000539E711 probable WRKY transcription factor 16 isof...  156        4e-38 
+UniRef90_A0A6L2LIR2 RNA-binding protein BRN1-like isoform X1 n=1 ...  153        8e-37 
+UniRef90_A0A2C6KI51 Rna recognition motif-containing protein n=1 ...  99.0       3e-19 
+UniRef90_D8TN22 Uncharacterized protein n=1 Tax=Volvox carteri f....  97.8       9e-19 
+UniRef90_A0A2P6U4N0 CUG-BP-and ETR-3-like factor 4 n=1 Tax=Chlore...  97.8       1e-18 
+UniRef90_A0A4S8J6L2 Uncharacterized protein n=1 Tax=Musa balbisia...  85.9       6e-15 
+UniRef90_A0A4D8ZQC8 Polyadenylate-binding protein n=1 Tax=Salvia ...  83.2       4e-14 
+UniRef90_R9PBQ0 Polyadenylate-binding protein n=1 Tax=Pseudozyma ...  79.0       1e-12 
+UniRef90_A0A2A9MJP5 Uncharacterized protein n=1 Tax=Besnoitia bes...  77.8       2e-12 
+UniRef90_UPI0011E53ACA uncharacterized protein LOC115748902 n=1 T...  77.8       2e-12 
+UniRef90_Q0CKM7 Uncharacterized protein n=2 Tax=Aspergillus terre...  76.6       4e-12 
+UniRef90_A0A5A7PBR7 Polyadenylate-binding protein n=1 Tax=Striga ...  75.9       8e-12 
+UniRef90_F0VA57 Putative RNA recognition motif-containing protein...  75.5       1e-11 
+UniRef90_A0A0G4FYN2 Uncharacterized protein n=1 Tax=Vitrella bras...  73.6       6e-11 
+UniRef90_A0A4U7B091 RNA recognition motif-containing protein 22 n...  72.8       7e-11 
+UniRef90_I2FXW3 Uncharacterized protein n=1 Tax=Ustilago hordei (...  72.0       1e-10 
+UniRef90_A0A397V3G3 Uncharacterized protein n=1 Tax=Gigaspora ros...  72.0       1e-10 
+UniRef90_A0A177BC55 Structural maintenance of chromosomes protein...  71.6       2e-10 
+UniRef90_A0A2K1QSP8 Uncharacterized protein n=1 Tax=Sphaceloma mu...  71.6       2e-10 
+UniRef90_A0A0S7DS04 Uncharacterized protein n=10 Tax=Aspergillus ...  71.2       2e-10 
+UniRef90_A0A5N6L4D7 Uncharacterized protein n=1 Tax=Carpinus fang...  71.2       2e-10 
+UniRef90_A1CFG8 Pre-mRNA splicing factor (Prp24), putative n=1 Ta...  70.9       3e-10 
+UniRef90_A0A0D1E5T9 Uncharacterized protein n=1 Tax=Ustilago mayd...  70.5       4e-10 
+UniRef90_A0A2J5HEL0 Putative pre-mRNA splicing factor n=3 Tax=Asp...  70.1       5e-10 
+UniRef90_A0A074YGW4 Uncharacterized protein n=40 Tax=Aureobasidiu...  70.1       6e-10 
+UniRef90_A0A077RDY1 Uncharacterized protein n=1 Tax=Melanopsichiu...  69.7       7e-10 
+UniRef90_A0A397JTD4 Uncharacterized protein n=1 Tax=Diversispora ...  69.3       8e-10 
+UniRef90_A0A0S4JNJ8 RNA-binding protein, putative n=1 Tax=Bodo sa...  69.3       1e-09 
+UniRef90_A0A261Y4U5 Uncharacterized protein n=1 Tax=Bifiguratus a...  69.3       1e-09 
+UniRef90_A0A5N5X4E4 Uncharacterized protein n=1 Tax=Aspergillus l...  68.9       1e-09 
+UniRef90_A0A4U7KTB3 Uncharacterized protein n=1 Tax=Sporisorium g...  68.9       1e-09 
+UniRef90_A0A015K806 Jsn1p n=11 Tax=Glomeraceae TaxID=36751 RepID=...  68.9       1e-09 
+UniRef90_W9VVM4 Uncharacterized protein n=2 Tax=Cladophialophora ...  68.6       2e-09 
+UniRef90_A0A364N2I1 Multiple rna-binding domain-containing protei...  68.6       2e-09 
+UniRef90_A0A0G4NN70 Uncharacterized protein n=2 Tax=Verticillium ...  68.2       2e-09 
+UniRef90_W2S0T4 Uncharacterized protein n=1 Tax=Cyphellophora eur...  68.2       2e-09 
+UniRef90_A0A2I0WC27 KH domain-containing protein n=1 Tax=Dendrobi...  68.2       2e-09 
+UniRef90_A0A484AYJ6 Uncharacterized protein n=1 Tax=Drosophila na...  67.8       3e-09 
+UniRef90_A0A2B7WQ90 Uncharacterized protein n=1 Tax=Helicocarpus ...  67.8       3e-09 
+UniRef90_A0A1V6PG53 Uncharacterized protein n=1 Tax=Penicillium d...  67.4       3e-09 
+UniRef90_A0A5C3E6J4 Uncharacterized protein n=1 Tax=Ustilago tric...  67.4       4e-09 
+UniRef90_A0A0A2W189 RNA-binding protein rsd1 n=1 Tax=Beauveria ba...  67.4       4e-09 
+UniRef90_B6HEU4 Pc20g05340 protein n=11 Tax=Penicillium TaxID=507...  67.0       4e-09 
+UniRef90_W7AHY6 RRM domain-containing protein n=7 Tax=Plasmodium ...  67.0       5e-09 
+UniRef90_A0A1L9SNG2 Uncharacterized protein n=1 Tax=Penicilliopsi...  67.0       5e-09 
+UniRef90_A0A074XQM2 Uncharacterized protein n=1 Tax=Aureobasidium...  67.0       5e-09 
+UniRef90_A0A316VUG8 Uncharacterized protein n=1 Tax=Ceraceosorus ...  67.0       5e-09 
+UniRef90_A0A397GSV5 Uncharacterized protein n=2 Tax=Aspergillus T...  67.0       5e-09 
+UniRef90_UPI000C6ED22A uncharacterized protein LOC111637679 n=1 T...  67.0       5e-09 
+UniRef90_A0A5C3ENT8 Uncharacterized protein n=1 Tax=Ustilago tric...  67.0       5e-09 
+UniRef90_A0A0F7SAR8 Uncharacterized protein n=1 Tax=Sporisorium s...  66.6       6e-09 
+UniRef90_A0A1J1GXE6 RNA-binding protein, putative n=1 Tax=Plasmod...  66.6       6e-09 
+UniRef90_V7PEU8 RRM domain-containing protein n=6 Tax=Plasmodium ...  66.6       6e-09 
+UniRef90_A0A6J1DF60 nuclear pore complex protein GP210 isoform X2...  66.6       7e-09 
+UniRef90_A0A2P6NXG4 Polyadenylate-binding protein 1-like n=1 Tax=...  66.2       1e-08 
+UniRef90_A0A0J9SFW0 Uncharacterized protein (Fragment) n=1 Tax=Pl...  65.9       1e-08 
+UniRef90_C8VB25 Pre-mRNA splicing factor (Prp24), putative (AFU_o...  65.9       1e-08 
+UniRef90_A0A2P9GMD3 RNA-binding protein, putative n=1 Tax=Plasmod...  65.9       1e-08 
+UniRef90_A0A5K1V4W3 RNA-binding protein, putative n=3 Tax=Plasmod...  65.5       1e-08 
+UniRef90_W6Q7Z4 Nucleotide-binding, alpha-beta plait n=3 Tax=Peni...  65.5       2e-08 
+UniRef90_A0A1B1DW21 Uncharacterized protein n=1 Tax=Plasmodium co...  65.5       2e-08 
+UniRef90_K6UCT9 Uncharacterized protein n=1 Tax=Plasmodium cynomo...  65.5       2e-08 
+UniRef90_A0A1Q9EHB3 Pentatricopeptide repeat-containing protein, ...  65.5       2e-08 
+UniRef90_A0A2K1JVN1 Uncharacterized protein n=6 Tax=Physcomitrium...  65.5       2e-08 
+UniRef90_A0A139GWY4 Uncharacterized protein n=1 Tax=Pseudocercosp...  65.5       2e-08 
+UniRef90_A0A1J1H2C4 RNA-binding protein, putative n=1 Tax=Plasmod...  65.1       2e-08 
+UniRef90_A0A074VY41 Uncharacterized protein n=1 Tax=Aureobasidium...  65.1       2e-08 
+UniRef90_A0A438NH15 ATP-dependent DNA helicase PIF1 n=1 Tax=Exoph...  65.1       2e-08 
+UniRef90_E6ZUW5 Uncharacterized protein n=2 Tax=Sporisorium reili...  65.1       2e-08 
+UniRef90_A0A261XVC5 Polyadenylate tail-binding protein (Fragment)...  65.1       2e-08 
+UniRef90_A0A4S2JPU5 Uncharacterized protein (Fragment) n=1 Tax=Te...  65.1       2e-08 
+UniRef90_A0A0U5FUG6 Putative RNA-binding protein n=1 Tax=Aspergil...  65.1       2e-08 
+UniRef90_A0A0D9QHR1 Uncharacterized protein n=1 Tax=Plasmodium fr...  65.1       2e-08 
+UniRef90_A0A267G1A7 Uncharacterized protein n=1 Tax=Macrostomum l...  65.1       2e-08 
+UniRef90_A0A074YX88 Uncharacterized protein n=1 Tax=Aureobasidium...  64.3       4e-08 
+UniRef90_A0A1C3KPN3 RNA-binding protein, putative n=3 Tax=Plasmod...  64.3       4e-08 
+UniRef90_A0A078H3I3 BnaA07g03330D protein n=5 Tax=Brassica TaxID=...  64.3       4e-08 
+UniRef90_A0A5N6TDX0 Pre-mRNA splicing factor n=1 Tax=Aspergillus ...  64.3       4e-08 
+UniRef90_A0A1D3TFW6 RNA-binding protein, putative n=3 Tax=Plasmod...  64.3       4e-08 
+UniRef90_A0A0G4G149 Uncharacterized protein n=1 Tax=Chromera veli...  63.9       4e-08 
+UniRef90_A0A1Y1JGN4 RNA-binding protein n=1 Tax=Plasmodium gonder...  63.9       4e-08 
+UniRef90_A0A151LL07 Putative RNA-binding protein n=4 Tax=Plasmodi...  63.9       4e-08 
+UniRef90_A0A5N6NLF6 Uncharacterized protein n=2 Tax=Magnoliopsida...  63.9       4e-08 
+UniRef90_W7JLH9 RNA-binding protein n=20 Tax=Plasmodium (Laverani...  63.9       4e-08 
+UniRef90_A0A2T7I8C2 DNA topoisomerase n=1 Tax=Theileria orientali...  63.9       5e-08 
+UniRef90_Q5B479 Uncharacterized protein n=1 Tax=Emericella nidula...  63.5       6e-08 
+UniRef90_A0A2I4BRT1 Down syndrome cell adhesion molecule n=1 Tax=...  63.5       6e-08 
+UniRef90_A0A4U5ULY3 Heterogeneous nuclear ribonucleoprotein Q n=1...  63.5       6e-08 
+UniRef90_Q7RF94 RNA recognition motif, putative n=6 Tax=Plasmodiu...  63.2       7e-08 
+UniRef90_A0A5N6YTR1 Uncharacterized protein n=1 Tax=Aspergillus c...  63.2       7e-08 
+UniRef90_G7YIB4 Serine dehydratase-like (Fragment) n=1 Tax=Clonor...  63.5       7e-08 
+UniRef90_A0A1L9TC33 Uncharacterized protein n=2 Tax=Aspergillus s...  63.2       7e-08 
+UniRef90_A0A2S5BIM6 Uncharacterized protein n=1 Tax=Rhodotorula t...  63.2       7e-08 
+UniRef90_A0A5C5FWX6 Uncharacterized protein n=1 Tax=Rhodotorula d...  63.2       8e-08 
+UniRef90_A0A6A4HB79 Uncharacterized protein n=1 Tax=Gymnopus andr...  63.2       8e-08 
+UniRef90_A0A0D1ZQN2 Uncharacterized protein n=1 Tax=Exophiala spi...  63.2       9e-08 
+UniRef90_A0A0D1X3A3 Uncharacterized protein n=2 Tax=Exophiala mes...  63.2       9e-08 
+UniRef90_A0A151LJD4 Putative RNA-binding protein n=4 Tax=Plasmodi...  63.2       9e-08 
+UniRef90_V5FGV7 Pre-mRNA splicing factor n=2 Tax=Byssochlamys spe...  62.8       1e-07 
+UniRef90_W7AWS6 Uncharacterized protein n=7 Tax=Plasmodium (Vinck...  62.8       1e-07 
+UniRef90_A0A0L7M6L8 RRM domain-containing protein n=1 Tax=Plasmod...  62.8       1e-07 
+UniRef90_A0A1A8YWQ2 RNA-binding protein, putative n=4 Tax=Plasmod...  62.4       1e-07 
+UniRef90_A0A2P9DB92 RNA-binding protein, putative n=1 Tax=Plasmod...  62.8       1e-07 
+UniRef90_A0A640KN28 RNA binding protein, putative n=1 Tax=Leishma...  62.4       1e-07 
+UniRef90_A0A0D2I498 Rhinocladiella mackenziei CBS 650.93 unplaced...  62.4       1e-07 
+UniRef90_T1PGL4 Non-specific serine/threonine protein kinase n=4 ...  62.4       2e-07 
+UniRef90_A0A024W5D6 RRM domain-containing protein n=19 Tax=cellul...  62.4       2e-07 
+UniRef90_A0A4S3J9P5 Splicing factor n=1 Tax=Aspergillus tanneri T...  62.0       2e-07 
+UniRef90_F2TAT6 Pre-mRNA splicing factor n=6 Tax=Blastomyces TaxI...  62.4       2e-07 
+UniRef90_A0A5N7C8J5 Uncharacterized protein n=2 Tax=Petromyces al...  62.0       2e-07 
+UniRef90_A0A3A2Z8E8 Factor PRP24 n=1 Tax=Aspergillus sclerotialis...  62.0       2e-07 
+UniRef90_A0A0D1YMB2 Uncharacterized protein n=1 Tax=Exophiala sid...  62.0       2e-07 
+UniRef90_J3KFY8 Pre-mRNA splicing factor n=7 Tax=Coccidioides Tax...  62.0       2e-07 
+UniRef90_A0A0N1IMM5 Putative RNA binding protein n=1 Tax=Leptomon...  62.0       2e-07 
+UniRef90_A0A2K1KAA2 Uncharacterized protein n=2 Tax=Physcomitrium...  62.0       2e-07 
+UniRef90_UPI0011E054BB LOW QUALITY PROTEIN: nuclear pore complex ...  62.0       2e-07 
+UniRef90_A0A139INL3 Uncharacterized protein n=1 Tax=Pseudocercosp...  61.6       2e-07 
+UniRef90_A0A4R8PYR6 Gamma-ECS n=3 Tax=Colletotrichum TaxID=5455 R...  61.6       2e-07 
+UniRef90_A0A4Z1P0B2 Uncharacterized protein n=1 Tax=Venturia nash...  61.6       2e-07 
+UniRef90_A0A6A6HJC7 Uncharacterized protein n=1 Tax=Viridothelium...  61.6       2e-07 
+UniRef90_A0A1Y1JIF5 RRM domain-containing protein n=1 Tax=Plasmod...  61.6       2e-07 
+UniRef90_A0A146HBX4 ATP-dependent DNA helicase PIF1 n=1 Tax=Mycen...  61.6       3e-07 
+UniRef90_A0A194S5Z8 Uncharacterized protein n=1 Tax=Rhodotorula g...  61.6       3e-07 
+UniRef90_A0A1D2JH31 Uncharacterized protein n=1 Tax=Paracoccidioi...  61.6       3e-07 
+UniRef90_A0A1D3PC70 RNA-binding protein, putative n=2 Tax=Plasmod...  61.6       3e-07 
+UniRef90_A0A5J5AZH1 Uncharacterized protein n=1 Tax=Nyssa sinensi...  61.2       3e-07 
+UniRef90_C4JWW1 Uncharacterized protein n=1 Tax=Uncinocarpus rees...  61.2       3e-07 
+UniRef90_A0A2T7P7U8 Poly [ADP-ribose] polymerase n=1 Tax=Pomacea ...  61.2       3e-07 
+UniRef90_A0A0D9QUE8 RRM domain-containing protein n=1 Tax=Plasmod...  61.2       3e-07 
+UniRef90_UPI0007672B28 cubilin isoform X1 n=3 Tax=Dufourea novaea...  61.2       4e-07 
+UniRef90_E5AAL0 Similar to pre-mRNA splicing factor (Prp24) n=2 T...  60.8       4e-07 
+UniRef90_A0A2I2FZ65 Putative pre-mRNA splicing factor n=1 Tax=Asp...  60.8       4e-07 
+UniRef90_F9WZ26 Uncharacterized protein (Fragment) n=5 Tax=Zymose...  60.8       4e-07 
+UniRef90_A0A2B7YRN1 Uncharacterized protein n=1 Tax=Polytolypa hy...  60.8       4e-07 
+UniRef90_A0A0K3CLC9 FGENESH: predicted gene_7.252 protein (Fragme...  60.8       4e-07 
+UniRef90_A5KCG2 Uncharacterized protein n=7 Tax=Plasmodium vivax ...  60.8       4e-07 
+UniRef90_A0A1D3JJQ0 RNA-binding protein, putative n=2 Tax=Plasmod...  60.8       5e-07 
+UniRef90_A0A6J8DKH7 TDRD1_4_6_7 n=2 Tax=Mytilus coruscus TaxID=42...  60.8       5e-07 
+UniRef90_A0A1Q3BKK7 RRM_1 domain-containing protein/Big_2 domain-...  60.8       5e-07 
+UniRef90_A0A484D0J9 Uncharacterized protein n=4 Tax=Percomorphace...  60.5       5e-07 
+UniRef90_A0A420IC37 ATP-dependent DNA helicase PIF1 n=1 Tax=Golov...  60.5       6e-07 
+UniRef90_A0A409YDQ0 Uncharacterized protein n=1 Tax=Gymnopilus di...  60.5       6e-07 
+UniRef90_A0A017SKL4 Uncharacterized protein n=3 Tax=Aspergillus T...  60.5       6e-07 
+UniRef90_A0A553NE68 Uncharacterized protein n=1 Tax=Tigriopus cal...  60.5       7e-07 
+UniRef90_A0A4U0VTG1 Uncharacterized protein n=1 Tax=Rhodotorula s...  60.1       7e-07 
+UniRef90_A0A225BCI0 Uncharacterized protein n=1 Tax=Talaromyces a...  60.1       7e-07 
+UniRef90_A0A550CGR3 Uncharacterized protein n=1 Tax=Auriculariops...  60.1       7e-07 
+UniRef90_A0A068SGD6 GPI inositol-deacylase n=1 Tax=Lichtheimia co...  60.1       8e-07 
+UniRef90_A0A6G0V3J4 Uncharacterized protein n=1 Tax=Halicephalobu...  60.1       8e-07 
+UniRef90_A0A0S4JP24 RNA-binding protein, putative n=1 Tax=Bodo sa...  60.1       8e-07 
+UniRef90_A0A388KRJ4 Uncharacterized protein n=1 Tax=Chara braunii...  60.1       8e-07 
+UniRef90_A0A1B7NY25 Uncharacterized protein n=1 Tax=Emmonsia sp. ...  59.7       9e-07 
+UniRef90_A0A2P6VCD1 Voltage-gated ion channel superfamily isoform...  59.7       9e-07 
+UniRef90_A0A5K1UHF8 RNA-binding protein, putative n=3 Tax=Plasmod...  59.7       1e-06 
+UniRef90_A0A0B1PP18 Major facilitator superfamily domain-containi...  59.7       1e-06 
+UniRef90_A0A1L9RFX7 Uncharacterized protein n=1 Tax=Aspergillus w...  59.7       1e-06 
+UniRef90_E9ALT5 Putative RNA binding protein n=1 Tax=Leishmania m...  59.7       1e-06 
+UniRef90_K1QNU0 Non-specific serine/threonine protein kinase n=1 ...  59.7       1e-06 
+UniRef90_E9BKU6 RNA binding protein, putative n=6 Tax=Leishmania ...  59.7       1e-06 
+UniRef90_A0A1B1DZ32 RRM domain-containing protein n=1 Tax=Plasmod...  59.7       1e-06 
+UniRef90_A0A1I8CNU5 Uncharacterized protein n=1 Tax=Rhabditophane...  59.7       1e-06 
+UniRef90_A0A319E974 Pre-mRNA splicing factor n=2 Tax=Aspergillus ...  59.3       1e-06 
+UniRef90_A0A6J3MC28 uncharacterized protein n=1 Tax=Dissoconium a...  59.3       1e-06 
+UniRef90_W7A3P5 Uncharacterized protein n=1 Tax=Plasmodium inui S...  59.3       1e-06 
+UniRef90_A0A0G4FYH9 Uncharacterized protein n=1 Tax=Vitrella bras...  59.3       1e-06 
+UniRef90_A0A117DW34 RNA splicing factor n=1 Tax=Aspergillus niger...  59.3       1e-06 
+UniRef90_A0A1B0GBH9 Uncharacterized protein n=3 Tax=Glossina TaxI...  59.3       1e-06 
+UniRef90_A0A504X4E4 RNA recognition motif family protein n=2 Tax=...  59.3       1e-06 
+UniRef90_H3FKE1 Nrf-6 n=2 Tax=Pristionchus pacificus TaxID=54126 ...  59.3       1e-06 
+UniRef90_A0A654HAV3 Uncharacterized protein n=1 Tax=Sparganum pro...  59.3       1e-06 
+UniRef90_S7ZHD1 Uncharacterized protein n=1 Tax=Penicillium oxali...  58.9       2e-06 
+UniRef90_A0A2G8Y1V1 RNA recognition motif-containing protein (Fra...  58.9       2e-06 
+UniRef90_E9ADZ6 Putative RNA binding protein n=1 Tax=Leishmania m...  58.9       2e-06 
+UniRef90_UPI00077B19D2 LOW QUALITY PROTEIN: uncharacterized prote...  58.9       2e-06 
+UniRef90_UPI00144A5ABC U4/U6 snRNA-associated-splicing factor PRP...  58.9       2e-06 
+UniRef90_UPI000BAF1F2F uncharacterized protein LOC111129627 n=1 T...  58.9       2e-06 
+UniRef90_UPI000CE23434 uncharacterized RNA-binding protein C1861....  58.9       2e-06 
+UniRef90_W9YQS3 Uncharacterized protein n=1 Tax=Capronia coronata...  58.9       2e-06 
+UniRef90_A0A6A6RKM1 Uncharacterized protein n=1 Tax=Massarina ebu...  58.9       2e-06 
+UniRef90_A0A2V5IIA7 Pre-mRNA splicing factor n=9 Tax=Aspergillus ...  58.5       2e-06 
+UniRef90_A0A505I8G5 UTP15 C terminal family protein n=1 Tax=Asper...  58.5       2e-06 
+UniRef90_V4ZX05 RNA recognition motif-containing protein n=13 Tax...  58.5       2e-06 
+UniRef90_UPI00124915C5 nuclear pore complex protein GP210 n=2 Tax...  58.5       2e-06 
+UniRef90_A0A507QLE3 Splicing factor n=1 Tax=Monascus purpureus Ta...  58.5       2e-06 
+UniRef90_H3FCZ2 Pab-1 n=2 Tax=Pristionchus pacificus TaxID=54126 ...  58.5       2e-06 
+UniRef90_A5K549 RRM domain-containing protein n=8 Tax=Plasmodium ...  58.5       2e-06 
+UniRef90_W7ADU3 RRM domain-containing protein n=1 Tax=Plasmodium ...  58.5       2e-06 
+UniRef90_A0A1V6TRF6 Uncharacterized protein n=1 Tax=Penicillium s...  58.5       2e-06 
+UniRef90_A0A197JNT9 Uncharacterized protein n=1 Tax=Mortierella e...  58.5       2e-06 
+UniRef90_A0A0G4KV87 DNA-directed DNA polymerase n=1 Tax=Verticill...  58.5       3e-06 
+UniRef90_A0A316V2I0 Uncharacterized protein n=1 Tax=Jaminaea rose...  58.2       3e-06 
+UniRef90_A0A0D2G6R8 Unplaced genomic scaffold supercont1.7, whole...  58.2       3e-06 
+UniRef90_A0A1J9QFG0 Uncharacterized protein n=3 Tax=Ajellomycetac...  58.2       3e-06 
+UniRef90_A0A0D2BEB1 Uncharacterized protein n=1 Tax=Exophiala xen...  58.2       3e-06 
+UniRef90_A0A4D8ZI57 RNA-binding protein 39 n=1 Tax=Salvia splende...  58.2       3e-06 
+UniRef90_A0A517KX31 Uncharacterized protein n=1 Tax=Venturia effu...  58.2       3e-06 
+UniRef90_A0A0A2JH66 Polyadenylate tail-binding protein n=2 Tax=Pe...  58.2       3e-06 
+UniRef90_A0A6A6LUS3 Uncharacterized protein n=1 Tax=Hevea brasili...  57.8       4e-06 
+UniRef90_A0A6J5UQA8 Uncharacterized protein n=1 Tax=Prunus armeni...  57.8       4e-06 
+UniRef90_A0A139WN98 Poly(U)-binding-splicing factor half pint-lik...  57.0       4e-06 
+UniRef90_A0A6A6P3X0 Uncharacterized protein n=1 Tax=Lineolata rhi...  57.8       4e-06 
+UniRef90_A0A6A4TSC5 Uncharacterized protein n=17 Tax=Euteleostomi...  57.8       4e-06 
+UniRef90_A0A388K0T8 Uncharacterized protein n=1 Tax=Chara braunii...  57.8       4e-06 
+UniRef90_A0A1Z5SYY7 Uncharacterized protein n=19 Tax=Hortaea wern...  57.4       4e-06 
+UniRef90_A0A2D4BLF1 Uncharacterized protein n=1 Tax=Pythium insid...  57.4       5e-06 
+UniRef90_A0A4Q4QLR4 Uncharacterized protein n=8 Tax=Eukaryota Tax...  57.4       5e-06 
+UniRef90_U1HRX8 Uncharacterized protein n=1 Tax=Endocarpon pusill...  57.4       5e-06 
+UniRef90_A0A2A9MDW7 Uncharacterized protein n=1 Tax=Besnoitia bes...  57.4       5e-06 
+UniRef90_A0A1Y2H2L6 Uncharacterized protein n=1 Tax=Lobosporangiu...  57.4       6e-06 
+UniRef90_A0A4T0FJ09 Uncharacterized protein n=1 Tax=Wallemia hede...  57.4       6e-06 
+UniRef90_A0A1E1J111 RNA binding protein, putative n=3 Tax=Viannia...  57.4       6e-06 
+UniRef90_A6RGV4 Uncharacterized protein n=4 Tax=Ajellomyces capsu...  57.4       6e-06 
+UniRef90_A0A1W5DE74 RNA recognition motif domain n=2 Tax=Lasallia...  57.0       6e-06 
+UniRef90_T1PBS6 RNA recognition protein n=1 Tax=Musca domestica T...  57.4       6e-06 
+UniRef90_A0A177VI33 RRM domain-containing protein n=4 Tax=Tilleti...  57.4       6e-06 
+UniRef90_A0A261Y169 Uncharacterized protein n=1 Tax=Bifiguratus a...  57.4       6e-06 
+UniRef90_A0A0D2ARI9 Uncharacterized protein n=1 Tax=Cladophialoph...  57.0       6e-06 
+UniRef90_A0A0N0RS45 DNA-directed RNA polymerase subunit n=1 Tax=M...  57.0       6e-06 
+UniRef90_A0A0B1PDW1 Zinc finger, C4 type n=1 Tax=Trichuris suis T...  57.0       7e-06 
+UniRef90_A0A1I8NBT7 Uncharacterized protein n=1 Tax=Musca domesti...  57.0       7e-06 
+UniRef90_UPI000CE1F793 uncharacterized RNA-binding protein C1861....  57.0       7e-06 
+UniRef90_A0A2T2NRN0 Uncharacterized protein n=1 Tax=Corynespora c...  57.0       7e-06 
+UniRef90_A0A2K1IB66 Uncharacterized protein n=1 Tax=Physcomitrium...  57.0       7e-06 
+UniRef90_A0A3N0YH49 Probable RNA-binding protein 46 n=1 Tax=Anaba...  57.0       8e-06 
+UniRef90_A0A061H1V2 Uncharacterized protein n=2 Tax=Anthracocysti...  56.6       8e-06 
+UniRef90_A0A6A4TNG5 Uncharacterized protein n=1 Tax=Scophthalmus ...  56.6       8e-06 
+UniRef90_A0A6G0UR86 Uncharacterized protein n=1 Tax=Halicephalobu...  56.6       8e-06 
+UniRef90_A0A5J4WFE1 Putative polyadenylate-binding protein n=1 Ta...  56.6       8e-06 
+UniRef90_A0A5N6MDP6 GPI ethanolamine phosphate transferase 3 n=2 ...  56.6       9e-06 
+UniRef90_A0A388LHF3 Uncharacterized protein n=1 Tax=Chara braunii...  56.6       1e-05 
+UniRef90_A0A179A0X9 Uncharacterized protein n=3 Tax=Fonsecaea Tax...  56.6       1e-05 
+UniRef90_G3XYS9 Uncharacterized protein n=18 Tax=Aspergillus TaxI...  56.6       1e-05 
+UniRef90_A0A6A3BQY8 Putative FKBP-type peptidyl-prolyl cis-trans ...  56.2       1e-05 
+UniRef90_UPI000A2C0D69 uncharacterized protein LOC107445731 n=1 T...  56.2       1e-05 
+UniRef90_W6U3G8 Squamous cell carcinoma antigen recognized by T-c...  56.2       1e-05 
+UniRef90_A0A0F7TM88 Uncharacterized protein n=3 Tax=Penicillium T...  56.2       1e-05 
+UniRef90_W9VXJ5 Uncharacterized protein n=3 Tax=Cladophialophora ...  56.2       1e-05 
+UniRef90_A0A3M7NR51 Uncharacterized protein (Fragment) n=1 Tax=Ch...  56.2       1e-05 
+UniRef90_A0A2K1J9G5 Uncharacterized protein n=6 Tax=Physcomitrium...  56.2       1e-05 
+UniRef90_M2QZQ0 Uncharacterized protein n=7 Tax=Pleosporaceae Tax...  56.2       1e-05 
+UniRef90_A0A553HVH8 Uncharacterized protein n=1 Tax=Xylaria flabe...  56.2       1e-05 
+UniRef90_A0A5C7IJI5 Uncharacterized protein n=1 Tax=Acer yangbien...  55.8       1e-05 
+UniRef90_A0A1Q9EWN3 Splicing factor 3B subunit 4 n=1 Tax=Symbiodi...  55.8       1e-05 
+UniRef90_A0A2I4DW54 nuclear pore complex protein GP210 isoform X3...  56.2       1e-05 
+UniRef90_A0A0D2E397 Uncharacterized protein n=1 Tax=Phialophora a...  55.8       1e-05 
+UniRef90_F2PLA4 Pre-mRNA splicing factor n=3 Tax=Trichophyton Tax...  55.8       1e-05 
+UniRef90_A0A4S4EL69 Uncharacterized protein n=1 Tax=Camellia sine...  55.8       1e-05 
+UniRef90_A0A445BZI1 Uncharacterized protein n=3 Tax=Arachis hypog...  55.8       1e-05 
+UniRef90_A0A6A5IZS0 P-loop containing nucleoside triphosphate hyd...  55.8       1e-05 
+UniRef90_A0A6N2M7I7 Uncharacterized protein n=1 Tax=Salix viminal...  55.8       2e-05 
+UniRef90_F4NTB1 Uncharacterized protein n=2 Tax=Batrachochytrium ...  55.8       2e-05 
+UniRef90_A0A388LJT3 Uncharacterized protein n=8 Tax=Chara braunii...  55.8       2e-05 
+UniRef90_A0A395HDM7 Uncharacterized protein n=6 Tax=Aspergillus T...  55.8       2e-05 
+UniRef90_UPI00126390FE LOW QUALITY PROTEIN: nuclear pore complex ...  55.8       2e-05 
+UniRef90_F0VJU0 Putative RNA recognition motif-containing protein...  55.8       2e-05 
+UniRef90_A0A6A6EV70 Uncharacterized protein n=1 Tax=Zopfia rhizop...  55.5       2e-05 
+UniRef90_A0A177URY9 Uncharacterized protein n=1 Tax=Tilletia walk...  55.5       2e-05 
+UniRef90_A0A0F4YJT1 Pre-mRNA splicing factor n=1 Tax=Rasamsonia e...  55.5       2e-05 
+UniRef90_UPI00052726D5 nuclear pore complex protein GP210 n=3 Tax...  55.5       2e-05 
+UniRef90_A0A5C3E5X8 Uncharacterized protein n=1 Tax=Ustilago tric...  55.5       2e-05 
+UniRef90_A0A0D1YJI2 Uncharacterized protein n=1 Tax=Verruconis ga...  55.5       2e-05 
+UniRef90_A0A5C3E597 Uncharacterized protein n=1 Tax=Ustilago tric...  55.1       2e-05 
+UniRef90_A0A504X0M5 Alpha/beta hydrolase family protein n=2 Tax=L...  55.5       2e-05 
+UniRef90_A0A4U0U6G6 Uncharacterized protein n=1 Tax=Hortaea thail...  55.1       2e-05 
+UniRef90_UPI0009E20F1F uncharacterized protein LOC110067786 n=1 T...  55.1       3e-05 
+UniRef90_A0A6B0RIW0 Uncharacterized protein n=1 Tax=Bos mutus Tax...  55.1       3e-05 
+UniRef90_A0A1K0G366 Uncharacterized protein n=2 Tax=Ustilago TaxI...  55.1       3e-05 
+UniRef90_A0A6G1J6A6 Uncharacterized protein n=1 Tax=Lentithecium ...  54.7       3e-05 
+UniRef90_A0A150VHW0 Uncharacterized protein n=1 Tax=Acidomyces ri...  54.7       3e-05 
+UniRef90_A0A0L1JB50 Putative pre-mRNA splicing factor (Prp24) n=1...  54.7       3e-05 
+UniRef90_A0A5J5CTJ0 tRNA-uridine aminocarboxypropyltransferase n=...  54.7       3e-05 
+UniRef90_A0A4U0XNP4 Uncharacterized protein n=1 Tax=Cryomyces min...  54.7       3e-05 
+UniRef90_G7E2W4 Stress response protein NST1 n=2 Tax=Mixia osmund...  54.7       3e-05 
+UniRef90_A0A1I7TGM7 Uncharacterized protein n=3 Tax=Caenorhabditi...  54.7       3e-05 
+UniRef90_Q54HN5 Uncharacterized protein n=1 Tax=Dictyostelium dis...  54.7       4e-05 
+UniRef90_UPI000A2A7C19 uncharacterized protein LOC110236214 n=1 T...  54.7       4e-05 
+UniRef90_A0A2P6TBM3 RRM domain-containing protein n=1 Tax=Chlorel...  54.7       4e-05 
+UniRef90_A0A2P6TQD8 NADH dehydrogenase [ubiquinone] flavo mitocho...  54.7       4e-05 
+UniRef90_A0A6J5TVX4 Uncharacterized protein n=1 Tax=Prunus armeni...  54.3       4e-05 
+UniRef90_A0A316YFT5 Uncharacterized protein n=1 Tax=Acaromyces in...  54.3       4e-05 
+UniRef90_A0A6A6PRA0 Uncharacterized protein n=1 Tax=Neohortaea ac...  54.3       4e-05 
+UniRef90_A0A364NFG6 Pre-mrna splicing factor n=1 Tax=Stemphylium ...  54.3       4e-05 
+UniRef90_A0A6A5J214 Zinc finger, FYVE-related n=1 Tax=Phytophthor...  54.3       4e-05 
+UniRef90_H6C2U5 Nucleolin n=1 Tax=Exophiala dermatitidis (strain ...  54.3       4e-05 
+UniRef90_A0A2H9TL50 Wd-repeat-containing protein n=1 Tax=Paramicr...  54.3       4e-05 
+UniRef90_C5G0B0 U4/U6 snRNA-associated-splicing factor PRP24 n=1 ...  54.3       4e-05 
+UniRef90_R9P7I9 Uncharacterized protein n=1 Tax=Pseudozyma hubeie...  54.3       4e-05 
+UniRef90_A0A0V1IKK7 Heterogeneous nuclear ribonucleoprotein Q n=8...  54.3       4e-05 
+UniRef90_A0A317XVK3 Uncharacterized protein n=1 Tax=Testicularia ...  54.3       4e-05 
+UniRef90_A0A6A5KG33 Uncharacterized protein n=1 Tax=Decorospora g...  54.3       5e-05 
+UniRef90_A0A498SGC0 Uncharacterized protein n=1 Tax=Acanthocheilo...  54.3       5e-05 
+UniRef90_N1PV33 Uncharacterized protein n=1 Tax=Dothistroma septo...  54.3       5e-05 
+UniRef90_E4Y0R1 Uncharacterized protein n=1 Tax=Oikopleura dioica...  54.3       5e-05 
+UniRef90_A0A4S2JUG1 Rna-binding protein 28-like protein n=1 Tax=T...  53.9       5e-05 
+UniRef90_A0A0D2D2A3 Uncharacterized protein n=1 Tax=Exophiala oli...  53.9       6e-05 
+UniRef90_A0A6A6AZ55 Uncharacterized protein n=1 Tax=Aplosporella ...  53.9       6e-05 
+UniRef90_A0A556TKZ2 Polyadenylate-binding protein 1-A n=1 Tax=Bag...  53.9       6e-05 
+UniRef90_W9YHM2 Uncharacterized protein n=1 Tax=Capronia epimyces...  53.9       6e-05 
+UniRef90_UPI001301EBF8 polyadenylate-binding protein, cytoplasmic...  53.9       6e-05 
+UniRef90_A0A1Q9C7H4 Polyadenylate-binding protein, cytoplasmic an...  53.9       6e-05 
+UniRef90_A0A556V2E8 Integrin beta-6 n=1 Tax=Bagarius yarrelli Tax...  53.9       6e-05 
+UniRef90_A0A4Z0XBG0 Splicing factor n=3 Tax=Arthrobotrys TaxID=13...  53.9       6e-05 
+UniRef90_A0A3M7MX34 Uncharacterized protein (Fragment) n=1 Tax=Ch...  53.9       7e-05 
+UniRef90_A0A077Z4J4 Geranylgeranyl pyrophosphate synthase n=1 Tax...  53.9       7e-05 
+UniRef90_A0A498K7K8 Uncharacterized protein n=1 Tax=Malus domesti...  53.9       7e-05 
+UniRef90_A0A6A5TBC0 Uncharacterized protein n=1 Tax=Byssothecium ...  53.5       7e-05 
+UniRef90_A0A1V8SC05 Uncharacterized protein n=4 Tax=Rachicladospo...  53.5       7e-05 
+UniRef90_A0A6A4T510 Nucleoside diphosphate kinase B n=2 Tax=Eutel...  53.5       7e-05 
+UniRef90_A0A0D2FGY1 Rhinocladiella mackenziei CBS 650.93 unplaced...  53.5       7e-05 
+UniRef90_A0A4T0FZ74 Uncharacterized protein n=1 Tax=Wallemia hede...  53.5       8e-05 
+UniRef90_UPI0010FC8D58 uncharacterized protein LOC114959695 n=1 T...  53.5       8e-05 
+UniRef90_B8NAP5 Pre-mRNA splicing factor (Prp24), putative n=23 T...  53.5       8e-05 
+UniRef90_UPI000B90FE28 uncharacterized protein LOC110977131 n=1 T...  53.5       8e-05 
+UniRef90_M3CKI0 Uncharacterized protein n=1 Tax=Sphaerulina musiv...  53.5       8e-05 
+UniRef90_A0A2K3D5Y8 RRM domain-containing protein n=1 Tax=Chlamyd...  53.5       8e-05 
+UniRef90_A0A6A6ZUP2 Uncharacterized protein n=1 Tax=Ophiobolus di...  53.5       9e-05 
+UniRef90_A0A6A6X3I3 Uncharacterized protein n=1 Tax=Melanomma pul...  53.1       9e-05 
+UniRef90_A0A164ZDZ0 Uncharacterized protein n=1 Tax=Xylona heveae...  53.1       1e-04 
+UniRef90_A0A3M7N508 Polyadenylate tail-binding protein (Fragment)...  53.1       1e-04 
+UniRef90_A0A1W0A677 RNA-binding protein n=1 Tax=Thraustotheca cla...  53.1       1e-04 
+UniRef90_A0A2P6TEK9 Phosphatase 1 regulatory subunit pprA n=1 Tax...  53.1       1e-04 
+UniRef90_A0A0V1B4T1 Heterogeneous nuclear ribonucleoprotein Q n=7...  53.1       1e-04 
+UniRef90_UPI0012D387F1 uncharacterized protein LOC116347515 n=1 T...  53.1       1e-04 
+UniRef90_A0A388JTT5 Uncharacterized protein n=1 Tax=Chara braunii...  53.1       1e-04 
+UniRef90_A0A0D1C6D7 Uncharacterized protein n=1 Tax=Ustilago mayd...  53.1       1e-04 
+UniRef90_Q2HDN9 Uncharacterized protein n=1 Tax=Chaetomium globos...  53.1       1e-04 
+UniRef90_A0A6G0V4W2 Uncharacterized protein n=1 Tax=Halicephalobu...  53.1       1e-04 
+UniRef90_A0A1Q9D9H6 Vacuolar amino acid transporter 5 n=1 Tax=Sym...  53.1       1e-04 
+UniRef90_A0A162RUG2 Putative RNA-binding protein 38 n=1 Tax=Daphn...  53.1       1e-04 
+UniRef90_UPI000B792155 nuclear pore complex protein GP210 isoform...  53.1       1e-04 
+UniRef90_UPI000C20BE3F STE20-like serine/threonine-protein kinase...  53.1       1e-04 
+UniRef90_D4B4V5 Pre-mRNA splicing factor (Prp24), putative n=9 Ta...  53.1       1e-04 
+UniRef90_A0A0G4LZ58 Uncharacterized protein n=4 Tax=Verticillium ...  53.1       1e-04 
+UniRef90_A0A6A6JGX0 Uncharacterized protein n=1 Tax=Westerdykella...  52.8       1e-04 
+UniRef90_A0A3M7MU91 Uncharacterized protein (Fragment) n=1 Tax=Ch...  53.1       1e-04 
+UniRef90_A0A6A5QUJ6 Uncharacterized protein n=1 Tax=Ampelomyces q...  52.8       1e-04 
+UniRef90_B8M7G3 Pre-mRNA splicing factor (Prp24), putative n=6 Ta...  52.8       1e-04 
+UniRef90_M9MAU1 Acyl-coa oxidase n=2 Tax=Moesziomyces TaxID=63261...  52.8       1e-04 
+UniRef90_A0A0E0DI70 Uncharacterized protein n=2 Tax=Oryza meridio...  52.8       1e-04 
+UniRef90_A0A081CCZ7 RNA-binding domain-containing protein n=1 Tax...  52.8       1e-04 
+UniRef90_A0A0U1LZJ0 Putative RNA-binding protein C1861,04c n=2 Ta...  52.8       2e-04 
+UniRef90_A0A0C9Z186 Multiple RNA-binding domain-containing protei...  52.8       2e-04 
+UniRef90_A0A2D3V3I9 Uncharacterized protein n=1 Tax=Ramularia col...  52.4       2e-04 
+UniRef90_A0A6A5YCV2 Uncharacterized protein n=1 Tax=Aaosphaeria a...  52.4       2e-04 
+UniRef90_A0A066VVP3 Uncharacterized protein n=1 Tax=Tilletiaria a...  52.4       2e-04 
+UniRef90_A0A6H5JCR2 Uncharacterized protein n=1 Tax=Ectocarpus sp...  52.4       2e-04 
+UniRef90_F2UG57 Poly(A)-binding protein n=1 Tax=Salpingoeca roset...  52.4       2e-04 
+UniRef90_A0A1S3DX58 nuclear pore complex protein GP210 isoform X2...  52.4       2e-04 
+UniRef90_A0A6A6VAC7 Uncharacterized protein n=1 Tax=Sporormia fim...  52.4       2e-04 
+UniRef90_A0A4T0J0G9 Uncharacterized protein n=2 Tax=Wallemia icht...  52.4       2e-04 
+UniRef90_Q0U9B8 Uncharacterized protein n=1 Tax=Phaeosphaeria nod...  52.0       2e-04 
+UniRef90_A0A1X2IFQ2 Uncharacterized protein n=1 Tax=Absidia repen...  52.0       2e-04 
+UniRef90_A0A314LEQ0 Nucleolin 2 n=18 Tax=Nicotiana TaxID=4085 Rep...  52.0       2e-04 
+UniRef90_A0A163IV13 Uncharacterized protein n=1 Tax=Absidia glauc...  52.0       2e-04 
+UniRef90_A0A2T7PE72 Uncharacterized protein n=1 Tax=Pomacea canal...  52.0       2e-04 
+UniRef90_A0A5N5MEA2 DNA topoisomerase n=2 Tax=Salix TaxID=40685 R...  52.0       3e-04 
+UniRef90_A0A150H0Y3 Uncharacterized protein n=1 Tax=Gonium pector...  51.6       3e-04 
+UniRef90_A0A1Q9CZJ5 Tyrosine--tRNA ligase n=1 Tax=Symbiodinium mi...  52.0       3e-04 
+UniRef90_A0A498HEW2 Indole-3-glycerol-phosphate synthase n=1 Tax=...  51.6       3e-04 
+UniRef90_A0A1F5L9N8 Uncharacterized protein n=2 Tax=Penicillium T...  51.6       3e-04 
+UniRef90_A0A498HM61 Omega-protein n=1 Tax=Malus domestica TaxID=3...  51.6       3e-04 
+UniRef90_M0T6R7 Uncharacterized protein n=2 Tax=Musa acuminata su...  51.6       3e-04 
+UniRef90_UPI00053F773A nuclear pore complex protein GP210 n=2 Tax...  51.6       3e-04 
+UniRef90_A0A6G1LJ85 Uncharacterized protein n=1 Tax=Teratosphaeri...  51.6       3e-04 
+UniRef90_A0A2B4T1E5 Heterogeneous nuclear ribonucleoprotein Q n=2...  51.2       3e-04 
+UniRef90_A0A6A5CDB2 Uncharacterized protein n=1 Tax=Naegleria fow...  51.6       3e-04 
+UniRef90_A0A0E0B6Q1 Uncharacterized protein n=5 Tax=Oryza TaxID=4...  51.2       4e-04 
+UniRef90_A0A3M0WB53 Uncharacterized protein (Fragment) n=1 Tax=Ch...  51.6       4e-04 
+UniRef90_A0A2H6K982 DNA topoisomerase n=1 Tax=Babesia ovata TaxID...  51.2       4e-04 
+UniRef90_A0A1Y1I8I3 Uncharacterized protein n=1 Tax=Klebsormidium...  51.2       4e-04 
+UniRef90_A0A232M150 Uncharacterized protein n=1 Tax=Elaphomyces g...  51.2       4e-04 
+UniRef90_A0A6A5SEU3 Uncharacterized protein n=1 Tax=Clathrospora ...  51.2       4e-04 
+UniRef90_A0A438JIQ0 Nuclear pore complex protein GP210 n=1 Tax=Vi...  51.2       4e-04 
+UniRef90_UPI0009E4F466 RNA-binding protein 28-like n=1 Tax=Orbice...  51.2       4e-04 
+UniRef90_A0A1Q9CLG8 Coproporphyrinogen oxidase n=1 Tax=Symbiodini...  51.2       5e-04 
+UniRef90_A0A0D3HA49 Uncharacterized protein n=1 Tax=Oryza barthii...  50.8       5e-04 
+UniRef90_B2VRT0 Uncharacterized protein n=4 Tax=Pyrenophora TaxID...  50.8       6e-04 
+UniRef90_A0A409YQR8 Uncharacterized protein n=1 Tax=Panaeolus cya...  50.8       6e-04 
+UniRef90_A0A6A5D2K0 RNA-binding protein 8A (Fragment) n=5 Tax=Sch...  50.4       6e-04 
+UniRef90_B9S651 RNA binding protein, putative n=2 Tax=Ricinus com...  50.4       7e-04 
+UniRef90_A0A0E0C6W4 Uncharacterized protein n=3 Tax=Oryza TaxID=4...  50.4       7e-04 
+UniRef90_M4DA95 Uncharacterized protein n=4 Tax=Brassica TaxID=37...  50.4       7e-04 
+UniRef90_B4QYR3 GD21374 n=1 Tax=Drosophila simulans TaxID=7240 Re...  50.4       7e-04 
+UniRef90_A0A498I778 Uncharacterized protein n=1 Tax=Malus domesti...  50.1       8e-04 
+UniRef90_M2LEE8 Uncharacterized protein n=1 Tax=Baudoinia panamer...  50.1       8e-04 
+UniRef90_A0A1V9ZY20 Uncharacterized protein n=1 Tax=Thraustotheca...  50.1       0.001 
+UniRef90_A0A1X1BQ49 DNA topoisomerase n=1 Tax=Babesia sp. Xinjian...  49.7       0.001 
+UniRef90_A0A4T0FPL7 Multiple RNA-binding domain-containing protei...  49.7       0.001 
+UniRef90_A0A2R6XLG0 Uncharacterized protein n=3 Tax=Marchantia po...  49.7       0.001 
+UniRef90_R7Z3Q9 Uncharacterized protein n=1 Tax=Coniosporium apol...  49.3       0.002 
+UniRef90_A0A2H3I8Q7 Multiple RNA-binding domain-containing protei...  49.3       0.002 
+UniRef90_A0A498HES5 Uncharacterized protein n=2 Tax=Maleae TaxID=...  49.3       0.002 
+UniRef90_A0A6A6W690 Uncharacterized protein n=1 Tax=Pseudovirgari...  49.3       0.002 
+UniRef90_A0A1Q9DBZ8 DEAD-box ATP-dependent RNA helicase 14 n=1 Ta...  49.3       0.002 
+UniRef90_A0A146IFY1 RRM domain-containing protein n=1 Tax=Mycena ...  49.3       0.002 
+UniRef90_A0A5J4ZJE1 Uncharacterized protein n=1 Tax=Nyssa sinensi...  49.3       0.002 
+UniRef90_A0A433TPR2 Uncharacterized protein n=1 Tax=Elysia chloro...  49.3       0.002 
+UniRef90_A0A6A6FQW9 Uncharacterized protein n=1 Tax=Cercospora ze...  48.9       0.002 
+UniRef90_G2REX1 Uncharacterized protein n=1 Tax=Thermothielavioid...  48.5       0.003 
+UniRef90_A0A6L2PVX2 Uncharacterized protein (Fragment) n=1 Tax=Co...  48.5       0.003 
+UniRef90_UPI0004D05233 fibroin heavy chain-like n=1 Tax=Galeopter...  48.5       0.003 
+UniRef90_A0A6A6A4A0 Uncharacterized protein n=1 Tax=Dothidotthia ...  48.5       0.003 
+UniRef90_A0A0N0VFB3 Putative RNA binding protein n=1 Tax=Leptomon...  48.5       0.003 
+UniRef90_S8BT46 Uncharacterized protein n=1 Tax=Dactylellina hapt...  48.5       0.003 
+UniRef90_A0A6H5J980 Uncharacterized protein n=1 Tax=Trichogramma ...  48.5       0.003 
+UniRef90_A0A5J4WG81 Uncharacterized protein n=1 Tax=Streblomastix...  48.1       0.004 
+UniRef90_A0A5N5M3F9 Uncharacterized protein n=2 Tax=Pangasianodon...  48.1       0.004 
+UniRef90_A0A1D2JNT1 Uncharacterized protein n=1 Tax=Paracoccidioi...  47.8       0.004 
+UniRef90_A0A2I0S4B2 Putative RNA-binding protein n=1 Tax=Cercospo...  47.8       0.004 
+UniRef90_A0A430QR13 RRM domain-containing protein n=1 Tax=Schisto...  47.8       0.005 
+UniRef90_A0A2P6TWB5 Patatin n=1 Tax=Chlorella sorokiniana TaxID=3...  47.8       0.005 
+UniRef90_A0A0S4IJM5 RNA-binding protein, putative n=1 Tax=Bodo sa...  47.8       0.005 
+UniRef90_A0A077QQ03 Related to JSN1-RNA-binding protein (Pumilio ...  47.8       0.005 
+UniRef90_A0A151WE68 Putative RNA-binding protein 19 n=1 Tax=Trach...  47.4       0.006 
+UniRef90_H3EDR6 Rbd-1 n=2 Tax=Pristionchus pacificus TaxID=54126 ...  47.4       0.006 
+UniRef90_A0A2P8A5Q0 DNA cross-link repair protein pso2/snm1 n=2 T...  47.4       0.007 
+UniRef90_A0A314USX4 Uncharacterized protein n=1 Tax=Prunus yedoen...  47.0       0.009 
+UniRef90_A0A4U0TTV0 Uncharacterized protein n=2 Tax=Friedmanniomy...  46.6       0.010 
+UniRef90_A0A2A6CIC8 Trehalase n=2 Tax=Pristionchus pacificus TaxI...  46.6       0.010 
+UniRef90_A0A401L5K8 Multiple RNA-binding domain-containing protei...  46.6       0.010 
+UniRef90_A0A2B4RDG6 Squamous cell carcinoma antigen recognized by...  46.6       0.010 
+UniRef90_A0A151JV74 Putative RNA-binding protein 19 n=1 Tax=Trach...  46.6       0.012 
+UniRef90_A0A4Y9ZE08 Uncharacterized protein n=1 Tax=Dentipellis f...  45.8       0.019 
+UniRef90_D8TJM4 Uncharacterized protein n=1 Tax=Volvox carteri f....  45.8       0.021 
+UniRef90_A0A4P9XC05 Uncharacterized protein n=1 Tax=Caulochytrium...  45.4       0.024 
+UniRef90_A0A6A5UST2 Uncharacterized protein n=1 Tax=Bimuria novae...  45.4       0.025 
+UniRef90_R1EZB0 Putative pre-mrna splicing factor protein n=1 Tax...  45.4       0.026 
+UniRef90_A0A194PXJ4 Aspartyl-tRNA synthetase, mitochondrial n=1 T...  45.1       0.038 
+UniRef90_B4LU67 Uncharacterized protein n=2 Tax=Drosophila virili...  43.9       0.077 
+UniRef90_A0A2G5IDE5 Putative RNA-binding protein n=2 Tax=Cercospo...  43.9       0.082 
+UniRef90_A0A3N0YWW4 TAR DNA-binding protein 43 n=1 Tax=Anabariliu...  43.5       0.098 
+UniRef90_A0A5N5CY98 Putative RNA-binding protein n=2 Tax=Lasiodip...  43.5       0.11  
+UniRef90_UPI00148D3C5D protein split ends n=1 Tax=Drosophila innu...  43.5       0.12  
+UniRef90_A0A444TUN7 Scaffold attachment factor B2 n=1 Tax=Armadil...  42.7       0.16  
+UniRef90_A0A4V6Y9K6 Multiple RNA-binding domain-containing protei...  42.7       0.17  
+UniRef90_D3BBL6 SsRNA-binding protein n=1 Tax=Polysphondylium pal...  42.4       0.23  
+UniRef90_B4KHF2 Uncharacterized protein n=3 Tax=repleta group Tax...  42.4       0.26  
+UniRef90_A0A383VAN9 Uncharacterized protein n=1 Tax=Tetradesmus o...  41.6       0.37  
+UniRef90_A0A0V1JT10 Eukaryotic translation initiation factor 3 su...  40.4       0.90  
+UniRef90_A0A106DGH0 Autotransporter domain-containing protein n=7...  39.7       1.5   
+UniRef90_UPI0012948F26 hypothetical protein n=1 Tax=Nocardia sp. ...  39.3       2.0   
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1348859588882
+Results from round 2
+
+
+Query= sp|O95319|CELF2_HUMAN CUGBP Elav-like family member 2 OS=Homo
+sapiens OX=9606 GN=CELF2 PE=1 SV=1
+
+Length=508
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A5C6NK67 CUGBP Elav-like family member 1 n=1 Tax=Takif...  410        2e-126
+UniRef90_A0A6A4TJS8 Pre-mRNA-splicing factor 3 n=5 Tax=Euteleosto...  407        5e-124
+UniRef90_A0A6L2LIR2 RNA-binding protein BRN1-like isoform X1 n=1 ...  319        1e-93 
+UniRef90_A0A2D4C1H5 Uncharacterized protein n=1 Tax=Pythium insid...  301        7e-88 
+UniRef90_UPI000539E711 probable WRKY transcription factor 16 isof...  290        8e-84 
+UniRef90_A0A0K8WF31 CUGBP Elav-like family member 2 n=2 Tax=Bactr...  266        1e-82 
+UniRef90_UPI000C6ED22A uncharacterized protein LOC111637679 n=1 T...  283        6e-82 
+UniRef90_A0A4D8ZQC8 Polyadenylate-binding protein n=1 Tax=Salvia ...  243        1e-67 
+UniRef90_UPI000F689E31 uncharacterized protein LOC113792064 n=1 T...  241        1e-66 
+UniRef90_A0A085MGK7 Uncharacterized protein n=1 Tax=Trichuris sui...  235        1e-64 
+UniRef90_UPI0011E53ACA uncharacterized protein LOC115748902 n=1 T...  234        2e-64 
+UniRef90_F2UG57 Poly(A)-binding protein n=1 Tax=Salpingoeca roset...  232        8e-64 
+UniRef90_A0A5A7PBR7 Polyadenylate-binding protein n=1 Tax=Striga ...  227        4e-62 
+UniRef90_Q5B479 Uncharacterized protein n=1 Tax=Emericella nidula...  216        2e-58 
+UniRef90_A0A4S4EL69 Uncharacterized protein n=1 Tax=Camellia sine...  214        1e-57 
+UniRef90_C8VB25 Pre-mRNA splicing factor (Prp24), putative (AFU_o...  213        4e-57 
+UniRef90_Q0CKM7 Uncharacterized protein n=2 Tax=Aspergillus terre...  212        7e-57 
+UniRef90_A0A395HDM7 Uncharacterized protein n=6 Tax=Aspergillus T...  210        2e-56 
+UniRef90_A0A5N5X4E4 Uncharacterized protein n=1 Tax=Aspergillus l...  209        5e-56 
+UniRef90_M0T6R7 Uncharacterized protein n=2 Tax=Musa acuminata su...  209        5e-56 
+UniRef90_A1CFG8 Pre-mRNA splicing factor (Prp24), putative n=1 Ta...  209        7e-56 
+UniRef90_A0A397GSV5 Uncharacterized protein n=2 Tax=Aspergillus T...  207        3e-55 
+UniRef90_A0A0S7DS04 Uncharacterized protein n=10 Tax=Aspergillus ...  206        7e-55 
+UniRef90_A0A1L9RFX7 Uncharacterized protein n=1 Tax=Aspergillus w...  205        1e-54 
+UniRef90_A0A0U5FUG6 Putative RNA-binding protein n=1 Tax=Aspergil...  205        2e-54 
+UniRef90_A0A2J5HEL0 Putative pre-mRNA splicing factor n=3 Tax=Asp...  204        2e-54 
+UniRef90_A0A1L9SNG2 Uncharacterized protein n=1 Tax=Penicilliopsi...  204        2e-54 
+UniRef90_A0A5N6TDX0 Pre-mRNA splicing factor n=1 Tax=Aspergillus ...  204        4e-54 
+UniRef90_A0A5N7C8J5 Uncharacterized protein n=2 Tax=Petromyces al...  203        5e-54 
+UniRef90_UPI00077B19D2 LOW QUALITY PROTEIN: uncharacterized prote...  203        6e-54 
+UniRef90_G3XYS9 Uncharacterized protein n=18 Tax=Aspergillus TaxI...  203        9e-54 
+UniRef90_A0A1B7NY25 Uncharacterized protein n=1 Tax=Emmonsia sp. ...  203        1e-53 
+UniRef90_A0A2V5IIA7 Pre-mRNA splicing factor n=9 Tax=Aspergillus ...  203        1e-53 
+UniRef90_A0A319E974 Pre-mRNA splicing factor n=2 Tax=Aspergillus ...  202        2e-53 
+UniRef90_A0A1J9QFG0 Uncharacterized protein n=3 Tax=Ajellomycetac...  201        2e-53 
+UniRef90_V5FGV7 Pre-mRNA splicing factor n=2 Tax=Byssochlamys spe...  201        2e-53 
+UniRef90_A0A5N6YTR1 Uncharacterized protein n=1 Tax=Aspergillus c...  201        2e-53 
+UniRef90_F2TAT6 Pre-mRNA splicing factor n=6 Tax=Blastomyces TaxI...  201        3e-53 
+UniRef90_A0A1L9TC33 Uncharacterized protein n=2 Tax=Aspergillus s...  201        4e-53 
+UniRef90_A0A4S3J9P5 Splicing factor n=1 Tax=Aspergillus tanneri T...  201        5e-53 
+UniRef90_A0A507QLE3 Splicing factor n=1 Tax=Monascus purpureus Ta...  200        6e-53 
+UniRef90_A0A505I8G5 UTP15 C terminal family protein n=1 Tax=Asper...  200        7e-53 
+UniRef90_F0VA57 Putative RNA recognition motif-containing protein...  200        7e-53 
+UniRef90_A0A2I2FZ65 Putative pre-mRNA splicing factor n=1 Tax=Asp...  200        7e-53 
+UniRef90_A0A0F4YJT1 Pre-mRNA splicing factor n=1 Tax=Rasamsonia e...  199        1e-52 
+UniRef90_A0A0L1JB50 Putative pre-mRNA splicing factor (Prp24) n=1...  199        2e-52 
+UniRef90_B8NAP5 Pre-mRNA splicing factor (Prp24), putative n=23 T...  198        2e-52 
+UniRef90_A0A225BCI0 Uncharacterized protein n=1 Tax=Talaromyces a...  198        4e-52 
+UniRef90_A0A2B7WQ90 Uncharacterized protein n=1 Tax=Helicocarpus ...  198        4e-52 
+UniRef90_J3KFY8 Pre-mRNA splicing factor n=7 Tax=Coccidioides Tax...  198        5e-52 
+UniRef90_UPI00144A5ABC U4/U6 snRNA-associated-splicing factor PRP...  197        6e-52 
+UniRef90_A0A6A4TSC5 Uncharacterized protein n=17 Tax=Euteleostomi...  197        7e-52 
+UniRef90_A0A017SKL4 Uncharacterized protein n=3 Tax=Aspergillus T...  196        2e-51 
+UniRef90_B8M7G3 Pre-mRNA splicing factor (Prp24), putative n=6 Ta...  195        3e-51 
+UniRef90_D8TN22 Uncharacterized protein n=1 Tax=Volvox carteri f....  196        3e-51 
+UniRef90_F2PLA4 Pre-mRNA splicing factor n=3 Tax=Trichophyton Tax...  193        1e-50 
+UniRef90_A0A6A6EV70 Uncharacterized protein n=1 Tax=Zopfia rhizop...  193        2e-50 
+UniRef90_Q0U9B8 Uncharacterized protein n=1 Tax=Phaeosphaeria nod...  193        2e-50 
+UniRef90_A0A6G1J6A6 Uncharacterized protein n=1 Tax=Lentithecium ...  192        4e-50 
+UniRef90_A0A4S2JPU5 Uncharacterized protein (Fragment) n=1 Tax=Te...  192        4e-50 
+UniRef90_A0A6A5TBC0 Uncharacterized protein n=1 Tax=Byssothecium ...  192        4e-50 
+UniRef90_A0A3A2Z8E8 Factor PRP24 n=1 Tax=Aspergillus sclerotialis...  192        4e-50 
+UniRef90_A0A6A6X3I3 Uncharacterized protein n=1 Tax=Melanomma pul...  192        4e-50 
+UniRef90_A0A1V6PG53 Uncharacterized protein n=1 Tax=Penicillium d...  191        5e-50 
+UniRef90_A0A364NFG6 Pre-mrna splicing factor n=1 Tax=Stemphylium ...  191        7e-50 
+UniRef90_U1HRX8 Uncharacterized protein n=1 Tax=Endocarpon pusill...  191        1e-49 
+UniRef90_A0A2P6NXG4 Polyadenylate-binding protein 1-like n=1 Tax=...  190        2e-49 
+UniRef90_A0A6A6RKM1 Uncharacterized protein n=1 Tax=Massarina ebu...  190        2e-49 
+UniRef90_C4JWW1 Uncharacterized protein n=1 Tax=Uncinocarpus rees...  189        2e-49 
+UniRef90_A0A0U1LZJ0 Putative RNA-binding protein C1861,04c n=2 Ta...  189        2e-49 
+UniRef90_B6HEU4 Pc20g05340 protein n=11 Tax=Penicillium TaxID=507...  189        3e-49 
+UniRef90_A6RGV4 Uncharacterized protein n=4 Tax=Ajellomyces capsu...  189        4e-49 
+UniRef90_A0A6G0V3J4 Uncharacterized protein n=1 Tax=Halicephalobu...  189        5e-49 
+UniRef90_C5G0B0 U4/U6 snRNA-associated-splicing factor PRP24 n=1 ...  189        5e-49 
+UniRef90_E5AAL0 Similar to pre-mRNA splicing factor (Prp24) n=2 T...  188        9e-49 
+UniRef90_M2QZQ0 Uncharacterized protein n=7 Tax=Pleosporaceae Tax...  187        2e-48 
+UniRef90_W6Q7Z4 Nucleotide-binding, alpha-beta plait n=3 Tax=Peni...  187        2e-48 
+UniRef90_A0A6A5QUJ6 Uncharacterized protein n=1 Tax=Ampelomyces q...  187        2e-48 
+UniRef90_A0A6A6P3X0 Uncharacterized protein n=1 Tax=Lineolata rhi...  186        3e-48 
+UniRef90_A0A6A6HJC7 Uncharacterized protein n=1 Tax=Viridothelium...  186        4e-48 
+UniRef90_A0A6A5SEU3 Uncharacterized protein n=1 Tax=Clathrospora ...  186        5e-48 
+UniRef90_I2FXW3 Uncharacterized protein n=1 Tax=Ustilago hordei (...  186        5e-48 
+UniRef90_A0A4Q4QLR4 Uncharacterized protein n=8 Tax=Eukaryota Tax...  185        8e-48 
+UniRef90_A0A261XVC5 Polyadenylate tail-binding protein (Fragment)...  184        1e-47 
+UniRef90_A0A1W5DE74 RNA recognition motif domain n=2 Tax=Lasallia...  184        3e-47 
+UniRef90_A0A2B7YRN1 Uncharacterized protein n=1 Tax=Polytolypa hy...  183        3e-47 
+UniRef90_A0A6A4HB79 Uncharacterized protein n=1 Tax=Gymnopus andr...  183        5e-47 
+UniRef90_A0A077RDY1 Uncharacterized protein n=1 Tax=Melanopsichiu...  182        5e-47 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A6A6IGF0 Uncharacterized protein n=1 Tax=Trematosphaer...  197        7e-52
+UniRef90_A0A6A5Z4V9 Uncharacterized protein n=1 Tax=Lophiotrema n...  190        1e-49
+UniRef90_A0A2V1DI42 Succinate dehydrogenase assembly factor 2, mi...  189        4e-49
+UniRef90_A0A6A6A4A0 Uncharacterized protein n=1 Tax=Dothidotthia ...  184        1e-47
+UniRef90_A0A6A5UST2 Uncharacterized protein n=1 Tax=Bimuria novae...  183        3e-47
+UniRef90_A0A178AQX6 Uncharacterized protein n=1 Tax=Stagonospora ...  182        6e-47
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1348859588882
+Results from round 3
+
+
+Query= sp|O95319|CELF2_HUMAN CUGBP Elav-like family member 2 OS=Homo
+sapiens OX=9606 GN=CELF2 PE=1 SV=1
+
+Length=508
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_A0A6A4TJS8 Pre-mRNA-splicing factor 3 n=5 Tax=Euteleosto...  282        7e-81
+UniRef90_A0A5C6NK67 CUGBP Elav-like family member 1 n=1 Tax=Takif...  272        2e-77
+UniRef90_UPI000C6ED22A uncharacterized protein LOC111637679 n=1 T...  247        5e-69
+UniRef90_F2UG57 Poly(A)-binding protein n=1 Tax=Salpingoeca roset...  235        1e-64
+UniRef90_UPI00077B19D2 LOW QUALITY PROTEIN: uncharacterized prote...  230        4e-63
+UniRef90_A0A5A7PBR7 Polyadenylate-binding protein n=1 Tax=Striga ...  227        5e-62
+UniRef90_UPI0011E53ACA uncharacterized protein LOC115748902 n=1 T...  225        2e-61
+UniRef90_A0A2D4C1H5 Uncharacterized protein n=1 Tax=Pythium insid...  219        2e-59
+UniRef90_A0A0K8WF31 CUGBP Elav-like family member 2 n=2 Tax=Bactr...  204        1e-58
+UniRef90_A0A0C9Z186 Multiple RNA-binding domain-containing protei...  215        7e-58
+UniRef90_D8TN22 Uncharacterized protein n=1 Tax=Volvox carteri f....  201        3e-53
+UniRef90_A0A6L2LIR2 RNA-binding protein BRN1-like isoform X1 n=1 ...  201        3e-53
+UniRef90_A1CFG8 Pre-mRNA splicing factor (Prp24), putative n=1 Ta...  200        1e-52
+UniRef90_A0A1L9RFX7 Uncharacterized protein n=1 Tax=Aspergillus w...  200        1e-52
+UniRef90_A0A395HDM7 Uncharacterized protein n=6 Tax=Aspergillus T...  198        4e-52
+UniRef90_A0A6A4TSC5 Uncharacterized protein n=17 Tax=Euteleostomi...  197        8e-52
+UniRef90_Q5B479 Uncharacterized protein n=1 Tax=Emericella nidula...  195        3e-51
+UniRef90_Q0CKM7 Uncharacterized protein n=2 Tax=Aspergillus terre...  195        4e-51
+UniRef90_A0A0E0C6W4 Uncharacterized protein n=3 Tax=Oryza TaxID=4...  194        7e-51
+UniRef90_UPI000F689E31 uncharacterized protein LOC113792064 n=1 T...  194        7e-51
+UniRef90_A0A4S2JPU5 Uncharacterized protein (Fragment) n=1 Tax=Te...  193        1e-50
+UniRef90_UPI00104031EF squamous cell carcinoma antigen recognized...  193        2e-50
+UniRef90_A0A397GSV5 Uncharacterized protein n=2 Tax=Aspergillus T...  193        2e-50
+UniRef90_C8VB25 Pre-mRNA splicing factor (Prp24), putative (AFU_o...  193        2e-50
+UniRef90_A0A507QLE3 Splicing factor n=1 Tax=Monascus purpureus Ta...  192        3e-50
+UniRef90_A0A5J4WFE1 Putative polyadenylate-binding protein n=1 Ta...  192        3e-50
+UniRef90_A0A5B6VF33 Transcription factor GTE4-like isoform X1 n=1...  192        4e-50
+UniRef90_A0A085MGK7 Uncharacterized protein n=1 Tax=Trichuris sui...  191        6e-50
+UniRef90_A0A5N5X4E4 Uncharacterized protein n=1 Tax=Aspergillus l...  190        1e-49
+UniRef90_A0A319E974 Pre-mRNA splicing factor n=2 Tax=Aspergillus ...  190        2e-49
+UniRef90_A0A6G0V3J4 Uncharacterized protein n=1 Tax=Halicephalobu...  190        2e-49
+UniRef90_A0A5N7C8J5 Uncharacterized protein n=2 Tax=Petromyces al...  190        2e-49
+UniRef90_A0A0S7DS04 Uncharacterized protein n=10 Tax=Aspergillus ...  190        2e-49
+UniRef90_V5FGV7 Pre-mRNA splicing factor n=2 Tax=Byssochlamys spe...  190        2e-49
+UniRef90_A0A4S3J9P5 Splicing factor n=1 Tax=Aspergillus tanneri T...  189        3e-49
+UniRef90_A0A0U5FUG6 Putative RNA-binding protein n=1 Tax=Aspergil...  189        4e-49
+UniRef90_A0A195B697 Uncharacterized protein (Fragment) n=4 Tax=At...  189        5e-49
+UniRef90_A0A2V5IIA7 Pre-mRNA splicing factor n=9 Tax=Aspergillus ...  188        8e-49
+UniRef90_A0A261XVC5 Polyadenylate tail-binding protein (Fragment)...  188        8e-49
+UniRef90_A0A6A6IGF0 Uncharacterized protein n=1 Tax=Trematosphaer...  188        9e-49
+UniRef90_F2PLA4 Pre-mRNA splicing factor n=3 Tax=Trichophyton Tax...  188        1e-48
+UniRef90_A0A1L9SNG2 Uncharacterized protein n=1 Tax=Penicilliopsi...  188        1e-48
+UniRef90_A0A151XJZ9 Uncharacterized protein (Fragment) n=5 Tax=Tr...  188        1e-48
+UniRef90_A0A0F4YJT1 Pre-mRNA splicing factor n=1 Tax=Rasamsonia e...  188        1e-48
+UniRef90_B8NAP5 Pre-mRNA splicing factor (Prp24), putative n=23 T...  187        1e-48
+UniRef90_F4WCD7 Protein split ends (Fragment) n=8 Tax=Myrmicinae ...  188        2e-48
+UniRef90_A0A195FSC1 Uncharacterized protein n=5 Tax=Trachymyrmex ...  187        2e-48
+UniRef90_UPI0009E4F466 RNA-binding protein 28-like n=1 Tax=Orbice...  187        2e-48
+UniRef90_A0A017SKL4 Uncharacterized protein n=3 Tax=Aspergillus T...  186        3e-48
+UniRef90_A0A0L1JB50 Putative pre-mRNA splicing factor (Prp24) n=1...  186        4e-48
+UniRef90_A0A2B7WQ90 Uncharacterized protein n=1 Tax=Helicocarpus ...  186        4e-48
+UniRef90_UPI001486C246 LOW QUALITY PROTEIN: msx2-interacting prot...  186        4e-48
+UniRef90_G3XYS9 Uncharacterized protein n=18 Tax=Aspergillus TaxI...  186        4e-48
+UniRef90_A0A225BCI0 Uncharacterized protein n=1 Tax=Talaromyces a...  186        6e-48
+UniRef90_E2BUB2 Protein split ends n=5 Tax=Ponerini TaxID=141711 ...  186        6e-48
+UniRef90_A0A2I2FZ65 Putative pre-mRNA splicing factor n=1 Tax=Asp...  185        8e-48
+UniRef90_W5UG27 Msx2-interacting protein n=3 Tax=Ictalurus puncta...  185        9e-48
+UniRef90_UPI000718E64F protein split ends isoform X1 n=3 Tax=Poli...  185        9e-48
+UniRef90_A0A026WS22 Protein split ends n=5 Tax=Ooceraea biroi Tax...  185        1e-47
+UniRef90_UPI000F50B3BA msx2-interacting protein-like isoform X1 n...  185        1e-47
+UniRef90_UPI00073D7245 protein split ends n=1 Tax=Polistes dominu...  185        1e-47
+UniRef90_A0A4Z2J5R6 Msx2-interacting protein n=1 Tax=Liparis tana...  185        1e-47
+UniRef90_J3KFY8 Pre-mRNA splicing factor n=7 Tax=Coccidioides Tax...  184        1e-47
+UniRef90_A0A5N6TDX0 Pre-mRNA splicing factor n=1 Tax=Aspergillus ...  184        2e-47
+UniRef90_A0A3P9IY35 Si:ch1073-335m2.2 n=1 Tax=Oryzias latipes Tax...  185        2e-47
+UniRef90_UPI0004CD2A68 protein split ends isoform X1 n=3 Tax=Micr...  185        2e-47
+UniRef90_H2MW31 Uncharacterized protein n=4 Tax=Oryzias latipes T...  184        2e-47
+UniRef90_A0A195C3K3 Uncharacterized protein (Fragment) n=3 Tax=Cy...  184        2e-47
+UniRef90_UPI00109BEE5C protein split ends n=1 Tax=Apis cerana Tax...  184        2e-47
+UniRef90_A0A5N5L2G0 Uncharacterized protein n=2 Tax=Pangasianodon...  184        2e-47
+UniRef90_A0A4S2JRR6 Uncharacterized protein (Fragment) n=3 Tax=Te...  184        2e-47
+UniRef90_A0A5N6YTR1 Uncharacterized protein n=1 Tax=Aspergillus c...  184        3e-47
+UniRef90_UPI00144A5ABC U4/U6 snRNA-associated-splicing factor PRP...  183        3e-47
+UniRef90_UPI0014368ACA LOW QUALITY PROTEIN: protein split ends n=...  184        3e-47
+UniRef90_A0A088A6Q3 Uncharacterized protein n=5 Tax=Apis mellifer...  184        3e-47
+UniRef90_A0A3B3RE65 Uncharacterized protein n=3 Tax=Paramormyrops...  184        3e-47
+UniRef90_A0A505I8G5 UTP15 C terminal family protein n=1 Tax=Asper...  183        4e-47
+UniRef90_A0A6J2VKA0 msx2-interacting protein-like n=1 Tax=Chanos ...  183        4e-47
+UniRef90_A0A2J5HEL0 Putative pre-mRNA splicing factor n=3 Tax=Asp...  183        5e-47
+UniRef90_UPI0013F19ED4 protein split ends-like isoform X1 n=5 Tax...  183        5e-47
+UniRef90_A0A3S2PY94 Uncharacterized protein n=1 Tax=Oryzias javan...  183        5e-47
+UniRef90_A0A139WN98 Poly(U)-binding-splicing factor half pint-lik...  177        5e-47
+UniRef90_A0A1B7NY25 Uncharacterized protein n=1 Tax=Emmonsia sp. ...  183        5e-47
+UniRef90_A0A3B3D3R5 Uncharacterized protein n=2 Tax=Oryzias melas...  183        5e-47
+UniRef90_A0A3B3BEE2 Uncharacterized protein n=1 Tax=Oryzias melas...  183        5e-47
+UniRef90_A0A2R7W6I8 Split ends isoform A n=2 Tax=Oncopeltus fasci...  183        5e-47
+UniRef90_UPI000C7161F0 protein split ends n=1 Tax=Orussus abietin...  183        5e-47
+UniRef90_B8M7G3 Pre-mRNA splicing factor (Prp24), putative n=6 Ta...  183        6e-47
+UniRef90_A0A2P6NXG4 Polyadenylate-binding protein 1-like n=1 Tax=...  183        6e-47
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.121    0.309    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0370    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1348859588882
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

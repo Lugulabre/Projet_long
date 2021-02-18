@@ -1,0 +1,1039 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           2,122,025 sequences; 4,035,947,111 total letters
+
+Results from round 1
+
+
+Query= sp|O43741|AAKB2_HUMAN 5'-AMP-activated protein kinase subunit beta-2
+OS=Homo sapiens OX=9606 GN=PRKAB2 PE=1 SV=1
+
+Length=272
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+UniRef90_F4PRB6 Uncharacterized protein n=1 Tax=Cavenderia fascic...  193        3e-53
+UniRef90_A0A0D2LJ41 SNF1-related protein kinase regulatory subuni...  124        2e-29
+UniRef90_A0A4T0FQ44 Uncharacterized protein n=1 Tax=Wallemia hede...  70.9       4e-11
+UniRef90_E9BG73 AMPKBI domain-containing protein n=5 Tax=Leishman...  66.6       4e-10
+UniRef90_C3YKR5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  63.2       1e-08
+UniRef90_UPI000947B7C8 titin homolog n=1 Tax=Branchiostoma belche...  63.2       1e-08
+UniRef90_A0A388LJY9 Integrase catalytic domain-containing protein...  63.2       1e-08
+UniRef90_A0A4T0AJ53 AMPK1_CBM domain-containing protein n=40 Tax=...  63.2       1e-08
+UniRef90_A0A074WYI5 AMPK1_CBM domain-containing protein n=1 Tax=A...  62.4       2e-08
+UniRef90_A0A4U0Y0P6 Uncharacterized protein n=1 Tax=Friedmanniomy...  61.2       6e-08
+UniRef90_A0A2S4UFQ6 GPI inositol-deacylase n=3 Tax=Puccinia strii...  60.5       9e-08
+UniRef90_C3YKR7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  58.5       4e-07
+UniRef90_A0A0G4G102 Uncharacterized protein n=1 Tax=Vitrella bras...  57.8       7e-07
+UniRef90_A0A0G4H8B2 Uncharacterized protein n=1 Tax=Vitrella bras...  57.0       1e-06
+UniRef90_C3YKR6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  56.6       2e-06
+UniRef90_A0A496RSG2 Chromosome partition protein Smc n=1 Tax=Cand...  56.6       2e-06
+UniRef90_A0A0G4I0G9 Uncharacterized protein n=1 Tax=Chromera veli...  55.8       4e-06
+UniRef90_A0A0G4GM91 Poly(ADP-ribose) glycohydrolase n=1 Tax=Vitre...  54.3       9e-06
+UniRef90_A0A261XV88 Uncharacterized protein n=1 Tax=Bifiguratus a...  54.3       1e-05
+UniRef90_A0A5Q4C300 Putative RING finger protein n=1 Tax=Colletot...  53.9       1e-05
+UniRef90_R7QIX8 Starch synthase n=1 Tax=Chondrus crispus TaxID=27...  53.5       2e-05
+UniRef90_F0ZW89 Uncharacterized protein n=1 Tax=Dictyostelium pur...  52.0       5e-05
+UniRef90_A0A1D8QQE3 Starch synthase n=2 Tax=Gracilariopsis TaxID=...  52.0       5e-05
+UniRef90_UPI000C757976 mucin-17-like n=1 Tax=Eurytemora affinis T...  51.6       7e-05
+UniRef90_Q55DB7 Uncharacterized protein n=1 Tax=Dictyostelium dis...  51.6       7e-05
+UniRef90_A0A1Q9EAE0 Phosphoglycerate kinase n=1 Tax=Symbiodinium ...  51.6       8e-05
+UniRef90_A0A2P6NDD8 Mitochondrial chaperone BCS1 n=1 Tax=Planopro...  51.6       8e-05
+UniRef90_M1VIW0 Probable starch/glycogen synthase n=1 Tax=Cyanidi...  51.2       1e-04
+UniRef90_U6LNX1 Glycogen synthase, putative n=1 Tax=Eimeria brune...  51.2       1e-04
+UniRef90_U6M9K5 Glycogen synthase, putative n=1 Tax=Eimeria maxim...  51.2       1e-04
+UniRef90_A0A196SPZ6 Alpha amylase domain-containing protein n=1 T...  51.2       1e-04
+UniRef90_A0A1V8S9T5 eIF2B_5 domain-containing protein n=2 Tax=Rac...  51.2       1e-04
+UniRef90_R9X9U7 AaceriABL133Cp n=1 Tax=Ashbya aceri TaxID=566037 ...  50.8       1e-04
+UniRef90_A0A0K6GPP4 Glycosidase n=11 Tax=Bacillaceae TaxID=186817...  50.8       1e-04
+UniRef90_A0A0E9NR20 GPI mannosyltransferase 2 n=2 Tax=Saitoella c...  50.8       1e-04
+UniRef90_A0A1M5UA20 Pullulanase n=3 Tax=Caloranaerobacter azorens...  50.8       2e-04
+UniRef90_V4YNZ5 Glycogen synthase, putative n=7 Tax=Toxoplasma go...  50.8       2e-04
+UniRef90_A0A2P7YK25 SSD domain-containing protein n=1 Tax=[Candid...  50.4       2e-04
+UniRef90_UPI0005C6683A type I pullulanase n=1 Tax=Epulopiscium sp...  50.4       2e-04
+UniRef90_A0A5J4Z9Z1 5'-AMP-activated protein kinase subunit beta-...  50.4       2e-04
+UniRef90_A0A1R2CPR5 Uncharacterized protein n=1 Tax=Stentor coeru...  50.1       2e-04
+UniRef90_A0A261XYL6 Uncharacterized protein n=1 Tax=Bifiguratus a...  50.1       2e-04
+UniRef90_A0A160F4S3 Amylopullulanase n=1 Tax=Anoxybacillus amylol...  50.1       2e-04
+UniRef90_UPI00147844C2 type I pullulanase n=1 Tax=Vallitalea okin...  50.1       3e-04
+UniRef90_B6ABH3 Glycogen debranching protein, putative n=2 Tax=Cr...  49.7       3e-04
+UniRef90_A0A0B2V722 Putative leucine-rich repeat-containing prote...  49.3       5e-04
+UniRef90_A0A5J4Z6A3 Glycogen synthase n=1 Tax=Porphyridium purpur...  49.3       5e-04
+UniRef90_Q24GJ3 Group 1 family glycosyltransferase n=1 Tax=Tetrah...  48.9       5e-04
+UniRef90_R7RMR2 Maltodextrin glucosidase n=1 Tax=Thermobrachium c...  48.9       6e-04
+UniRef90_Q9EZZ4 Amylopullulanase n=2 Tax=Bacillaceae TaxID=186817...  48.5       7e-04
+UniRef90_A0A1C1CT81 RRM domain-containing protein n=1 Tax=Cladoph...  48.5       7e-04
+UniRef90_A0A1J8Q4Q7 AMPK1_CBM domain-containing protein n=1 Tax=R...  48.5       8e-04
+UniRef90_A0A4U1MJU1 Amylopullulanase n=2 Tax=Bacillaceae TaxID=18...  48.5       9e-04
+UniRef90_Q75E06 ABL133Cp n=1 Tax=Ashbya gossypii (strain ATCC 108...  48.1       0.001
+UniRef90_A0A507FBS8 AMPK1_CBM domain-containing protein n=1 Tax=C...  48.1       0.001
+UniRef90_A0A2P6NZY4 Rieske domain-containing protein n=1 Tax=Plan...  48.1       0.001
+UniRef90_S5Z364 Uncharacterized protein n=2 Tax=Bacillus sp. (str...  47.8       0.001
+UniRef90_A0A1M4T002 Glycosidase n=2 Tax=Caloramator TaxID=44258 R...  47.8       0.001
+UniRef90_A0A1X6NRG4 Uncharacterized protein n=1 Tax=Porphyra umbi...  47.4       0.002
+UniRef90_A0A2A9MGI4 Uncharacterized protein n=1 Tax=Besnoitia bes...  47.4       0.002
+UniRef90_A0A0V0S9V4 Uncharacterized protein n=14 Tax=Trichinella ...  47.4       0.002
+UniRef90_A0A2V1AAX6 SSD domain-containing protein n=1 Tax=[Candid...  47.0       0.002
+UniRef90_A0A1S9CI17 Type I pullulanase n=1 Tax=Epulopiscium sp. A...  47.4       0.002
+UniRef90_W9WJN1 RRM domain-containing protein n=1 Tax=Cladophialo...  46.6       0.003
+UniRef90_A0A1Q3AIK7 AMPK1_CBM domain-containing protein n=1 Tax=Z...  46.6       0.003
+UniRef90_F0V8S0 Granule-bound starch synthase WX-TsB protein,rela...  46.6       0.003
+UniRef90_B7GKY4 Alpha-amylase/pullulanase n=3 Tax=Anoxybacillus T...  46.6       0.004
+UniRef90_UPI00146E482B Ig-like domain-containing protein n=1 Tax=...  46.2       0.004
+UniRef90_A0A553PKD5 Gp_dh_N domain-containing protein n=1 Tax=Tig...  46.2       0.004
+UniRef90_A0A2C6KQ00 Iq calmodulin-binding motif domain-containing...  46.2       0.004
+UniRef90_I7J4K6 Neopullulanase n=1 Tax=Caloramator australicus RC...  46.2       0.004
+UniRef90_A0A507F677 AMPK1_CBM domain-containing protein n=1 Tax=C...  46.2       0.005
+UniRef90_A0D7P8 Uncharacterized protein n=1 Tax=Paramecium tetrau...  45.8       0.006
+UniRef90_A0A268E447 Type I pullulanase n=3 Tax=Bacillaceae TaxID=...  45.8       0.006
+UniRef90_A0A421JSG4 Niemann-Pick type C-related protein 1 n=1 Tax...  45.4       0.007
+UniRef90_A0A2A9MMZ9 IQ calmodulin-binding motif domain-containing...  45.4       0.008
+UniRef90_A0A139A4N5 Carbohydrate-binding module family 48 protein...  45.4       0.008
+UniRef90_A0A2A6BP92 Lon protease homolog n=2 Tax=Pristionchus pac...  45.4       0.009
+UniRef90_A0A0F4YVX6 PT repeat family protein n=1 Tax=Rasamsonia e...  45.1       0.010
+UniRef90_A0A510P8V8 Niemann-Pick C type protein n=1 Tax=Candida a...  45.1       0.010
+UniRef90_A0A507E974 AMPK1_CBM domain-containing protein n=1 Tax=P...  44.7       0.013
+UniRef90_A0A433A309 AMPK1_CBM domain-containing protein n=1 Tax=J...  44.7       0.015
+UniRef90_A0A1I0TFH8 Glycosidase (Fragment) n=1 Tax=Anoxybacillus ...  44.3       0.018
+UniRef90_UPI000E45AEBD glycogen debranching enzyme n=1 Tax=Cyclos...  44.3       0.019
+UniRef90_A0A2A9CLF5 Glycosidase n=3 Tax=Bacillus TaxID=1386 RepID...  43.9       0.027
+UniRef90_A0A0V1HF69 Uncharacterized protein n=7 Tax=Trichinella T...  43.5       0.030
+UniRef90_A0A0D0EWD3 Pullulanase n=5 Tax=Bacillus TaxID=1386 RepID...  43.5       0.032
+UniRef90_A0A2V1B122 SSD domain-containing protein n=1 Tax=[Candid...  43.5       0.036
+UniRef90_A0A0V1J414 Uncharacterized protein n=6 Tax=Trichinella p...  43.1       0.037
+UniRef90_A0A0G4G7C8 AMPK1_CBM domain-containing protein n=1 Tax=C...  43.1       0.044
+UniRef90_UPI0004243E2D type I pullulanase n=1 Tax=Helcococcus sue...  43.1       0.048
+UniRef90_UPI0015933E1F type I pullulanase n=1 Tax=Bacillus gotthe...  42.7       0.052
+UniRef90_H3NPZ8 Pullulanase, type I n=1 Tax=Helcococcus kunzii AT...  42.7       0.053
+UniRef90_A0A0G4GS03 AMPK1_CBM domain-containing protein n=1 Tax=V...  42.7       0.056
+UniRef90_UPI001116E505 type I pullulanase n=2 Tax=Bacillus TaxID=...  42.7       0.057
+UniRef90_A0A2E7G246 Aamy domain-containing protein (Fragment) n=1...  42.4       0.067
+UniRef90_A0A0S4N8J7 Por secretion system C-terminal sorting domai...  42.4       0.073
+UniRef90_UPI00068ECB59 LPXTG cell wall anchor domain-containing p...  42.4       0.075
+UniRef90_A0A0G4I0H5 Uncharacterized protein n=1 Tax=Chromera veli...  42.4       0.082
+UniRef90_Q5CXJ2 Gdb1p glycogen debranching enzyme n=3 Tax=Cryptos...  42.4       0.084
+UniRef90_A0A6L0Z246 Y55_G0012660.mRNA.1.CDS.1 n=1 Tax=Saccharomyc...  42.0       0.090
+UniRef90_A0A023AYK6 Putative glycogen debranching enzyme n=1 Tax=...  42.0       0.094
+UniRef90_A0BWA0 Uncharacterized protein n=1 Tax=Paramecium tetrau...  42.0       0.10 
+UniRef90_A0A498SJ39 AMPK1_CBM domain-containing protein n=1 Tax=A...  42.0       0.11 
+UniRef90_A0A1L6XBM3 Uncharacterized protein n=4 Tax=Lactobacillus...  41.6       0.13 
+UniRef90_A0A2P6NLW1 AMPK1_CBM domain-containing protein n=1 Tax=P...  41.6       0.14 
+UniRef90_A0A388L5Z9 5-methyltetrahydrofolate--homocysteine methyl...  41.6       0.14 
+UniRef90_A0A0V0QQ74 Immunoglobulin E-set n=1 Tax=Pseudocohnilembu...  41.6       0.15 
+UniRef90_A0A1B8RPP7 Uncharacterized protein n=10 Tax=Clostridium ...  41.2       0.16 
+UniRef90_A0A1J4MG40 Gdb1p glycogen debranching enzyme n=1 Tax=Cry...  41.2       0.16 
+UniRef90_A0A3Q9BJ92 Pullulanase n=1 Tax=Jeotgalibaca ciconiae Tax...  41.2       0.17 
+UniRef90_UPI000CDED7B0 type I pullulanase n=1 Tax=Helcococcus mas...  41.2       0.17 
+UniRef90_A0A0G4ETT9 Uncharacterized protein n=1 Tax=Vitrella bras...  41.2       0.18 
+UniRef90_A0A376B292 AMPK1_CBM domain-containing protein n=1 Tax=S...  41.2       0.19 
+UniRef90_A0A5C6W6S9 Type I pullulanase n=2 Tax=Bacillus litoralis...  41.2       0.19 
+UniRef90_A0A498J598 Carbonic anhydrase n=3 Tax=Malus domestica Ta...  40.8       0.21 
+UniRef90_A0A2P6NN37 Uncharacterized protein n=1 Tax=Planoprotoste...  40.8       0.21 
+UniRef90_A0A656D1J5 Por secretion system C-terminal sorting domai...  40.8       0.22 
+UniRef90_A0A4V5N7T3 C3H1-type domain-containing protein n=1 Tax=F...  40.8       0.23 
+UniRef90_A0A3R5QRV3 Aamy domain-containing protein n=3 Tax=unclas...  40.4       0.27 
+UniRef90_A0A1E3P351 Carbohydrate-binding module family 48 protein...  40.4       0.27 
+UniRef90_A0A4E9F1C6 Uncharacterized protein n=11 Tax=Brugia malay...  40.4       0.36 
+UniRef90_A0A1Q3A4X4 AMPK1_CBM domain-containing protein n=2 Tax=Z...  40.0       0.37 
+UniRef90_A0A0P1LDD0 Por secretion system C-terminal sorting domai...  39.7       0.50 
+UniRef90_UPI0013D1D350 cell wall-binding repeat-containing protei...  39.7       0.52 
+UniRef90_A0A0J5Q1R2 PT repeat family protein n=1 Tax=Aspergillus ...  39.7       0.60 
+UniRef90_K6ZX64 Pullulanase 1, chloroplastic n=2 Tax=Paraglacieco...  39.3       0.62 
+UniRef90_A0A0A5GRR3 Alpha-dextrin endo-1,6-alpha-glucosidase n=1 ...  38.9       0.85 
+UniRef90_A0A2P6NNI5 Filamin-B-like n=1 Tax=Planoprotostelium fung...  38.9       0.88 
+UniRef90_W6RXB3 Aamy domain-containing protein n=1 Tax=Clostridiu...  38.9       0.91 
+UniRef90_UPI000C9A9C26 pullulanase-type alpha-1,6-glucosidase n=1...  38.9       0.94 
+UniRef90_A0A2I1CPP8 AMPK1_CBM domain-containing protein n=1 Tax=A...  38.9       0.95 
+UniRef90_Q4WZG6 PT repeat family protein n=2 Tax=Neosartorya fumi...  38.9       0.98 
+UniRef90_A0A3Q9FQY9 T9SS type A sorting domain-containing protein...  38.9       0.99 
+UniRef90_A0A086QB67 Amylo-alpha-1,6-glucosidase (Fragment) n=2 Ta...  38.5       1.1  
+UniRef90_A0A421DEI6 AMPK1_CBM domain-containing protein n=2 Tax=A...  38.9       1.1  
+UniRef90_A0A143XVR8 Neopullulanase n=1 Tax=Clostridiales bacteriu...  38.5       1.2  
+UniRef90_UPI0004F0F7C6 LOW QUALITY PROTEIN: zinc finger protein 6...  38.5       1.3  
+UniRef90_A0A419F2Q6 T9SS C-terminal target domain-containing prot...  38.5       1.4  
+UniRef90_W7XI56 Amylo-alpha-1,6-glucosidase n=1 Tax=Tetrahymena t...  38.5       1.4  
+UniRef90_A1C839 PT repeat family protein n=1 Tax=Aspergillus clav...  38.5       1.4  
+UniRef90_A1DIR6 PT repeat family protein n=1 Tax=Neosartorya fisc...  38.5       1.5  
+UniRef90_A0A3E0PG45 Glucan 1,4-alpha-glucosidase n=1 Tax=Acidobac...  38.1       1.5  
+UniRef90_A0A507R2P9 AMPK1_CBM domain-containing protein n=1 Tax=M...  38.1       1.6  
+UniRef90_A0A1U7E9A3 Pullulanase n=1 Tax=Jeotgalibaca sp. PTS2502 ...  37.7       2.0  
+UniRef90_UPI000A39FA78 LOW QUALITY PROTEIN: zinc finger protein 6...  37.7       2.0  
+UniRef90_A0A2A9MI59 Amylo-alpha-1,6-glucosidase n=1 Tax=Besnoitia...  37.7       2.0  
+UniRef90_S8EXR5 Amylo-alpha-1,6-glucosidase n=20 Tax=Toxoplasma g...  37.7       2.1  
+UniRef90_U2CT18 Alpha amylase, catalytic domain protein n=2 Tax=u...  37.7       2.3  
+UniRef90_A0A218UZH6 Zinc finger protein 609 n=54 Tax=Archosauria ...  37.7       2.3  
+UniRef90_A0A385NY52 Type I pullulanase n=3 Tax=Bacteria TaxID=2 R...  37.7       2.5  
+UniRef90_A0A663DQY6 C2H2-type domain-containing protein n=35 Tax=...  37.7       2.5  
+UniRef90_A0A1V4KN73 Zinc finger protein 609 n=2 Tax=Neognathae Ta...  37.7       2.5  
+UniRef90_A0A077ZP91 Glycosyl group 1 family protein n=1 Tax=Stylo...  37.4       2.6  
+UniRef90_UPI000A177468 DUF11 domain-containing protein n=1 Tax=Co...  37.7       2.6  
+UniRef90_U3K5D5 C2H2-type domain-containing protein n=2 Tax=Ficed...  37.4       2.7  
+UniRef90_A0A663M525 C2H2-type domain-containing protein n=4 Tax=N...  37.4       2.8  
+UniRef90_A0A091LZ37 Zinc finger protein 609 n=2 Tax=Cariama crist...  37.4       2.9  
+UniRef90_A0A0V0R3M8 Six-hairpin glycosidase-like protein n=1 Tax=...  37.4       3.0  
+UniRef90_UPI00071C970F S-layer homology domain-containing protein...  37.4       3.0  
+UniRef90_UPI000521C3D0 LOW QUALITY PROTEIN: zinc finger protein 6...  37.0       3.4  
+UniRef90_UPI00042C0659 LOW QUALITY PROTEIN: zinc finger protein 6...  37.0       3.5  
+UniRef90_A0A109UXL4 HBR507Wp n=1 Tax=Eremothecium sinecaudum TaxI...  37.0       3.5  
+UniRef90_A0A4R7K4I7 LPXTG-motif cell wall-anchored protein n=1 Ta...  37.0       3.7  
+UniRef90_A0A3N5JM78 T9SS C-terminal target domain-containing prot...  37.0       4.1  
+UniRef90_A0A661Y3I4 Big_5 domain-containing protein n=1 Tax=Bacte...  37.0       4.4  
+UniRef90_A0A3M2T7F5 PT repeat family protein n=1 Tax=Aspergillus ...  36.6       4.8  
+UniRef90_A0A674JQA9 C2H2-type domain-containing protein n=15 Tax=...  36.6       5.1  
+UniRef90_I2H081 AMPK1_CBM domain-containing protein n=1 Tax=Tetra...  36.6       5.5  
+UniRef90_A0A3M7FKT3 MFS domain-containing protein n=1 Tax=Hortaea...  36.6       5.6  
+UniRef90_A0A0P7Z036 Por secretion system C-terminal sorting domai...  36.2       6.5  
+UniRef90_UPI0006CED60B myosin light chain kinase, smooth muscle-l...  36.2       6.6  
+UniRef90_A0A0K8LGW9 AMPK1_CBM domain-containing protein n=1 Tax=A...  36.2       7.1  
+UniRef90_A0A1Z9XQK9 Pullulanase n=3 Tax=Alteromonas TaxID=226 Rep...  36.2       7.4  
+UniRef90_C5FMJ2 PT repeat family protein n=1 Tax=Arthroderma otae...  36.2       7.9  
+UniRef90_A0A1Q9DCG4 Cell migration-inducing and hyaluronan-bindin...  35.8       7.9  
+UniRef90_A0A2T2W8L5 Phytase n=2 Tax=unclassified Cyanobacteria Ta...  35.8       8.1  
+UniRef90_A0A6A2ZEV8 Uncharacterized protein n=1 Tax=Hibiscus syri...  35.8       8.7  
+UniRef90_E2SGE9 Uncharacterized protein n=2 Tax=unclassified Erys...  35.8       8.7  
+UniRef90_A0A5B9YF93 Type I pullulanase n=2 Tax=Cellulosilyticum T...  35.8       9.8  
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 501576426574
+Results from round 2
+
+
+Query= sp|O43741|AAKB2_HUMAN 5'-AMP-activated protein kinase subunit beta-2
+OS=Homo sapiens OX=9606 GN=PRKAB2 PE=1 SV=1
+
+Length=272
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_F4PRB6 Uncharacterized protein n=1 Tax=Cavenderia fascic...  255        5e-75
+UniRef90_A0A0D2LJ41 SNF1-related protein kinase regulatory subuni...  207        2e-58
+UniRef90_A0A4T0FQ44 Uncharacterized protein n=1 Tax=Wallemia hede...  199        1e-55
+UniRef90_A0A2S4UFQ6 GPI inositol-deacylase n=3 Tax=Puccinia strii...  191        1e-52
+UniRef90_E9BG73 AMPKBI domain-containing protein n=5 Tax=Leishman...  172        2e-49
+UniRef90_A0A4U0Y0P6 Uncharacterized protein n=1 Tax=Friedmanniomy...  127        1e-30
+UniRef90_UPI000947B7C8 titin homolog n=1 Tax=Branchiostoma belche...  124        1e-29
+UniRef90_A0A496RSG2 Chromosome partition protein Smc n=1 Tax=Cand...  121        2e-28
+UniRef90_A0A5J4Z9Z1 5'-AMP-activated protein kinase subunit beta-...  120        5e-28
+UniRef90_A0A4T0AJ53 AMPK1_CBM domain-containing protein n=40 Tax=...  120        5e-28
+UniRef90_C3YKR5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  120        5e-28
+UniRef90_A0A074WYI5 AMPK1_CBM domain-containing protein n=1 Tax=A...  117        3e-27
+UniRef90_UPI0005C6683A type I pullulanase n=1 Tax=Epulopiscium sp...  115        3e-26
+UniRef90_A0A5Q4C300 Putative RING finger protein n=1 Tax=Colletot...  113        1e-25
+UniRef90_A0A1D8QQE3 Starch synthase n=2 Tax=Gracilariopsis TaxID=...  111        4e-25
+UniRef90_U6LNX1 Glycogen synthase, putative n=1 Tax=Eimeria brune...  110        1e-24
+UniRef90_A0A388LJY9 Integrase catalytic domain-containing protein...  110        1e-24
+UniRef90_A0A0G4GM91 Poly(ADP-ribose) glycohydrolase n=1 Tax=Vitre...  110        1e-24
+UniRef90_R7QIX8 Starch synthase n=1 Tax=Chondrus crispus TaxID=27...  110        1e-24
+UniRef90_C3YKR6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  109        3e-24
+UniRef90_V4YNZ5 Glycogen synthase, putative n=7 Tax=Toxoplasma go...  108        4e-24
+UniRef90_U6M9K5 Glycogen synthase, putative n=1 Tax=Eimeria maxim...  107        1e-23
+UniRef90_Q55DB7 Uncharacterized protein n=1 Tax=Dictyostelium dis...  107        1e-23
+UniRef90_A0A1R2CPR5 Uncharacterized protein n=1 Tax=Stentor coeru...  106        3e-23
+UniRef90_M1VIW0 Probable starch/glycogen synthase n=1 Tax=Cyanidi...  106        4e-23
+UniRef90_A0A0E9NR20 GPI mannosyltransferase 2 n=2 Tax=Saitoella c...  104        2e-22
+UniRef90_A0A0G4H8B2 Uncharacterized protein n=1 Tax=Vitrella bras...  103        2e-22
+UniRef90_F0ZW89 Uncharacterized protein n=1 Tax=Dictyostelium pur...  103        2e-22
+UniRef90_A0A2P6NDD8 Mitochondrial chaperone BCS1 n=1 Tax=Planopro...  103        3e-22
+UniRef90_A0A1C1CT81 RRM domain-containing protein n=1 Tax=Cladoph...  101        1e-21
+UniRef90_A0A1J8Q4Q7 AMPK1_CBM domain-containing protein n=1 Tax=R...  101        2e-21
+UniRef90_B6ABH3 Glycogen debranching protein, putative n=2 Tax=Cr...  100        4e-21
+UniRef90_A0A0B2V722 Putative leucine-rich repeat-containing prote...  100        5e-21
+UniRef90_Q9EZZ4 Amylopullulanase n=2 Tax=Bacillaceae TaxID=186817...  99.8       6e-21
+UniRef90_R7RMR2 Maltodextrin glucosidase n=1 Tax=Thermobrachium c...  99.1       8e-21
+UniRef90_A0A2P7YK25 SSD domain-containing protein n=1 Tax=[Candid...  99.1       1e-20
+UniRef90_A0A0G4G102 Uncharacterized protein n=1 Tax=Vitrella bras...  98.7       1e-20
+UniRef90_A0A261XV88 Uncharacterized protein n=1 Tax=Bifiguratus a...  98.3       2e-20
+UniRef90_A0A0G4I0G9 Uncharacterized protein n=1 Tax=Chromera veli...  97.2       5e-20
+UniRef90_Q24GJ3 Group 1 family glycosyltransferase n=1 Tax=Tetrah...  95.2       2e-19
+UniRef90_A0A1V8S9T5 eIF2B_5 domain-containing protein n=2 Tax=Rac...  93.7       6e-19
+UniRef90_A0A1Q9EAE0 Phosphoglycerate kinase n=1 Tax=Symbiodinium ...  93.3       8e-19
+UniRef90_A0A0K6GPP4 Glycosidase n=11 Tax=Bacillaceae TaxID=186817...  93.3       1e-18
+UniRef90_A0A261XYL6 Uncharacterized protein n=1 Tax=Bifiguratus a...  92.9       1e-18
+UniRef90_A0A160F4S3 Amylopullulanase n=1 Tax=Anoxybacillus amylol...  92.5       2e-18
+UniRef90_C3YKR7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  92.5       2e-18
+UniRef90_A0A196SPZ6 Alpha amylase domain-containing protein n=1 T...  92.1       2e-18
+UniRef90_UPI000C757976 mucin-17-like n=1 Tax=Eurytemora affinis T...  90.6       8e-18
+UniRef90_A0A5J4Z6A3 Glycogen synthase n=1 Tax=Porphyridium purpur...  89.8       1e-17
+UniRef90_UPI00147844C2 type I pullulanase n=1 Tax=Vallitalea okin...  89.4       2e-17
+UniRef90_A0A4U1MJU1 Amylopullulanase n=2 Tax=Bacillaceae TaxID=18...  79.4       4e-14
+UniRef90_A0A1M5UA20 Pullulanase n=3 Tax=Caloranaerobacter azorens...  77.9       1e-13
+UniRef90_Q75E06 ABL133Cp n=1 Tax=Ashbya gossypii (strain ATCC 108...  68.3       3e-10
+UniRef90_R9X9U7 AaceriABL133Cp n=1 Tax=Ashbya aceri TaxID=566037 ...  61.7       4e-08
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A2A9MGI4 Uncharacterized protein n=1 Tax=Besnoitia bes...  101        2e-21
+UniRef90_A0A1M4T002 Glycosidase n=2 Tax=Caloramator TaxID=44258 R...  97.9       2e-20
+UniRef90_B7GKY4 Alpha-amylase/pullulanase n=3 Tax=Anoxybacillus T...  96.4       8e-20
+UniRef90_A0A498J598 Carbonic anhydrase n=3 Tax=Malus domestica Ta...  96.0       1e-19
+UniRef90_A0A433A309 AMPK1_CBM domain-containing protein n=1 Tax=J...  94.5       4e-19
+UniRef90_Q5CXJ2 Gdb1p glycogen debranching enzyme n=3 Tax=Cryptos...  94.5       4e-19
+UniRef90_A0A1E3P351 Carbohydrate-binding module family 48 protein...  93.7       6e-19
+UniRef90_A0A1Q3AIK7 AMPK1_CBM domain-containing protein n=1 Tax=Z...  93.3       8e-19
+UniRef90_A0A1J4MG40 Gdb1p glycogen debranching enzyme n=1 Tax=Cry...  93.3       8e-19
+UniRef90_A0A1I0TFH8 Glycosidase (Fragment) n=1 Tax=Anoxybacillus ...  93.3       9e-19
+UniRef90_A0A0G4I0H5 Uncharacterized protein n=1 Tax=Chromera veli...  92.9       1e-18
+UniRef90_I7J4K6 Neopullulanase n=1 Tax=Caloramator australicus RC...  92.1       2e-18
+UniRef90_A0A507FBS8 AMPK1_CBM domain-containing protein n=1 Tax=C...  91.0       5e-18
+UniRef90_F0V8S0 Granule-bound starch synthase WX-TsB protein,rela...  91.0       7e-18
+UniRef90_A0A2V1AAX6 SSD domain-containing protein n=1 Tax=[Candid...  89.8       1e-17
+UniRef90_A0A510P8V8 Niemann-Pick C type protein n=1 Tax=Candida a...  89.8       1e-17
+UniRef90_A0A507E974 AMPK1_CBM domain-containing protein n=1 Tax=P...  89.4       2e-17
+UniRef90_A0A507F677 AMPK1_CBM domain-containing protein n=1 Tax=C...  87.9       6e-17
+UniRef90_A0A1X6NRG4 Uncharacterized protein n=1 Tax=Porphyra umbi...  87.9       7e-17
+UniRef90_A0A2V1B122 SSD domain-containing protein n=1 Tax=[Candid...  87.1       1e-16
+UniRef90_A0A268E447 Type I pullulanase n=3 Tax=Bacillaceae TaxID=...  86.0       2e-16
+UniRef90_W9WJN1 RRM domain-containing protein n=1 Tax=Cladophialo...  86.0       2e-16
+UniRef90_A0D7P8 Uncharacterized protein n=1 Tax=Paramecium tetrau...  86.0       3e-16
+UniRef90_A0A2E7G246 Aamy domain-containing protein (Fragment) n=1...  85.2       4e-16
+UniRef90_J9HYC3 Glycosyl transferase, group 1 family protein n=1 ...  84.8       7e-16
+UniRef90_A0A376B292 AMPK1_CBM domain-containing protein n=1 Tax=S...  84.4       1e-15
+UniRef90_A0A0V0QQ74 Immunoglobulin E-set n=1 Tax=Pseudocohnilembu...  83.7       2e-15
+UniRef90_A0EEA7 Uncharacterized protein n=1 Tax=Paramecium tetrau...  82.9       3e-15
+UniRef90_S5Z364 Uncharacterized protein n=2 Tax=Bacillus sp. (str...  82.9       3e-15
+UniRef90_A0A086QB67 Amylo-alpha-1,6-glucosidase (Fragment) n=2 Ta...  82.5       4e-15
+UniRef90_S8EXR5 Amylo-alpha-1,6-glucosidase n=20 Tax=Toxoplasma g...  82.5       4e-15
+UniRef90_A0A1S9CI17 Type I pullulanase n=1 Tax=Epulopiscium sp. A...  82.5       4e-15
+UniRef90_A0A077ZP91 Glycosyl group 1 family protein n=1 Tax=Stylo...  80.6       2e-14
+UniRef90_A0A1Q3A4X4 AMPK1_CBM domain-containing protein n=2 Tax=Z...  80.2       2e-14
+UniRef90_A0A0V0S9V4 Uncharacterized protein n=14 Tax=Trichinella ...  80.2       3e-14
+UniRef90_UPI0015933E1F type I pullulanase n=1 Tax=Bacillus gotthe...  79.8       3e-14
+UniRef90_A0A2P6NNI5 Filamin-B-like n=1 Tax=Planoprotostelium fung...  79.4       4e-14
+UniRef90_A0A2A9MI59 Amylo-alpha-1,6-glucosidase n=1 Tax=Besnoitia...  79.0       6e-14
+UniRef90_A0A1E4SHW6 Uncharacterized protein n=1 Tax=Suhomyces tan...  79.0       6e-14
+UniRef90_A0A0G4G7C8 AMPK1_CBM domain-containing protein n=1 Tax=C...  79.0       7e-14
+UniRef90_A0A2C6L0G4 Amylo-alpha n=1 Tax=Cystoisospora suis TaxID=...  79.0       7e-14
+UniRef90_A0A2C6KQ00 Iq calmodulin-binding motif domain-containing...  78.3       1e-13
+UniRef90_A0A0V1HF69 Uncharacterized protein n=7 Tax=Trichinella T...  77.9       1e-13
+UniRef90_A0A0V1J414 Uncharacterized protein n=6 Tax=Trichinella p...  77.9       1e-13
+UniRef90_A0A139A4N5 Carbohydrate-binding module family 48 protein...  77.9       2e-13
+UniRef90_A0A0G4GS03 AMPK1_CBM domain-containing protein n=1 Tax=V...  77.5       2e-13
+UniRef90_A0A3Q9BJ92 Pullulanase n=1 Tax=Jeotgalibaca ciconiae Tax...  77.5       2e-13
+UniRef90_J9ICV4 Glycogen debranching protein, putative n=1 Tax=Ox...  77.5       2e-13
+UniRef90_UPI000E45AEBD glycogen debranching enzyme n=1 Tax=Cyclos...  77.5       2e-13
+UniRef90_A0A2A9CLF5 Glycosidase n=3 Tax=Bacillus TaxID=1386 RepID...  77.1       3e-13
+UniRef90_A0A2P6NZY4 Rieske domain-containing protein n=1 Tax=Plan...  77.1       3e-13
+UniRef90_A0A2A9MMZ9 IQ calmodulin-binding motif domain-containing...  76.7       3e-13
+UniRef90_A0A421JSG4 Niemann-Pick type C-related protein 1 n=1 Tax...  76.7       3e-13
+UniRef90_A0A5C6W6S9 Type I pullulanase n=2 Tax=Bacillus litoralis...  76.7       4e-13
+UniRef90_A0A1L6XBM3 Uncharacterized protein n=4 Tax=Lactobacillus...  76.7       4e-13
+UniRef90_A0A4E9F1C6 Uncharacterized protein n=11 Tax=Brugia malay...  76.7       4e-13
+UniRef90_A0A2P6NN37 Uncharacterized protein n=1 Tax=Planoprotoste...  76.4       5e-13
+UniRef90_A0A498SJ39 AMPK1_CBM domain-containing protein n=1 Tax=A...  76.4       5e-13
+UniRef90_F0VLQ0 Glycogen debranching enzyme, putative n=1 Tax=Neo...  76.0       7e-13
+UniRef90_A0A4R7K4I7 LPXTG-motif cell wall-anchored protein n=1 Ta...  75.6       9e-13
+UniRef90_A0A2A2Y8G0 Uncharacterized protein n=1 Tax=Verrucomicrob...  75.2       1e-12
+UniRef90_A0A553PKD5 Gp_dh_N domain-containing protein n=1 Tax=Tig...  75.2       1e-12
+UniRef90_A0A385NY52 Type I pullulanase n=3 Tax=Bacteria TaxID=2 R...  74.8       2e-12
+UniRef90_UPI001116E505 type I pullulanase n=2 Tax=Bacillus TaxID=...  74.8       2e-12
+UniRef90_UPI0015B9CD1B S-layer homology domain-containing protein...  74.4       2e-12
+UniRef90_A0A0G4ETT9 Uncharacterized protein n=1 Tax=Vitrella bras...  74.4       2e-12
+UniRef90_UPI000781854B LPXTG cell wall anchor domain-containing p...  74.4       2e-12
+UniRef90_A0A2A6BP92 Lon protease homolog n=2 Tax=Pristionchus pac...  74.4       2e-12
+UniRef90_A0A5A8CYY6 Uncharacterized protein n=4 Tax=Cafeteria roe...  73.7       4e-12
+UniRef90_A0A2E9IUZ5 Uncharacterized protein n=4 Tax=Opitutae TaxI...  73.7       4e-12
+UniRef90_R9J0F3 Pullulanase, type I n=2 Tax=Lachnospiraceae bacte...  73.3       5e-12
+UniRef90_A0A1U7E9A3 Pullulanase n=1 Tax=Jeotgalibaca sp. PTS2502 ...  72.5       9e-12
+UniRef90_UPI00068ECB59 LPXTG cell wall anchor domain-containing p...  71.7       2e-11
+UniRef90_A0A023AYK6 Putative glycogen debranching enzyme n=1 Tax=...  71.7       2e-11
+UniRef90_W7XI56 Amylo-alpha-1,6-glucosidase n=1 Tax=Tetrahymena t...  71.3       2e-11
+UniRef90_UPI000686E36B alpha-glucosidase C-terminal domain-contai...  71.0       3e-11
+UniRef90_A0A510P396 Putative D-galactonate transporter n=1 Tax=Ca...  70.6       4e-11
+UniRef90_A0A1L3MTB1 Type I pullulanase n=1 Tax=Bacillus weihaiens...  70.6       4e-11
+UniRef90_A0A143XVR8 Neopullulanase n=1 Tax=Clostridiales bacteriu...  70.6       4e-11
+UniRef90_A0A656D1J5 Por secretion system C-terminal sorting domai...  70.2       6e-11
+UniRef90_A0A1V8SFR9 Ubiquitinyl hydrolase 1 n=2 Tax=Rachicladospo...  70.2       6e-11
+UniRef90_A0A1W1XFB0 LPXTG-motif cell wall anchor domain-containin...  69.4       1e-10
+UniRef90_A0A3E0PG45 Glucan 1,4-alpha-glucosidase n=1 Tax=Acidobac...  69.0       1e-10
+UniRef90_UPI0004243E2D type I pullulanase n=1 Tax=Helcococcus sue...  69.0       1e-10
+UniRef90_A0A1B8RPP7 Uncharacterized protein n=10 Tax=Clostridium ...  69.0       1e-10
+UniRef90_A0A4V5N7T3 C3H1-type domain-containing protein n=1 Tax=F...  69.0       2e-10
+UniRef90_A0A2E0NDI9 Aamy domain-containing protein n=1 Tax=Corali...  68.6       2e-10
+UniRef90_A0A2P6NLW1 AMPK1_CBM domain-containing protein n=1 Tax=P...  68.6       2e-10
+UniRef90_A0A0P1LDD0 Por secretion system C-terminal sorting domai...  68.3       3e-10
+UniRef90_A0A176K2W0 Glycoside hydrolase family 57 n=1 Tax=Kosmoto...  67.9       3e-10
+UniRef90_A0A109UXL4 HBR507Wp n=1 Tax=Eremothecium sinecaudum TaxI...  67.9       3e-10
+UniRef90_UPI0004014FB1 pullulanase n=1 Tax=Paucisalibacillus glob...  67.9       4e-10
+UniRef90_A0A0A5GRR3 Alpha-dextrin endo-1,6-alpha-glucosidase n=1 ...  67.5       4e-10
+UniRef90_A0A662Z6E8 Pullulanase, extracellular n=1 Tax=Aliicoccus...  67.5       4e-10
+UniRef90_A0A0V0R3M8 Six-hairpin glycosidase-like protein n=1 Tax=...  67.5       5e-10
+UniRef90_A0A0S4N8J7 Por secretion system C-terminal sorting domai...  67.1       5e-10
+UniRef90_UPI001434D942 type I pullulanase n=1 Tax=Lachnospiraceae...  67.1       6e-10
+UniRef90_UPI000CDED7B0 type I pullulanase n=1 Tax=Helcococcus mas...  67.1       7e-10
+UniRef90_A0A1R2CGU4 Uncharacterized protein n=1 Tax=Stentor coeru...  66.7       8e-10
+UniRef90_A0A4R1QQM1 Glycosidase n=1 Tax=Kineothrix alysoides TaxI...  66.7       9e-10
+UniRef90_A0A3R5QRV3 Aamy domain-containing protein n=3 Tax=unclas...  66.7       9e-10
+UniRef90_A0A2A9MD46 AMPK1_CBM domain-containing protein n=1 Tax=B...  66.3       1e-09
+UniRef90_UPI000A0210A3 pullulanase n=1 Tax=Bacillus cohnii TaxID=...  66.0       2e-09
+UniRef90_H3NPZ8 Pullulanase, type I n=1 Tax=Helcococcus kunzii AT...  65.6       2e-09
+UniRef90_A0A1M7IXZ7 Glycosidase n=1 Tax=Anaerosporobacter mobilis...  65.2       2e-09
+UniRef90_UPI0013D1D350 cell wall-binding repeat-containing protei...  65.2       3e-09
+UniRef90_UPI0012B39727 hypothetical protein n=1 Tax=Clostridiacea...  65.2       3e-09
+UniRef90_A0A4P9X8L5 Uncharacterized protein n=1 Tax=Caulochytrium...  64.8       4e-09
+UniRef90_A0A5J5GCV3 Uncharacterized protein n=1 Tax=Paenibacillus...  64.4       4e-09
+UniRef90_A0A3B1CAP7 Aamy domain-containing protein n=1 Tax=hydrot...  64.4       5e-09
+UniRef90_A0A0J5Q1R2 PT repeat family protein n=1 Tax=Aspergillus ...  63.6       8e-09
+UniRef90_A0A348NM41 Uncharacterized protein n=1 Tax=Opitutae bact...  63.6       9e-09
+UniRef90_A0A388L5Z9 5-methyltetrahydrofolate--homocysteine methyl...  63.6       9e-09
+UniRef90_R1CZ54 Pullulanase n=1 Tax=Caldisalinibacter kiritimatie...  63.3       1e-08
+UniRef90_E0I7R1 Alpha amylase catalytic region n=2 Tax=Paenibacil...  63.3       1e-08
+UniRef90_W6RXB3 Aamy domain-containing protein n=1 Tax=Clostridiu...  62.9       2e-08
+UniRef90_A0A0F4YVX6 PT repeat family protein n=1 Tax=Rasamsonia e...  62.5       2e-08
+UniRef90_UPI0013659B89 S-layer homology domain-containing protein...  62.1       3e-08
+UniRef90_M2X4R8 Starch synthase n=1 Tax=Galdieria sulphuraria Tax...  62.1       3e-08
+UniRef90_Q4WZG6 PT repeat family protein n=2 Tax=Neosartorya fumi...  62.1       3e-08
+UniRef90_A0A085MLH1 Uncharacterized protein n=2 Tax=Trichuris sui...  62.1       3e-08
+UniRef90_UPI0015B8A882 alpha-amylase n=1 Tax=Lachnospiraceae bact...  62.1       3e-08
+UniRef90_A0A5B9YF93 Type I pullulanase n=2 Tax=Cellulosilyticum T...  62.1       3e-08
+UniRef90_A0A0D0EWD3 Pullulanase n=5 Tax=Bacillus TaxID=1386 RepID...  61.7       3e-08
+UniRef90_A0A172TPU2 Alpha-amylase n=2 Tax=Paenibacillus swuensis ...  61.7       4e-08
+UniRef90_A0A5S6QA45 Uncharacterized protein n=1 Tax=Trichuris mur...  61.3       5e-08
+UniRef90_A0A1J4X9K7 Aamy domain-containing protein n=4 Tax=Candid...  61.3       5e-08
+UniRef90_A0A3M7FKT3 MFS domain-containing protein n=1 Tax=Hortaea...  60.9       6e-08
+UniRef90_A0A419F2Q6 T9SS C-terminal target domain-containing prot...  60.9       7e-08
+UniRef90_A0BWA0 Uncharacterized protein n=1 Tax=Paramecium tetrau...  60.6       8e-08
+UniRef90_R9JID6 Pullulanase, type I n=1 Tax=Lachnospiraceae bacte...  60.6       1e-07
+UniRef90_A0A2T3AET1 Uncharacterized protein n=1 Tax=Coniella lust...  60.2       1e-07
+UniRef90_A0A398CIE2 Uncharacterized protein n=1 Tax=Cohnella sp. ...  60.2       1e-07
+UniRef90_UPI001457377D T9SS type A sorting domain-containing prot...  59.8       2e-07
+UniRef90_UPI00146E482B Ig-like domain-containing protein n=1 Tax=...  59.8       2e-07
+UniRef90_U2CT18 Alpha amylase, catalytic domain protein n=2 Tax=u...  59.4       2e-07
+UniRef90_A0A0V0QAH6 Six-hairpin glycosidase-like protein n=1 Tax=...  59.4       2e-07
+UniRef90_A0A512U9T3 SSD domain-containing protein n=1 Tax=Metschn...  59.4       2e-07
+UniRef90_UPI00071C970F S-layer homology domain-containing protein...  59.4       2e-07
+UniRef90_W4QRN9 Pullulanase n=1 Tax=Bacillus akibai (strain ATCC ...  59.0       3e-07
+UniRef90_F0VGK0 AMPK1_CBM domain-containing protein n=2 Tax=Neosp...  59.0       3e-07
+UniRef90_A0A507R2P9 AMPK1_CBM domain-containing protein n=1 Tax=M...  59.0       3e-07
+UniRef90_A0A3N5JM78 T9SS C-terminal target domain-containing prot...  58.6       3e-07
+UniRef90_UPI0006D82346 type I pullulanase n=1 Tax=Paenibacillus i...  59.0       3e-07
+UniRef90_A0A2A9MEB8 PPM-type phosphatase domain-containing protei...  59.0       3e-07
+UniRef90_A0A368YAZ2 Secreted pullulanase n=2 Tax=Saliterribacillu...  58.6       4e-07
+UniRef90_UPI0006893372 S-layer homology domain-containing protein...  58.6       4e-07
+UniRef90_A0A1Q6SVM7 Aamy domain-containing protein n=3 Tax=Lachno...  58.2       5e-07
+UniRef90_A0A1C6FYV8 Pullulanase n=2 Tax=Clostridium TaxID=1485 Re...  58.2       6e-07
+UniRef90_A0A421JP92 Putative ABC transporter ATP-binding protein/...  57.9       7e-07
+UniRef90_G9NLY8 Uncharacterized protein n=2 Tax=Trichoderma TaxID...  57.9       7e-07
+UniRef90_A0A1R2CME0 Uncharacterized protein n=2 Tax=Stentor coeru...  57.9       8e-07
+UniRef90_A0A2T4BDP2 P-loop containing nucleoside triphosphate hyd...  57.5       8e-07
+UniRef90_A0A1M5HM35 Pullulanase, extracellular n=1 Tax=Ornithinib...  57.5       1e-06
+UniRef90_UPI001433E46C type I pullulanase n=1 Tax=Lachnospiraceae...  57.5       1e-06
+UniRef90_A0A6C0RCX0 Uncharacterized protein n=1 Tax=Draconibacter...  57.1       1e-06
+UniRef90_A0A2N1L864 Uncharacterized protein n=2 Tax=Trichoderma h...  57.1       1e-06
+UniRef90_A0A5N6MUM8 RCK N-terminal domain-containing protein n=1 ...  57.1       1e-06
+UniRef90_UPI000DA6380E type I pullulanase n=1 Tax=Paenibacillus b...  56.7       2e-06
+UniRef90_A0A3Q9FQY9 T9SS type A sorting domain-containing protein...  56.7       2e-06
+UniRef90_A0A2I1CPP8 AMPK1_CBM domain-containing protein n=1 Tax=A...  56.7       2e-06
+UniRef90_A0A086QLR8 Serine/threonine specific protein phosphatase...  56.7       2e-06
+UniRef90_A0A086LAX1 Serine/threonine specific protein phosphatase...  56.7       2e-06
+UniRef90_UPI000699D4DD glycoside hydrolase family 57 n=1 Tax=Kosm...  56.7       2e-06
+UniRef90_I2H081 AMPK1_CBM domain-containing protein n=1 Tax=Tetra...  56.7       2e-06
+UniRef90_A1C839 PT repeat family protein n=1 Tax=Aspergillus clav...  56.7       2e-06
+UniRef90_S8EX35 Serine/threonine specific protein phosphatase n=6...  56.7       2e-06
+UniRef90_A0A1H0RT33 Glycosidase n=2 Tax=Bacillus salsus TaxID=930...  56.3       2e-06
+UniRef90_A0A0B4DT88 1,4-alpha-glucan branching enzyme GlgB n=9 Ta...  56.3       2e-06
+UniRef90_A0A433Y526 Uncharacterized protein n=2 Tax=Paenibacillus...  56.3       2e-06
+UniRef90_A0A421DEI6 AMPK1_CBM domain-containing protein n=2 Tax=A...  55.9       3e-06
+UniRef90_A0A1B1FUR2 T9SS type A sorting domain-containing protein...  55.9       3e-06
+UniRef90_UPI001109084F S-layer homology domain-containing protein...  55.9       3e-06
+UniRef90_A0A173SG53 Alpha-amylase n=5 Tax=Roseburia TaxID=841 Rep...  55.5       3e-06
+UniRef90_UPI0012ED139A type I pullulanase n=1 Tax=Bacillus litora...  55.5       4e-06
+UniRef90_UPI0012EC1152 S-layer homology domain-containing protein...  55.5       4e-06
+UniRef90_A0A3D9RRW1 Glycosidase n=1 Tax=Paenibacillus taihuensis ...  55.5       4e-06
+UniRef90_A0A173YRT9 Putative alpha amylase, catalytic domain-cont...  55.5       4e-06
+UniRef90_A1DIR6 PT repeat family protein n=1 Tax=Neosartorya fisc...  55.5       4e-06
+UniRef90_A0A078A3A7 Glycogen debranching enzyme n=1 Tax=Stylonych...  54.8       6e-06
+UniRef90_A0A3L9L0W8 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  54.8       6e-06
+UniRef90_A0A0P7Z036 Por secretion system C-terminal sorting domai...  54.8       8e-06
+UniRef90_A0A2E9B9E7 Aamy domain-containing protein (Fragment) n=1...  54.8       8e-06
+UniRef90_A0A1M4NCG7 Pullulanase n=1 Tax=Clostridium sp. N3C TaxID...  54.4       9e-06
+UniRef90_UPI000C769AE6 trichohyalin-like n=1 Tax=Eurytemora affin...  54.4       9e-06
+UniRef90_A0A024SK60 p-loop containing nucleoside triphosphate hyd...  54.4       9e-06
+UniRef90_A0A0K8LGW9 AMPK1_CBM domain-containing protein n=1 Tax=A...  54.4       1e-05
+UniRef90_A0A1G7TKL4 Glycosidase n=1 Tax=Fontibacillus panaciseget...  54.0       1e-05
+UniRef90_A0A0M6WVQ0 Aamy domain-containing protein n=4 Tax=Rosebu...  54.0       1e-05
+UniRef90_A0A553G2M5 T9SS type A sorting domain-containing protein...  54.0       1e-05
+UniRef90_A0A2D5AF75 AMPK1_CBM domain-containing protein (Fragment...  54.0       1e-05
+UniRef90_UPI0004B98FE9 S-layer homology domain-containing protein...  53.6       2e-05
+UniRef90_A0A0E9NG10 Uncharacterized protein n=1 Tax=Saitoella com...  53.2       2e-05
+UniRef90_A0A1Y1IQU7 5-methyltetrahydrofolate--homocysteine methyl...  53.2       2e-05
+UniRef90_A0A2E4UYI5 Uncharacterized protein n=1 Tax=Crocinitomica...  53.2       3e-05
+UniRef90_B2GFS2 1,4-alpha-glucan branching enzyme GlgB n=4 Tax=Ko...  52.9       3e-05
+UniRef90_A0A359IF96 LTD domain-containing protein n=6 Tax=Candida...  52.9       3e-05
+UniRef90_A0A2A3AFR0 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  52.9       3e-05
+UniRef90_A0A2C1K810 Type I pullulanase n=2 Tax=Bacillus TaxID=138...  52.9       3e-05
+UniRef90_UPI0012D868F2 type I pullulanase n=1 Tax=Paenibacillus w...  52.9       3e-05
+UniRef90_A0A3M2T7F5 PT repeat family protein n=1 Tax=Aspergillus ...  52.9       3e-05
+UniRef90_A0A1Q9DID5 Uncharacterized protein n=1 Tax=Symbiodinium ...  52.9       3e-05
+UniRef90_F0VK23 GK19179, related n=2 Tax=Neospora caninum (strain...  52.9       3e-05
+UniRef90_A0A1I1XD16 Glycosidase n=1 Tax=Paenibacillus catalpae Ta...  52.5       4e-05
+UniRef90_A0A2B7Y2T1 AMPK1_CBM domain-containing protein n=1 Tax=H...  52.1       5e-05
+UniRef90_A0A433F5L5 1,4-alpha-glucan branching enzyme GlgB n=5 Ta...  52.1       5e-05
+UniRef90_UPI0011A92495 1,4-alpha-glucan branching protein GlgB n=...  52.1       5e-05
+UniRef90_A0A661Y3I4 Big_5 domain-containing protein n=1 Tax=Bacte...  52.1       6e-05
+UniRef90_E4V404 PT repeat family protein n=1 Tax=Arthroderma gyps...  52.1       6e-05
+UniRef90_UPI001054D71E DUF5011 domain-containing protein n=2 Tax=...  52.1       6e-05
+UniRef90_A0A4R5H877 Pullulanase-type alpha-1,6-glucosidase n=1 Ta...  52.1       6e-05
+UniRef90_A0A3S8RQD9 Type I pullulanase n=1 Tax=Paenibacillus lent...  52.1       6e-05
+UniRef90_C1H709 AMPK1_CBM domain-containing protein n=1 Tax=Parac...  52.1       6e-05
+UniRef90_K6ZX64 Pullulanase 1, chloroplastic n=2 Tax=Paraglacieco...  52.1       6e-05
+UniRef90_A0A074MGH5 Alpha-amylase n=1 Tax=Tumebacillus flagellatu...  52.1       6e-05
+UniRef90_C5CEB0 Glycoside hydrolase family 57 n=1 Tax=Kosmotoga o...  51.7       6e-05
+UniRef90_UPI001423CCFD S-layer homology domain-containing protein...  52.1       6e-05
+UniRef90_C4JUU0 AMPK1_CBM domain-containing protein n=1 Tax=Uncin...  51.7       6e-05
+UniRef90_UPI000E3ED0CB pullulanase n=1 Tax=Paraliobacillus quingh...  51.7       7e-05
+UniRef90_A0A3G3JSE5 Alpha-amylase n=1 Tax=Cohnella candidum TaxID...  51.7       7e-05
+UniRef90_K1WH31 Uncharacterized protein n=2 Tax=Trichosporon asah...  51.7       7e-05
+UniRef90_J3K2B1 AMPK1_CBM domain-containing protein n=7 Tax=Cocci...  51.7       7e-05
+UniRef90_A0A4Q8RSA0 T9SS C-terminal target domain-containing prot...  51.7       8e-05
+UniRef90_A0A6L0Z246 Y55_G0012660.mRNA.1.CDS.1 n=1 Tax=Saccharomyc...  51.7       8e-05
+UniRef90_A0A4U9NVU6 Pullulanase n=90 Tax=Bacteria TaxID=2 RepID=A...  51.3       9e-05
+UniRef90_C1FYY4 AMPK1_CBM domain-containing protein n=4 Tax=Parac...  51.3       1e-04
+UniRef90_A0A2E5Y1A6 C-type lectin domain-containing protein n=1 T...  51.3       1e-04
+UniRef90_A0A2S9VCE4 DUF3372 domain-containing protein n=10 Tax=Al...  51.3       1e-04
+UniRef90_A0A1Z9NHW4 LTD domain-containing protein n=1 Tax=bacteri...  51.3       1e-04
+UniRef90_A0A1Q9H234 Pullulanase n=2 Tax=Photobacterium TaxID=657 ...  50.9       1e-04
+UniRef90_UPI0011781939 alpha amylase C-terminal domain-containing...  50.9       1e-04
+UniRef90_A0A660XCB7 Uncharacterized protein n=1 Tax=Candidatus Ma...  50.9       1e-04
+UniRef90_A0A2E1YD27 Alpha-amylase n=1 Tax=Acidimicrobiaceae bacte...  50.9       1e-04
+UniRef90_C6D1V7 Alpha amylase catalytic region n=3 Tax=Paenibacil...  50.9       1e-04
+UniRef90_UPI0009E30115 1,4-alpha-glucan branching protein GlgB n=...  50.5       2e-04
+UniRef90_A0A4U0FHL9 Alpha-amylase n=1 Tax=Cohnella sp. CAU 1483 T...  50.5       2e-04
+UniRef90_A0A2E5T2P6 CBM20 domain-containing protein (Fragment) n=...  50.5       2e-04
+UniRef90_UPI0015B8289E hypothetical protein n=1 Tax=Clostridiacea...  50.5       2e-04
+UniRef90_A0A2J6IAE2 Uncharacterized protein n=1 Tax=Marinilabilia...  50.5       2e-04
+UniRef90_A0A4R3DL07 Glycosidase n=1 Tax=Paenibacillus sp. BK736 T...  50.5       2e-04
+UniRef90_A0A2D7N9M0 Dockerin domain-containing protein n=1 Tax=Ca...  50.2       2e-04
+UniRef90_M2YDE6 1,4-alpha-glucan branching enzyme GlgB n=7 Tax=Mi...  50.2       2e-04
+UniRef90_A0A2H3P180 Aamy domain-containing protein n=2 Tax=Longim...  50.2       2e-04
+UniRef90_A0A448ZRT5 EGF-like domain-containing protein n=1 Tax=Ps...  50.2       2e-04
+UniRef90_F2S1P8 AMPK1_CBM domain-containing protein n=3 Tax=Trich...  50.2       2e-04
+UniRef90_A0A2D9HQS9 CBM_48 domain-containing protein n=1 Tax=Croc...  49.8       3e-04
+UniRef90_A0A0U2XMA9 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  49.4       4e-04
+UniRef90_R7I5W8 Alpha amylase catalytic region n=1 Tax=Clostridiu...  49.4       4e-04
+UniRef90_A0A640QQC5 Pullulanase n=1 Tax=Tenacibaculum sp. KUL152 ...  49.4       4e-04
+UniRef90_A0A2E1ND80 Uncharacterized protein n=1 Tax=Candidatus Ma...  49.4       4e-04
+UniRef90_A0A1J9QJ00 Uncharacterized protein n=1 Tax=Emergomyces p...  49.4       5e-04
+UniRef90_UPI0012EBD55A S-layer homology domain-containing protein...  49.4       5e-04
+UniRef90_UPI000C9A9C26 pullulanase-type alpha-1,6-glucosidase n=1...  49.0       5e-04
+UniRef90_UPI0009BBD651 S-layer homology domain-containing protein...  49.0       5e-04
+UniRef90_H2J470 Alpha-amylase/alpha-mannosidase n=3 Tax=Marinitog...  49.0       5e-04
+UniRef90_A0A1L2ZNN5 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  49.0       6e-04
+UniRef90_A0A5J5KVA7 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  49.0       6e-04
+UniRef90_A0A022W4F0 AMPK1_CBM domain-containing protein n=5 Tax=T...  49.0       6e-04
+UniRef90_A0A2E3BWY9 CBM20 domain-containing protein n=1 Tax=Flavo...  48.6       7e-04
+UniRef90_A0A423WMD7 Uncharacterized protein n=1 Tax=Cytospora leu...  48.6       7e-04
+UniRef90_UPI0014571E9F T9SS type A sorting domain-containing prot...  48.6       7e-04
+UniRef90_A0A4S3JQE2 Uncharacterized protein n=2 Tax=Aspergillus t...  48.6       8e-04
+UniRef90_A0A5N6MEK3 Maltokinase n=2 Tax=unclassified Arthrobacter...  48.6       8e-04
+UniRef90_A0A2P6TQ18 Signal transduction histidine kinase n=1 Tax=...  48.6       8e-04
+UniRef90_A0A2S2E1B2 Pullulanase n=1 Tax=Saliniradius amylolyticus...  48.6       8e-04
+UniRef90_A0A3S3QTU5 Pullulanase-type alpha-1,6-glucosidase n=1 Ta...  48.6       8e-04
+UniRef90_A0A437JEZ8 Pullulanase-type alpha-1,6-glucosidase n=2 Ta...  48.2       8e-04
+UniRef90_A0A078MJW6 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  48.2       9e-04
+UniRef90_A0A3Q9G9F1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  48.2       9e-04
+UniRef90_A0A506RWW7 DUF3372 domain-containing protein n=7 Tax=Alt...  48.2       0.001
+UniRef90_G3YAG1 Uncharacterized protein n=9 Tax=Aspergillus TaxID...  48.2       0.001
+UniRef90_UPI000647665C 1,4-alpha-glucan branching protein GlgB n=...  48.2       0.001
+UniRef90_A0A3D3A4H3 Uncharacterized protein n=1 Tax=Flavobacteria...  48.2       0.001
+UniRef90_UPI00142F73BA T9SS type A sorting domain-containing prot...  48.2       0.001
+UniRef90_UPI001122B452 pullulanase n=2 Tax=Paenibacillus TaxID=44...  48.2       0.001
+UniRef90_A0A4Y4D442 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  48.2       0.001
+UniRef90_A0A4Q9XKA9 Pullulanase n=1 Tax=Bowmanella sp. JS7-9 TaxI...  47.8       0.001
+UniRef90_A0A1Q9C204 1,4-alpha-glucan-branching enzyme 2-1, chloro...  48.2       0.001
+UniRef90_D4B4B0 PT repeat family protein n=2 Tax=Trichophyton Tax...  47.8       0.001
+UniRef90_A0A2N1C8K5 DUF3372 domain-containing protein n=1 Tax=Col...  47.8       0.001
+UniRef90_A0A3D5BDV8 DUF3372 domain-containing protein n=1 Tax=Rhe...  47.8       0.001
+UniRef90_A0A328TRR8 Alpha-amylase n=1 Tax=Paenibacillus montaniso...  47.8       0.001
+UniRef90_A0A1M6V0W6 Glycosidase n=1 Tax=Anaerocolumna jejuensis D...  47.8       0.001
+UniRef90_A0A0P7GBB9 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  47.8       0.001
+UniRef90_R6ASC2 Alpha-amylase n=6 Tax=Roseburia TaxID=841 RepID=R...  47.8       0.001
+UniRef90_V9H713 LPXTG-domain-containing protein cell wall anchor ...  47.8       0.001
+UniRef90_A0A2D9RTW2 CBM20 domain-containing protein n=1 Tax=Flavo...  47.5       0.001
+UniRef90_A0A6B8NHE2 Pullulanase n=24 Tax=Vibrio TaxID=662 RepID=A...  47.8       0.001
+UniRef90_A0A0G9LAG9 Alpha-amylase n=2 Tax=Clostridium TaxID=1485 ...  47.8       0.002
+UniRef90_Q7SBR0 Uncharacterized protein n=4 Tax=Neurospora TaxID=...  47.5       0.002
+UniRef90_R6FWY9 Pullulanase family protein n=1 Tax=Clostridium sp...  47.5       0.002
+UniRef90_A0A3D9UQM3 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  47.5       0.002
+UniRef90_A0A0B0DBL4 1,4-alpha-glucan branching enzyme GlgB n=11 T...  47.5       0.002
+UniRef90_A0A495A2M9 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  47.5       0.002
+UniRef90_A0A5P9CPG3 Pullulanase n=3 Tax=unclassified Vibrio TaxID...  47.5       0.002
+UniRef90_A0A2E7SIW9 Aamy domain-containing protein n=1 Tax=Euryar...  47.5       0.002
+UniRef90_A0A354W6N1 Uncharacterized protein n=1 Tax=Cryomorphacea...  47.5       0.002
+UniRef90_C5FMJ2 PT repeat family protein n=1 Tax=Arthroderma otae...  47.5       0.002
+UniRef90_UPI00040430F4 1,4-alpha-glucan branching protein GlgB n=...  47.1       0.002
+UniRef90_A0A1F6LPR3 Uncharacterized protein n=1 Tax=Candidatus Li...  47.5       0.002
+UniRef90_A0A2D5NBF9 Uncharacterized protein (Fragment) n=1 Tax=Cr...  47.1       0.002
+UniRef90_A0A2I2GEC4 Uncharacterized protein n=1 Tax=Aspergillus s...  47.1       0.002
+UniRef90_A0A350NW89 Uncharacterized protein n=1 Tax=Flavobacteria...  47.1       0.002
+UniRef90_A0A0X8LMD7 DUF3372 domain-containing protein n=23 Tax=Vi...  47.1       0.002
+UniRef90_A0A3R7R4Y5 T9SS C-terminal target domain-containing prot...  47.1       0.002
+UniRef90_A0A0M0I4E4 Pullulanase n=2 Tax=Vibrio hepatarius TaxID=1...  47.1       0.002
+UniRef90_A0A0J1EXK6 1,4-alpha-glucan branching enzyme GlgB n=4 Ta...  47.1       0.002
+UniRef90_A0A1H9TAC3 Glycosidase n=3 Tax=Lachnobacterium bovis Tax...  47.1       0.003
+UniRef90_UPI000FDC01F0 S-layer homology domain-containing protein...  47.1       0.003
+UniRef90_A0A2C6KWM2 Uncharacterized protein (Fragment) n=1 Tax=Cy...  47.1       0.003
+UniRef90_A0A3C0LEP6 CBM20 domain-containing protein n=1 Tax=Chlor...  47.1       0.003
+UniRef90_A0A1G9WFB3 Glycosidase n=1 Tax=Paenibacillus sp. yr247 T...  47.1       0.003
+UniRef90_A0A1I7MT32 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  46.7       0.003
+UniRef90_UPI000CE2D499 1,4-alpha-glucan branching protein GlgB n=...  46.7       0.003
+UniRef90_UPI001442288F Ig-like domain-containing protein n=1 Tax=...  46.7       0.003
+UniRef90_A0A1I0A970 Pullulanase, extracellular n=1 Tax=Paenibacil...  46.7       0.003
+UniRef90_UPI00131C43C3 DUF3372 domain-containing protein n=1 Tax=...  46.7       0.003
+UniRef90_A0A239VF88 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  46.7       0.003
+UniRef90_A0A1B7P766 Uncharacterized protein n=1 Tax=Emmonsia sp. ...  46.7       0.003
+UniRef90_UPI001469B746 T9SS type A sorting domain-containing prot...  46.7       0.003
+UniRef90_A0A2N3A9W5 Uncharacterized protein n=1 Tax=Bacteroidetes...  46.7       0.003
+UniRef90_A0A2E2VLW2 Uncharacterized protein n=1 Tax=Candidatus Ma...  46.7       0.003
+UniRef90_A0A349LRT6 DUF3372 domain-containing protein n=1 Tax=Rhe...  46.7       0.003
+UniRef90_C7YQR3 Uncharacterized protein n=1 Tax=Nectria haematoco...  46.7       0.003
+UniRef90_UPI00144A5704 PT repeat family protein n=1 Tax=Arthroder...  46.7       0.003
+UniRef90_K6YWF7 Pullulanase 1, chloroplastic n=1 Tax=Paraglacieco...  46.3       0.004
+UniRef90_A0A6A2ZEV8 Uncharacterized protein n=1 Tax=Hibiscus syri...  46.3       0.004
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 501576426574
+Results from round 3
+
+
+Query= sp|O43741|AAKB2_HUMAN 5'-AMP-activated protein kinase subunit beta-2
+OS=Homo sapiens OX=9606 GN=PRKAB2 PE=1 SV=1
+
+Length=272
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+UniRef90_F4PRB6 Uncharacterized protein n=1 Tax=Cavenderia fascic...  180        1e-48
+UniRef90_A0A0D2LJ41 SNF1-related protein kinase regulatory subuni...  172        7e-46
+UniRef90_A0A2S4UFQ6 GPI inositol-deacylase n=3 Tax=Puccinia strii...  158        3e-41
+UniRef90_A0A4T0FQ44 Uncharacterized protein n=1 Tax=Wallemia hede...  157        5e-41
+UniRef90_I7J4K6 Neopullulanase n=1 Tax=Caloramator australicus RC...  118        2e-27
+UniRef90_E9BG73 AMPKBI domain-containing protein n=5 Tax=Leishman...  112        2e-26
+UniRef90_A0A1B8RPP7 Uncharacterized protein n=10 Tax=Clostridium ...  115        2e-26
+UniRef90_A0A0G4GM91 Poly(ADP-ribose) glycohydrolase n=1 Tax=Vitre...  113        7e-26
+UniRef90_A0A1M4T002 Glycosidase n=2 Tax=Caloramator TaxID=44258 R...  112        2e-25
+UniRef90_A0A2P6NNI5 Filamin-B-like n=1 Tax=Planoprotostelium fung...  111        4e-25
+UniRef90_R7RMR2 Maltodextrin glucosidase n=1 Tax=Thermobrachium c...  110        1e-24
+UniRef90_UPI000647665C 1,4-alpha-glucan branching protein GlgB n=...  110        1e-24
+UniRef90_A0A4T0AJ53 AMPK1_CBM domain-containing protein n=40 Tax=...  108        4e-24
+UniRef90_A0A5Q4C300 Putative RING finger protein n=1 Tax=Colletot...  107        1e-23
+UniRef90_A0A074WYI5 AMPK1_CBM domain-containing protein n=1 Tax=A...  107        1e-23
+UniRef90_V4YNZ5 Glycogen synthase, putative n=7 Tax=Toxoplasma go...  106        4e-23
+UniRef90_UPI0011A92495 1,4-alpha-glucan branching protein GlgB n=...  105        5e-23
+UniRef90_A0A5J5KVA7 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  104        2e-22
+UniRef90_A0A2A9MGI4 Uncharacterized protein n=1 Tax=Besnoitia bes...  104        2e-22
+UniRef90_A0A388LJY9 Integrase catalytic domain-containing protein...  104        2e-22
+UniRef90_A0A2P7YK25 SSD domain-containing protein n=1 Tax=[Candid...  104        2e-22
+UniRef90_A0A1D8QQE3 Starch synthase n=2 Tax=Gracilariopsis TaxID=...  103        2e-22
+UniRef90_R7QIX8 Starch synthase n=1 Tax=Chondrus crispus TaxID=27...  103        2e-22
+UniRef90_Q9EZZ4 Amylopullulanase n=2 Tax=Bacillaceae TaxID=186817...  103        3e-22
+UniRef90_U6LNX1 Glycogen synthase, putative n=1 Tax=Eimeria brune...  102        6e-22
+UniRef90_A0A496RSG2 Chromosome partition protein Smc n=1 Tax=Cand...  102        8e-22
+UniRef90_M2YDE6 1,4-alpha-glucan branching enzyme GlgB n=7 Tax=Mi...  101        9e-22
+UniRef90_UPI0005C6683A type I pullulanase n=1 Tax=Epulopiscium sp...  101        1e-21
+UniRef90_A0A1V8SFR9 Ubiquitinyl hydrolase 1 n=2 Tax=Rachicladospo...  101        2e-21
+UniRef90_A0A3B1CAP7 Aamy domain-containing protein n=1 Tax=hydrot...  101        2e-21
+UniRef90_B7GKY4 Alpha-amylase/pullulanase n=3 Tax=Anoxybacillus T...  100        2e-21
+UniRef90_A0A196SPZ6 Alpha amylase domain-containing protein n=1 T...  100        3e-21
+UniRef90_A0A419F2Q6 T9SS C-terminal target domain-containing prot...   99        5e-21
+UniRef90_M1VIW0 Probable starch/glycogen synthase n=1 Tax=Cyanidi...  99.2       7e-21
+UniRef90_U6M9K5 Glycogen synthase, putative n=1 Tax=Eimeria maxim...  99.2       9e-21
+UniRef90_A0A498J598 Carbonic anhydrase n=3 Tax=Malus domestica Ta...  99.2       9e-21
+UniRef90_A0A1I0TFH8 Glycosidase (Fragment) n=1 Tax=Anoxybacillus ...  98.4       1e-20
+UniRef90_A0A261XV88 Uncharacterized protein n=1 Tax=Bifiguratus a...  98.4       1e-20
+UniRef90_A0A433F5L5 1,4-alpha-glucan branching enzyme GlgB n=5 Ta...  98.4       2e-20
+UniRef90_A0A507E974 AMPK1_CBM domain-containing protein n=1 Tax=P...  98.1       2e-20
+UniRef90_B2GFS2 1,4-alpha-glucan branching enzyme GlgB n=4 Tax=Ko...  98.1       2e-20
+UniRef90_A0A1R2CPR5 Uncharacterized protein n=1 Tax=Stentor coeru...  98.1       2e-20
+UniRef90_A0A0B4DT88 1,4-alpha-glucan branching enzyme GlgB n=9 Ta...  98.1       2e-20
+UniRef90_A0A4U0Y0P6 Uncharacterized protein n=1 Tax=Friedmanniomy...  98.1       2e-20
+UniRef90_A0A2E7G246 Aamy domain-containing protein (Fragment) n=1...  97.7       3e-20
+UniRef90_Q5CXJ2 Gdb1p glycogen debranching enzyme n=3 Tax=Cryptos...  97.3       4e-20
+UniRef90_A0A4R7K4I7 LPXTG-motif cell wall-anchored protein n=1 Ta...  96.9       5e-20
+UniRef90_A0A3L9L0W8 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  96.5       6e-20
+UniRef90_A0A1E3P351 Carbohydrate-binding module family 48 protein...  96.5       7e-20
+UniRef90_A0A2A3AFR0 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  96.5       8e-20
+UniRef90_A0A1J4MG40 Gdb1p glycogen debranching enzyme n=1 Tax=Cry...  96.5       8e-20
+UniRef90_A0A1V8S9T5 eIF2B_5 domain-containing protein n=2 Tax=Rac...  95.4       2e-19
+UniRef90_A0A078MJW6 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  95.0       2e-19
+UniRef90_A0A160F4S3 Amylopullulanase n=1 Tax=Anoxybacillus amylol...  95.0       2e-19
+UniRef90_Q55DB7 Uncharacterized protein n=1 Tax=Dictyostelium dis...  94.6       3e-19
+UniRef90_A0A0U2XMA9 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  93.1       1e-18
+UniRef90_A0A0G4G102 Uncharacterized protein n=1 Tax=Vitrella bras...  93.1       1e-18
+UniRef90_A0A1J8Q4Q7 AMPK1_CBM domain-containing protein n=1 Tax=R...  92.7       2e-18
+UniRef90_A0A268E447 Type I pullulanase n=3 Tax=Bacillaceae TaxID=...  92.3       2e-18
+UniRef90_A0A5J4Z9Z1 5'-AMP-activated protein kinase subunit beta-...  92.3       2e-18
+UniRef90_A0A0G4I0G9 Uncharacterized protein n=1 Tax=Chromera veli...  91.9       3e-18
+UniRef90_A0A0G4H8B2 Uncharacterized protein n=1 Tax=Vitrella bras...  91.9       3e-18
+UniRef90_A0A0K6GPP4 Glycosidase n=11 Tax=Bacillaceae TaxID=186817...  91.9       3e-18
+UniRef90_A0A261XYL6 Uncharacterized protein n=1 Tax=Bifiguratus a...  91.5       3e-18
+UniRef90_A0A2V1B122 SSD domain-containing protein n=1 Tax=[Candid...  91.5       3e-18
+UniRef90_C3YKR6 Uncharacterized protein n=1 Tax=Branchiostoma flo...  91.5       4e-18
+UniRef90_B6ABH3 Glycogen debranching protein, putative n=2 Tax=Cr...  90.7       6e-18
+UniRef90_A0A2V1AAX6 SSD domain-containing protein n=1 Tax=[Candid...  90.7       7e-18
+UniRef90_A0A1Q9EAE0 Phosphoglycerate kinase n=1 Tax=Symbiodinium ...  90.4       8e-18
+UniRef90_F0ZW89 Uncharacterized protein n=1 Tax=Dictyostelium pur...  90.4       9e-18
+UniRef90_A0A0G4I0H5 Uncharacterized protein n=1 Tax=Chromera veli...  90.4       9e-18
+UniRef90_A0A5A8CYY6 Uncharacterized protein n=4 Tax=Cafeteria roe...  90.4       9e-18
+UniRef90_UPI0015933E1F type I pullulanase n=1 Tax=Bacillus gotthe...  90.4       1e-17
+UniRef90_UPI000781854B LPXTG cell wall anchor domain-containing p...  89.6       1e-17
+UniRef90_A0A4R1QQM1 Glycosidase n=1 Tax=Kineothrix alysoides TaxI...  89.6       2e-17
+UniRef90_A0A5C6W6S9 Type I pullulanase n=2 Tax=Bacillus litoralis...  89.2       2e-17
+UniRef90_A0A1S9CI17 Type I pullulanase n=1 Tax=Epulopiscium sp. A...  89.2       2e-17
+UniRef90_UPI00147844C2 type I pullulanase n=1 Tax=Vallitalea okin...  88.8       3e-17
+UniRef90_A0A1Q3A4X4 AMPK1_CBM domain-containing protein n=2 Tax=Z...  88.4       4e-17
+UniRef90_A0A510P8V8 Niemann-Pick C type protein n=1 Tax=Candida a...  88.4       4e-17
+UniRef90_A0A1C6FYV8 Pullulanase n=2 Tax=Clostridium TaxID=1485 Re...  88.4       4e-17
+UniRef90_A0A1M5UA20 Pullulanase n=3 Tax=Caloranaerobacter azorens...  88.4       4e-17
+UniRef90_UPI0004014FB1 pullulanase n=1 Tax=Paucisalibacillus glob...  88.4       5e-17
+UniRef90_Q24GJ3 Group 1 family glycosyltransferase n=1 Tax=Tetrah...  88.0       5e-17
+UniRef90_A0A143XVR8 Neopullulanase n=1 Tax=Clostridiales bacteriu...  88.0       5e-17
+UniRef90_UPI0015B9CD1B S-layer homology domain-containing protein...  88.0       5e-17
+UniRef90_C3YKR5 Uncharacterized protein n=1 Tax=Branchiostoma flo...  88.0       5e-17
+UniRef90_A0A385NY52 Type I pullulanase n=3 Tax=Bacteria TaxID=2 R...  88.0       6e-17
+UniRef90_E0I7R1 Alpha amylase catalytic region n=2 Tax=Paenibacil...  88.0       6e-17
+UniRef90_S8EXR5 Amylo-alpha-1,6-glucosidase n=20 Tax=Toxoplasma g...  87.7       7e-17
+UniRef90_A0A4U1MJU1 Amylopullulanase n=2 Tax=Bacillaceae TaxID=18...  87.7       8e-17
+UniRef90_A0A2A9MI59 Amylo-alpha-1,6-glucosidase n=1 Tax=Besnoitia...  87.7       9e-17
+UniRef90_A0A0E9NR20 GPI mannosyltransferase 2 n=2 Tax=Saitoella c...  87.3       9e-17
+UniRef90_J9HYC3 Glycosyl transferase, group 1 family protein n=1 ...  87.3       9e-17
+UniRef90_A0A0B2V722 Putative leucine-rich repeat-containing prote...  87.3       1e-16
+UniRef90_A0A086QB67 Amylo-alpha-1,6-glucosidase (Fragment) n=2 Ta...  87.3       1e-16
+UniRef90_A0A3Q9BJ92 Pullulanase n=1 Tax=Jeotgalibaca ciconiae Tax...  87.3       1e-16
+UniRef90_A0A5J4Z6A3 Glycogen synthase n=1 Tax=Porphyridium purpur...  86.5       2e-16
+UniRef90_A0A1L2ZNN5 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  86.1       2e-16
+UniRef90_A0A2P6NDD8 Mitochondrial chaperone BCS1 n=1 Tax=Planopro...  86.1       3e-16
+UniRef90_A0A139A4N5 Carbohydrate-binding module family 48 protein...  85.4       4e-16
+UniRef90_A0A1E4SHW6 Uncharacterized protein n=1 Tax=Suhomyces tan...  85.4       4e-16
+UniRef90_UPI000947B7C8 titin homolog n=1 Tax=Branchiostoma belche...  85.4       5e-16
+UniRef90_A0A0V0S9V4 Uncharacterized protein n=14 Tax=Trichinella ...  85.4       5e-16
+UniRef90_A0A662Z6E8 Pullulanase, extracellular n=1 Tax=Aliicoccus...  85.0       6e-16
+UniRef90_A0A1C1CT81 RRM domain-containing protein n=1 Tax=Cladoph...  84.6       8e-16
+UniRef90_A0D7P8 Uncharacterized protein n=1 Tax=Paramecium tetrau...  84.6       8e-16
+UniRef90_A0A1L6XBM3 Uncharacterized protein n=4 Tax=Lactobacillus...  84.2       9e-16
+UniRef90_F0VLQ0 Glycogen debranching enzyme, putative n=1 Tax=Neo...  84.2       1e-15
+UniRef90_A0A1U7E9A3 Pullulanase n=1 Tax=Jeotgalibaca sp. PTS2502 ...  84.2       1e-15
+UniRef90_J9ICV4 Glycogen debranching protein, putative n=1 Tax=Ox...  84.2       1e-15
+UniRef90_A0A0V1J414 Uncharacterized protein n=6 Tax=Trichinella p...  83.8       1e-15
+UniRef90_UPI001116E505 type I pullulanase n=2 Tax=Bacillus TaxID=...  83.8       1e-15
+UniRef90_A0A0V1HF69 Uncharacterized protein n=7 Tax=Trichinella T...  83.8       1e-15
+UniRef90_UPI000DA6380E type I pullulanase n=1 Tax=Paenibacillus b...  83.8       2e-15
+UniRef90_A0A0V0QQ74 Immunoglobulin E-set n=1 Tax=Pseudocohnilembu...  83.8       2e-15
+UniRef90_UPI000E45AEBD glycogen debranching enzyme n=1 Tax=Cyclos...  83.8       2e-15
+UniRef90_A0A5J5GCV3 Uncharacterized protein n=1 Tax=Paenibacillus...  83.4       2e-15
+UniRef90_A0A2C6L0G4 Amylo-alpha n=1 Tax=Cystoisospora suis TaxID=...  83.4       2e-15
+UniRef90_F0V8S0 Granule-bound starch synthase WX-TsB protein,rela...  83.4       2e-15
+UniRef90_A0A5N6MEK3 Maltokinase n=2 Tax=unclassified Arthrobacter...  83.0       3e-15
+UniRef90_A0A2E9IUZ5 Uncharacterized protein n=4 Tax=Opitutae TaxI...  83.0       3e-15
+UniRef90_UPI0013659B89 S-layer homology domain-containing protein...  83.0       3e-15
+UniRef90_A0A433A309 AMPK1_CBM domain-containing protein n=1 Tax=J...  83.0       3e-15
+UniRef90_A0A656D1J5 Por secretion system C-terminal sorting domai...  82.7       4e-15
+UniRef90_A0A507FBS8 AMPK1_CBM domain-containing protein n=1 Tax=C...  82.7       4e-15
+UniRef90_A0A0P1LDD0 Por secretion system C-terminal sorting domai...  82.7       4e-15
+UniRef90_A0A0A5GRR3 Alpha-dextrin endo-1,6-alpha-glucosidase n=1 ...  82.3       4e-15
+UniRef90_W9WJN1 RRM domain-containing protein n=1 Tax=Cladophialo...  82.3       5e-15
+UniRef90_S5Z364 Uncharacterized protein n=2 Tax=Bacillus sp. (str...  82.3       5e-15
+UniRef90_UPI0006D82346 type I pullulanase n=1 Tax=Paenibacillus i...  82.3       5e-15
+UniRef90_A0A421JSG4 Niemann-Pick type C-related protein 1 n=1 Tax...  82.3       5e-15
+UniRef90_A0A2A9MMZ9 IQ calmodulin-binding motif domain-containing...  81.9       6e-15
+UniRef90_R9J0F3 Pullulanase, type I n=2 Tax=Lachnospiraceae bacte...  81.9       6e-15
+UniRef90_A0A388L5Z9 5-methyltetrahydrofolate--homocysteine methyl...  81.9       6e-15
+UniRef90_A0A2C6KQ00 Iq calmodulin-binding motif domain-containing...  81.9       7e-15
+UniRef90_A0A1J4X9K7 Aamy domain-containing protein n=4 Tax=Candid...  81.9       7e-15
+UniRef90_A0A1W1XFB0 LPXTG-motif cell wall anchor domain-containin...  81.5       8e-15
+UniRef90_A0A1M7IXZ7 Glycosidase n=1 Tax=Anaerosporobacter mobilis...  81.5       8e-15
+UniRef90_A0A510P396 Putative D-galactonate transporter n=1 Tax=Ca...  81.5       8e-15
+UniRef90_A0A176K2W0 Glycoside hydrolase family 57 n=1 Tax=Kosmoto...  81.5       8e-15
+UniRef90_A0A1M5HM35 Pullulanase, extracellular n=1 Tax=Ornithinib...  81.5       9e-15
+UniRef90_A0A2A9CLF5 Glycosidase n=3 Tax=Bacillus TaxID=1386 RepID...  81.5       1e-14
+UniRef90_A0A077ZP91 Glycosyl group 1 family protein n=1 Tax=Stylo...  81.1       1e-14
+UniRef90_A0A1Q6SVM7 Aamy domain-containing protein n=3 Tax=Lachno...  81.1       1e-14
+UniRef90_UPI0006893372 S-layer homology domain-containing protein...  81.1       1e-14
+UniRef90_R9JID6 Pullulanase, type I n=1 Tax=Lachnospiraceae bacte...  81.1       1e-14
+UniRef90_A0A0G4G7C8 AMPK1_CBM domain-containing protein n=1 Tax=C...  80.7       2e-14
+UniRef90_A0A4E9F1C6 Uncharacterized protein n=11 Tax=Brugia malay...  80.7       2e-14
+UniRef90_A0A2A2Y8G0 Uncharacterized protein n=1 Tax=Verrucomicrob...  80.7       2e-14
+UniRef90_A0A1Q3AIK7 AMPK1_CBM domain-containing protein n=1 Tax=Z...  80.3       2e-14
+UniRef90_UPI0009E30115 1,4-alpha-glucan branching protein GlgB n=...  80.3       2e-14
+UniRef90_A0A023AYK6 Putative glycogen debranching enzyme n=1 Tax=...  80.3       2e-14
+UniRef90_A0A1X6NRG4 Uncharacterized protein n=1 Tax=Porphyra umbi...  80.3       2e-14
+UniRef90_A0A0M6WVQ0 Aamy domain-containing protein n=4 Tax=Rosebu...  80.3       3e-14
+UniRef90_UPI001109084F S-layer homology domain-containing protein...  80.0       3e-14
+UniRef90_UPI000686E36B alpha-glucosidase C-terminal domain-contai...  79.6       4e-14
+UniRef90_A0A498SJ39 AMPK1_CBM domain-containing protein n=1 Tax=A...  79.2       5e-14
+UniRef90_A0EEA7 Uncharacterized protein n=1 Tax=Paramecium tetrau...  79.2       5e-14
+UniRef90_A0A1L3MTB1 Type I pullulanase n=1 Tax=Bacillus weihaiens...  79.2       6e-14
+UniRef90_W4QRN9 Pullulanase n=1 Tax=Bacillus akibai (strain ATCC ...  78.8       7e-14
+UniRef90_A0A0S4N8J7 Por secretion system C-terminal sorting domai...  78.8       7e-14
+UniRef90_A0A3S8RQD9 Type I pullulanase n=1 Tax=Paenibacillus lent...  78.8       7e-14
+UniRef90_UPI0015B8A882 alpha-amylase n=1 Tax=Lachnospiraceae bact...  78.8       8e-14
+UniRef90_A0A507F677 AMPK1_CBM domain-containing protein n=1 Tax=C...  78.4       9e-14
+UniRef90_A0A5S6QA45 Uncharacterized protein n=1 Tax=Trichuris mur...  78.4       1e-13
+UniRef90_A0A0G4GS03 AMPK1_CBM domain-containing protein n=1 Tax=V...  78.4       1e-13
+UniRef90_A0A085MLH1 Uncharacterized protein n=2 Tax=Trichuris sui...  78.4       1e-13
+UniRef90_A0A173YRT9 Putative alpha amylase, catalytic domain-cont...  78.0       1e-13
+UniRef90_UPI0012B39727 hypothetical protein n=1 Tax=Clostridiacea...  77.6       2e-13
+UniRef90_A0A398CIE2 Uncharacterized protein n=1 Tax=Cohnella sp. ...  77.6       2e-13
+UniRef90_A0A433Y526 Uncharacterized protein n=2 Tax=Paenibacillus...  77.6       2e-13
+UniRef90_A0A3E0PG45 Glucan 1,4-alpha-glucosidase n=1 Tax=Acidobac...  76.9       3e-13
+UniRef90_UPI00068ECB59 LPXTG cell wall anchor domain-containing p...  76.9       3e-13
+UniRef90_A0A2A6BP92 Lon protease homolog n=2 Tax=Pristionchus pac...  76.9       4e-13
+UniRef90_UPI0012D868F2 type I pullulanase n=1 Tax=Paenibacillus w...  76.5       4e-13
+UniRef90_A0A2E0NDI9 Aamy domain-containing protein n=1 Tax=Corali...  76.1       5e-13
+UniRef90_A0A2S9VCE4 DUF3372 domain-containing protein n=10 Tax=Al...  76.1       7e-13
+UniRef90_A0A421JP92 Putative ABC transporter ATP-binding protein/...  75.3       9e-13
+UniRef90_A0A0G4ETT9 Uncharacterized protein n=1 Tax=Vitrella bras...  75.7       9e-13
+UniRef90_R1CZ54 Pullulanase n=1 Tax=Caldisalinibacter kiritimatie...  75.3       1e-12
+UniRef90_A0A2D5AF75 AMPK1_CBM domain-containing protein (Fragment...  75.3       1e-12
+UniRef90_A0A2P6NLW1 AMPK1_CBM domain-containing protein n=1 Tax=P...  75.0       2e-12
+UniRef90_A0A376B292 AMPK1_CBM domain-containing protein n=1 Tax=S...  74.6       2e-12
+UniRef90_UPI00071C970F S-layer homology domain-containing protein...  74.2       2e-12
+UniRef90_H3NPZ8 Pullulanase, type I n=1 Tax=Helcococcus kunzii AT...  74.2       3e-12
+UniRef90_A0A368YAZ2 Secreted pullulanase n=2 Tax=Saliterribacillu...  74.2       3e-12
+UniRef90_A0A1R2CGU4 Uncharacterized protein n=1 Tax=Stentor coeru...  74.2       3e-12
+UniRef90_A0A348NM41 Uncharacterized protein n=1 Tax=Opitutae bact...  73.8       3e-12
+UniRef90_W6RXB3 Aamy domain-containing protein n=1 Tax=Clostridiu...  73.8       4e-12
+UniRef90_UPI000A0210A3 pullulanase n=1 Tax=Bacillus cohnii TaxID=...  73.8       4e-12
+UniRef90_A0A2D7N9M0 Dockerin domain-containing protein n=1 Tax=Ca...  73.4       4e-12
+UniRef90_A0A2P6NN37 Uncharacterized protein n=1 Tax=Planoprotoste...  73.4       5e-12
+UniRef90_A0A2A9MD46 AMPK1_CBM domain-containing protein n=1 Tax=B...  73.0       6e-12
+UniRef90_A0A1Y1IQU7 5-methyltetrahydrofolate--homocysteine methyl...  73.0       6e-12
+UniRef90_A0A3Q9G9F1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  72.6       7e-12
+UniRef90_A0A3R5QRV3 Aamy domain-containing protein n=3 Tax=unclas...  73.0       7e-12
+UniRef90_A0A2P6NZY4 Rieske domain-containing protein n=1 Tax=Plan...  72.6       7e-12
+UniRef90_A0A506RWW7 DUF3372 domain-containing protein n=7 Tax=Alt...  72.6       8e-12
+UniRef90_UPI000699D4DD glycoside hydrolase family 57 n=1 Tax=Kosm...  72.6       9e-12
+UniRef90_A0A4U9NVU6 Pullulanase n=90 Tax=Bacteria TaxID=2 RepID=A...  72.6       1e-11
+UniRef90_A0A5B9YF93 Type I pullulanase n=2 Tax=Cellulosilyticum T...  72.6       1e-11
+UniRef90_A0BWA0 Uncharacterized protein n=1 Tax=Paramecium tetrau...  72.3       1e-11
+UniRef90_A0A3Q9FQY9 T9SS type A sorting domain-containing protein...  72.3       1e-11
+UniRef90_A0A0D0EWD3 Pullulanase n=5 Tax=Bacillus TaxID=1386 RepID...  72.3       1e-11
+UniRef90_A0A553G2M5 T9SS type A sorting domain-containing protein...  71.9       2e-11
+UniRef90_A0A1H0RT33 Glycosidase n=2 Tax=Bacillus salsus TaxID=930...  71.9       2e-11
+UniRef90_UPI000CDED7B0 type I pullulanase n=1 Tax=Helcococcus mas...  71.1       3e-11
+UniRef90_UPI0013D1D350 cell wall-binding repeat-containing protei...  71.1       3e-11
+UniRef90_UPI001054D71E DUF5011 domain-containing protein n=2 Tax=...  71.1       3e-11
+UniRef90_A0A2C1K810 Type I pullulanase n=2 Tax=Bacillus TaxID=138...  70.7       3e-11
+UniRef90_A0A2E9B9E7 Aamy domain-containing protein (Fragment) n=1...  70.7       4e-11
+UniRef90_A0A4Q8RSA0 T9SS C-terminal target domain-containing prot...  70.7       4e-11
+UniRef90_UPI0004243E2D type I pullulanase n=1 Tax=Helcococcus sue...  70.7       4e-11
+UniRef90_W7XI56 Amylo-alpha-1,6-glucosidase n=1 Tax=Tetrahymena t...  70.3       5e-11
+UniRef90_UPI0012ED139A type I pullulanase n=1 Tax=Bacillus litora...  70.3       5e-11
+UniRef90_C3YKR7 Uncharacterized protein n=1 Tax=Branchiostoma flo...  69.9       6e-11
+UniRef90_A0A1G7TKL4 Glycosidase n=1 Tax=Fontibacillus panaciseget...  69.9       8e-11
+UniRef90_U2CT18 Alpha amylase, catalytic domain protein n=2 Tax=u...  69.6       9e-11
+UniRef90_UPI000C757976 mucin-17-like n=1 Tax=Eurytemora affinis T...  69.2       1e-10
+UniRef90_A0A109UXL4 HBR507Wp n=1 Tax=Eremothecium sinecaudum TaxI...  69.2       1e-10
+UniRef90_UPI001433E46C type I pullulanase n=1 Tax=Lachnospiraceae...  69.2       1e-10
+UniRef90_A0A173SG53 Alpha-amylase n=5 Tax=Roseburia TaxID=841 Rep...  68.8       2e-10
+UniRef90_F0VGK0 AMPK1_CBM domain-containing protein n=2 Tax=Neosp...  68.8       2e-10
+UniRef90_A0A172TPU2 Alpha-amylase n=2 Tax=Paenibacillus swuensis ...  68.4       2e-10
+UniRef90_UPI001434D942 type I pullulanase n=1 Tax=Lachnospiraceae...  68.4       3e-10
+UniRef90_A0A0V0QAH6 Six-hairpin glycosidase-like protein n=1 Tax=...  68.0       3e-10
+UniRef90_A0A437JEZ8 Pullulanase-type alpha-1,6-glucosidase n=2 Ta...  67.6       4e-10
+UniRef90_A0A2E5Y1A6 C-type lectin domain-containing protein n=1 T...  67.6       4e-10
+UniRef90_A0A553PKD5 Gp_dh_N domain-containing protein n=1 Tax=Tig...  67.6       5e-10
+UniRef90_A0A2N1L864 Uncharacterized protein n=2 Tax=Trichoderma h...  67.2       5e-10
+UniRef90_A0A1Q9DID5 Uncharacterized protein n=1 Tax=Symbiodinium ...  66.9       8e-10
+UniRef90_A0A2A9MEB8 PPM-type phosphatase domain-containing protei...  66.5       9e-10
+UniRef90_A0A2E1ND80 Uncharacterized protein n=1 Tax=Candidatus Ma...  66.5       9e-10
+UniRef90_A0A2E4UYI5 Uncharacterized protein n=1 Tax=Crocinitomica...  66.5       1e-09
+UniRef90_A0A3N5JM78 T9SS C-terminal target domain-containing prot...  66.5       1e-09
+UniRef90_A0A2T4BDP2 P-loop containing nucleoside triphosphate hyd...  66.5       1e-09
+UniRef90_UPI0004B98FE9 S-layer homology domain-containing protein...  66.5       1e-09
+UniRef90_A0A0V0R3M8 Six-hairpin glycosidase-like protein n=1 Tax=...  66.1       1e-09
+UniRef90_R7I5W8 Alpha amylase catalytic region n=1 Tax=Clostridiu...  66.1       1e-09
+UniRef90_UPI001457377D T9SS type A sorting domain-containing prot...  66.1       1e-09
+UniRef90_A0A1M4NCG7 Pullulanase n=1 Tax=Clostridium sp. N3C TaxID...  65.3       3e-09
+UniRef90_A0A1I1XD16 Glycosidase n=1 Tax=Paenibacillus catalpae Ta...  65.3       3e-09
+UniRef90_UPI0015B8289E hypothetical protein n=1 Tax=Clostridiacea...  64.9       3e-09
+UniRef90_A0A2E5T2P6 CBM20 domain-containing protein (Fragment) n=...  64.9       3e-09
+UniRef90_A0A2E3BWY9 CBM20 domain-containing protein n=1 Tax=Flavo...  64.6       4e-09
+UniRef90_A0A1B1FUR2 T9SS type A sorting domain-containing protein...  64.2       6e-09
+UniRef90_A0A6C0RCX0 Uncharacterized protein n=1 Tax=Draconibacter...  63.8       7e-09
+UniRef90_UPI000E3ED0CB pullulanase n=1 Tax=Paraliobacillus quingh...  63.8       8e-09
+UniRef90_A0A2T3AET1 Uncharacterized protein n=1 Tax=Coniella lust...  63.8       8e-09
+UniRef90_M2X4R8 Starch synthase n=1 Tax=Galdieria sulphuraria Tax...  63.4       1e-08
+UniRef90_A0A074MGH5 Alpha-amylase n=1 Tax=Tumebacillus flagellatu...  62.6       2e-08
+UniRef90_A0A3M7FKT3 MFS domain-containing protein n=1 Tax=Hortaea...  62.6       2e-08
+UniRef90_UPI0011781939 alpha amylase C-terminal domain-containing...  62.6       2e-08
+UniRef90_A0A024SK60 p-loop containing nucleoside triphosphate hyd...  62.6       2e-08
+UniRef90_UPI00146E482B Ig-like domain-containing protein n=1 Tax=...  62.2       2e-08
+UniRef90_G9NLY8 Uncharacterized protein n=2 Tax=Trichoderma TaxID...  62.2       3e-08
+UniRef90_A0A4V5N7T3 C3H1-type domain-containing protein n=1 Tax=F...  62.2       3e-08
+UniRef90_A0A0J5Q1R2 PT repeat family protein n=1 Tax=Aspergillus ...  62.2       3e-08
+UniRef90_A0A4P9X8L5 Uncharacterized protein n=1 Tax=Caulochytrium...  61.9       3e-08
+UniRef90_UPI001423CCFD S-layer homology domain-containing protein...  61.9       3e-08
+UniRef90_C5CEB0 Glycoside hydrolase family 57 n=1 Tax=Kosmotoga o...  61.5       4e-08
+UniRef90_A0A1Q9H234 Pullulanase n=2 Tax=Photobacterium TaxID=657 ...  61.5       4e-08
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A3N3ZUS4 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  101        9e-22
+UniRef90_A0A4Y4D442 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  96.9       5e-20
+UniRef90_A0A0J1EXK6 1,4-alpha-glucan branching enzyme GlgB n=4 Ta...  93.1       1e-18
+UniRef90_A0A495A2M9 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  93.1       1e-18
+UniRef90_A0A0W8I3S0 1,4-alpha-glucan branching enzyme GlgB n=12 T...  91.9       3e-18
+UniRef90_A0A0B0DBL4 1,4-alpha-glucan branching enzyme GlgB n=11 T...  91.1       4e-18
+UniRef90_A0A6A9N4N6 1,4-alpha-glucan branching enzyme GlgB n=4 Ta...  88.0       5e-17
+UniRef90_A0A0S9DA80 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  88.0       5e-17
+UniRef90_UPI0009DCA49A 1,4-alpha-glucan branching protein GlgB n=...  87.7       8e-17
+UniRef90_A0A2S3ZR85 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  87.3       1e-16
+UniRef90_A0A3A5M1F4 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  86.1       3e-16
+UniRef90_A0A4S5E100 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  85.4       4e-16
+UniRef90_UPI000CE2D499 1,4-alpha-glucan branching protein GlgB n=...  85.0       5e-16
+UniRef90_A0A0L0BGF8 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  84.6       7e-16
+UniRef90_A0A1R1MCR4 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  84.6       9e-16
+UniRef90_A0A2S5IU64 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  84.2       1e-15
+UniRef90_UPI00083647FB 1,4-alpha-glucan branching protein GlgB n=...  83.8       1e-15
+UniRef90_A0A3D9LI47 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  83.4       2e-15
+UniRef90_UPI000CE31996 1,4-alpha-glucan branching protein GlgB n=...  83.4       2e-15
+UniRef90_A0A1G8KEE1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  83.0       2e-15
+UniRef90_A0A3T0Y279 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  83.0       2e-15
+UniRef90_A0A2V5M086 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  82.7       4e-15
+UniRef90_UPI000984DCBC 1,4-alpha-glucan branching protein GlgB n=...  82.3       4e-15
+UniRef90_UPI00047DD962 1,4-alpha-glucan branching protein GlgB n=...  82.3       4e-15
+UniRef90_A0A0P7GBB9 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  82.3       5e-15
+UniRef90_A0A126ZY31 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  81.9       7e-15
+UniRef90_A0A1R1L7Z2 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  81.9       7e-15
+UniRef90_A0A2T7TLP0 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  80.7       1e-14
+UniRef90_J7LSF4 1,4-alpha-glucan branching enzyme GlgB n=19 Tax=M...  80.7       2e-14
+UniRef90_A0A4V1HEM6 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  80.3       2e-14
+UniRef90_UPI0012646FA2 1,4-alpha-glucan branching protein GlgB n=...  80.0       3e-14
+UniRef90_A0A0U3QH66 1,4-alpha-glucan branching enzyme GlgB n=7 Ta...  79.6       4e-14
+UniRef90_A0A4V3AML1 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  79.6       4e-14
+UniRef90_A0A1H1DC14 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  79.6       4e-14
+UniRef90_UPI000255F66E 1,4-alpha-glucan branching protein GlgB n=...  79.6       4e-14
+UniRef90_A0A1I7MT32 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  79.2       5e-14
+UniRef90_UPI001264A6A9 1,4-alpha-glucan branching protein GlgB n=...  79.2       5e-14
+UniRef90_A0A0S2LUN1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  79.2       5e-14
+UniRef90_A9WM01 1,4-alpha-glucan branching enzyme GlgB n=1 Tax=Re...  79.2       6e-14
+UniRef90_A0A1H1BF92 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  78.8       6e-14
+UniRef90_A0A3D9UQM3 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  78.8       8e-14
+UniRef90_A0A328L7B1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  78.0       1e-13
+UniRef90_UPI0010551BF5 1,4-alpha-glucan branching protein GlgB n=...  78.0       1e-13
+UniRef90_A0A1C9WR42 1,4-alpha-glucan branching enzyme GlgB n=4 Ta...  76.9       3e-13
+UniRef90_A0A2U2A082 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  76.5       4e-13
+UniRef90_A0A495EQV8 1,4-alpha-glucan branching enzyme GlgB n=11 T...  76.5       4e-13
+UniRef90_A0A542X9K9 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  76.5       5e-13
+UniRef90_UPI0009FA3429 1,4-alpha-glucan branching protein GlgB n=...  76.1       5e-13
+UniRef90_A0A366IPV5 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  76.1       6e-13
+UniRef90_A0A4Z1E2E1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  75.7       7e-13
+UniRef90_A0A5B8K366 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  75.7       8e-13
+UniRef90_A0A561DX25 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  75.3       9e-13
+UniRef90_A0A0Q7KA89 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  75.3       9e-13
+UniRef90_A0A4U0H636 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  75.0       1e-12
+UniRef90_A0A0B2AJM3 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  75.0       1e-12
+UniRef90_A0A554VZW1 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  74.2       2e-12
+UniRef90_A0A1U6IS13 1,4-alpha-glucan branching enzyme GlgB n=10 T...  74.2       2e-12
+UniRef90_UPI0014615EB7 1,4-alpha-glucan branching protein GlgB n=...  74.2       2e-12
+UniRef90_UPI00040430F4 1,4-alpha-glucan branching protein GlgB n=...  74.2       3e-12
+UniRef90_A0A4Q3XLG9 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  74.2       3e-12
+UniRef90_UPI000A5CAFC2 alpha-D-glucose phosphate-specific phospho...  73.8       3e-12
+UniRef90_A0A5R8W7K8 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  73.4       4e-12
+UniRef90_A0A5A7NSS4 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  73.0       6e-12
+UniRef90_A0A0V8IG77 1,4-alpha-glucan branching enzyme GlgB n=4 Ta...  73.0       6e-12
+UniRef90_A0A6I3IQK6 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  73.0       6e-12
+UniRef90_A0A1H1W1P9 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  73.0       7e-12
+UniRef90_A0A3P5X4R1 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  73.0       7e-12
+UniRef90_UPI001447DD55 1,4-alpha-glucan branching protein GlgB n=...  72.6       8e-12
+UniRef90_UPI0012D55F43 1,4-alpha-glucan branching protein GlgB n=...  72.6       9e-12
+UniRef90_UPI001109865D 1,4-alpha-glucan branching protein GlgB n=...  72.3       1e-11
+UniRef90_UPI0010A83759 1,4-alpha-glucan branching protein GlgB n=...  72.3       1e-11
+UniRef90_A0A239VF88 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  71.9       2e-11
+UniRef90_A0A4R7LJP6 1,4-alpha-glucan branching enzyme GlgB n=18 T...  70.7       3e-11
+UniRef90_A0A212U0W1 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  70.7       3e-11
+UniRef90_H0QLF0 1,4-alpha-glucan branching enzyme GlgB n=5 Tax=Ar...  70.7       4e-11
+UniRef90_R6FWY9 Pullulanase family protein n=1 Tax=Clostridium sp...  70.7       4e-11
+UniRef90_UPI000D692005 1,4-alpha-glucan branching protein GlgB n=...  70.3       5e-11
+UniRef90_A0A3D3A4H3 Uncharacterized protein n=1 Tax=Flavobacteria...  70.3       5e-11
+UniRef90_UPI0009E48453 1,4-alpha-glucan branching protein GlgB n=...  69.6       1e-10
+UniRef90_UPI000378A653 1,4-alpha-glucan branching protein GlgB n=...  69.2       1e-10
+UniRef90_A0A4Q4C028 1,4-alpha-glucan branching enzyme GlgB n=3 Ta...  68.8       2e-10
+UniRef90_F0M1N4 1,4-alpha-glucan branching enzyme GlgB n=12 Tax=M...  68.4       2e-10
+UniRef90_UPI000F536123 1,4-alpha-glucan branching protein GlgB n=...  68.4       2e-10
+UniRef90_UPI001036B5AA alpha-D-glucose phosphate-specific phospho...  68.4       3e-10
+UniRef90_A0A1G8XFP9 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  68.0       3e-10
+UniRef90_UPI0010229FA8 alpha-D-glucose phosphate-specific phospho...  68.0       3e-10
+UniRef90_A0A5J6V3W2 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  67.6       5e-10
+UniRef90_UPI000E0DD7F2 1,4-alpha-glucan branching protein GlgB n=...  67.2       5e-10
+UniRef90_R6ASC2 Alpha-amylase n=6 Tax=Roseburia TaxID=841 RepID=R...  67.2       6e-10
+UniRef90_UPI00058D4505 1,4-alpha-glucan branching protein GlgB n=...  66.9       8e-10
+UniRef90_UPI001488381A 1,4-alpha-glucan branching protein GlgB n=...  66.5       1e-09
+UniRef90_A0A2W6WDJ4 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  66.1       1e-09
+UniRef90_A0A516GDP0 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  65.3       2e-09
+UniRef90_A0A369BA11 Glycosidase n=1 Tax=Fontibacillus phaseoli Ta...  64.9       3e-09
+UniRef90_UPI001489C667 1,4-alpha-glucan branching protein GlgB n=...  64.9       3e-09
+UniRef90_A0A1Q9V0H2 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  64.6       5e-09
+UniRef90_A0A3N1HN96 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  64.2       6e-09
+UniRef90_A0A543KLR3 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  64.2       7e-09
+UniRef90_A0A345NSJ3 1,4-alpha-glucan branching enzyme GlgB n=2 Ta...  63.8       7e-09
+UniRef90_A0A1B1NB23 1,4-alpha-glucan branching enzyme GlgB n=1 Ta...  63.8       7e-09
+UniRef90_A0A075JGH9 1,4-alpha-glucan branching enzyme GlgB n=9 Ta...  63.4       1e-08
+UniRef90_K6XA38 1,4-alpha-glucan branching enzyme GlgB n=1 Tax=Ki...  62.2       2e-08
+UniRef90_A0A136I1S9 Pullulanase n=3 Tax=unclassified Alteromonas ...  61.9       4e-08
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.113    0.286    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0345    0.140     1.90     42.6     43.6 
+
+Effective search space used: 501576426574
+
+
+  Database: uniref90.fasta
+    Posted date:  Nov 30, 2020  2:32 PM
+  Number of letters in database: 4,035,947,111
+  Number of sequences in database:  2,122,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
