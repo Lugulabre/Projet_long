@@ -1,0 +1,66 @@
+question isoforme
+
+alignement
+qu'est que qu'on retrouve en commmun ou non
+gros trous ou pas
+trucs bizarroides
+
+isoforme
+forme avec 1-2-3-4-5
+plus l'exon 4
+pas forcément ça -> exon 7-6 pas dans la forme initiale
+
+méthode d'alignement pour % coverage
+
+clustal omega en local
+250 et 2 isoformes 80 / 60 de long avec beaucoup de gap
+Si gap un peu partout, modifier l'autorisation de l'ouverture de gap
+
+point positif
+Si en parallèle la structure sortie vienna très proche de la sortie pear pour modeller
+
+Lancer sur la pdb les séquences pour savoir s'il y a quelque chose ou pas
+
+evaluer capsflexs
+
+fichier ftp complet ou pas ?
+
+combien de séquences
+
+quand on fait prédiction de la première protéine ou y'a structure
+puis passer à la proposition de modèle structurale
+
+proteine xxx à 5 pdb
+potentiellement comparer avec 1 DES 5 pdb
+
+prédiction désordre
+isoforme apparition désordre ou non
+
+fichier de sortie modeller
+
+dop le plus faible
+qu'est ce que ça donne ?
+
+vrai structure
+séquence complète
+
+exon disparu
+alignement au niveau disparition au format pear
+
+générer à la volée le script modeller
+nom fichier alingement
+nom fichier pdb
+nom protéine
+
+génère le nombre de modèles dans fichier base
+
+
+assignation dssp
+séquence complète debut fin
+
+conseil
+sequence isoforme pdb prediction structure 2ndaire, où tout est rangé
+
+
+
+
