@@ -1,0 +1,19 @@
+setwd("~/Documents/Projet_long/DISOPRED/results_disopred/results_reduce/")
+
+library(stringr)
+require(MASS)
+
+list_files = as.vector(read.table("list_files_diso.txt")[,1])
+
+list_diso_result = list()
+cpt = 1
+
+for (file in list_files) {
+  list_diso_result[[cpt]] = read.table(file, skip = 3)
+  cpt = cpt + 1
+}
+
+
+str_extract(list_files[1], 6)
+list_files[2]
+
