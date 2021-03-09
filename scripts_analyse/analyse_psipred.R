@@ -1,4 +1,4 @@
-setwd("Documents/M2_BI/Projet_long/psipred/results_reduce/")
+setwd("~/Documents/Projet_long/psipred/results_reduce/")
 
 library(stringr)
 require(MASS)
@@ -6,7 +6,7 @@ require(MASS)
 #Liste des noms de fichiers avec prédiction ss
 list_pred = read.table("list_file.txt",  stringsAsFactors = FALSE)
 
-list_pred = list_pred[-96,]
+list_pred = list_pred[-which(list_pred == "all_prot.horiz"),]
 
 #################################################
 #Création data frame concaténation séquences

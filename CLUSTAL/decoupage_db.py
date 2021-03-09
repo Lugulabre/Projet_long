@@ -27,7 +27,7 @@ def get_arguments():
                         default="../data/human_proteome_cross_pdb/isoforme-uniprot-database-homo+sapiens-reviewed.fasta",
                         help="data for parsing prot+iso")
     parser.add_argument('-o', dest='repository', type=str,
-                        default="prot+iso_cross_pdb/",
+                        default="data_clustal/prot+iso_cross_pdb/",
                         help="repository where the results are stored")
     return parser.parse_args()
 
