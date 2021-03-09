@@ -1,4 +1,4 @@
-setwd("Documents/M2_BI/Projet_long/CLUSTAL/results_clustal_cross_pdb/")
+setwd("Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_cross_pdb/")
 
 library(stringr)
 require(MASS)
