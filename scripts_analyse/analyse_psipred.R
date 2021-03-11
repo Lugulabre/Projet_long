@@ -1,4 +1,5 @@
 setwd("~/Documents/Projet_long/psipred/results_reduce/")
+#setwd("~/Documents/M2_BI/Projet_long/results_psipred/results_reduce/")
 
 library(stringr)
 require(MASS)
@@ -36,13 +37,19 @@ for (name_prot in list_pred) {
   df_seq[row_df, 3] = seq_aa
   df_seq[row_df, 2] = seq_pred
   df_seq[row_df, 1] = str_split(name_prot, ".h")[[1]][1]
+  len_str = str_length(df_seq[row_df, 1])
+  if (len_str > 6) {
+    df_seq[row_df, 1] = str_c(str_sub(df_seq[row_df, 1], 1, 6), "-",
+                              str_sub(df_seq[row_df, 1], 7, len_str))
+  }
   row_df = row_df + 1
 }
+
 
 #Fin création dataframe
 #################################################
 
-setwd("../../CLUSTAL/results_clustal_data_reduce/")
+setwd("../../CLUSTAL/results_clustal/results_clustal_data_reduce/")
 
 #Liste des noms de fichiers résultats clustal
 list_clust = read.table("list_file.txt",  stringsAsFactors = FALSE)
@@ -73,6 +80,21 @@ df_align = as.data.frame(df_align[-1,])
 
 #P27482 en trop
 
+df_seq = data.frame(df_seq, align_pred = rep(NA, nrow(df_seq)))
+for (name in df_seq$name) {
+  align_tmp = df_align$V1[which(df_align$V1 == name)]
+}
+
+aalig = str_split(df_align$V2[2], "")[[1]]
+pos_ = which(aalig == "-")
+posaa = which(aalig != "-")
+apred = str_split(df_seq$pred[2], "")[[1]]
+vec_test_aa = c()
+vec_test_aa[pos_] = "-"
+vec_test_aa[posaa] = apred
+paste(vec_test_aa)
+
+str_locate_all(df_align$V2[2], "-")
 
 as.character(df_align[1,1])
 substr(df_align[10,1], 5, 13)
