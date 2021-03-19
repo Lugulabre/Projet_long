@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 
-if (length(args == 0)) {
+if (length(args) == 0) {
   #setwd("~/Documents/Projet_long/psipred/results_reduce/")
   setwd("~/Documents/M2_BI/Projet_long/psipred/results_psipred/results_reduce/")
 }else{
@@ -252,29 +252,19 @@ for (rg_row in 2:nrow(df_seq)) {
 #Résumé stats
 print("Résumé des matchs psipred avec alignement")
 summary(df_seq$prop_match_psipred)
+boxplot(df_seq$prop_match_psipred, col = "#16B84E",
+        main = "Boxplot de la proportion de match\n par séquence avec psipred")
 print("Code uniprot des protéines avec moins de 80% de match")
-df_seq$name[which(df_seq$prop_match_psipred < 0.7)]
+df_seq$name[which(df_seq$prop_match_psipred < 0.8)]
 print("Proportion des p-value significatives sur psipred")
 length(which(df_seq$pvalue_psipred < 0.05 & df_seq$pvalue_psipred!=0))/length(which(df_seq$pvalue_psipred!=0))
-
-df_seq = data.frame(df_seq, align_pred = rep(NA, nrow(df_seq)))
-for (name in df_seq$name) {
-  align_tmp = df_align$V1[which(df_align$V1 == name)]
-}
-
-aalig = str_split(df_align$V2[2], "")[[1]]
-pos_ = which(aalig == "-")
-posaa = which(aalig != "-")
-apred = str_split(df_seq$pred[2], "")[[1]]
-vec_test_aa = c()
-vec_test_aa[pos_] = "-"
-vec_test_aa[posaa] = apred
-paste(vec_test_aa)
-
-str_locate_all(df_align$V2[2], "-")
+print("Protéine avec pvalue significative")
+df_seq$name[which(df_seq$pvalue_psipred < 0.05 & df_seq$pvalue_psipred!=0)]
 
 print("Résumé des matchs disopred avec alignement")
 summary(df_seq$prop_match_diso)
+boxplot(df_seq$prop_match_diso, col = "#FEBFD2",
+        main = "Boxplot de la proportion de match\n par séquence avec disopred")
 print("Code uniprot des protéines avec moins de 80% de match")
 df_seq$name[which(df_seq$prop_match_diso < 0.7)]
 print("Proportion des p-value significatives sur disopred")
