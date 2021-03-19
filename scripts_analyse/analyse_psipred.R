@@ -1,4 +1,7 @@
-setwd("~/Documents/M2_BI/Projet_long/results_psipred/results_reduce/")
+
+setwd("~/Documents/Projet_long/psipred/results_reduce/")
+#setwd("~/Documents/M2_BI/Projet_long/results_psipred/results_reduce/")
+
 
 library(stringr)
 require(MASS)
@@ -44,6 +47,7 @@ for (name_prot in list_pred) {
   row_df = row_df + 1
 }
 
+
 #Ajout désordre
 setwd("~/Documents/M2_BI/Projet_long/DISOPRED/results_disopred/results_reduce/")
 
@@ -73,9 +77,12 @@ for (file in list_files) {
 remove(df_tmp)
 remove(seq_tmp)
 
+
 #Fin création dataframe
 #################################################
 
+
+#setwd("../../CLUSTAL/results_clustal/results_clustal_data_reduce/")
 setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_data_reduce/")
 
 #Liste des noms de fichiers résultats clustal
@@ -245,6 +252,21 @@ df_seq$name[which(df_seq$prop_match_psipred < 0.7)]
 print("Proportion des p-value significatives sur psipred")
 length(which(df_seq$pvalue_psipred < 0.05 & df_seq$pvalue_psipred!=0))/length(which(df_seq$pvalue_psipred!=0))
 
+df_seq = data.frame(df_seq, align_pred = rep(NA, nrow(df_seq)))
+for (name in df_seq$name) {
+  align_tmp = df_align$V1[which(df_align$V1 == name)]
+}
+
+aalig = str_split(df_align$V2[2], "")[[1]]
+pos_ = which(aalig == "-")
+posaa = which(aalig != "-")
+apred = str_split(df_seq$pred[2], "")[[1]]
+vec_test_aa = c()
+vec_test_aa[pos_] = "-"
+vec_test_aa[posaa] = apred
+paste(vec_test_aa)
+
+str_locate_all(df_align$V2[2], "-")
 
 print("Résumé des matchs disopred avec alignement")
 summary(df_seq$prop_match_diso)
