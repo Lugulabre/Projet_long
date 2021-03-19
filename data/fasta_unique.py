@@ -24,7 +24,7 @@ def get_arguments():
     parser = argparse.ArgumentParser(description=__doc__, usage="{0} -h"
                                      .format(sys.argv[0]))
     parser.add_argument('-i', dest='database', type=isfile,
-                        default="mini_data/data_sample.fasta",
+                        default="data_sample.fasta",
                         help="data for parsing prot+iso")
     parser.add_argument('-o', dest='repository', type=str,
                         default="mini_data/",
