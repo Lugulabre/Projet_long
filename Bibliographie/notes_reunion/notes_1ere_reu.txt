@@ -73,13 +73,13 @@ sous contraindre des modèles
 prot humaine + de 200 résidus, difficile à faire + de 200 en RMN
 
 un fasta avec les 5 exons
-avec psipred / isopred on a les infos 2ndaire -> vérifier fiabilité
+avec psipred / disopred on a les infos 2ndaire -> vérifier fiabilité
 + est ce que prédit d'autres infos
 
 récupérer protéine pdb
 assignation dssp
 créer fasta
-sur psipred, isopred qu'est ce qu'on a : différence ?
+sur psipred, disopred qu'est ce qu'on a : différence ?
 essayer de voir sur un ensemble le plus représentatif possible
 attention aux biais
 

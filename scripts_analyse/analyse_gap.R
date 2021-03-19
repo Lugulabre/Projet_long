@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
 
-if (length(args == 0)) {
-  setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_cross_pdb/")
-  #setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_data_reduce/")
+if (length(args) == 0) {
+  #setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_cross_pdb/")
+  setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_data_reduce/")
 }else{
   setwd(args[1])
 }
@@ -64,8 +64,10 @@ for (i in 1:nrow(mat_gap)) {
     cpt = 0
   }else{
     cpt = cpt+1
-    vec_lg_gap[k] = mat_gap[i,2] - mat_gap[i,1]
-    k = k+1
+    if (mat_gap[i,2] - mat_gap[i,1] > 0) {
+      vec_lg_gap[k] = mat_gap[i,2] - mat_gap[i,1]
+      k = k+1
+    }
   }
 }
 
@@ -73,13 +75,14 @@ print("Résumé statistique du nombre de gap par séquence")
 vec_nb_gap = vec_nb_gap[-which(vec_nb_gap == 0)]
 print(summary(vec_nb_gap))
 truehist(vec_nb_gap, xlab = "Nombre de gap par séquence")
-boxplot(vec_nb_gap)
+boxplot(vec_nb_gap, col = "#FFDE75", main = "Boxplot du nombre de gap par séquence")
 
 print("Résumé statistique de la longueur des gap par séquence")
 vec_lg_gap = vec_lg_gap[-which(vec_lg_gap == 0)]
 print(summary(vec_lg_gap))
 truehist(vec_lg_gap[-which(vec_lg_gap > 200)])
 truehist(vec_lg_gap, xlab = "Longueur de gap")
-boxplot(vec_lg_gap, main = "Boxplot des longueurs de gap")
-boxplot(vec_lg_gap[which(vec_lg_gap < 500)], main = "Boxplot des longueurs de gap < 500")
+boxplot(vec_lg_gap, main = "Boxplot des longueurs de gap", col = "#FFDE75")
+boxplot(vec_lg_gap[which(vec_lg_gap < 500)], col = "#FFDE75",
+        main = "Boxplot des longueurs de gap < 500")
 

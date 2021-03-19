@@ -3,3 +3,5 @@
 **/.DS_Store
 **/*.dso
 **/*.docx
+*.docx
+**/Images/
