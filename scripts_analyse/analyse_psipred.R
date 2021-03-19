@@ -1,7 +1,12 @@
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
 
-setwd("~/Documents/Projet_long/psipred/results_reduce/")
-#setwd("~/Documents/M2_BI/Projet_long/results_psipred/results_reduce/")
-
+if (length(args == 0)) {
+  #setwd("~/Documents/Projet_long/psipred/results_reduce/")
+  setwd("~/Documents/M2_BI/Projet_long/results_psipred/results_reduce/")
+}else{
+  setwd(args[1])
+}
 
 library(stringr)
 require(MASS)
