@@ -2,12 +2,11 @@
 args = commandArgs(trailingOnly=TRUE)
 
 if (length(args == 0)) {
-  #setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_cross_pdb/")
-  setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_data_reduce/")
+  setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_cross_pdb/")
+  #setwd("~/Documents/M2_BI/Projet_long/CLUSTAL/results_clustal/results_clustal_data_reduce/")
 }else{
   setwd(args[1])
 }
-
 
 library(stringr)
 require(MASS)

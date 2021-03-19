@@ -1,5 +1,13 @@
-#setwd("~/Documents/Projet_long/DISOPRED/results_disopred/results_reduce/")
-setwd("~/Documents/M2_BI/Projet_long/DISOPRED/results_disopred/results_reduce/")
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
+
+if (length(args == 0)) {
+  #setwd("~/Documents/Projet_long/DISOPRED/results_disopred/results_reduce/")
+  setwd("~/Documents/M2_BI/Projet_long/DISOPRED/results_disopred/results_reduce/")
+}else{
+  setwd(args[1])
+}
+
 
 library(plyr)
 library(stringr)
